@@ -1,0 +1,26 @@
+{
+  "case_id": "H33",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 10 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: window_info chỉ cho biết các cửa sổ đầu vào cho nhánh dự báo (h8 và h10), không xác nhận dữ liệu huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị khai thác, tần suất quý và hai kỳ dự báo; các giá trị, ngày dự báo, mức tăng giữa hai quý, trung bình và cực đại lịch sử đều khớp dữ liệu cung cấp. Trình bày rõ ràng, hữu ích nhờ nêu xu hướng ngắn hạn và đặt dự báo trong bối cảnh lịch sử. Tuy nhiên, câu nói mô hình được huấn luyện trên 10 điểm lịch sử không được xác nhận bởi thông tin cửa sổ dự báo, nên faithfulness giảm nhẹ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.8871234160033055,
+    "input_tokens": 2279,
+    "output_tokens": 412,
+    "total_tokens": 2691,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 10 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: window_info chỉ cho biết các cửa sổ đầu vào cho nhánh dự báo (h8 và h10), không xác nhận dữ liệu huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị khai thác, tần suất quý và hai kỳ dự báo; các giá trị, ngày dự báo, mức tăng giữa hai quý, trung bình và cực đại lịch sử đều khớp dữ liệu cung cấp. Trình bày rõ ràng, hữu ích nhờ nêu xu hướng ngắn hạn và đặt dự báo trong bối cảnh lịch sử. Tuy nhiên, câu nói mô hình được huấn luyện trên 10 điểm lịch sử không được xác nhận bởi thông tin cửa sổ dự báo, nên faithfulness giảm nhẹ.\"}"
+  }
+}

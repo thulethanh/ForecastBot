@@ -1,0 +1,26 @@
+{
+  "case_id": "M58",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Câu \"Đường dự báo tiếp nối các quy luật mùa vụ đã được quan sát trong dữ liệu lịch sử\" khẳng định mùa vụ đã được quan sát trong lịch sử, trong khi history summary chỉ cung cấp phạm vi, số điểm, min/max và trung bình, không thể hiện mẫu mùa vụ."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và cửa hàng, nêu rõ 12 quý, mức đỉnh/đáy và chu kỳ lặp lại đúng với forecast. Các số 146 vào tháng 1 và 31 vào tháng 4, cùng trọng số ensemble 60%/40% và cửa sổ 12/20 quý đều khớp kết quả. Nội dung rõ ràng, hữu ích và dễ theo dõi. Tuy vậy, việc nói quy luật mùa vụ đã được quan sát trong dữ liệu lịch sử không được history summary hỗ trợ trực tiếp; forecast chỉ đủ hỗ trợ tính lặp lại trong phần dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.25250866706483,
+    "input_tokens": 2655,
+    "output_tokens": 657,
+    "total_tokens": 3312,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Câu \\\"Đường dự báo tiếp nối các quy luật mùa vụ đã được quan sát trong dữ liệu lịch sử\\\" khẳng định mùa vụ đã được quan sát trong lịch sử, trong khi history summary chỉ cung cấp phạm vi, số điểm, min/max và trung bình, không thể hiện mẫu mùa vụ.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và cửa hàng, nêu rõ 12 quý, mức đỉnh/đáy và chu kỳ lặp lại đúng với forecast. Các số 146 vào tháng 1 và 31 vào tháng 4, cùng trọng số ensemble 60%/40% và cửa sổ 12/20 quý đều khớp kết quả. Nội dung rõ ràng, hữu ích và dễ theo dõi. Tuy vậy, việc nói quy luật mùa vụ đã được quan sát trong dữ liệu lịch sử không được history summary hỗ trợ trực tiếp; forecast chỉ đủ hỗ trợ tính lặp lại trong phần dự báo.\"}"
+  }
+}

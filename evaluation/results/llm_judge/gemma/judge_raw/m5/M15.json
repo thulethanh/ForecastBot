@@ -1,0 +1,24 @@
+{
+  "case_id": "M15",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 8 quý cho đúng mặt hàng và bang. Các mốc thời gian, giá trị đầu/cuối, xu hướng giảm liên tục, số bước dự báo, chế độ ensemble và trọng số đều khớp trực tiếp với forecast_result. Ghi chú về 14 điểm lịch sử và phạm vi 2011-01-01 đến 2014-04-01 cũng khớp history_summary, không suy diễn thành dữ liệu huấn luyện. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm mức dự báo cùng xu hướng giảm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.548965708003379,
+    "input_tokens": 2434,
+    "output_tokens": 262,
+    "total_tokens": 2696,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 8 quý cho đúng mặt hàng và bang. Các mốc thời gian, giá trị đầu/cuối, xu hướng giảm liên tục, số bước dự báo, chế độ ensemble và trọng số đều khớp trực tiếp với forecast_result. Ghi chú về 14 điểm lịch sử và phạm vi 2011-01-01 đến 2014-04-01 cũng khớp history_summary, không suy diễn thành dữ liệu huấn luyện. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm mức dự báo cùng xu hướng giảm.\"}"
+  }
+}

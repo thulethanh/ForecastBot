@@ -1,0 +1,24 @@
+{
+  "case_id": "M43",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 1,
+    "faithfulness": 5,
+    "clarity": 1,
+    "usefulness": 1,
+    "overall_score": 2.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation trống, không giải thích mức dự báo, xu hướng hay ý nghĩa thực tế cho yêu cầu dự báo 7 ngày. Vì không có nhận định nào nên không có nội dung bịa đặt hoặc mâu thuẫn dữ liệu, nhưng cũng không cung cấp giá trị sử dụng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.8828237919369712,
+    "input_tokens": 1737,
+    "output_tokens": 181,
+    "total_tokens": 1918,
+    "raw_response": "{\"relevance\":1,\"faithfulness\":5,\"clarity\":1,\"usefulness\":1,\"overall_score\":2.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation trống, không giải thích mức dự báo, xu hướng hay ý nghĩa thực tế cho yêu cầu dự báo 7 ngày. Vì không có nhận định nào nên không có nội dung bịa đặt hoặc mâu thuẫn dữ liệu, nhưng cũng không cung cấp giá trị sử dụng.\"}"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H62",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"tiếp nối đà tăng được quan sát trong dữ liệu lịch sử\" không được xác nhận trực tiếp bởi history summary, vì phần tóm tắt chỉ cung cấp min, max và trung bình, không nêu diễn biến theo từng năm."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 5 năm cho tuyến 91/XKSG, nêu đúng các mức dự báo đầu-cuối và xu hướng tăng trong forecast. Cách trình bày rõ ràng, ngắn gọn, đồng thời cảnh báo hợp lý về chỉ có 3 điểm dữ liệu lịch sử. Tuy nhiên, nhận định rằng dự báo “tiếp nối đà tăng” trong lịch sử chưa được hỗ trợ trực tiếp bởi history summary, do không có các giá trị theo thứ tự thời gian để xác nhận xu hướng lịch sử tăng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.53213616705034,
+    "input_tokens": 2283,
+    "output_tokens": 728,
+    "total_tokens": 3011,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"tiếp nối đà tăng được quan sát trong dữ liệu lịch sử\\\" không được xác nhận trực tiếp bởi history summary, vì phần tóm tắt chỉ cung cấp min, max và trung bình, không nêu diễn biến theo từng năm.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 5 năm cho tuyến 91/XKSG, nêu đúng các mức dự báo đầu-cuối và xu hướng tăng trong forecast. Cách trình bày rõ ràng, ngắn gọn, đồng thời cảnh báo hợp lý về chỉ có 3 điểm dữ liệu lịch sử. Tuy nhiên, nhận định rằng dự báo “tiếp nối đà tăng” trong lịch sử chưa được hỗ trợ trực tiếp bởi history summary, do không có các giá trị theo thứ tự thời gian để xác nhận xu hướng lịch sử tăng.\"}"
+  }
+}

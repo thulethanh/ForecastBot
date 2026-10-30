@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lượng hành khách cho tuyến 128 (HTX-ThanhSon) tại TP.HCM",
+  "summary_text": "Dựa trên 3 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-01-01), lượng hành khách trung bình là 340,010.33. Dự báo cho 3 năm tới cho thấy xu hướng tăng trưởng liên tục.",
+  "insights": [
+    "Năm 2025 (step 1): Lượng hành khách dự báo là 380,752.0.",
+    "Năm 2026 (step 2): Lượng hành khách dự báo tăng lên 401,123.0.",
+    "Năm 2027 (step 3): Lượng hành khách dự báo tiếp tục tăng, đạt 421,494.0."
+  ],
+  "chart_note": "Mô hình ForecastBot được huấn luyện và dự báo bằng chế độ single, sử dụng trọng số ngắn hạn (short) là 0.6 và trọng số dài hạn (long) là 0.4. Cả hai cửa sổ (short và long) đều sử dụng 3 điểm dữ liệu."
+}

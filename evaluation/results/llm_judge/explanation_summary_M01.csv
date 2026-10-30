@@ -1,0 +1,2 @@
+dataset,target_model,target_model_key,judge_model,n_cases,n_explanation_available,explanation_availability_rate,n_judged_success,judge_success_rate_among_available,mean_relevance,mean_faithfulness,mean_clarity,mean_usefulness,mean_overall_score,median_overall_score,min_overall_score,max_overall_score,n_cases_with_unsupported_claims,total_judge_tokens,mean_judge_latency_s
+M5,Gemma 4,gemma,gpt-5.6-terra,1,1,1.0,1,1.0,5.0,5.0,5.0,4.0,4.75,4.75,4.75,4.75,0,2600,7.175644958988414

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (tuyến 3, HTX-195) trong 6 tháng tới (từ tháng 7 năm 2024 đến tháng 12 năm 2024) cho thấy một mức giá trị ổn định và gần như không thay đổi. Giá trị dự báo được duy trì ở mức 116,342.16 cho toàn bộ giai đoạn dự báo.",
+  "insights": [
+    "Dự báo được thực hiện bằng phương pháp Ensemble, kết hợp trọng số 60% từ cửa sổ ngắn hạn (h24) và 40% từ cửa sổ dài hạn (h30).",
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 30 điểm dữ liệu, trải dài từ ngày 2022-01-01 đến ngày 2024-06-01.",
+    "Mức giá trị dự báo (yhat) là hằng số 116,342.16, cho thấy mô hình nhận định xu hướng ổn định trong 6 tháng tới."
+  ],
+  "chart_note": "Phạm vi dự báo là 6 bước (tháng), áp dụng cho bộ dữ liệu HCMC_BUS với bộ lọc cụ thể: route_id = 3 và operator = HTX-195."
+}

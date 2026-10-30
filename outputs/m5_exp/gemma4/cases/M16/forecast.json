@@ -1,0 +1,77 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2016-07-01",
+      "yhat": 703.2
+    },
+    {
+      "step": 2,
+      "ds": "2016-10-01",
+      "yhat": 743.2
+    },
+    {
+      "step": 3,
+      "ds": "2017-01-01",
+      "yhat": 643.2
+    },
+    {
+      "step": 4,
+      "ds": "2017-04-01",
+      "yhat": 843.2
+    },
+    {
+      "step": 5,
+      "ds": "2017-07-01",
+      "yhat": 683.2
+    },
+    {
+      "step": 6,
+      "ds": "2017-10-01",
+      "yhat": 623.2
+    },
+    {
+      "step": 7,
+      "ds": "2018-01-01",
+      "yhat": 763.2
+    },
+    {
+      "step": 8,
+      "ds": "2018-04-01",
+      "yhat": 883.2
+    },
+    {
+      "step": 9,
+      "ds": "2018-07-01",
+      "yhat": 663.2
+    },
+    {
+      "step": 10,
+      "ds": "2018-10-01",
+      "yhat": 723.2
+    },
+    {
+      "step": 11,
+      "ds": "2019-01-01",
+      "yhat": 703.2
+    },
+    {
+      "step": 12,
+      "ds": "2019-04-01",
+      "yhat": 783.2
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "ensemble",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 12,
+    "long_n": 20,
+    "short_window_name": "h12",
+    "long_window_name": "h20"
+  }
+}

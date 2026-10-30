@@ -1,0 +1,33 @@
+{
+  "case_id": "M52",
+  "question": "Cho tôi dự báo lượng bán của sản phẩm HOBBIES_1_026 tại cửa hàng WI_2, bang WI trong 24 tháng tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 40,
+    "n_test": 24,
+    "horizon": 24,
+    "minimum_train_required": 24,
+    "required_points_for_evaluation": 48,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 7.167765499994857,
+    "load_schema": 0.0011133749940199777,
+    "sql_generation": 10.701840416004416,
+    "sql_execution_and_repair": 0.013717166999413166,
+    "forecast": 101.58351645799848,
+    "explanation": 20.40408308300539,
+    "end_to_end": 139.87207374999707
+  },
+  "total_tokens": 22346,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M54",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, bang, tần suất quý và 2 kỳ dự báo. Các giá trị 76.24 và 75.08, mức trung bình lịch sử 96.15, phạm vi lịch sử 20 điểm và nhận định giảm nhẹ đều khớp dữ liệu được cung cấp. Mô tả ensemble với cửa sổ 8/12 quý và trọng số ngắn hạn 60% cũng phù hợp window_info và weights. Nội dung rõ ràng, súc tích, giúp người dùng hiểu mức dự báo, sự thay đổi giữa hai quý và vị trí so với mức lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.799431207939051,
+    "input_tokens": 2214,
+    "output_tokens": 239,
+    "total_tokens": 2453,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, bang, tần suất quý và 2 kỳ dự báo. Các giá trị 76.24 và 75.08, mức trung bình lịch sử 96.15, phạm vi lịch sử 20 điểm và nhận định giảm nhẹ đều khớp dữ liệu được cung cấp. Mô tả ensemble với cửa sổ 8/12 quý và trọng số ngắn hạn 60% cũng phù hợp window_info và weights. Nội dung rõ ràng, súc tích, giúp người dùng hiểu mức dự báo, sự thay đổi giữa hai quý và vị trí so với mức lịch sử.\"}"
+  }
+}

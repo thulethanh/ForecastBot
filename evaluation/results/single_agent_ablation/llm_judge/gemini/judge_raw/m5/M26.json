@@ -1,0 +1,27 @@
+{
+  "case_id": "M26",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Doanh số bán hàng trong quá khứ ... đều rất thấp (dưới 1.0 đơn vị mỗi ngày)\" không được hỗ trợ và mâu thuẫn với history summary, trong đó giá trị lịch sử lớn nhất là 7.0.",
+      "\"cho thấy đây là một mặt hàng bán chậm và không thường xuyên\" là diễn giải không được dữ liệu tóm tắt chứng minh trực tiếp."
+    ],
+    "reason_vi": "Giải thích bám sát mặt hàng, cửa hàng, kỳ hạn 90 ngày và nêu đúng khoảng ngày dự báo. Các mức cao/thấp theo thứ trong tuần và chu kỳ 7 ngày khớp với forecast; mức dự báo thấp cũng nhìn chung phù hợp với trung bình lịch sử 0,38. Tuy nhiên, khẳng định toàn bộ doanh số quá khứ dưới 1,0 mâu thuẫn với mức lịch sử tối đa 7,0, đồng thời kết luận mặt hàng bán chậm/không thường xuyên vượt quá bằng chứng được cung cấp. Trình bày rõ ràng và có ích, nhưng cần nêu thận trọng hơn về lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.978404292021878,
+    "input_tokens": 5259,
+    "output_tokens": 437,
+    "total_tokens": 5696,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Doanh số bán hàng trong quá khứ ... đều rất thấp (dưới 1.0 đơn vị mỗi ngày)\\\" không được hỗ trợ và mâu thuẫn với history summary, trong đó giá trị lịch sử lớn nhất là 7.0.\",\"\\\"cho thấy đây là một mặt hàng bán chậm và không thường xuyên\\\" là diễn giải không được dữ liệu tóm tắt chứng minh trực tiếp.\"],\"reason_vi\":\"Giải thích bám sát mặt hàng, cửa hàng, kỳ hạn 90 ngày và nêu đúng khoảng ngày dự báo. Các mức cao/thấp theo thứ trong tuần và chu kỳ 7 ngày khớp với forecast; mức dự báo thấp cũng nhìn chung phù hợp với trung bình lịch sử 0,38. Tuy nhiên, khẳng định toàn bộ doanh số quá khứ dưới 1,0 mâu thuẫn với mức lịch sử tối đa 7,0, đồng thời kết luận mặt hàng bán chậm/không thường xuyên vượt quá bằng chứng được cung cấp. Trình bày rõ ràng và có ích, nhưng cần nêu thận trọng hơn về lịch sử.\"}"
+  }
+}

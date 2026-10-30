@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOBBIES_2_115 (M5)",
+  "summary_text": "Dự báo cho HOBBIES_2_115 trong 4 quý tới, bắt đầu từ 2015-07-01. Giá trị dự báo được tính toán bằng phương pháp ensemble, sử dụng trọng số 0.6 cho h8 và 0.4 cho h12.",
+  "insights": [
+    "Trong 4 quý dự báo, giá trị cao nhất được dự đoán là 624.2 vào quý 2015-10-01.",
+    "Giá trị dự báo thấp nhất là 531.2 vào quý 2016-01-01.",
+    "Xu hướng dự báo cho thấy sự tăng trưởng từ quý 2015-07-01 (567.8) lên đỉnh vào quý 2015-10-01 (624.2), sau đó giảm nhẹ và ổn định ở mức khoảng 558.2 vào quý 2016-04-01."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 18 điểm dữ liệu lịch sử từ 2011-01-01 đến 2015-04-01. ForecastBot sử dụng chế độ ensemble với trọng số 0.6 (h8) và 0.4 (h12) để tạo ra dự báo cho 4 bước tiếp theo."
+}

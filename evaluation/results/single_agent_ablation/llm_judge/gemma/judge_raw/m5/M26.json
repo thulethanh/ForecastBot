@@ -1,0 +1,24 @@
+{
+  "case_id": "M26",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 2,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 1,
+    "overall_score": 3.25,
+    "unsupported_claims": [],
+    "reason_vi": "Nội dung chỉ xác nhận hệ thống đã tạo dự báo và báo phần diễn giải LLM không khả dụng. Điều này trung thực với kết quả được cung cấp, không thêm nhận định không có căn cứ; chart note cũng chỉ mô tả chung dữ liệu lịch sử và dự báo được hiển thị. Tuy nhiên, Explanation không nêu mức dự báo 0,4286, khoảng thời gian 90 ngày, tính ổn định của dự báo hay ý nghĩa thực tế, nên gần như không giúp người dùng hiểu kết quả."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.431916125002317,
+    "input_tokens": 5037,
+    "output_tokens": 238,
+    "total_tokens": 5275,
+    "raw_response": "{\"relevance\":2,\"faithfulness\":5,\"clarity\":5,\"usefulness\":1,\"overall_score\":3.25,\"unsupported_claims\":[],\"reason_vi\":\"Nội dung chỉ xác nhận hệ thống đã tạo dự báo và báo phần diễn giải LLM không khả dụng. Điều này trung thực với kết quả được cung cấp, không thêm nhận định không có căn cứ; chart note cũng chỉ mô tả chung dữ liệu lịch sử và dự báo được hiển thị. Tuy nhiên, Explanation không nêu mức dự báo 0,4286, khoảng thời gian 90 ngày, tính ổn định của dự báo hay ý nghĩa thực tế, nên gần như không giúp người dùng hiểu kết quả.\"}"
+  }
+}

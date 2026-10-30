@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (Route 4, Cty-BaoYen) trong 12 tháng tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022-05-01 đến 2024-12-01, ForecastBot dự báo lưu lượng cho 12 tháng tiếp theo (từ tháng 1 năm 2025 đến tháng 12 năm 2025). Lưu lượng dự kiến dao động từ mức thấp nhất là 95100.0 (tháng 6/2025) đến mức cao nhất là 116200.0 (tháng 4/2025).",
+  "insights": [
+    "Lưu lượng dự kiến đạt đỉnh vào tháng 4 năm 2025 với mức 116200.0.",
+    "Mức lưu lượng thấp nhất được dự báo là 95100.0 vào tháng 6 năm 2025.",
+    "Nhìn chung, lưu lượng dự báo cho năm 2025 duy trì ở mức cao, với các giá trị dự kiến trong khoảng 104500.0 đến 113000.0 trong các tháng còn lại."
+  ],
+  "chart_note": "Biểu đồ này được huấn luyện trên 23 điểm dữ liệu lịch sử từ 2022-05-01 đến 2024-12-01. Dự báo được thực hiện bằng chế độ 'single' với trọng số 'short' là 0.6 và 'long' là 0.4."
+}

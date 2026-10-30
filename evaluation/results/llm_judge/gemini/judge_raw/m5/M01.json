@@ -1,0 +1,26 @@
+{
+  "case_id": "M01",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện mô hình (29/01/2011 - 17/04/2016)\": thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng; không xác nhận toàn bộ khoảng này được dùng để huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 7 ngày, nêu đúng khoảng ngày, biên độ dự báo, giá trị cao/thấp nhất và so sánh hợp lệ với trung bình lịch sử. Các số liệu đều khớp forecast và history summary; mô tả ensemble cùng trọng số và hai cửa sổ 180/365 cũng phù hợp thông tin kết quả. Tuy nhiên, chart_note khẳng định toàn bộ dữ liệu 2011–2016 được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ của nhánh dự báo. Trình bày rõ ràng, ngắn gọn và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.833590708003612,
+    "input_tokens": 2427,
+    "output_tokens": 427,
+    "total_tokens": 2854,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện mô hình (29/01/2011 - 17/04/2016)\\\": thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng; không xác nhận toàn bộ khoảng này được dùng để huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 7 ngày, nêu đúng khoảng ngày, biên độ dự báo, giá trị cao/thấp nhất và so sánh hợp lệ với trung bình lịch sử. Các số liệu đều khớp forecast và history summary; mô tả ensemble cùng trọng số và hai cửa sổ 180/365 cũng phù hợp thông tin kết quả. Tuy nhiên, chart_note khẳng định toàn bộ dữ liệu 2011–2016 được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ của nhánh dự báo. Trình bày rõ ràng, ngắn gọn và hữu ích.\"}"
+  }
+}

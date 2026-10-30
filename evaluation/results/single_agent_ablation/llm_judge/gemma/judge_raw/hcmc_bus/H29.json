@@ -1,0 +1,24 @@
+{
+  "case_id": "H29",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 3, đơn vị HTX-195, tần suất tháng và chân trời 6 tháng. Mức dự báo 116,342.16 và tính ổn định trong toàn bộ giai đoạn tháng 7–12/2024 đều khớp kết quả forecast. Thông tin ensemble, trọng số 60%/40% và các cửa sổ h24/h30 cũng chính xác. Phạm vi 30 điểm lịch sử từ 2022-01-01 đến 2024-06-01 phù hợp history summary. Nội dung rõ ràng, gọn; tuy nhiên có thể hữu ích hơn nếu nêu thêm mức dự báo này so với thống kê lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.5638233339414,
+    "input_tokens": 2388,
+    "output_tokens": 306,
+    "total_tokens": 2694,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 3, đơn vị HTX-195, tần suất tháng và chân trời 6 tháng. Mức dự báo 116,342.16 và tính ổn định trong toàn bộ giai đoạn tháng 7–12/2024 đều khớp kết quả forecast. Thông tin ensemble, trọng số 60%/40% và các cửa sổ h24/h30 cũng chính xác. Phạm vi 30 điểm lịch sử từ 2022-01-01 đến 2024-06-01 phù hợp history summary. Nội dung rõ ràng, gọn; tuy nhiên có thể hữu ích hơn nếu nêu thêm mức dự báo này so với thống kê lịch sử.\"}"
+  }
+}

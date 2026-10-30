@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho FOODS_3_324 tại WI",
+  "summary_text": "Dự báo cho 28 ngày tới (từ 2016-03-28 đến 2016-04-24) cho thấy giá trị dự kiến (yhat) là 0.0.",
+  "insights": [
+    "Dữ liệu lịch sử của FOODS_3_324 tại WI (dataset M5) bao gồm 1885 điểm, trải dài từ 2011-01-29 đến 2016-03-27. Trong giai đoạn này, giá trị trung bình là 10.10, với phạm vi từ 0.0 đến 62.0.",
+    "ForecastBot đã sử dụng chế độ 'ensemble' để đưa ra dự báo, với trọng số ngắn (short) là 0.6 và trọng số dài (long) là 0.4."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 1885 điểm dữ liệu lịch sử (2011-01-29 đến 2016-03-27). Dự báo được thực hiện trong 28 bước, sử dụng cửa sổ ngắn (h180) và cửa sổ dài (h365) với chế độ 'ensemble'."
+}

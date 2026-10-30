@@ -1,0 +1,26 @@
+{
+  "case_id": "H39",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Cụm \"trọng số cân bằng\" chưa thật chính xác vì trọng số Short 0.6 và Long 0.4 không bằng nhau, dù các giá trị trọng số được nêu đúng."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo năm cho tuyến và đơn vị vận hành cụ thể, nêu đúng hai mức dự báo 258.795 cho 2023–2024, chế độ single và giới hạn chỉ có một điểm lịch sử năm 2022. Nội dung rõ ràng, có cảnh báo phù hợp về độ tin cậy khi dữ liệu quá ít. Điểm trừ nhỏ là mô tả trọng số 0.6/0.4 là “cân bằng” hơi thiếu chính xác; chúng gần nhau nhưng không bằng nhau."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.941963499994017,
+    "input_tokens": 2235,
+    "output_tokens": 392,
+    "total_tokens": 2627,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Cụm \\\"trọng số cân bằng\\\" chưa thật chính xác vì trọng số Short 0.6 và Long 0.4 không bằng nhau, dù các giá trị trọng số được nêu đúng.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo năm cho tuyến và đơn vị vận hành cụ thể, nêu đúng hai mức dự báo 258.795 cho 2023–2024, chế độ single và giới hạn chỉ có một điểm lịch sử năm 2022. Nội dung rõ ràng, có cảnh báo phù hợp về độ tin cậy khi dữ liệu quá ít. Điểm trừ nhỏ là mô tả trọng số 0.6/0.4 là “cân bằng” hơi thiếu chính xác; chúng gần nhau nhưng không bằng nhau.\"}"
+  }
+}

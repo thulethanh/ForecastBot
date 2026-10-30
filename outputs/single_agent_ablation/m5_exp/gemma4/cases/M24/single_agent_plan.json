@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 30,
+  "filters": {
+    "item_id": "FOODS_1_078",
+    "store_id": "TX_3"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_1_078' AND s.store_id = 'TX_3' AND c.date >= CURRENT_DATE AND c.date < CURRENT_DATE + INTERVAL '30 days' GROUP BY c.date ORDER BY c.date ASC",
+  "sql_explanation": "Retrieves the daily sales forecast (y) for product FOODS_1_078 at store TX_3 for the next 30 days. The query joins the sales data (s) with the calendar (c) and filters by the specified item and store, limiting the date range to the next 30 days."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo cho 90 ngày tới về doanh số bán hàng hàng ngày cho mặt hàng FOODS_3_531 tại tiểu bang WI, bắt đầu từ ngày 26 tháng 1 năm 2016. Dựa trên dữ liệu lịch sử từ năm 2011 đến năm 2016, doanh số bán hàng dự kiến sẽ dao động trong khoảng từ 0,95 đến 1,61 đơn vị mỗi ngày. Mức trung bình dự báo cao hơn một chút so với mức trung bình lịch sử là 0,99 đơn vị.",
+  "insights": [
+    "Dự báo cho thấy một mô hình hàng tuần rất rõ rệt và nhất quán, lặp lại sau mỗi 7 ngày. Doanh số bán hàng được dự đoán sẽ đạt đỉnh vào các ngày Thứ Bảy (khoảng 1,61 đơn vị) và thấp nhất vào các ngày Thứ Hai và Thứ Tư (khoảng 0,95 đơn vị).",
+    "Không có xu hướng tăng hoặc giảm đáng kể nào được dự đoán trong suốt 90 ngày; doanh số bán hàng dự kiến sẽ duy trì ổn định trong phạm vi dao động hàng tuần của chúng."
+  ],
+  "chart_note": "Biểu đồ này hiển thị doanh số bán hàng lịch sử hàng ngày cho đến ngày 25 tháng 1 năm 2016, tiếp theo là dự báo 90 ngày. Các giá trị lịch sử dao động từ 0 đến 9 đơn vị, trong khi dự báo ổn định hơn và dao động quanh mức trung bình lịch sử."
+}

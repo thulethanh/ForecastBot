@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 5,
+  "filters": {
+    "route_id": "91",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '91' AND TRIM(d.operator) = 'XKSG' GROUP BY DATE_TRUNC('year', d.date) ORDER BY ds ASC;",
+  "sql_explanation": "Retrieves the total passenger count (y) for route 91 operated by XKSG, aggregated by year (ds), to support a 5-year forecast."
+}

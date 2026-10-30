@@ -1,0 +1,303 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H36",
+  "question": "Cho tôi dự báo hành khách của tuyến 107 do HTX-195 vận hành, sử dụng nhóm xe 2B.1_ML trong 8 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "forecast_request": {
+    "intent": "forecast_request",
+    "dataset": "HCMC_BUS",
+    "granularity": "quarter",
+    "horizon": 8,
+    "filters": {
+      "route_id": "107",
+      "operator": "HTX-195",
+      "vehicle_group": "2B.1_ML"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": ""
+  },
+  "single_agent_plan": {
+    "intent": "forecast_request",
+    "dataset": "HCMC_BUS",
+    "granularity": "quarter",
+    "horizon": 8,
+    "filters": {
+      "route_id": "107",
+      "operator": "HTX-195",
+      "vehicle_group": "2B.1_ML"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": "",
+    "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '107' AND TRIM(d.operator) = 'HTX-195' AND TRIM(d.vehicle_group) = '2B.1_ML' GROUP BY ds ORDER BY ds ASC;",
+    "sql_explanation": "This SQL query aggregates the total number of passengers (`total_passengers`) by quarter (`ds`) from the `daily_passenger_stats` table. It filters the data for route '107', operator 'HTX-195', and vehicle group '2B.1_ML'."
+  },
+  "generated_sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '107' AND TRIM(d.operator) = 'HTX-195' AND TRIM(d.vehicle_group) = '2B.1_ML' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "This SQL query aggregates the total number of passengers (`total_passengers`) by quarter (`ds`) from the `daily_passenger_stats` table. It filters the data for route '107', operator 'HTX-195', and vehicle group '2B.1_ML'.",
+  "sql_result": [
+    {
+      "ds": "2022-01-01",
+      "y": 19046
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 32415
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 39687
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 41595
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 36197
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 39637
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 43548
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 46064
+    },
+    {
+      "ds": "2024-01-01",
+      "y": 42130
+    },
+    {
+      "ds": "2024-04-01",
+      "y": 44784
+    },
+    {
+      "ds": "2024-07-01",
+      "y": 47968
+    },
+    {
+      "ds": "2024-10-01",
+      "y": 49452
+    }
+  ],
+  "historical_data_summary": {
+    "n_points": 12,
+    "start_date": "2022-01-01",
+    "end_date": "2024-10-01",
+    "min_y": 19046.0,
+    "max_y": 49452.0,
+    "mean_y": 40210.25
+  },
+  "historical_n": 12,
+  "forecast_history": [
+    {
+      "ds": "2022-01-01",
+      "y": 19046
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 32415
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 39687
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 41595
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 36197
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 39637
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 43548
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 46064
+    },
+    {
+      "ds": "2024-01-01",
+      "y": 42130
+    },
+    {
+      "ds": "2024-04-01",
+      "y": 44784
+    },
+    {
+      "ds": "2024-07-01",
+      "y": 47968
+    },
+    {
+      "ds": "2024-10-01",
+      "y": 49452
+    }
+  ],
+  "test_artifact": {
+    "status": "not_available",
+    "evaluation_eligible": false,
+    "reason": "insufficient_history_for_holdout",
+    "horizon": 8,
+    "available_points": 12,
+    "minimum_train_required": 8,
+    "required_points_for_evaluation": 16,
+    "n_test": 0,
+    "test": []
+  },
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 12,
+    "n_train": 12,
+    "n_test": 0,
+    "horizon": 8,
+    "minimum_train_required": 8,
+    "required_points_for_evaluation": 16,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "forecast_result": {
+    "forecast": [
+      {
+        "step": 1,
+        "ds": "2025-01-01",
+        "yhat": 46852.0
+      },
+      {
+        "step": 2,
+        "ds": "2025-04-01",
+        "yhat": 49506.0
+      },
+      {
+        "step": 3,
+        "ds": "2025-07-01",
+        "yhat": 52690.0
+      },
+      {
+        "step": 4,
+        "ds": "2025-10-01",
+        "yhat": 54174.0
+      },
+      {
+        "step": 5,
+        "ds": "2026-01-01",
+        "yhat": 51574.0
+      },
+      {
+        "step": 6,
+        "ds": "2026-04-01",
+        "yhat": 54228.0
+      },
+      {
+        "step": 7,
+        "ds": "2026-07-01",
+        "yhat": 57412.0
+      },
+      {
+        "step": 8,
+        "ds": "2026-10-01",
+        "yhat": 58896.0
+      }
+    ],
+    "status": "success",
+    "fallback_used": false,
+    "selected_mode": "single",
+    "weights": {
+      "short": 0.6,
+      "long": 0.4
+    },
+    "window_info": {
+      "short_n": 12,
+      "long_n": 12,
+      "short_window_name": "h12",
+      "long_window_name": "h12"
+    }
+  },
+  "explanation_result": {
+    "title": "Kết quả dự báo",
+    "summary_text": "Đây là dự báo cho 8 quý tiếp theo (từ Quý 1 2025 đến Quý 4 2026) cho tuyến xe 107, nhà xe HTX-195, và nhóm phương tiện 2B.1_ML. Dự báo cho thấy xu hướng tăng trưởng chung trong hai năm tới, với các giá trị dự báo dao động từ khoảng 46.852 đến 58.896.",
+    "insights": [
+      "Dự báo cho thấy xu hướng tăng trưởng nhất quán, với giá trị dự báo cho quý cuối cùng (Quý 4 2026) là cao nhất trong giai đoạn ở mức 58.896.",
+      "Các giá trị dự báo đều cao hơn mức trung bình lịch sử (40.210), tiếp nối xu hướng được quan sát trong dữ liệu quá khứ (dao động từ 19.046 đến 49.452)."
+    ],
+    "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử từ Quý 1 2022 đến Quý 4 2024 và dự báo cho 8 quý tiếp theo."
+  },
+  "status": "success",
+  "timings": {
+    "load_schema": 0.07395845802966505,
+    "request_sql": 12.41236516693607,
+    "sql_execution_and_repair": 0.012331707985140383,
+    "forecast": 44.06831708399113,
+    "explanation": 11.415842708898708,
+    "end_to_end": 67.98291820799932
+  },
+  "traces": [
+    {
+      "stage": "single_agent.request_sql",
+      "type": "single_agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are ForecastBot's SINGLE forecasting agent.\n\nYou are responsible for understanding the user's forecasting request and\ngenerating the SQL needed to retrieve the corresponding time series.\n\nUSER REQUEST:\nCho tôi dự báo hành khách của tuyến 107 do HTX-195 vận hành, sử dụng nhóm xe 2B.1_ML trong 8 quý tới.\n\nEXPECTED DATASET FOR THIS EVALUATION CASE:\nHCMC_BUS\n\nDATABASE SCHEMA KNOWLEDGE:\n\nDataset: HCMC_BUS\n\nYou are working with a PostgreSQL database for HCMC bus passenger forecasting.\n\n1. Table: daily_passenger_stats\n- date (DATE): Operating date and forecasting time axis\n- route_id (TEXT): Route identifier\n- operator (TEXT): Transport operator\n- vehicle_group (TEXT): Vehicle group\n- trips (INTEGER): Number of operated trips\n- buses (INTEGER): Number of buses\n- total_passengers (INTEGER): Total number of passengers and forecasting target\n\n2. Table: bus_routes\n- route_id (TEXT): Route identifier\n- route_name (TEXT): Route name\n- start_stop (TEXT): Start stop\n- end_stop (TEXT): End stop\n- distance_km (NUMERIC): Route distance in kilometres\n\nRelationship:\n- daily_passenger_stats.route_id = bus_routes.route_id\n\nBusiness meaning:\n- daily_passenger_stats is the forecasting fact table.\n- date is the true time axis.\n- total_passengers is the forecasting target.\n- bus_routes is a dimension table used for route filtering and description.\n\n\nSQL GENERATION RULES:\n\n- Use daily_passenger_stats as the fact table with alias d.\n- Join bus_routes as alias r only when route_name, start_stop or end_stop is required.\n- Join condition: d.route_id = r.route_id.\n- Always return exactly two columns: ds and y.\n- For day granularity, use d.date AS ds.\n- For month granularity, use DATE_TRUNC('month', d.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', d.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', d.date)::date AS ds.\n- Aggregate the forecasting target with SUM(d.total_passengers) AS y.\n- Support fact filters on route_id, operator, vehicle_group and date.\n- Route attributes route_name, start_stop and end_stop belong to bus_routes and require a join.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n- The source values of operator and vehicle_group may contain leading or trailing whitespace.\n- When filtering by operator, always apply TRIM to the database column: TRIM(d.operator).\n- When filtering by vehicle_group, always apply TRIM to the database column: TRIM(d.vehicle_group).\n- Compare trimmed operator and vehicle_group values using exact equality (=), unless the user explicitly requests partial or pattern matching.\n- route_id, operator and vehicle_group are independent fact filters and may be applied together in the same WHERE clause.\n\n\nAllowed granularities and horizons:\n- day: 7, 28, 30, 60, 90\n- month: 1, 3, 6, 12, 24\n- quarter: 1, 2, 3, 4, 8, 12\n- year: 1, 2, 3, 5, 10\n\nRequirements:\n1. Infer dataset, granularity, horizon and filters from the user's request.\n2. Do not invent filters that are not stated or semantically implied.\n3. Generate SQL using only the supplied schema/rules.\n4. SQL must return exactly two logical columns:\n   - ds: time index\n   - y: numeric value\n5. Return STRICT JSON only. No Markdown fences and no extra text.\n\nOutput schema:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS or null\",\n  \"granularity\": \"day or month or quarter or year or null\",\n  \"horizon\": 7,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\",\n  \"sql\": \"SELECT ...\",\n  \"sql_explanation\": \"brief explanation\"\n}",
+      "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"HCMC_BUS\",\n  \"granularity\": \"quarter\",\n  \"horizon\": 8,\n  \"filters\": {\n    \"route_id\": \"107\",\n    \"operator\": \"HTX-195\",\n    \"vehicle_group\": \"2B.1_ML\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\",\n  \"sql\": \"SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '107' AND TRIM(d.operator) = 'HTX-195' AND TRIM(d.vehicle_group) = '2B.1_ML' GROUP BY ds ORDER BY ds ASC;\",\n  \"sql_explanation\": \"This SQL query aggregates the total number of passengers (`total_passengers`) by quarter (`ds`) from the `daily_passenger_stats` table. It filters the data for route '107', operator 'HTX-195', and vehicle group '2B.1_ML'.\"\n}\n```",
+      "input_tokens": 1001,
+      "output_tokens": 1815,
+      "total_tokens": 2816,
+      "llm_time_s": 12.41224883403629,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "single_agent.forecast_short",
+      "type": "single_agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the SAME ForecastBot SINGLE forecasting agent.\n\nEarlier in this case you interpreted the user's request and generated SQL.\nNow forecast the supplied historical time series.\n\nFORECAST REQUEST:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"quarter\", \"horizon\": 8, \"filters\": {\"route_id\": \"107\", \"operator\": \"HTX-195\", \"vehicle_group\": \"2B.1_ML\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nHISTORY BRANCH:\nshort\n\nTIME UNIT:\nQUARTERLY\n\nFORECAST HORIZON:\n8\n\nNUMBER OF HISTORY POINTS:\n12\n\nHISTORY VALUES IN CHRONOLOGICAL ORDER:\n[19046.0, 32415.0, 39687.0, 41595.0, 36197.0, 39637.0, 43548.0, 46064.0, 42130.0, 44784.0, 47968.0, 49452.0]\n\nRules:\n1. Forecast exactly 8 future values.\n2. Use ONLY the history supplied above.\n3. Do not assume access to held-out actual/test values.\n4. All values must be finite numbers.\n5. Demand/passenger forecasts must not be negative.\n6. Return STRICT JSON only, with no Markdown or extra text.\n\nOutput:\n{\n  \"forecast\": [0.0, 0.0]\n}\n\nThe forecast array MUST contain exactly 8 values.",
+      "raw_response": "```json\n{\n  \"forecast\": [46852.0, 49506.0, 52690.0, 54174.0, 51574.0, 54228.0, 57412.0, 58896.0]\n}\n```",
+      "input_tokens": 393,
+      "output_tokens": 6869,
+      "total_tokens": 7262,
+      "llm_time_s": 44.06291791703552,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "single_agent.explanation",
+      "type": "single_agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the SAME ForecastBot SINGLE forecasting agent.\n\nEarlier in this case you interpreted the request, generated SQL and produced\nthe forecast. Explain the final result using ONLY the information below.\n\nFORECAST REQUEST:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"quarter\", \"horizon\": 8, \"filters\": {\"route_id\": \"107\", \"operator\": \"HTX-195\", \"vehicle_group\": \"2B.1_ML\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nHISTORICAL DATA SUMMARY:\n{\"n_points\": 12, \"start_date\": \"2022-01-01\", \"end_date\": \"2024-10-01\", \"min_y\": 19046.0, \"max_y\": 49452.0, \"mean_y\": 40210.25}\n\nFINAL FORECAST:\n{\"forecast\": [{\"step\": 1, \"ds\": \"2025-01-01\", \"yhat\": 46852.0}, {\"step\": 2, \"ds\": \"2025-04-01\", \"yhat\": 49506.0}, {\"step\": 3, \"ds\": \"2025-07-01\", \"yhat\": 52690.0}, {\"step\": 4, \"ds\": \"2025-10-01\", \"yhat\": 54174.0}, {\"step\": 5, \"ds\": \"2026-01-01\", \"yhat\": 51574.0}, {\"step\": 6, \"ds\": \"2026-04-01\", \"yhat\": 54228.0}, {\"step\": 7, \"ds\": \"2026-07-01\", \"yhat\": 57412.0}, {\"step\": 8, \"ds\": \"2026-10-01\", \"yhat\": 58896.0}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"single\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 12, \"long_n\": 12, \"short_window_name\": \"h12\", \"long_window_name\": \"h12\"}}\n\nRequirements:\n1. Do not claim knowledge of actual future/test values.\n2. Do not invent causes or external events not present in the inputs.\n3. Keep the explanation concise, clear and useful.\n4. Return STRICT JSON only.\n\nOutput:\n{\n  \"title\": \"Kết quả dự báo\",\n  \"summary_text\": \"...\",\n  \"insights\": [\"...\", \"...\"],\n  \"chart_note\": \"...\"\n}",
+      "raw_response": "```json\n{\n  \"title\": \"Kết quả dự báo\",\n  \"summary_text\": \"Đây là dự báo cho 8 quý tiếp theo (từ Quý 1 2025 đến Quý 4 2026) cho tuyến xe 107, nhà xe HTX-195, và nhóm phương tiện 2B.1_ML. Dự báo cho thấy xu hướng tăng trưởng chung trong hai năm tới, với các giá trị dự báo dao động từ khoảng 46.852 đến 58.896.\",\n  \"insights\": [\n    \"Dự báo cho thấy xu hướng tăng trưởng nhất quán, với giá trị dự báo cho quý cuối cùng (Quý 4 2026) là cao nhất trong giai đoạn ở mức 58.896.\",\n    \"Các giá trị dự báo đều cao hơn mức trung bình lịch sử (40.210), tiếp nối xu hướng được quan sát trong dữ liệu quá khứ (dao động từ 19.046 đến 49.452).\"\n  ],\n  \"chart_note\": \"Biểu đồ thể hiện dữ liệu lịch sử từ Quý 1 2022 đến Quý 4 2024 và dự báo cho 8 quý tiếp theo.\"\n}\n```",
+      "input_tokens": 696,
+      "output_tokens": 1659,
+      "total_tokens": 2355,
+      "llm_time_s": 11.415607917006128,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    }
+  ],
+  "total_tokens": 12433,
+  "chart_status": "success",
+  "chart_error": ""
+}

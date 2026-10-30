@@ -1,0 +1,13 @@
+{
+  "status": "available",
+  "evaluation_eligible": true,
+  "reason": null,
+  "horizon": 1,
+  "n_test": 1,
+  "test": [
+    {
+      "ds": "2016-04-01",
+      "y": 33.0
+    }
+  ]
+}

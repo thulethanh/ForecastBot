@@ -1,0 +1,27 @@
+{
+  "case_id": "M57",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dự báo thể hiện một quy luật theo mùa\" chưa được chứng minh rõ từ chỉ 8 điểm dự báo và không có chi tiết diễn biến theo quý của lịch sử.",
+      "\"Tất cả 8 giá trị dự báo đều vượt qua mức tối đa trong lịch sử là 127,0\" không đúng: dự báo 99,0 ở 2014-10-01 thấp hơn 127,0."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, chân trời 8 quý và nêu được khoảng giá trị, mốc cao nhất cùng phạm vi lịch sử. Trình bày rõ ràng, hữu ích và các số liệu về trung bình, cực trị lịch sử तथा khoảng dự báo khớp dữ liệu. Tuy nhiên, nhận định về quy luật mùa vụ khá mạnh khi bằng chứng được cung cấp còn hạn chế. Đặc biệt, câu nói mọi dự báo đều vượt mức tối đa lịch sử là sai vì có giá trị dự báo 99,0, thấp hơn 127,0."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.751070667000022,
+    "input_tokens": 2483,
+    "output_tokens": 549,
+    "total_tokens": 3032,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dự báo thể hiện một quy luật theo mùa\\\" chưa được chứng minh rõ từ chỉ 8 điểm dự báo và không có chi tiết diễn biến theo quý của lịch sử.\",\"\\\"Tất cả 8 giá trị dự báo đều vượt qua mức tối đa trong lịch sử là 127,0\\\" không đúng: dự báo 99,0 ở 2014-10-01 thấp hơn 127,0.\"],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, chân trời 8 quý và nêu được khoảng giá trị, mốc cao nhất cùng phạm vi lịch sử. Trình bày rõ ràng, hữu ích và các số liệu về trung bình, cực trị lịch sử तथा khoảng dự báo khớp dữ liệu. Tuy nhiên, nhận định về quy luật mùa vụ khá mạnh khi bằng chứng được cung cấp còn hạn chế. Đặc biệt, câu nói mọi dự báo đều vượt mức tối đa lịch sử là sai vì có giá trị dự báo 99,0, thấp hơn 127,0.\"}"
+  }
+}

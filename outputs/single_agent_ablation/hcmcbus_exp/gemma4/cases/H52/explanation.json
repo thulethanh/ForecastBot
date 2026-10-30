@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo lưu lượng xe buýt HCMC_BUS (Tuyến 71)",
+  "summary_text": "Hệ thống đã hoàn thành việc dự báo dữ liệu cho bộ dữ liệu HCMC_BUS, cụ thể là tuyến 71 của nhà khai thác XKSG, nhóm xe 2B.2_ML, với độ chi tiết theo tháng trong vòng 24 tháng tới (từ tháng 1 năm 2025 đến tháng 12 năm 2026). Dự báo được thực hiện bằng phương pháp single mode, kết hợp trọng số 60% từ dữ liệu ngắn hạn và 40% từ dữ liệu dài hạn.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng tăng trưởng chung và tính mùa vụ rõ rệt trong suốt 24 tháng. Các giá trị dự kiến có xu hướng tăng dần qua các năm.",
+    "Các giá trị dự báo được tính toán dựa trên 36 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-12-01), với mức trung bình lịch sử là 28,108.",
+    "Các tháng cuối năm (ví dụ: tháng 11 và tháng 12) và các tháng mùa cao điểm khác được dự báo có mức giá trị cao hơn so với các tháng khác trong cùng năm."
+  ],
+  "chart_note": "Phạm vi dự báo bao gồm 24 bước thời gian, từ 2025-01-01 đến 2026-12-01. Các bộ lọc áp dụng là: route_id='71', operator='XKSG', và vehicle_group='2B.2_ML'."
+}

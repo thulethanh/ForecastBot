@@ -1,0 +1,24 @@
+{
+  "case_id": "H32",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và nhà khai thác, nêu rõ kỳ dự báo cùng mức dự báo. Các số liệu về cực đại lịch sử, khoảng dao động, trung bình và 8 điểm dữ liệu đều khớp với history summary và forecast. Nội dung rõ ràng, ngắn gọn, đồng thời cung cấp ngữ cảnh biến động lịch sử hữu ích mà không đưa ra nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.049998582995613,
+    "input_tokens": 2191,
+    "output_tokens": 206,
+    "total_tokens": 2397,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và nhà khai thác, nêu rõ kỳ dự báo cùng mức dự báo. Các số liệu về cực đại lịch sử, khoảng dao động, trung bình và 8 điểm dữ liệu đều khớp với history summary và forecast. Nội dung rõ ràng, ngắn gọn, đồng thời cung cấp ngữ cảnh biến động lịch sử hữu ích mà không đưa ra nguyên nhân không có bằng chứng.\"}"
+  }
+}

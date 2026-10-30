@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H59",
+  "question": "Hãy dự báo lượng hành khách của tuyến 87 trong 1 năm tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 10,
+    "minimum_train_required": 5,
+    "required_points_for_evaluation": 15,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.015967249986715615,
+    "request_sql": 51.73383337492123,
+    "sql_execution_and_repair": 0.03934862499590963,
+    "forecast": 113.74150895897765,
+    "explanation": 66.84544283396099,
+    "end_to_end": 232.37632495793514
+  },
+  "total_tokens": 5787,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

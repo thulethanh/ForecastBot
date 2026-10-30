@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "year",
+  "horizon": 10,
+  "filters": {
+    "item_id": "HOUSEHOLD_1_302",
+    "store_id": "TX_2",
+    "state_id": "TX"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

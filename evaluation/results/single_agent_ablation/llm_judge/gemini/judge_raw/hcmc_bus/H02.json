@@ -1,0 +1,24 @@
+{
+  "case_id": "H02",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng đối tượng, tần suất và kỳ hạn dự báo cho tuyến 22 của HTX-VTHANG. Khoảng dự báo 1.409–1.979 và khoảng lịch sử 158–2.240 đều phù hợp số liệu được cung cấp. Nhận xét về nhịp lặp theo tuần, mức thấp hơn vào Thứ Bảy và Chủ Nhật được thể hiện nhất quán trong dãy dự báo. Mô tả ensemble 180/365 ngày cùng trọng số 60% cho cửa sổ ngắn cũng khớp window_info và weights. Nội dung rõ ràng, ngắn gọn và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.175648041069508,
+    "input_tokens": 3102,
+    "output_tokens": 355,
+    "total_tokens": 3457,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng đối tượng, tần suất và kỳ hạn dự báo cho tuyến 22 của HTX-VTHANG. Khoảng dự báo 1.409–1.979 và khoảng lịch sử 158–2.240 đều phù hợp số liệu được cung cấp. Nhận xét về nhịp lặp theo tuần, mức thấp hơn vào Thứ Bảy và Chủ Nhật được thể hiện nhất quán trong dãy dự báo. Mô tả ensemble 180/365 ngày cùng trọng số 60% cho cửa sổ ngắn cũng khớp window_info và weights. Nội dung rõ ràng, ngắn gọn và hữu ích.\"}"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2016-07-01",
+      "yhat": 639.42
+    },
+    {
+      "step": 2,
+      "ds": "2016-10-01",
+      "yhat": 624.74
+    },
+    {
+      "step": 3,
+      "ds": "2017-01-01",
+      "yhat": 612.26
+    },
+    {
+      "step": 4,
+      "ds": "2017-04-01",
+      "yhat": 601.66
+    },
+    {
+      "step": 5,
+      "ds": "2017-07-01",
+      "yhat": 592.62
+    },
+    {
+      "step": 6,
+      "ds": "2017-10-01",
+      "yhat": 584.94
+    },
+    {
+      "step": 7,
+      "ds": "2018-01-01",
+      "yhat": 578.42
+    },
+    {
+      "step": 8,
+      "ds": "2018-04-01",
+      "yhat": 572.9
+    },
+    {
+      "step": 9,
+      "ds": "2018-07-01",
+      "yhat": 568.18
+    },
+    {
+      "step": 10,
+      "ds": "2018-10-01",
+      "yhat": 564.18
+    },
+    {
+      "step": 11,
+      "ds": "2019-01-01",
+      "yhat": 560.78
+    },
+    {
+      "step": 12,
+      "ds": "2019-04-01",
+      "yhat": 557.9
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "ensemble",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 12,
+    "long_n": 20,
+    "short_window_name": "h12",
+    "long_window_name": "h20"
+  }
+}

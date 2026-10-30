@@ -1,0 +1,11 @@
+{
+  "title": "Dự báo 1 quý cho item_id HOBBIES_1_208 tại state_id TX",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01 (trung bình 35.81), ForecastBot dự báo giá trị cho quý tiếp theo, bắt đầu từ 2016-04-01, là 62.0.",
+  "insights": [
+    "Dữ liệu lịch sử bao gồm 21 điểm dữ liệu theo quý từ 2011-01-01 đến 2016-01-01.",
+    "Trong giai đoạn lịch sử, giá trị dao động trong khoảng từ 0.0 đến 90.0, với giá trị trung bình là 35.81.",
+    "Giá trị dự báo 62.0 cao hơn mức trung bình lịch sử là 35.81.",
+    "Dự báo được tạo bằng mô hình `ensemble`, kết hợp một cửa sổ ngắn hạn (8 điểm) và một cửa sổ dài hạn (12 điểm) với trọng số lần lượt là 0.6 và 0.4."
+  ],
+  "chart_note": "Biểu đồ hiển thị 21 điểm dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01 và dự báo của ForecastBot cho 1 quý tiếp theo."
+}

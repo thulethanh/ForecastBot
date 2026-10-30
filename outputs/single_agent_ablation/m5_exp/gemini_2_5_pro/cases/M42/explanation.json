@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số hàng năm cho sản phẩm HOUSEHOLD_1_302 tại cửa hàng TX_2 trong 10 năm tới. Dựa trên 6 điểm dữ liệu lịch sử từ 2011 đến 2016, mô hình dự đoán doanh số sẽ ổn định ở mức khoảng 119.3 đơn vị mỗi năm từ 2017 đến 2026.",
+  "insights": [
+    "Dự báo là một đường thẳng vì nó dựa trên giá trị trung bình của dữ liệu lịch sử (119.3).",
+    "Do số lượng dữ liệu lịch sử ít (chỉ 6 năm), mô hình không thể xác định được xu hướng hoặc tính mùa vụ rõ ràng, do đó sử dụng phương pháp dự báo đơn giản."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử (2011-2016) và dự báo cho 10 năm tiếp theo. Dự báo là một đường thẳng, thể hiện giá trị trung bình của dữ liệu quá khứ."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho item HOUSEHOLD_1_133 tại store CA_2, dựa trên 6 điểm dữ liệu lịch sử từ năm 2011 đến năm 2016, cho thấy một xu hướng tăng trưởng ổn định trong 5 năm tới (từ 2017 đến 2021). Giá trị dự báo tăng dần từ 75.6 (năm 2017) lên 126.0 (năm 2021).",
+  "insights": [
+    "Xu hướng dự báo cho thấy sự tăng trưởng liên tục qua các năm, với mức tăng trưởng rõ rệt từ năm 2017 đến năm 2021.",
+    "Mô hình dự báo sử dụng chế độ 'single' và áp dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+    "Giá trị dự báo cuối cùng (126.0 năm 2021) cao hơn mức trung bình lịch sử (124.67) và gần với mức tối đa lịch sử (214.0)."
+  ],
+  "chart_note": "Các giá trị được cung cấp là dự báo toán học và không đại diện cho các giá trị thực tế trong tương lai."
+}

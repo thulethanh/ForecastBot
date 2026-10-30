@@ -1,0 +1,24 @@
+{
+  "case_id": "M28",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng mặt hàng và cửa hàng, nêu chính xác cả ba giá trị dự báo. Các nhận định về mức giảm tháng 4, so sánh với cực đại 58.0 và trung bình lịch sử khoảng 16.4 đều được dữ liệu hỗ trợ. Mô tả ensemble với hai cửa sổ 24/36 tháng và trọng số 60%/40% phù hợp forecast result. Nội dung rõ ràng, ngắn gọn và giúp người dùng nhận ra biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.445635957992636,
+    "input_tokens": 2294,
+    "output_tokens": 281,
+    "total_tokens": 2575,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng mặt hàng và cửa hàng, nêu chính xác cả ba giá trị dự báo. Các nhận định về mức giảm tháng 4, so sánh với cực đại 58.0 và trung bình lịch sử khoảng 16.4 đều được dữ liệu hỗ trợ. Mô tả ensemble với hai cửa sổ 24/36 tháng và trọng số 60%/40% phù hợp forecast result. Nội dung rõ ràng, ngắn gọn và giúp người dùng nhận ra biến động chính.\"}"
+  }
+}

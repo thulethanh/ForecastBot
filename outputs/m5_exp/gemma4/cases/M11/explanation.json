@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOBBIES_2_089 vào quý 2016-04-01",
+  "summary_text": "Dựa trên mô hình ensemble, dự báo cho HOBBIES_2_089 vào ngày 2016-04-01 là 245.87.",
+  "insights": [
+    "Giá trị dự báo 245.87 cho quý 2016-04-01 thấp hơn mức trung bình lịch sử (291.86) của dữ liệu M5.",
+    "Mô hình sử dụng trọng số 0.6 cho thành phần ngắn hạn (h8) và 0.4 cho thành phần dài hạn (h12)."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dự báo được tạo ra bởi mô hình ensemble, kết hợp thành phần ngắn hạn (h8) và thành phần dài hạn (h12)."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H21",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng đối tượng dự báo (tuyến 55, XKSG, 4_CNG.2), nêu đầy đủ phạm vi lịch sử, mức trung bình, các giá trị dự báo và xu hướng giảm về 0 từ 2027–2034. Mọi số liệu và nhận định về mức giảm đều khớp với history summary và forecast. Nội dung rõ ràng, có cấu trúc tốt. Tính hữu ích cao, dù có thể tốt hơn nếu nêu ngắn gọn ý nghĩa cần lưu ý của chuỗi dự báo bằng 0 kéo dài."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.423937790998025,
+    "input_tokens": 2594,
+    "output_tokens": 288,
+    "total_tokens": 2882,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng đối tượng dự báo (tuyến 55, XKSG, 4_CNG.2), nêu đầy đủ phạm vi lịch sử, mức trung bình, các giá trị dự báo và xu hướng giảm về 0 từ 2027–2034. Mọi số liệu và nhận định về mức giảm đều khớp với history summary và forecast. Nội dung rõ ràng, có cấu trúc tốt. Tính hữu ích cao, dù có thể tốt hơn nếu nêu ngắn gọn ý nghĩa cần lưu ý của chuỗi dự báo bằng 0 kéo dài.\"}"
+  }
+}

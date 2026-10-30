@@ -1,0 +1,2 @@
+dataset,target_model,target_model_key,judge_model,n_cases,n_explanation_available,explanation_availability_rate,n_judged_success,judge_success_rate_among_available,mean_relevance,mean_faithfulness,mean_clarity,mean_usefulness,mean_overall_score,median_overall_score,min_overall_score,max_overall_score,n_cases_with_unsupported_claims,total_judge_tokens,mean_judge_latency_s
+M5,Gemini 2.5 Pro,gemini,gpt-5.6-terra,10,10,1.0,10,1.0,5.0,4.6,5.0,4.9,4.875,5.0,4.25,5.0,3,35490,7.637460658197233

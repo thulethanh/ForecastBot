@@ -1,0 +1,33 @@
+{
+  "case_id": "H36",
+  "question": "Cho tôi dự báo hành khách của tuyến 107 do HTX-195 vận hành, sử dụng nhóm xe 2B.1_ML trong 8 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 12,
+    "n_train": 12,
+    "n_test": 0,
+    "horizon": 8,
+    "minimum_train_required": 8,
+    "required_points_for_evaluation": 16,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.30803562499932,
+    "load_schema": 0.20007549999718321,
+    "sql_generation": 9.617983750002168,
+    "sql_execution_and_repair": 0.07172066700150026,
+    "forecast": 63.21752270899742,
+    "explanation": 25.93697820899979,
+    "end_to_end": 105.35235900000407
+  },
+  "total_tokens": 17847,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

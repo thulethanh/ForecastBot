@@ -1,0 +1,26 @@
+{
+  "case_id": "H16",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 4,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 9 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết có 9 điểm lịch sử và các cửa sổ dự báo đều gồm 9 điểm, không xác nhận biểu đồ được huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 quý cho đúng tuyến/đơn vị, nêu chính xác thời gian, khoảng dự báo, các mức cao/thấp và trung bình 140.000. Các nhận định định lượng đều khớp forecast. Tuy nhiên, chart_note khẳng định biểu đồ “được huấn luyện” trên 9 điểm; thông tin cung cấp không xác nhận hoạt động huấn luyện, dù có 9 điểm lịch sử và cửa sổ dự báo 9 điểm. Cách trình bày nhìn chung rõ ràng và hữu ích, chỉ có diễn đạt kỹ thuật này chưa chính xác hoàn toàn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 31.9547390830121,
+    "input_tokens": 2560,
+    "output_tokens": 414,
+    "total_tokens": 2974,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":4,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 9 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết có 9 điểm lịch sử và các cửa sổ dự báo đều gồm 9 điểm, không xác nhận biểu đồ được huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 quý cho đúng tuyến/đơn vị, nêu chính xác thời gian, khoảng dự báo, các mức cao/thấp và trung bình 140.000. Các nhận định định lượng đều khớp forecast. Tuy nhiên, chart_note khẳng định biểu đồ “được huấn luyện” trên 9 điểm; thông tin cung cấp không xác nhận hoạt động huấn luyện, dù có 9 điểm lịch sử và cửa sổ dự báo 9 điểm. Cách trình bày nhìn chung rõ ràng và hữu ích, chỉ có diễn đạt kỹ thuật này chưa chính xác hoàn toàn.\"}"
+  }
+}

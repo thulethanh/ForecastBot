@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo hàng tháng cho Tuyến 31 (XKSG)",
+  "summary_text": "Đây là dự báo số lượng hành khách cho 12 tháng tới, từ tháng 1 năm 2024 đến tháng 12 năm 2024, trên tuyến xe buýt 31 do nhà xe XKSG vận hành. Dự báo được xây dựng dựa trên dữ liệu lịch sử trong 24 tháng (từ tháng 1/2022 đến tháng 12/2023). Kết quả cho thấy sự biến động theo mùa rõ rệt trong năm tới.",
+  "insights": [
+    "Số lượng hành khách dự báo đạt mức cao nhất vào tháng 10/2024 (khoảng 76,032) và thấp nhất vào tháng 1/2024 (khoảng 37,220).",
+    "Dự báo cho thấy một mô hình theo mùa, với số lượng hành khách có xu hướng tăng mạnh vào các tháng cuối năm, đặc biệt là từ tháng 9 đến tháng 11."
+  ],
+  "chart_note": "Dữ liệu lịch sử được hiển thị từ tháng 1/2022 đến tháng 12/2023. Các giá trị sau đó là dự báo."
+}

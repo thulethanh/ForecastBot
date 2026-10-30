@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H38",
+  "question": "Trong 1 năm tới, lượng khách của tuyến 126 do HTX-195 vận hành sẽ như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 3,
+    "n_train": 2,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.01693887496367097,
+    "request_sql": 68.08359229192138,
+    "sql_execution_and_repair": 0.0330566669581458,
+    "forecast": 40.94967787503265,
+    "explanation": 75.26030104106758,
+    "end_to_end": 184.3437692919979
+  },
+  "total_tokens": 4316,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

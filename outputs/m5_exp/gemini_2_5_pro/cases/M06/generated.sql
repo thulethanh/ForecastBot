@@ -1,0 +1,1 @@
+SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s INNER JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'FOODS_3_395' AND s.store_id = 'CA_2' AND s.state_id = 'CA' GROUP BY c.date ORDER BY ds ASC

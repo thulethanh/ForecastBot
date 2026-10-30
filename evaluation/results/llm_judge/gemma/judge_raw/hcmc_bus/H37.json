@@ -1,0 +1,26 @@
+{
+  "case_id": "H37",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.0,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 12 điểm dữ liệu lịch sử\" không được hỗ trợ: dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 12 quan sát, không xác nhận biểu đồ hay mô hình được huấn luyện trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến 122, đơn vị HTX-195 và 12 quý dự báo; mô tả đúng xu hướng tăng đến mức đỉnh 623269 rồi giảm về 518269. Các mức và mốc thời gian chính nhìn chung khớp forecast, dù cách ghi \"quý 7/2026\" dễ gây nhầm với tháng 7/quý 3. Điểm faithfulness giảm vì chart_note khẳng định biểu đồ được huấn luyện trên 12 điểm lịch sử, trong khi thông tin cung cấp chỉ xác nhận số quan sát trong cửa sổ dự báo, không xác nhận quá trình huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 31.815175665993593,
+    "input_tokens": 2630,
+    "output_tokens": 487,
+    "total_tokens": 3117,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.0,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 12 điểm dữ liệu lịch sử\\\" không được hỗ trợ: dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 12 quan sát, không xác nhận biểu đồ hay mô hình được huấn luyện trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến 122, đơn vị HTX-195 và 12 quý dự báo; mô tả đúng xu hướng tăng đến mức đỉnh 623269 rồi giảm về 518269. Các mức và mốc thời gian chính nhìn chung khớp forecast, dù cách ghi \\\"quý 7/2026\\\" dễ gây nhầm với tháng 7/quý 3. Điểm faithfulness giảm vì chart_note khẳng định biểu đồ được huấn luyện trên 12 điểm lịch sử, trong khi thông tin cung cấp chỉ xác nhận số quan sát trong cửa sổ dự báo, không xác nhận quá trình huấn luyện.\"}"
+  }
+}

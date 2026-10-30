@@ -1,0 +1,24 @@
+{
+  "case_id": "M54",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và bang, nêu đầy đủ hai mốc dự báo cùng giá trị tương ứng. Các thông tin về ensemble, trọng số 60/40, 20 điểm lịch sử và phạm vi thời gian đều phù hợp với dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và dễ theo dõi. Tuy nhiên, có thể hữu ích hơn nếu diễn giải trực tiếp xu hướng giảm nhẹ giữa hai quý dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.780613541952334,
+    "input_tokens": 2210,
+    "output_tokens": 237,
+    "total_tokens": 2447,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và bang, nêu đầy đủ hai mốc dự báo cùng giá trị tương ứng. Các thông tin về ensemble, trọng số 60/40, 20 điểm lịch sử và phạm vi thời gian đều phù hợp với dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và dễ theo dõi. Tuy nhiên, có thể hữu ích hơn nếu diễn giải trực tiếp xu hướng giảm nhẹ giữa hai quý dự báo.\"}"
+  }
+}

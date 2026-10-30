@@ -1,0 +1,26 @@
+{
+  "case_id": "H26",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định toàn bộ dữ liệu lịch sử từ 2022-05-01 đến 2024-10-02 được sử dụng để huấn luyện mô hình, trong khi thông tin được cung cấp chỉ nêu các nhánh dự báo dùng cửa sổ 180 và 365 quan sát gần nhất."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 90 ngày cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, khoảng dự báo, trung bình, so sánh với thống kê lịch sử và chu kỳ theo thứ đều khớp forecast/history summary; nhận định không có xu hướng dài hạn cũng phù hợp chuỗi dự báo lặp theo tuần. Trình bày rõ ràng và nêu được mức, biến động, ý nghĩa thực tế. Điểm faithfulness giảm nhẹ vì chart note nói toàn bộ phạm vi lịch sử được dùng để huấn luyện, điều không được hỗ trợ trực tiếp bởi window_info."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.554233875009231,
+    "input_tokens": 5300,
+    "output_tokens": 519,
+    "total_tokens": 5819,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định toàn bộ dữ liệu lịch sử từ 2022-05-01 đến 2024-10-02 được sử dụng để huấn luyện mô hình, trong khi thông tin được cung cấp chỉ nêu các nhánh dự báo dùng cửa sổ 180 và 365 quan sát gần nhất.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 90 ngày cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, khoảng dự báo, trung bình, so sánh với thống kê lịch sử và chu kỳ theo thứ đều khớp forecast/history summary; nhận định không có xu hướng dài hạn cũng phù hợp chuỗi dự báo lặp theo tuần. Trình bày rõ ràng và nêu được mức, biến động, ý nghĩa thực tế. Điểm faithfulness giảm nhẹ vì chart note nói toàn bộ phạm vi lịch sử được dùng để huấn luyện, điều không được hỗ trợ trực tiếp bởi window_info.\"}"
+  }
+}

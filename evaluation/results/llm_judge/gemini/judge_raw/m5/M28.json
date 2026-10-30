@@ -1,0 +1,24 @@
+{
+  "case_id": "M28",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, tần suất tháng và chân trời 3 tháng. Các giá trị dự báo, tháng cao/thấp nhất, so sánh với trung bình lịch sử, phạm vi lịch sử và thông tin ensemble đều khớp dữ liệu được cung cấp. Nội dung trình bày rõ ràng, có cấu trúc, đồng thời giúp người dùng hiểu mức dự báo, biến động giữa các tháng và bối cảnh dữ liệu lịch sử mà không suy diễn nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.9305276250088355,
+    "input_tokens": 2404,
+    "output_tokens": 268,
+    "total_tokens": 2672,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, tần suất tháng và chân trời 3 tháng. Các giá trị dự báo, tháng cao/thấp nhất, so sánh với trung bình lịch sử, phạm vi lịch sử và thông tin ensemble đều khớp dữ liệu được cung cấp. Nội dung trình bày rõ ràng, có cấu trúc, đồng thời giúp người dùng hiểu mức dự báo, biến động giữa các tháng và bối cảnh dữ liệu lịch sử mà không suy diễn nguyên nhân không có bằng chứng.\"}"
+  }
+}

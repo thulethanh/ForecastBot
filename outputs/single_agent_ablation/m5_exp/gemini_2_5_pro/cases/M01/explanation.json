@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số cho sản phẩm FOODS_3_228 trong 7 ngày tới, từ 18/04/2016 đến 24/04/2016. Tất cả các giá trị dự báo đều thấp hơn mức trung bình lịch sử là 73.7.",
+  "insights": [
+    "Mô hình dự báo là sự kết hợp của hai góc nhìn: ngắn hạn (180 ngày) và dài hạn (365 ngày), trong đó xu hướng gần đây được chú trọng hơn với 60% trọng số.",
+    "Dự báo cho thấy một mô hình trong tuần, với doanh số thấp nhất vào giữa tuần (49.2 vào Thứ Tư) và cao nhất vào cuối tuần (61.7 vào Chủ Nhật)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 29/01/2011 đến 17/04/2016 và dự báo cho 7 ngày tiếp theo."
+}

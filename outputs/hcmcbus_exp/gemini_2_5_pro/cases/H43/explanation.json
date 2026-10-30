@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 7 ngày tới cho số lượt đi của tuyến xe buýt 145",
+  "summary_text": "ForecastBot dự báo số lượt đi hàng ngày cho tuyến xe buýt 145 trong 7 ngày tới, từ 25/12/2024 đến 31/12/2024. Các giá trị dự báo dao động từ 1423.4 đến 2206.4. Giá trị trung bình dự báo là khoảng 2015.7, gần với mức trung bình lịch sử (2012.6).",
+  "insights": [
+    "Dự báo cao nhất là 2206.4 vào Thứ Ba, 31/12/2024.",
+    "Dự báo thấp nhất là 1423.4 vào Chủ Nhật, 29/12/2024.",
+    "Số lượt đi dự báo giảm đáng kể vào cuối tuần, đặc biệt là vào Chủ Nhật (1423.4) so với các ngày trong tuần (trên 2100)."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử từ 01/01/2022 đến 24/12/2024 và dự báo cho 7 ngày tiếp theo. Dự báo được tạo ra bởi mô hình ensemble, kết hợp kết quả từ các cửa sổ dữ liệu 180 ngày (h180) và 365 ngày (h365)."
+}

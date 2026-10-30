@@ -1,0 +1,26 @@
+{
+  "case_id": "H06",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 4.0,
+    "unsupported_claims": [
+      "Nhận định rằng giá trị dự báo 61212.2 \"cao hơn so với giá trị tối đa ghi nhận (70462.0)\" mâu thuẫn với các số liệu được cung cấp, vì 61212.2 thấp hơn 70462.0."
+    ],
+    "reason_vi": "Explanation trả lời đúng tuyến, đơn vị vận hành, kỳ dự báo và nêu chính xác giá trị dự báo, phương pháp ensemble cùng trọng số/cửa sổ. Tuy nhiên, insight định lượng khẳng định 61212.2 cao hơn mức tối đa lịch sử 70462.0 là sai; dự báo thực tế thấp hơn mức này. Lỗi này làm giảm tính trung thực và giá trị diễn giải, dù so sánh với trung bình lịch sử là đúng. Trình bày nhìn chung rõ ràng, dễ theo dõi."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.791014959002496,
+    "input_tokens": 2167,
+    "output_tokens": 323,
+    "total_tokens": 2490,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":3,\"overall_score\":4.0,\"unsupported_claims\":[\"Nhận định rằng giá trị dự báo 61212.2 \\\"cao hơn so với giá trị tối đa ghi nhận (70462.0)\\\" mâu thuẫn với các số liệu được cung cấp, vì 61212.2 thấp hơn 70462.0.\"],\"reason_vi\":\"Explanation trả lời đúng tuyến, đơn vị vận hành, kỳ dự báo và nêu chính xác giá trị dự báo, phương pháp ensemble cùng trọng số/cửa sổ. Tuy nhiên, insight định lượng khẳng định 61212.2 cao hơn mức tối đa lịch sử 70462.0 là sai; dự báo thực tế thấp hơn mức này. Lỗi này làm giảm tính trung thực và giá trị diễn giải, dù so sánh với trung bình lịch sử là đúng. Trình bày nhìn chung rõ ràng, dễ theo dõi.\"}"
+  }
+}

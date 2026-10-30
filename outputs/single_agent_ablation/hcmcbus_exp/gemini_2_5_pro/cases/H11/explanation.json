@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử của 11 quý từ Quý 1 2022 đến Quý 3 2024 cho tuyến xe buýt 33, dự báo cho quý tiếp theo (Quý 4 2024) là khoảng 1.287.848.",
+  "insights": [
+    "Giá trị dự báo cho Quý 4 2024 (khoảng 1,29 triệu) cao hơn mức cao nhất trong lịch sử (khoảng 1,22 triệu) được ghi nhận trong 11 quý vừa qua, cho thấy một xu hướng tăng trưởng mạnh mẽ.",
+    "Mô hình dự báo tập trung nhiều hơn vào các xu hướng gần đây, với 60% trọng số của kết quả cuối cùng đến từ mô hình được huấn luyện trên 8 quý gần nhất."
+  ],
+  "chart_note": "Biểu đồ hiển thị 11 điểm dữ liệu lịch sử (màu xanh) và 1 điểm dự báo cho quý tiếp theo (màu cam). Dự báo được tạo ra bằng mô hình kết hợp (ensemble)."
+}

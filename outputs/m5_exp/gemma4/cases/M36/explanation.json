@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho M5 (HOUSEHOLD_1_135, TX_1, TX) trong 8 quý tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị sẽ tăng trưởng ổn định trong 8 quý tới. Giá trị dự báo bắt đầu từ 72.50 vào quý 2014-07-01 và tăng dần lên 92.50 vào quý 2016-04-01.",
+  "insights": [
+    "Xu hướng dự báo cho thấy sự tăng trưởng đều đặn qua các quý, với mức tăng khoảng 4.00 đơn vị mỗi quý.",
+    "Giá trị dự báo cuối cùng (2016-04-01) là 92.50, cao hơn mức trung bình lịch sử (104.07) nhưng thấp hơn mức tối đa lịch sử (277.0)."
+  ],
+  "chart_note": "Biểu đồ này được tạo bằng mô hình ensemble, sử dụng dữ liệu lịch sử qua các cửa sổ h12 và h14 để đưa ra dự báo cho 8 bước tiếp theo."
+}

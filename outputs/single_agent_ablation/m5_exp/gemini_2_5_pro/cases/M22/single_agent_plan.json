@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 7,
+  "filters": {
+    "item_id": "FOODS_1_097",
+    "store_id": "TX_3"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'FOODS_1_097' AND s.store_id = 'TX_3' GROUP BY c.date ORDER BY ds ASC",
+  "sql_explanation": "This query retrieves the historical daily sales (y) for the product 'FOODS_1_097' at the store 'TX_3', with each day's date as the timestamp (ds), to be used for forecasting."
+}

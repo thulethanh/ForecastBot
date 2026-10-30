@@ -1,0 +1,24 @@
+{
+  "case_id": "H34",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành và 3 quý dự báo. Các giá trị, ngày dự báo, thứ tự tăng và mức cao nhất đều khớp forecast. Thông tin 9 điểm lịch sử, phạm vi thời gian, chế độ ensemble và trọng số cũng khớp dữ liệu cung cấp. Nội dung rõ ràng, ngắn gọn; tuy nhiên có thể hữu ích hơn nếu nêu thêm mức tăng giữa các quý hoặc đặt dự báo trong bối cảnh min/max hay trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.076916833000723,
+    "input_tokens": 2277,
+    "output_tokens": 346,
+    "total_tokens": 2623,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành và 3 quý dự báo. Các giá trị, ngày dự báo, thứ tự tăng và mức cao nhất đều khớp forecast. Thông tin 9 điểm lịch sử, phạm vi thời gian, chế độ ensemble và trọng số cũng khớp dữ liệu cung cấp. Nội dung rõ ràng, ngắn gọn; tuy nhiên có thể hữu ích hơn nếu nêu thêm mức tăng giữa các quý hoặc đặt dự báo trong bối cảnh min/max hay trung bình lịch sử.\"}"
+  }
+}

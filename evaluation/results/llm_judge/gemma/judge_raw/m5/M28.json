@@ -1,0 +1,26 @@
+{
+  "case_id": "M28",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 61 điểm dữ liệu\" không được hỗ trợ: 61 điểm là phạm vi lịch sử khả dụng, trong khi kết quả chỉ cho biết các nhánh ensemble sử dụng cửa sổ h24 và h36."
+    ],
+    "reason_vi": "Giải thích trả lời trực tiếp đúng mặt hàng, cửa hàng và ba tháng dự báo; các giá trị, mức dao động và diễn biến giảm rồi tăng đều khớp forecast. Cách trình bày ngắn gọn, rõ ràng và nêu đúng ensemble cùng các cửa sổ h24, h36. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên toàn bộ 61 điểm dữ liệu không được cung cấp bằng chứng và không nên đồng nhất phạm vi lịch sử khả dụng với dữ liệu huấn luyện hay cửa sổ đầu vào. Giải thích hữu ích nhưng có thể bổ sung bối cảnh so sánh với lịch sử một cách thận trọng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.081442583003081,
+    "input_tokens": 2236,
+    "output_tokens": 363,
+    "total_tokens": 2599,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 61 điểm dữ liệu\\\" không được hỗ trợ: 61 điểm là phạm vi lịch sử khả dụng, trong khi kết quả chỉ cho biết các nhánh ensemble sử dụng cửa sổ h24 và h36.\"],\"reason_vi\":\"Giải thích trả lời trực tiếp đúng mặt hàng, cửa hàng và ba tháng dự báo; các giá trị, mức dao động và diễn biến giảm rồi tăng đều khớp forecast. Cách trình bày ngắn gọn, rõ ràng và nêu đúng ensemble cùng các cửa sổ h24, h36. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên toàn bộ 61 điểm dữ liệu không được cung cấp bằng chứng và không nên đồng nhất phạm vi lịch sử khả dụng với dữ liệu huấn luyện hay cửa sổ đầu vào. Giải thích hữu ích nhưng có thể bổ sung bối cảnh so sánh với lịch sử một cách thận trọng.\"}"
+  }
+}

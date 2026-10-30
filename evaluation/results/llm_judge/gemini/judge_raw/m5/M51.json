@@ -1,0 +1,26 @@
+{
+  "case_id": "M51",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Chart note khẳng định 52 điểm lịch sử \"được dùng để huấn luyện mô hình\". Thông tin cung cấp chỉ nêu các cửa sổ của hai nhánh dự báo (36 và 52 điểm), không xác nhận việc huấn luyện mô hình trên toàn bộ 52 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, kỳ hạn 12 tháng và nêu chính xác phạm vi lịch sử, trung bình, khoảng dự báo, tháng cao nhất/thấp nhất và trọng số ensemble. Trình bày rõ ràng, ngắn gọn. Tuy nhiên, chart note tự khẳng định toàn bộ 52 điểm được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cung cấp cửa sổ cho các nhánh dự báo và không xác nhận nội dung huấn luyện. Phần diễn giải sẽ hữu ích hơn nếu nêu thêm quỹ đạo giảm rồi phục hồi của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.446654667000985,
+    "input_tokens": 2604,
+    "output_tokens": 352,
+    "total_tokens": 2956,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Chart note khẳng định 52 điểm lịch sử \\\"được dùng để huấn luyện mô hình\\\". Thông tin cung cấp chỉ nêu các cửa sổ của hai nhánh dự báo (36 và 52 điểm), không xác nhận việc huấn luyện mô hình trên toàn bộ 52 điểm.\"],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, kỳ hạn 12 tháng và nêu chính xác phạm vi lịch sử, trung bình, khoảng dự báo, tháng cao nhất/thấp nhất và trọng số ensemble. Trình bày rõ ràng, ngắn gọn. Tuy nhiên, chart note tự khẳng định toàn bộ 52 điểm được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cung cấp cửa sổ cho các nhánh dự báo và không xác nhận nội dung huấn luyện. Phần diễn giải sẽ hữu ích hơn nếu nêu thêm quỹ đạo giảm rồi phục hồi của dự báo.\"}"
+  }
+}

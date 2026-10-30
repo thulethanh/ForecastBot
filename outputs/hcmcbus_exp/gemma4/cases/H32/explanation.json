@@ -1,0 +1,8 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 43, Cty-BaoYen) cho quý 4 năm 2024",
+  "summary_text": "Dựa trên dữ liệu lịch sử, giá trị dự báo cho quý 4 năm 2024 (2024-10-01) là 84604.0.",
+  "insights": [
+    "Giá trị dự báo 84604.0 cho quý 4 năm 2024 cao hơn mức trung bình lịch sử (81147.625) của 8 điểm dữ liệu được xem xét."
+  ],
+  "chart_note": "ForecastBot đã sử dụng 8 điểm dữ liệu lịch sử (từ 2022-04-01 đến 2024-07-01) để thực hiện dự báo này. Mô hình sử dụng chế độ single với trọng số ngắn hạn (short) là 0.6 và dài hạn (long) là 0.4."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M56",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 4 quý cho đúng sản phẩm và bang, nêu rõ các mốc thời gian cùng mức dự báo đầu-cuối. Mọi số liệu, xu hướng giảm nhẹ, chế độ ensemble, trọng số và thông tin cửa sổ đều khớp với dữ liệu được cung cấp. Phạm vi 18 điểm lịch sử cũng khớp history summary. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo lẫn diễn biến dự kiến."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.743286667042412,
+    "input_tokens": 2330,
+    "output_tokens": 330,
+    "total_tokens": 2660,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 4 quý cho đúng sản phẩm và bang, nêu rõ các mốc thời gian cùng mức dự báo đầu-cuối. Mọi số liệu, xu hướng giảm nhẹ, chế độ ensemble, trọng số và thông tin cửa sổ đều khớp với dữ liệu được cung cấp. Phạm vi 18 điểm lịch sử cũng khớp history summary. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo lẫn diễn biến dự kiến.\"}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 90 ngày cho HCMC_BUS với route_id=27 và operator=XKSG",
+  "summary_text": "ForecastBot dự báo giá trị sẽ tăng trong 90 ngày tới, từ 2024-10-03 đến 2024-12-31. Giá trị dự báo trung bình là 4902,0, cao hơn đáng kể so với trung bình lịch sử là 2711,1. Các giá trị dự báo dao động trong khoảng từ 2759,0 đến 6729,0.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng tăng rõ rệt trong 90 ngày. Giá trị trung bình dự báo cho 30 ngày cuối kỳ (5826,9) cao hơn đáng kể so với 30 ngày đầu kỳ (4106,5).",
+    "Dự báo thể hiện một quy luật theo tuần nhất quán, với các giá trị thường đạt đỉnh vào Thứ Hai (cao nhất là 6729,0 vào ngày 2024-12-30) và chạm đáy vào Chủ Nhật (thấp nhất là 2759,0 vào ngày 2024-10-06).",
+    "Giá trị dự báo cao nhất là 6729,0, vượt qua mức cao nhất trong lịch sử dữ liệu là 4021,0."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện (1006 điểm dữ liệu từ 2022-01-01 đến 2024-10-02) và dự báo của ForecastBot cho 90 ngày tiếp theo. Dự báo được tạo bằng chế độ short_only."
+}

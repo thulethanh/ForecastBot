@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 1,
+  "filters": {
+    "item_id": "FOODS_3_395",
+    "store_id": "CA_2",
+    "state_id": "CA"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_3_395' AND s.store_id = 'CA_2' AND s.state_id = 'CA' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "This query calculates the total monthly sales (y) for the product 'FOODS_3_395' at store 'CA_2' in state 'CA'. It joins the sales and calendar tables, aggregates sales by month, and filters for the specified item, store, and state."
+}

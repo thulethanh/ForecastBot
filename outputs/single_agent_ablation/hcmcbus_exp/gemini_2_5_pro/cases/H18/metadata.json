@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H18",
+  "question": "Trong 2 năm tới, lượng khách của tuyến 46 do HTX-ThanhSon vận hành sẽ như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 3,
+    "n_train": 1,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 3,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.0014862080570310354,
+    "request_sql": 13.152129500056617,
+    "sql_execution_and_repair": 0.01244870899245143,
+    "forecast": 8.459297415916808,
+    "explanation": 9.94609920901712,
+    "end_to_end": 31.571510499925353
+  },
+  "total_tokens": 5534,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 152, Cty-BaoYen) cho tháng 12 năm 2024 là 48,640. Giá trị này được tính toán thành công (status: success).",
+  "insights": [
+    "Dự báo được thực hiện dựa trên 24 điểm dữ liệu lịch sử, trải dài từ tháng 5 năm 2022 đến tháng 11 năm 2024.",
+    "Mô hình sử dụng phương pháp 'single' và áp dụng trọng số 0.6 cho dữ liệu ngắn hạn và 0.4 cho dữ liệu dài hạn.",
+    "Khoảng thời gian dự báo là 1 bước (horizon: 1), tương ứng với ngày 2024-12-01."
+  ],
+  "chart_note": "Đây là giá trị dự báo (yhat) cho tháng tiếp theo, không phải giá trị thực tế."
+}

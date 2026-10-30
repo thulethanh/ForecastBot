@@ -1,0 +1,13 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 6,
+  "filters": {
+    "item_id": "HOBBIES_1_264",
+    "state_id": "TX"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

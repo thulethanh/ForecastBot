@@ -1,0 +1,475 @@
+{
+  "case_id": "H06",
+  "question": "Trong 1 tháng tới, tuyến 28 do XKSG vận hành dự kiến phục vụ bao nhiêu lượt hành khách?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "forecast_request": {
+    "intent": "forecast_request",
+    "dataset": "HCMC_BUS",
+    "granularity": "month",
+    "horizon": 1,
+    "filters": {
+      "route_id": "28",
+      "operator": "XKSG"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": ""
+  },
+  "generated_sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '28' AND TRIM(d.operator) = 'XKSG' GROUP BY DATE_TRUNC('month', d.date) ORDER BY ds ASC",
+  "sql_explanation": "Truy vấn tính tổng số hành khách (y) theo tháng (ds) cho tuyến 28 của nhà khai thác XKSG.",
+  "sql_result": [
+    {
+      "ds": "2022-01-01",
+      "y": 18033
+    },
+    {
+      "ds": "2022-02-01",
+      "y": 23173
+    },
+    {
+      "ds": "2022-03-01",
+      "y": 37380
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 44220
+    },
+    {
+      "ds": "2022-05-01",
+      "y": 46772
+    },
+    {
+      "ds": "2022-06-01",
+      "y": 43569
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 44859
+    },
+    {
+      "ds": "2022-08-01",
+      "y": 44626
+    },
+    {
+      "ds": "2022-09-01",
+      "y": 54394
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 66894
+    },
+    {
+      "ds": "2022-11-01",
+      "y": 62815
+    },
+    {
+      "ds": "2022-12-01",
+      "y": 55945
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 35587
+    },
+    {
+      "ds": "2023-02-01",
+      "y": 49469
+    },
+    {
+      "ds": "2023-03-01",
+      "y": 58732
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 52333
+    },
+    {
+      "ds": "2023-05-01",
+      "y": 47179
+    },
+    {
+      "ds": "2023-06-01",
+      "y": 42335
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 44094
+    },
+    {
+      "ds": "2023-08-01",
+      "y": 45521
+    },
+    {
+      "ds": "2023-09-01",
+      "y": 58802
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 66638
+    },
+    {
+      "ds": "2023-11-01",
+      "y": 62209
+    },
+    {
+      "ds": "2023-12-01",
+      "y": 55894
+    },
+    {
+      "ds": "2024-01-01",
+      "y": 54000
+    },
+    {
+      "ds": "2024-02-01",
+      "y": 34403
+    },
+    {
+      "ds": "2024-03-01",
+      "y": 59043
+    },
+    {
+      "ds": "2024-04-01",
+      "y": 54330
+    },
+    {
+      "ds": "2024-05-01",
+      "y": 55555
+    },
+    {
+      "ds": "2024-06-01",
+      "y": 42879
+    },
+    {
+      "ds": "2024-07-01",
+      "y": 43724
+    },
+    {
+      "ds": "2024-08-01",
+      "y": 44405
+    },
+    {
+      "ds": "2024-09-01",
+      "y": 61419
+    },
+    {
+      "ds": "2024-10-01",
+      "y": 70462
+    },
+    {
+      "ds": "2024-11-01",
+      "y": 63413
+    },
+    {
+      "ds": "2024-12-01",
+      "y": 58759
+    }
+  ],
+  "historical_data_summary": {
+    "n_points": 36,
+    "start_date": "2022-01-01",
+    "end_date": "2024-12-01",
+    "min_y": 18033.0,
+    "max_y": 70462.0,
+    "mean_y": 50107.36111111111
+  },
+  "historical_n": 36,
+  "forecast_history": [
+    {
+      "ds": "2022-01-01",
+      "y": 18033
+    },
+    {
+      "ds": "2022-02-01",
+      "y": 23173
+    },
+    {
+      "ds": "2022-03-01",
+      "y": 37380
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 44220
+    },
+    {
+      "ds": "2022-05-01",
+      "y": 46772
+    },
+    {
+      "ds": "2022-06-01",
+      "y": 43569
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 44859
+    },
+    {
+      "ds": "2022-08-01",
+      "y": 44626
+    },
+    {
+      "ds": "2022-09-01",
+      "y": 54394
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 66894
+    },
+    {
+      "ds": "2022-11-01",
+      "y": 62815
+    },
+    {
+      "ds": "2022-12-01",
+      "y": 55945
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 35587
+    },
+    {
+      "ds": "2023-02-01",
+      "y": 49469
+    },
+    {
+      "ds": "2023-03-01",
+      "y": 58732
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 52333
+    },
+    {
+      "ds": "2023-05-01",
+      "y": 47179
+    },
+    {
+      "ds": "2023-06-01",
+      "y": 42335
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 44094
+    },
+    {
+      "ds": "2023-08-01",
+      "y": 45521
+    },
+    {
+      "ds": "2023-09-01",
+      "y": 58802
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 66638
+    },
+    {
+      "ds": "2023-11-01",
+      "y": 62209
+    },
+    {
+      "ds": "2023-12-01",
+      "y": 55894
+    },
+    {
+      "ds": "2024-01-01",
+      "y": 54000
+    },
+    {
+      "ds": "2024-02-01",
+      "y": 34403
+    },
+    {
+      "ds": "2024-03-01",
+      "y": 59043
+    },
+    {
+      "ds": "2024-04-01",
+      "y": 54330
+    },
+    {
+      "ds": "2024-05-01",
+      "y": 55555
+    },
+    {
+      "ds": "2024-06-01",
+      "y": 42879
+    },
+    {
+      "ds": "2024-07-01",
+      "y": 43724
+    },
+    {
+      "ds": "2024-08-01",
+      "y": 44405
+    },
+    {
+      "ds": "2024-09-01",
+      "y": 61419
+    },
+    {
+      "ds": "2024-10-01",
+      "y": 70462
+    },
+    {
+      "ds": "2024-11-01",
+      "y": 63413
+    }
+  ],
+  "test_artifact": {
+    "status": "available",
+    "evaluation_eligible": true,
+    "reason": null,
+    "horizon": 1,
+    "n_test": 1,
+    "test": [
+      {
+        "ds": "2024-12-01",
+        "y": 58759
+      }
+    ]
+  },
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 36,
+    "n_train": 35,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "forecast_result": {
+    "forecast": [
+      {
+        "step": 1,
+        "ds": "2024-12-01",
+        "yhat": 61212.2
+      }
+    ],
+    "status": "success",
+    "fallback_used": false,
+    "selected_mode": "ensemble",
+    "weights": {
+      "short": 0.6,
+      "long": 0.4
+    },
+    "window_info": {
+      "short_n": 24,
+      "long_n": 35,
+      "short_window_name": "h24",
+      "long_window_name": "h35"
+    }
+  },
+  "explanation_result": {
+    "title": "Dự báo HCMC_BUS (Tuyến 28, XKSG) cho tháng 12 năm 2024",
+    "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho tháng 12 năm 2024 (2024-12-01) là 61212.2.",
+    "insights": [
+      "Giá trị dự báo 61212.2 cho tháng 12 năm 2024 cao hơn mức trung bình lịch sử (49860.17) và cao hơn so với giá trị tối đa ghi nhận (70462.0).",
+      "Mô hình sử dụng phương pháp ensemble với trọng số 0.6 cho cửa sổ ngắn (h24) và 0.4 cho cửa sổ dài (h35)."
+    ],
+    "chart_note": "Bản đồ này hiển thị dự báo được tạo ra bằng mô hình ensemble, sử dụng 24 điểm dữ liệu gần nhất (h24) và 35 điểm dữ liệu lịch sử (h35) để dự đoán giá trị cho tháng 12 năm 2024."
+  },
+  "status": "success",
+  "timings": {
+    "orchestration": 45.32344158300111,
+    "load_schema": 0.0044904579990543425,
+    "sql_generation": 59.564513875004195,
+    "sql_execution_and_repair": 0.02087549999851035,
+    "forecast": 166.44952279199788,
+    "explanation": 58.70250137500261,
+    "end_to_end": 330.06543216700084
+  },
+  "traces": [
+    {
+      "stage": "orchestration",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the Orchestration Agent of ForecastBot. Interpret the ORIGINAL user request semantically. Do not use or assume regex/rule-based extraction.\n\nReturn STRICT JSON only with exactly these fields:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS\",\n  \"granularity\": \"day or month or quarter or year\",\n  \"horizon\": integer,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n\nCRITICAL OUTPUT CONTRACT:\n- intent MUST be exactly \"forecast_request\".\n- filters MUST ALWAYS be one JSON object/dictionary, NEVER a list/array.\n- Put every explicitly stated filter directly inside the filters object.\n- If no filter is explicitly stated, return \"filters\": {}.\n- Never represent filters as a list.\n\nCorrect:\n\"filters\": {\"item_id\": \"FOODS_3_228\"}\n\nCorrect with multiple filters:\n\"filters\": {\n  \"item_id\": \"FOODS_3_540\",\n  \"store_id\": \"CA_4\"\n}\n\nIncorrect:\n\"filters\": [{\"item_id\": \"FOODS_3_228\"}]\n\nIncorrect:\n\"filters\": [{\"field\": \"item_id\", \"value\": \"FOODS_3_228\"}]\n\nValid datasets: M5, HCMC_BUS.\n\nGranularity mapping:\n- ngày/day = day\n- tháng/month = month\n- quý/quarter = quarter\n- năm/year = year\n\nAllowed horizons:\n- day=[7,28,30,60,90]\n- month=[1,3,6,12,24]\n- quarter=[1,2,3,4,8,12]\n- year=[1,2,3,5,10]\n\nM5 filters:\n- item_id\n- store_id\n- state_id\n- cat_id\n- dept_id\n- id\n\nM5 examples:\n- FOODS_1_001 means item_id=\"FOODS_1_001\".\n- CA_1/TX_1/WI_1 mean store_id when explicitly stated as a store.\n- CA/TX/WI mean state_id when explicitly stated as a state.\n\nHCMC_BUS filters:\n- route_id\n- route_name\n- operator\n- vehicle_group\n- start_stop\n- end_stop\n\nHCMC_BUS examples and interpretation:\n- \"tuyến 55\" means route_id=\"55\".\n- \"tuyến số 55\" means route_id=\"55\".\n- \"tuyến xe buýt 55\" means route_id=\"55\".\n- \"tuyến bus 55\" means route_id=\"55\".\n- Generic words such as \"tuyến\", \"xe\", \"buýt\", \"buyt\", and \"bus\" must never become route_id.\n- route_id, operator, vehicle_group, route_name, start_stop, and end_stop are independent filters and may coexist when explicitly stated.\n- Example: \"Tuyến 19 do HTX-195 vận hành, với nhóm xe 4_CNG.1\" means:\n  {\"route_id\":\"19\",\"operator\":\"HTX-195\",\"vehicle_group\":\"4_CNG.1\"}\n\nExtract ALL explicitly stated filters independently.\nPreserve identifier punctuation such as _, -, and .\nNever invent a filter or value.\n\nIf a required field dataset/granularity/horizon cannot be inferred:\n- use null;\n- list it in missing_fields;\n- set needs_clarification=true;\n- write a concise Vietnamese clarification question in user_message_for_clarification.\n\nOtherwise:\n- missing_fields=[]\n- needs_clarification=false\n- user_message_for_clarification=\"\"\n\nIf a stated horizon is unsupported, choose the nearest allowed horizon for the inferred granularity.\n\nOriginal user query:\nTrong 1 tháng tới, tuyến 28 do XKSG vận hành dự kiến phục vụ bao nhiêu lượt hành khách?\n\nReturn STRICT JSON only. No markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"HCMC_BUS\",\n  \"granularity\": \"month\",\n  \"horizon\": 1,\n  \"filters\": {\n    \"route_id\": \"28\",\n    \"operator\": \"XKSG\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n```",
+      "input_tokens": 971,
+      "output_tokens": 624,
+      "total_tokens": 1595,
+      "llm_time_s": 45.323025375000725,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "sql_generate",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the SQL Agent of ForecastBot. Generate exactly one safe PostgreSQL SELECT for time-series history.\n\nForecast request:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"month\", \"horizon\": 1, \"filters\": {\"route_id\": \"28\", \"operator\": \"XKSG\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nSchema context:\n\nDataset: HCMC_BUS\n\nYou are working with a PostgreSQL database for HCMC bus passenger forecasting.\n\n1. Table: daily_passenger_stats\n- date (DATE): Operating date and forecasting time axis\n- route_id (TEXT): Route identifier\n- operator (TEXT): Transport operator\n- vehicle_group (TEXT): Vehicle group\n- trips (INTEGER): Number of operated trips\n- buses (INTEGER): Number of buses\n- total_passengers (INTEGER): Total number of passengers and forecasting target\n\n2. Table: bus_routes\n- route_id (TEXT): Route identifier\n- route_name (TEXT): Route name\n- start_stop (TEXT): Start stop\n- end_stop (TEXT): End stop\n- distance_km (NUMERIC): Route distance in kilometres\n\nRelationship:\n- daily_passenger_stats.route_id = bus_routes.route_id\n\nBusiness meaning:\n- daily_passenger_stats is the forecasting fact table.\n- date is the true time axis.\n- total_passengers is the forecasting target.\n- bus_routes is a dimension table used for route filtering and description.\n\n\nSQL rules:\n\n- Use daily_passenger_stats as the fact table with alias d.\n- Join bus_routes as alias r only when route_name, start_stop or end_stop is required.\n- Join condition: d.route_id = r.route_id.\n- Always return exactly two columns: ds and y.\n- For day granularity, use d.date AS ds.\n- For month granularity, use DATE_TRUNC('month', d.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', d.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', d.date)::date AS ds.\n- Aggregate the forecasting target with SUM(d.total_passengers) AS y.\n- Support fact filters on route_id, operator, vehicle_group and date.\n- Route attributes route_name, start_stop and end_stop belong to bus_routes and require a join.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n- The source values of operator and vehicle_group may contain leading or trailing whitespace.\n- When filtering by operator, always apply TRIM to the database column: TRIM(d.operator).\n- When filtering by vehicle_group, always apply TRIM to the database column: TRIM(d.vehicle_group).\n- Compare trimmed operator and vehicle_group values using exact equality (=), unless the user explicitly requests partial or pattern matching.\n- route_id, operator and vehicle_group are independent fact filters and may be applied together in the same WHERE clause.\n\n\nRequirements:\n- Follow the supplied schema context and SQL rules.\n- Apply ALL filters in forecast_request.\n- Return exactly two columns: ds and y.\n- Sort ds ascending.\n- Use only described tables and columns.\n- Generate only one SELECT statement; no write or DDL statements.\n\nReturn JSON only:\n{\"status\":\"success\",\"sql\":\"SELECT ...\",\"explanation\":\"short Vietnamese explanation\"}.",
+      "raw_response": "```json\n{\n  \"status\": \"success\",\n  \"sql\": \"SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '28' AND TRIM(d.operator) = 'XKSG' GROUP BY DATE_TRUNC('month', d.date) ORDER BY ds ASC\",\n  \"explanation\": \"Truy vấn tính tổng số hành khách (y) theo tháng (ds) cho tuyến 28 của nhà khai thác XKSG.\"\n}\n```",
+      "input_tokens": 809,
+      "output_tokens": 848,
+      "total_tokens": 1657,
+      "llm_time_s": 59.564253542004735,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_short",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive MONTHLY observations for one time series, ordered from oldest to newest.\nThis is the supplied recent-history window. Use only these past observations.\n\nHistory:\n[55945.0, 35587.0, 49469.0, 58732.0, 52333.0, 47179.0, 42335.0, 44094.0, 45521.0, 58802.0, 66638.0, 62209.0, 55894.0, 54000.0, 34403.0, 59043.0, 54330.0, 55555.0, 42879.0, 43724.0, 44405.0, 61419.0, 70462.0, 63413.0]\n\nTask:\nForecast the next exactly 1 MONTHLY values.\n\nRequirements:\n1. Return exactly 1 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f1]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 24",
+      "raw_response": "```json\n{\n\"forecast\": [59925.0]\n}\n```",
+      "input_tokens": 395,
+      "output_tokens": 889,
+      "total_tokens": 1284,
+      "llm_time_s": 59.505379125002946,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_long",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive MONTHLY observations for one time series, ordered from oldest to newest.\nThis is the supplied longer-history window. Use only these past observations.\n\nHistory:\n[18033.0, 23173.0, 37380.0, 44220.0, 46772.0, 43569.0, 44859.0, 44626.0, 54394.0, 66894.0, 62815.0, 55945.0, 35587.0, 49469.0, 58732.0, 52333.0, 47179.0, 42335.0, 44094.0, 45521.0, 58802.0, 66638.0, 62209.0, 55894.0, 54000.0, 34403.0, 59043.0, 54330.0, 55555.0, 42879.0, 43724.0, 44405.0, 61419.0, 70462.0, 63413.0]\n\nTask:\nForecast the next exactly 1 MONTHLY values.\n\nRequirements:\n1. Return exactly 1 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f1]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 35",
+      "raw_response": "```json\n{\n\"forecast\": [63143.0]\n}\n```",
+      "input_tokens": 494,
+      "output_tokens": 1562,
+      "total_tokens": 2056,
+      "llm_time_s": 106.9431220829938,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "explanation",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the Explanation Agent of ForecastBot. Explain the forecast result in concise, clear Vietnamese.\n\nAll user-facing values in \"title\", \"summary_text\", \"insights\", and \"chart_note\" must be written in Vietnamese, except identifiers, dataset names, model names, product names, and technical terms that should remain unchanged.\n\nUse ONLY the supplied:\n- forecast request,\n- historical summary,\n- forecast result.\n\nDo not invent causes, external facts, unseen actual values, ground truth, test data, backtesting results, or accuracy metrics.\nDo not mention MAE, RMSE, evaluation eligibility, or whether actual future observations are available.\nPrefer quantitative descriptions supported directly by the supplied values; avoid unsupported qualitative claims unless explicitly justified by the supplied statistics.\n\nThe chart_note must describe only the training history and forecast produced by ForecastBot. Do not mention held-out actual/test values because they are not supplied to this agent.\n\nForecast request: {\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"month\", \"horizon\": 1, \"filters\": {\"route_id\": \"28\", \"operator\": \"XKSG\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\nHistorical summary: {\"n_points\": 35, \"start_date\": \"2022-01-01\", \"end_date\": \"2024-11-01\", \"min_y\": 18033.0, \"max_y\": 70462.0, \"mean_y\": 49860.171428571426}\nForecast result: {\"forecast\": [{\"step\": 1, \"ds\": \"2024-12-01\", \"yhat\": 61212.2}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"ensemble\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 24, \"long_n\": 35, \"short_window_name\": \"h24\", \"long_window_name\": \"h35\"}}\n\nReturn STRICT JSON only with exactly:\n{\"title\":\"...\",\"summary_text\":\"...\",\"insights\":[\"...\"],\"chart_note\":\"...\"}.\nNo markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"title\": \"Dự báo HCMC_BUS (Tuyến 28, XKSG) cho tháng 12 năm 2024\",\n  \"summary_text\": \"Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho tháng 12 năm 2024 (2024-12-01) là 61212.2.\",\n  \"insights\": [\n    \"Giá trị dự báo 61212.2 cho tháng 12 năm 2024 cao hơn mức trung bình lịch sử (49860.17) và cao hơn so với giá trị tối đa ghi nhận (70462.0).\",\n    \"Mô hình sử dụng phương pháp ensemble với trọng số 0.6 cho cửa sổ ngắn (h24) và 0.4 cho cửa sổ dài (h35).\"\n  ],\n  \"chart_note\": \"Bản đồ này hiển thị dự báo được tạo ra bằng mô hình ensemble, sử dụng 24 điểm dữ liệu gần nhất (h24) và 35 điểm dữ liệu lịch sử (h35) để dự đoán giá trị cho tháng 12 năm 2024.\"\n}\n```",
+      "input_tokens": 558,
+      "output_tokens": 865,
+      "total_tokens": 1423,
+      "llm_time_s": 58.702114957995946,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    }
+  ],
+  "total_tokens": 8015,
+  "chart_status": "success",
+  "chart_error": ""
+}

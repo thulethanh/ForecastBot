@@ -1,0 +1,24 @@
+{
+  "case_id": "H57",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 8 quý cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, số bước, mức dự báo 132,674.33, trạng thái không đổi, chế độ single, trọng số và 9 điểm lịch sử đều phù hợp với thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn, giúp người dùng hiểu mức dự báo và xu hướng đi ngang trong toàn bộ giai đoạn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.170828040922061,
+    "input_tokens": 2444,
+    "output_tokens": 263,
+    "total_tokens": 2707,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 8 quý cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, số bước, mức dự báo 132,674.33, trạng thái không đổi, chế độ single, trọng số và 9 điểm lịch sử đều phù hợp với thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn, giúp người dùng hiểu mức dự báo và xu hướng đi ngang trong toàn bộ giai đoạn.\"}"
+  }
+}

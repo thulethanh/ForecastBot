@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H48",
+  "question": "Hãy dự báo nhu cầu hành khách của tuyến 152 do Cty-BaoYen vận hành trong 1 tháng sắp tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 25,
+    "n_train": 24,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.023910832940600812,
+    "request_sql": 52.55671191611327,
+    "sql_execution_and_repair": 0.059380333055742085,
+    "forecast": 99.5044469590066,
+    "explanation": 62.9504981249338,
+    "end_to_end": 215.09524233301636
+  },
+  "total_tokens": 5232,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 8,
+  "filters": {
+    "route_id": "107",
+    "operator": "HTX-195",
+    "vehicle_group": "2B.1_ML"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '107' AND TRIM(d.operator) = 'HTX-195' AND TRIM(d.vehicle_group) = '2B.1_ML' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "This SQL query aggregates the total number of passengers (`total_passengers`) by quarter (`ds`) from the `daily_passenger_stats` table. It filters the data for route '107', operator 'HTX-195', and vehicle group '2B.1_ML'."
+}

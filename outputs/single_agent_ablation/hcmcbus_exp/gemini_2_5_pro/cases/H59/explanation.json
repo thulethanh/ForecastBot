@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2023 cho tuyến xe buýt 87, dự báo cho năm 2024 là 469.013.",
+  "insights": [
+    "Dữ liệu lịch sử cho thấy một xu hướng tăng, từ 330.017 trong năm 2022 lên 399.515 trong năm 2023.",
+    "Mô hình dự báo đã ngoại suy từ xu hướng tăng trưởng được quan sát trong hai điểm dữ liệu lịch sử này."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử hàng năm (2 điểm) và giá trị dự báo cho 1 năm tiếp theo."
+}

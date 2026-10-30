@@ -1,0 +1,24 @@
+{
+  "case_id": "H53",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho Tuyến 77, HTX 26 và nêu đúng giá trị, thời điểm dự báo. Các thông tin về ensemble, trọng số 60%/40%, cửa sổ h8/h11, 11 điểm lịch sử và phạm vi lịch sử đều phù hợp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và có lưu ý hợp lý rằng đây không phải giá trị thực tế tương lai. Tuy nhiên, phần diễn giải chưa giúp người dùng thấy rõ mức dự báo thấp/cao như thế nào so với lịch sử hoặc xu hướng biến động đáng chú ý."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.709480082965456,
+    "input_tokens": 2180,
+    "output_tokens": 301,
+    "total_tokens": 2481,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho Tuyến 77, HTX 26 và nêu đúng giá trị, thời điểm dự báo. Các thông tin về ensemble, trọng số 60%/40%, cửa sổ h8/h11, 11 điểm lịch sử và phạm vi lịch sử đều phù hợp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và có lưu ý hợp lý rằng đây không phải giá trị thực tế tương lai. Tuy nhiên, phần diễn giải chưa giúp người dùng thấy rõ mức dự báo thấp/cao như thế nào so với lịch sử hoặc xu hướng biến động đáng chú ý.\"}"
+  }
+}

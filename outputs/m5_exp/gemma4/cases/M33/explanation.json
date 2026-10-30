@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOBBIES_1_349 tại TX_2 (M5) trong năm 2016",
+  "summary_text": "Dự báo cho hai quý năm 2016 cho thấy giá trị dự kiến (yhat) là 0.0.",
+  "insights": [
+    "Dự báo được thực hiện bằng chế độ \"ensemble\", kết hợp trọng số 0.6 từ mô hình short (h8) và 0.4 từ mô hình long (h12).",
+    "Giá trị dự báo cho quý 1 năm 2016 là 0.0.",
+    "Giá trị dự báo cho quý 2 năm 2016 là 0.0."
+  ],
+  "chart_note": "Dự báo được tạo ra bằng chế độ \"ensemble\", kết hợp mô hình short (h8) và mô hình long (h12)."
+}

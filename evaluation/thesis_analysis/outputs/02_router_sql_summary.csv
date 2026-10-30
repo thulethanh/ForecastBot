@@ -1,0 +1,5 @@
+﻿Bộ dữ liệu,Mô hình,Tổng số yêu cầu,Router đúng,Router - Tỷ lệ khớp hoàn toàn (%),Số trường hợp vào SQL sau Router đúng,SQL đúng,SQL - Độ chính xác truy xuất có điều kiện (%)
+M5,Gemini 2.5 Pro,63,60,95.24,60,60,100.0
+HCMC Bus,Gemini 2.5 Pro,63,60,95.24,60,60,100.0
+M5,Gemma4 (gemma4:e4b),63,63,100.0,63,63,100.0
+HCMC Bus,Gemma4 (gemma4:e4b),63,61,96.83,61,61,100.0

@@ -1,0 +1,26 @@
+{
+  "case_id": "M51",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện mô hình bao gồm 52 điểm dữ liệu\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết 52 điểm lịch sử khả dụng và cửa sổ dài 52 điểm, không xác nhận việc huấn luyện mô hình trên toàn bộ phạm vi này."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu về sản phẩm, cửa hàng, kỳ hạn 12 tháng và mô tả đúng xu hướng tăng từ 31.6 lên 49.2. Thông tin ensemble, trọng số và kích thước các cửa sổ cũng khớp kết quả dự báo. Nội dung rõ ràng, gọn và giúp hiểu mức dự báo cùng xu hướng chính. Tuy nhiên, câu khẳng định 52 điểm được dùng để “huấn luyện mô hình” vượt quá bằng chứng được cung cấp; dữ liệu chỉ nêu phạm vi lịch sử và các cửa sổ dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.965866041951813,
+    "input_tokens": 2618,
+    "output_tokens": 340,
+    "total_tokens": 2958,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện mô hình bao gồm 52 điểm dữ liệu\\\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết 52 điểm lịch sử khả dụng và cửa sổ dài 52 điểm, không xác nhận việc huấn luyện mô hình trên toàn bộ phạm vi này.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu về sản phẩm, cửa hàng, kỳ hạn 12 tháng và mô tả đúng xu hướng tăng từ 31.6 lên 49.2. Thông tin ensemble, trọng số và kích thước các cửa sổ cũng khớp kết quả dự báo. Nội dung rõ ràng, gọn và giúp hiểu mức dự báo cùng xu hướng chính. Tuy nhiên, câu khẳng định 52 điểm được dùng để “huấn luyện mô hình” vượt quá bằng chứng được cung cấp; dữ liệu chỉ nêu phạm vi lịch sử và các cửa sổ dự báo.\"}"
+  }
+}

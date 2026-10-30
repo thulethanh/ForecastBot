@@ -1,0 +1,26 @@
+{
+  "case_id": "H38",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định có \"xu hướng theo mùa rõ rệt\" không được history summary hỗ trợ, vì phần tóm tắt không cung cấp diễn biến theo từng tháng để xác lập tính mùa vụ."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng tuyến và đơn vị vận hành; nêu đúng phạm vi lịch sử 24 tháng, kỳ dự báo và tháng cao điểm. Các số liệu tháng 10 (khoảng 86.912) và so sánh với mức lịch sử cao nhất 84.964 đều khớp forecast và history summary. Tuy nhiên, mô tả đây là xu hướng mùa vụ rõ rệt chưa có bằng chứng trực tiếp từ summary lịch sử, dù forecast thể hiện mức tăng trong giai đoạn tháng 9–11. Trình bày ngắn gọn, rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.157639542012475,
+    "input_tokens": 2531,
+    "output_tokens": 376,
+    "total_tokens": 2907,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định có \\\"xu hướng theo mùa rõ rệt\\\" không được history summary hỗ trợ, vì phần tóm tắt không cung cấp diễn biến theo từng tháng để xác lập tính mùa vụ.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng tuyến và đơn vị vận hành; nêu đúng phạm vi lịch sử 24 tháng, kỳ dự báo và tháng cao điểm. Các số liệu tháng 10 (khoảng 86.912) và so sánh với mức lịch sử cao nhất 84.964 đều khớp forecast và history summary. Tuy nhiên, mô tả đây là xu hướng mùa vụ rõ rệt chưa có bằng chứng trực tiếp từ summary lịch sử, dù forecast thể hiện mức tăng trong giai đoạn tháng 9–11. Trình bày ngắn gọn, rõ ràng và hữu ích.\"}"
+  }
+}

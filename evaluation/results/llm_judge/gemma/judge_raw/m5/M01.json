@@ -1,0 +1,24 @@
+{
+  "case_id": "M01",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 4.25,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation trả lời trực tiếp cho mặt hàng, 7 ngày dự báo, khoảng ngày và mức dự báo. Các thông tin về fallback, deterministic_recent_mean, trọng số 0.6/0.4 và cửa sổ h180/h365 đều khớp kết quả dự báo. Phạm vi dữ liệu lịch sử nêu trong chart_note cũng khớp history summary. Trình bày ngắn gọn, rõ ràng. Tuy vậy, tính hữu ích còn cơ bản vì chưa nêu rõ dự báo giữ nguyên 52.5714 ở cả 7 ngày, chưa đặt mức này trong bối cảnh lịch sử như mức trung bình hoặc biên độ biến động."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.766968541996903,
+    "input_tokens": 2321,
+    "output_tokens": 278,
+    "total_tokens": 2599,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":5,\"clarity\":5,\"usefulness\":3,\"overall_score\":4.25,\"unsupported_claims\":[],\"reason_vi\":\"Explanation trả lời trực tiếp cho mặt hàng, 7 ngày dự báo, khoảng ngày và mức dự báo. Các thông tin về fallback, deterministic_recent_mean, trọng số 0.6/0.4 và cửa sổ h180/h365 đều khớp kết quả dự báo. Phạm vi dữ liệu lịch sử nêu trong chart_note cũng khớp history summary. Trình bày ngắn gọn, rõ ràng. Tuy vậy, tính hữu ích còn cơ bản vì chưa nêu rõ dự báo giữ nguyên 52.5714 ở cả 7 ngày, chưa đặt mức này trong bối cảnh lịch sử như mức trung bình hoặc biên độ biến động.\"}"
+  }
+}

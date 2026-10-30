@@ -1,0 +1,24 @@
+{
+  "case_id": "M27",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo một tháng cho đúng sản phẩm và cửa hàng, nêu chính xác thời điểm cùng giá trị 29.4. Thông tin về ensemble, trọng số 0.6/0.4, các cửa sổ h24/h36, phạm vi 63 điểm lịch sử và trung bình 24.79 đều được dữ liệu cung cấp hỗ trợ. So sánh dự báo cao hơn trung bình lịch sử giúp diễn giải mức dự báo rõ hơn. Nội dung mạch lạc, ngắn gọn; tuy nhiên có thể hữu ích hơn nếu nêu thêm mức biến động lịch sử hoặc lưu ý rằng đây là một dự báo đơn kỳ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.868942250002874,
+    "input_tokens": 2162,
+    "output_tokens": 271,
+    "total_tokens": 2433,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo một tháng cho đúng sản phẩm và cửa hàng, nêu chính xác thời điểm cùng giá trị 29.4. Thông tin về ensemble, trọng số 0.6/0.4, các cửa sổ h24/h36, phạm vi 63 điểm lịch sử và trung bình 24.79 đều được dữ liệu cung cấp hỗ trợ. So sánh dự báo cao hơn trung bình lịch sử giúp diễn giải mức dự báo rõ hơn. Nội dung mạch lạc, ngắn gọn; tuy nhiên có thể hữu ích hơn nếu nêu thêm mức biến động lịch sử hoặc lưu ý rằng đây là một dự báo đơn kỳ.\"}"
+  }
+}

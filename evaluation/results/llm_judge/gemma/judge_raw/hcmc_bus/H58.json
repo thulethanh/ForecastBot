@@ -1,0 +1,24 @@
+{
+  "case_id": "H58",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và đơn vị vận hành. Các mốc lịch sử, số điểm dữ liệu, khoảng dự báo, giá trị đầu/cuối và mức tăng 62.161 đều khớp với dữ liệu được cung cấp. Nhận định xu hướng tăng liên tục và ổn định được hỗ trợ trực tiếp bởi dãy dự báo tăng đều qua từng quý. Thông tin về chế độ single và trọng số cũng khớp kết quả forecast. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được mức dự báo cùng xu hướng chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.824727958999574,
+    "input_tokens": 2602,
+    "output_tokens": 298,
+    "total_tokens": 2900,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và đơn vị vận hành. Các mốc lịch sử, số điểm dữ liệu, khoảng dự báo, giá trị đầu/cuối và mức tăng 62.161 đều khớp với dữ liệu được cung cấp. Nhận định xu hướng tăng liên tục và ổn định được hỗ trợ trực tiếp bởi dãy dự báo tăng đều qua từng quý. Thông tin về chế độ single và trọng số cũng khớp kết quả forecast. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được mức dự báo cùng xu hướng chính.\"}"
+  }
+}

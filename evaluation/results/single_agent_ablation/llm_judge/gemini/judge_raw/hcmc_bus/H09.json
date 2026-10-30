@@ -1,0 +1,26 @@
+{
+  "case_id": "H09",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định có \"sự biến động theo mùa rõ rệt\" và một \"mô hình theo mùa\" chưa được chứng minh rõ từ history summary, vốn chỉ cung cấp các thống kê tổng quát; forecast chỉ cho thấy mẫu biến động trong một năm dự báo."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà vận hành, tần suất tháng và kỳ hạn 12 tháng. Các mốc thời gian, giá trị cao nhất tháng 10 (~76.032) và thấp nhất tháng 1 (~37.220) đều khớp forecast; phạm vi lịch sử 24 tháng cũng phù hợp dữ liệu cung cấp. Nội dung rõ ràng và hữu ích khi nêu mức dự báo cùng diễn biến cuối năm. Tuy nhiên, việc khẳng định tính mùa vụ rõ rệt là hơi mạnh vì summary không cung cấp chuỗi lịch sử chi tiết để xác nhận mẫu lặp lại."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.218940082937479,
+    "input_tokens": 2566,
+    "output_tokens": 440,
+    "total_tokens": 3006,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định có \\\"sự biến động theo mùa rõ rệt\\\" và một \\\"mô hình theo mùa\\\" chưa được chứng minh rõ từ history summary, vốn chỉ cung cấp các thống kê tổng quát; forecast chỉ cho thấy mẫu biến động trong một năm dự báo.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà vận hành, tần suất tháng và kỳ hạn 12 tháng. Các mốc thời gian, giá trị cao nhất tháng 10 (~76.032) và thấp nhất tháng 1 (~37.220) đều khớp forecast; phạm vi lịch sử 24 tháng cũng phù hợp dữ liệu cung cấp. Nội dung rõ ràng và hữu ích khi nêu mức dự báo cùng diễn biến cuối năm. Tuy nhiên, việc khẳng định tính mùa vụ rõ rệt là hơi mạnh vì summary không cung cấp chuỗi lịch sử chi tiết để xác nhận mẫu lặp lại.\"}"
+  }
+}

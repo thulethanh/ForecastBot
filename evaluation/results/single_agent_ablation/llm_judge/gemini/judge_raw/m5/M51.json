@@ -1,0 +1,27 @@
+{
+  "case_id": "M51",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"xu hướng giảm gần đây của doanh số dự kiến sẽ tiếp tục\" không được hỗ trợ trực tiếp, vì history summary chỉ cung cấp thống kê tổng hợp chứ không nêu xu hướng gần đây.",
+      "\"Một mô hình thời vụ được dự đoán\" không có bằng chứng đủ rõ từ history summary hoặc một chu kỳ dự báo 12 tháng."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 12 tháng và nêu chính xác khoảng dự báo 0,0–9,4 so với trung bình lịch sử khoảng 21,0. Các mốc cao nhất tháng 3 và thấp nhất tháng 10 cũng khớp forecast. Tuy nhiên, phần giải thích suy ra xu hướng giảm gần đây và tính thời vụ, trong khi tóm tắt lịch sử không cung cấp diễn biến theo thời gian hay bằng chứng mùa vụ. Trình bày rõ ràng, ngắn gọn và hữu ích để hiểu mức dự báo, nhưng nên diễn đạt hai suy luận này thận trọng hơn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.081760208006017,
+    "input_tokens": 2552,
+    "output_tokens": 352,
+    "total_tokens": 2904,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"xu hướng giảm gần đây của doanh số dự kiến sẽ tiếp tục\\\" không được hỗ trợ trực tiếp, vì history summary chỉ cung cấp thống kê tổng hợp chứ không nêu xu hướng gần đây.\",\"\\\"Một mô hình thời vụ được dự đoán\\\" không có bằng chứng đủ rõ từ history summary hoặc một chu kỳ dự báo 12 tháng.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 12 tháng và nêu chính xác khoảng dự báo 0,0–9,4 so với trung bình lịch sử khoảng 21,0. Các mốc cao nhất tháng 3 và thấp nhất tháng 10 cũng khớp forecast. Tuy nhiên, phần giải thích suy ra xu hướng giảm gần đây và tính thời vụ, trong khi tóm tắt lịch sử không cung cấp diễn biến theo thời gian hay bằng chứng mùa vụ. Trình bày rõ ràng, ngắn gọn và hữu ích để hiểu mức dự báo, nhưng nên diễn đạt hai suy luận này thận trọng hơn.\"}"
+  }
+}

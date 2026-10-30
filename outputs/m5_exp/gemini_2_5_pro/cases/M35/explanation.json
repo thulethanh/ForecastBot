@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id HOBBIES_2_115 trong 4 quý tới",
+  "summary_text": "Dựa trên 18 điểm dữ liệu lịch sử hàng quý từ 2011-01-01 đến 2015-04-01 (giá trị trung bình: 424.9), ForecastBot dự báo giá trị sẽ tăng lên 695.4 vào 2015-10-01 trước khi giảm trong các quý tiếp theo.",
+  "insights": [
+    "Các giá trị dự báo cho 4 quý tới dao động từ 509.2 đến 695.4.",
+    "Giá trị dự báo cao nhất là 695.4 vào 2015-10-01, cao hơn mức cao nhất trong lịch sử (655.0).",
+    "Dự báo được tạo bằng mô hình `ensemble`, kết hợp 60% từ mô hình ngắn hạn (`h8`) và 40% từ mô hình dài hạn (`h12`)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (18 điểm, từ 2011-01-01 đến 2015-04-01) và các giá trị dự báo của ForecastBot cho 4 quý tiếp theo."
+}

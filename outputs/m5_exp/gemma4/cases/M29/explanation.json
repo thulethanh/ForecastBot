@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOBBIES_1_264 tại TX trong 6 tháng tới",
+  "summary_text": "Dự báo cho thấy giá trị sẽ bắt đầu ở mức 48.0 vào tháng 11 năm 2015, đạt mức cao nhất 49.4 vào tháng 12 năm 2015. Sau đó, giá trị dự báo có xu hướng giảm nhẹ, kết thúc ở mức 45.4 vào tháng 4 năm 2016.",
+  "insights": [
+    "Giá trị dự báo cao nhất trong 6 tháng là 49.4 (tháng 12 năm 2015).",
+    "Giá trị dự báo thấp nhất là 45.4 (tháng 4 năm 2016)."
+  ],
+  "chart_note": "Biểu đồ này được tạo bằng mô hình ensemble, sử dụng trọng số 0.6 cho h24 và 0.4 cho h36."
+}

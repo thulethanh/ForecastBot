@@ -1,0 +1,57 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2014-07-01",
+      "yhat": 135.0
+    },
+    {
+      "step": 2,
+      "ds": "2014-10-01",
+      "yhat": 142.6
+    },
+    {
+      "step": 3,
+      "ds": "2015-01-01",
+      "yhat": 149.8
+    },
+    {
+      "step": 4,
+      "ds": "2015-04-01",
+      "yhat": 156.6
+    },
+    {
+      "step": 5,
+      "ds": "2015-07-01",
+      "yhat": 163.0
+    },
+    {
+      "step": 6,
+      "ds": "2015-10-01",
+      "yhat": 169.4
+    },
+    {
+      "step": 7,
+      "ds": "2016-01-01",
+      "yhat": 175.8
+    },
+    {
+      "step": 8,
+      "ds": "2016-04-01",
+      "yhat": 182.2
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "ensemble",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 12,
+    "long_n": 14,
+    "short_window_name": "h12",
+    "long_window_name": "h14"
+  }
+}

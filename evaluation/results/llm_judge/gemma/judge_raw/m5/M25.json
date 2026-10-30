@@ -1,0 +1,26 @@
+{
+  "case_id": "M25",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1853 điểm dữ liệu\" không được hỗ trợ: history_summary chỉ nêu phạm vi dữ liệu lịch sử khả dụng, còn forecast_result chỉ cho biết các cửa sổ h180 và h365; không có thông tin về huấn luyện mô hình trên toàn bộ 1853 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, bang, chân trời 60 ngày, khoảng ngày và mức dự báo phẳng 2.4286. Thông tin về phương pháp, trọng số và các cửa sổ cũng khớp forecast_result; phần biểu đồ mô tả đúng phạm vi lịch sử khả dụng. Tuy nhiên, câu khẳng định 1853 điểm được dùng để huấn luyện là không có căn cứ trong dữ liệu cung cấp và không nên đồng nhất phạm vi lịch sử với dữ liệu huấn luyện. Nội dung còn lại rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.141549958003452,
+    "input_tokens": 4197,
+    "output_tokens": 347,
+    "total_tokens": 4544,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1853 điểm dữ liệu\\\" không được hỗ trợ: history_summary chỉ nêu phạm vi dữ liệu lịch sử khả dụng, còn forecast_result chỉ cho biết các cửa sổ h180 và h365; không có thông tin về huấn luyện mô hình trên toàn bộ 1853 điểm.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, bang, chân trời 60 ngày, khoảng ngày và mức dự báo phẳng 2.4286. Thông tin về phương pháp, trọng số và các cửa sổ cũng khớp forecast_result; phần biểu đồ mô tả đúng phạm vi lịch sử khả dụng. Tuy nhiên, câu khẳng định 1853 điểm được dùng để huấn luyện là không có căn cứ trong dữ liệu cung cấp và không nên đồng nhất phạm vi lịch sử với dữ liệu huấn luyện. Nội dung còn lại rõ ràng và hữu ích.\"}"
+  }
+}

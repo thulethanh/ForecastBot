@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 90 ngày tới về số lượng chuyến đi hàng ngày cho tuyến xe buýt số 1 do Cty-BaoYen vận hành, dựa trên dữ liệu lịch sử từ 01-05-2022 đến 02-10-2024. Giá trị trung bình trong lịch sử là khoảng 2,164.",
+  "insights": [
+    "Dự báo cho thấy một quy luật hàng tuần rất rõ ràng. Các giá trị được dự báo sẽ cao hơn đáng kể vào các ngày trong tuần (Thứ Hai đến Thứ Sáu) so với cuối tuần.",
+    "Các ngày Chủ Nhật được dự báo sẽ có giá trị thấp nhất trong tuần (khoảng 1,720), trong khi các ngày trong tuần dao động trong khoảng từ 2,668 đến 2,740, cao hơn mức trung bình lịch sử."
+  ],
+  "chart_note": "Biểu đồ này hiển thị các giá trị lịch sử được sử dụng cho việc phân tích và các giá trị dự báo cho 90 ngày tiếp theo."
+}

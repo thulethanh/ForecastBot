@@ -1,0 +1,24 @@
+{
+  "case_id": "H47",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 2,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 1,
+    "overall_score": 3.25,
+    "unsupported_claims": [],
+    "reason_vi": "Phần giải thích chỉ xác nhận hệ thống đã tạo dự báo và cho biết diễn giải LLM không khả dụng. Nội dung không mâu thuẫn với kết quả; chart_note mô tả chung việc hiển thị lịch sử và dự báo nên không có khẳng định không được hỗ trợ. Tuy nhiên, giải thích không nêu mức dự báo 3.734,6, tính ổn định xuyên suốt 90 ngày, phạm vi thời gian, hay ý nghĩa thực tế, nên mức độ liên quan và hữu ích thấp dù trình bày rõ ràng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.372270749998279,
+    "input_tokens": 5116,
+    "output_tokens": 242,
+    "total_tokens": 5358,
+    "raw_response": "{\"relevance\":2,\"faithfulness\":5,\"clarity\":5,\"usefulness\":1,\"overall_score\":3.25,\"unsupported_claims\":[],\"reason_vi\":\"Phần giải thích chỉ xác nhận hệ thống đã tạo dự báo và cho biết diễn giải LLM không khả dụng. Nội dung không mâu thuẫn với kết quả; chart_note mô tả chung việc hiển thị lịch sử và dự báo nên không có khẳng định không được hỗ trợ. Tuy nhiên, giải thích không nêu mức dự báo 3.734,6, tính ổn định xuyên suốt 90 ngày, phạm vi thời gian, hay ý nghĩa thực tế, nên mức độ liên quan và hữu ích thấp dù trình bày rõ ràng.\"}"
+  }
+}

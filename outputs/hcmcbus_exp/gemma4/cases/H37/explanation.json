@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (Route: 122, Operator: HTX-195)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo rằng chỉ số sẽ tăng trưởng mạnh mẽ trong giai đoạn 2025 đến giữa năm 2026, đạt đỉnh vào quý 3 năm 2026. Sau đó, chỉ số dự kiến sẽ giảm dần và ổn định trở lại mức tương đương với mức khởi điểm vào cuối năm 2027.",
+  "insights": [
+    "Trong 12 quý dự báo, chỉ số được dự đoán tăng từ 518269.0 (quý 1/2025) lên mức cao nhất là 623269.0 (quý 7/2026).",
+    "Sau khi đạt đỉnh vào quý 3 năm 2026, chỉ số dự kiến sẽ giảm dần qua các quý tiếp theo, xuống còn 518269.0 vào quý 4 năm 2027.",
+    "Sự tăng trưởng ban đầu cho thấy mức tăng khoảng 105,000 đơn vị trong 6 quý đầu tiên (từ 2025-01-01 đến 2026-07-01)."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện trên 12 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-10-01. ForecastBot đã tạo ra dự báo cho 12 bước tiếp theo, kéo dài đến 2027-10-01."
+}

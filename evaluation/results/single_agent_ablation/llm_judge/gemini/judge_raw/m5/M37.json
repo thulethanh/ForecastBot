@@ -1,0 +1,24 @@
+{
+  "case_id": "M37",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 quý cho đúng mặt hàng và bang, đồng thời nêu đúng khoảng thời gian dự báo. Nhận định về xu hướng giảm được hỗ trợ bởi các mức đỉnh/đáy dự báo nhìn chung thấp dần theo thời gian. Mẫu cao nhất vào quý 3 và thấp nhất vào quý 2 lặp lại nhất quán trong 3 năm dự báo. Ghi chú biểu đồ cũng khớp với 22 điểm lịch sử, 12 điểm dự báo, mô hình ensemble và các cửa sổ 12/20 điểm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.7788667919812724,
+    "input_tokens": 2563,
+    "output_tokens": 277,
+    "total_tokens": 2840,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 quý cho đúng mặt hàng và bang, đồng thời nêu đúng khoảng thời gian dự báo. Nhận định về xu hướng giảm được hỗ trợ bởi các mức đỉnh/đáy dự báo nhìn chung thấp dần theo thời gian. Mẫu cao nhất vào quý 3 và thấp nhất vào quý 2 lặp lại nhất quán trong 3 năm dự báo. Ghi chú biểu đồ cũng khớp với 22 điểm lịch sử, 12 điểm dự báo, mô hình ensemble và các cửa sổ 12/20 điểm.\"}"
+  }
+}

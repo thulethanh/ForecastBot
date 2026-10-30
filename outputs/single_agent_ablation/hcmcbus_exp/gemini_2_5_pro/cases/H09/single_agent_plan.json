@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 12,
+  "filters": {
+    "route_id": "31",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '31' AND TRIM(d.operator) = 'XKSG' GROUP BY DATE_TRUNC('month', d.date)::date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the historical monthly passenger count for bus route 31 operated by XKSG. It aggregates the total passengers (y) by month (ds) to prepare the data for a monthly forecast."
+}

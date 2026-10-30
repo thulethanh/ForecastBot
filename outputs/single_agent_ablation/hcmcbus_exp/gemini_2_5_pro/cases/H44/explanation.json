@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo số lượng hành khách hàng ngày cho tuyến xe buýt 146 của nhà xe HTX-ThanhSơn trong 28 ngày tới, từ 04/12/2024 đến 31/12/2024. Dự báo cho thấy một quy luật hàng tuần rõ rệt, với lượng khách giảm đáng kể vào cuối tuần so với các ngày trong tuần.",
+  "insights": [
+    "Lượng hành khách dự kiến sẽ cao hơn vào các ngày trong tuần, dao động từ khoảng 1,584 đến 1,962, và giảm xuống mức thấp hơn vào cuối tuần, với khoảng 1,226 vào Thứ Bảy và 1,036 vào Chủ Nhật.",
+    "Mô hình dự báo là sự kết hợp giữa các xu hướng gần đây (180 ngày qua, chiếm 60% trọng số) và xu hướng dài hạn (365 ngày qua, chiếm 40% trọng số), cho thấy dự báo ưu tiên các quy luật gần đây hơn."
+  ],
+  "chart_note": "Dự báo này được tạo ra dựa trên 1,066 điểm dữ liệu lịch sử từ 01/01/2022 đến 03/12/2024."
+}

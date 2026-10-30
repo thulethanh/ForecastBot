@@ -1,0 +1,26 @@
+{
+  "case_id": "H35",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Biểu đồ nêu rằng 8 điểm dữ liệu lịch sử được sử dụng để huấn luyện ForecastBot, trong khi thông tin cung cấp chỉ xác nhận các cửa sổ dự báo gồm 8 quan sát, không xác nhận việc huấn luyện mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát route 103 và đúng 4 quý cần dự báo. Các số liệu về trung bình lịch sử, khoảng dự báo, mức cao nhất lịch sử và các giá trị quý đều khớp dữ liệu cung cấp. Nhận định xu hướng tăng phù hợp với mức dự báo từ đầu đến cuối kỳ, dù các quý giữa có dao động nhẹ. Tuy nhiên, chart_note khẳng định dữ liệu được dùng để huấn luyện mô hình, điều này không được history summary hoặc forecast_result xác nhận. Nội dung nhìn chung rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.629684915998951,
+    "input_tokens": 2284,
+    "output_tokens": 333,
+    "total_tokens": 2617,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Biểu đồ nêu rằng 8 điểm dữ liệu lịch sử được sử dụng để huấn luyện ForecastBot, trong khi thông tin cung cấp chỉ xác nhận các cửa sổ dự báo gồm 8 quan sát, không xác nhận việc huấn luyện mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát route 103 và đúng 4 quý cần dự báo. Các số liệu về trung bình lịch sử, khoảng dự báo, mức cao nhất lịch sử và các giá trị quý đều khớp dữ liệu cung cấp. Nhận định xu hướng tăng phù hợp với mức dự báo từ đầu đến cuối kỳ, dù các quý giữa có dao động nhẹ. Tuy nhiên, chart_note khẳng định dữ liệu được dùng để huấn luyện mô hình, điều này không được history summary hoặc forecast_result xác nhận. Nội dung nhìn chung rõ ràng và hữu ích.\"}"
+  }
+}

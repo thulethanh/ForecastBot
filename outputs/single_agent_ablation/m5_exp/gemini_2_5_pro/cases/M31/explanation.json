@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 24 tháng tới đối với mặt hàng HOBBIES_1_121 tại Texas. Dự báo cho thấy một xu hướng mùa vụ rõ rệt, với doanh số dự kiến đạt đỉnh vào tháng 8 và chạm đáy vào tháng 1 hàng năm.",
+  "insights": [
+    "Dự báo dự đoán doanh số sẽ đạt đỉnh đáng kể vào mỗi tháng 8, lên tới 37.0 đơn vị, phù hợp với giá trị tối đa đã quan sát được trong dữ liệu lịch sử.",
+    "Ngược lại, điểm thấp nhất được dự kiến vào mỗi tháng 1, với doanh số giảm xuống còn 4.0 đơn vị.",
+    "Dự báo này được tạo ra bằng mô hình tổng hợp, kết hợp các dự đoán từ dữ liệu lịch sử dài hạn (40 tháng) và ngắn hạn (36 tháng), trong đó chú trọng hơn vào các xu hướng gần đây."
+  ],
+  "chart_note": "Biểu đồ này thể hiện dự báo cho 24 tháng, lặp lại một chu kỳ mùa vụ hàng năm rõ rệt."
+}

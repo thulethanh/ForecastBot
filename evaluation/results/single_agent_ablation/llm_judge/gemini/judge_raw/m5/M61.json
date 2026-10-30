@@ -1,0 +1,26 @@
+{
+  "case_id": "M61",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng mô hình không thể xác định bất kỳ xu hướng hay quy luật thời vụ nào chỉ vì có 3 điểm dữ liệu, và vì vậy sử dụng giá trị trung bình, không được xác nhận trực tiếp bởi thông tin về cơ chế mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ dự báo 3 năm và nêu chính xác mức dự báo 161.7 cho từng năm. Giá trị này khớp với trung bình lịch sử 161.67 và biểu đồ được mô tả đúng phạm vi lịch sử/dự báo. Nội dung rõ ràng, cô đọng và hữu ích vì giúp hiểu dự báo đi ngang. Tuy nhiên, dữ liệu cung cấp không xác nhận trực tiếp rằng mô hình không thể nhận diện xu hướng/thời vụ hoặc đã chọn trung bình vì lý do đó, dù kết quả dự báo đúng bằng trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.181142708985135,
+    "input_tokens": 2256,
+    "output_tokens": 437,
+    "total_tokens": 2693,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng mô hình không thể xác định bất kỳ xu hướng hay quy luật thời vụ nào chỉ vì có 3 điểm dữ liệu, và vì vậy sử dụng giá trị trung bình, không được xác nhận trực tiếp bởi thông tin về cơ chế mô hình.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ dự báo 3 năm và nêu chính xác mức dự báo 161.7 cho từng năm. Giá trị này khớp với trung bình lịch sử 161.67 và biểu đồ được mô tả đúng phạm vi lịch sử/dự báo. Nội dung rõ ràng, cô đọng và hữu ích vì giúp hiểu dự báo đi ngang. Tuy nhiên, dữ liệu cung cấp không xác nhận trực tiếp rằng mô hình không thể nhận diện xu hướng/thời vụ hoặc đã chọn trung bình vì lý do đó, dù kết quả dự báo đúng bằng trung bình lịch sử.\"}"
+  }
+}

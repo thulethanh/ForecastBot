@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 1,
+  "filters": {
+    "item_id": "FOODS_1_002",
+    "store_id": "WI_1",
+    "state_id": "WI"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

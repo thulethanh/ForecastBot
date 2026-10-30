@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo 10 năm cho bộ dữ liệu M5, áp dụng cho item_id 'HOUSEHOLD_2_483' tại store_id 'WI_2' (bang WI). Mô hình đã xác định một giá trị dự báo ổn định, bằng với giá trị trung bình lịch sử (219.33), và duy trì giá trị này trong suốt 10 năm tới (từ 2017 đến 2026).",
+  "insights": [
+    "Dự báo được thực hiện bằng chế độ 'single' và dựa trên giá trị trung bình của 6 điểm dữ liệu lịch sử (2011-2016).",
+    "Kết quả cho thấy sự ổn định cao, với giá trị dự báo không có xu hướng tăng hay giảm trong suốt giai đoạn 10 năm.",
+    "Các tham số trọng số được sử dụng là 60% cho cửa sổ ngắn và 40% cho cửa sổ dài."
+  ],
+  "chart_note": "Dự báo bao gồm 10 bước thời gian (2017-2026), với giá trị dự đoán (yhat) được giữ cố định ở mức 219.33."
+}

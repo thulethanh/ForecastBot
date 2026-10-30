@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 10,
+  "filters": {
+    "route_id": "55",
+    "operator": "XKSG",
+    "vehicle_group": "4_CNG.2"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '55' AND TRIM(d.operator) = 'XKSG' AND TRIM(d.vehicle_group) = '4_CNG.2' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "This query aggregates the total number of passengers by year for route '55', operated by 'XKSG' with vehicle group '4_CNG.2', to create the historical time series for the forecast."
+}

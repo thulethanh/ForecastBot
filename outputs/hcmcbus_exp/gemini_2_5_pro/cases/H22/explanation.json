@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 7 ngày tới cho HCMC_BUS (route_id: 58, operator: HTX-VTHANG)",
+  "summary_text": "ForecastBot dự báo cho 7 ngày tới (25/12/2024 - 31/12/2024). Các giá trị dự báo dao động từ 833.0 đến 1827.0. Dữ liệu lịch sử từ 01/01/2022 đến 24/12/2024 có giá trị trung bình là 1260.2.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 1827.0 vào ngày 25/12/2024, và thấp nhất là 833.0 vào ngày 29/12/2024.",
+    "Dự báo cho thấy sự sụt giảm vào cuối tuần, với các giá trị giảm xuống 962.0 (Thứ Bảy) và 833.0 (Chủ Nhật), thấp hơn đáng kể so với mức trung bình lịch sử (1260.2).",
+    "Mô hình dự báo là một tổ hợp (ensemble) của hai cửa sổ thời gian, với 60% trọng số cho dữ liệu gần đây (180 ngày) và 40% cho dữ liệu dài hạn (365 ngày)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện mô hình (01/01/2022 - 24/12/2024) và dự báo cho 7 ngày tiếp theo."
+}

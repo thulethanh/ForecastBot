@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M40",
+  "question": "Tôi muốn xem xu hướng lượng bán của sản phẩm HOUSEHOLD_2_488 tại cửa hàng TX_3 trong 3 năm tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 3,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 5,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.003702915972098708,
+    "request_sql": 9.105243750032969,
+    "sql_execution_and_repair": 0.028527749935165048,
+    "forecast": 24.117349792039022,
+    "explanation": 11.33115054096561,
+    "end_to_end": 44.58603058301378
+  },
+  "total_tokens": 7690,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

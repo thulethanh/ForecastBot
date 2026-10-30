@@ -1,0 +1,1 @@
+SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_3_718' AND s.store_id = 'CA_3' GROUP BY DATE_TRUNC('month', c.date)::date ORDER BY ds ASC;

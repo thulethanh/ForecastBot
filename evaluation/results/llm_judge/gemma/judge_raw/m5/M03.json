@@ -1,0 +1,28 @@
+{
+  "case_id": "M03",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 3,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 3.75,
+    "unsupported_claims": [
+      "Nhận định các giá trị dự báo có \"xu hướng biến động theo chu kỳ\" không được chứng minh rõ từ chuỗi dự báo 30 ngày.",
+      "Nhận định dự báo \"tăng trưởng mạnh mẽ vào giai đoạn đầu và cuối của chu kỳ\" không phù hợp rõ ràng với dãy dự báo dao động lên xuống.",
+      "Câu liệt kê các ngày có mức thấp nhất 1.0 bị thiếu ngày 2016-04-24, cũng có dự báo 1.0."
+    ],
+    "reason_vi": "Giải thích bám sát mặt hàng, địa điểm, kỳ hạn và nêu đúng phần lớn các mức cực đại/cực tiểu cùng khoảng dự báo. Tuy nhiên, cách gọi biến động là có chu kỳ và tăng trưởng mạnh ở đầu/cuối kỳ là diễn giải quá mức so với chuỗi dao động không đều. Danh sách ngày có mức thấp nhất cũng bỏ sót 2016-04-24. Trình bày nhìn chung rõ ràng, nhưng thứ tự các ngày thấp nhất chưa nhất quán. Nội dung vẫn hữu ích để nhận biết mức dự báo và các ngày đỉnh."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 12.077831708011217,
+    "input_tokens": 3261,
+    "output_tokens": 553,
+    "total_tokens": 3814,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":3,\"clarity\":4,\"usefulness\":4,\"overall_score\":3.75,\"unsupported_claims\":[\"Nhận định các giá trị dự báo có \\\"xu hướng biến động theo chu kỳ\\\" không được chứng minh rõ từ chuỗi dự báo 30 ngày.\",\"Nhận định dự báo \\\"tăng trưởng mạnh mẽ vào giai đoạn đầu và cuối của chu kỳ\\\" không phù hợp rõ ràng với dãy dự báo dao động lên xuống.\",\"Câu liệt kê các ngày có mức thấp nhất 1.0 bị thiếu ngày 2016-04-24, cũng có dự báo 1.0.\"],\"reason_vi\":\"Giải thích bám sát mặt hàng, địa điểm, kỳ hạn và nêu đúng phần lớn các mức cực đại/cực tiểu cùng khoảng dự báo. Tuy nhiên, cách gọi biến động là có chu kỳ và tăng trưởng mạnh ở đầu/cuối kỳ là diễn giải quá mức so với chuỗi dao động không đều. Danh sách ngày có mức thấp nhất cũng bỏ sót 2016-04-24. Trình bày nhìn chung rõ ràng, nhưng thứ tự các ngày thấp nhất chưa nhất quán. Nội dung vẫn hữu ích để nhận biết mức dự báo và các ngày đỉnh.\"}"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 12,
+  "filters": {
+    "route_id": "122",
+    "operator": "HTX-195"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

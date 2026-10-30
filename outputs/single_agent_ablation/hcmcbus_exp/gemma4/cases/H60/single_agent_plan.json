@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 24,
+  "filters": {
+    "route_id": "88",
+    "vehicle_group": "2B.1_ML"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '88' AND TRIM(d.vehicle_group) = '2B.1_ML' GROUP BY DATE_TRUNC('month', d.date) ORDER BY ds ASC",
+  "sql_explanation": "Retrieves the total passenger count (y) for route 88 using vehicle group 2B.1_ML, aggregated monthly (ds), to establish the historical trend for forecasting the next 24 months."
+}

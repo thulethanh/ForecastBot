@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M47",
+  "question": "Dự báo lượng bán của sản phẩm FOODS_3_531 tại bang WI trong 90 ngày tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1823,
+    "n_test": 90,
+    "horizon": 90,
+    "minimum_train_required": 90,
+    "required_points_for_evaluation": 180,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.0033987920032814145,
+    "request_sql": 57.28708849998657,
+    "sql_execution_and_repair": 0.09290104196406901,
+    "forecast": 599.8048320829403,
+    "explanation": 160.22745820798445,
+    "end_to_end": 817.416052708053
+  },
+  "total_tokens": 21888,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

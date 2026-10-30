@@ -1,0 +1,24 @@
+{
+  "case_id": "H56",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 81, nhà khai thác HTX-VTHANG, độ chi tiết theo quý và chân trời 4 quý. Các nhận định về chế độ single, trọng số 0.6/0.4, 8 điểm lịch sử, phạm vi lịch sử và mức dự báo đầu-cuối đều khớp dữ liệu được cung cấp. Xu hướng tăng liên tục và ổn định được hỗ trợ bởi các giá trị dự báo tăng đều qua từng quý. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được phạm vi, xu hướng và mức dự báo chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.385600749985315,
+    "input_tokens": 2278,
+    "output_tokens": 298,
+    "total_tokens": 2576,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 81, nhà khai thác HTX-VTHANG, độ chi tiết theo quý và chân trời 4 quý. Các nhận định về chế độ single, trọng số 0.6/0.4, 8 điểm lịch sử, phạm vi lịch sử và mức dự báo đầu-cuối đều khớp dữ liệu được cung cấp. Xu hướng tăng liên tục và ổn định được hỗ trợ bởi các giá trị dự báo tăng đều qua từng quý. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được phạm vi, xu hướng và mức dự báo chính.\"}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ tháng 1 năm 2022 đến tháng 4 năm 2024, đây là dự báo về số lượng vé cho tuyến xe buýt số 9 do HTX-VTTP vận hành trong 24 tháng tới. Dự báo cho thấy một xu hướng tăng nhẹ, ổn định cùng với các biến động theo mùa rõ rệt.",
+  "insights": [
+    "Các tháng cao điểm được dự báo sẽ rơi vào cuối năm, đặc biệt là tháng 10 và tháng 11, với lượng vé dự kiến vượt 134,000.",
+    "Ngược lại, tháng 2 được dự báo là tháng có lượng vé thấp nhất trong năm, giảm xuống khoảng 105,000, trong khi các tháng mùa hè (tháng 6, 7) cũng cho thấy mức vé thấp hơn so với trung bình."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử (28 điểm) và các giá trị dự báo cho 24 tháng tiếp theo."
+}

@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": null,
+  "horizon": 10,
+  "filters": {
+    "route_id": "99",
+    "operator": "HTX-ThanhSon",
+    "vehicle_group": "2B.1_ML"
+  },
+  "missing_fields": [
+    "granularity"
+  ],
+  "needs_clarification": true,
+  "user_message_for_clarification": "Bạn muốn dự báo lượng khách theo đơn vị thời gian nào (ngày, tháng, quý, hay năm)?"
+}

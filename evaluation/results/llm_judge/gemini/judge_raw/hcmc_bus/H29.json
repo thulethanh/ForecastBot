@@ -1,0 +1,26 @@
+{
+  "case_id": "H29",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Chart note khẳng định 30 điểm lịch sử \"đã được sử dụng để huấn luyện\". Dữ liệu chỉ cho biết ensemble dùng hai cửa sổ h24 và h30, không xác nhận việc huấn luyện hay rằng cả 30 điểm được dùng cho mọi nhánh."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ dự báo và trình bày chính xác mức dự báo, đỉnh tháng 10, xu hướng tăng rồi giảm, cũng như so sánh với trung bình và cực đại lịch sử. Nội dung rõ ràng, cô đọng và hữu ích. Tuy nhiên, chart note đưa thêm khẳng định về việc 30 điểm dữ liệu được dùng để huấn luyện mà thông tin cung cấp chỉ xác nhận các cửa sổ h24/h30 cho ensemble, nên làm giảm tính trung thực một phần."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.028989166006795,
+    "input_tokens": 2477,
+    "output_tokens": 356,
+    "total_tokens": 2833,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"Chart note khẳng định 30 điểm lịch sử \\\"đã được sử dụng để huấn luyện\\\". Dữ liệu chỉ cho biết ensemble dùng hai cửa sổ h24 và h30, không xác nhận việc huấn luyện hay rằng cả 30 điểm được dùng cho mọi nhánh.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ dự báo và trình bày chính xác mức dự báo, đỉnh tháng 10, xu hướng tăng rồi giảm, cũng như so sánh với trung bình và cực đại lịch sử. Nội dung rõ ràng, cô đọng và hữu ích. Tuy nhiên, chart note đưa thêm khẳng định về việc 30 điểm dữ liệu được dùng để huấn luyện mà thông tin cung cấp chỉ xác nhận các cửa sổ h24/h30 cho ensemble, nên làm giảm tính trung thực một phần.\"}"
+  }
+}

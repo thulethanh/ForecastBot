@@ -1,0 +1,24 @@
+{
+  "case_id": "M25",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng mặt hàng, bang và tần suất ngày; nêu chính xác khoảng ngày cùng mức dự báo cố định 2.4286. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số 60/40 và cửa sổ 180/365 ngày đều khớp kết quả được cung cấp. Nội dung rõ ràng, có cấu trúc và không suy diễn nguyên nhân bên ngoài dữ liệu. Tính hữu ích cao vì mô tả mức và xu hướng phẳng, nhưng có thể tốt hơn nếu đặt mức 2.4286 trong tương quan ngắn gọn với lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.394374458002858,
+    "input_tokens": 4242,
+    "output_tokens": 311,
+    "total_tokens": 4553,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng mặt hàng, bang và tần suất ngày; nêu chính xác khoảng ngày cùng mức dự báo cố định 2.4286. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số 60/40 và cửa sổ 180/365 ngày đều khớp kết quả được cung cấp. Nội dung rõ ràng, có cấu trúc và không suy diễn nguyên nhân bên ngoài dữ liệu. Tính hữu ích cao vì mô tả mức và xu hướng phẳng, nhưng có thể tốt hơn nếu đặt mức 2.4286 trong tương quan ngắn gọn với lịch sử.\"}"
+  }
+}

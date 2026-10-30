@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 3,
+  "filters": {
+    "route_id": "79",
+    "operator": "HTX-QTIEN"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '79' AND TRIM(d.operator) = 'HTX-QTIEN' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "Retrieves the quarterly total passenger count for route 79 operated by HTX-QTIEN."
+}

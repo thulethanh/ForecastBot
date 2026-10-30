@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho tuyến 141 (HTX 15)",
+  "summary_text": "Dự báo cho 10 năm tới (từ 2025 đến 2034) cho thấy một giá trị ổn định và không thay đổi, được dự đoán là 1,055,439.0. Giá trị này được xác định bằng mức trung bình lịch sử của dữ liệu.",
+  "insights": [
+    "Phạm vi dự báo được giới hạn cho tuyến 141 của nhà khai thác HTX 15, sử dụng dữ liệu lịch sử từ 2022 đến 2024.",
+    "Mô hình đã dự báo giá trị bằng mức trung bình lịch sử (1,055,439.0) và duy trì giá trị này ổn định trong suốt 10 năm tới, cho thấy sự ổn định cao trong dự báo.",
+    "Việc dự báo dựa trên phương thức 'single' (đơn) và sử dụng trọng số (weights) là 0.6 cho ngắn hạn và 0.4 cho dài hạn."
+  ],
+  "chart_note": "Dự báo được tính toán dựa trên giá trị trung bình lịch sử (mean_y) của 3 điểm dữ liệu có sẵn, và không thể xác định xu hướng tăng/giảm rõ rệt từ dữ liệu lịch sử."
+}

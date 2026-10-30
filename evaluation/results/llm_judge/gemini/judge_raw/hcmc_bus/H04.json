@@ -1,0 +1,26 @@
+{
+  "case_id": "H04",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "ForecastBot đã sử dụng mô hình ngắn hạn \"huấn luyện trên 180 ngày gần nhất\" và mô hình dài hạn \"huấn luyện trên 365 ngày gần nhất\"."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng tuyến/đơn vị vận hành, nêu rõ thời gian, biên độ, trung bình, các cực trị và mẫu biến động theo tuần. Các số liệu về dự báo, trung bình lịch sử và phạm vi lịch sử đều phù hợp dữ liệu cung cấp; nhận xét cuối tuần, nhất là Chủ Nhật, thấp hơn cũng được thể hiện nhất quán trong forecast. Tuy nhiên, window_info chỉ cho biết cửa sổ được dùng cho các nhánh dự báo, không xác nhận các mô hình được “huấn luyện” trên 180 và 365 ngày, nên chi tiết này chưa được hỗ trợ đầy đủ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.7028545000066515,
+    "input_tokens": 4292,
+    "output_tokens": 350,
+    "total_tokens": 4642,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"ForecastBot đã sử dụng mô hình ngắn hạn \\\"huấn luyện trên 180 ngày gần nhất\\\" và mô hình dài hạn \\\"huấn luyện trên 365 ngày gần nhất\\\".\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng tuyến/đơn vị vận hành, nêu rõ thời gian, biên độ, trung bình, các cực trị và mẫu biến động theo tuần. Các số liệu về dự báo, trung bình lịch sử và phạm vi lịch sử đều phù hợp dữ liệu cung cấp; nhận xét cuối tuần, nhất là Chủ Nhật, thấp hơn cũng được thể hiện nhất quán trong forecast. Tuy nhiên, window_info chỉ cho biết cửa sổ được dùng cho các nhánh dự báo, không xác nhận các mô hình được “huấn luyện” trên 180 và 365 ngày, nên chi tiết này chưa được hỗ trợ đầy đủ.\"}"
+  }
+}

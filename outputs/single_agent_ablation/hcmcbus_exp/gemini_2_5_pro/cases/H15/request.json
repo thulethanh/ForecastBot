@@ -1,0 +1,13 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 8,
+  "filters": {
+    "route_id": "39",
+    "vehicle_group": "3B.1_ML"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

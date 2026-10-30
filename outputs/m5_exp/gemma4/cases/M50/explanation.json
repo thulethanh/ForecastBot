@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOBBIES_1_079 tại WI_1",
+  "summary_text": "Dự báo cho 6 tháng tới, từ 2015-11-01 đến 2016-04-01. Giá trị dự báo dao động từ mức thấp nhất là 19.8 (tháng 2 năm 2016) đến mức cao nhất là 23.0 (tháng 4 năm 2016).",
+  "insights": [
+    "Dự báo cho thấy xu hướng giảm nhẹ từ 21.6 vào tháng 11 năm 2015 xuống mức thấp nhất là 19.8 vào tháng 2 năm 2016.",
+    "Sau đó, giá trị dự báo có xu hướng phục hồi và tăng dần, đạt 23.0 vào tháng 4 năm 2016."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 58 điểm dữ liệu lịch sử, từ 2011-01-01 đến 2015-10-01. Dự báo được tạo ra bằng phương pháp 'ensemble' với trọng số short là 0.6 và long là 0.4."
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H45",
+  "question": "Tôi cần xem xu hướng lượng hành khách của tuyến 148 sử dụng nhóm xe 3_CNG trong 30 ngày tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1094,
+    "n_train": 1064,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.15060070797335356,
+    "request_sql": 75.74164054193534,
+    "sql_execution_and_repair": 0.09754766698461026,
+    "forecast": 490.20793991698883,
+    "explanation": 95.00773608300369,
+    "end_to_end": 661.2058152090758
+  },
+  "total_tokens": 21191,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

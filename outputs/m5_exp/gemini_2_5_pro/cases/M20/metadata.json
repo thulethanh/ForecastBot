@@ -1,0 +1,33 @@
+{
+  "case_id": "M20",
+  "question": "Tôi muốn xem xu hướng lượng bán của sản phẩm HOUSEHOLD_1_133 tại cửa hàng CA_2 trong 5 năm tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 6,
+    "n_train": 6,
+    "n_test": 0,
+    "horizon": 5,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "orchestration": 20.38164845800202,
+    "load_schema": 0.0012733340008708183,
+    "sql_generation": 16.067550625000877,
+    "sql_execution_and_repair": 0.011866124998050509,
+    "forecast": 34.98533275000227,
+    "explanation": 17.635775499999,
+    "end_to_end": 89.08347758300079
+  },
+  "total_tokens": 11318,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

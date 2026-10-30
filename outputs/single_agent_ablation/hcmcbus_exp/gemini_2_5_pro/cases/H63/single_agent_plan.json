@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 10,
+  "filters": {
+    "route_id": "99",
+    "operator": "HTX-ThanhSon",
+    "vehicle_group": "2B.1_ML"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '99' AND TRIM(d.operator) = 'HTX-ThanhSon' AND TRIM(d.vehicle_group) = '2B.1_ML' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "This query calculates the total yearly passenger count for route 99, operated by HTX-ThanhSon with vehicle group 2B.1_ML, to prepare the data for a 10-year forecast."
+}

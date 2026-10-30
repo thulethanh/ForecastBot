@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã hoàn thành dự báo thành công cho 7 ngày liên tiếp (từ 2024-12-25 đến 2024-12-31) trên bộ dữ liệu HCMC_BUS, áp dụng cho tuyến xe buýt 145. Lưu ý rằng quá trình dự báo đã sử dụng cơ chế dự phòng (fallback_used: true).",
+  "insights": [
+    "Phạm vi dự báo: 7 bước thời gian, bao gồm các ngày từ 2024-12-25 đến 2024-12-31.",
+    "Phương pháp luận: Mô hình sử dụng chế độ 'short_only' và kết hợp trọng số 60% từ dữ liệu ngắn hạn (h180) và 40% từ dữ liệu dài hạn (h365).",
+    "Dữ liệu lịch sử được sử dụng để tính toán bao gồm 1087 điểm dữ liệu, với giá trị trung bình lịch sử là 2012.61."
+  ],
+  "chart_note": "Dự báo được thực hiện dựa trên bộ dữ liệu HCMC_BUS, chỉ giới hạn cho tuyến xe buýt 145. Các giá trị dự báo (yhat) là ước tính cho các ngày tương lai và không đại diện cho giá trị thực tế."
+}

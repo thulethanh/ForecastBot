@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho tuyến HCMC_BUS (Route 146)",
+  "summary_text": "Dự báo cho 28 ngày tới (từ 2024-12-04 đến 2024-12-31) cho tuyến HCMC_BUS của nhà khai thác HTX-ThanhSon cho thấy một mức giá trị ổn định và không thay đổi. Giá trị dự báo (yhat) được duy trì ở mức 1579.7143 trong suốt toàn bộ giai đoạn dự báo.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', kết hợp trọng số 60% từ cửa sổ ngắn (180 ngày) và 40% từ cửa sổ dài (365 ngày).",
+    "Việc sử dụng 'fallback_used: true' cho thấy mô hình đã áp dụng một phương pháp dự báo mặc định hoặc đơn giản hóa để đưa ra kết quả ổn định này.",
+    "Giá trị dự báo (1579.7143) cao hơn mức trung bình lịch sử của bộ dữ liệu (1543.33), cho thấy một sự điều chỉnh nhẹ dựa trên các cửa sổ dữ liệu gần nhất."
+  ],
+  "chart_note": "Lưu ý: Đây là kết quả dự báo toán học cho 28 ngày tới và không đại diện cho các giá trị thực tế trong tương lai."
+}

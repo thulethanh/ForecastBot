@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 6 tháng cho item HOBBIES_1_079 tại store WI_1",
+  "summary_text": "Dựa trên 58 điểm dữ liệu lịch sử hàng tháng từ 2011-01-01 đến 2015-10-01 với giá trị trung bình là 27.0, ForecastBot dự báo giá trị sẽ giảm từ 34.6 trong tháng 11 năm 2015 xuống 7.6 vào tháng 4 năm 2016.",
+  "insights": [
+    "Giá trị dự báo đầu tiên (34.6 cho tháng 11 năm 2015) cao hơn mức trung bình lịch sử (27.0).",
+    "Dự báo cho thấy một xu hướng giảm, với giá trị giảm từ 34.6 xuống 7.6 trong suốt 6 tháng.",
+    "Dự báo này được tạo ra bằng mô hình `ensemble`, kết hợp hai cửa sổ lịch sử: 24 tháng (trọng số 60%) và 36 tháng (trọng số 40%)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 58 điểm dữ liệu lịch sử được sử dụng để huấn luyện (từ 2011-01-01 đến 2015-10-01) và 6 điểm dữ liệu dự báo (từ 2015-11-01 đến 2016-04-01) do ForecastBot tạo ra."
+}

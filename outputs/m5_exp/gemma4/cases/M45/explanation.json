@@ -1,0 +1,11 @@
+{
+  "title": "Dự báo cho FOODS_1_215 (M5) trong 30 ngày",
+  "summary_text": "Hệ thống đã hoàn thành việc dự báo thành công cho FOODS_1_215 của dataset M5 trong 30 ngày, bắt đầu từ ngày 2016-03-26. Mô hình sử dụng phương pháp ensemble với trọng số short: 0.6 và long: 0.4.",
+  "insights": [
+    "Trong 30 ngày dự báo, giá trị dự kiến dao động trong khoảng từ 15.7 đến 22.3.",
+    "Giá trị dự báo cao nhất được ghi nhận vào ngày 2016-03-28 với mức 22.3.",
+    "Giá trị dự báo thấp nhất là 15.7, xảy ra vào hai ngày 2016-04-05 và 2016-04-17.",
+    "Xu hướng dự báo cho thấy sự biến động, với các mức giá trị thường xuyên nằm trong khoảng 17 đến 21."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên lịch sử dữ liệu từ 2011-01-29 đến 2016-03-25 (1883 điểm). ForecastBot sử dụng mô hình ensemble với các cửa sổ h180 (short) và h365 (long) để tạo ra dự báo cho 30 bước tiếp theo."
+}

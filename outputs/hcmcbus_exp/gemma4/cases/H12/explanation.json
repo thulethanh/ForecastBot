@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 34, HTX 26) theo quý",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo lượng dữ liệu cho quý 3 năm 2024 (2024-07-01) là 94,984.55 và quý 4 năm 2024 (2024-10-01) là 85,373.7.",
+  "insights": [
+    "Trong hai quý dự báo, lượng dữ liệu được dự đoán sẽ giảm dần, từ 94,984.55 (quý 3/2024) xuống 85,373.7 (quý 4/2024).",
+    "Giá trị trung bình lịch sử của dataset HCMC_BUS là 116,403.6, và cả hai điểm dự báo đều thấp hơn mức trung bình này."
+  ],
+  "chart_note": "Bản đồ này được xây dựng bằng cách sử dụng 10 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-04-01). Mô hình sử dụng phương pháp ensemble với trọng số (weights) là 0.6 cho cửa sổ ngắn (h8) và 0.4 cho cửa sổ dài (h10) để đưa ra dự báo cho 2 quý tiếp theo."
+}

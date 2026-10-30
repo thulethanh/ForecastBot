@@ -1,0 +1,24 @@
+{
+  "case_id": "H48",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, thời điểm và giá trị dự báo được yêu cầu. Các số liệu dự báo, trung bình, khoảng min–max, số điểm lịch sử, phạm vi thời gian, chế độ dự báo và trọng số đều khớp thông tin được cung cấp. Nội dung ngắn gọn, rõ ràng và hữu ích nhờ đặt dự báo trong bối cảnh mức trung bình तथा phạm vi biến động lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.645475790995988,
+    "input_tokens": 2180,
+    "output_tokens": 289,
+    "total_tokens": 2469,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, thời điểm và giá trị dự báo được yêu cầu. Các số liệu dự báo, trung bình, khoảng min–max, số điểm lịch sử, phạm vi thời gian, chế độ dự báo và trọng số đều khớp thông tin được cung cấp. Nội dung ngắn gọn, rõ ràng và hữu ích nhờ đặt dự báo trong bối cảnh mức trung bình तथा phạm vi biến động lịch sử.\"}"
+  }
+}

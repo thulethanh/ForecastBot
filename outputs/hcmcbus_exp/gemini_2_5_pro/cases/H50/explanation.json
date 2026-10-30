@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 6 tháng tới cho HCMC_BUS (route_id: 56, operator: HTX-QTHANG)",
+  "summary_text": "ForecastBot dự báo các giá trị cho 6 tháng tới, từ tháng 7/2024 đến tháng 12/2024, sẽ dao động trong khoảng từ 123,587.8 đến 227,811.0. Giá trị dự báo cao nhất là 227,811.0 vào tháng 10/2024 và thấp nhất là 123,587.8 vào tháng 8/2024.",
+  "insights": [
+    "Dữ liệu lịch sử bao gồm 30 điểm dữ liệu hàng tháng từ 01/01/2022 đến 01/06/2024, với giá trị trung bình là 166,197.8.",
+    "Dự báo cho thấy một đỉnh vào tháng 10/2024 với giá trị 227,811.0 và một đáy vào tháng 8/2024 với giá trị 123,587.8.",
+    "Bốn trong sáu tháng dự báo có giá trị cao hơn mức trung bình lịch sử (166,197.8), trong khi hai tháng đầu tiên (tháng 7 và 8) được dự báo thấp hơn."
+  ],
+  "chart_note": "Biểu đồ hiển thị 30 điểm dữ liệu lịch sử từ 01/01/2022 đến 01/06/2024 và dự báo của ForecastBot cho 6 tháng tiếp theo đến 01/12/2024."
+}

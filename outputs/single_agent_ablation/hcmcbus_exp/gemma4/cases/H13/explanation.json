@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã thực hiện dự báo thành công cho bộ dữ liệu HCMC_BUS, tập trung vào tuyến 36 của nhà khai thác XKSG. Dự báo bao gồm 3 quý tiếp theo, với giá trị dự kiến ổn định ở mức 201,416.4.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'ensemble' (kết hợp), kết hợp trọng số 60% từ mô hình ngắn hạn (h8) và 40% từ mô hình dài hạn (h9).",
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 9 điểm dữ liệu, trải dài từ quý 1 năm 2022 đến quý 1 năm 2024.",
+    "Giá trị dự báo cho cả ba quý (2024-04-01, 2024-07-01, 2024-10-01) đều được dự đoán là 201,416.4, cho thấy một xu hướng ổn định trong giai đoạn tới."
+  ],
+  "chart_note": "Dự báo được tính toán theo độ chi tiết quý (quarter) và chỉ áp dụng cho các bộ lọc cụ thể: route_id = 36 và operator = XKSG."
+}

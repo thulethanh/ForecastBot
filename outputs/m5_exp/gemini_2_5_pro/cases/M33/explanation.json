@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id HOBBIES_1_349, store_id TX_2 trong 2 quý tới",
+  "summary_text": "ForecastBot dự báo giá trị sẽ là 36.8 cho quý bắt đầu từ 2016-01-01 và 22.8 cho quý bắt đầu từ 2016-04-01. Các dự báo này thấp hơn giá trị trung bình lịch sử là 85.1 (trên 20 điểm dữ liệu từ 2011-01-01 đến 2015-10-01).",
+  "insights": [
+    "Các giá trị dự báo (36.8 và 22.8) thấp hơn đáng kể so với giá trị trung bình lịch sử (85.1).",
+    "Dự báo cho thấy xu hướng giảm, từ 36.8 trong quý đầu tiên xuống 22.8 trong quý thứ hai.",
+    "Dự báo được tạo ra bằng mô hình `ensemble`, kết hợp các dự báo từ cửa sổ ngắn hạn (`h8`, 8 quý) và dài hạn (`h12`, 12 quý) với trọng số lần lượt là 0.6 và 0.4."
+  ],
+  "chart_note": "Biểu đồ hiển thị 20 điểm dữ liệu lịch sử theo quý từ 2011-01-01 đến 2015-10-01 và 2 điểm dữ liệu dự báo cho các quý tiếp theo do ForecastBot tạo ra."
+}

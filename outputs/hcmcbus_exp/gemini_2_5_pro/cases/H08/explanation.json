@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 6 tháng tới cho HCMC_BUS (route_id: 30, operator: XKSG, vehicle_group: 4A_ML)",
+  "summary_text": "ForecastBot dự báo cho 6 tháng tới, từ tháng 7/2023 đến tháng 12/2023. Dự báo cho thấy giá trị sẽ giảm nhẹ trong hai tháng đầu, sau đó tăng mạnh và đạt đỉnh vào tháng 10/2023 ở mức 100.941, rồi giảm dần vào cuối năm.",
+  "insights": [
+    "Giá trị dự báo đạt đỉnh 100.941 vào tháng 10/2023, cao hơn một chút so với mức cao nhất trong lịch sử (100.349).",
+    "Tháng 8/2023 được dự báo có giá trị thấp nhất trong giai đoạn này là 62.273.",
+    "Bốn tháng cuối của giai đoạn dự báo (từ tháng 9 đến tháng 12) đều có giá trị dự báo cao hơn mức trung bình lịch sử là 70.101,5."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử từ tháng 1/2022 đến tháng 6/2023 (18 điểm dữ liệu) được sử dụng để huấn luyện mô hình, cùng với dự báo của ForecastBot cho 6 tháng tiếp theo, từ tháng 7/2023 đến tháng 12/2023."
+}

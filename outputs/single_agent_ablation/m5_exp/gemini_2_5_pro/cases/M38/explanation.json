@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo 12 tháng cho mặt hàng HOUSEHOLD_1_511, từ tháng 5 năm 2015 đến tháng 4 năm 2016. Các giá trị dự báo dao động từ 366.0 đến 484.0. Dự báo này được tạo ra bằng mô hình tổng hợp, kết hợp các quy luật từ dữ liệu lịch sử gần đây (36 tháng) và dài hạn (52 tháng), với trọng số cao hơn được đặt vào các xu hướng gần đây.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 484.0 vào tháng 8 năm 2015, trong khi giá trị thấp nhất được dự kiến là 366.0 vào tháng 1 năm 2016.",
+    "Toàn bộ các giá trị dự báo đều cao hơn đáng kể so với mức trung bình lịch sử là 274.65, cho thấy khả năng tiếp tục một xu hướng hoặc quy luật đã được quan sát trong giai đoạn gần đây của dữ liệu."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dữ liệu lịch sử cùng với dự báo 12 tháng cho mặt hàng HOUSEHOLD_1_511."
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "H52",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Nhận định có \"tính mùa vụ rõ rệt\" không được lịch sử tóm tắt xác nhận; chuỗi dự báo hai năm cũng không thể hiện mẫu mùa vụ nhất quán rõ ràng.",
+      "Nhận định các tháng cuối năm và các \"tháng mùa cao điểm\" có giá trị cao hơn không nhất quán với dự báo năm 2026, khi mức cao nhất nằm ở tháng 6–7 còn tháng 11–12 thấp hơn nhiều tháng khác."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, nhóm xe, tần suất tháng và kỳ hạn 24 tháng. Các thông tin về 36 điểm lịch sử, phạm vi lịch sử, trung bình và khoảng dự báo đều phù hợp dữ liệu cung cấp. Trình bày rõ ràng, đồng thời nêu được xu hướng và mức dự báo. Tuy nhiên, kết luận về mùa vụ rõ rệt, các tháng cao điểm và ưu thế của cuối năm chưa được hỗ trợ nhất quán bởi forecast, đặc biệt trong năm 2026. Nhận định tăng trưởng chung có thể chấp nhận ở mức tổng quát nhưng cần diễn đạt thận trọng hơn do dự báo biến động theo tháng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.567806542036124,
+    "input_tokens": 3076,
+    "output_tokens": 550,
+    "total_tokens": 3626,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Nhận định có \\\"tính mùa vụ rõ rệt\\\" không được lịch sử tóm tắt xác nhận; chuỗi dự báo hai năm cũng không thể hiện mẫu mùa vụ nhất quán rõ ràng.\",\"Nhận định các tháng cuối năm và các \\\"tháng mùa cao điểm\\\" có giá trị cao hơn không nhất quán với dự báo năm 2026, khi mức cao nhất nằm ở tháng 6–7 còn tháng 11–12 thấp hơn nhiều tháng khác.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, nhóm xe, tần suất tháng và kỳ hạn 24 tháng. Các thông tin về 36 điểm lịch sử, phạm vi lịch sử, trung bình và khoảng dự báo đều phù hợp dữ liệu cung cấp. Trình bày rõ ràng, đồng thời nêu được xu hướng và mức dự báo. Tuy nhiên, kết luận về mùa vụ rõ rệt, các tháng cao điểm và ưu thế của cuối năm chưa được hỗ trợ nhất quán bởi forecast, đặc biệt trong năm 2026. Nhận định tăng trưởng chung có thể chấp nhận ở mức tổng quát nhưng cần diễn đạt thận trọng hơn do dự báo biến động theo tháng.\"}"
+  }
+}

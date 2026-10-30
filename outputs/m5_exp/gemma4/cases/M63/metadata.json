@@ -1,0 +1,33 @@
+{
+  "case_id": "M63",
+  "question": "Trong 10 năm tới, lượng bán của sản phẩm HOUSEHOLD_2_483 tại cửa hàng WI_2, bang WI sẽ như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 6,
+    "n_train": 6,
+    "n_test": 0,
+    "horizon": 10,
+    "minimum_train_required": 5,
+    "required_points_for_evaluation": 15,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "orchestration": 51.46239966699795,
+    "load_schema": 0.004861334004090168,
+    "sql_generation": 64.34158041598857,
+    "sql_execution_and_repair": 0.10004866700910497,
+    "forecast": 75.86036137500196,
+    "explanation": 67.65008291599224,
+    "end_to_end": 259.41939479199937
+  },
+  "total_tokens": 6396,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

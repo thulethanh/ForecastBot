@@ -1,0 +1,24 @@
+{
+  "case_id": "H05",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 2,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 1,
+    "overall_score": 3.25,
+    "unsupported_claims": [],
+    "reason_vi": "Nội dung chỉ thông báo đã tạo dự báo và phần diễn giải LLM không khả dụng, nên không giải thích trực tiếp mức dự báo, xu hướng ổn định hay ý nghĩa của dự báo 90 ngày cho tuyến 27/XKSG. Các câu nêu ra không mâu thuẫn với dữ liệu: forecast thực sự đã được tạo và biểu đồ được mô tả ở mức khái quát. Diễn đạt ngắn gọn, rõ ràng, nhưng giá trị hỗ trợ người dùng rất thấp vì không cung cấp insight nào."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.903409791993909,
+    "input_tokens": 5115,
+    "output_tokens": 277,
+    "total_tokens": 5392,
+    "raw_response": "{\"relevance\":2,\"faithfulness\":5,\"clarity\":5,\"usefulness\":1,\"overall_score\":3.25,\"unsupported_claims\":[],\"reason_vi\":\"Nội dung chỉ thông báo đã tạo dự báo và phần diễn giải LLM không khả dụng, nên không giải thích trực tiếp mức dự báo, xu hướng ổn định hay ý nghĩa của dự báo 90 ngày cho tuyến 27/XKSG. Các câu nêu ra không mâu thuẫn với dữ liệu: forecast thực sự đã được tạo và biểu đồ được mô tả ở mức khái quát. Diễn đạt ngắn gọn, rõ ràng, nhưng giá trị hỗ trợ người dùng rất thấp vì không cung cấp insight nào.\"}"
+  }
+}

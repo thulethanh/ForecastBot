@@ -1,0 +1,24 @@
+{
+  "case_id": "M56",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 4 quý cho đúng item và bang, nêu rõ các mức dự báo, biến động giảm rồi phục hồi, và so sánh hợp lệ với trung bình/phạm vi lịch sử. Các số liệu, ngày, 18 điểm lịch sử, cấu hình ensemble, trọng số và cửa sổ 8/12 điểm đều khớp dữ liệu được cung cấp. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu diễn biến dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.801122667005984,
+    "input_tokens": 2362,
+    "output_tokens": 284,
+    "total_tokens": 2646,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 4 quý cho đúng item và bang, nêu rõ các mức dự báo, biến động giảm rồi phục hồi, và so sánh hợp lệ với trung bình/phạm vi lịch sử. Các số liệu, ngày, 18 điểm lịch sử, cấu hình ensemble, trọng số và cửa sổ 8/12 điểm đều khớp dữ liệu được cung cấp. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu diễn biến dự báo.\"}"
+  }
+}

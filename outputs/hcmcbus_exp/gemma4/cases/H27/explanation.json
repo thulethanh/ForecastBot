@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 15) cho tháng 12 năm 2024",
+  "summary_text": "Dựa trên dữ liệu lịch sử, giá trị dự báo cho tháng 12 năm 2024 là 27865.102.",
+  "insights": [
+    "Giá trị dự báo (27865.102) thấp hơn so với mức trung bình lịch sử của dataset HCMC_BUS (29410.29).",
+    "Trong 35 điểm dữ liệu lịch sử, giá trị thấp nhất được ghi nhận là 17777.0 và giá trị cao nhất là 37278.0."
+  ],
+  "chart_note": "Bản đồ này hiển thị dự báo được tạo bằng mô hình ensemble, sử dụng 35 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-11-01). Mô hình kết hợp trọng số 0.6 từ cửa sổ ngắn (h24) và 0.4 từ cửa sổ dài (h35)."
+}

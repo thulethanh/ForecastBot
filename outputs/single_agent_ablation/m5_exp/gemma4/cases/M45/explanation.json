@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho chỉ tiêu M5 của sản phẩm FOODS_1_215 trong 30 ngày, bắt đầu từ ngày 2016-03-26. Kết quả dự báo cho thấy một xu hướng giảm mạnh ban đầu, sau đó là sự phục hồi và tăng trưởng dần dần trong giai đoạn cuối của chu kỳ dự báo.",
+  "insights": [
+    "Xu hướng dự báo ban đầu (2016-03-26 đến 2016-04-15) cho thấy sự suy giảm liên tục, từ mức 25.0 xuống 5.0.",
+    "Sau giai đoạn giảm, dự báo cho thấy sự phục hồi rõ rệt (2016-04-16 đến 2016-04-24), với giá trị tăng dần từ 4.0 lên 10.0.",
+    "Việc dự báo đã sử dụng chế độ 'long_only' và kết hợp trọng số từ cả dữ liệu ngắn hạn (0.6) và dài hạn (0.4) để đưa ra kết quả."
+  ],
+  "chart_note": "Đây là kết quả dự báo toán học dựa trên dữ liệu lịch sử và không phản ánh các yếu tố thị trường hoặc sự kiện thực tế ngoài phạm vi dữ liệu được cung cấp."
+}

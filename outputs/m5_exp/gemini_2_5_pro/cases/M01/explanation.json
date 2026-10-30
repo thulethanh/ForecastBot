@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 7 ngày cho item_id FOODS_3_228",
+  "summary_text": "ForecastBot dự báo cho item_id FOODS_3_228 trong 7 ngày tới, từ 18/04/2016 đến 24/04/2016. Các giá trị dự báo dao động từ 42.0 đến 66.2. Toàn bộ các giá trị này đều thấp hơn mức trung bình lịch sử là 73.72 (tính trên dữ liệu từ 29/01/2011 đến 17/04/2016).",
+  "insights": [
+    "Giá trị dự báo cao nhất là 66.2 (vào ngày 24/04/2016) và thấp nhất là 42.0 (vào ngày 21/04/2016).",
+    "Tất cả 7 giá trị dự báo đều thấp hơn mức trung bình lịch sử là 73.72.",
+    "Dự báo được tạo bởi mô hình 'ensemble', kết hợp các xu hướng từ 180 ngày qua (trọng số 60%) và 365 ngày qua (trọng số 40%)."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện mô hình (29/01/2011 - 17/04/2016) và kết quả dự báo của ForecastBot cho 7 ngày tiếp theo."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã dự báo dữ liệu cho tuyến xe buýt 24 của nhà khai thác HTX-195 trong vòng 60 ngày tới. Do sử dụng chế độ 'deterministic_recent_mean' và kích hoạt cơ chế fallback, kết quả dự báo cho toàn bộ 60 bước đều là một giá trị ổn định và không thay đổi, cụ thể là 6696.7143.",
+  "insights": [
+    "Dự báo được tính toán dựa trên trọng số 60% cho cửa sổ ngắn (180 ngày) và 40% cho cửa sổ dài (365 ngày).",
+    "Giá trị dự báo (yhat) duy trì ở mức 6696.7143 trong suốt 60 ngày, cho thấy sự ổn định cao trong dự báo theo phương pháp trung bình gần đây xác định.",
+    "Việc sử dụng 'fallback_used: true' cho thấy hệ thống đã áp dụng một phương pháp dự phòng để hoàn thành yêu cầu dự báo."
+  ],
+  "chart_note": "Phạm vi dự báo bao gồm 60 ngày, bắt đầu từ ngày 2024-11-02 và kết thúc vào ngày 2024-12-31, áp dụng cho bộ dữ liệu HCMC_BUS, tuyến 24 (HTX-195)."
+}

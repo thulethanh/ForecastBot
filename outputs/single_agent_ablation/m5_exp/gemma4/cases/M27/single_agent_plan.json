@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 1,
+  "filters": {
+    "item_id": "FOODS_1_031",
+    "store_id": "TX_1"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_1_031' AND s.store_id = 'TX_1' GROUP BY DATE_TRUNC('month', c.date)::date ORDER BY ds ASC;",
+  "sql_explanation": "Retrieves the sum of sales (y) for the specified item and store, aggregated by month (ds), using the M5 dataset."
+}

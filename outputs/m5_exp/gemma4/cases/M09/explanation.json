@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo M5 cho HOBBIES_1_398 tại CA_1 trong 12 tháng tới",
+  "summary_text": "Dự báo cho thấy giá trị bắt đầu từ 108.3 vào tháng 5 năm 2015 và đạt mức cao nhất là 131.8 vào tháng 3 năm 2016.",
+  "insights": [
+    "Giá trị dự báo giảm đáng kể trong quý 3 năm 2015, từ 125.4 (tháng 8) xuống 64.8 (tháng 11).",
+    "Sau đó, giá trị tăng mạnh, đạt đỉnh 131.8 vào tháng 3 năm 2016."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 52 điểm dữ liệu lịch sử (2011-01-01 đến 2015-04-01). Dự báo được tạo ra bằng chế độ \"ensemble\" với trọng số short là 0.6 và long là 0.4."
+}

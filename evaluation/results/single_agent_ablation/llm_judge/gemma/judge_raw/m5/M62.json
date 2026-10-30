@@ -1,0 +1,24 @@
+{
+  "case_id": "M62",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng yêu cầu dự báo 5 năm cho item và bang được lọc, nêu đầy đủ mức dự báo 751.5 cho từng năm 2017–2021. Các nhận định về trung bình lịch sử 6 điểm, chế độ single, trọng số 60%/40%, tên cửa sổ h6 và phạm vi lịch sử đều phù hợp thông tin được cung cấp. Nội dung rõ ràng, có cấu trúc và giúp người dùng hiểu dự báo đi ngang ở mức trung bình lịch sử mà không suy diễn nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.457642291090451,
+    "input_tokens": 2345,
+    "output_tokens": 257,
+    "total_tokens": 2602,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng yêu cầu dự báo 5 năm cho item và bang được lọc, nêu đầy đủ mức dự báo 751.5 cho từng năm 2017–2021. Các nhận định về trung bình lịch sử 6 điểm, chế độ single, trọng số 60%/40%, tên cửa sổ h6 và phạm vi lịch sử đều phù hợp thông tin được cung cấp. Nội dung rõ ràng, có cấu trúc và giúp người dùng hiểu dự báo đi ngang ở mức trung bình lịch sử mà không suy diễn nguyên nhân không có bằng chứng.\"}"
+  }
+}

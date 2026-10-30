@@ -1,0 +1,6 @@
+dataset,target_model,score_band,n_cases,n_total_judged,rate
+M5,Gemini 2.5 Pro,"(1,2]",0,10,0.0
+M5,Gemini 2.5 Pro,"(2,3]",0,10,0.0
+M5,Gemini 2.5 Pro,"(3,4]",0,10,0.0
+M5,Gemini 2.5 Pro,"(4,4.5]",1,10,0.1
+M5,Gemini 2.5 Pro,"(4.5,5]",9,10,0.9

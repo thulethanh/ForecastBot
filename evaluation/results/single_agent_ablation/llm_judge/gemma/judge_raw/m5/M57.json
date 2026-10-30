@@ -1,0 +1,24 @@
+{
+  "case_id": "M57",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất quý và chân trời 8 quý. Các thông tin về trạng thái thành công, ensemble với trọng số 60/40, phạm vi lịch sử 14 điểm, cũng như mức tăng từ 143.398 lên 258.184 đều khớp dữ liệu được cung cấp. Nội dung trình bày rõ ràng, nêu được xu hướng tăng đều và nhắc rằng đây là giá trị dự báo, không phải thực tế tương lai."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.498743334086612,
+    "input_tokens": 2443,
+    "output_tokens": 331,
+    "total_tokens": 2774,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất quý và chân trời 8 quý. Các thông tin về trạng thái thành công, ensemble với trọng số 60/40, phạm vi lịch sử 14 điểm, cũng như mức tăng từ 143.398 lên 258.184 đều khớp dữ liệu được cung cấp. Nội dung trình bày rõ ràng, nêu được xu hướng tăng đều và nhắc rằng đây là giá trị dự báo, không phải thực tế tương lai.\"}"
+  }
+}

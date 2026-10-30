@@ -1,0 +1,27 @@
+{
+  "case_id": "H06",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 35 điểm dữ liệu lịch sử từ tháng 01-2022 đến tháng 11-2024.\"",
+      "\"Biểu đồ hiển thị dữ liệu lịch sử được dùng để huấn luyện (35 điểm từ 01-2022 đến 11-2024)\"."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 1 tháng, nêu đúng mức dự báo, so sánh với trung bình và phạm vi lịch sử, đồng thời mô tả đúng ensemble 60% cửa sổ 24 tháng và 40% cửa sổ 35 tháng. Tuy nhiên, dữ liệu cung cấp chỉ cho biết phạm vi lịch sử và các cửa sổ đầu vào dự báo, không xác nhận mô hình được huấn luyện trên 35 điểm; vì vậy hai khẳng định về huấn luyện không có căn cứ. Trình bày rõ ràng và hữu ích, dù có thể bổ sung diễn giải ngắn về mức chênh so với trung bình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.345815792010399,
+    "input_tokens": 2170,
+    "output_tokens": 335,
+    "total_tokens": 2505,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 35 điểm dữ liệu lịch sử từ tháng 01-2022 đến tháng 11-2024.\\\"\",\"\\\"Biểu đồ hiển thị dữ liệu lịch sử được dùng để huấn luyện (35 điểm từ 01-2022 đến 11-2024)\\\".\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 1 tháng, nêu đúng mức dự báo, so sánh với trung bình và phạm vi lịch sử, đồng thời mô tả đúng ensemble 60% cửa sổ 24 tháng và 40% cửa sổ 35 tháng. Tuy nhiên, dữ liệu cung cấp chỉ cho biết phạm vi lịch sử và các cửa sổ đầu vào dự báo, không xác nhận mô hình được huấn luyện trên 35 điểm; vì vậy hai khẳng định về huấn luyện không có căn cứ. Trình bày rõ ràng và hữu ích, dù có thể bổ sung diễn giải ngắn về mức chênh so với trung bình.\"}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu M5, với tần suất hàng quý, được thực hiện cho 8 bước tiếp theo (từ 2014-07-01 đến 2016-04-01). Mô hình đã thành công trong việc tạo ra dự báo dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2014-04-01.",
+  "insights": [
+    "Dự báo được tính toán bằng phương pháp ensemble, kết hợp trọng số 60% từ cửa sổ ngắn hạn (h12) và 40% từ cửa sổ dài hạn (h14).",
+    "Dự báo cho thấy một mô hình chu kỳ rõ ràng, với các giá trị dự kiến lặp lại theo chu kỳ 4 quý: (80.0, 140.0, 120.0, 160.0) và tiếp tục lặp lại cho các quý tiếp theo."
+  ],
+  "chart_note": "Phạm vi dự báo áp dụng cho item_id: HOUSEHOLD_1_135, store_id: TX_1, và state_id: TX."
+}

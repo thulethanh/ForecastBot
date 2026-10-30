@@ -1,0 +1,24 @@
+{
+  "case_id": "H03",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 30 ngày cho đúng giai đoạn và nêu rõ mức dự báo 2904.7143 không đổi. Các chi tiết về phương pháp deterministic_recent_mean, trọng số 60%/40% và cửa sổ 180/365 ngày đều khớp kết quả dự báo. Phạm vi 1066 điểm lịch sử từ 2022-01-01 đến 2024-12-01 khớp history summary. Nội dung rõ ràng, mạch lạc và giúp người dùng hiểu dự báo là một mức trung bình xác định, không biểu diễn biến động theo thời gian."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.729819874977693,
+    "input_tokens": 3281,
+    "output_tokens": 382,
+    "total_tokens": 3663,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 30 ngày cho đúng giai đoạn và nêu rõ mức dự báo 2904.7143 không đổi. Các chi tiết về phương pháp deterministic_recent_mean, trọng số 60%/40% và cửa sổ 180/365 ngày đều khớp kết quả dự báo. Phạm vi 1066 điểm lịch sử từ 2022-01-01 đến 2024-12-01 khớp history summary. Nội dung rõ ràng, mạch lạc và giúp người dùng hiểu dự báo là một mức trung bình xác định, không biểu diễn biến động theo thời gian.\"}"
+  }
+}

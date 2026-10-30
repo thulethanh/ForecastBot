@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (Route 56, HTX-QTHANG) trong 6 tháng tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử của HCMC_BUS cho tuyến 56 của HTX-QTHANG, ForecastBot dự báo lưu lượng trong 6 tháng tới (từ tháng 7 năm 2024 đến tháng 12 năm 2024). Lưu lượng dự kiến sẽ có xu hướng giảm nhẹ qua các tháng.",
+  "insights": [
+    "Lưu lượng dự báo bắt đầu từ 163,948.532 vào tháng 7 năm 2024.",
+    "Trong 6 tháng tới, lưu lượng dự kiến giảm dần, từ 163,948.532 (tháng 7) xuống 156,600.0 (tháng 12).",
+    "Sự sụt giảm đáng kể nhất được dự báo xảy ra từ tháng 7 (163,948.532) đến tháng 9 (159,300.0)."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 30 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-06-01. ForecastBot sử dụng mô hình 'ensemble' với trọng số (weights) là 0.6 cho dữ liệu ngắn hạn (h24) và 0.4 cho dữ liệu dài hạn (h30) để đưa ra dự báo cho 6 bước tiếp theo."
+}

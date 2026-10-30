@@ -1,0 +1,26 @@
+{
+  "case_id": "H30",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng biến động nhẹ trong dự báo là \"theo mùa vụ\" không được history summary cung cấp bằng chứng trực tiếp về tính mùa vụ."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà khai thác, kỳ dự báo 12 tháng và nêu rõ mức dự báo ổn định 101.000–105.000, phù hợp các giá trị forecast. Thông tin về 23 điểm lịch sử, phạm vi lịch sử, single mode và không dùng fallback đều phù hợp dữ liệu cung cấp. Nội dung rõ ràng, cô đọng và hữu ích. Tuy nhiên, việc gán các mức cao hơn ở một số tháng cho yếu tố mùa vụ vượt quá bằng chứng từ history summary; forecast chỉ cho thấy các mức dự báo khác nhau giữa các tháng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.84975462500006,
+    "input_tokens": 2591,
+    "output_tokens": 345,
+    "total_tokens": 2936,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng biến động nhẹ trong dự báo là \\\"theo mùa vụ\\\" không được history summary cung cấp bằng chứng trực tiếp về tính mùa vụ.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà khai thác, kỳ dự báo 12 tháng và nêu rõ mức dự báo ổn định 101.000–105.000, phù hợp các giá trị forecast. Thông tin về 23 điểm lịch sử, phạm vi lịch sử, single mode và không dùng fallback đều phù hợp dữ liệu cung cấp. Nội dung rõ ràng, cô đọng và hữu ích. Tuy nhiên, việc gán các mức cao hơn ở một số tháng cho yếu tố mùa vụ vượt quá bằng chứng từ history summary; forecast chỉ cho thấy các mức dự báo khác nhau giữa các tháng.\"}"
+  }
+}

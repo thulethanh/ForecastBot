@@ -1,0 +1,24 @@
+{
+  "case_id": "M50",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất tháng và kỳ dự báo 6 tháng. Các mức dự báo, xu hướng giảm chung, trung bình lịch sử khoảng 27, 58 tháng lịch sử, hai cửa sổ 24/36 tháng và trọng số 60%/40% đều phù hợp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo, chiều hướng chính cũng như cách kết hợp các nhánh dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.756088125053793,
+    "input_tokens": 2413,
+    "output_tokens": 304,
+    "total_tokens": 2717,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất tháng và kỳ dự báo 6 tháng. Các mức dự báo, xu hướng giảm chung, trung bình lịch sử khoảng 27, 58 tháng lịch sử, hai cửa sổ 24/36 tháng và trọng số 60%/40% đều phù hợp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo, chiều hướng chính cũng như cách kết hợp các nhánh dự báo.\"}"
+  }
+}

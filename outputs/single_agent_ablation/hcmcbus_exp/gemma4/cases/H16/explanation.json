@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 41, Nhà khai thác HTX-195) với tần suất hàng quý và tầm nhìn 12 quý đã được thực hiện thành công. Mô hình dự báo cho thấy một xu hướng ổn định, duy trì giá trị dự kiến là 137,310.0 trong suốt 12 quý tiếp theo (từ Q2/2024 đến Q1/2027).",
+  "insights": [
+    "Giá trị dự báo được xác định là một hằng số (137,310.0) cho toàn bộ 12 quý, phản ánh sự ổn định cao trong hiệu suất lịch sử.",
+    "Giá trị dự báo này rất gần với giá trị trung bình lịch sử của bộ dữ liệu (137,309.56), cho thấy mô hình đã sử dụng giá trị trung bình làm cơ sở dự báo.",
+    "Phạm vi dự báo bao gồm 12 bước, bắt đầu từ quý 2 năm 2024 và kết thúc vào quý 1 năm 2027."
+  ],
+  "chart_note": "Dự báo được thực hiện bằng chế độ 'single' (đơn nhất) và dựa trên việc tính toán giá trị trung bình lịch sử của 9 điểm dữ liệu gần nhất."
+}

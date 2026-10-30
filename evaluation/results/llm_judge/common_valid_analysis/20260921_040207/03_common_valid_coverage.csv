@@ -1,0 +1,3 @@
+﻿dataset,total_cases,gemini_upstream_valid,gemma_upstream_valid,gemini_judge_valid,gemma_judge_valid,common_valid_n,excluded_n
+M5,63,62,63,63,63,62,1
+HCMC_BUS,63,60,62,63,63,59,4

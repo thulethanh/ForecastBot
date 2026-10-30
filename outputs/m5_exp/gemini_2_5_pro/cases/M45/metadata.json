@@ -1,0 +1,33 @@
+{
+  "case_id": "M45",
+  "question": "Tôi cần xem xu hướng lượng bán của sản phẩm FOODS_1_215 trong 30 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1883,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.137876041000709,
+    "load_schema": 0.002119374999892898,
+    "sql_generation": 10.220147667001584,
+    "sql_execution_and_repair": 0.09204587499698391,
+    "forecast": 167.35733562500172,
+    "explanation": 24.196393291000277,
+    "end_to_end": 208.00604512500286
+  },
+  "total_tokens": 36180,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

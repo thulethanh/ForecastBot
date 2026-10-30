@@ -1,0 +1,27 @@
+{
+  "case_id": "M44",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Dự báo bằng không cho thấy mặt hàng có thể đã không được bán trong các giai đoạn gần đây và/hoặc cùng kỳ các năm trước, và đây là xu hướng mô hình đã học được.",
+      "Các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả so với mức trung bình dài hạn."
+    ],
+    "reason_vi": "Giải thích bám sát mặt hàng, khu vực, kỳ dự báo 28 ngày và nêu đúng dự báo bằng 0 xuyên suốt giai đoạn. Nội dung rõ ràng, ngắn gọn và có đối chiếu hợp lệ với trung bình lịch sử khoảng 10 đơn vị/ngày. Tuy nhiên, tóm tắt lịch sử không cung cấp diễn biến doanh số gần đây, cùng kỳ các năm trước hoặc bằng chứng về mức ảnh hưởng tương đối của xu hướng ngắn hạn so với trung bình dài hạn. Vì vậy, các diễn giải này chưa được hỗ trợ trực tiếp, dù không mâu thuẫn với kết quả dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.926243499969132,
+    "input_tokens": 3064,
+    "output_tokens": 359,
+    "total_tokens": 3423,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Dự báo bằng không cho thấy mặt hàng có thể đã không được bán trong các giai đoạn gần đây và/hoặc cùng kỳ các năm trước, và đây là xu hướng mô hình đã học được.\",\"Các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả so với mức trung bình dài hạn.\"],\"reason_vi\":\"Giải thích bám sát mặt hàng, khu vực, kỳ dự báo 28 ngày và nêu đúng dự báo bằng 0 xuyên suốt giai đoạn. Nội dung rõ ràng, ngắn gọn và có đối chiếu hợp lệ với trung bình lịch sử khoảng 10 đơn vị/ngày. Tuy nhiên, tóm tắt lịch sử không cung cấp diễn biến doanh số gần đây, cùng kỳ các năm trước hoặc bằng chứng về mức ảnh hưởng tương đối của xu hướng ngắn hạn so với trung bình dài hạn. Vì vậy, các diễn giải này chưa được hỗ trợ trực tiếp, dù không mâu thuẫn với kết quả dự báo.\"}"
+  }
+}

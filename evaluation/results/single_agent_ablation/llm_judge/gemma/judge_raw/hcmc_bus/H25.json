@@ -1,0 +1,26 @@
+{
+  "case_id": "H25",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 586 điểm dữ liệu\" không được hỗ trợ: history summary chỉ xác nhận 586 điểm lịch sử khả dụng, không xác nhận toàn bộ chúng được dùng để huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu tuyến 65/Cty-BaoYen, đúng kỳ hạn 60 ngày, ngày bắt đầu–kết thúc và mức dự báo hằng số 3811.29. Thông tin về chế độ deterministic_recent_mean, fallback, trọng số và hai cửa sổ cũng khớp kết quả dự báo. Tuy nhiên, câu khẳng định 586 điểm lịch sử được dùng để huấn luyện là mạnh hơn bằng chứng cung cấp; dữ liệu chỉ cho biết đây là số điểm lịch sử khả dụng. Nội dung rõ ràng, súc tích và giúp hiểu xu hướng phẳng của dự báo, dù có thể bổ sung ý nghĩa mức 3811.29 so với lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.084028625045903,
+    "input_tokens": 4309,
+    "output_tokens": 375,
+    "total_tokens": 4684,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 586 điểm dữ liệu\\\" không được hỗ trợ: history summary chỉ xác nhận 586 điểm lịch sử khả dụng, không xác nhận toàn bộ chúng được dùng để huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu tuyến 65/Cty-BaoYen, đúng kỳ hạn 60 ngày, ngày bắt đầu–kết thúc và mức dự báo hằng số 3811.29. Thông tin về chế độ deterministic_recent_mean, fallback, trọng số và hai cửa sổ cũng khớp kết quả dự báo. Tuy nhiên, câu khẳng định 586 điểm lịch sử được dùng để huấn luyện là mạnh hơn bằng chứng cung cấp; dữ liệu chỉ cho biết đây là số điểm lịch sử khả dụng. Nội dung rõ ràng, súc tích và giúp hiểu xu hướng phẳng của dự báo, dù có thể bổ sung ý nghĩa mức 3811.29 so với lịch sử.\"}"
+  }
+}

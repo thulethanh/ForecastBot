@@ -1,0 +1,24 @@
+{
+  "case_id": "M11",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng, nêu rõ giá trị 241.16 và thời điểm 2016-04-01. So sánh với trung bình lịch sử 291.86 là phù hợp với dữ liệu được cung cấp. Mô tả mô hình tổng hợp, hai cửa sổ 8 và 12 quý cùng trọng số 60%/40% đều khớp forecast result. Nội dung ngắn gọn, dễ hiểu và giúp người dùng nhận biết mức dự báo thấp hơn trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.579563000006601,
+    "input_tokens": 2144,
+    "output_tokens": 256,
+    "total_tokens": 2400,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng, nêu rõ giá trị 241.16 và thời điểm 2016-04-01. So sánh với trung bình lịch sử 291.86 là phù hợp với dữ liệu được cung cấp. Mô tả mô hình tổng hợp, hai cửa sổ 8 và 12 quý cùng trọng số 60%/40% đều khớp forecast result. Nội dung ngắn gọn, dễ hiểu và giúp người dùng nhận biết mức dự báo thấp hơn trung bình lịch sử.\"}"
+  }
+}

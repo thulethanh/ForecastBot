@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho mặt hàng HOBBIES_1_124 tại cửa hàng CA_1, bang CA, đã được thực hiện thành công cho 6 tháng tới (từ 2015-11-01 đến 2016-04-01). Mô hình sử dụng phương pháp ensemble (kết hợp) với trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn. Các giá trị dự báo cho thấy xu hướng tăng trưởng dần dần trong giai đoạn này.",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 58 điểm dữ liệu, trải dài từ 2011-01-01 đến 2015-10-01.",
+    "Mô hình dự báo được xây dựng dựa trên sự kết hợp (ensemble) giữa cửa sổ dữ liệu ngắn hạn (24 tháng) và dài hạn (36 tháng).",
+    "Các giá trị dự báo (yhat) cho 6 tháng tới tăng dần, từ 32.0 (tháng 11/2015) lên 40.08 (tháng 4/2016)."
+  ],
+  "chart_note": "Dự báo này được tính toán trên tập dữ liệu M5 cho mặt hàng và địa điểm cụ thể. Các giá trị được cung cấp là dự đoán cho 6 kỳ tiếp theo."
+}

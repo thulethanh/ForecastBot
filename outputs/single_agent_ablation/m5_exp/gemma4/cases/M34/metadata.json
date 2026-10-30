@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M34",
+  "question": "Hãy ước tính lượng bán của sản phẩm HOBBIES_2_018 tại cửa hàng TX_2 trong 3 quý tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 19,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.05193966708611697,
+    "request_sql": 96.3006317919353,
+    "sql_execution_and_repair": 0.054736082907766104,
+    "forecast": 228.04951416701078,
+    "explanation": 132.5664120420115,
+    "end_to_end": 457.0234036669135
+  },
+  "total_tokens": 6071,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

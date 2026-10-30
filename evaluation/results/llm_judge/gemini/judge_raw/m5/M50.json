@@ -1,0 +1,26 @@
+{
+  "case_id": "M50",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định 58 điểm dữ liệu lịch sử đã được sử dụng để huấn luyện, trong khi thông tin chỉ xác nhận phạm vi lịch sử khả dụng và các cửa sổ dự báo 24/36 tháng, không xác nhận dữ liệu huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng và chân trời 6 tháng; các mức dự báo, xu hướng giảm, trung bình lịch sử, khoảng thời gian và trọng số ensemble đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức đầu kỳ, xu hướng sáu tháng và cách kết hợp cửa sổ. Tuy nhiên, chart note nêu 58 điểm lịch sử được dùng để “huấn luyện”, điều này không được history summary hay window_info xác nhận."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.614901834007469,
+    "input_tokens": 2409,
+    "output_tokens": 307,
+    "total_tokens": 2716,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định 58 điểm dữ liệu lịch sử đã được sử dụng để huấn luyện, trong khi thông tin chỉ xác nhận phạm vi lịch sử khả dụng và các cửa sổ dự báo 24/36 tháng, không xác nhận dữ liệu huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng và chân trời 6 tháng; các mức dự báo, xu hướng giảm, trung bình lịch sử, khoảng thời gian và trọng số ensemble đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức đầu kỳ, xu hướng sáu tháng và cách kết hợp cửa sổ. Tuy nhiên, chart note nêu 58 điểm lịch sử được dùng để “huấn luyện”, điều này không được history summary hay window_info xác nhận.\"}"
+  }
+}

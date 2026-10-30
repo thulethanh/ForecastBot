@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho mặt hàng HOBBIES_1_349 tại cửa hàng TX_2 trong 2 quý tới. Mô hình dự báo doanh số bán hàng là 0.0 cho cả Quý 1 năm 2016 và Quý 2 năm 2016. Dự báo này dựa trên 20 quý dữ liệu lịch sử từ Quý 1 năm 2011 đến Quý 4 năm 2015, trong đó doanh số bán hàng dao động từ 0 đến 379.",
+  "insights": [
+    "Dự báo doanh số bằng không cho thấy mô hình đã xác định một xu hướng mà doanh số có thể ngừng lại, điều này phù hợp với dữ liệu lịch sử có các giai đoạn không có doanh số (doanh số tối thiểu là 0.0).",
+    "Dự báo được tạo ra bằng mô hình tổng hợp kết hợp góc nhìn ngắn hạn (8 quý gần nhất) và dài hạn (12 quý gần nhất), với trọng số cao hơn (60%) được đặt vào các xu hướng gần đây."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số bán hàng lịch sử trong 20 quý và dự báo cho 2 quý tiếp theo."
+}

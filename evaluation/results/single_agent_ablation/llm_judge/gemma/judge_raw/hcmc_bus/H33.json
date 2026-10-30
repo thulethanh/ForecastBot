@@ -1,0 +1,24 @@
+{
+  "case_id": "H33",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho Tuyến 45 và nhà khai thác XKSG. Các mốc quý, hai giá trị dự báo, xu hướng tăng nhẹ, so sánh với trung bình lịch sử, phương pháp ensemble và trọng số 60%/40% đều khớp dữ liệu được cung cấp. Ghi chú về 10 điểm lịch sử và phạm vi 2022-01-01 đến 2024-04-01 cũng chính xác. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được mức dự báo cùng xu hướng chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.961039417074062,
+    "input_tokens": 2189,
+    "output_tokens": 241,
+    "total_tokens": 2430,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho Tuyến 45 và nhà khai thác XKSG. Các mốc quý, hai giá trị dự báo, xu hướng tăng nhẹ, so sánh với trung bình lịch sử, phương pháp ensemble và trọng số 60%/40% đều khớp dữ liệu được cung cấp. Ghi chú về 10 điểm lịch sử và phạm vi 2022-01-01 đến 2024-04-01 cũng chính xác. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được mức dự báo cùng xu hướng chính.\"}"
+  }
+}

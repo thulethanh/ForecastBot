@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo được thực hiện cho mặt hàng HOUSEHOLD_1_230 tại cửa hàng WI_1, với độ chi tiết theo tháng và tầm nhìn 24 tháng (từ tháng 5 năm 2014 đến tháng 4 năm 2016). Mô hình sử dụng phương pháp ensemble (kết hợp) với trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+  "insights": [
+    "Xu hướng dự báo cho thấy sự giảm dần ổn định qua 24 tháng, bắt đầu từ mức 15.4 (tháng 5/2014) và giảm xuống 8.5 (tháng 4/2016).",
+    "Dự báo được xây dựng dựa trên 40 điểm dữ liệu lịch sử, trải dài từ ngày 2011-01-01 đến ngày 2014-04-01.",
+    "Việc sử dụng mô hình ensemble giúp cân bằng giữa các biến động ngắn hạn và xu hướng dài hạn của dữ liệu lịch sử."
+  ],
+  "chart_note": "Dữ liệu dự báo cho thấy một xu hướng giảm tuyến tính rõ rệt trong suốt giai đoạn 24 tháng được dự báo."
+}

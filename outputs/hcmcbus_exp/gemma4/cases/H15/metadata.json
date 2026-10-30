@@ -1,0 +1,33 @@
+{
+  "case_id": "H15",
+  "question": "Dự báo lượng hành khách của tuyến 39 sử dụng nhóm xe 3B.1_ML trong 8 quý tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 12,
+    "n_train": 12,
+    "n_test": 0,
+    "horizon": 8,
+    "minimum_train_required": 8,
+    "required_points_for_evaluation": 16,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 39.853699332998076,
+    "load_schema": 0.003997042003902607,
+    "sql_generation": 59.14422283399472,
+    "sql_execution_and_repair": 0.021139374999620486,
+    "forecast": 108.42326241700357,
+    "explanation": 93.06283791700116,
+    "end_to_end": 300.50920670800406
+  },
+  "total_tokens": 7309,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

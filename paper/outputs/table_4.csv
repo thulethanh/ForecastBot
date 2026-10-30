@@ -1,0 +1,5 @@
+﻿Dataset – model,Relevance,Faithfulness,Clarity,Usefulness,Mean
+M5 – Gemini,5.00,4.34,4.98,4.81,4.78
+M5 – Gemma 4,4.79,4.05,4.77,4.11,4.43
+Bus – Gemini,5.00,4.36,5.00,4.83,4.80
+Bus – Gemma 4,4.78,4.10,4.86,4.19,4.48

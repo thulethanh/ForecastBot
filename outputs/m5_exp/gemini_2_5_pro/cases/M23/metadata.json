@@ -1,0 +1,33 @@
+{
+  "case_id": "M23",
+  "question": "Cho tôi biết lượng bán dự kiến của sản phẩm FOODS_3_455 trong 28 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1885,
+    "n_test": 28,
+    "horizon": 28,
+    "minimum_train_required": 28,
+    "required_points_for_evaluation": 56,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.849469416996726,
+    "load_schema": 0.0015327090004575439,
+    "sql_generation": 12.19636370799708,
+    "sql_execution_and_repair": 0.045574374998977873,
+    "forecast": 181.4280762499984,
+    "explanation": 25.79489525000099,
+    "end_to_end": 226.31617837500016
+  },
+  "total_tokens": 38689,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

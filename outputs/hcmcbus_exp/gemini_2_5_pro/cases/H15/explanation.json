@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 39, vehicle_group: 3B.1_ML) trong 8 quý tới",
+  "summary_text": "ForecastBot dự báo cho 8 quý tiếp theo, từ Quý 1 2025 đến Quý 4 2026. Các giá trị dự báo dao động từ 76,054 (Quý 3 2026) đến 83,832 (Quý 4 2025). Mức dự báo trung bình là khoảng 80,180, gần với mức trung bình lịch sử là 81,098.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 83,832 vào Quý 4 2025, và thấp nhất là 76,054 vào Quý 3 2026.",
+    "Dự báo cho thấy xu hướng giảm nhẹ trong giai đoạn 2 năm, với giá trị trung bình năm 2026 (khoảng 79,195) thấp hơn so với năm 2025 (khoảng 81,165).",
+    "Dự báo cho thấy một mô hình theo mùa, với các giá trị có xu hướng giảm xuống mức thấp nhất trong Quý 3 của mỗi năm (79,250 vào năm 2025 và 76,054 vào năm 2026)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 12 điểm dữ liệu lịch sử từ Quý 1 2022 đến Quý 4 2024 và dự báo của ForecastBot cho 8 quý tiếp theo đến Quý 4 2026."
+}

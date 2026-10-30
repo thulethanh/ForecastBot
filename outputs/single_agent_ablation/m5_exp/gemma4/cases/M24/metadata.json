@@ -1,0 +1,20 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M24",
+  "question": "Trong 30 ngày tới, lượng bán của sản phẩm FOODS_1_078 tại cửa hàng TX_3 được dự báo như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "load_schema": 0.002885957947000861,
+    "request_sql": 70.0392364161089,
+    "sql_execution_and_repair": 0.019470417057164013,
+    "end_to_end": 70.06378504098393
+  },
+  "total_tokens": 2224,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "SQL succeeded but returned no historical data"
+}

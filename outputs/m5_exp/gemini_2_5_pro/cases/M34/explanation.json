@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOBBIES_2_018 tại TX_2 trong 3 quý tới",
+  "summary_text": "ForecastBot dự báo cho `item_id` HOBBIES_2_018 và `store_id` TX_2 trong 3 quý tới, bắt đầu từ 2015-10-01. Dựa trên 19 điểm dữ liệu lịch sử theo quý từ 2011-01-01 đến 2015-07-01 (giá trị trung bình 17.8), dự báo cho quý tiếp theo là 122.0, sau đó giảm xuống 91.6 và 70.2.",
+  "insights": [
+    "Dự báo cho thấy xu hướng giảm trong 3 quý tới, từ 122.0 trong quý đầu tiên xuống 70.2 vào quý cuối cùng.",
+    "Giá trị dự báo cho quý đầu tiên (122.0) cao hơn đáng kể so với mức tối đa trong lịch sử (77.0).",
+    "Mô hình `ensemble` được sử dụng, kết hợp một cửa sổ ngắn (8 quý, trọng số 60%) và một cửa sổ dài (12 quý, trọng số 40%) của dữ liệu lịch sử."
+  ],
+  "chart_note": "Biểu đồ hiển thị 19 điểm dữ liệu lịch sử theo quý từ 2011-01-01 đến 2015-07-01 và dự báo của ForecastBot cho 3 quý tiếp theo."
+}

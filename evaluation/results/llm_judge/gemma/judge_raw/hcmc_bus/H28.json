@@ -1,0 +1,24 @@
+{
+  "case_id": "H28",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng tuyến 18, nhóm xe 3B.2_ML và kỳ hạn 3 tháng. Các mốc thời gian, giá trị dự báo và xu hướng tăng đều khớp forecast_result. Ghi chú về 22 điểm dữ liệu lịch sử, phạm vi lịch sử, chế độ single và trọng số cũng phù hợp với history_summary và window_info. Nội dung ngắn gọn, dễ theo dõi và nêu rõ mức dự báo theo từng tháng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.1275716250092955,
+    "input_tokens": 2265,
+    "output_tokens": 259,
+    "total_tokens": 2524,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng tuyến 18, nhóm xe 3B.2_ML và kỳ hạn 3 tháng. Các mốc thời gian, giá trị dự báo và xu hướng tăng đều khớp forecast_result. Ghi chú về 22 điểm dữ liệu lịch sử, phạm vi lịch sử, chế độ single và trọng số cũng phù hợp với history_summary và window_info. Nội dung ngắn gọn, dễ theo dõi và nêu rõ mức dự báo theo từng tháng.\"}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 7 ngày cho item_id FOODS_3_083 tại store_id WI_2",
+  "summary_text": "ForecastBot dự báo các giá trị cho 7 ngày tới (từ 2016-04-18 đến 2016-04-24) sẽ dao động trong khoảng từ 1.6 đến 4.6. Giá trị dự báo cao nhất là 4.6 vào ngày 2016-04-19. Mức trung bình dự báo là 3.06, cao hơn so với trung bình lịch sử là 1.28.",
+  "insights": [
+    "Các giá trị dự báo (từ 1.6 đến 4.6) nằm trong phạm vi dữ liệu lịch sử (từ 0.0 đến 21.0).",
+    "Dự báo được tạo ra bằng mô hình `ensemble`, kết hợp hai cửa sổ thời gian: 180 ngày (`h180`, trọng số 0.6) và 365 ngày (`h365`, trọng số 0.4).",
+    "Dự báo cho thấy một đỉnh điểm vào ngày 2016-04-19 với giá trị 4.6, và một điểm thấp nhất vào ngày 2016-04-21 với giá trị 1.6."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (1906 điểm, từ 2011-01-29 đến 2016-04-17) và dự báo của ForecastBot cho 7 ngày tiếp theo."
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "H43",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định có “mô hình hàng tuần rõ rệt” không được history summary xác nhận; forecast chỉ cho thấy mức dự báo thấp hơn vào Thứ Bảy và Chủ Nhật trong tuần này.",
+      "Nhận định nhánh 365 ngày thể hiện “tính mùa vụ trong năm” không được hỗ trợ trực tiếp bởi history summary hoặc forecast; window_info chỉ xác nhận cửa sổ 365 quan sát."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến 145, đúng kỳ dự báo 25–31/12/2024, nêu đúng khoảng dự báo, trung bình lịch sử và trọng số ensemble 60%/40%. Trình bày rõ ràng, hữu ích khi chỉ ra mức giảm dự báo cuối tuần. Tuy nhiên, dữ liệu được cung cấp không xác nhận trực tiếp một mô hình tuần rõ rệt hay mùa vụ năm; đây là các diễn giải mạnh hơn bằng chứng hiện có."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.303156291949563,
+    "input_tokens": 2384,
+    "output_tokens": 476,
+    "total_tokens": 2860,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định có “mô hình hàng tuần rõ rệt” không được history summary xác nhận; forecast chỉ cho thấy mức dự báo thấp hơn vào Thứ Bảy và Chủ Nhật trong tuần này.\",\"Nhận định nhánh 365 ngày thể hiện “tính mùa vụ trong năm” không được hỗ trợ trực tiếp bởi history summary hoặc forecast; window_info chỉ xác nhận cửa sổ 365 quan sát.\"],\"reason_vi\":\"Giải thích bám sát tuyến 145, đúng kỳ dự báo 25–31/12/2024, nêu đúng khoảng dự báo, trung bình lịch sử và trọng số ensemble 60%/40%. Trình bày rõ ràng, hữu ích khi chỉ ra mức giảm dự báo cuối tuần. Tuy nhiên, dữ liệu được cung cấp không xác nhận trực tiếp một mô hình tuần rõ rệt hay mùa vụ năm; đây là các diễn giải mạnh hơn bằng chứng hiện có.\"}"
+  }
+}

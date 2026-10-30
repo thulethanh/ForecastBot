@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 3 tháng cho mặt hàng FOODS_3_302 tại cửa hàng TX_1. Dự báo cho thấy doanh số bán hàng là 48.0 đơn vị vào tháng 2 năm 2016, 47.0 đơn vị vào tháng 3 năm 2016 và 10.0 đơn vị vào tháng 4 năm 2016.",
+  "insights": [
+    "Dự báo cho thấy doanh số bán hàng sẽ giảm đáng kể từ tháng 3 (47.0) xuống tháng 4 (10.0).",
+    "Doanh số dự báo cho tháng 2 và tháng 3 (48.0 và 47.0) gần với mức cao nhất trong lịch sử (58.0), trong khi dự báo cho tháng 4 (10.0) thấp hơn mức trung bình lịch sử (16.4).",
+    "Dự báo được tạo ra bằng cách kết hợp dữ liệu lịch sử của 24 tháng và 36 tháng, với trọng số lớn hơn (60%) được đặt vào giai đoạn 24 tháng gần đây hơn."
+  ],
+  "chart_note": "Biểu đồ hiển thị 61 tháng dữ liệu bán hàng trong quá khứ và dự báo cho 3 tháng tới."
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "H30",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.0,
+    "unsupported_claims": [
+      "\"Biểu đồ này được huấn luyện trên 23 điểm dữ liệu lịch sử\" không được hỗ trợ: thông tin chỉ cho biết có 23 điểm lịch sử và các cửa sổ dự báo đều dùng 23 điểm, không xác nhận biểu đồ hoặc mô hình được huấn luyện trên các điểm này.",
+      "Nhận định các tháng còn lại nằm trong khoảng 104500.0 đến 113000.0 mâu thuẫn với dự báo tháng 5/2025 là 100500.0."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 12 tháng và nêu chính xác tháng cao nhất/thấp nhất theo forecast. Nội dung nhìn chung rõ ràng, hữu ích và các mốc thời gian lịch sử phù hợp summary. Tuy vậy, câu nói biểu đồ được “huấn luyện” trên 23 điểm không có bằng chứng trực tiếp về huấn luyện. Ngoài ra, khoảng giá trị của các tháng còn lại bỏ sót mức 100500.0 ở tháng 5/2025, nên làm giảm tính trung thực và độ hữu ích một phần."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.030698292001034,
+    "input_tokens": 2624,
+    "output_tokens": 423,
+    "total_tokens": 3047,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.0,\"unsupported_claims\":[\"\\\"Biểu đồ này được huấn luyện trên 23 điểm dữ liệu lịch sử\\\" không được hỗ trợ: thông tin chỉ cho biết có 23 điểm lịch sử và các cửa sổ dự báo đều dùng 23 điểm, không xác nhận biểu đồ hoặc mô hình được huấn luyện trên các điểm này.\",\"Nhận định các tháng còn lại nằm trong khoảng 104500.0 đến 113000.0 mâu thuẫn với dự báo tháng 5/2025 là 100500.0.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 12 tháng và nêu chính xác tháng cao nhất/thấp nhất theo forecast. Nội dung nhìn chung rõ ràng, hữu ích và các mốc thời gian lịch sử phù hợp summary. Tuy vậy, câu nói biểu đồ được “huấn luyện” trên 23 điểm không có bằng chứng trực tiếp về huấn luyện. Ngoài ra, khoảng giá trị của các tháng còn lại bỏ sót mức 100500.0 ở tháng 5/2025, nên làm giảm tính trung thực và độ hữu ích một phần.\"}"
+  }
+}

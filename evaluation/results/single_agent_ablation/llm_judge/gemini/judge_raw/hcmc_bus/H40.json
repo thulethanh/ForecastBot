@@ -1,0 +1,24 @@
+{
+  "case_id": "H40",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 128, đơn vị vận hành, phạm vi 3 năm và các mức dự báo. Các số liệu khoảng 381 nghìn năm 2025, 421 nghìn năm 2027 và mức tăng khoảng 20 nghìn mỗi năm đều phù hợp forecast. Nhận định dữ liệu lịch sử chỉ có 3 điểm cũng đúng với history summary và là lưu ý hữu ích về độ tin cậy. Nội dung rõ ràng, ngắn gọn, nêu được xu hướng lẫn hạn chế dữ liệu."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.9863081669900566,
+    "input_tokens": 2219,
+    "output_tokens": 245,
+    "total_tokens": 2464,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 128, đơn vị vận hành, phạm vi 3 năm và các mức dự báo. Các số liệu khoảng 381 nghìn năm 2025, 421 nghìn năm 2027 và mức tăng khoảng 20 nghìn mỗi năm đều phù hợp forecast. Nhận định dữ liệu lịch sử chỉ có 3 điểm cũng đúng với history summary và là lưu ý hữu ích về độ tin cậy. Nội dung rõ ràng, ngắn gọn, nêu được xu hướng lẫn hạn chế dữ liệu.\"}"
+  }
+}

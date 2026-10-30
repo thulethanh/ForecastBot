@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H16",
+  "question": "Cho tôi dự báo hành khách của tuyến 41 do HTX-195 vận hành trong 12 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 9,
+    "n_train": 9,
+    "n_test": 0,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.218329583061859,
+    "request_sql": 65.26252583297901,
+    "sql_execution_and_repair": 0.10892720799893141,
+    "forecast": 88.81825670809485,
+    "explanation": 82.30285945802461,
+    "end_to_end": 236.71116345806513
+  },
+  "total_tokens": 4800,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

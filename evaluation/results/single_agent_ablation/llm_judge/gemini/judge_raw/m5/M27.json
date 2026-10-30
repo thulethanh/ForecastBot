@@ -1,0 +1,24 @@
+{
+  "case_id": "M27",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo tháng cho đúng mặt hàng và cửa hàng, nêu rõ mức dự báo 43,4 cho tháng 4/2016. Các so sánh với trung bình lịch sử 24,8 và phạm vi 0–54 đều khớp dữ liệu. Mô tả mô hình tổng hợp, trọng số 60%/40% và hai cửa sổ 24/36 tháng phù hợp forecast_result. Nội dung rõ ràng, ngắn gọn và giúp người dùng đặt dự báo trong bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.713118084007874,
+    "input_tokens": 2174,
+    "output_tokens": 239,
+    "total_tokens": 2413,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo tháng cho đúng mặt hàng và cửa hàng, nêu rõ mức dự báo 43,4 cho tháng 4/2016. Các so sánh với trung bình lịch sử 24,8 và phạm vi 0–54 đều khớp dữ liệu. Mô tả mô hình tổng hợp, trọng số 60%/40% và hai cửa sổ 24/36 tháng phù hợp forecast_result. Nội dung rõ ràng, ngắn gọn và giúp người dùng đặt dự báo trong bối cảnh lịch sử.\"}"
+  }
+}

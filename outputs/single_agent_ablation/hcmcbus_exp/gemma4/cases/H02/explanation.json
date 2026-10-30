@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho dữ liệu HCMC_BUS (Tuyến 22, HTX-VTHANG) trong 28 ngày tới (từ 2024-12-04 đến 2024-12-31) được dự đoán là một giá trị ổn định và không thay đổi, duy trì ở mức 1796.0.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', kết hợp trọng số 60% từ cửa sổ ngắn (180 ngày) và 40% từ cửa sổ dài (365 ngày).",
+    "Do sử dụng cơ chế dự phòng (fallback_used: true), kết quả dự báo được xác định là ổn định và đồng nhất trên toàn bộ 28 ngày.",
+    "Giá trị dự báo 1796.0 được duy trì liên tục trong suốt giai đoạn dự báo, cho thấy sự ổn định cao của dữ liệu trong khung thời gian này."
+  ],
+  "chart_note": "Phạm vi dự báo bao gồm 28 bước, từ ngày 2024-12-04 đến ngày 2024-12-31. Tất cả các điểm dữ liệu dự báo đều có giá trị yhat = 1796.0."
+}

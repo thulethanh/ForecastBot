@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 7 ngày tới về lượng hành khách cho tuyến xe buýt 58 do HTX-VTHANG vận hành, từ ngày 25/12/2024 đến 31/12/2024. Các giá trị dự báo dao động từ 833 đến 1,827, so với mức trung bình lịch sử là khoảng 1,260.",
+  "insights": [
+    "Dự báo cho thấy sự sụt giảm đáng kể vào hai ngày 28/12 và 29/12, với giá trị thấp nhất là 833, thấp hơn đáng kể so với mức trung bình của dữ liệu lịch sử.",
+    "Mô hình dự báo là sự kết hợp (ensemble) giữa xu hướng ngắn hạn (180 ngày) và dài hạn (365 ngày), trong đó các xu hướng gần đây có trọng số cao hơn (60%)."
+  ],
+  "chart_note": "Dữ liệu lịch sử được sử dụng kéo dài từ 01/01/2022 đến 24/12/2024. Đường chấm biểu thị các giá trị dự báo."
+}

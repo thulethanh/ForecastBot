@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 6,
+  "filters": {
+    "item_id": "HOBBIES_1_124",
+    "store_id": "CA_1",
+    "state_id": "CA"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOBBIES_1_124' AND s.store_id = 'CA_1' AND s.state_id = 'CA' GROUP BY DATE_TRUNC('month', c.date)::date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query calculates the total monthly sales (y) for item 'HOBBIES_1_124' in store 'CA_1' and state 'CA'. It joins the sales and calendar tables, filters by the specified criteria, and groups the results by month (ds) to create the time series."
+}

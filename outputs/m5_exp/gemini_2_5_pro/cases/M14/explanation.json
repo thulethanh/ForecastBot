@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo hàng quý cho item_id HOBBIES_1_227 tại store_id CA_2",
+  "summary_text": "Dựa trên 18 điểm dữ liệu lịch sử hàng quý từ 2011-01-01 đến 2015-04-01 (giá trị trung bình 39.17), ForecastBot dự báo giá trị sẽ dao động từ 23.4 đến 69.6 trong 4 quý tiếp theo.",
+  "insights": [
+    "Dự báo cho quý 3 năm 2015 là 23.4.",
+    "Giá trị dự báo tăng lên 42.6 vào quý 4 năm 2015 và 44.8 vào quý 1 năm 2016.",
+    "Dự báo đạt đỉnh ở mức 69.6 vào quý 2 năm 2016, gần bằng mức cao nhất trong lịch sử (69.0)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 18 điểm dữ liệu lịch sử từ 2011-01-01 đến 2015-04-01 và dự báo cho 4 quý tiếp theo được tạo bởi mô hình ensemble của ForecastBot."
+}

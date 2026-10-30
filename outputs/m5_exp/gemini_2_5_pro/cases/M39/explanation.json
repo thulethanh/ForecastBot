@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo hàng năm cho item_id HOUSEHOLD_2_275 tại store_id TX_2",
+  "summary_text": "ForecastBot dự báo giá trị cho item_id HOUSEHOLD_2_275 tại store_id TX_2 sẽ là 17.5 cho năm 2015 và 1.3 cho năm 2016.",
+  "insights": [
+    "Giá trị dự báo (17.5 cho năm 2015 và 1.3 cho năm 2016) thấp hơn đáng kể so với giá trị trung bình lịch sử là 113.0 (từ 2011 đến 2014).",
+    "Dự báo cho thấy một xu hướng giảm, với giá trị giảm từ 17.5 trong năm đầu tiên xuống còn 1.3 trong năm thứ hai.",
+    "Các giá trị dự báo nằm ngoài phạm vi lịch sử quan sát được (từ 50.0 đến 145.0)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2011-01-01 đến 2014-01-01 và dự báo của ForecastBot cho 2 năm tiếp theo."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử có sẵn, giá trị dự báo cho tuyến 88, nhóm xe 2B.1_ML là 1.031.944 cho năm 2023 và 1.031.944 cho năm 2024.",
+  "insights": [
+    "Dự báo được đưa ra chỉ dựa trên một điểm dữ liệu lịch sử duy nhất của năm 2022.",
+    "Vì không có đủ dữ liệu để xác định xu hướng hoặc tính mùa vụ, mô hình đã lặp lại giá trị lịch sử duy nhất cho các năm trong tương lai."
+  ],
+  "chart_note": "Biểu đồ hiển thị một điểm dữ liệu lịch sử cho năm 2022 và một đường dự báo không đổi cho hai năm tiếp theo."
+}

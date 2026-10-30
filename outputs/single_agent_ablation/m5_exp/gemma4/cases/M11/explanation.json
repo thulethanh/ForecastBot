@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho quý tiếp theo (2016-04-01) của mặt hàng HOBBIES_2_089 trên tập dữ liệu M5 là 276.33. Dự báo này được tính toán bằng phương pháp Ensemble, kết hợp trọng số 60% từ xu hướng ngắn hạn (8 kỳ) và 40% từ xu hướng dài hạn (12 kỳ).",
+  "insights": [
+    "Giá trị dự báo (276.33) thấp hơn một chút so với mức trung bình lịch sử của dữ liệu (291.86).",
+    "Mô hình đã sử dụng phương pháp Ensemble, cho thấy sự ưu tiên hơn cho các biến động và xu hướng gần đây (trọng số 0.6) so với xu hướng dài hạn (trọng số 0.4)."
+  ],
+  "chart_note": "Dự báo này dựa trên 21 điểm dữ liệu lịch sử từ quý 2011 đến quý 2016. Kết quả chỉ là ước tính toán học và không đảm bảo giá trị thực tế trong tương lai."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id HOUSEHOLD_2_488 và store_id TX_3 trong 3 năm tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2013-01-01, ForecastBot dự báo giá trị sẽ giảm từ 37,1 vào năm 2014 xuống 30,7 vào năm 2016. Trong quá khứ, giá trị đã dao động trong khoảng từ 47,0 đến 118,0.",
+  "insights": [
+    "Dự báo cho thấy xu hướng giảm trong 3 năm tới, từ 37,1 xuống 30,7.",
+    "Giá trị dự báo cho năm 2014 (37,1) thấp hơn giá trị trung bình trong lịch sử (78,0).",
+    "Toàn bộ các giá trị dự báo (từ 30,7 đến 37,1) đều thấp hơn mức tối thiểu đã ghi nhận trong lịch sử (47,0)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 3 điểm dữ liệu lịch sử từ 2011-01-01 đến 2013-01-01 và dự báo cho 3 năm tiếp theo."
+}

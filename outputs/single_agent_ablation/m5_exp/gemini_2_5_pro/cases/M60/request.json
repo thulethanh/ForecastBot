@@ -1,0 +1,13 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 24,
+  "filters": {
+    "item_id": "HOUSEHOLD_1_230",
+    "store_id": "WI_1"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

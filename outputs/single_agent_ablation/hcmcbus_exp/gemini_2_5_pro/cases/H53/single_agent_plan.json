@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 1,
+  "filters": {
+    "route_id": "77",
+    "operator": "HTX 26"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT\n  DATE_TRUNC('quarter', d.date)::date AS ds,\n  SUM(d.total_passengers) AS y\nFROM\n  daily_passenger_stats AS d\nWHERE\n  d.route_id = '77'\n  AND TRIM(d.operator) = 'HTX 26'\nGROUP BY\n  DATE_TRUNC('quarter', d.date)::date\nORDER BY\n  ds ASC;",
+  "sql_explanation": "Retrieves the total number of passengers, aggregated quarterly, for route 77 operated by HTX 26."
+}

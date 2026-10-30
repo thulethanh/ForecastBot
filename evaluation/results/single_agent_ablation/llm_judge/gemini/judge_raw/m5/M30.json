@@ -1,0 +1,26 @@
+{
+  "case_id": "M30",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng mô hình đã xác định được \"một mô hình mùa vụ rõ rệt\" không được xác nhận trực tiếp bởi history summary; kết quả dự báo chỉ cho thấy mức cao vào tháng 10–11 và giảm ở tháng 12 trong một chu kỳ dự báo."
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, cửa hàng, kỳ hạn 12 tháng và nêu rõ biên độ dự báo, trung bình lịch sử, điểm cao/thấp cùng trọng số ensemble. Các số liệu đều phù hợp với forecast và history summary; chart note cũng khớp số điểm lịch sử và dự báo. Tuy nhiên, kết luận về mùa vụ rõ rệt là diễn giải mạnh hơn bằng chứng được cung cấp, vì summary không nêu cấu trúc mùa vụ lịch sử. Nội dung rõ ràng và hữu ích để hiểu mức độ, biến động chính của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.088409082964063,
+    "input_tokens": 2579,
+    "output_tokens": 503,
+    "total_tokens": 3082,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng mô hình đã xác định được \\\"một mô hình mùa vụ rõ rệt\\\" không được xác nhận trực tiếp bởi history summary; kết quả dự báo chỉ cho thấy mức cao vào tháng 10–11 và giảm ở tháng 12 trong một chu kỳ dự báo.\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, cửa hàng, kỳ hạn 12 tháng và nêu rõ biên độ dự báo, trung bình lịch sử, điểm cao/thấp cùng trọng số ensemble. Các số liệu đều phù hợp với forecast và history summary; chart note cũng khớp số điểm lịch sử và dự báo. Tuy nhiên, kết luận về mùa vụ rõ rệt là diễn giải mạnh hơn bằng chứng được cung cấp, vì summary không nêu cấu trúc mùa vụ lịch sử. Nội dung rõ ràng và hữu ích để hiểu mức độ, biến động chính của dự báo.\"}"
+  }
+}

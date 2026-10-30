@@ -1,0 +1,24 @@
+{
+  "case_id": "H21",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng phạm vi dự báo: tuyến 55, XKSG, nhóm xe 4_CNG.2, theo năm trong 10 năm 2025–2034. Các mốc dự báo, xu hướng tăng, giá trị đầu-cuối, phạm vi lịch sử, giá trị trung bình, chế độ single, trọng số và cửa sổ 3 điểm đều phù hợp dữ liệu được cung cấp. Diễn đạt rõ ràng, có lưu ý rằng đây không phải giá trị thực tế được đảm bảo. Hữu ích cao, dù có thể hữu ích hơn nếu nêu rõ dữ liệu lịch sử chỉ gồm 3 quan sát nên diễn giải dài hạn cần thận trọng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.759868959081359,
+    "input_tokens": 2599,
+    "output_tokens": 318,
+    "total_tokens": 2917,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng phạm vi dự báo: tuyến 55, XKSG, nhóm xe 4_CNG.2, theo năm trong 10 năm 2025–2034. Các mốc dự báo, xu hướng tăng, giá trị đầu-cuối, phạm vi lịch sử, giá trị trung bình, chế độ single, trọng số và cửa sổ 3 điểm đều phù hợp dữ liệu được cung cấp. Diễn đạt rõ ràng, có lưu ý rằng đây không phải giá trị thực tế được đảm bảo. Hữu ích cao, dù có thể hữu ích hơn nếu nêu rõ dữ liệu lịch sử chỉ gồm 3 quan sát nên diễn giải dài hạn cần thận trọng.\"}"
+  }
+}

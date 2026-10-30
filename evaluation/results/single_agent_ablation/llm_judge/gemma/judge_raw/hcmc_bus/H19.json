@@ -1,0 +1,24 @@
+{
+  "case_id": "H19",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 năm cho tuyến 47, nêu đúng các mốc 2025–2027, mức dự báo đầu-cuối và xu hướng tăng. Các số liệu, chế độ dự báo, trọng số, số điểm lịch sử và phạm vi 2022–2024 đều phù hợp với thông tin được cung cấp. Nội dung rõ ràng, có lưu ý rằng yhat không phải giá trị thực tế tương lai. Tính hữu ích cao, dù có thể tốt hơn nếu nêu thêm mức tăng giữa các năm hoặc mức biến động dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.258947290945798,
+    "input_tokens": 2259,
+    "output_tokens": 266,
+    "total_tokens": 2525,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 năm cho tuyến 47, nêu đúng các mốc 2025–2027, mức dự báo đầu-cuối và xu hướng tăng. Các số liệu, chế độ dự báo, trọng số, số điểm lịch sử và phạm vi 2022–2024 đều phù hợp với thông tin được cung cấp. Nội dung rõ ràng, có lưu ý rằng yhat không phải giá trị thực tế tương lai. Tính hữu ích cao, dù có thể tốt hơn nếu nêu thêm mức tăng giữa các năm hoặc mức biến động dự báo.\"}"
+  }
+}

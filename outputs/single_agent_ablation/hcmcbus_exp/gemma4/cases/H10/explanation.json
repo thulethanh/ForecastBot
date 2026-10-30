@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho tuyến xe buýt (Route 32, HTX-VTHANG) trong 24 tháng tới (từ 2025-01-01 đến 2026-12-01) được thực hiện bằng phương pháp dự báo đơn (single mode). Kết quả cho thấy một xu hướng tăng trưởng ban đầu, đạt đỉnh vào khoảng quý 1 năm 2026, sau đó giảm dần trong suốt năm 2026.",
+  "insights": [
+    "Dự báo cho thấy giá trị dự kiến tăng từ 96,000 (tháng 1/2025) lên mức cao nhất là 110,000 (tháng 3/2026).",
+    "Sau khi đạt đỉnh vào quý 1 năm 2026, giá trị dự kiến sẽ giảm dần và kết thúc ở mức 101,000 vào tháng 12 năm 2026."
+  ],
+  "chart_note": "Đây là kết quả dự báo dựa trên 36 điểm dữ liệu lịch sử và chỉ mang tính chất dự đoán cho các tham số đã được xác định."
+}

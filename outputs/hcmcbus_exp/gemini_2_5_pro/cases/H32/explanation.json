@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS cho tuyến 43 (Cty-BaoYen) trong Quý 4 2024",
+  "summary_text": "ForecastBot dự báo giá trị cho HCMC_BUS (route_id: 43, operator: Cty-BaoYen) sẽ là 131.597,0 trong quý tới, bắt đầu từ 2024-10-01.",
+  "insights": [
+    "Giá trị dự báo cho quý bắt đầu từ 2024-10-01 là 131.597,0.",
+    "Giá trị dự báo này bằng với giá trị quan sát cao nhất trong lịch sử (131.597,0).",
+    "Trong 8 quý qua (từ 2022-04-01 đến 2024-07-01), giá trị đã dao động trong khoảng 4.767,0 đến 131.597,0, với trung bình là 81.147,6."
+  ],
+  "chart_note": "Biểu đồ hiển thị 8 điểm dữ liệu lịch sử theo quý từ 2022-04-01 đến 2024-07-01 và dự báo của ForecastBot cho 1 quý tiếp theo."
+}

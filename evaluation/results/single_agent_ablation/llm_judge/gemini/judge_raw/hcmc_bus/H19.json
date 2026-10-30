@@ -1,0 +1,26 @@
+{
+  "case_id": "H19",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Cụm “sẽ tiếp tục tăng” hàm ý xu hướng lịch sử đã tăng, trong khi history summary không cung cấp thứ tự các giá trị theo năm để xác nhận điều này."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 năm cho tuyến 47, nêu đúng các mức dự báo, so sánh hợp lệ với mức lịch sử cao nhất và cảnh báo phù hợp về chỉ có 3 điểm dữ liệu. Trình bày rõ ràng, ngắn gọn và hữu ích. Tuy nhiên, từ “tiếp tục” ngụ ý xu hướng tăng trong lịch sử, điều chưa được xác nhận trực tiếp bởi phần tóm tắt lịch sử chỉ có min/max/mean."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.815477499971166,
+    "input_tokens": 2218,
+    "output_tokens": 448,
+    "total_tokens": 2666,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Cụm “sẽ tiếp tục tăng” hàm ý xu hướng lịch sử đã tăng, trong khi history summary không cung cấp thứ tự các giá trị theo năm để xác nhận điều này.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 năm cho tuyến 47, nêu đúng các mức dự báo, so sánh hợp lệ với mức lịch sử cao nhất và cảnh báo phù hợp về chỉ có 3 điểm dữ liệu. Trình bày rõ ràng, ngắn gọn và hữu ích. Tuy nhiên, từ “tiếp tục” ngụ ý xu hướng tăng trong lịch sử, điều chưa được xác nhận trực tiếp bởi phần tóm tắt lịch sử chỉ có min/max/mean.\"}"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H23",
+  "question": "Cho tôi biết tuyến 62 do XKSG vận hành trong 28 ngày tiếp theo dự kiến có bao nhiêu lượt hành khách.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "load_schema": 0.034751166007481515,
+    "request_sql": 96.26991812500637,
+    "sql_execution_and_repair": 0.051656416966579854,
+    "end_to_end": 96.36345820804127
+  },
+  "total_tokens": 2014,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "SQL succeeded but returned no historical data"
+}

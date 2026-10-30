@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo lưu lượng xe buýt HCMC_BUS (Tuyến 22, HTX-VTHANG) trong 28 ngày tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2024-12-03, mô hình dự báo cho 28 ngày tới (từ 2024-12-04 đến 2024-12-31) cho thấy lưu lượng xe buýt ổn định ở mức 1796.0. Giá trị dự báo này được tính toán bằng phương pháp deterministic_recent_mean.",
+  "insights": [
+    "Trong suốt 28 ngày dự báo, lưu lượng xe buýt được dự đoán duy trì ở mức ổn định 1796.0, không có xu hướng tăng hay giảm đáng kể.",
+    "Giá trị dự báo này được xác định bằng phương pháp deterministic_recent_mean, sử dụng trọng số ngắn (short): 0.6 và trọng số dài (long): 0.4."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2024-12-03. ForecastBot đã tạo ra dự báo cho 28 bước tiếp theo, từ 2024-12-04 đến 2024-12-31, sử dụng chế độ deterministic_recent_mean."
+}

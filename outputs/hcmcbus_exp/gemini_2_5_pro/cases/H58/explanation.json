@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo hàng quý cho Tuyến 85 (HTX-195)",
+  "summary_text": "ForecastBot dự báo cho 12 quý tới (từ Q1 2025 đến Q4 2027) cho tuyến 85 (HTX-195). Các giá trị dự báo dao động từ khoảng 171.837 đến 190.400. Dự báo cho thấy một xu hướng tăng nhẹ qua các năm, cùng với một quy luật thời vụ rõ rệt: giá trị thường thấp nhất vào Quý 1 và cao nhất vào Quý 4 hàng năm.",
+  "insights": [
+    "**Xu hướng tăng trưởng:** Dự báo cho thấy xu hướng tăng nhẹ qua các năm. Ví dụ, giá trị dự báo cho Quý 4 2027 (190.400) cao hơn so với Quý 4 2025 (188.790).",
+    "**Quy luật thời vụ:** Có một quy luật thời vụ mạnh mẽ, với giá trị dự báo của Quý 4 thường cao hơn khoảng 9,8% so với Quý 1 trong cùng một năm.",
+    "**Dự báo cao nhất:** Giá trị dự báo cao nhất trong 12 quý tới là 190.400, dự kiến đạt được vào Quý 4 năm 2027."
+  ],
+  "chart_note": "Biểu đồ hiển thị 12 điểm dữ liệu lịch sử hàng quý từ 2022-01-01 đến 2024-10-01 và 12 điểm dự báo hàng quý do ForecastBot tạo ra cho giai đoạn 2025-01-01 đến 2027-10-01."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 10 năm cho item_id HOUSEHOLD_2_226 tại store_id CA_3",
+  "summary_text": "Dựa trên 6 năm dữ liệu lịch sử với giá trị trung bình là 128.83, ForecastBot dự báo cho 10 năm tới. Dự báo cho thấy một xu hướng giảm tổng thể, bắt đầu từ 130.5 vào năm 2017 và giảm xuống còn 0.5 vào năm 2026.",
+  "insights": [
+    "Xu hướng giảm rõ rệt: Giá trị dự báo giảm mạnh trong suốt 10 năm, từ 130.5 xuống chỉ còn 0.5 vào cuối giai đoạn.",
+    "Biến động giảm dần: Dự báo cho thấy các đỉnh và đáy xen kẽ nhau, nhưng cả đỉnh và đáy đều có xu hướng thấp dần theo thời gian.",
+    "Thấp hơn mức trung bình lịch sử: Ngoại trừ năm đầu tiên (130.5), tất cả các giá trị dự báo còn lại đều thấp hơn đáng kể so với mức trung bình lịch sử là 128.83."
+  ],
+  "chart_note": "Biểu đồ hiển thị 6 điểm dữ liệu lịch sử từ 2011 đến 2016 được sử dụng để huấn luyện mô hình, cùng với dự báo cho 10 năm tiếp theo đến năm 2026 do ForecastBot tạo ra."
+}

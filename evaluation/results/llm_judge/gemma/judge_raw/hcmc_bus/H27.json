@@ -1,0 +1,24 @@
+{
+  "case_id": "H27",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo tháng 12/2024 cho tuyến 15, nêu đúng giá trị dự báo và đặt nó trong bối cảnh trung bình तथा khoảng biến động lịch sử. Các số liệu về 35 điểm, khoảng ngày, min/max, trung bình, chế độ ensemble, trọng số và cửa sổ h24/h35 đều được dữ liệu cung cấp hỗ trợ. Diễn đạt nhìn chung rõ ràng; tuy nhiên cụm “Bản đồ này” chưa phù hợp ngữ cảnh vì nội dung đang mô tả biểu đồ/dự báo, không ảnh hưởng đáng kể đến khả năng hiểu. Explanation hữu ích nhưng chưa nêu thêm ý nghĩa thực tế hoặc xu hướng gần đây."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 15.356472374987788,
+    "input_tokens": 2145,
+    "output_tokens": 318,
+    "total_tokens": 2463,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo tháng 12/2024 cho tuyến 15, nêu đúng giá trị dự báo và đặt nó trong bối cảnh trung bình तथा khoảng biến động lịch sử. Các số liệu về 35 điểm, khoảng ngày, min/max, trung bình, chế độ ensemble, trọng số và cửa sổ h24/h35 đều được dữ liệu cung cấp hỗ trợ. Diễn đạt nhìn chung rõ ràng; tuy nhiên cụm “Bản đồ này” chưa phù hợp ngữ cảnh vì nội dung đang mô tả biểu đồ/dự báo, không ảnh hưởng đáng kể đến khả năng hiểu. Explanation hữu ích nhưng chưa nêu thêm ý nghĩa thực tế hoặc xu hướng gần đây.\"}"
+  }
+}

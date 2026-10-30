@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho mặt hàng HOUSEHOLD_2_488 tại cửa hàng TX_3, với độ chi tiết theo năm, dự đoán một xu hướng giảm liên tục trong ba năm tới (từ 2014 đến 2016). Giá trị dự báo cho năm 2014 là 29.8, giảm xuống 18.8 vào năm 2015, và tiếp tục giảm xuống 11.9 vào năm 2016.",
+  "insights": [
+    "Xu hướng dự báo cho thấy sự suy giảm rõ rệt và ổn định qua các năm trong phạm vi dự báo 3 năm.",
+    "Mô hình sử dụng chế độ dự báo 'single' và đặt trọng số cao hơn cho dữ liệu ngắn hạn (0.6) so với dữ liệu dài hạn (0.4).",
+    "Dữ liệu lịch sử được sử dụng để dự báo chỉ bao gồm 3 điểm dữ liệu (từ 2011 đến 2013)."
+  ],
+  "chart_note": "Các giá trị được hiển thị là các ước tính dự báo (yhat) và không đại diện cho giá trị thực tế trong tương lai."
+}

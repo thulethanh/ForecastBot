@@ -1,0 +1,37 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+outputs/demo_chat/
+database/backups/
+
+# Local configuration and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.codex/
+.agents/
+
+# Local caches, editor settings, and runtime files
+.DS_Store
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+*.pyo
+*.log
+*.sqlite*
+*.db
+*.dump
+*.dump.*
+*.backup
+
+# Private manuscripts and prepared upload copies
+paper/reference/
+release/

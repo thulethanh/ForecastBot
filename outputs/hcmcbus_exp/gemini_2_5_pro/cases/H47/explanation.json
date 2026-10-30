@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 90 ngày cho tuyến 151 (HTX-28)",
+  "summary_text": "ForecastBot dự báo các giá trị cho 90 ngày tới, từ 31/12/2023 đến 31/03/2024. Giá trị dự báo trung bình là khoảng 3812.4, tương đương với mức trung bình lịch sử là 3797.4. Các giá trị dự báo dao động, với điểm cao nhất là 4805.4 vào ngày 30/01/2024 và thấp nhất là 2481.4 vào ngày 23/01/2024.",
+  "insights": [
+    "Giá trị dự báo trung bình (3812.4) trong 90 ngày tới gần như tương đương với giá trị trung bình lịch sử (3797.4) trong 729 ngày qua.",
+    "Dự báo cho thấy sự biến động đáng kể trong tháng 1, với giá trị cao nhất đạt 4805.4 (vào ngày 30/01) và giá trị thấp nhất là 2481.4 (vào ngày 23/01).",
+    "Giá trị trung bình dự báo có xu hướng giảm nhẹ trong giai đoạn dự báo, từ khoảng 3840.0 trong 30 ngày đầu tiên xuống còn khoảng 3793.3 trong 30 ngày cuối cùng."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 01/01/2022 đến 30/12/2023 (729 điểm dữ liệu) và dự báo của ForecastBot cho 90 ngày tiếp theo. Dự báo được tạo bởi mô hình ensemble."
+}

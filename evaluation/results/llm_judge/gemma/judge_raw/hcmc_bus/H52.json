@@ -1,0 +1,26 @@
+{
+  "case_id": "H52",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 36 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: window_info chỉ cho biết hai nhánh dự báo dùng cửa sổ 36 quan sát, không xác nhận việc biểu đồ hay mô hình được huấn luyện trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị khai thác, nhóm xe, kỳ hạn 24 tháng và nêu chính xác các mức đỉnh, đáy, trung bình lịch sử cũng như mốc thời gian dự báo. Nhận định về nhịp lặp hằng năm phù hợp với chuỗi dự báo lặp lại giữa hai năm. Nội dung rõ ràng, có ích để hiểu mức độ và biến động dự báo. Điểm faithfulness giảm nhẹ vì chart_note khẳng định biểu đồ được huấn luyện trên 36 điểm, trong khi dữ liệu chỉ xác nhận các cửa sổ đầu vào của nhánh dự báo là 36 quan sát."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 10.56101570899773,
+    "input_tokens": 3103,
+    "output_tokens": 656,
+    "total_tokens": 3759,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 36 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: window_info chỉ cho biết hai nhánh dự báo dùng cửa sổ 36 quan sát, không xác nhận việc biểu đồ hay mô hình được huấn luyện trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị khai thác, nhóm xe, kỳ hạn 24 tháng và nêu chính xác các mức đỉnh, đáy, trung bình lịch sử cũng như mốc thời gian dự báo. Nhận định về nhịp lặp hằng năm phù hợp với chuỗi dự báo lặp lại giữa hai năm. Nội dung rõ ràng, có ích để hiểu mức độ và biến động dự báo. Điểm faithfulness giảm nhẹ vì chart_note khẳng định biểu đồ được huấn luyện trên 36 điểm, trong khi dữ liệu chỉ xác nhận các cửa sổ đầu vào của nhánh dự báo là 36 quan sát.\"}"
+  }
+}

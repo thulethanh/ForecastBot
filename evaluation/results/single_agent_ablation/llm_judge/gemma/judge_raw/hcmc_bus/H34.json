@@ -1,0 +1,24 @@
+{
+  "case_id": "H34",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho tuyến 100 và nhà khai thác HTX-VTHANG. Các mốc thời gian, số bước dự báo, giá trị đầu/cuối, xu hướng tăng, chế độ ensemble, trọng số và kích thước cửa sổ đều khớp với forecast và history summary. Nội dung rõ ràng, có cấu trúc, giúp người dùng hiểu xu hướng dự báo và phương pháp tổng quát mà không đưa ra nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.306711624958552,
+    "input_tokens": 2278,
+    "output_tokens": 193,
+    "total_tokens": 2471,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho tuyến 100 và nhà khai thác HTX-VTHANG. Các mốc thời gian, số bước dự báo, giá trị đầu/cuối, xu hướng tăng, chế độ ensemble, trọng số và kích thước cửa sổ đều khớp với forecast và history summary. Nội dung rõ ràng, có cấu trúc, giúp người dùng hiểu xu hướng dự báo và phương pháp tổng quát mà không đưa ra nguyên nhân không có bằng chứng.\"}"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H42",
+  "question": "Dự báo lượng hành khách của tuyến 141 do HTX 15 vận hành trong 10 năm tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 10,
+    "minimum_train_required": 5,
+    "required_points_for_evaluation": 15,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.0210089999018237,
+    "request_sql": 61.09230037499219,
+    "sql_execution_and_repair": 0.06759962509386241,
+    "forecast": 68.27166054199915,
+    "explanation": 75.82354616594967,
+    "end_to_end": 205.2763144170167
+  },
+  "total_tokens": 5089,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

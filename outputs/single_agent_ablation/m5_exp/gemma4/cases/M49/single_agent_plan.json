@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 3,
+  "filters": {
+    "item_id": "FOODS_2_280",
+    "store_id": "WI_1"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_2_280' AND s.store_id = 'WI_1' GROUP BY 1 ORDER BY ds ASC",
+  "sql_explanation": "Retrieves the sum of sales (y) for the specified product (FOODS_2_280) and store (WI_1), aggregated by month (ds), suitable for forecasting the next 3 months."
+}

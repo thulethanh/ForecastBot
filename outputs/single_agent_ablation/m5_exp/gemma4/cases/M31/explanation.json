@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho mặt hàng HOBBIES_1_121 tại tiểu bang TX trong 24 tháng tới (từ tháng 5 năm 2014 đến tháng 4 năm 2016) đã được thực hiện thành công. Mô hình dự báo cho thấy một mức giá trị ổn định và không thay đổi, với giá trị dự kiến (yhat) là 17.7 cho tất cả 24 bước thời gian.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên 40 điểm dữ liệu lịch sử, trải dài từ ngày 2011-01-01 đến ngày 2014-04-01.",
+    "Phương pháp dự báo được sử dụng là 'ensemble' (kết hợp), với trọng số 60% từ cửa sổ ngắn (36 điểm) và 40% từ cửa sổ dài (40 điểm).",
+    "Kết quả dự báo cho thấy xu hướng ổn định, duy trì mức 17.7 trong suốt 24 tháng, không có sự biến động tăng hoặc giảm đáng kể nào được dự đoán."
+  ],
+  "chart_note": "Các giá trị dự báo này chỉ phản ánh xu hướng dựa trên dữ liệu lịch sử và không tính đến các sự kiện thị trường hoặc yếu tố bên ngoài có thể ảnh hưởng đến doanh số thực tế."
+}

@@ -1,0 +1,17 @@
+{
+  "case_id": "H39",
+  "question": "Hãy dự báo lượng hành khách của tuyến 127 do HTX-ThanhSon vận hành trong 2 năm tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "orchestration": 29.783895707994816,
+    "end_to_end": 29.78438395899866
+  },
+  "total_tokens": 4696,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "needs_clarification: granularity,horizon"
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M59",
+  "question": "Hãy dự báo lượng bán của sản phẩm HOUSEHOLD_2_389 tại cửa hàng WI_1, bang WI trong 1 năm tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 5,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.0581986668985337,
+    "request_sql": 124.47885691700503,
+    "sql_execution_and_repair": 0.04752520902547985,
+    "forecast": 82.94073387503158,
+    "explanation": 106.97216949996073,
+    "end_to_end": 314.4977211660007
+  },
+  "total_tokens": 4780,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

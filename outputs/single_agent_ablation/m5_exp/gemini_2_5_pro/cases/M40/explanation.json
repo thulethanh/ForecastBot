@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo doanh số bán hàng hàng năm trong 3 năm cho mặt hàng HOUSEHOLD_2_488 tại cửa hàng TX_3. Dựa trên dữ liệu lịch sử từ năm 2011 đến năm 2013, mô hình dự báo doanh số sẽ giảm mạnh.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng giảm đáng kể, với doanh số dự kiến giảm xuống 7.0 đơn vị vào năm 2014 và sau đó là 0.0 cho các năm tiếp theo.",
+    "Dự báo này được tạo ra chỉ với 3 điểm dữ liệu lịch sử (từ 2011 đến 2013). Các dự báo dựa trên bộ dữ liệu nhỏ như vậy có thể rất nhạy cảm với các điểm dữ liệu gần đây nhất."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số bán hàng thực tế hàng năm từ 2011 đến 2013 và doanh số dự báo cho 3 năm tiếp theo."
+}

@@ -1,0 +1,57 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2025-01-01",
+      "yhat": 51752.0
+    },
+    {
+      "step": 2,
+      "ds": "2025-04-01",
+      "yhat": 54052.0
+    },
+    {
+      "step": 3,
+      "ds": "2025-07-01",
+      "yhat": 56352.0
+    },
+    {
+      "step": 4,
+      "ds": "2025-10-01",
+      "yhat": 58652.0
+    },
+    {
+      "step": 5,
+      "ds": "2026-01-01",
+      "yhat": 60952.0
+    },
+    {
+      "step": 6,
+      "ds": "2026-04-01",
+      "yhat": 63252.0
+    },
+    {
+      "step": 7,
+      "ds": "2026-07-01",
+      "yhat": 65552.0
+    },
+    {
+      "step": 8,
+      "ds": "2026-10-01",
+      "yhat": 67852.0
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "single",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 12,
+    "long_n": 12,
+    "short_window_name": "h12",
+    "long_window_name": "h12"
+  }
+}

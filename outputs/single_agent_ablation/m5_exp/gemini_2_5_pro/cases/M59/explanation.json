@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số hàng tháng cho sản phẩm HOUSEHOLD_2_389 tại cửa hàng WI_1 trong 12 tháng tới, từ tháng 5 năm 2015 đến tháng 4 năm 2016. Dự báo cho thấy doanh số ổn định ở mức khoảng 34.94 đơn vị mỗi tháng.",
+  "insights": [
+    "Mô hình dự báo một đường thẳng, cho thấy không có xu hướng tăng/giảm hoặc tính thời vụ rõ rệt nào được phát hiện trong dữ liệu lịch sử.",
+    "Mức dự báo (34.94) cao hơn đáng kể so với mức trung bình lịch sử (6.04). Điều này cho thấy doanh số trong giai đoạn gần đây có thể đã cao hơn so với trung bình toàn thời gian.",
+    "Kết quả này được tạo ra bằng cách kết hợp hai mô hình: một mô hình tập trung vào 36 tháng gần nhất (trọng số 60%) và một mô hình xem xét toàn bộ 52 tháng lịch sử (trọng số 40%)."
+  ],
+  "chart_note": "Đường màu xanh lam hiển thị doanh số bán hàng thực tế hàng tháng từ tháng 1 năm 2011 đến tháng 4 năm 2015. Đường màu cam hiển thị doanh số dự báo cho 12 tháng tiếp theo."
+}

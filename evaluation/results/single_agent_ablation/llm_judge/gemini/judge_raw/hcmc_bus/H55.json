@@ -1,0 +1,24 @@
+{
+  "case_id": "H55",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 79, nhà vận hành HTX-QTIEN, tần suất quý và chân trời 3 quý. Các mốc dự báo, xu hướng giảm nhẹ rồi ổn định, phạm vi lịch sử và số lượng 7 điểm đều khớp dữ liệu được cung cấp. Nội dung ngắn gọn, dễ hiểu và nêu được lưu ý hợp lý về độ dài chuỗi lịch sử mà không suy diễn nguyên nhân hoặc đưa thông tin ngoài bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.8142222500173375,
+    "input_tokens": 2236,
+    "output_tokens": 248,
+    "total_tokens": 2484,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 79, nhà vận hành HTX-QTIEN, tần suất quý và chân trời 3 quý. Các mốc dự báo, xu hướng giảm nhẹ rồi ổn định, phạm vi lịch sử và số lượng 7 điểm đều khớp dữ liệu được cung cấp. Nội dung ngắn gọn, dễ hiểu và nêu được lưu ý hợp lý về độ dài chuỗi lịch sử mà không suy diễn nguyên nhân hoặc đưa thông tin ngoài bằng chứng.\"}"
+  }
+}

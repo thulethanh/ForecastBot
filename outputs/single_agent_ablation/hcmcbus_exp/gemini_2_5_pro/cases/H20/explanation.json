@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024 cho tuyến xe buýt 48 do HTX-195 vận hành, đây là dự báo cho 5 năm tới. Dự báo cho thấy một xu hướng tăng trưởng ổn định, bắt đầu từ khoảng 400.225 vào năm 2025 và đạt khoảng 424.537 vào năm 2029.",
+  "insights": [
+    "Dự báo tiếp tục xu hướng tăng được quan sát trong dữ liệu lịch sử từ 2022 đến 2024.",
+    "Mô hình dự báo được xây dựng dựa trên một lượng dữ liệu lịch sử hạn chế (3 điểm dữ liệu hàng năm)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2022-2024 và các giá trị dự báo cho 5 năm tiếp theo."
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H58",
+  "question": "Trong 12 quý tới, tuyến 85 do HTX-195 vận hành có lượng hành khách dự kiến như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 12,
+    "n_train": 12,
+    "n_test": 0,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.004209749982692301,
+    "request_sql": 10.478838874958456,
+    "sql_execution_and_repair": 0.016818291042000055,
+    "forecast": 33.113370583043434,
+    "explanation": 13.112303625093773,
+    "end_to_end": 56.72561562503688
+  },
+  "total_tokens": 10509,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

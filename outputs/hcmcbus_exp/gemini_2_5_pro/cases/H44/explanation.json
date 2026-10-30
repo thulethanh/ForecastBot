@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo sản lượng 28 ngày cho tuyến xe buýt 146 (HTX-ThanhSon)",
+  "summary_text": "ForecastBot dự báo cho 28 ngày tới, từ 04/12/2024 đến 31/12/2024, cho tuyến 146 do HTX-ThanhSon vận hành. Các giá trị dự báo dao động trong khoảng từ 833.26 đến 1,726.22. Dự báo cho thấy tính thời vụ theo tuần rõ rệt, với các giá trị cao hơn vào các ngày trong tuần và thấp hơn đáng kể vào cuối tuần. Nhìn chung, có một xu hướng giảm nhẹ trong suốt giai đoạn dự báo.",
+  "insights": [
+    "Dự báo thể hiện tính thời vụ theo tuần rất mạnh. Các ngày trong tuần có giá trị dự báo trung bình khoảng 1,515, cao hơn đáng kể so với mức trung bình khoảng 946 vào cuối tuần.",
+    "Giá trị dự báo cao nhất là 1,726.22 vào Thứ Tư, ngày 04/12/2024. Giá trị dự báo thấp nhất là 833.26 vào Chủ Nhật, ngày 29/12/2024.",
+    "Có một xu hướng giảm nhẹ trong suốt 28 ngày dự báo. Giá trị trung bình dự báo cho tuần đầu tiên (04/12 - 10/12) là khoảng 1,422, trong khi tuần cuối cùng (25/12 - 31/12) giảm xuống còn khoảng 1,320."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dữ liệu lịch sử và dự báo của ForecastBot. Dữ liệu lịch sử bao gồm 1066 điểm dữ liệu từ 01/01/2022 đến 03/12/2024. Đường dự báo thể hiện ước tính cho 28 ngày tiếp theo. Dự báo này được tạo ra bởi mô hình `ensemble` của ForecastBot, kết hợp các dự báo từ một mô hình ngắn hạn (sử dụng 180 ngày dữ liệu gần nhất) và một mô hình dài hạn (sử dụng 365 ngày dữ liệu gần nhất)."
+}

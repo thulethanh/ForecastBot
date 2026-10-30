@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 103) trong 4 quý tới",
+  "summary_text": "Dựa trên 8 điểm dữ liệu lịch sử theo quý từ 2022-01-01 đến 2023-10-01 (giá trị trung bình: 121,063), ForecastBot dự báo giá trị sẽ dao động trong khoảng 143,204 đến 171,622 trong 4 quý tiếp theo.",
+  "insights": [
+    "Tất cả các giá trị dự báo đều cao hơn mức trung bình lịch sử (121,063).",
+    "Dự báo cho thấy xu hướng tăng, với giá trị dự kiến đạt 171,622 vào Quý 4 2024.",
+    "Giá trị dự báo cho Quý 4 2024 (171,622) được kỳ vọng sẽ vượt qua mức cao nhất đã ghi nhận trong lịch sử (164,982)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (8 điểm, từ 2022-01-01 đến 2023-10-01) và kết quả dự báo của ForecastBot cho 4 quý tiếp theo."
+}

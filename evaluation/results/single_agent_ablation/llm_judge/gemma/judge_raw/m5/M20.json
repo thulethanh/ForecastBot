@@ -1,0 +1,26 @@
+{
+  "case_id": "M20",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định giá trị 126.0 năm 2021 \"gần với\" mức tối đa lịch sử 214.0 không được hỗ trợ rõ bởi các số liệu, vì chênh lệch vẫn là 88.0."
+    ],
+    "reason_vi": "Giải thích bám sát item, cửa hàng, phạm vi 5 năm và nêu đúng mức dự báo đầu-cuối cũng như xu hướng tăng đều. Các thông tin về 6 điểm lịch sử, chế độ single, trọng số và trung bình lịch sử đều khớp dữ liệu cung cấp. Trình bày rõ ràng, ngắn gọn và có lưu ý đây là dự báo. Tuy nhiên, mô tả 126.0 là “gần” mức tối đa lịch sử 214.0 có thể gây hiểu nhầm do khoảng cách còn đáng kể. Giải thích cũng có thể hữu ích hơn nếu nêu mức tăng đều 12.6 mỗi năm hoặc nhấn mạnh giới hạn của chuỗi lịch sử chỉ gồm 6 điểm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.024078999995254,
+    "input_tokens": 2335,
+    "output_tokens": 459,
+    "total_tokens": 2794,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định giá trị 126.0 năm 2021 \\\"gần với\\\" mức tối đa lịch sử 214.0 không được hỗ trợ rõ bởi các số liệu, vì chênh lệch vẫn là 88.0.\"],\"reason_vi\":\"Giải thích bám sát item, cửa hàng, phạm vi 5 năm và nêu đúng mức dự báo đầu-cuối cũng như xu hướng tăng đều. Các thông tin về 6 điểm lịch sử, chế độ single, trọng số và trung bình lịch sử đều khớp dữ liệu cung cấp. Trình bày rõ ràng, ngắn gọn và có lưu ý đây là dự báo. Tuy nhiên, mô tả 126.0 là “gần” mức tối đa lịch sử 214.0 có thể gây hiểu nhầm do khoảng cách còn đáng kể. Giải thích cũng có thể hữu ích hơn nếu nêu mức tăng đều 12.6 mỗi năm hoặc nhấn mạnh giới hạn của chuỗi lịch sử chỉ gồm 6 điểm.\"}"
+  }
+}

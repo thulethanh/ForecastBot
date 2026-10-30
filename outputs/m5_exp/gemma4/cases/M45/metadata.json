@@ -1,0 +1,33 @@
+{
+  "case_id": "M45",
+  "question": "Tôi cần xem xu hướng lượng bán của sản phẩm FOODS_1_215 trong 30 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1883,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 37.926980999996886,
+    "load_schema": 0.005267250002361834,
+    "sql_generation": 60.26774129200203,
+    "sql_execution_and_repair": 0.053388083004392684,
+    "forecast": 268.2650407089968,
+    "explanation": 75.75746637499833,
+    "end_to_end": 442.27622100000735
+  },
+  "total_tokens": 12732,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

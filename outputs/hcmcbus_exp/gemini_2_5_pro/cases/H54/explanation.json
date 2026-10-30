@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 78, operator: HTX-195) cho 2 quý tới",
+  "summary_text": "ForecastBot dự báo giá trị cho HCMC_BUS (route_id: 78, operator: HTX-195) sẽ là 70,189.0 cho quý 1 năm 2024 và 68,540.0 cho quý 2 năm 2024. Các giá trị dự báo này cao hơn mức trung bình lịch sử (61,055.25) trong giai đoạn từ 2022-01-01 đến 2023-10-01.",
+  "insights": [
+    "Dự báo cho quý 1 năm 2024 là 70,189.0.",
+    "Dự báo cho quý 2 năm 2024 là 68,540.0, giảm nhẹ so với quý trước.",
+    "Dữ liệu lịch sử trong 8 quý (từ 2022-01-01 đến 2023-10-01) có giá trị trung bình là 61,055.25, dao động từ 33,319.0 đến 80,281.0."
+  ],
+  "chart_note": "Biểu đồ hiển thị 8 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-10-01 được sử dụng để huấn luyện mô hình, cùng với dự báo cho 2 quý tiếp theo."
+}

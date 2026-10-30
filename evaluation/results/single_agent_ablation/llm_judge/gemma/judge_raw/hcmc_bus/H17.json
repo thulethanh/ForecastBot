@@ -1,0 +1,24 @@
+{
+  "case_id": "H17",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 4.5,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng tuyến 44, nhà khai thác HTX-ThanhSon, độ chi tiết năm và dự báo một bước cho 2024-01-01. Các giá trị, trạng thái thành công, chế độ single, trọng số và cửa sổ 2 điểm đều phù hợp thông tin được cung cấp. Nội dung rõ ràng và có lưu ý rằng đây không phải giá trị thực tế tương lai. Tuy nhiên, tính hữu ích mới ở mức cơ bản vì chưa diễn giải mức dự báo so với lịch sử hoặc nêu xu hướng chính mà người dùng có thể rút ra."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.879881166969426,
+    "input_tokens": 2185,
+    "output_tokens": 318,
+    "total_tokens": 2503,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":3,\"overall_score\":4.5,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng tuyến 44, nhà khai thác HTX-ThanhSon, độ chi tiết năm và dự báo một bước cho 2024-01-01. Các giá trị, trạng thái thành công, chế độ single, trọng số và cửa sổ 2 điểm đều phù hợp thông tin được cung cấp. Nội dung rõ ràng và có lưu ý rằng đây không phải giá trị thực tế tương lai. Tuy nhiên, tính hữu ích mới ở mức cơ bản vì chưa diễn giải mức dự báo so với lịch sử hoặc nêu xu hướng chính mà người dùng có thể rút ra.\"}"
+  }
+}

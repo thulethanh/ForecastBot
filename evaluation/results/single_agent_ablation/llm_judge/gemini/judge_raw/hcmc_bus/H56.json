@@ -1,0 +1,26 @@
+{
+  "case_id": "H56",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Nhận định rằng quý 1 và quý 4 cao hơn quý 2 và quý 3, và quy luật này tương tự dữ liệu lịch sử, không được history summary cung cấp để đối chiếu theo từng quý."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến, nhà khai thác và 4 quý cần dự báo; các mức dự báo, cực đại quý 4/2024 và so sánh với mức tối đa lịch sử đều khớp dữ liệu. Trình bày ngắn gọn, rõ ràng và chart note phù hợp với 8 quan sát hàng quý trong 2 năm. Tuy nhiên, kết luận về quy luật quý 1/quý 4 cao hơn quý 2/quý 3 và sự tương đồng với lịch sử không được hỗ trợ bởi history summary, vốn chỉ có thống kê tổng hợp chứ không có giá trị từng quý."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.080001499969512,
+    "input_tokens": 2243,
+    "output_tokens": 350,
+    "total_tokens": 2593,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Nhận định rằng quý 1 và quý 4 cao hơn quý 2 và quý 3, và quy luật này tương tự dữ liệu lịch sử, không được history summary cung cấp để đối chiếu theo từng quý.\"],\"reason_vi\":\"Giải thích bám sát tuyến, nhà khai thác và 4 quý cần dự báo; các mức dự báo, cực đại quý 4/2024 và so sánh với mức tối đa lịch sử đều khớp dữ liệu. Trình bày ngắn gọn, rõ ràng và chart note phù hợp với 8 quan sát hàng quý trong 2 năm. Tuy nhiên, kết luận về quy luật quý 1/quý 4 cao hơn quý 2/quý 3 và sự tương đồng với lịch sử không được hỗ trợ bởi history summary, vốn chỉ có thống kê tổng hợp chứ không có giá trị từng quý.\"}"
+  }
+}

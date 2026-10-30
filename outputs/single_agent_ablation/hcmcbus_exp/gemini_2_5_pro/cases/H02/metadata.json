@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H02",
+  "question": "Dự báo 28 ngày tới của tuyến 22 do HTX-VTHANG vận hành.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1068,
+    "n_test": 28,
+    "horizon": 28,
+    "minimum_train_required": 28,
+    "required_points_for_evaluation": 56,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.11915908299852163,
+    "request_sql": 8.688206542050466,
+    "sql_execution_and_repair": 0.06462795799598098,
+    "forecast": 162.56731133291032,
+    "explanation": 14.353532082983293,
+    "end_to_end": 185.7931721250061
+  },
+  "total_tokens": 36304,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

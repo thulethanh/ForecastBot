@@ -1,0 +1,13 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 5,
+  "filters": {
+    "route_id": "91",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

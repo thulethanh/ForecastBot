@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H30",
+  "question": "Tôi muốn xem lượng hành khách của tuyến 4 do Cty-BaoYen vận hành trong 12 tháng tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 23,
+    "n_train": 23,
+    "n_test": 0,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.005223833955824375,
+    "request_sql": 13.761684749973938,
+    "sql_execution_and_repair": 0.028645792044699192,
+    "forecast": 22.34686699998565,
+    "explanation": 15.140455791028216,
+    "end_to_end": 51.28299350000452
+  },
+  "total_tokens": 9663,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo 5 năm cho mặt hàng HOUSEHOLD_1_077 tại cửa hàng TX_3. Dự báo cho thấy một xu hướng giảm mạnh và nhanh chóng, với doanh số dự kiến sẽ tiến về mức không vào cuối giai đoạn dự báo.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng giảm mạnh, với doanh số dự kiến giảm từ 18.2 trong năm đầu tiên (2017) xuống gần bằng 0 vào năm thứ năm (2021).",
+    "Dữ liệu lịch sử từ năm 2011 đến 2016 có mức trung bình là 177.17 đơn vị mỗi năm. Các giá trị dự báo thấp hơn đáng kể so với mức trung bình lịch sử này, cho thấy một sự thay đổi đột ngột so với hiệu suất trong quá khứ."
+  ],
+  "chart_note": "Biểu đồ này hiển thị 6 năm dữ liệu lịch sử (2011-2016) và dự báo 5 năm (2017-2021)."
+}

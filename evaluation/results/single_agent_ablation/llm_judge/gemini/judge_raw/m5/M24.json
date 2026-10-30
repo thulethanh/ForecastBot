@@ -1,0 +1,26 @@
+{
+  "case_id": "M24",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định mức doanh số dự báo “phù hợp” với trung bình lịch sử 0.29 đơn vị/ngày chưa được hỗ trợ rõ: các giá trị dự báo chủ yếu khoảng 0.9–2.3 đơn vị/ngày, cao hơn đáng kể mức trung bình này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 30 ngày và nêu được biên độ cũng như chu kỳ tuần thể hiện trực tiếp trong forecast. Các ngày cao nhất/chủ nhật và thấp nhất/thứ hai–ba khớp với dãy dự báo; phạm vi dự báo cũng nằm trong min–max lịch sử. Tuy nhiên, mô tả mức dự báo là “phù hợp” với trung bình lịch sử 0.29 chưa thật thuyết phục vì phần lớn dự báo cao hơn đáng kể trung bình đó. Trình bày rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.674042584025301,
+    "input_tokens": 3180,
+    "output_tokens": 405,
+    "total_tokens": 3585,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định mức doanh số dự báo “phù hợp” với trung bình lịch sử 0.29 đơn vị/ngày chưa được hỗ trợ rõ: các giá trị dự báo chủ yếu khoảng 0.9–2.3 đơn vị/ngày, cao hơn đáng kể mức trung bình này.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 30 ngày và nêu được biên độ cũng như chu kỳ tuần thể hiện trực tiếp trong forecast. Các ngày cao nhất/chủ nhật và thấp nhất/thứ hai–ba khớp với dãy dự báo; phạm vi dự báo cũng nằm trong min–max lịch sử. Tuy nhiên, mô tả mức dự báo là “phù hợp” với trung bình lịch sử 0.29 chưa thật thuyết phục vì phần lớn dự báo cao hơn đáng kể trung bình đó. Trình bày rõ ràng và hữu ích.\"}"
+  }
+}

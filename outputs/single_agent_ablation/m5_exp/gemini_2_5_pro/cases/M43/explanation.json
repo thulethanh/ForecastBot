@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 7 ngày cho sản phẩm FOODS_3_083 tại cửa hàng WI_2, từ ngày 18-04-2016 đến 24-04-2016. Doanh số dự kiến sẽ dao động từ 1.0 đến 3.32 đơn vị. Mức bán trung bình dự báo trong tuần tới là khoảng 2.24 đơn vị, cao hơn so với mức trung bình lịch sử là 1.28 đơn vị.",
+  "insights": [
+    "Dự báo này được tạo ra bằng cách sử dụng mô hình tổng hợp, kết hợp các xu hướng gần đây (180 ngày) và dài hạn (365 ngày). Mô hình này ưu tiên các xu hướng gần đây hơn, với trọng số 60%.",
+    "Doanh số dự báo cho thấy sự gia tăng so với mức trung bình lịch sử, với mức cao nhất dự kiến là 3.32 đơn vị vào Thứ Năm, ngày 21-04-2016."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 29-01-2011 đến 17-04-2016 và dự báo cho 7 ngày tiếp theo."
+}

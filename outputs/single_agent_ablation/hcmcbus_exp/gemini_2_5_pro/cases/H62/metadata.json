@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H62",
+  "question": "Dự báo lượng hành khách của tuyến 91 do XKSG vận hành trong 5 năm tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 5,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.00367600005120039,
+    "request_sql": 10.100027458043769,
+    "sql_execution_and_repair": 0.049007791094481945,
+    "forecast": 31.195476667024195,
+    "explanation": 13.037495541968383,
+    "end_to_end": 54.385857332963496
+  },
+  "total_tokens": 9610,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

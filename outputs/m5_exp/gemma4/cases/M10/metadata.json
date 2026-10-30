@@ -1,0 +1,33 @@
+{
+  "case_id": "M10",
+  "question": "Tôi muốn xem lượng bán dự kiến của sản phẩm HOBBIES_1_013 tại cửa hàng CA_1, bang CA trong 24 tháng tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 40,
+    "n_test": 24,
+    "horizon": 24,
+    "minimum_train_required": 24,
+    "required_points_for_evaluation": 48,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 49.144353625000804,
+    "load_schema": 0.023317375002079643,
+    "sql_generation": 75.46839920899947,
+    "sql_execution_and_repair": 0.09623495799314696,
+    "forecast": 331.0861135000014,
+    "explanation": 94.89788041601423,
+    "end_to_end": 550.7163945409993
+  },
+  "total_tokens": 10840,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

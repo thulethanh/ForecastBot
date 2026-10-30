@@ -1,0 +1,33 @@
+{
+  "case_id": "M29",
+  "question": "Dự báo lượng bán của sản phẩm HOBBIES_1_264 tại bang TX trong 6 tháng tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 58,
+    "n_test": 6,
+    "horizon": 6,
+    "minimum_train_required": 6,
+    "required_points_for_evaluation": 12,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 38.745299791989964,
+    "load_schema": 0.005023624995374121,
+    "sql_generation": 65.07311191600456,
+    "sql_execution_and_repair": 0.06044241700146813,
+    "forecast": 228.7770204999979,
+    "explanation": 73.67537112500577,
+    "end_to_end": 406.33635733400297
+  },
+  "total_tokens": 9061,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

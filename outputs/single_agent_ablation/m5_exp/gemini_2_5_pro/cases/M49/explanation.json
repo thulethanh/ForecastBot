@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo doanh số bán hàng hàng tháng cho sản phẩm FOODS_2_280 tại cửa hàng WI_1 trong 3 tháng tới. Dự báo cho thấy xu hướng tăng, với doanh số dự kiến là 35.6 vào tháng 2 năm 2016, 38.2 vào tháng 3 và 39.6 vào tháng 4.",
+  "insights": [
+    "Dự báo này được tạo ra bằng cách kết hợp hai mô hình: một mô hình tập trung vào xu hướng gần đây (24 tháng qua) và một mô hình khác xem xét xu hướng dài hạn hơn (36 tháng qua). Mô hình đã đặt trọng số cao hơn (60%) vào xu hướng gần đây.",
+    "Các giá trị dự báo (35.6 - 39.6) cao hơn đáng kể so với mức trung bình lịch sử (8.1) và gần hoặc vượt qua mức tối đa lịch sử (36.0), cho thấy một xu hướng tăng trưởng mạnh mẽ gần đây trong dữ liệu."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 1 năm 2016 và dự báo cho 3 tháng tiếp theo."
+}

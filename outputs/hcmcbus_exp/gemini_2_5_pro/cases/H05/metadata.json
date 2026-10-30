@@ -1,0 +1,33 @@
+{
+  "case_id": "H05",
+  "question": "Tôi cần xem xu hướng lượng hành khách của tuyến 27 do XKSG vận hành trong 90 ngày tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1006,
+    "n_test": 90,
+    "horizon": 90,
+    "minimum_train_required": 90,
+    "required_points_for_evaluation": 180,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.190252042004431,
+    "load_schema": 0.002520041998650413,
+    "sql_generation": 7.154603290997329,
+    "sql_execution_and_repair": 0.014840749994618818,
+    "forecast": 200.10844400000497,
+    "explanation": 28.94606966599531,
+    "end_to_end": 242.41695125000115
+  },
+  "total_tokens": 46409,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

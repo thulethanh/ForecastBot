@@ -1,0 +1,24 @@
+{
+  "case_id": "H53",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và đơn vị vận hành, nêu rõ giá trị dự báo cùng so sánh với trung bình và biên độ lịch sử. Các số liệu 29.142,4; 51.658,8; 11 điểm; khoảng thời gian và khoảng giá trị đều khớp dữ liệu được cung cấp. Mô tả ensemble và hai cửa sổ h11/h8 cũng phù hợp window_info. Nội dung khá rõ và hữu ích, nhưng cụm “Bản đồ này” có vẻ là lỗi thuật ngữ trong ngữ cảnh dự báo/biểu đồ, đồng thời có thể nêu rõ hơn ý nghĩa thực tế của mức thấp hơn phạm vi lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.322334416996455,
+    "input_tokens": 2142,
+    "output_tokens": 312,
+    "total_tokens": 2454,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và đơn vị vận hành, nêu rõ giá trị dự báo cùng so sánh với trung bình và biên độ lịch sử. Các số liệu 29.142,4; 51.658,8; 11 điểm; khoảng thời gian và khoảng giá trị đều khớp dữ liệu được cung cấp. Mô tả ensemble và hai cửa sổ h11/h8 cũng phù hợp window_info. Nội dung khá rõ và hữu ích, nhưng cụm “Bản đồ này” có vẻ là lỗi thuật ngữ trong ngữ cảnh dự báo/biểu đồ, đồng thời có thể nêu rõ hơn ý nghĩa thực tế của mức thấp hơn phạm vi lịch sử.\"}"
+  }
+}

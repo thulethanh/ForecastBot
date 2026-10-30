@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 60,
+  "filters": {
+    "route_id": "65",
+    "operator": "Cty-BaoYen"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '65' AND TRIM(d.operator) = 'Cty-BaoYen' GROUP BY d.date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the historical daily total passenger count (y) for bus route '65' operated by 'Cty-BaoYen'. It filters the daily_passenger_stats table by route_id and operator, aggregates the passenger numbers by date (ds), and sorts the results chronologically to prepare the time series for forecasting."
+}

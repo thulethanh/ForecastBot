@@ -1,0 +1,754 @@
+{
+  "case_id": "M38",
+  "question": "Trong 1 năm tới, lượng bán của sản phẩm HOUSEHOLD_1_511 sẽ như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "forecast_request": {
+    "intent": "forecast_request",
+    "dataset": "M5",
+    "granularity": "month",
+    "horizon": 12,
+    "filters": {
+      "item_id": "HOUSEHOLD_1_511"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": ""
+  },
+  "generated_sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOUSEHOLD_1_511' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "Truy vấn này tổng hợp doanh số bán hàng (sales) theo tháng cho sản phẩm có mã 'HOUSEHOLD_1_511' từ bộ dữ liệu M5.",
+  "sql_result": [
+    {
+      "ds": "2011-01-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-02-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-03-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-04-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-05-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-06-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-07-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-08-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-09-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-10-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-11-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-12-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-01-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-02-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-03-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-04-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-05-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-06-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-07-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-08-01",
+      "y": 312.0
+    },
+    {
+      "ds": "2012-09-01",
+      "y": 497.0
+    },
+    {
+      "ds": "2012-10-01",
+      "y": 475.0
+    },
+    {
+      "ds": "2012-11-01",
+      "y": 494.0
+    },
+    {
+      "ds": "2012-12-01",
+      "y": 472.0
+    },
+    {
+      "ds": "2013-01-01",
+      "y": 468.0
+    },
+    {
+      "ds": "2013-02-01",
+      "y": 469.0
+    },
+    {
+      "ds": "2013-03-01",
+      "y": 461.0
+    },
+    {
+      "ds": "2013-04-01",
+      "y": 424.0
+    },
+    {
+      "ds": "2013-05-01",
+      "y": 481.0
+    },
+    {
+      "ds": "2013-06-01",
+      "y": 372.0
+    },
+    {
+      "ds": "2013-07-01",
+      "y": 408.0
+    },
+    {
+      "ds": "2013-08-01",
+      "y": 470.0
+    },
+    {
+      "ds": "2013-09-01",
+      "y": 471.0
+    },
+    {
+      "ds": "2013-10-01",
+      "y": 407.0
+    },
+    {
+      "ds": "2013-11-01",
+      "y": 365.0
+    },
+    {
+      "ds": "2013-12-01",
+      "y": 344.0
+    },
+    {
+      "ds": "2014-01-01",
+      "y": 336.0
+    },
+    {
+      "ds": "2014-02-01",
+      "y": 375.0
+    },
+    {
+      "ds": "2014-03-01",
+      "y": 468.0
+    },
+    {
+      "ds": "2014-04-01",
+      "y": 427.0
+    },
+    {
+      "ds": "2014-05-01",
+      "y": 470.0
+    },
+    {
+      "ds": "2014-06-01",
+      "y": 492.0
+    },
+    {
+      "ds": "2014-07-01",
+      "y": 456.0
+    },
+    {
+      "ds": "2014-08-01",
+      "y": 498.0
+    },
+    {
+      "ds": "2014-09-01",
+      "y": 421.0
+    },
+    {
+      "ds": "2014-10-01",
+      "y": 444.0
+    },
+    {
+      "ds": "2014-11-01",
+      "y": 439.0
+    },
+    {
+      "ds": "2014-12-01",
+      "y": 425.0
+    },
+    {
+      "ds": "2015-01-01",
+      "y": 396.0
+    },
+    {
+      "ds": "2015-02-01",
+      "y": 365.0
+    },
+    {
+      "ds": "2015-03-01",
+      "y": 466.0
+    },
+    {
+      "ds": "2015-04-01",
+      "y": 414.0
+    },
+    {
+      "ds": "2015-05-01",
+      "y": 469.0
+    },
+    {
+      "ds": "2015-06-01",
+      "y": 425.0
+    },
+    {
+      "ds": "2015-07-01",
+      "y": 434.0
+    },
+    {
+      "ds": "2015-08-01",
+      "y": 471.0
+    },
+    {
+      "ds": "2015-09-01",
+      "y": 431.0
+    },
+    {
+      "ds": "2015-10-01",
+      "y": 483.0
+    },
+    {
+      "ds": "2015-11-01",
+      "y": 395.0
+    },
+    {
+      "ds": "2015-12-01",
+      "y": 343.0
+    },
+    {
+      "ds": "2016-01-01",
+      "y": 366.0
+    },
+    {
+      "ds": "2016-02-01",
+      "y": 349.0
+    },
+    {
+      "ds": "2016-03-01",
+      "y": 339.0
+    },
+    {
+      "ds": "2016-04-01",
+      "y": 312.0
+    }
+  ],
+  "historical_data_summary": {
+    "n_points": 64,
+    "start_date": "2011-01-01",
+    "end_date": "2016-04-01",
+    "min_y": 0.0,
+    "max_y": 498.0,
+    "mean_y": 298.421875
+  },
+  "historical_n": 64,
+  "forecast_history": [
+    {
+      "ds": "2011-01-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-02-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-03-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-04-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-05-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-06-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-07-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-08-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-09-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-10-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-11-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2011-12-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-01-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-02-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-03-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-04-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-05-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-06-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-07-01",
+      "y": 0.0
+    },
+    {
+      "ds": "2012-08-01",
+      "y": 312.0
+    },
+    {
+      "ds": "2012-09-01",
+      "y": 497.0
+    },
+    {
+      "ds": "2012-10-01",
+      "y": 475.0
+    },
+    {
+      "ds": "2012-11-01",
+      "y": 494.0
+    },
+    {
+      "ds": "2012-12-01",
+      "y": 472.0
+    },
+    {
+      "ds": "2013-01-01",
+      "y": 468.0
+    },
+    {
+      "ds": "2013-02-01",
+      "y": 469.0
+    },
+    {
+      "ds": "2013-03-01",
+      "y": 461.0
+    },
+    {
+      "ds": "2013-04-01",
+      "y": 424.0
+    },
+    {
+      "ds": "2013-05-01",
+      "y": 481.0
+    },
+    {
+      "ds": "2013-06-01",
+      "y": 372.0
+    },
+    {
+      "ds": "2013-07-01",
+      "y": 408.0
+    },
+    {
+      "ds": "2013-08-01",
+      "y": 470.0
+    },
+    {
+      "ds": "2013-09-01",
+      "y": 471.0
+    },
+    {
+      "ds": "2013-10-01",
+      "y": 407.0
+    },
+    {
+      "ds": "2013-11-01",
+      "y": 365.0
+    },
+    {
+      "ds": "2013-12-01",
+      "y": 344.0
+    },
+    {
+      "ds": "2014-01-01",
+      "y": 336.0
+    },
+    {
+      "ds": "2014-02-01",
+      "y": 375.0
+    },
+    {
+      "ds": "2014-03-01",
+      "y": 468.0
+    },
+    {
+      "ds": "2014-04-01",
+      "y": 427.0
+    },
+    {
+      "ds": "2014-05-01",
+      "y": 470.0
+    },
+    {
+      "ds": "2014-06-01",
+      "y": 492.0
+    },
+    {
+      "ds": "2014-07-01",
+      "y": 456.0
+    },
+    {
+      "ds": "2014-08-01",
+      "y": 498.0
+    },
+    {
+      "ds": "2014-09-01",
+      "y": 421.0
+    },
+    {
+      "ds": "2014-10-01",
+      "y": 444.0
+    },
+    {
+      "ds": "2014-11-01",
+      "y": 439.0
+    },
+    {
+      "ds": "2014-12-01",
+      "y": 425.0
+    },
+    {
+      "ds": "2015-01-01",
+      "y": 396.0
+    },
+    {
+      "ds": "2015-02-01",
+      "y": 365.0
+    },
+    {
+      "ds": "2015-03-01",
+      "y": 466.0
+    },
+    {
+      "ds": "2015-04-01",
+      "y": 414.0
+    }
+  ],
+  "test_artifact": {
+    "status": "available",
+    "evaluation_eligible": true,
+    "reason": null,
+    "horizon": 12,
+    "n_test": 12,
+    "test": [
+      {
+        "ds": "2015-05-01",
+        "y": 469.0
+      },
+      {
+        "ds": "2015-06-01",
+        "y": 425.0
+      },
+      {
+        "ds": "2015-07-01",
+        "y": 434.0
+      },
+      {
+        "ds": "2015-08-01",
+        "y": 471.0
+      },
+      {
+        "ds": "2015-09-01",
+        "y": 431.0
+      },
+      {
+        "ds": "2015-10-01",
+        "y": 483.0
+      },
+      {
+        "ds": "2015-11-01",
+        "y": 395.0
+      },
+      {
+        "ds": "2015-12-01",
+        "y": 343.0
+      },
+      {
+        "ds": "2016-01-01",
+        "y": 366.0
+      },
+      {
+        "ds": "2016-02-01",
+        "y": 349.0
+      },
+      {
+        "ds": "2016-03-01",
+        "y": 339.0
+      },
+      {
+        "ds": "2016-04-01",
+        "y": 312.0
+      }
+    ]
+  },
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 52,
+    "n_test": 12,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "forecast_result": {
+    "forecast": [
+      {
+        "step": 1,
+        "ds": "2015-05-01",
+        "yhat": 475.7
+      },
+      {
+        "step": 2,
+        "ds": "2015-06-01",
+        "yhat": 432.0
+      },
+      {
+        "step": 3,
+        "ds": "2015-07-01",
+        "yhat": 432.0
+      },
+      {
+        "step": 4,
+        "ds": "2015-08-01",
+        "yhat": 461.2
+      },
+      {
+        "step": 5,
+        "ds": "2015-09-01",
+        "yhat": 452.8
+      },
+      {
+        "step": 6,
+        "ds": "2015-10-01",
+        "yhat": 432.1
+      },
+      {
+        "step": 7,
+        "ds": "2015-11-01",
+        "yhat": 414.4
+      },
+      {
+        "step": 8,
+        "ds": "2015-12-01",
+        "yhat": 396.3
+      },
+      {
+        "step": 9,
+        "ds": "2016-01-01",
+        "yhat": 379.6
+      },
+      {
+        "step": 10,
+        "ds": "2016-02-01",
+        "yhat": 383.2
+      },
+      {
+        "step": 11,
+        "ds": "2016-03-01",
+        "yhat": 466.2
+      },
+      {
+        "step": 12,
+        "ds": "2016-04-01",
+        "yhat": 421.1
+      }
+    ],
+    "status": "success",
+    "fallback_used": false,
+    "selected_mode": "ensemble",
+    "weights": {
+      "short": 0.6,
+      "long": 0.4
+    },
+    "window_info": {
+      "short_n": 36,
+      "long_n": 52,
+      "short_window_name": "h36",
+      "long_window_name": "h52"
+    }
+  },
+  "explanation_result": {
+    "title": "Dự báo 12 tháng cho item_id HOUSEHOLD_1_511",
+    "summary_text": "ForecastBot dự báo cho item_id HOUSEHOLD_1_511 trong 12 tháng tới, từ tháng 5 năm 2015 đến tháng 4 năm 2016. Các giá trị dự báo dao động từ 379.6 đến 475.7. Giá trị trung bình dự báo là 428.9, cao hơn so với trung bình lịch sử là 274.7.",
+    "insights": [
+      "Giá trị dự báo cao nhất là 475.7 vào tháng 5 năm 2015 và thấp nhất là 379.6 vào tháng 1 năm 2016.",
+      "Tất cả 12 giá trị dự báo đều cao hơn mức trung bình lịch sử (274.7).",
+      "Dự báo này được tạo ra bằng mô hình `ensemble`, kết hợp một mô hình dựa trên 36 điểm dữ liệu gần nhất (trọng số 60%) và một mô hình dựa trên toàn bộ 52 điểm dữ liệu lịch sử (trọng số 40%)."
+    ],
+    "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 4 năm 2015 (52 điểm dữ liệu) và dự báo của ForecastBot cho 12 tháng tiếp theo."
+  },
+  "status": "success",
+  "timings": {
+    "orchestration": 42.5946164579982,
+    "load_schema": 0.0017852919991128147,
+    "sql_generation": 10.724844000000303,
+    "sql_execution_and_repair": 0.04610841600151616,
+    "forecast": 107.78239320799912,
+    "explanation": 22.117159291999997,
+    "end_to_end": 183.26696029199957
+  },
+  "traces": [
+    {
+      "stage": "orchestration",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the Orchestration Agent of ForecastBot. Interpret the ORIGINAL user request semantically. Do not use or assume regex/rule-based extraction.\n\nReturn STRICT JSON only with exactly these fields:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS\",\n  \"granularity\": \"day or month or quarter or year\",\n  \"horizon\": integer,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n\nCRITICAL OUTPUT CONTRACT:\n- intent MUST be exactly \"forecast_request\".\n- filters MUST ALWAYS be one JSON object/dictionary, NEVER a list/array.\n- Put every explicitly stated filter directly inside the filters object.\n- If no filter is explicitly stated, return \"filters\": {}.\n- Never represent filters as a list.\n\nCorrect:\n\"filters\": {\"item_id\": \"FOODS_3_228\"}\n\nCorrect with multiple filters:\n\"filters\": {\n  \"item_id\": \"FOODS_3_540\",\n  \"store_id\": \"CA_4\"\n}\n\nIncorrect:\n\"filters\": [{\"item_id\": \"FOODS_3_228\"}]\n\nIncorrect:\n\"filters\": [{\"field\": \"item_id\", \"value\": \"FOODS_3_228\"}]\n\nValid datasets: M5, HCMC_BUS.\n\nGranularity mapping:\n- ngày/day = day\n- tháng/month = month\n- quý/quarter = quarter\n- năm/year = year\n\nAllowed horizons:\n- day=[7,28,30,60,90]\n- month=[1,3,6,12,24]\n- quarter=[1,2,3,4,8,12]\n- year=[1,2,3,5,10]\n\nM5 filters:\n- item_id\n- store_id\n- state_id\n- cat_id\n- dept_id\n- id\n\nM5 examples:\n- FOODS_1_001 means item_id=\"FOODS_1_001\".\n- CA_1/TX_1/WI_1 mean store_id when explicitly stated as a store.\n- CA/TX/WI mean state_id when explicitly stated as a state.\n\nHCMC_BUS filters:\n- route_id\n- route_name\n- operator\n- vehicle_group\n- start_stop\n- end_stop\n\nHCMC_BUS examples and interpretation:\n- \"tuyến 55\" means route_id=\"55\".\n- \"tuyến số 55\" means route_id=\"55\".\n- \"tuyến xe buýt 55\" means route_id=\"55\".\n- \"tuyến bus 55\" means route_id=\"55\".\n- Generic words such as \"tuyến\", \"xe\", \"buýt\", \"buyt\", and \"bus\" must never become route_id.\n- route_id, operator, vehicle_group, route_name, start_stop, and end_stop are independent filters and may coexist when explicitly stated.\n- Example: \"Tuyến 19 do HTX-195 vận hành, với nhóm xe 4_CNG.1\" means:\n  {\"route_id\":\"19\",\"operator\":\"HTX-195\",\"vehicle_group\":\"4_CNG.1\"}\n\nExtract ALL explicitly stated filters independently.\nPreserve identifier punctuation such as _, -, and .\nNever invent a filter or value.\n\nIf a required field dataset/granularity/horizon cannot be inferred:\n- use null;\n- list it in missing_fields;\n- set needs_clarification=true;\n- write a concise Vietnamese clarification question in user_message_for_clarification.\n\nOtherwise:\n- missing_fields=[]\n- needs_clarification=false\n- user_message_for_clarification=\"\"\n\nIf a stated horizon is unsupported, choose the nearest allowed horizon for the inferred granularity.\n\nOriginal user query:\nTrong 1 năm tới, lượng bán của sản phẩm HOUSEHOLD_1_511 sẽ như thế nào?\n\nReturn STRICT JSON only. No markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5\",\n  \"granularity\": \"month\",\n  \"horizon\": 12,\n  \"filters\": {\n    \"item_id\": \"HOUSEHOLD_1_511\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n```",
+      "input_tokens": 954,
+      "output_tokens": 5250,
+      "total_tokens": 6204,
+      "llm_time_s": 42.594528916000854,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "sql_generate",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the SQL Agent of ForecastBot. Generate exactly one safe PostgreSQL SELECT for time-series history.\nForecast request: {\"intent\": \"forecast_request\", \"dataset\": \"M5\", \"granularity\": \"month\", \"horizon\": 12, \"filters\": {\"item_id\": \"HOUSEHOLD_1_511\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\nSchema context: \nDataset: M5\n\nYou are working with a PostgreSQL database for M5 retail sales forecasting.\n\n1. Table: m5_sales_train\n- id (TEXT): Unique series identifier\n- item_id (TEXT): Product identifier\n- dept_id (TEXT): Department identifier\n- cat_id (TEXT): Category identifier\n- store_id (TEXT): Store identifier\n- state_id (TEXT): State identifier\n- d (TEXT): Day key, not a real calendar date\n- sales (NUMERIC): Daily sales quantity\n\n2. Table: m5_calendar\n- d (TEXT): Day key\n- date (DATE): Real calendar date\n\nRelationship:\n- m5_sales_train.d = m5_calendar.d\n\nBusiness meaning:\n- m5_sales_train is the forecasting fact table.\n- sales is the forecasting target.\n- m5_calendar provides the real calendar date.\n- Always use m5_calendar.date as the true time axis.\n\nSQL rules: \n- Use m5_sales_train as the fact table with alias s.\n- Always join m5_calendar as alias c on s.d = c.d.\n- Always return exactly two columns: ds and y.\n- For day granularity, use c.date as ds.\n- For month granularity, use DATE_TRUNC('month', c.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', c.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', c.date)::date AS ds.\n- Aggregate the forecasting target with SUM(s.sales) AS y.\n- Support filters on item_id, dept_id, cat_id, store_id and state_id.\n- A logical date filter must be translated to c.date after joining m5_calendar.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n\nRequirements: return exactly columns ds and y; use only described tables/columns; apply ALL filters in forecast_request; sort ds ascending; no write/DDL statements. For M5 use m5_calendar.date as the real time axis. For HCMC_BUS use daily_passenger_stats.date as the real time axis. HCMC_BUS operator and vehicle_group are fact filters and may coexist with route_id. Join dimensions only when needed by dimension filters. Aggregate to requested day/month/quarter/year.\nReturn JSON only: {\"status\":\"success\",\"sql\":\"SELECT ...\",\"explanation\":\"short Vietnamese explanation\"}.",
+      "raw_response": "```json\n{\n  \"status\": \"success\",\n  \"sql\": \"SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOUSEHOLD_1_511' GROUP BY ds ORDER BY ds ASC;\",\n  \"explanation\": \"Truy vấn này tổng hợp doanh số bán hàng (sales) theo tháng cho sản phẩm có mã 'HOUSEHOLD_1_511' từ bộ dữ liệu M5.\"\n}\n```",
+      "input_tokens": 671,
+      "output_tokens": 1271,
+      "total_tokens": 1942,
+      "llm_time_s": 10.72470870899997,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_short",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive MONTHLY observations for one time series, ordered from oldest to newest.\nThis is the supplied recent-history window. Use only these past observations.\n\nHistory:\n[0.0, 0.0, 0.0, 312.0, 497.0, 475.0, 494.0, 472.0, 468.0, 469.0, 461.0, 424.0, 481.0, 372.0, 408.0, 470.0, 471.0, 407.0, 365.0, 344.0, 336.0, 375.0, 468.0, 427.0, 470.0, 492.0, 456.0, 498.0, 421.0, 444.0, 439.0, 425.0, 396.0, 365.0, 466.0, 414.0]\n\nTask:\nForecast the next exactly 12 MONTHLY values.\n\nRequirements:\n1. Return exactly 12 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f12]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 36",
+      "raw_response": "```json\n{\"forecast\":[475.5, 432.0, 432.0, 484.0, 446.0, 425.5, 402.0, 384.5, 366.0, 370.0, 467.0, 420.5]}\n```",
+      "input_tokens": 413,
+      "output_tokens": 5636,
+      "total_tokens": 6049,
+      "llm_time_s": 42.04028491600184,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_long",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive MONTHLY observations for one time series, ordered from oldest to newest.\nThis is the supplied longer-history window. Use only these past observations.\n\nHistory:\n[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 312.0, 497.0, 475.0, 494.0, 472.0, 468.0, 469.0, 461.0, 424.0, 481.0, 372.0, 408.0, 470.0, 471.0, 407.0, 365.0, 344.0, 336.0, 375.0, 468.0, 427.0, 470.0, 492.0, 456.0, 498.0, 421.0, 444.0, 439.0, 425.0, 396.0, 365.0, 466.0, 414.0]\n\nTask:\nForecast the next exactly 12 MONTHLY values.\n\nRequirements:\n1. Return exactly 12 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f12]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 52",
+      "raw_response": "```json\n{\"forecast\":[476.0, 432.0, 432.0, 427.0, 463.0, 442.0, 433.0, 414.0, 400.0, 403.0, 465.0, 422.0]}\n```",
+      "input_tokens": 493,
+      "output_tokens": 8691,
+      "total_tokens": 9184,
+      "llm_time_s": 65.74161408299915,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "explanation",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the Explanation Agent of ForecastBot. Explain the forecast result in concise, clear Vietnamese.\n\nAll user-facing values in \"title\", \"summary_text\", \"insights\", and \"chart_note\" must be written in Vietnamese, except identifiers, dataset names, model names, product names, and technical terms that should remain unchanged.\n\nUse ONLY the supplied:\n- forecast request,\n- historical summary,\n- forecast result.\n\nDo not invent causes, external facts, unseen actual values, ground truth, test data, backtesting results, or accuracy metrics.\nDo not mention MAE, RMSE, evaluation eligibility, or whether actual future observations are available.\nPrefer quantitative descriptions supported directly by the supplied values; avoid unsupported qualitative claims unless explicitly justified by the supplied statistics.\n\nThe chart_note must describe only the training history and forecast produced by ForecastBot. Do not mention held-out actual/test values because they are not supplied to this agent.\n\nForecast request: {\"intent\": \"forecast_request\", \"dataset\": \"M5\", \"granularity\": \"month\", \"horizon\": 12, \"filters\": {\"item_id\": \"HOUSEHOLD_1_511\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\nHistorical summary: {\"n_points\": 52, \"start_date\": \"2011-01-01\", \"end_date\": \"2015-04-01\", \"min_y\": 0.0, \"max_y\": 498.0, \"mean_y\": 274.65384615384613}\nForecast result: {\"forecast\": [{\"step\": 1, \"ds\": \"2015-05-01\", \"yhat\": 475.7}, {\"step\": 2, \"ds\": \"2015-06-01\", \"yhat\": 432.0}, {\"step\": 3, \"ds\": \"2015-07-01\", \"yhat\": 432.0}, {\"step\": 4, \"ds\": \"2015-08-01\", \"yhat\": 461.2}, {\"step\": 5, \"ds\": \"2015-09-01\", \"yhat\": 452.8}, {\"step\": 6, \"ds\": \"2015-10-01\", \"yhat\": 432.1}, {\"step\": 7, \"ds\": \"2015-11-01\", \"yhat\": 414.4}, {\"step\": 8, \"ds\": \"2015-12-01\", \"yhat\": 396.3}, {\"step\": 9, \"ds\": \"2016-01-01\", \"yhat\": 379.6}, {\"step\": 10, \"ds\": \"2016-02-01\", \"yhat\": 383.2}, {\"step\": 11, \"ds\": \"2016-03-01\", \"yhat\": 466.2}, {\"step\": 12, \"ds\": \"2016-04-01\", \"yhat\": 421.1}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"ensemble\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 36, \"long_n\": 52, \"short_window_name\": \"h36\", \"long_window_name\": \"h52\"}}\n\nReturn STRICT JSON only with exactly:\n{\"title\":\"...\",\"summary_text\":\"...\",\"insights\":[\"...\"],\"chart_note\":\"...\"}.\nNo markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"title\": \"Dự báo 12 tháng cho item_id HOUSEHOLD_1_511\",\n  \"summary_text\": \"ForecastBot dự báo cho item_id HOUSEHOLD_1_511 trong 12 tháng tới, từ tháng 5 năm 2015 đến tháng 4 năm 2016. Các giá trị dự báo dao động từ 379.6 đến 475.7. Giá trị trung bình dự báo là 428.9, cao hơn so với trung bình lịch sử là 274.7.\",\n  \"insights\": [\n    \"Giá trị dự báo cao nhất là 475.7 vào tháng 5 năm 2015 và thấp nhất là 379.6 vào tháng 1 năm 2016.\",\n    \"Tất cả 12 giá trị dự báo đều cao hơn mức trung bình lịch sử (274.7).\",\n    \"Dự báo này được tạo ra bằng mô hình `ensemble`, kết hợp một mô hình dựa trên 36 điểm dữ liệu gần nhất (trọng số 60%) và một mô hình dựa trên toàn bộ 52 điểm dữ liệu lịch sử (trọng số 40%).\"\n  ],\n  \"chart_note\": \"Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 4 năm 2015 (52 điểm dữ liệu) và dự báo của ForecastBot cho 12 tháng tiếp theo.\"\n}\n```",
+      "input_tokens": 887,
+      "output_tokens": 2479,
+      "total_tokens": 3366,
+      "llm_time_s": 22.1168856660006,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    }
+  ],
+  "total_tokens": 26745,
+  "chart_status": "success",
+  "chart_error": ""
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử, doanh số bán hàng cho quý tiếp theo (bắt đầu từ 2016-04-01) được dự báo là 44.66. Con số này cao hơn mức trung bình lịch sử hàng quý là 30.91. Dự báo được tạo ra bằng cách sử dụng một mô hình tổ hợp, đặt trọng số lớn hơn (60%) vào các xu hướng gần đây.",
+  "insights": [
+    "Mô hình dự báo đã kết hợp một cửa sổ ngắn hạn (8 quý gần nhất) và một cửa sổ dài hạn (12 quý gần nhất) để đưa ra kết quả cuối cùng.",
+    "Giá trị dự báo 44.66 nằm trong phạm vi dữ liệu lịch sử đã quan sát được, với mức thấp nhất là 8.0 và cao nhất là 54.0."
+  ],
+  "chart_note": "Biểu đồ hiển thị 21 điểm dữ liệu lịch sử hàng quý và một điểm dự báo cho quý tiếp theo."
+}

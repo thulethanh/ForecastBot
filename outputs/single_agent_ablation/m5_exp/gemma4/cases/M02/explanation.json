@@ -1,0 +1,11 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã tạo thành công dự báo bán hàng trong 28 ngày cho mặt hàng FOODS_3_540 tại cửa hàng CA_4. Dự báo được xây dựng dựa trên việc sử dụng chế độ 'short_only' với trọng số 60% cho cửa sổ ngắn (180 ngày) và 40% cho cửa sổ dài (365 ngày). Lưu ý rằng quá trình dự báo đã sử dụng cơ chế fallback.",
+  "insights": [
+    "Phạm vi dự báo bao gồm 28 ngày, bắt đầu từ ngày 2016-03-28 và kết thúc vào ngày 2016-04-24.",
+    "Dữ liệu lịch sử được sử dụng để huấn luyện trải dài từ 2011-01-29 đến 2016-03-27, với tổng cộng 1885 điểm dữ liệu.",
+    "Mô hình đã áp dụng trọng số 60% cho dữ liệu ngắn hạn (h180) và 40% cho dữ liệu dài hạn (h365) để đưa ra dự báo.",
+    "Kết quả dự báo được đánh dấu là thành công (status: success), nhưng đã sử dụng cơ chế fallback trong quá trình tính toán."
+  ],
+  "chart_note": "Các giá trị yhat được hiển thị là các giá trị dự báo (forecast) cho 28 ngày tới và không đại diện cho giá trị thực tế trong tương lai."
+}

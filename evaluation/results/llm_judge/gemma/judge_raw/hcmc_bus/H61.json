@@ -1,0 +1,24 @@
+{
+  "case_id": "H61",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 năm cho tuyến 90, HTX 26. Mọi mốc thời gian, số dự báo, thống kê lịch sử và nhận định xu hướng giảm liên tục đều khớp với history summary và forecast result. Nội dung trình bày rõ ràng, nêu được mức dự báo từng năm, so sánh hợp lý với khoảng lịch sử và cho biết ý nghĩa nổi bật là mức giảm rất mạnh vào năm 2027."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.037763291998999,
+    "input_tokens": 2288,
+    "output_tokens": 199,
+    "total_tokens": 2487,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 năm cho tuyến 90, HTX 26. Mọi mốc thời gian, số dự báo, thống kê lịch sử và nhận định xu hướng giảm liên tục đều khớp với history summary và forecast result. Nội dung trình bày rõ ràng, nêu được mức dự báo từng năm, so sánh hợp lý với khoảng lịch sử và cho biết ý nghĩa nổi bật là mức giảm rất mạnh vào năm 2027.\"}"
+  }
+}

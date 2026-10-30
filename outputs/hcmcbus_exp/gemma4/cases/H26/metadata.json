@@ -1,0 +1,33 @@
+{
+  "case_id": "H26",
+  "question": "Tôi muốn dự báo lượng hành khách của tuyến 1 do Cty-BaoYen vận hành trong 90 ngày tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 737,
+    "n_train": 647,
+    "n_test": 90,
+    "horizon": 90,
+    "minimum_train_required": 90,
+    "required_points_for_evaluation": 180,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 32.012670875003096,
+    "load_schema": 0.006133375005447306,
+    "sql_generation": 57.00330345799739,
+    "sql_execution_and_repair": 0.02551608301291708,
+    "forecast": 259.1310785829992,
+    "explanation": 90.66903716699744,
+    "end_to_end": 438.8478952500009
+  },
+  "total_tokens": 22593,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

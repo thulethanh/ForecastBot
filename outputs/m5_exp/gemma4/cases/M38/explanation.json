@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_1_511 năm 2016",
+  "summary_text": "Dựa trên dữ liệu lịch sử, giá trị dự báo cho HOUSEHOLD_1_511 vào ngày 2016-01-01 là 5068.0.",
+  "insights": [
+    "Giá trị dự báo 5068.0 cao hơn mức trung bình lịch sử (3546.6) và gần với mức tối đa lịch sử (5251.0).",
+    "Trong 5 điểm dữ liệu lịch sử (2011-2015), giá trị dao động từ 0.0 đến 5251.0."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện trên 5 điểm dữ liệu từ 2011-01-01 đến 2015-01-01. Dự báo được thực hiện bằng chế độ single với trọng số (weights) là short: 0.6 và long: 0.4."
+}

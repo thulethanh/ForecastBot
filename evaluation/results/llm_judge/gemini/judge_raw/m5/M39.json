@@ -1,0 +1,24 @@
+{
+  "case_id": "M39",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, kỳ dự báo 2 năm và nêu chính xác các giá trị 17.5 (2015), 1.3 (2016). Các nhận định về mức thấp hơn trung bình lịch sử 113.0, xu hướng giảm giữa hai năm và việc dự báo nằm dưới phạm vi lịch sử 50.0–145.0 đều được hỗ trợ trực tiếp bởi dữ liệu cung cấp. Trình bày rõ ràng, ngắn gọn và dễ theo dõi. Nội dung hữu ích để hiểu mức dự báo và mức độ khác biệt với lịch sử, dù chưa nêu lưu ý về mức độ bất định của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.287836415998754,
+    "input_tokens": 2225,
+    "output_tokens": 256,
+    "total_tokens": 2481,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, kỳ dự báo 2 năm và nêu chính xác các giá trị 17.5 (2015), 1.3 (2016). Các nhận định về mức thấp hơn trung bình lịch sử 113.0, xu hướng giảm giữa hai năm và việc dự báo nằm dưới phạm vi lịch sử 50.0–145.0 đều được hỗ trợ trực tiếp bởi dữ liệu cung cấp. Trình bày rõ ràng, ngắn gọn và dễ theo dõi. Nội dung hữu ích để hiểu mức dự báo và mức độ khác biệt với lịch sử, dù chưa nêu lưu ý về mức độ bất định của dự báo.\"}"
+  }
+}

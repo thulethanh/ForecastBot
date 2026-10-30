@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số hàng tháng cho mặt hàng HOBBIES_1_026 tại cửa hàng WI_2 trong 24 tháng tới, từ tháng 5 năm 2014 đến tháng 4 năm 2016. Doanh số được dự báo sẽ ổn định ở mức 11.3 đơn vị mỗi tháng. Dự báo này được tạo ra dựa trên 40 tháng dữ liệu lịch sử, trong đó doanh số trung bình là 2.55 đơn vị.",
+  "insights": [
+    "Mô hình dự báo không phát hiện thấy xu hướng tăng/giảm hoặc tính thời vụ rõ rệt trong dữ liệu lịch sử, do đó đưa ra một dự báo không đổi cho toàn bộ giai đoạn 24 tháng.",
+    "Giá trị dự báo (11.3) cao hơn đáng kể so với mức trung bình lịch sử (2.55). Điều này cho thấy doanh số trong giai đoạn gần đây của dữ liệu lịch sử có thể đã cao hơn so với giai đoạn đầu, và mô hình đã tập trung nhiều hơn vào các dữ liệu gần đây này."
+  ],
+  "chart_note": "Đường màu xanh biểu thị dự báo doanh số không đổi là 11.3 đơn vị mỗi tháng. Dữ liệu lịch sử kéo dài 40 tháng với doanh số trung bình là 2.55 đơn vị."
+}

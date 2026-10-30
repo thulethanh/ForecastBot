@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024, hệ thống dự báo số lượng hành khách hàng năm cho tuyến xe buýt 141 (do HTX 15 vận hành) sẽ là 346.632 lượt cho mỗi năm trong giai đoạn 10 năm tới, từ 2025 đến 2034.",
+  "insights": [
+    "Dự báo là một đường thẳng không đổi do lượng dữ liệu lịch sử có sẵn (3 năm) là rất ít. Với dữ liệu hạn chế, mô hình không thể xác định được xu hướng tăng trưởng hay quy luật theo mùa một cách đáng tin cậy.",
+    "Giá trị dự báo (346.632) bằng với giá trị thấp nhất trong giai đoạn lịch sử (2022-2024). Điều này cho thấy một dự báo thận trọng, có thể do sự biến động lớn trong dữ liệu quá khứ."
+  ],
+  "chart_note": "Lưu ý: Dự báo này được tạo ra từ một tập dữ liệu lịch sử ngắn (3 điểm dữ liệu). Các xu hướng trong tương lai có thể thay đổi đáng kể khi có thêm dữ liệu."
+}

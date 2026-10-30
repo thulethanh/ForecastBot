@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOBBIES_1_277 tại WI_2 cho Quý 2 năm 2016",
+  "summary_text": "ForecastBot dự báo giá trị cho quý tiếp theo (bắt đầu từ 2016-04-01) là 52.4. Giá trị dự báo này cao hơn đáng kể so với mức trung bình lịch sử (30.9) và gần với mức cao nhất lịch sử (54.0) trong 21 quý đã qua.",
+  "insights": [
+    "Giá trị dự báo cho quý bắt đầu từ 2016-04-01 là 52.4.",
+    "Dự báo này cao hơn 69.6% so với giá trị trung bình lịch sử (30.9) và chỉ thấp hơn 3% so với giá trị cao nhất từng ghi nhận (54.0).",
+    "Dự báo được tạo ra bằng mô hình `ensemble`, kết hợp một mô hình ngắn hạn dựa trên 8 quý gần nhất (trọng số 60%) và một mô hình dài hạn dựa trên 12 quý gần nhất (trọng số 40%)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 21 điểm dữ liệu lịch sử theo quý từ 2011-01-01 đến 2016-01-01 và 1 điểm dữ liệu dự báo của ForecastBot cho quý tiếp theo."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Dự báo 12 Quý Tới cho HCMC_BUS (route_id: 122, operator: HTX-195)",
+  "summary_text": "ForecastBot dự báo cho 12 quý tiếp theo, từ Q1 2025 đến Q4 2027. Các giá trị dự báo dao động từ 381.633 đến 489.624. Dự báo cho thấy một xu hướng tăng nhẹ qua từng năm, với các đỉnh cao nhất vào Quý 4 và các điểm thấp nhất vào Quý 3 mỗi năm.",
+  "insights": [
+    "Dự báo cho thấy xu hướng tăng trưởng nhẹ qua từng năm trong giai đoạn 12 quý tới.",
+    "Giá trị dự báo thể hiện tính thời vụ rõ rệt, đạt đỉnh vào Quý 4 và chạm đáy vào Quý 3 hàng năm.",
+    "Giá trị dự báo cao nhất là 489.624 (Q4 2027) và thấp nhất là 381.633 (Q3 2025).",
+    "Tất cả các điểm dữ liệu dự báo đều cao hơn giá trị trung bình lịch sử (khoảng 366.835)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 12 điểm dữ liệu lịch sử từ Q1 2022 đến Q4 2024 được sử dụng để huấn luyện mô hình, cùng với dự báo của ForecastBot cho 12 quý tiếp theo đến Q4 2027."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo M5 cho HOBBIES_1_277 tại WI_2",
+  "summary_text": "Dựa trên mô hình ensemble, giá trị dự báo cho M5 vào ngày 2016-04-01 là 38.3.",
+  "insights": [
+    "Trong 21 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2016-01-01), giá trị M5 có mức trung bình là 30.90, dao động từ 8.0 đến 54.0.",
+    "Mô hình sử dụng phương pháp ensemble với trọng số 0.6 cho short window (h8) và 0.4 cho long window (h12)."
+  ],
+  "chart_note": "Biểu đồ này hiển thị quá trình huấn luyện của ForecastBot trên 21 điểm dữ liệu lịch sử. Dự báo được tạo ra bằng mô hình ensemble, kết hợp kết quả từ short window (h8) và long window (h12)."
+}

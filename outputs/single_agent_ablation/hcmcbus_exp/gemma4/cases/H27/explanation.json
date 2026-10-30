@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho dữ liệu HCMC_BUS (Tuyến 15) trong tháng 12 năm 2024 là 28,560. Giá trị này được tính toán dựa trên phân tích dữ liệu lịch sử.",
+  "insights": [
+    "Mô hình dự báo sử dụng phương pháp ensemble (kết hợp) với trọng số 60% cho mô hình ngắn hạn và 40% cho mô hình dài hạn.",
+    "Dự báo được xây dựng dựa trên 35 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-11-01) và sử dụng cửa sổ ngắn hạn là 24 tháng.",
+    "Giá trị dự báo (28,560) thấp hơn mức trung bình lịch sử (29,410.29)."
+  ],
+  "chart_note": "Đây là giá trị dự báo cho tháng 12 năm 2024 và không đại diện cho dữ liệu thực tế."
+}

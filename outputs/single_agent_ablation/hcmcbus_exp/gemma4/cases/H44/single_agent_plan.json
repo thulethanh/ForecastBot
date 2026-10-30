@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 28,
+  "filters": {
+    "route_id": "146",
+    "operator": "HTX-ThanhSon"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '146' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the daily total passenger count (y) for route 146 operated by HTX-ThanhSon (d.operator) from the daily_passenger_stats table."
+}

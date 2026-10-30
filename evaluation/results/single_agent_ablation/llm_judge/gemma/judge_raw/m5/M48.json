@@ -1,0 +1,26 @@
+{
+  "case_id": "M48",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Câu \"Dữ liệu lịch sử được sử dụng để dự báo bao gồm 63 điểm dữ liệu\" diễn đạt rằng toàn bộ 63 điểm đã được dùng cho dự báo, trong khi window_info chỉ xác nhận các nhánh ensemble dùng cửa sổ 24 và 36 điểm."
+    ],
+    "reason_vi": "Giải thích nêu đúng mặt hàng, cửa hàng, tháng dự báo, giá trị 31.0, chế độ ensemble và các trọng số/cửa sổ khớp forecast_result. Trình bày ngắn gọn, rõ ràng và hữu ích ở mức cơ bản. Tuy nhiên, phần nói 63 điểm dữ liệu được sử dụng để dự báo là mạnh hơn bằng chứng được cung cấp: history_summary xác nhận 63 điểm lịch sử khả dụng, còn các nhánh dự báo được xác nhận dùng cửa sổ 24 và 36 điểm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.651530875009485,
+    "input_tokens": 2163,
+    "output_tokens": 526,
+    "total_tokens": 2689,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Câu \\\"Dữ liệu lịch sử được sử dụng để dự báo bao gồm 63 điểm dữ liệu\\\" diễn đạt rằng toàn bộ 63 điểm đã được dùng cho dự báo, trong khi window_info chỉ xác nhận các nhánh ensemble dùng cửa sổ 24 và 36 điểm.\"],\"reason_vi\":\"Giải thích nêu đúng mặt hàng, cửa hàng, tháng dự báo, giá trị 31.0, chế độ ensemble và các trọng số/cửa sổ khớp forecast_result. Trình bày ngắn gọn, rõ ràng và hữu ích ở mức cơ bản. Tuy nhiên, phần nói 63 điểm dữ liệu được sử dụng để dự báo là mạnh hơn bằng chứng được cung cấp: history_summary xác nhận 63 điểm lịch sử khả dụng, còn các nhánh dự báo được xác nhận dùng cửa sổ 24 và 36 điểm.\"}"
+  }
+}

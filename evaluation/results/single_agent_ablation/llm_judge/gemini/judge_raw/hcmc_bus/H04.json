@@ -1,0 +1,26 @@
+{
+  "case_id": "H04",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Câu \"cho thấy một xu hướng hoạt động cao hơn gần đây\" không được hỗ trợ trực tiếp: tóm tắt lịch sử chỉ cung cấp min/max/trung bình toàn kỳ, không có số liệu theo thời gian gần đây."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến, đơn vị vận hành, kỳ hạn 60 ngày và nêu đúng khoảng dự báo 4.847–7.474, trung bình lịch sử 5.637 cùng chu kỳ theo thứ trong forecast. Cách trình bày rõ, ngắn gọn và hữu ích khi chỉ ra ngày dự báo thấp/cao. Tuy nhiên, việc các mức thấp dự báo cao hơn mức thấp lịch sử không đủ để kết luận có xu hướng hoạt động cao hơn gần đây, vì không có thống kê lịch sử gần đây được cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.4197084999177605,
+    "input_tokens": 4230,
+    "output_tokens": 459,
+    "total_tokens": 4689,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Câu \\\"cho thấy một xu hướng hoạt động cao hơn gần đây\\\" không được hỗ trợ trực tiếp: tóm tắt lịch sử chỉ cung cấp min/max/trung bình toàn kỳ, không có số liệu theo thời gian gần đây.\"],\"reason_vi\":\"Giải thích bám sát tuyến, đơn vị vận hành, kỳ hạn 60 ngày và nêu đúng khoảng dự báo 4.847–7.474, trung bình lịch sử 5.637 cùng chu kỳ theo thứ trong forecast. Cách trình bày rõ, ngắn gọn và hữu ích khi chỉ ra ngày dự báo thấp/cao. Tuy nhiên, việc các mức thấp dự báo cao hơn mức thấp lịch sử không đủ để kết luận có xu hướng hoạt động cao hơn gần đây, vì không có thống kê lịch sử gần đây được cung cấp.\"}"
+  }
+}

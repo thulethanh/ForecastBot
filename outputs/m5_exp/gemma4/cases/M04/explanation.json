@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho FOODS_3_055 tại CA_1",
+  "summary_text": "Dự báo cho 60 ngày tới (từ 2016-02-25 đến 2016-04-24) cho thấy mức giá trị ổn định ở mức 0.5714.",
+  "insights": [
+    "Mô hình đã sử dụng phương pháp `deterministic_recent_mean` và kích hoạt chế độ dự phòng (fallback).",
+    "Giá trị dự báo được duy trì ổn định ở mức 0.5714 trong suốt 60 ngày.",
+    "Các trọng số được áp dụng là 0.6 cho cửa sổ ngắn (h180) và 0.4 cho cửa sổ dài (h365)."
+  ],
+  "chart_note": "Dữ liệu lịch sử được sử dụng từ 29/01/2011 đến 24/02/2016 (1853 điểm). Dự báo được tính toán dựa trên trọng số 0.6 cho cửa sổ ngắn (h180) và 0.4 cho cửa sổ dài (h365)."
+}

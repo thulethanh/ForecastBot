@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id HOUSEHOLD_1_416, state_id TX trong 12 quý tới",
+  "summary_text": "ForecastBot đã tạo dự báo cho 12 quý tiếp theo, từ 2016-07-01 đến 2019-04-01. Các giá trị dự báo dao động từ 187.34 đến 776.18, với giá trị trung bình là 448.23. Mức dự báo này thấp hơn đáng kể so với trung bình lịch sử là 1128.82. Nhìn chung, dự báo cho thấy một xu hướng giảm trong 12 quý tới.",
+  "insights": [
+    "Xu hướng giảm: Giá trị dự báo giảm từ 776.18 trong quý đầu tiên (2016-07-01) xuống còn 187.34 trong quý cuối cùng (2019-04-01).",
+    "Thấp hơn so với lịch sử: Tất cả 12 giá trị dự báo đều thấp hơn mức trung bình lịch sử (1128.82). Giá trị dự báo cao nhất (776.18) cũng thấp hơn đáng kể so với mức cao nhất trong lịch sử (2158.0).",
+    "Biến động theo mùa: Dự báo cho thấy một quy luật theo mùa nhất quán, với các giá trị cao nhất vào quý 3 (bắt đầu từ tháng 7) và thấp nhất vào quý 2 (bắt đầu từ tháng 4) mỗi năm."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dữ liệu lịch sử và dự báo. Dữ liệu lịch sử bao gồm 22 điểm dữ liệu theo quý từ 2011-01-01 đến 2016-04-01. Đường dự báo thể hiện kết quả cho 12 quý tiếp theo, được tạo bởi mô hình `ensemble` của ForecastBot, kết hợp các dự báo từ cửa sổ `h12` (trọng số 0.6) và `h20` (trọng số 0.4)."
+}

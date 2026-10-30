@@ -1,0 +1,24 @@
+{
+  "case_id": "H54",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho Tuyến 78 và HTX-195, nêu đúng hai mốc dự báo cùng xu hướng tăng từ 90.237 lên 100.192. Thông tin về chế độ single, trọng số 60%/40%, số điểm lịch sử và phạm vi lịch sử đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và lưu ý phù hợp rằng đây là dự báo chứ không phải giá trị thực tế tương lai."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.4735961250262335,
+    "input_tokens": 2216,
+    "output_tokens": 243,
+    "total_tokens": 2459,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho Tuyến 78 và HTX-195, nêu đúng hai mốc dự báo cùng xu hướng tăng từ 90.237 lên 100.192. Thông tin về chế độ single, trọng số 60%/40%, số điểm lịch sử và phạm vi lịch sử đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và lưu ý phù hợp rằng đây là dự báo chứ không phải giá trị thực tế tương lai.\"}"
+  }
+}

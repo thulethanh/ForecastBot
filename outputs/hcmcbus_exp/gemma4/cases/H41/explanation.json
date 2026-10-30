@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 139, operator: XKSG)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, dự báo cho 5 năm tới cho thấy xu hướng giảm mạnh. Giá trị dự kiến bắt đầu ở mức 687,633 vào năm 2025 và giảm dần xuống 0 vào năm 2029.",
+  "insights": [
+    "Giá trị dự báo cho năm 2025 là 687,633, cao hơn mức trung bình lịch sử (678,581.67).",
+    "Xu hướng giảm rõ rệt được dự báo qua các năm: từ 687,633 (2025) giảm xuống 590,417 (2026), tiếp tục giảm xuống 432,156 (2027), 212,850 (2028), và đạt 0 vào năm 2029.",
+    "Sự sụt giảm từ năm 2028 đến năm 2029 là đáng kể nhất, giảm từ 212,850 xuống 0."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện trên 3 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01 và đưa ra dự báo cho 5 bước tiếp theo, từ 2025-01-01 đến 2029-01-01."
+}

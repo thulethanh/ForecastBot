@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 10 năm tới cho HCMC_BUS (route_id: 99, operator: HTX-ThanhSon, vehicle_group: 2B.1_ML)",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024, ForecastBot dự báo giá trị sẽ giảm mạnh trong 10 năm tới. Dự báo bắt đầu ở mức 89.159 vào năm 2025 và giảm xuống còn khoảng 63 vào năm 2034.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng giảm mạnh và liên tục trong 10 năm tới, từ 89.159 vào năm 2025 xuống còn 63 vào năm 2034.",
+    "Giá trị dự báo đầu tiên cho năm 2025 (89.159) đã thấp hơn đáng kể so với mức tối thiểu trong lịch sử (208.587 từ 2022-2024).",
+    "Dự báo được tạo ra dựa trên một lịch sử dữ liệu ngắn chỉ có 3 điểm dữ liệu hàng năm."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (3 điểm dữ liệu từ 2022-01-01 đến 2024-01-01) và dự báo của ForecastBot cho 10 năm tiếp theo."
+}

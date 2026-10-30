@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ Q1 2022 đến Q4 2023 cho tuyến xe buýt 78 của nhà xe HTX-195, chúng tôi dự báo số lượng hành khách cho 2 quý tiếp theo. Dự báo cho Q1 2024 là 70,189 và cho Q2 2024 là 68,540.",
+  "insights": [
+    "Các giá trị dự báo (70,189 và 68,540) cao hơn mức trung bình lịch sử (61,055) nhưng vẫn nằm trong phạm vi dữ liệu đã ghi nhận (từ 33,319 đến 80,281).",
+    "Mô hình dự báo là một trung bình có trọng số, ưu tiên các xu hướng gần đây hơn (trọng số 60%) để đưa ra dự báo."
+  ],
+  "chart_note": "Biểu đồ này hiển thị 8 điểm dữ liệu lịch sử hàng quý và 2 điểm dự báo tiếp theo cho tuyến 78 của nhà xe HTX-195."
+}

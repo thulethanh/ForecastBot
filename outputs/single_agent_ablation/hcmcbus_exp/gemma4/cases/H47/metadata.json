@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H47",
+  "question": "Dự báo 90 ngày tới của tuyến 151 do HTX-28 vận hành.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 819,
+    "n_train": 729,
+    "n_test": 90,
+    "horizon": 90,
+    "minimum_train_required": 90,
+    "required_points_for_evaluation": 180,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.05427687498740852,
+    "request_sql": 50.17056866607163,
+    "sql_execution_and_repair": 0.0636355000315234,
+    "forecast": 427.334124624962,
+    "explanation": 63.22557833301835,
+    "end_to_end": 540.8484686670126
+  },
+  "total_tokens": 26292,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

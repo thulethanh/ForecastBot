@@ -1,0 +1,24 @@
+{
+  "case_id": "H25",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 1,
+    "faithfulness": 5,
+    "clarity": 4,
+    "usefulness": 1,
+    "overall_score": 2.75,
+    "unsupported_claims": [],
+    "reason_vi": "Nội dung chỉ thông báo hệ thống đã tạo dự báo và phần diễn giải LLM không khả dụng, nên không giải thích trực tiếp mức dự báo, khoảng thời gian 60 ngày, hay đặc điểm đường dự báo cố định 3.811,29. Chart note phù hợp ở mức mô tả chung với dữ liệu lịch sử và kết quả dự báo, không có nhận định định lượng hoặc nguyên nhân không được hỗ trợ. Câu chữ rõ ràng, ngắn gọn, nhưng giá trị giúp người dùng hiểu và sử dụng kết quả là rất thấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.565818125003716,
+    "input_tokens": 4068,
+    "output_tokens": 242,
+    "total_tokens": 4310,
+    "raw_response": "{\"relevance\":1,\"faithfulness\":5,\"clarity\":4,\"usefulness\":1,\"overall_score\":2.75,\"unsupported_claims\":[],\"reason_vi\":\"Nội dung chỉ thông báo hệ thống đã tạo dự báo và phần diễn giải LLM không khả dụng, nên không giải thích trực tiếp mức dự báo, khoảng thời gian 60 ngày, hay đặc điểm đường dự báo cố định 3.811,29. Chart note phù hợp ở mức mô tả chung với dữ liệu lịch sử và kết quả dự báo, không có nhận định định lượng hoặc nguyên nhân không được hỗ trợ. Câu chữ rõ ràng, ngắn gọn, nhưng giá trị giúp người dùng hiểu và sử dụng kết quả là rất thấp.\"}"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H36",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng trọng số 0.6 cho ngắn hạn và 0.4 cho dài hạn \"cho thấy sự ưu tiên cao hơn cho các biến động gần đây\" chưa được hỗ trợ rõ, vì cả hai cửa sổ đều có cùng 12 quan sát (h12)."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, nhóm xe, kỳ dự báo và chân trời 8 quý. Các mốc thời gian, mức dự báo đầu-cuối và xu hướng tăng đều khớp forecast; phạm vi 12 điểm lịch sử cũng khớp history summary. Nội dung rõ ràng, ngắn gọn và có lưu ý rằng đây không phải giá trị thực tế tương lai. Tuy nhiên, diễn giải rằng trọng số ngắn hạn cao hơn đồng nghĩa ưu tiên biến động gần đây là chưa vững, do hai cửa sổ ngắn và dài đều cùng là h12."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.252145083039068,
+    "input_tokens": 2468,
+    "output_tokens": 361,
+    "total_tokens": 2829,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng trọng số 0.6 cho ngắn hạn và 0.4 cho dài hạn \\\"cho thấy sự ưu tiên cao hơn cho các biến động gần đây\\\" chưa được hỗ trợ rõ, vì cả hai cửa sổ đều có cùng 12 quan sát (h12).\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, nhóm xe, kỳ dự báo và chân trời 8 quý. Các mốc thời gian, mức dự báo đầu-cuối và xu hướng tăng đều khớp forecast; phạm vi 12 điểm lịch sử cũng khớp history summary. Nội dung rõ ràng, ngắn gọn và có lưu ý rằng đây không phải giá trị thực tế tương lai. Tuy nhiên, diễn giải rằng trọng số ngắn hạn cao hơn đồng nghĩa ưu tiên biến động gần đây là chưa vững, do hai cửa sổ ngắn và dài đều cùng là h12.\"}"
+  }
+}

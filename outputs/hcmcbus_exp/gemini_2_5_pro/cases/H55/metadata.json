@@ -1,0 +1,33 @@
+{
+  "case_id": "H55",
+  "question": "Dự báo lượng hành khách của tuyến 79 do HTX-QTIEN vận hành trong 3 quý tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 10,
+    "n_train": 7,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.12079204100155,
+    "load_schema": 0.0015298750004149042,
+    "sql_generation": 12.684172374996706,
+    "sql_execution_and_repair": 0.008303665999846999,
+    "forecast": 48.644789792000665,
+    "explanation": 19.456000416997995,
+    "end_to_end": 86.91563195799972
+  },
+  "total_tokens": 14702,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

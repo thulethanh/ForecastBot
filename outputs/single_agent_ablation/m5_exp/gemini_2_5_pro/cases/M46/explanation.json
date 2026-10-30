@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng hàng ngày cho mặt hàng FOODS_3_085 tại cửa hàng WI_2 trong 60 ngày tới, từ ngày 25 tháng 2 năm 2016 đến ngày 24 tháng 4 năm 2016. Dự báo cho thấy một mô hình ổn định, lặp lại hàng tuần. Dựa trên dữ liệu lịch sử từ năm 2011, doanh số trung bình hàng ngày là 0.16 sản phẩm, với mức cao nhất là 5 sản phẩm. Các giá trị dự báo cao hơn mức trung bình lịch sử này.",
+  "insights": [
+    "Dự báo cho thấy một chu kỳ hàng tuần rất rõ ràng và nhất quán. Doanh số dự kiến sẽ đạt đỉnh vào cuối tuần (Thứ Bảy và Chủ Nhật) và thấp hơn vào các ngày trong tuần.",
+    "Các giá trị dự báo (khoảng 0.36 đến 0.55) cao hơn đáng kể so với mức trung bình lịch sử dài hạn là 0.16. Điều này cho thấy mô hình dự báo, vốn ưu tiên 60% cho dữ liệu 180 ngày gần nhất, đang phản ánh các xu hướng bán hàng gần đây cao hơn."
+  ],
+  "chart_note": "Biểu đồ này hiển thị doanh số bán hàng trong quá khứ cùng với dự báo cho 60 ngày tiếp theo. Đường chấm chấm thể hiện doanh số trung bình lịch sử (0.16)."
+}

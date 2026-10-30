@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 24,
+  "filters": {
+    "item_id": "HOBBIES_1_013",
+    "store_id": "CA_1",
+    "state_id": "CA"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'HOBBIES_1_013' AND s.store_id = 'CA_1' AND s.state_id = 'CA' GROUP BY DATE_TRUNC('month', c.date)::date ORDER BY ds ASC;",
+  "sql_explanation": "Retrieves the sum of sales (y) for the specified product, store, and state, aggregated by month (ds), covering the next 24 months."
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H13",
+  "question": "Trong 3 quý tới, tuyến 36 do XKSG vận hành có lượng hành khách dự kiến như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 9,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.07072825008071959,
+    "request_sql": 78.55533570901025,
+    "sql_execution_and_repair": 0.061521791969425976,
+    "forecast": 156.53025762492325,
+    "explanation": 113.52397195796948,
+    "end_to_end": 348.74199899996165
+  },
+  "total_tokens": 6128,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "M39",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện\" bao gồm 40 điểm dữ liệu. Thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng và các cửa sổ dự báo, không xác nhận dữ liệu đã được dùng để huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng mặt hàng/cửa hàng, nêu chính xác kỳ dự báo, chế độ ensemble, trọng số, trạng thái chạy và các mức dự báo đầu-cuối. Diễn đạt rõ ràng, có ích để hiểu xu hướng giảm tổng thể, dù chuỗi có một số dao động tăng giảm giữa các tháng nên không hoàn toàn giảm liên tục. Điểm cần lưu ý là câu khẳng định 40 điểm lịch sử được dùng để huấn luyện không được dữ liệu cung cấp xác nhận; history summary chỉ mô tả dữ liệu lịch sử khả dụng."
+  },
+  "meta": {
+    "attempt": 2,
+    "latency_s": 9.437504749977961,
+    "input_tokens": 3018,
+    "output_tokens": 527,
+    "total_tokens": 3545,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện\\\" bao gồm 40 điểm dữ liệu. Thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng và các cửa sổ dự báo, không xác nhận dữ liệu đã được dùng để huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng mặt hàng/cửa hàng, nêu chính xác kỳ dự báo, chế độ ensemble, trọng số, trạng thái chạy và các mức dự báo đầu-cuối. Diễn đạt rõ ràng, có ích để hiểu xu hướng giảm tổng thể, dù chuỗi có một số dao động tăng giảm giữa các tháng nên không hoàn toàn giảm liên tục. Điểm cần lưu ý là câu khẳng định 40 điểm lịch sử được dùng để huấn luyện không được dữ liệu cung cấp xác nhận; history summary chỉ mô tả dữ liệu lịch sử khả dụng.\"}"
+  }
+}

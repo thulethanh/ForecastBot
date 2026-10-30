@@ -1,0 +1,26 @@
+{
+  "case_id": "M23",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 3.75,
+    "unsupported_claims": [
+      "\"Mô hình đã áp dụng trọng số cao hơn cho dữ liệu ngắn hạn (0.6) so với dữ liệu dài hạn (0.4) khi tính toán dự báo.\" Nhận định này không nhất quán với selected_mode là \"short_only\", vốn cho thấy nhánh ngắn hạn được chọn."
+    ],
+    "reason_vi": "Giải thích đúng sản phẩm, thời hạn 28 ngày, các ngày dự báo, trạng thái fallback và phạm vi lịch sử. Trình bày ngắn gọn, rõ ràng. Tuy nhiên, nội dung về việc áp dụng đồng thời trọng số ngắn hạn và dài hạn dễ gây hiểu nhầm hoặc không nhất quán với chế độ \"short_only\". Giải thích cũng chưa nêu mức dự báo, khoảng dao động hay xu hướng chính trong 28 ngày, nên giá trị thực tiễn mới ở mức cơ bản."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.622106916969642,
+    "input_tokens": 3071,
+    "output_tokens": 406,
+    "total_tokens": 3477,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":3,\"clarity\":5,\"usefulness\":3,\"overall_score\":3.75,\"unsupported_claims\":[\"\\\"Mô hình đã áp dụng trọng số cao hơn cho dữ liệu ngắn hạn (0.6) so với dữ liệu dài hạn (0.4) khi tính toán dự báo.\\\" Nhận định này không nhất quán với selected_mode là \\\"short_only\\\", vốn cho thấy nhánh ngắn hạn được chọn.\"],\"reason_vi\":\"Giải thích đúng sản phẩm, thời hạn 28 ngày, các ngày dự báo, trạng thái fallback và phạm vi lịch sử. Trình bày ngắn gọn, rõ ràng. Tuy nhiên, nội dung về việc áp dụng đồng thời trọng số ngắn hạn và dài hạn dễ gây hiểu nhầm hoặc không nhất quán với chế độ \\\"short_only\\\". Giải thích cũng chưa nêu mức dự báo, khoảng dao động hay xu hướng chính trong 28 ngày, nên giá trị thực tiễn mới ở mức cơ bản.\"}"
+  }
+}

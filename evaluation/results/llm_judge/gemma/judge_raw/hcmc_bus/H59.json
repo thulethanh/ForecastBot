@@ -1,0 +1,24 @@
+{
+  "case_id": "H59",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo năm cho route 87 và nêu đúng giá trị năm 2024. Mức dự báo, trung bình lịch sử, phạm vi 2 điểm dữ liệu, chế độ single và các trọng số đều khớp thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn và có đối chiếu hữu ích với mức trung bình lịch sử. Tuy nhiên, giá trị sử dụng thực tế còn có thể cao hơn nếu nêu thêm xu hướng giữa hai năm lịch sử hoặc lưu ý rằng lịch sử chỉ có 2 điểm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.851906541996868,
+    "input_tokens": 2121,
+    "output_tokens": 227,
+    "total_tokens": 2348,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo năm cho route 87 và nêu đúng giá trị năm 2024. Mức dự báo, trung bình lịch sử, phạm vi 2 điểm dữ liệu, chế độ single và các trọng số đều khớp thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn và có đối chiếu hữu ích với mức trung bình lịch sử. Tuy nhiên, giá trị sử dụng thực tế còn có thể cao hơn nếu nêu thêm xu hướng giữa hai năm lịch sử hoặc lưu ý rằng lịch sử chỉ có 2 điểm.\"}"
+  }
+}

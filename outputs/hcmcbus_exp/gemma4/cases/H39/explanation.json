@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 127, HTX-ThanhSon) theo năm",
+  "summary_text": "Dựa trên dữ liệu lịch sử, dự báo cho năm 2023 và 2024 đều cho thấy giá trị ước tính là 258,795.0.",
+  "insights": [
+    "Giá trị dự báo cho năm 2023-01-01 là 258,795.0.",
+    "Giá trị dự báo cho năm 2024-01-01 cũng được dự đoán là 258,795.0."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 1 điểm dữ liệu lịch sử (ngày 2022-01-01). Dự báo được thực hiện cho 2 bước tiếp theo (2023-01-01 và 2024-01-01)."
+}

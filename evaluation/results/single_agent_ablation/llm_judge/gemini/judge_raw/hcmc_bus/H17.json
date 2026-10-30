@@ -1,0 +1,26 @@
+{
+  "case_id": "H17",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Nhận định rằng có “mô hình theo mùa rõ rệt” và các tháng cuối năm tăng cao “tương tự như các mẫu đã quan sát được trong dữ liệu lịch sử” không được history summary cung cấp bằng chứng trực tiếp."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 12 tháng và nêu chính xác tháng cao nhất/thấp nhất cùng các giá trị dự báo. Phạm vi 24 tháng lịch sử và giá trị trung bình 35.809 cũng khớp dữ liệu cung cấp. Tuy nhiên, history summary chỉ có số điểm, phạm vi thời gian, min/max và trung bình; không có thông tin về mẫu theo mùa trong lịch sử. Vì vậy, khẳng định mùa vụ rõ rệt và tương đồng với mẫu lịch sử chưa được hỗ trợ. Trình bày rõ ràng, hữu ích, nhưng nhận định này làm giảm độ trung thực."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.890310792019591,
+    "input_tokens": 2594,
+    "output_tokens": 306,
+    "total_tokens": 2900,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Nhận định rằng có “mô hình theo mùa rõ rệt” và các tháng cuối năm tăng cao “tương tự như các mẫu đã quan sát được trong dữ liệu lịch sử” không được history summary cung cấp bằng chứng trực tiếp.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 12 tháng và nêu chính xác tháng cao nhất/thấp nhất cùng các giá trị dự báo. Phạm vi 24 tháng lịch sử và giá trị trung bình 35.809 cũng khớp dữ liệu cung cấp. Tuy nhiên, history summary chỉ có số điểm, phạm vi thời gian, min/max và trung bình; không có thông tin về mẫu theo mùa trong lịch sử. Vì vậy, khẳng định mùa vụ rõ rệt và tương đồng với mẫu lịch sử chưa được hỗ trợ. Trình bày rõ ràng, hữu ích, nhưng nhận định này làm giảm độ trung thực.\"}"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "case_id": "H59",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.0,
+    "unsupported_claims": [
+      "Giá trị dự báo đạt đỉnh vào năm 2029; thực tế dãy forecast đạt mức cao nhất vào năm 2030 (620757).",
+      "Sau năm 2029 xu hướng chuyển sang ổn định và giảm dần; forecast vẫn tăng từ 617570 năm 2029 lên 620757 năm 2030.",
+      "Cụm \"cho thấy sự điều chỉnh về mức độ hoạt động\" diễn giải ý nghĩa hoạt động mà dữ liệu chỉ thể hiện các giá trị dự báo tăng/giảm."
+    ],
+    "reason_vi": "Explanation bám sát tuyến 87, độ chi tiết năm, kỳ hạn 2025–2034 và nêu đúng 3 điểm lịch sử cùng cấu hình trọng số/cửa sổ h3. Trình bày rõ, có lưu ý hợp lý rằng đây không phải giá trị thực tế bảo đảm. Tuy nhiên, phần insight xác định sai năm đạt đỉnh: forecast cao nhất là năm 2030, không phải 2029. Nhận định giảm sau 2029 cũng chưa chính xác vì giá trị còn tăng trong năm 2030; diễn giải về “mức độ hoạt động” vượt quá bằng chứng số liệu."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.060679249931127,
+    "input_tokens": 2539,
+    "output_tokens": 454,
+    "total_tokens": 2993,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.0,\"unsupported_claims\":[\"Giá trị dự báo đạt đỉnh vào năm 2029; thực tế dãy forecast đạt mức cao nhất vào năm 2030 (620757).\",\"Sau năm 2029 xu hướng chuyển sang ổn định và giảm dần; forecast vẫn tăng từ 617570 năm 2029 lên 620757 năm 2030.\",\"Cụm \\\"cho thấy sự điều chỉnh về mức độ hoạt động\\\" diễn giải ý nghĩa hoạt động mà dữ liệu chỉ thể hiện các giá trị dự báo tăng/giảm.\"],\"reason_vi\":\"Explanation bám sát tuyến 87, độ chi tiết năm, kỳ hạn 2025–2034 và nêu đúng 3 điểm lịch sử cùng cấu hình trọng số/cửa sổ h3. Trình bày rõ, có lưu ý hợp lý rằng đây không phải giá trị thực tế bảo đảm. Tuy nhiên, phần insight xác định sai năm đạt đỉnh: forecast cao nhất là năm 2030, không phải 2029. Nhận định giảm sau 2029 cũng chưa chính xác vì giá trị còn tăng trong năm 2030; diễn giải về “mức độ hoạt động” vượt quá bằng chứng số liệu.\"}"
+  }
+}

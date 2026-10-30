@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (Route 107, HTX-195, 2B.1_ML) theo quý",
+  "summary_text": "Dựa trên dữ liệu lịch sử 12 quý (từ 2022-01-01 đến 2024-10-01), ForecastBot dự báo lưu lượng sẽ tiếp tục tăng trưởng mạnh mẽ trong 8 quý tới. Lưu lượng dự kiến sẽ tăng từ 51,752.0 vào quý 1 năm 2025 lên đến 67,852.0 vào quý 4 năm 2026.",
+  "insights": [
+    "Xu hướng dự báo cho thấy sự tăng trưởng ổn định và liên tục qua các quý.",
+    "Lưu lượng dự kiến vào quý 4 năm 2026 (2026-10-01) là 67,852.0, cao hơn đáng kể so với mức trung bình lịch sử là 40,210.25.",
+    "Trong 8 quý dự báo, lưu lượng được kỳ vọng tăng khoảng 16,100.0 đơn vị."
+  ],
+  "chart_note": "Biểu đồ này được huấn luyện trên 12 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-10-01) và cung cấp dự báo cho 8 quý tiếp theo, kéo dài đến 2026-10-01."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng hàng tháng cho sản phẩm HOBBIES_1_124 tại cửa hàng CA_1 trong 6 tháng tới, từ tháng 11 năm 2015 đến tháng 4 năm 2016. Dựa trên dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 10 năm 2015, doanh số trung bình hàng tháng là 20.2. Dự báo cho thấy doanh số sẽ đạt đỉnh vào tháng 12 năm 2015 (42.3) và tháng 4 năm 2016 (50.7), cao hơn đáng kể so với mức trung bình lịch sử.",
+  "insights": [
+    "Dự báo này được tạo ra bằng mô hình tổng hợp, kết hợp các dự đoán từ hai khung thời gian lịch sử khác nhau (24 tháng và 36 tháng).",
+    "Mô hình ưu tiên các xu hướng gần đây hơn, với 60% trọng số được đặt vào dữ liệu của 24 tháng qua và 40% vào dữ liệu của 36 tháng qua."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số bán hàng thực tế hàng tháng và doanh số dự báo cho 6 tháng tới."
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H28",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định rằng các giá trị dự báo đều \"vượt qua mức cao nhất\" lịch sử 162.679 không đúng: dự báo tháng 10 (150.210) và tháng 11 (160.631) vẫn thấp hơn mức này; chỉ tháng 12 (171.052) vượt qua."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng tuyến và nhóm xe, nêu rõ mức dự báo, xu hướng tăng và đối chiếu với trung bình lịch sử. Các số liệu dự báo, trung bình, cực đại và số điểm lịch sử đều phù hợp dữ liệu cung cấp. Tuy nhiên, câu nói các giá trị dự báo đều vượt mức cao nhất lịch sử là không chính xác, vì chỉ dự báo tháng 12 vượt 162.679. Trình bày rõ ràng, ngắn gọn và nhìn chung hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.043762417044491,
+    "input_tokens": 2242,
+    "output_tokens": 478,
+    "total_tokens": 2720,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định rằng các giá trị dự báo đều \\\"vượt qua mức cao nhất\\\" lịch sử 162.679 không đúng: dự báo tháng 10 (150.210) và tháng 11 (160.631) vẫn thấp hơn mức này; chỉ tháng 12 (171.052) vượt qua.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng tuyến và nhóm xe, nêu rõ mức dự báo, xu hướng tăng và đối chiếu với trung bình lịch sử. Các số liệu dự báo, trung bình, cực đại và số điểm lịch sử đều phù hợp dữ liệu cung cấp. Tuy nhiên, câu nói các giá trị dự báo đều vượt mức cao nhất lịch sử là không chính xác, vì chỉ dự báo tháng 12 vượt 162.679. Trình bày rõ ràng, ngắn gọn và nhìn chung hữu ích.\"}"
+  }
+}

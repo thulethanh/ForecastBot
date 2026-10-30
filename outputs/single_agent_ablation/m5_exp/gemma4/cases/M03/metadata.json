@@ -1,0 +1,20 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M03",
+  "question": "Cho tôi biết lượng bán dự kiến của sản phẩm FOODS_2_069 tại bang CA trong 30 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "load_schema": 0.16136816702783108,
+    "request_sql": 48.767658874974586,
+    "sql_execution_and_repair": 0.06222120800521225,
+    "end_to_end": 48.992771166958846
+  },
+  "total_tokens": 1933,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "SQL succeeded but returned no historical data"
+}

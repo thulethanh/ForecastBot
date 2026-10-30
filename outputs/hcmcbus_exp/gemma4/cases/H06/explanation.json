@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 28, XKSG) cho tháng 12 năm 2024",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho tháng 12 năm 2024 (2024-12-01) là 61212.2.",
+  "insights": [
+    "Giá trị dự báo 61212.2 cho tháng 12 năm 2024 cao hơn mức trung bình lịch sử (49860.17) và cao hơn so với giá trị tối đa ghi nhận (70462.0).",
+    "Mô hình sử dụng phương pháp ensemble với trọng số 0.6 cho cửa sổ ngắn (h24) và 0.4 cho cửa sổ dài (h35)."
+  ],
+  "chart_note": "Bản đồ này hiển thị dự báo được tạo ra bằng mô hình ensemble, sử dụng 24 điểm dữ liệu gần nhất (h24) và 35 điểm dữ liệu lịch sử (h35) để dự đoán giá trị cho tháng 12 năm 2024."
+}

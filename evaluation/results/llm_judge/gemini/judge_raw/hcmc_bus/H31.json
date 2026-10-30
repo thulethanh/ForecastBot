@@ -1,0 +1,24 @@
+{
+  "case_id": "H31",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, cực đại/cực tiểu, khoảng dự báo và khoảng 3 tháng đầu đều khớp trực tiếp với forecast. So sánh với lịch sử cũng đúng: mức thấp nhất dự báo cao hơn mức thấp nhất lịch sử, còn mức cao nhất gần tương đương. Nội dung nêu chu kỳ lặp lại theo năm được hỗ trợ bởi các giá trị dự báo lặp lại giữa hai năm. Trình bày rõ ràng, cô đọng và giúp người dùng nhận biết mức độ cùng các tháng biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.119670709013008,
+    "input_tokens": 3075,
+    "output_tokens": 271,
+    "total_tokens": 3346,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, cực đại/cực tiểu, khoảng dự báo và khoảng 3 tháng đầu đều khớp trực tiếp với forecast. So sánh với lịch sử cũng đúng: mức thấp nhất dự báo cao hơn mức thấp nhất lịch sử, còn mức cao nhất gần tương đương. Nội dung nêu chu kỳ lặp lại theo năm được hỗ trợ bởi các giá trị dự báo lặp lại giữa hai năm. Trình bày rõ ràng, cô đọng và giúp người dùng nhận biết mức độ cùng các tháng biến động chính.\"}"
+  }
+}

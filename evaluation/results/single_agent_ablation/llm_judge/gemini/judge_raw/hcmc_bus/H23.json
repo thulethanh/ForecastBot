@@ -1,0 +1,26 @@
+{
+  "case_id": "H23",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng mô hình đã xác định được “xu hướng tăng trưởng gần đây trong dữ liệu” không được history summary hỗ trợ, vì summary chỉ cung cấp phạm vi, min/max và trung bình lịch sử, không nêu xu hướng gần đây."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo tuyến 62/XKSG trong 28 ngày, nêu đúng khoảng ngày, mức trung bình lịch sử, cấu hình ensemble 180/365 ngày và các mẫu trong forecast. Quy luật theo tuần, cuối tuần thấp hơn và Thứ Hai cao nhất đều khớp các giá trị dự báo. Khoảng dự báo và so sánh nhìn chung cao hơn trung bình lịch sử cũng phù hợp. Tuy nhiên, kết luận về xu hướng tăng trưởng gần đây không có bằng chứng trực tiếp từ history summary được cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.434140458004549,
+    "input_tokens": 3188,
+    "output_tokens": 347,
+    "total_tokens": 3535,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng mô hình đã xác định được “xu hướng tăng trưởng gần đây trong dữ liệu” không được history summary hỗ trợ, vì summary chỉ cung cấp phạm vi, min/max và trung bình lịch sử, không nêu xu hướng gần đây.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo tuyến 62/XKSG trong 28 ngày, nêu đúng khoảng ngày, mức trung bình lịch sử, cấu hình ensemble 180/365 ngày và các mẫu trong forecast. Quy luật theo tuần, cuối tuần thấp hơn và Thứ Hai cao nhất đều khớp các giá trị dự báo. Khoảng dự báo và so sánh nhìn chung cao hơn trung bình lịch sử cũng phù hợp. Tuy nhiên, kết luận về xu hướng tăng trưởng gần đây không có bằng chứng trực tiếp từ history summary được cung cấp.\"}"
+  }
+}

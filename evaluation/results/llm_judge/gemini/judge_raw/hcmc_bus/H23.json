@@ -1,0 +1,27 @@
+{
+  "case_id": "H23",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Giá trị dự báo trung bình là 1537.1\" không khớp với trung bình tính từ 28 giá trị forecast (xấp xỉ 1571.4).",
+      "Nhận định giá trị trung bình dự báo là 1537.1 cao hơn trung bình lịch sử dựa trên một giá trị trung bình dự báo không chính xác."
+    ],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo 28 ngày cho đúng tuyến và đơn vị vận hành; nêu rõ thời gian, biên dao động, cực trị, mẫu hình theo tuần và phạm vi lịch sử. Các ngày/cực trị, khoảng dự báo, thông tin lịch sử và ensemble đều phù hợp dữ liệu cung cấp. Tuy nhiên, trung bình dự báo 1537.1 không khớp với 28 giá trị forecast (khoảng 1571.4), nên nhận định so sánh với trung bình lịch sử cũng dùng số liệu sai. Trình bày rõ ràng và vẫn hữu ích nhờ mô tả đúng xu hướng cùng các mức cao/thấp chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 10.882582833000924,
+    "input_tokens": 3152,
+    "output_tokens": 779,
+    "total_tokens": 3931,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Giá trị dự báo trung bình là 1537.1\\\" không khớp với trung bình tính từ 28 giá trị forecast (xấp xỉ 1571.4).\",\"Nhận định giá trị trung bình dự báo là 1537.1 cao hơn trung bình lịch sử dựa trên một giá trị trung bình dự báo không chính xác.\"],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo 28 ngày cho đúng tuyến và đơn vị vận hành; nêu rõ thời gian, biên dao động, cực trị, mẫu hình theo tuần và phạm vi lịch sử. Các ngày/cực trị, khoảng dự báo, thông tin lịch sử và ensemble đều phù hợp dữ liệu cung cấp. Tuy nhiên, trung bình dự báo 1537.1 không khớp với 28 giá trị forecast (khoảng 1571.4), nên nhận định so sánh với trung bình lịch sử cũng dùng số liệu sai. Trình bày rõ ràng và vẫn hữu ích nhờ mô tả đúng xu hướng cùng các mức cao/thấp chính.\"}"
+  }
+}

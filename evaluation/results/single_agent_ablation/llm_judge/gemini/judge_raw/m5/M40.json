@@ -1,0 +1,24 @@
+{
+  "case_id": "M40",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo năm cho đúng mặt hàng và cửa hàng, nêu rõ đầy đủ ba mốc dự báo (7,0; 0,0; 0,0) và xu hướng giảm mạnh. Phạm vi lịch sử 2011–2013, số điểm dữ liệu là 3, cũng như phạm vi biểu đồ đều khớp dữ liệu được cung cấp. Lưu ý về độ nhạy khi chỉ có 3 điểm lịch sử là thận trọng và phù hợp, không khẳng định nguyên nhân không có bằng chứng. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo cùng hạn chế chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.567409791983664,
+    "input_tokens": 2227,
+    "output_tokens": 251,
+    "total_tokens": 2478,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo năm cho đúng mặt hàng và cửa hàng, nêu rõ đầy đủ ba mốc dự báo (7,0; 0,0; 0,0) và xu hướng giảm mạnh. Phạm vi lịch sử 2011–2013, số điểm dữ liệu là 3, cũng như phạm vi biểu đồ đều khớp dữ liệu được cung cấp. Lưu ý về độ nhạy khi chỉ có 3 điểm lịch sử là thận trọng và phù hợp, không khẳng định nguyên nhân không có bằng chứng. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo cùng hạn chế chính.\"}"
+  }
+}

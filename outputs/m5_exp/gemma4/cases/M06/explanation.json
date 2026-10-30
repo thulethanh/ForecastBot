@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho FOODS_3_395 tại CA_2 (CA)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, giá trị dự báo cho tháng 4 năm 2016 là 22.2.",
+  "insights": [
+    "Giá trị dự báo (22.2) cao hơn mức trung bình lịch sử (16.71) của các điểm dữ liệu từ 2011-01-01 đến 2016-03-01.",
+    "Phạm vi giá trị lịch sử của dataset M5 dao động từ 0.0 đến 38.0."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 63 điểm dữ liệu lịch sử từ 2011-01-01 đến 2016-03-01. Dự báo được tạo ra bằng mô hình ensemble, sử dụng trọng số 0.6 cho h24 và 0.4 cho h36."
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H12",
+  "question": "Dự báo lượng khách của tuyến 34 do HTX 26 vận hành trong 2 quý tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 10,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 4,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.0017810420831665397,
+    "request_sql": 8.633252375060692,
+    "sql_execution_and_repair": 0.015142999938689172,
+    "forecast": 63.62646079203114,
+    "explanation": 14.24916362494696,
+    "end_to_end": 86.5258685000008
+  },
+  "total_tokens": 14623,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

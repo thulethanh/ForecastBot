@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 77, HTX 26) cho quý 2024-10-01",
+  "summary_text": "Dựa trên dữ liệu lịch sử, giá trị dự báo cho quý 2024-10-01 là 29142.4.",
+  "insights": [
+    "Giá trị dự báo (29142.4) thấp hơn đáng kể so với mức trung bình lịch sử (51658.8) của dataset HCMC_BUS.",
+    "Trong 11 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-07-01, giá trị đã dao động trong khoảng từ 35527.0 đến 66591.0."
+  ],
+  "chart_note": "Bản đồ này được tạo bằng mô hình ensemble, sử dụng 11 điểm dữ liệu lịch sử (h11) và cửa sổ ngắn h8 để đưa ra dự báo cho quý 2024-10-01."
+}

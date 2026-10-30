@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 23, Nhóm 3B.1_ML) trong 30 ngày",
+  "summary_text": "Dự báo cho 30 ngày tới (từ 2024-12-02 đến 2024-12-31) cho thấy giá trị ổn định ở mức 2904.7143.",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 1066 điểm dữ liệu, trải dài từ 2022-01-01 đến 2024-12-01.",
+    "Trong lịch sử, giá trị của chỉ số này dao động từ mức thấp nhất 222.0 đến mức cao nhất 3799.0, với giá trị trung bình là 2573.85.",
+    "Mô hình đã sử dụng phương pháp `deterministic_recent_mean` và đã kích hoạt chế độ dự phòng (`fallback_used: true`) để đưa ra dự báo."
+  ],
+  "chart_note": "ForecastBot đã huấn luyện mô hình trên dữ liệu lịch sử, sử dụng trọng số 60% cho cửa sổ ngắn (h180) và 40% cho cửa sổ dài (h365). Kết quả dự báo được hiển thị cho 30 bước tiếp theo."
+}

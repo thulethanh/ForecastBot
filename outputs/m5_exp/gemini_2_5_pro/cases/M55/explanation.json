@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 3 quý cho HOBBIES_1_297",
+  "summary_text": "Dựa trên 19 điểm dữ liệu lịch sử từ 2011-01-01 đến 2015-07-01, ForecastBot dự báo các giá trị cho 3 quý tiếp theo là 453,44 (cho 2015-10-01), 425,80 (cho 2016-01-01), và 446,08 (cho 2016-04-01). Dữ liệu lịch sử có giá trị trung bình là 498,37, với giá trị thấp nhất là 10,0 và cao nhất là 723,0.",
+  "insights": [
+    "Tất cả các giá trị dự báo (từ 425,80 đến 453,44) đều thấp hơn giá trị trung bình lịch sử (498,37).",
+    "Dự báo cho thấy giá trị sẽ giảm từ quý đầu tiên đến quý thứ hai của giai đoạn dự báo (từ 453,44 xuống 425,80), sau đó tăng trở lại trong quý thứ ba (lên 446,08).",
+    "Mô hình 'ensemble' đã được sử dụng, kết hợp một cửa sổ ngắn hạn (8 điểm dữ liệu) với trọng số 60% và một cửa sổ dài hạn (12 điểm dữ liệu) với trọng số 40%."
+  ],
+  "chart_note": "Biểu đồ hiển thị 19 điểm dữ liệu lịch sử theo quý cho item_id HOBBIES_1_297 từ 2011-01-01 đến 2015-07-01, cùng với dự báo của ForecastBot cho 3 quý tiếp theo."
+}

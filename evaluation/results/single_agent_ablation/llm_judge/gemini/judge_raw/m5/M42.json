@@ -1,0 +1,26 @@
+{
+  "case_id": "M42",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Mô hình không thể xác định được xu hướng hoặc tính mùa vụ rõ ràng, do đó sử dụng phương pháp dự báo đơn giản."
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, cửa hàng, tần suất năm và chân trời 10 năm. Các mốc 2011–2016, 6 điểm lịch sử và mức dự báo cố định 119,3 đều khớp dữ liệu. Việc dự báo bằng trung bình cũng phù hợp về mặt số học vì trung bình lịch sử là 119,33 và mọi dự báo đều là 119,3. Tuy nhiên, không có bằng chứng trực tiếp rằng mô hình “không thể xác định” xu hướng/mùa vụ hay vì thế đã chọn một phương pháp đơn giản. Trình bày rõ ràng, và hữu ích khi nêu mức ổn định, nhưng nên nêu giới hạn này thận trọng hơn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.593678457895294,
+    "input_tokens": 2477,
+    "output_tokens": 366,
+    "total_tokens": 2843,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Mô hình không thể xác định được xu hướng hoặc tính mùa vụ rõ ràng, do đó sử dụng phương pháp dự báo đơn giản.\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, cửa hàng, tần suất năm và chân trời 10 năm. Các mốc 2011–2016, 6 điểm lịch sử và mức dự báo cố định 119,3 đều khớp dữ liệu. Việc dự báo bằng trung bình cũng phù hợp về mặt số học vì trung bình lịch sử là 119,33 và mọi dự báo đều là 119,3. Tuy nhiên, không có bằng chứng trực tiếp rằng mô hình “không thể xác định” xu hướng/mùa vụ hay vì thế đã chọn một phương pháp đơn giản. Trình bày rõ ràng, và hữu ích khi nêu mức ổn định, nhưng nên nêu giới hạn này thận trọng hơn.\"}"
+  }
+}

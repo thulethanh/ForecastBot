@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu M5 (Mặt hàng: HOBBIES_1_277, Cửa hàng: TX_3, Tiểu bang: TX) đã được thực hiện thành công cho một khoảng thời gian 12 tháng, bắt đầu từ tháng 5 năm 2015. Mô hình sử dụng phương pháp ensemble (kết hợp) với trọng số 0.6 cho mô hình ngắn hạn và 0.4 cho mô hình dài hạn.",
+  "insights": [
+    "Dự báo bao gồm 12 bước thời gian, trải dài từ 2015-05-01 đến 2016-04-01.",
+    "Việc dự báo được xây dựng dựa trên 52 điểm dữ liệu lịch sử, từ 2011-01-01 đến 2015-04-01.",
+    "Phương pháp dự báo được chọn là 'ensemble', kết hợp các yếu tố từ cửa sổ ngắn (h36) và cửa sổ dài (h52)."
+  ],
+  "chart_note": "Các giá trị được hiển thị là dự báo (yhat) và không đại diện cho các giá trị thực tế trong tương lai."
+}

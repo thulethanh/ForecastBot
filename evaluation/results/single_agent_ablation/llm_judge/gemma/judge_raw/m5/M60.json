@@ -1,0 +1,26 @@
+{
+  "case_id": "M60",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Việc sử dụng mô hình ensemble giúp cân bằng giữa các biến động ngắn hạn và xu hướng dài hạn của dữ liệu lịch sử.\" Kết quả chỉ xác nhận mô hình ensemble với trọng số 60%/40% và hai cửa sổ dữ liệu; không trực tiếp chứng minh tác dụng cân bằng biến động và xu hướng."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất tháng, kỳ hạn 24 tháng, phương pháp ensemble và các mức dự báo đầu-cuối. Các số liệu, mốc thời gian, trọng số và xu hướng giảm tuyến tính đều phù hợp forecast và history summary. Trình bày rõ ràng, ngắn gọn và giúp người dùng nắm được mức giảm dự kiến. Tuy nhiên, nhận định ensemble “giúp cân bằng” biến động ngắn hạn với xu hướng dài hạn là diễn giải phương pháp chưa được dữ liệu cung cấp trực tiếp chứng minh."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.577787457965314,
+    "input_tokens": 2962,
+    "output_tokens": 408,
+    "total_tokens": 3370,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Việc sử dụng mô hình ensemble giúp cân bằng giữa các biến động ngắn hạn và xu hướng dài hạn của dữ liệu lịch sử.\\\" Kết quả chỉ xác nhận mô hình ensemble với trọng số 60%/40% và hai cửa sổ dữ liệu; không trực tiếp chứng minh tác dụng cân bằng biến động và xu hướng.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất tháng, kỳ hạn 24 tháng, phương pháp ensemble và các mức dự báo đầu-cuối. Các số liệu, mốc thời gian, trọng số và xu hướng giảm tuyến tính đều phù hợp forecast và history summary. Trình bày rõ ràng, ngắn gọn và giúp người dùng nắm được mức giảm dự kiến. Tuy nhiên, nhận định ensemble “giúp cân bằng” biến động ngắn hạn với xu hướng dài hạn là diễn giải phương pháp chưa được dữ liệu cung cấp trực tiếp chứng minh.\"}"
+  }
+}

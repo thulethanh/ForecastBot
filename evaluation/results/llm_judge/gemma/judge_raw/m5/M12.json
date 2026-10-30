@@ -1,0 +1,26 @@
+{
+  "case_id": "M12",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện mô hình.\" Không có thông tin nào trong history summary hoặc forecast_result xác nhận dữ liệu đã được dùng để huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích trả lời trực tiếp cho dự báo theo quý của đúng sản phẩm và cửa hàng, nêu chính xác hai giá trị dự báo, so sánh hợp lệ với trung bình lịch sử và mô tả đúng mức tăng nhẹ giữa hai quý. Thông tin ensemble, trọng số và tên cửa sổ cũng khớp forecast_result. Tuy nhiên, câu khẳng định dữ liệu lịch sử được dùng để huấn luyện mô hình không được cung cấp bằng chứng. Diễn đạt nhìn chung rõ ràng, dù từ “Bản đồ” chưa phù hợp với ngữ cảnh biểu đồ/kết quả dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.269942208993598,
+    "input_tokens": 2206,
+    "output_tokens": 362,
+    "total_tokens": 2568,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện mô hình.\\\" Không có thông tin nào trong history summary hoặc forecast_result xác nhận dữ liệu đã được dùng để huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích trả lời trực tiếp cho dự báo theo quý của đúng sản phẩm và cửa hàng, nêu chính xác hai giá trị dự báo, so sánh hợp lệ với trung bình lịch sử và mô tả đúng mức tăng nhẹ giữa hai quý. Thông tin ensemble, trọng số và tên cửa sổ cũng khớp forecast_result. Tuy nhiên, câu khẳng định dữ liệu lịch sử được dùng để huấn luyện mô hình không được cung cấp bằng chứng. Diễn đạt nhìn chung rõ ràng, dù từ “Bản đồ” chưa phù hợp với ngữ cảnh biểu đồ/kết quả dự báo.\"}"
+  }
+}

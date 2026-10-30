@@ -1,0 +1,24 @@
+{
+  "case_id": "M18",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng mặt hàng và nêu đúng phạm vi lịch sử 40 điểm. Các nhận định về tính thời vụ, các tháng cao/thấp và mức tăng nhẹ ở năm thứ hai đều phù hợp với chuỗi dự báo. Thông tin ensemble, trọng số 60% và cửa sổ 36 tháng cũng khớp kết quả. Nội dung rõ ràng, có cấu trúc và dễ theo dõi. Tuy vậy, phần giải thích sẽ hữu ích hơn nếu nêu thêm một vài mức dự báo cụ thể (ví dụ các đỉnh/đáy dự kiến) để người dùng hình dung quy mô doanh số."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.808993582963012,
+    "input_tokens": 3016,
+    "output_tokens": 411,
+    "total_tokens": 3427,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng mặt hàng và nêu đúng phạm vi lịch sử 40 điểm. Các nhận định về tính thời vụ, các tháng cao/thấp và mức tăng nhẹ ở năm thứ hai đều phù hợp với chuỗi dự báo. Thông tin ensemble, trọng số 60% và cửa sổ 36 tháng cũng khớp kết quả. Nội dung rõ ràng, có cấu trúc và dễ theo dõi. Tuy vậy, phần giải thích sẽ hữu ích hơn nếu nêu thêm một vài mức dự báo cụ thể (ví dụ các đỉnh/đáy dự kiến) để người dùng hình dung quy mô doanh số.\"}"
+  }
+}

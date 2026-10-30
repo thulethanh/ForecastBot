@@ -1,0 +1,1 @@
+SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '43' AND TRIM(d.operator) = 'Cty-BaoYen' GROUP BY DATE_TRUNC('quarter', d.date)::date ORDER BY ds ASC;

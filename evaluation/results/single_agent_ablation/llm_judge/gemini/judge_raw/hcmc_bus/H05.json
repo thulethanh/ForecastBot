@@ -1,0 +1,24 @@
+{
+  "case_id": "H05",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 27/XKSG, tần suất ngày và kỳ hạn 90 ngày. Các mốc thời gian, mức dự báo khoảng 3.574 lượt/ngày, tính ổn định của toàn bộ đường dự báo, việc dùng phương án dự phòng theo trung bình gần đây, cùng đối chiếu với trung bình lịch sử 2.711 và cực đại 4.021 đều được dữ liệu hỗ trợ. Nội dung ngắn gọn, mạch lạc và nêu được ý nghĩa thực tế của mức dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.058790250099264,
+    "input_tokens": 5311,
+    "output_tokens": 248,
+    "total_tokens": 5559,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 27/XKSG, tần suất ngày và kỳ hạn 90 ngày. Các mốc thời gian, mức dự báo khoảng 3.574 lượt/ngày, tính ổn định của toàn bộ đường dự báo, việc dùng phương án dự phòng theo trung bình gần đây, cùng đối chiếu với trung bình lịch sử 2.711 và cực đại 4.021 đều được dữ liệu hỗ trợ. Nội dung ngắn gọn, mạch lạc và nêu được ý nghĩa thực tế của mức dự báo.\"}"
+  }
+}

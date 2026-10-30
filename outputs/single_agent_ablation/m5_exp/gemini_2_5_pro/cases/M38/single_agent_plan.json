@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 12,
+  "filters": {
+    "item_id": "HOUSEHOLD_1_511"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT\n  DATE_TRUNC('month', c.date)::date AS ds,\n  SUM(s.sales) AS y\nFROM\n  m5_sales_train AS s\n  JOIN m5_calendar AS c ON s.d = c.d\nWHERE\n  s.item_id = 'HOUSEHOLD_1_511'\nGROUP BY\n  ds\nORDER BY\n  ds ASC",
+  "sql_explanation": "This SQL query retrieves the historical monthly sales for the item 'HOUSEHOLD_1_511'. It aggregates the daily sales from the 'm5_sales_train' table into monthly sums, using the 'm5_calendar' table to get the actual dates. The results are grouped by month and ordered chronologically to form the time series for forecasting."
+}

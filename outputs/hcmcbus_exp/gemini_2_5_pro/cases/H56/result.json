@@ -1,0 +1,282 @@
+{
+  "case_id": "H56",
+  "question": "Cho tôi dự báo hành khách của tuyến 81 do HTX-VTHANG vận hành trong 4 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "forecast_request": {
+    "intent": "forecast_request",
+    "dataset": "HCMC_BUS",
+    "granularity": "quarter",
+    "horizon": 4,
+    "filters": {
+      "route_id": "81",
+      "operator": "HTX-VTHANG"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": ""
+  },
+  "generated_sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '81' AND TRIM(d.operator) = 'HTX-VTHANG' GROUP BY DATE_TRUNC('quarter', d.date) ORDER BY ds ASC",
+  "sql_explanation": "Truy vấn này tổng hợp dữ liệu hành khách theo quý cho tuyến xe buýt 81, được vận hành bởi HTX-VTHANG.",
+  "sql_result": [
+    {
+      "ds": "2022-01-01",
+      "y": 302108
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 410511
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 451829
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 510847
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 452232
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 429967
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 426319
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 492639
+    },
+    {
+      "ds": "2024-01-01",
+      "y": 450482
+    },
+    {
+      "ds": "2024-04-01",
+      "y": 438960
+    },
+    {
+      "ds": "2024-07-01",
+      "y": 418895
+    },
+    {
+      "ds": "2024-10-01",
+      "y": 496797
+    }
+  ],
+  "historical_data_summary": {
+    "n_points": 12,
+    "start_date": "2022-01-01",
+    "end_date": "2024-10-01",
+    "min_y": 302108.0,
+    "max_y": 510847.0,
+    "mean_y": 440132.1666666667
+  },
+  "historical_n": 12,
+  "forecast_history": [
+    {
+      "ds": "2022-01-01",
+      "y": 302108
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 410511
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 451829
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 510847
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 452232
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 429967
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 426319
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 492639
+    }
+  ],
+  "test_artifact": {
+    "status": "available",
+    "evaluation_eligible": true,
+    "reason": null,
+    "horizon": 4,
+    "n_test": 4,
+    "test": [
+      {
+        "ds": "2024-01-01",
+        "y": 450482
+      },
+      {
+        "ds": "2024-04-01",
+        "y": 438960
+      },
+      {
+        "ds": "2024-07-01",
+        "y": 418895
+      },
+      {
+        "ds": "2024-10-01",
+        "y": 496797
+      }
+    ]
+  },
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 8,
+    "n_test": 4,
+    "horizon": 4,
+    "minimum_train_required": 4,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "forecast_result": {
+    "forecast": [
+      {
+        "step": 1,
+        "ds": "2024-01-01",
+        "yhat": 430373.0
+      },
+      {
+        "step": 2,
+        "ds": "2024-04-01",
+        "yhat": 408108.0
+      },
+      {
+        "step": 3,
+        "ds": "2024-07-01",
+        "yhat": 404460.0
+      },
+      {
+        "step": 4,
+        "ds": "2024-10-01",
+        "yhat": 470780.0
+      }
+    ],
+    "status": "success",
+    "fallback_used": false,
+    "selected_mode": "single",
+    "weights": {
+      "short": 0.6,
+      "long": 0.4
+    },
+    "window_info": {
+      "short_n": 8,
+      "long_n": 8,
+      "short_window_name": "h8",
+      "long_window_name": "h8"
+    }
+  },
+  "explanation_result": {
+    "title": "Dự báo hàng quý cho HCMC_BUS (route_id: 81, operator: HTX-VTHANG)",
+    "summary_text": "ForecastBot dự báo cho 4 quý tiếp theo, từ Quý 1 2024 đến Quý 4 2024, cho dataset HCMC_BUS với các bộ lọc route_id='81' và operator='HTX-VTHANG'. Dự báo cho thấy giá trị giảm từ 430,373 (Quý 1) xuống mức thấp nhất là 404,460 (Quý 3), sau đó tăng mạnh lên 470,780 vào Quý 4 2024. Các giá trị dự báo này đều nằm trong phạm vi dữ liệu lịch sử (302,108 đến 510,847).",
+    "insights": [
+      "Giá trị dự báo cao nhất là 470,780 vào Quý 4 2024, cao hơn mức trung bình lịch sử (434,557).",
+      "Giá trị dự báo thấp nhất là 404,460 vào Quý 3 2024.",
+      "Xu hướng chung trong giai đoạn dự báo là giảm trong ba quý đầu năm và tăng đáng kể vào quý cuối cùng."
+    ],
+    "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử gồm 8 điểm theo quý từ 2022-01-01 đến 2023-10-01 và dự báo của ForecastBot cho 4 quý tiếp theo."
+  },
+  "status": "success",
+  "timings": {
+    "orchestration": 6.319860084004176,
+    "load_schema": 0.0019868750023306347,
+    "sql_generation": 10.340246042003855,
+    "sql_execution_and_repair": 0.007315333001315594,
+    "forecast": 49.554595959001745,
+    "explanation": 23.59614245800185,
+    "end_to_end": 89.82018887499726
+  },
+  "traces": [
+    {
+      "stage": "orchestration",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the Orchestration Agent of ForecastBot. Interpret the ORIGINAL user request semantically. Do not use or assume regex/rule-based extraction.\n\nReturn STRICT JSON only with exactly these fields:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS\",\n  \"granularity\": \"day or month or quarter or year\",\n  \"horizon\": integer,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n\nCRITICAL OUTPUT CONTRACT:\n- intent MUST be exactly \"forecast_request\".\n- filters MUST ALWAYS be one JSON object/dictionary, NEVER a list/array.\n- Put every explicitly stated filter directly inside the filters object.\n- If no filter is explicitly stated, return \"filters\": {}.\n- Never represent filters as a list.\n\nCorrect:\n\"filters\": {\"item_id\": \"FOODS_3_228\"}\n\nCorrect with multiple filters:\n\"filters\": {\n  \"item_id\": \"FOODS_3_540\",\n  \"store_id\": \"CA_4\"\n}\n\nIncorrect:\n\"filters\": [{\"item_id\": \"FOODS_3_228\"}]\n\nIncorrect:\n\"filters\": [{\"field\": \"item_id\", \"value\": \"FOODS_3_228\"}]\n\nValid datasets: M5, HCMC_BUS.\n\nGranularity mapping:\n- ngày/day = day\n- tháng/month = month\n- quý/quarter = quarter\n- năm/year = year\n\nAllowed horizons:\n- day=[7,28,30,60,90]\n- month=[1,3,6,12,24]\n- quarter=[1,2,3,4,8,12]\n- year=[1,2,3,5,10]\n\nM5 filters:\n- item_id\n- store_id\n- state_id\n- cat_id\n- dept_id\n- id\n\nM5 examples:\n- FOODS_1_001 means item_id=\"FOODS_1_001\".\n- CA_1/TX_1/WI_1 mean store_id when explicitly stated as a store.\n- CA/TX/WI mean state_id when explicitly stated as a state.\n\nHCMC_BUS filters:\n- route_id\n- route_name\n- operator\n- vehicle_group\n- start_stop\n- end_stop\n\nHCMC_BUS examples and interpretation:\n- \"tuyến 55\" means route_id=\"55\".\n- \"tuyến số 55\" means route_id=\"55\".\n- \"tuyến xe buýt 55\" means route_id=\"55\".\n- \"tuyến bus 55\" means route_id=\"55\".\n- Generic words such as \"tuyến\", \"xe\", \"buýt\", \"buyt\", and \"bus\" must never become route_id.\n- route_id, operator, vehicle_group, route_name, start_stop, and end_stop are independent filters and may coexist when explicitly stated.\n- Example: \"Tuyến 19 do HTX-195 vận hành, với nhóm xe 4_CNG.1\" means:\n  {\"route_id\":\"19\",\"operator\":\"HTX-195\",\"vehicle_group\":\"4_CNG.1\"}\n\nExtract ALL explicitly stated filters independently.\nPreserve identifier punctuation such as _, -, and .\nNever invent a filter or value.\n\nIf a required field dataset/granularity/horizon cannot be inferred:\n- use null;\n- list it in missing_fields;\n- set needs_clarification=true;\n- write a concise Vietnamese clarification question in user_message_for_clarification.\n\nOtherwise:\n- missing_fields=[]\n- needs_clarification=false\n- user_message_for_clarification=\"\"\n\nIf a stated horizon is unsupported, choose the nearest allowed horizon for the inferred granularity.\n\nOriginal user query:\nCho tôi dự báo hành khách của tuyến 81 do HTX-VTHANG vận hành trong 4 quý tới.\n\nReturn STRICT JSON only. No markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"HCMC_BUS\",\n  \"granularity\": \"quarter\",\n  \"horizon\": 4,\n  \"filters\": {\n    \"route_id\": \"81\",\n    \"operator\": \"HTX-VTHANG\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n```",
+      "input_tokens": 956,
+      "output_tokens": 690,
+      "total_tokens": 1646,
+      "llm_time_s": 6.319764792002388,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "sql_generate",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the SQL Agent of ForecastBot. Generate exactly one safe PostgreSQL SELECT for time-series history.\n\nForecast request:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"quarter\", \"horizon\": 4, \"filters\": {\"route_id\": \"81\", \"operator\": \"HTX-VTHANG\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nSchema context:\n\nDataset: HCMC_BUS\n\nYou are working with a PostgreSQL database for HCMC bus passenger forecasting.\n\n1. Table: daily_passenger_stats\n- date (DATE): Operating date and forecasting time axis\n- route_id (TEXT): Route identifier\n- operator (TEXT): Transport operator\n- vehicle_group (TEXT): Vehicle group\n- trips (INTEGER): Number of operated trips\n- buses (INTEGER): Number of buses\n- total_passengers (INTEGER): Total number of passengers and forecasting target\n\n2. Table: bus_routes\n- route_id (TEXT): Route identifier\n- route_name (TEXT): Route name\n- start_stop (TEXT): Start stop\n- end_stop (TEXT): End stop\n- distance_km (NUMERIC): Route distance in kilometres\n\nRelationship:\n- daily_passenger_stats.route_id = bus_routes.route_id\n\nBusiness meaning:\n- daily_passenger_stats is the forecasting fact table.\n- date is the true time axis.\n- total_passengers is the forecasting target.\n- bus_routes is a dimension table used for route filtering and description.\n\n\nSQL rules:\n\n- Use daily_passenger_stats as the fact table with alias d.\n- Join bus_routes as alias r only when route_name, start_stop or end_stop is required.\n- Join condition: d.route_id = r.route_id.\n- Always return exactly two columns: ds and y.\n- For day granularity, use d.date AS ds.\n- For month granularity, use DATE_TRUNC('month', d.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', d.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', d.date)::date AS ds.\n- Aggregate the forecasting target with SUM(d.total_passengers) AS y.\n- Support fact filters on route_id, operator, vehicle_group and date.\n- Route attributes route_name, start_stop and end_stop belong to bus_routes and require a join.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n- The source values of operator and vehicle_group may contain leading or trailing whitespace.\n- When filtering by operator, always apply TRIM to the database column: TRIM(d.operator).\n- When filtering by vehicle_group, always apply TRIM to the database column: TRIM(d.vehicle_group).\n- Compare trimmed operator and vehicle_group values using exact equality (=), unless the user explicitly requests partial or pattern matching.\n- route_id, operator and vehicle_group are independent fact filters and may be applied together in the same WHERE clause.\n\n\nRequirements:\n- Follow the supplied schema context and SQL rules.\n- Apply ALL filters in forecast_request.\n- Return exactly two columns: ds and y.\n- Sort ds ascending.\n- Use only described tables and columns.\n- Generate only one SELECT statement; no write or DDL statements.\n\nReturn JSON only:\n{\"status\":\"success\",\"sql\":\"SELECT ...\",\"explanation\":\"short Vietnamese explanation\"}.",
+      "raw_response": "```json\n{\n  \"status\": \"success\",\n  \"sql\": \"SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '81' AND TRIM(d.operator) = 'HTX-VTHANG' GROUP BY DATE_TRUNC('quarter', d.date) ORDER BY ds ASC\",\n  \"explanation\": \"Truy vấn này tổng hợp dữ liệu hành khách theo quý cho tuyến xe buýt 81, được vận hành bởi HTX-VTHANG.\"\n}\n```",
+      "input_tokens": 797,
+      "output_tokens": 1217,
+      "total_tokens": 2014,
+      "llm_time_s": 10.340122374997009,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_short",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive QUARTERLY observations for one time series, ordered from oldest to newest.\nThis is the supplied recent-history window. Use only these past observations.\n\nHistory:\n[302108.0, 410511.0, 451829.0, 510847.0, 452232.0, 429967.0, 426319.0, 492639.0]\n\nTask:\nForecast the next exactly 4 QUARTERLY values.\n\nRequirements:\n1. Return exactly 4 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f4]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 8",
+      "raw_response": "```json\n{\"forecast\":[430373.0, 408108.0, 404460.0, 470780.0]}\n```",
+      "input_tokens": 245,
+      "output_tokens": 6927,
+      "total_tokens": 7172,
+      "llm_time_s": 49.55443929199828,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "explanation",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the Explanation Agent of ForecastBot. Explain the forecast result in concise, clear Vietnamese.\n\nAll user-facing values in \"title\", \"summary_text\", \"insights\", and \"chart_note\" must be written in Vietnamese, except identifiers, dataset names, model names, product names, and technical terms that should remain unchanged.\n\nUse ONLY the supplied:\n- forecast request,\n- historical summary,\n- forecast result.\n\nDo not invent causes, external facts, unseen actual values, ground truth, test data, backtesting results, or accuracy metrics.\nDo not mention MAE, RMSE, evaluation eligibility, or whether actual future observations are available.\nPrefer quantitative descriptions supported directly by the supplied values; avoid unsupported qualitative claims unless explicitly justified by the supplied statistics.\n\nThe chart_note must describe only the training history and forecast produced by ForecastBot. Do not mention held-out actual/test values because they are not supplied to this agent.\n\nForecast request: {\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"quarter\", \"horizon\": 4, \"filters\": {\"route_id\": \"81\", \"operator\": \"HTX-VTHANG\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\nHistorical summary: {\"n_points\": 8, \"start_date\": \"2022-01-01\", \"end_date\": \"2023-10-01\", \"min_y\": 302108.0, \"max_y\": 510847.0, \"mean_y\": 434556.5}\nForecast result: {\"forecast\": [{\"step\": 1, \"ds\": \"2024-01-01\", \"yhat\": 430373.0}, {\"step\": 2, \"ds\": \"2024-04-01\", \"yhat\": 408108.0}, {\"step\": 3, \"ds\": \"2024-07-01\", \"yhat\": 404460.0}, {\"step\": 4, \"ds\": \"2024-10-01\", \"yhat\": 470780.0}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"single\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 8, \"long_n\": 8, \"short_window_name\": \"h8\", \"long_window_name\": \"h8\"}}\n\nReturn STRICT JSON only with exactly:\n{\"title\":\"...\",\"summary_text\":\"...\",\"insights\":[\"...\"],\"chart_note\":\"...\"}.\nNo markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n\"title\": \"Dự báo hàng quý cho HCMC_BUS (route_id: 81, operator: HTX-VTHANG)\",\n\"summary_text\": \"ForecastBot dự báo cho 4 quý tiếp theo, từ Quý 1 2024 đến Quý 4 2024, cho dataset HCMC_BUS với các bộ lọc route_id='81' và operator='HTX-VTHANG'. Dự báo cho thấy giá trị giảm từ 430,373 (Quý 1) xuống mức thấp nhất là 404,460 (Quý 3), sau đó tăng mạnh lên 470,780 vào Quý 4 2024. Các giá trị dự báo này đều nằm trong phạm vi dữ liệu lịch sử (302,108 đến 510,847).\",\n\"insights\": [\n\"Giá trị dự báo cao nhất là 470,780 vào Quý 4 2024, cao hơn mức trung bình lịch sử (434,557).\",\n\"Giá trị dự báo thấp nhất là 404,460 vào Quý 3 2024.\",\n\"Xu hướng chung trong giai đoạn dự báo là giảm trong ba quý đầu năm và tăng đáng kể vào quý cuối cùng.\"\n],\n\"chart_note\": \"Biểu đồ hiển thị dữ liệu lịch sử gồm 8 điểm theo quý từ 2022-01-01 đến 2023-10-01 và dự báo của ForecastBot cho 4 quý tiếp theo.\"\n}\n```",
+      "input_tokens": 639,
+      "output_tokens": 3445,
+      "total_tokens": 4084,
+      "llm_time_s": 23.59594875000039,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    }
+  ],
+  "total_tokens": 14916,
+  "chart_status": "success",
+  "chart_error": ""
+}

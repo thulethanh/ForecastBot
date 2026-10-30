@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử 63 tháng, doanh số bán hàng cho mặt hàng FOODS_1_002 tại cửa hàng WI_1 được dự báo là 30.8 đơn vị cho tháng 4 năm 2016. Con số này cao hơn mức trung bình lịch sử là 22.5 đơn vị.",
+  "insights": [
+    "Dự báo được tạo ra bằng cách sử dụng mô hình 'ensemble', kết hợp các xu hướng từ cả cửa sổ dữ liệu ngắn hạn (24 tháng) và dài hạn (36 tháng).",
+    "Mô hình ưu tiên các xu hướng gần đây hơn, với 60% trọng số được đặt vào dữ liệu của 24 tháng qua so với 40% cho 36 tháng.",
+    "Doanh số lịch sử dao động từ 1.0 đến 35.0 đơn vị. Mức dự báo 30.8 nằm ở gần mức cao nhất của phạm vi lịch sử này."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu bán hàng thực tế hàng tháng từ tháng 1 năm 2011 đến tháng 3 năm 2016, cùng với điểm dự báo cho tháng 4 năm 2016."
+}

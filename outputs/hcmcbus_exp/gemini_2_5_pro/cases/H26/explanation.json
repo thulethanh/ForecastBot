@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 90 ngày cho dataset HCMC_BUS (route_id: 1, operator: Cty-BaoYen)",
+  "summary_text": "ForecastBot dự báo cho 90 ngày tiếp theo, từ 2024-10-03 đến 2024-12-31. Các giá trị dự báo dao động trong khoảng từ 1730.0 đến 2781.2, với giá trị trung bình là 2494.1.",
+  "insights": [
+    "Dự báo cho thấy một quy luật theo tuần rõ rệt, với các giá trị cao nhất vào Thứ Hai (khoảng 2781.2) và thấp nhất vào Chủ Nhật (khoảng 1730.0).",
+    "Giá trị dự báo trung bình (khoảng 2494.1) cao hơn so với giá trị trung bình lịch sử (2164.1). Phạm vi dự báo (1730.0 - 2781.2) hẹp hơn so với phạm vi lịch sử (375.0 - 2968.0).",
+    "Không có xu hướng tăng hoặc giảm dài hạn nào được phát hiện trong giai đoạn dự báo 90 ngày; các giá trị dự báo duy trì ổn định theo chu kỳ hàng tuần."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2022-05-01 đến 2024-10-02 được sử dụng để huấn luyện mô hình và dự báo của ForecastBot cho 90 ngày tiếp theo đến 2024-12-31."
+}

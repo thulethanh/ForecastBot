@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 60 ngày tới, từ ngày 02/11/2024 đến 31/12/2024, về số lượng hành khách hàng ngày cho tuyến xe buýt 150 do HTX-195 vận hành. Dựa trên dữ liệu lịch sử từ năm 2022, số lượng hành khách dự kiến sẽ dao động trong khoảng từ 12,000 đến 16,300.",
+  "insights": [
+    "Dự báo cho thấy một quy luật hàng tuần rõ rệt, với lượng hành khách thường giảm vào Chủ Nhật và đạt mức cao hơn vào các ngày trong tuần, đặc biệt là Thứ Hai và Thứ Sáu.",
+    "Có một xu hướng tăng nhẹ được dự báo trong suốt giai đoạn 60 ngày, với các giá trị dự báo vào cuối tháng 12 cao hơn một chút so với đầu tháng 11."
+  ],
+  "chart_note": "Dự báo này được tạo ra bằng mô hình tổng hợp, kết hợp các xu hướng từ 180 ngày qua (trọng số 60%) và 365 ngày qua (trọng số 40%) của dữ liệu lịch sử."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo hàng tháng cho item HOBBIES_1_124 tại store CA_1",
+  "summary_text": "ForecastBot dự báo cho 6 tháng tới, từ tháng 11 năm 2015 đến tháng 4 năm 2016. Các giá trị dự báo dao động từ 32.06 đến 45.58, cao hơn mức trung bình lịch sử là 20.24.",
+  "insights": [
+    "Dự báo đạt đỉnh 45.58 vào tháng 4 năm 2016 và thấp nhất là 32.06 vào tháng 3 năm 2016.",
+    "Dự báo cho thấy một xu hướng giảm từ tháng 12 năm 2015 (40.26) đến tháng 3 năm 2016 (32.06), sau đó tăng mạnh vào tháng 4 năm 2016.",
+    "Mô hình dự báo là một `ensemble` kết hợp, ưu tiên hơn (trọng số 0.6) cho dữ liệu trong 24 tháng gần nhất so với dữ liệu trong 36 tháng (trọng số 0.4)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 10 năm 2015 và dự báo của ForecastBot cho 6 tháng tiếp theo. Dự báo được tạo bởi mô hình `ensemble`."
+}

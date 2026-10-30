@@ -1,0 +1,33 @@
+{
+  "case_id": "M06",
+  "question": "Trong 1 tháng tới, hãy dự báo lượng bán của sản phẩm FOODS_3_395 tại cửa hàng CA_2, bang CA.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 63,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 49.6389088750002,
+    "load_schema": 0.003924416989320889,
+    "sql_generation": 78.8011242079956,
+    "sql_execution_and_repair": 0.016670333992806263,
+    "forecast": 146.77346333301102,
+    "explanation": 75.76652325000032,
+    "end_to_end": 351.0006826250028
+  },
+  "total_tokens": 7189,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

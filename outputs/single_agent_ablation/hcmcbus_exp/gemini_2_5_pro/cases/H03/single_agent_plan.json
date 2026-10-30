@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 30,
+  "filters": {
+    "route_id": "23",
+    "vehicle_group": "3B.1_ML"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '23' AND TRIM(d.vehicle_group) = '3B.1_ML' GROUP BY d.date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the historical daily passenger count (total_passengers) for bus route 23 and vehicle group 3B.1_ML. The data is aggregated by day to serve as the input for a 30-day forecast."
+}

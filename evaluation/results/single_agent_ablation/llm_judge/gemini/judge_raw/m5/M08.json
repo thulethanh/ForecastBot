@@ -1,0 +1,24 @@
+{
+  "case_id": "M08",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo tháng cho đúng sản phẩm và cửa hàng trong 6 tháng. Các mốc thời gian, trung bình lịch sử 20,2, các mức dự báo được nêu và nhận định cao hơn trung bình đều phù hợp dữ liệu cung cấp. Mô tả mô hình tổng hợp, hai cửa sổ 24/36 tháng và trọng số 60/40 khớp forecast_result. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm mức dự báo cùng các tháng có doanh số dự báo cao."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.43937487504445,
+    "input_tokens": 2385,
+    "output_tokens": 302,
+    "total_tokens": 2687,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo tháng cho đúng sản phẩm và cửa hàng trong 6 tháng. Các mốc thời gian, trung bình lịch sử 20,2, các mức dự báo được nêu và nhận định cao hơn trung bình đều phù hợp dữ liệu cung cấp. Mô tả mô hình tổng hợp, hai cửa sổ 24/36 tháng và trọng số 60/40 khớp forecast_result. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm mức dự báo cùng các tháng có doanh số dự báo cao.\"}"
+  }
+}

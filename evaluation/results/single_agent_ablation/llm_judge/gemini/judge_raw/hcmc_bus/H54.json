@@ -1,0 +1,26 @@
+{
+  "case_id": "H54",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "“Mô hình dự báo là một trung bình có trọng số, ưu tiên các xu hướng gần đây hơn (trọng số 60%)”: dù có trọng số short 0,6 và long 0,4, cả hai cửa sổ đều là h8 (8 điểm), nên không có bằng chứng rằng nhánh 60% thực sự ưu tiên dữ liệu/xu hướng gần đây hơn."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến, nhà xe, kỳ dự báo và nêu đúng các giá trị dự báo. So sánh với trung bình lịch sử तथा phạm vi min–max cũng được hỗ trợ đầy đủ bởi dữ liệu. Nội dung rõ ràng, ngắn gọn và giúp hiểu mức dự báo. Tuy nhiên, nhận định về việc ưu tiên xu hướng gần đây không phù hợp với window_info vì cả cửa sổ ngắn và dài đều gồm cùng 8 quan sát."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.508157791919075,
+    "input_tokens": 2199,
+    "output_tokens": 454,
+    "total_tokens": 2653,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"“Mô hình dự báo là một trung bình có trọng số, ưu tiên các xu hướng gần đây hơn (trọng số 60%)”: dù có trọng số short 0,6 và long 0,4, cả hai cửa sổ đều là h8 (8 điểm), nên không có bằng chứng rằng nhánh 60% thực sự ưu tiên dữ liệu/xu hướng gần đây hơn.\"],\"reason_vi\":\"Giải thích bám sát tuyến, nhà xe, kỳ dự báo và nêu đúng các giá trị dự báo. So sánh với trung bình lịch sử तथा phạm vi min–max cũng được hỗ trợ đầy đủ bởi dữ liệu. Nội dung rõ ràng, ngắn gọn và giúp hiểu mức dự báo. Tuy nhiên, nhận định về việc ưu tiên xu hướng gần đây không phù hợp với window_info vì cả cửa sổ ngắn và dài đều gồm cùng 8 quan sát.\"}"
+  }
+}

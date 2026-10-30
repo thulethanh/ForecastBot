@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo 24 tháng cho mặt hàng HOUSEHOLD_1_230 tại cửa hàng WI_1, từ tháng 5 năm 2014 đến tháng 4 năm 2016. Dự báo cho thấy xu hướng giảm chung, với các giá trị doanh số được dự đoán thấp hơn đáng kể so với mức trung bình lịch sử là 25.85 đơn vị.",
+  "insights": [
+    "Một xu hướng giảm chung được dự đoán trong suốt 24 tháng, với các giá trị dự báo luôn thấp hơn mức trung bình lịch sử.",
+    "Dự báo xác định một mô hình mùa vụ, với doanh số dự kiến sẽ đạt đỉnh vào tháng 8 và chạm mức thấp nhất vào khoảng tháng 11-12 hàng năm."
+  ],
+  "chart_note": "Dự báo này được tạo ra bằng cách sử dụng mô hình tổng hợp, kết hợp các xu hướng từ cả dữ liệu lịch sử gần đây (36 tháng) và toàn bộ (40 tháng)."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo đã được thực hiện thành công cho 3 năm tới (2014-2016) dựa trên dữ liệu lịch sử của bộ dữ liệu M5. Với 3 điểm dữ liệu lịch sử (2011-2013) có giá trị trung bình bằng 0.0, mô hình đã dự đoán giá trị bằng 0.0 cho cả 3 bước dự báo.",
+  "insights": [
+    "Mô hình sử dụng phương pháp 'single' và kết hợp trọng số giữa cửa sổ ngắn (60%) và cửa sổ dài (40%), cả hai đều dựa trên 3 điểm dữ liệu lịch sử có sẵn.",
+    "Việc dự báo duy trì giá trị bằng 0.0 vì dữ liệu lịch sử (2011-2013) cho thấy giá trị trung bình bằng 0.0."
+  ],
+  "chart_note": "Dự báo này áp dụng cho item_id: HOUSEHOLD_2_146 tại store_id: CA_4, state_id: CA, với độ chi tiết là năm (year) và tầm nhìn 3 năm."
+}

@@ -1,0 +1,3 @@
+dataset,target_model,target_model_key,judge_model,n_cases,n_explanation_available,explanation_availability_rate,n_judged_success,judge_success_rate_among_available,mean_relevance,mean_faithfulness,mean_clarity,mean_usefulness,mean_overall_score,median_overall_score,min_overall_score,max_overall_score,n_cases_with_unsupported_claims,total_judge_tokens,mean_judge_latency_s
+HCMC_BUS,Gemini 2.5 Pro,gemini,gpt-5.6-terra,63,63,1.0,63,1.0,5.0,4.396825396825397,5.0,4.761904761904762,4.7896825396825395,5.0,4.25,5.0,27,192370,5.620542027061761
+M5,Gemini 2.5 Pro,gemini,gpt-5.6-terra,63,63,1.0,63,1.0,5.0,4.365079365079365,5.0,4.714285714285714,4.76984126984127,5.0,4.25,5.0,30,192494,5.570890746112647

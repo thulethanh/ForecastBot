@@ -1,0 +1,1 @@
+SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '24' AND TRIM(d.operator) = 'HTX-195' GROUP BY ds ORDER BY ds ASC;

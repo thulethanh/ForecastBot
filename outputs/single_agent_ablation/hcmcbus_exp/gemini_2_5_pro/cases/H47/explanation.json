@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo lượng hành khách",
+  "summary_text": "Đây là dự báo về lượng hành khách hàng ngày cho tuyến xe buýt 151 do nhà điều hành HTX-28 vận hành, trong 90 ngày tới từ 31/12/2023 đến 31/03/2024. Dự báo được xây dựng dựa trên dữ liệu lịch sử từ ngày 01/01/2022 đến 30/12/2023, với lượng hành khách trung bình trong quá khứ là 3.797 người/ngày.",
+  "insights": [
+    "Dự báo cho thấy một quy luật tuần hoàn 7 ngày rất rõ rệt. Lượng hành khách dự kiến sẽ dao động theo một chu kỳ lặp lại hàng tuần, đạt mức cao nhất là 4.484 và thấp nhất là 3.353 trong mỗi chu kỳ.",
+    "Mô hình không xác định được xu hướng tăng hoặc giảm dài hạn. Do đó, dự báo chủ yếu dựa trên các quy luật ngắn hạn (theo tuần) được quan sát trong dữ liệu lịch sử gần đây nhất."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 01/01/2022 - 30/12/2023 và dữ báo cho 90 ngày tiếp theo."
+}

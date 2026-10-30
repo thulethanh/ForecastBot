@@ -1,0 +1,26 @@
+{
+  "case_id": "H04",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên dữ liệu lịch sử từ 2022-01-01 đến 2024-11-01.\" Không có thông tin nào xác nhận mô hình được huấn luyện trên toàn bộ khoảng này; kết quả chỉ cho biết chế độ deterministic_recent_mean và các cửa sổ gần nhất h180, h365."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến/đơn vị, kỳ hạn 60 ngày, mức dự báo và khoảng thời gian dự báo. Các số liệu lịch sử, giá trị dự báo cố định, phương pháp, trọng số và kích thước cửa sổ đều phù hợp dữ liệu được cung cấp. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên toàn bộ dữ liệu lịch sử là không được hỗ trợ; thông tin hiện có chỉ nêu dữ liệu lịch sử khả dụng và hai cửa sổ dùng cho nhánh dự báo. Trình bày rõ ràng và hữu ích, nhưng có thể nêu thêm rằng dự báo không biến động trong cả kỳ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.251887666992843,
+    "input_tokens": 4252,
+    "output_tokens": 423,
+    "total_tokens": 4675,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên dữ liệu lịch sử từ 2022-01-01 đến 2024-11-01.\\\" Không có thông tin nào xác nhận mô hình được huấn luyện trên toàn bộ khoảng này; kết quả chỉ cho biết chế độ deterministic_recent_mean và các cửa sổ gần nhất h180, h365.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến/đơn vị, kỳ hạn 60 ngày, mức dự báo và khoảng thời gian dự báo. Các số liệu lịch sử, giá trị dự báo cố định, phương pháp, trọng số và kích thước cửa sổ đều phù hợp dữ liệu được cung cấp. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên toàn bộ dữ liệu lịch sử là không được hỗ trợ; thông tin hiện có chỉ nêu dữ liệu lịch sử khả dụng và hai cửa sổ dùng cho nhánh dự báo. Trình bày rõ ràng và hữu ích, nhưng có thể nêu thêm rằng dự báo không biến động trong cả kỳ.\"}"
+  }
+}

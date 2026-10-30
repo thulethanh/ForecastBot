@@ -1,0 +1,24 @@
+{
+  "case_id": "M53",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và cửa hàng, nêu rõ thời điểm cùng giá trị dự báo 44.66. Các so sánh với trung bình lịch sử (30.91), khoảng lịch sử 8.0–54.0, số điểm dữ liệu và thông tin tổ hợp/cửa sổ 8 và 12 quý đều khớp dữ liệu được cung cấp. Nội dung mạch lạc, ngắn gọn và giúp người dùng hiểu mức dự báo cũng như cách kết hợp tín hiệu ngắn hạn và dài hạn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.9484463749686256,
+    "input_tokens": 2166,
+    "output_tokens": 239,
+    "total_tokens": 2405,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và cửa hàng, nêu rõ thời điểm cùng giá trị dự báo 44.66. Các so sánh với trung bình lịch sử (30.91), khoảng lịch sử 8.0–54.0, số điểm dữ liệu và thông tin tổ hợp/cửa sổ 8 và 12 quý đều khớp dữ liệu được cung cấp. Nội dung mạch lạc, ngắn gọn và giúp người dùng hiểu mức dự báo cũng như cách kết hợp tín hiệu ngắn hạn và dài hạn.\"}"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "case_id": "H17",
+  "question": "Dự báo lượng hành khách của tuyến 44 do HTX-ThanhSon vận hành trong 1 năm tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 3,
+    "n_train": 2,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "orchestration": 41.02221920800366,
+    "load_schema": 0.003920209004718345,
+    "sql_generation": 59.99589462499716,
+    "sql_execution_and_repair": 0.01959408300172072,
+    "forecast": 19.587774625004386,
+    "explanation": 52.65349537500151,
+    "end_to_end": 173.282946542
+  },
+  "total_tokens": 5020,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

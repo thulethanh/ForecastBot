@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M60",
+  "question": "Tôi muốn xem xu hướng lượng bán của sản phẩm HOUSEHOLD_1_230 tại cửa hàng WI_1 trong 2 năm tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 40,
+    "n_test": 24,
+    "horizon": 24,
+    "minimum_train_required": 24,
+    "required_points_for_evaluation": 48,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.15022541698999703,
+    "request_sql": 110.83227487502154,
+    "sql_execution_and_repair": 0.05963983398396522,
+    "forecast": 391.3367239999352,
+    "explanation": 129.5875450830208,
+    "end_to_end": 631.9666806249879
+  },
+  "total_tokens": 9125,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

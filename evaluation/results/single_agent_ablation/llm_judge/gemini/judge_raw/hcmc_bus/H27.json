@@ -1,0 +1,24 @@
+{
+  "case_id": "H27",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 30 ngày cho tuyến 15, nêu đúng khoảng ngày dự báo, mức trung bình lịch sử làm tham chiếu, quy luật theo thứ trong tuần và cách tổ hợp hai cửa sổ. Các nhận định về thứ Hai cao nhất, thứ Bảy thấp nhất đều khớp các giá trị dự báo; trọng số 60%/40% và cửa sổ 180/365 ngày cũng chính xác. Nội dung rõ ràng, ngắn gọn. Tuy nhiên, phần ý nghĩa thực tế sẽ hữu ích hơn nếu nêu thêm mức dự báo điển hình hoặc khoảng biến động dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.06920370797161,
+    "input_tokens": 3132,
+    "output_tokens": 431,
+    "total_tokens": 3563,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 30 ngày cho tuyến 15, nêu đúng khoảng ngày dự báo, mức trung bình lịch sử làm tham chiếu, quy luật theo thứ trong tuần và cách tổ hợp hai cửa sổ. Các nhận định về thứ Hai cao nhất, thứ Bảy thấp nhất đều khớp các giá trị dự báo; trọng số 60%/40% và cửa sổ 180/365 ngày cũng chính xác. Nội dung rõ ràng, ngắn gọn. Tuy nhiên, phần ý nghĩa thực tế sẽ hữu ích hơn nếu nêu thêm mức dự báo điển hình hoặc khoảng biến động dự báo.\"}"
+  }
+}

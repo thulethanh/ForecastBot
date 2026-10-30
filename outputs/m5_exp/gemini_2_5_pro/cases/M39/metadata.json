@@ -1,0 +1,33 @@
+{
+  "case_id": "M39",
+  "question": "Hãy dự báo lượng bán của sản phẩm HOUSEHOLD_2_275 tại cửa hàng TX_2, bang TX trong 2 năm tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 4,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 3,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "orchestration": 8.157954207999865,
+    "load_schema": 0.0011295830008748453,
+    "sql_generation": 30.207769791999453,
+    "sql_execution_and_repair": 0.010776500002975808,
+    "forecast": 87.33770441699744,
+    "explanation": 18.533611082999414,
+    "end_to_end": 144.2489740409983
+  },
+  "total_tokens": 15076,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

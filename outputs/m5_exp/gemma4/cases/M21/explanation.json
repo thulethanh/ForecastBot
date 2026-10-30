@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_2_226 tại CA_3 (CA) trong 10 năm tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2011 đến 2016, dự báo cho HOUSEHOLD_2_226 cho thấy xu hướng giảm dần trong giai đoạn đầu, sau đó ổn định ở mức thấp hơn. Giá trị dự báo bắt đầu từ 58.0 vào năm 2017 và giảm xuống mức thấp nhất là 26.0 vào năm 2024 và 2026. Sau đó, giá trị dự báo dao động quanh mức 27.0 - 28.0 trong các năm tiếp theo.",
+  "insights": [
+    "Trong 10 năm tới, giá trị dự báo giảm đáng kể từ 58.0 (năm 2017) xuống 33.0 (năm 2019).",
+    "Giá trị dự báo đạt mức thấp nhất là 26.0 vào năm 2024 và 2026.",
+    "Sau năm 2021, giá trị dự báo có xu hướng ổn định hơn, dao động giữa 26.0 và 28.0 trong giai đoạn 2022-2026."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 6 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2016-01-01) và dự báo cho 10 bước tiếp theo (từ 2017-01-01 đến 2026-01-01). Mô hình sử dụng trọng số short (0.6) và long (0.4)."
+}

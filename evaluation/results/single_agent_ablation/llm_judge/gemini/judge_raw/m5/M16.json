@@ -1,0 +1,24 @@
+{
+  "case_id": "M16",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 quý cho đúng mặt hàng và cửa hàng. Các mức đỉnh 1413, đáy 351, chu kỳ lặp theo năm và thời điểm tương ứng đều được thể hiện trực tiếp trong forecast. Thông tin ensemble, hai cửa sổ 12 và 20 quý, cùng trọng số 60% ngắn hạn khớp với forecast_result. Ghi chú biểu đồ cũng khớp chính xác với phạm vi 22 quan sát lịch sử và 12 quý dự báo. Nội dung rõ ràng, súc tích và giúp người dùng nắm được mức dự báo, tính lặp lại theo quý và cách kết hợp dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 14.808923917007633,
+    "input_tokens": 2623,
+    "output_tokens": 288,
+    "total_tokens": 2911,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 quý cho đúng mặt hàng và cửa hàng. Các mức đỉnh 1413, đáy 351, chu kỳ lặp theo năm và thời điểm tương ứng đều được thể hiện trực tiếp trong forecast. Thông tin ensemble, hai cửa sổ 12 và 20 quý, cùng trọng số 60% ngắn hạn khớp với forecast_result. Ghi chú biểu đồ cũng khớp chính xác với phạm vi 22 quan sát lịch sử và 12 quý dự báo. Nội dung rõ ràng, súc tích và giúp người dùng nắm được mức dự báo, tính lặp lại theo quý và cách kết hợp dự báo.\"}"
+  }
+}

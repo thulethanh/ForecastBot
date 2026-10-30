@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho HCMC_BUS (Tuyến 90, HTX 26)",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 90, Nhà khai thác HTX 26) trong 3 năm tới (2025-2027) cho thấy một xu hướng tăng trưởng ổn định. Giá trị dự báo bắt đầu từ 904,823.5 vào năm 2025 và tiếp tục tăng lên 982,728.5 vào năm 2027.",
+  "insights": [
+    "Xu hướng tăng trưởng: Dự báo cho thấy sự gia tăng liên tục qua các năm, với mức tăng trưởng dự kiến từ năm này sang năm khác.",
+    "Phương pháp dự báo: Kết quả được tính toán bằng chế độ 'single' (đơn), sử dụng trọng số 60% cho cửa sổ ngắn (h3) và 40% cho cửa sổ dài (h3).",
+    "So sánh lịch sử: Các giá trị dự báo đều cao hơn đáng kể so với giá trị trung bình lịch sử (847,611.0) trong giai đoạn 2022-2024."
+  ],
+  "chart_note": "Dự báo này được xây dựng dựa trên dữ liệu lịch sử từ 2022 đến 2024 và giả định rằng xu hướng tăng trưởng hiện tại sẽ được duy trì trong tương lai."
+}

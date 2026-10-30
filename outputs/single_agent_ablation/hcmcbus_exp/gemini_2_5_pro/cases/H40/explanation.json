@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024, dự báo cho thấy số lượng hành khách trên tuyến xe buýt 128 do HTX-ThanhSon vận hành sẽ tiếp tục tăng trong 3 năm tới, từ khoảng 381 nghìn vào năm 2025 lên khoảng 421 nghìn vào năm 2027.",
+  "insights": [
+    "Mô hình dự báo một xu hướng tăng trưởng ổn định, với số lượng hành khách dự kiến tăng thêm khoảng 20 nghìn mỗi năm trong giai đoạn dự báo.",
+    "Dự báo này được tạo ra từ một tập dữ liệu lịch sử ngắn (3 điểm dữ liệu hàng năm), điều này có thể ảnh hưởng đến độ chính xác của các dự đoán."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2022-2024 và các giá trị dự báo cho 3 năm tiếp theo."
+}

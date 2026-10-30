@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo 60 ngày tới cho doanh số bán hàng hàng ngày của sản phẩm FOODS_3_576 tại bang Texas, bắt đầu từ ngày 25 tháng 2 năm 2016. Dự báo cho thấy một mô hình hàng tuần nhất quán và dự đoán doanh số trung bình cao hơn so với mức trung bình lịch sử (0.58).",
+  "insights": [
+    "Dự báo xác định một chu kỳ hàng tuần rõ rệt, với doanh số cao nhất được dự đoán vào các ngày Thứ Bảy (khoảng 1.82 đơn vị) và thấp nhất vào các ngày Thứ Sáu (khoảng 1.19 đơn vị).",
+    "Tất cả các giá trị dự báo đều cao hơn đáng kể so với mức trung bình lịch sử là 0.58 đơn vị mỗi ngày. Điều này cho thấy mô hình đã ghi nhận một xu hướng tăng gần đây, vì nó đặt 60% trọng số vào dữ liệu của 180 ngày qua."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử đến ngày 24 tháng 2 năm 2016 và dự báo cho 60 ngày tiếp theo. Lưu ý rằng các giá trị dự báo cao hơn mức trung bình lịch sử."
+}

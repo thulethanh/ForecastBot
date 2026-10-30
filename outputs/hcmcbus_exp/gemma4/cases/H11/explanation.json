@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 33) theo quý cho kỳ 2024-10-01",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho HCMC_BUS (Tuyến 33) trong quý bắt đầu từ 2024-10-01 là 990,606.6.",
+  "insights": [
+    "Giá trị dự báo 990,606.6 cho quý 2024-10-01 nằm trong phạm vi lịch sử của dataset (từ 428,006.0 đến 1,218,478.0).",
+    "Giá trị dự báo này gần với giá trị trung bình lịch sử của dataset là 912,733.55."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 11 điểm dữ liệu lịch sử của HCMC_BUS (Tuyến 33) từ 2022-01-01 đến 2024-07-01. Dự báo được thực hiện bằng phương pháp ensemble, sử dụng trọng số 0.6 cho cửa sổ ngắn (h8) và 0.4 cho cửa sổ dài (h11), cho kết quả tại bước 1 (2024-10-01)."
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M26",
+  "question": "Tôi muốn dự báo lượng bán của sản phẩm FOODS_3_629 tại cửa hàng TX_3, bang TX trong 90 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1823,
+    "n_test": 90,
+    "horizon": 90,
+    "minimum_train_required": 90,
+    "required_points_for_evaluation": 180,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.009146374999545515,
+    "request_sql": 8.657556250109337,
+    "sql_execution_and_repair": 0.024763582972809672,
+    "forecast": 85.388533291989,
+    "explanation": 16.693712209002115,
+    "end_to_end": 110.7740113750333
+  },
+  "total_tokens": 25212,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

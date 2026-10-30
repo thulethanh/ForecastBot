@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024, mô hình dự báo giá trị là 0.0 cho mỗi năm trong 10 năm tới (2025-2034) cho tuyến xe 99, nhà xe HTX-ThanhSon, và nhóm phương tiện 2B.1_ML.",
+  "insights": [
+    "Dự báo được tạo ra chỉ từ 3 điểm dữ liệu lịch sử. Lịch sử dữ liệu ngắn này hạn chế khả năng của mô hình trong việc xác định một xu hướng đáng tin cậy.",
+    "Kết quả dự báo bằng 0 cho thấy mô hình không thể phát hiện ra một mẫu hình hoặc xu hướng có ý nghĩa từ dữ liệu có sẵn. Đây là một dự báo thận trọng do không đủ dữ liệu."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2022-2024 và dự báo cho 10 năm tiếp theo. Lưu ý rằng giá trị dự báo là 0 cho tất cả các năm trong tương lai."
+}

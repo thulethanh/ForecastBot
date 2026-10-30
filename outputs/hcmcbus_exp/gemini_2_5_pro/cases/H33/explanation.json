@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 45, operator: XKSG) trong 2 quý tới",
+  "summary_text": "ForecastBot dự báo giá trị cho quý 3 năm 2024 là 231.158, cao hơn một chút so với mức trung bình lịch sử (227.677,6). Dự báo cho quý 4 năm 2024 là 312.822,8, vượt qua mức cao nhất từng ghi nhận trong lịch sử (300.597).",
+  "insights": [
+    "Dự báo cho quý 4 năm 2024 là 312.822,8, cao hơn mức cao nhất trong lịch sử (300.597).",
+    "Giá trị dự báo tăng 35,3% từ quý 3 năm 2024 (231.158) lên quý 4 năm 2024 (312.822,8)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 10 điểm dữ liệu lịch sử theo quý từ 2022-01-01 đến 2024-04-01. ForecastBot đã tạo ra dự báo cho 2 quý tiếp theo bằng mô hình `ensemble`."
+}

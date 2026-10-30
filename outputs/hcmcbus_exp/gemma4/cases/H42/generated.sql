@@ -1,0 +1,1 @@
+SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '141' AND TRIM(d.operator) = 'HTX 15' GROUP BY DATE_TRUNC('year', d.date) ORDER BY ds ASC;

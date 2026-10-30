@@ -1,0 +1,33 @@
+{
+  "case_id": "M39",
+  "question": "Hãy dự báo lượng bán của sản phẩm HOUSEHOLD_2_275 tại cửa hàng TX_2, bang TX trong 2 năm tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 4,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 3,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "orchestration": 43.56750220799586,
+    "load_schema": 0.004595416990923695,
+    "sql_generation": 65.88570766699559,
+    "sql_execution_and_repair": 0.02299729100195691,
+    "forecast": 105.2236822089908,
+    "explanation": 72.04366262500116,
+    "end_to_end": 286.7482357909903
+  },
+  "total_tokens": 6636,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

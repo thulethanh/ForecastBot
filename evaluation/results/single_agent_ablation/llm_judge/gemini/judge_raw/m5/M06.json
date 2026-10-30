@@ -1,0 +1,24 @@
+{
+  "case_id": "M06",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo tháng cho đúng mặt hàng và cửa hàng, nêu rõ mức dự báo 23.1 cho tháng 4/2016. Các số liệu về phạm vi lịch sử, trung bình 16.7, min/max, cửa sổ 24 và 36 tháng, cùng trọng số 60% dữ liệu gần đây đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng đặt dự báo trong bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.2192709170049056,
+    "input_tokens": 2197,
+    "output_tokens": 214,
+    "total_tokens": 2411,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo tháng cho đúng mặt hàng và cửa hàng, nêu rõ mức dự báo 23.1 cho tháng 4/2016. Các số liệu về phạm vi lịch sử, trung bình 16.7, min/max, cửa sổ 24 và 36 tháng, cùng trọng số 60% dữ liệu gần đây đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng đặt dự báo trong bối cảnh lịch sử.\"}"
+  }
+}

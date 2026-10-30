@@ -1,0 +1,24 @@
+{
+  "case_id": "H35",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 4 quý cho tuyến 103, nêu đúng phạm vi thời gian và các mức dự báo chính. Các số liệu về trung bình lịch sử, cực đại lịch sử, dự báo Quý 4/2024 và so sánh với lịch sử đều khớp dữ liệu cung cấp. Nhận định xu hướng tăng phù hợp với mức dự báo cuối kỳ cao hơn đầu kỳ, đồng thời không khẳng định nguyên nhân không có bằng chứng. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức độ cũng như ý nghĩa chính của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.776709125027992,
+    "input_tokens": 2249,
+    "output_tokens": 311,
+    "total_tokens": 2560,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 4 quý cho tuyến 103, nêu đúng phạm vi thời gian và các mức dự báo chính. Các số liệu về trung bình lịch sử, cực đại lịch sử, dự báo Quý 4/2024 và so sánh với lịch sử đều khớp dữ liệu cung cấp. Nhận định xu hướng tăng phù hợp với mức dự báo cuối kỳ cao hơn đầu kỳ, đồng thời không khẳng định nguyên nhân không có bằng chứng. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức độ cũng như ý nghĩa chính của dự báo.\"}"
+  }
+}

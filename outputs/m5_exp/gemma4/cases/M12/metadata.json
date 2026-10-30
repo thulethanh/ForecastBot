@@ -1,0 +1,33 @@
+{
+  "case_id": "M12",
+  "question": "Dự báo lượng bán của sản phẩm HOBBIES_1_126 tại cửa hàng CA_4 trong 2 quý tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 20,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 4,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 44.599199000003864,
+    "load_schema": 0.004773249995196238,
+    "sql_generation": 68.49321120799868,
+    "sql_execution_and_repair": 0.017660416997387074,
+    "forecast": 173.43114062500536,
+    "explanation": 54.88730104199203,
+    "end_to_end": 341.4333289999922
+  },
+  "total_tokens": 7387,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

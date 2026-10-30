@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 30,
+  "filters": {
+    "item_id": "FOODS_2_069",
+    "state_id": "CA"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_2_069' AND s.state_id = 'CA' AND c.date BETWEEN CURRENT_DATE AND CURRENT_DATE + INTERVAL '29 days' GROUP BY c.date ORDER BY c.date ASC;",
+  "sql_explanation": "Retrieves the sum of daily sales (y) for product FOODS_2_069 in state CA over the next 30 days, using the calendar date as the time index (ds)."
+}

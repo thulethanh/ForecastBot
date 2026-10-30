@@ -1,0 +1,26 @@
+{
+  "case_id": "H23",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1068 điểm dữ liệu...\" Không có thông tin nào xác nhận 1068 điểm trong toàn bộ giai đoạn đã được dùng để huấn luyện; kết quả chỉ nêu các cửa sổ h180 và h365 cho dự báo."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 28 ngày và nêu chính xác mức dự báo cố định 1574.86 lượt. Phương pháp, trọng số và các cửa sổ h180/h365 phù hợp với kết quả dự báo. Nội dung rõ ràng, mạch lạc và giúp người dùng nhận ra dự báo không có biến động trong kỳ. Tuy nhiên, câu khẳng định toàn bộ 1068 điểm lịch sử được dùng để “huấn luyện” không được dữ liệu cung cấp hỗ trợ; history summary chỉ xác nhận phạm vi dữ liệu khả dụng, còn window_info nêu các cửa sổ dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.036375625000801,
+    "input_tokens": 3214,
+    "output_tokens": 369,
+    "total_tokens": 3583,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1068 điểm dữ liệu...\\\" Không có thông tin nào xác nhận 1068 điểm trong toàn bộ giai đoạn đã được dùng để huấn luyện; kết quả chỉ nêu các cửa sổ h180 và h365 cho dự báo.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 28 ngày và nêu chính xác mức dự báo cố định 1574.86 lượt. Phương pháp, trọng số và các cửa sổ h180/h365 phù hợp với kết quả dự báo. Nội dung rõ ràng, mạch lạc và giúp người dùng nhận ra dự báo không có biến động trong kỳ. Tuy nhiên, câu khẳng định toàn bộ 1068 điểm lịch sử được dùng để “huấn luyện” không được dữ liệu cung cấp hỗ trợ; history summary chỉ xác nhận phạm vi dữ liệu khả dụng, còn window_info nêu các cửa sổ dự báo.\"}"
+  }
+}

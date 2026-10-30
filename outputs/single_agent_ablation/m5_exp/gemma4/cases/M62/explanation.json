@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho 5 năm tới (2017-2021) đối với bộ dữ liệu M5, lọc theo item_id 'HOUSEHOLD_1_005' và state_id 'WI', được xác định là 751.5 cho tất cả các năm. Giá trị này bằng với giá trị trung bình lịch sử của 6 điểm dữ liệu được cung cấp.",
+  "insights": [
+    "Mô hình đã sử dụng phương pháp dự báo 'single' (đơn) và đã tính toán trọng số 60% cho cửa sổ ngắn (h6) và 40% cho cửa sổ dài (h6).",
+    "Giá trị dự báo ổn định ở mức 751.5, phản ánh việc mô hình đang duy trì mức trung bình lịch sử (mean_y: 751.5) trong suốt giai đoạn dự báo 5 năm.",
+    "Phạm vi dữ liệu lịch sử được sử dụng để dự báo là từ 2011-01-01 đến 2016-01-01."
+  ],
+  "chart_note": "Đây là kết quả dự báo toán học dựa trên các tham số và dữ liệu lịch sử được cung cấp, không phải là dự đoán về các giá trị thực tế trong tương lai."
+}

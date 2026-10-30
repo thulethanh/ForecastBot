@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo bán hàng trong 7 ngày cho mặt hàng FOODS_1_097 tại cửa hàng TX_3, từ ngày 18-04-2016 đến 24-04-2016. Doanh số dự kiến sẽ dao động từ 1.4 đến 4.0 đơn vị mỗi ngày, với mức cao nhất được dự báo vào cuối tuần.",
+  "insights": [
+    "Dựa trên dữ liệu lịch sử từ năm 2011 đến 2016, doanh số trung bình hàng ngày của mặt hàng này là 1.47 đơn vị. Các giá trị dự báo dao động quanh mức trung bình này.",
+    "Mô hình dự báo là một tổ hợp, ưu tiên các xu hướng gần đây (60% trọng số cho 180 ngày qua) so với các mẫu hình dài hạn (40% trọng số cho 365 ngày qua)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử và dự báo 7 ngày tiếp theo."
+}

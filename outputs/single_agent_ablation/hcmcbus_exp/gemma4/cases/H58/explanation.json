@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS, áp dụng cho tuyến 85 của nhà khai thác HTX-195, được thực hiện cho 12 quý tiếp theo (từ Q1/2025 đến Q4/2027). Kết quả cho thấy một xu hướng tăng trưởng ổn định và liên tục trong suốt giai đoạn dự báo.",
+  "insights": [
+    "Xu hướng tăng trưởng: Giá trị dự báo cho thấy sự gia tăng đều đặn qua từng quý, bắt đầu từ 189,443.0 (Q1/2025) và đạt mức cao nhất là 223,147.0 (Q4/2027).",
+    "Phạm vi dự báo: Toàn bộ 12 quý được dự báo, bao gồm các quý từ năm 2025 đến hết năm 2027.",
+    "Phương pháp: Dự báo được tính toán bằng chế độ 'single' (đơn), sử dụng trọng số 60% cho cửa sổ ngắn (12 quý) và 40% cho cửa sổ dài (12 quý)."
+  ],
+  "chart_note": "Các giá trị dự báo (yhat) là ước tính cho các quý tương lai và không đại diện cho các giá trị thực tế."
+}

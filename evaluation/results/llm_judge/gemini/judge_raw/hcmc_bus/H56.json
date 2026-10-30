@@ -1,0 +1,24 @@
+{
+  "case_id": "H56",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng tuyến 81, đơn vị HTX-VTHANG, tần suất quý và 4 kỳ dự báo. Các mốc thời gian, giá trị dự báo, cực trị, xu hướng giảm từ Quý 1 đến Quý 3 rồi tăng ở Quý 4 đều khớp forecast. Nhận định về phạm vi lịch sử, số điểm lịch sử, thời gian bao phủ và mức trung bình lịch sử cũng được history summary hỗ trợ. Trình bày rõ ràng, ngắn gọn và giúp người dùng nắm được diễn biến dự báo chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.831783125002403,
+    "input_tokens": 2345,
+    "output_tokens": 243,
+    "total_tokens": 2588,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng tuyến 81, đơn vị HTX-VTHANG, tần suất quý và 4 kỳ dự báo. Các mốc thời gian, giá trị dự báo, cực trị, xu hướng giảm từ Quý 1 đến Quý 3 rồi tăng ở Quý 4 đều khớp forecast. Nhận định về phạm vi lịch sử, số điểm lịch sử, thời gian bao phủ và mức trung bình lịch sử cũng được history summary hỗ trợ. Trình bày rõ ràng, ngắn gọn và giúp người dùng nắm được diễn biến dự báo chính.\"}"
+  }
+}

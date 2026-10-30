@@ -1,0 +1,33 @@
+{
+  "case_id": "H07",
+  "question": "Cho tôi dự báo lượng khách của tuyến 29 do HTX-ThanhSon vận hành trong 3 tháng tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 27,
+    "n_train": 24,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 38.44805525000265,
+    "load_schema": 0.0028054170034010895,
+    "sql_generation": 57.46757737500593,
+    "sql_execution_and_repair": 0.01779716700548306,
+    "forecast": 80.11976795800001,
+    "explanation": 67.07812645800004,
+    "end_to_end": 243.13422229100252
+  },
+  "total_tokens": 6236,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

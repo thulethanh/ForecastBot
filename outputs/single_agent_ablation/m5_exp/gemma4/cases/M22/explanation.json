@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã thành công dự báo nhu cầu cho sản phẩm FOODS_1_097 tại cửa hàng TX_3 trong 7 ngày, từ ngày 2016-04-18 đến ngày 2016-04-24. Giá trị dự báo (yhat) được duy trì ổn định ở mức 3.9 cho tất cả các ngày trong giai đoạn này. Lưu ý rằng quá trình dự báo này đã sử dụng cơ chế fallback.",
+  "insights": [
+    "Phạm vi dự báo bao gồm 7 bước (horizon) với độ chi tiết theo ngày (granularity: day).",
+    "Mô hình sử dụng trọng số kết hợp giữa cửa sổ ngắn hạn (h180) và dài hạn (h365), với trọng số ưu tiên cho cửa sổ ngắn hạn là 0.6.",
+    "Do sử dụng cơ chế fallback, kết quả dự báo được coi là ổn định và đồng nhất trong suốt 7 ngày."
+  ],
+  "chart_note": "Dự báo cho thấy một xu hướng ổn định, với giá trị dự kiến là 3.9 cho toàn bộ 7 ngày."
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "M24",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 2,
+    "clarity": 4,
+    "usefulness": 3,
+    "overall_score": 3.25,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1883 điểm dữ liệu\" không được hỗ trợ: history_summary chỉ cho biết phạm vi dữ liệu lịch sử khả dụng, không xác nhận dữ liệu huấn luyện.",
+      "Nhận định có \"mô hình chu kỳ rõ rệt\" và yhat thường theo chu kỳ \"0.0, 1.0, 2.0\" không khớp rõ với dãy dự báo thực tế, vốn dao động nhưng không lặp đều theo chu kỳ này."
+    ],
+    "reason_vi": "Giải thích bám đúng mặt hàng, cửa hàng và 30 ngày dự báo; khoảng dự báo, giá trị ngày đầu/cuối và ghi chú biểu đồ đều phù hợp. Tuy nhiên, phần này khẳng định 1883 điểm được dùng để huấn luyện, trong khi dữ liệu chỉ xác nhận đây là phạm vi lịch sử khả dụng. Mô tả chu kỳ 0–1–2 rõ rệt cũng diễn đạt quá mạnh so với dãy yhat không lặp đều. Cấu trúc nhìn chung rõ ràng nhưng tính hữu ích giảm do diễn giải sai về chu kỳ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.97827341700031,
+    "input_tokens": 3229,
+    "output_tokens": 620,
+    "total_tokens": 3849,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":2,\"clarity\":4,\"usefulness\":3,\"overall_score\":3.25,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1883 điểm dữ liệu\\\" không được hỗ trợ: history_summary chỉ cho biết phạm vi dữ liệu lịch sử khả dụng, không xác nhận dữ liệu huấn luyện.\",\"Nhận định có \\\"mô hình chu kỳ rõ rệt\\\" và yhat thường theo chu kỳ \\\"0.0, 1.0, 2.0\\\" không khớp rõ với dãy dự báo thực tế, vốn dao động nhưng không lặp đều theo chu kỳ này.\"],\"reason_vi\":\"Giải thích bám đúng mặt hàng, cửa hàng và 30 ngày dự báo; khoảng dự báo, giá trị ngày đầu/cuối và ghi chú biểu đồ đều phù hợp. Tuy nhiên, phần này khẳng định 1883 điểm được dùng để huấn luyện, trong khi dữ liệu chỉ xác nhận đây là phạm vi lịch sử khả dụng. Mô tả chu kỳ 0–1–2 rõ rệt cũng diễn đạt quá mạnh so với dãy yhat không lặp đều. Cấu trúc nhìn chung rõ ràng nhưng tính hữu ích giảm do diễn giải sai về chu kỳ.\"}"
+  }
+}

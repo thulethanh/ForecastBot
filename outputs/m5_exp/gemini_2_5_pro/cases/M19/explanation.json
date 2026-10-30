@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id HOUSEHOLD_2_146 tại store_id CA_4 trong 3 năm tới",
+  "summary_text": "ForecastBot dự báo giá trị sẽ là 0.0 cho 3 năm tới, từ 2014-01-01 đến 2016-01-01. Dự báo này dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2013-01-01, trong đó tất cả các giá trị quan sát được đều bằng 0.",
+  "insights": [
+    "Dữ liệu lịch sử trong 3 năm từ 2011-01-01 đến 2013-01-01 có giá trị trung bình là 0.0.",
+    "Không có sự biến động nào được ghi nhận trong dữ liệu lịch sử (giá trị tối thiểu và tối đa đều là 0.0).",
+    "Dự báo cho 3 năm tiếp theo (2014-2016) cũng bằng 0.0, phản ánh xu hướng lịch sử không có hoạt động."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện từ 2011-01-01 đến 2013-01-01 và dự báo của ForecastBot cho 3 năm tiếp theo."
+}

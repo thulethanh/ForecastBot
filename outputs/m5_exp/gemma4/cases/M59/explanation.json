@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_2_389 tại WI_1 (Tiểu bang WI) năm 2016: 734.0",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho HOUSEHOLD_2_389 vào ngày 2016-01-01 là 734.0.",
+  "insights": [
+    "Trong 5 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2015-01-01), giá trị trung bình là 123.2.",
+    "Phạm vi giá trị lịch sử dao động từ 0.0 đến 443.0.",
+    "Giá trị dự báo 734.0 cho năm 2016 cao hơn đáng kể so với giá trị trung bình lịch sử (123.2)."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 5 điểm dữ liệu lịch sử. ForecastBot sử dụng chế độ 'single' với trọng số 'short' là 0.6 và 'long' là 0.4 để đưa ra dự báo cho năm 2016-01-01."
+}

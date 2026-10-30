@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 12 tháng tới về số lượng hành khách trên tuyến xe buýt số 4, do nhà xe Cty-BaoYen vận hành. Dựa trên dữ liệu lịch sử từ tháng 05/2022 đến tháng 12/2024, dự báo cho thấy số lượng hành khách sẽ dao động trong khoảng từ 91,010 đến 117,836 trong năm 2025.",
+  "insights": [
+    "Dự báo đạt mức cao nhất vào tháng 10/2025 với khoảng 117,836 hành khách, gần với mức cao nhất trong lịch sử.",
+    "Số lượng hành khách dự kiến sẽ thấp nhất vào tháng 06/2025, ở mức khoảng 91,010.",
+    "Mô hình dự báo không lặp lại mức thấp bất thường (12,877) đã được ghi nhận trong dữ liệu quá khứ, cho thấy một xu hướng ổn định hơn."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử (23 điểm) và dự báo cho 12 tháng tiếp theo."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H02",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo ngày cho tuyến 22, HTX-VTHANG trong đúng 28 ngày. Các mốc lịch sử và dự báo, mức 1796.0 ổn định, không có xu hướng tăng/giảm, cùng chế độ deterministic_recent_mean và trọng số 0.6/0.4 đều khớp dữ liệu được cung cấp. Nội dung ngắn gọn, rõ ràng và giúp người dùng hiểu mức dự báo cũng như tính ổn định của chuỗi dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.886483250011224,
+    "input_tokens": 3150,
+    "output_tokens": 289,
+    "total_tokens": 3439,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo ngày cho tuyến 22, HTX-VTHANG trong đúng 28 ngày. Các mốc lịch sử và dự báo, mức 1796.0 ổn định, không có xu hướng tăng/giảm, cùng chế độ deterministic_recent_mean và trọng số 0.6/0.4 đều khớp dữ liệu được cung cấp. Nội dung ngắn gọn, rõ ràng và giúp người dùng hiểu mức dự báo cũng như tính ổn định của chuỗi dự báo.\"}"
+  }
+}

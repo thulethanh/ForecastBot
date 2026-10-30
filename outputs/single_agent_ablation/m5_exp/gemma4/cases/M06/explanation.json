@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2016-03-01, mô hình dự báo đã xác định giá trị dự kiến cho tháng tiếp theo (2016-04-01) là 21.0.",
+  "insights": [
+    "Dự báo được thực hiện cho mặt hàng FOODS_3_395 tại khu vực CA_2, với độ chi tiết theo tháng.",
+    "Phương pháp dự báo sử dụng là 'ensemble' (kết hợp), với trọng số 60% cho mô hình ngắn hạn và 40% cho mô hình dài hạn.",
+    "Phạm vi dữ liệu lịch sử được sử dụng bao gồm 63 điểm dữ liệu, với giá trị trung bình là 16.71."
+  ],
+  "chart_note": "Giá trị dự báo 21.0 áp dụng cho bước 1, tương ứng với ngày 2016-04-01."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H36",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng đối tượng lọc và horizon 8 quý. Các mốc đầu kỳ, cuối kỳ, mức trung bình/lịch sử, đỉnh dự báo và nhịp giảm cuối kỳ đều khớp với forecast và history summary. Nội dung nêu rõ xu hướng tăng tổng thể, đồng thời chỉ ra biến động đáng chú ý ở quý cuối. Chart note mô tả chính xác 12 điểm lịch sử và khoảng thời gian dự báo, trình bày ngắn gọn và dễ hiểu."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.911993792004068,
+    "input_tokens": 2479,
+    "output_tokens": 261,
+    "total_tokens": 2740,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng đối tượng lọc và horizon 8 quý. Các mốc đầu kỳ, cuối kỳ, mức trung bình/lịch sử, đỉnh dự báo và nhịp giảm cuối kỳ đều khớp với forecast và history summary. Nội dung nêu rõ xu hướng tăng tổng thể, đồng thời chỉ ra biến động đáng chú ý ở quý cuối. Chart note mô tả chính xác 12 điểm lịch sử và khoảng thời gian dự báo, trình bày ngắn gọn và dễ hiểu.\"}"
+  }
+}

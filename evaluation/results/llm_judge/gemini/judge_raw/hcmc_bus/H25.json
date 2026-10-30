@@ -1,0 +1,26 @@
+{
+  "case_id": "H25",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Giá trị trung bình của 30 ngày cuối khoảng 3707 và 30 ngày đầu khoảng 3640."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, chân trời 60 ngày và nêu rõ mức dự báo, cực trị, chu kỳ tuần cùng thông tin ensemble. Các nhận định về ngày thấp nhất/cao nhất, Chủ Nhật thấp và ngày làm việc thường cao đều phù hợp dãy dự báo; chart_note cũng phù hợp phạm vi lịch sử và window_info. Tuy nhiên, hai giá trị trung bình 30 ngày được nêu không khớp với forecast (xấp xỉ 3.874 cho 30 ngày cuối và 3.753 cho 30 ngày đầu), dù kết luận tăng nhẹ vẫn đúng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 15.909778542001732,
+    "input_tokens": 4329,
+    "output_tokens": 992,
+    "total_tokens": 5321,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Giá trị trung bình của 30 ngày cuối khoảng 3707 và 30 ngày đầu khoảng 3640.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, chân trời 60 ngày và nêu rõ mức dự báo, cực trị, chu kỳ tuần cùng thông tin ensemble. Các nhận định về ngày thấp nhất/cao nhất, Chủ Nhật thấp và ngày làm việc thường cao đều phù hợp dãy dự báo; chart_note cũng phù hợp phạm vi lịch sử và window_info. Tuy nhiên, hai giá trị trung bình 30 ngày được nêu không khớp với forecast (xấp xỉ 3.874 cho 30 ngày cuối và 3.753 cho 30 ngày đầu), dù kết luận tăng nhẹ vẫn đúng.\"}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ Quý 1 2022 đến Quý 3 2023, đây là dự báo cho tuyến xe buýt 79 (nhà vận hành HTX-QTIEN) trong 3 quý tới. Dự báo cho Quý 4 2023 là 44.794, sau đó giảm nhẹ và ổn định quanh mức 42.600 - 42.700 cho hai quý đầu năm 2024.",
+  "insights": [
+    "Các giá trị dự báo (42.607 - 44.794) nằm trong phạm vi dữ liệu lịch sử đã ghi nhận (33.313 - 48.365).",
+    "Dự báo được tạo ra từ một chuỗi dữ liệu lịch sử ngắn (7 điểm dữ liệu), điều này có thể ảnh hưởng đến việc xác định các xu hướng dài hạn."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dữ liệu lịch sử (7 quý) và dự báo cho 3 quý tiếp theo."
+}

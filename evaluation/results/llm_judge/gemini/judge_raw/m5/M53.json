@@ -1,0 +1,24 @@
+{
+  "case_id": "M53",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất quý và kỳ dự báo. Giá trị 52.4, mức trung bình 30.9, cực đại 54.0 và 21 điểm lịch sử đều khớp dữ liệu cung cấp. Các tỷ lệ 69.6% cao hơn trung bình và thấp hơn khoảng 3% so với cực đại là nhất quán về mặt tính toán. Mô tả ensemble, trọng số 60%/40% và các cửa sổ 8/12 quý phù hợp forecast result. Nội dung rõ ràng, cô đọng và giúp người dùng hiểu mức dự báo so với lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.912976084000547,
+    "input_tokens": 2237,
+    "output_tokens": 270,
+    "total_tokens": 2507,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất quý và kỳ dự báo. Giá trị 52.4, mức trung bình 30.9, cực đại 54.0 và 21 điểm lịch sử đều khớp dữ liệu cung cấp. Các tỷ lệ 69.6% cao hơn trung bình và thấp hơn khoảng 3% so với cực đại là nhất quán về mặt tính toán. Mô tả ensemble, trọng số 60%/40% và các cửa sổ 8/12 quý phù hợp forecast result. Nội dung rõ ràng, cô đọng và giúp người dùng hiểu mức dự báo so với lịch sử.\"}"
+  }
+}

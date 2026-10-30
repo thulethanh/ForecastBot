@@ -1,0 +1,24 @@
+{
+  "case_id": "M17",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng mặt hàng và cửa hàng, nêu đúng phạm vi thời gian dự báo. Các số liệu về trung bình lịch sử 11,73, đỉnh lịch sử 54,0, đỉnh dự báo 64,56 vào tháng 4/2016 đều khớp dữ liệu cung cấp. Nhận định xu hướng tăng chung và mức dự báo cao hơn trung bình lịch sử được hỗ trợ bởi chuỗi dự báo. Mô tả ensemble với trọng số 60% cho nhánh 36 tháng gần nhất phù hợp window_info và weights. Nội dung rõ ràng, ngắn gọn, có ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.3706357079790905,
+    "input_tokens": 2559,
+    "output_tokens": 382,
+    "total_tokens": 2941,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng mặt hàng và cửa hàng, nêu đúng phạm vi thời gian dự báo. Các số liệu về trung bình lịch sử 11,73, đỉnh lịch sử 54,0, đỉnh dự báo 64,56 vào tháng 4/2016 đều khớp dữ liệu cung cấp. Nhận định xu hướng tăng chung và mức dự báo cao hơn trung bình lịch sử được hỗ trợ bởi chuỗi dự báo. Mô tả ensemble với trọng số 60% cho nhánh 36 tháng gần nhất phù hợp window_info và weights. Nội dung rõ ràng, ngắn gọn, có ích.\"}"
+  }
+}

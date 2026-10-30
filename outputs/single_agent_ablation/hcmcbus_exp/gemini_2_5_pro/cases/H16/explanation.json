@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên 9 quý dữ liệu lịch sử từ Quý 1 2022 đến Quý 1 2024, đây là dự báo cho 12 quý tiếp theo của tuyến xe buýt 41 do HTX-195 vận hành. Dự báo cho thấy xu hướng tăng trưởng chung kết hợp với quy luật thời vụ rõ rệt, trong đó lượng khách dự kiến cao nhất vào quý 4 và thấp nhất vào quý 1 hàng năm.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng tăng trưởng nhất quán qua từng năm. Ví dụ, giá trị dự báo cho quý 1 tăng từ khoảng 142.221 vào năm 2025 lên 156.400 vào năm 2027.",
+    "Một quy luật thời vụ rõ ràng được dự báo sẽ tiếp diễn, với quý 4 là giai đoạn cao điểm nhất trong năm, sau đó giảm đáng kể vào quý 1 của năm tiếp theo."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ Quý 1 2022 đến Quý 1 2024 và dự báo cho 12 quý tiếp theo. Dữ liệu lịch sử có giá trị thấp nhất là 71.772 và cao nhất là 167.070."
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H31",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Câu \"deterministic_recent_mean, cho thấy sự ổn định cao trong xu hướng dữ liệu\" suy diễn mức độ ổn định của xu hướng lịch sử, trong khi history summary chỉ cho biết khoảng giá trị khá rộng và không cung cấp trực tiếp xu hướng."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà khai thác, kỳ hạn 24 tháng và nêu chính xác dự báo phẳng 115.490,86 cho mọi bước. Các mốc thời gian, trung bình lịch sử, fallback và việc dùng 28 điểm đều phù hợp thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp hiểu rằng kết quả không dự đoán biến động. Tuy nhiên, việc gán phương pháp deterministic_recent_mean với “sự ổn định cao trong xu hướng dữ liệu” là suy diễn chưa được history summary chứng minh trực tiếp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.789209624985233,
+    "input_tokens": 3033,
+    "output_tokens": 414,
+    "total_tokens": 3447,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Câu \\\"deterministic_recent_mean, cho thấy sự ổn định cao trong xu hướng dữ liệu\\\" suy diễn mức độ ổn định của xu hướng lịch sử, trong khi history summary chỉ cho biết khoảng giá trị khá rộng và không cung cấp trực tiếp xu hướng.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà khai thác, kỳ hạn 24 tháng và nêu chính xác dự báo phẳng 115.490,86 cho mọi bước. Các mốc thời gian, trung bình lịch sử, fallback và việc dùng 28 điểm đều phù hợp thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp hiểu rằng kết quả không dự đoán biến động. Tuy nhiên, việc gán phương pháp deterministic_recent_mean với “sự ổn định cao trong xu hướng dữ liệu” là suy diễn chưa được history summary chứng minh trực tiếp.\"}"
+  }
+}

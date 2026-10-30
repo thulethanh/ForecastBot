@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 12 tháng tới cho HCMC_BUS (route_id: 4, operator: Cty-BaoYen)",
+  "summary_text": "ForecastBot dự báo cho 12 tháng tiếp theo, từ tháng 1 năm 2025 đến tháng 12 năm 2025. Các giá trị dự báo dao động từ 94,140 (tháng 6 năm 2025) đến 120,966 (tháng 10 năm 2025).",
+  "insights": [
+    "Giá trị dự báo cao nhất (120,966 vào tháng 10 năm 2025) cao hơn mức cao nhất trong lịch sử (118,092).",
+    "Giá trị dự báo thấp nhất (94,140 vào tháng 6 năm 2025) cao hơn đáng kể so với mức thấp nhất trong lịch sử (12,877).",
+    "Dự báo cho thấy xu hướng theo mùa, với các giá trị thấp nhất vào giữa năm (tháng 6: 94,140) và đạt đỉnh vào cuối năm (tháng 10: 120,966)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 5 năm 2022 đến tháng 12 năm 2024 và dự báo của ForecastBot cho 12 tháng tiếp theo, từ tháng 1 năm 2025 đến tháng 12 năm 2025."
+}

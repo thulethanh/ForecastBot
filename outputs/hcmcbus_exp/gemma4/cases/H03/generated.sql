@@ -1,0 +1,1 @@
+SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '23' AND TRIM(d.vehicle_group) = '3B.1_ML' GROUP BY d.date ORDER BY d.date ASC;

@@ -1,0 +1,33 @@
+{
+  "case_id": "M28",
+  "question": "Hãy dự báo nhu cầu bán của sản phẩm FOODS_3_302 tại cửa hàng TX_1, bang TX trong 3 tháng tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 61,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 8.08507274999647,
+    "load_schema": 0.002187665999372257,
+    "sql_generation": 9.548238416999084,
+    "sql_execution_and_repair": 0.01938483299818472,
+    "forecast": 94.93991066699891,
+    "explanation": 19.41267449999941,
+    "end_to_end": 132.00753762500244
+  },
+  "total_tokens": 19062,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

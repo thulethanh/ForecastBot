@@ -1,0 +1,26 @@
+{
+  "case_id": "H03",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"giá trị trung bình là 2767.6\" không khớp với trung bình tính từ 30 giá trị dự báo (khoảng 2794.0)."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhóm xe, kỳ hạn 30 ngày và nêu được khoảng giá trị, các ngày cực trị, biến động theo tuần cùng so sánh với mức lịch sử. Trình bày rõ ràng, cô đọng và hữu ích. Tuy nhiên, giá trị trung bình dự báo được nêu là 2767.6 không khớp với trung bình của các giá trị forecast; dù kết luận rằng mức dự báo trung bình cao hơn trung bình lịch sử vẫn đúng về chiều hướng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 12.0634134169959,
+    "input_tokens": 3260,
+    "output_tokens": 708,
+    "total_tokens": 3968,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"giá trị trung bình là 2767.6\\\" không khớp với trung bình tính từ 30 giá trị dự báo (khoảng 2794.0).\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhóm xe, kỳ hạn 30 ngày và nêu được khoảng giá trị, các ngày cực trị, biến động theo tuần cùng so sánh với mức lịch sử. Trình bày rõ ràng, cô đọng và hữu ích. Tuy nhiên, giá trị trung bình dự báo được nêu là 2767.6 không khớp với trung bình của các giá trị forecast; dù kết luận rằng mức dự báo trung bình cao hơn trung bình lịch sử vẫn đúng về chiều hướng.\"}"
+  }
+}

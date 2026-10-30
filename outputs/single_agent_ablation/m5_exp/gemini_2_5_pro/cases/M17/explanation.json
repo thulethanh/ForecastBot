@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 12 tháng cho mặt hàng HOUSEHOLD_1_457 tại cửa hàng CA_1, từ tháng 5 năm 2015 đến tháng 4 năm 2016. Dự báo cho thấy xu hướng tăng trưởng chung, với các giá trị dự báo cao hơn đáng kể so với mức trung bình lịch sử là 11.73 đơn vị.",
+  "insights": [
+    "Doanh số dự kiến sẽ đạt đỉnh vào cuối giai đoạn dự báo, với mức cao nhất là 64.56 đơn vị vào tháng 4 năm 2016, cao hơn đáng kể so với mức cao nhất trong lịch sử là 54.0 đơn vị.",
+    "Dự báo này là sự kết hợp của các mô hình, với 60% trọng số được đặt vào dữ liệu của 36 tháng gần nhất, cho thấy các xu hướng gần đây có ảnh hưởng lớn đến kết quả dự đoán."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu bán hàng lịch sử (52 tháng) và doanh số dự báo cho 12 tháng tiếp theo."
+}

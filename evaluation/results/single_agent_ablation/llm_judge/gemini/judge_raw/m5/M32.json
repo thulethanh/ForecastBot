@@ -1,0 +1,24 @@
+{
+  "case_id": "M32",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và bang, nêu chính xác thời điểm, giá trị dự báo và trạng thái mô hình. Các chi tiết về ensemble, cửa sổ 8/12 quý, trọng số 60/40, không dùng dự phòng, trung bình lịch sử 35.81 và cực đại 90 đều được dữ liệu hỗ trợ. Nội dung rõ ràng, ngắn gọn và giúp người dùng đặt mức dự báo trong bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.5038257089909166,
+    "input_tokens": 2202,
+    "output_tokens": 199,
+    "total_tokens": 2401,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và bang, nêu chính xác thời điểm, giá trị dự báo và trạng thái mô hình. Các chi tiết về ensemble, cửa sổ 8/12 quý, trọng số 60/40, không dùng dự phòng, trung bình lịch sử 35.81 và cực đại 90 đều được dữ liệu hỗ trợ. Nội dung rõ ràng, ngắn gọn và giúp người dùng đặt mức dự báo trong bối cảnh lịch sử.\"}"
+  }
+}

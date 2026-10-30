@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Route 79, HTX-QTIEN) theo quý",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo chỉ số cho HCMC_BUS (Route 79, HTX-QTIEN) sẽ tiếp tục tăng trưởng trong 3 quý tới, từ 46000.0 vào quý 4 năm 2023 đến 47000.0 vào quý 2 năm 2024.",
+  "insights": [
+    "Trong 3 quý dự báo, chỉ số được dự đoán tăng dần: từ 46000.0 (2023-10-01) lên 46500.0 (2024-01-01), và tiếp tục tăng lên 47000.0 (2024-04-01).",
+    "Xu hướng dự báo cho thấy sự tăng trưởng ổn định qua các quý tiếp theo."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 7 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-07-01. ForecastBot sử dụng mô hình single mode với trọng số short (0.6) và long (0.4), dựa trên cửa sổ dữ liệu ngắn (h7) và dài (h7) để đưa ra dự báo cho 3 quý tiếp theo."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H15",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng đối tượng, phạm vi 8 quý và các giá trị dự báo. Các mức cao nhất, thấp nhất, trung bình dự báo, trung bình theo năm và mức trung bình lịch sử đều khớp với dữ liệu được cung cấp. Nhận định giảm nhẹ và mức thấp ở Quý 3 mỗi năm được suy ra trực tiếp từ chuỗi dự báo. Nội dung rõ ràng, có cấu trúc và giúp người dùng nắm được biên độ, xu hướng hai năm cùng các mốc đáng chú ý."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.229365042003337,
+    "input_tokens": 2520,
+    "output_tokens": 527,
+    "total_tokens": 3047,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng đối tượng, phạm vi 8 quý và các giá trị dự báo. Các mức cao nhất, thấp nhất, trung bình dự báo, trung bình theo năm và mức trung bình lịch sử đều khớp với dữ liệu được cung cấp. Nhận định giảm nhẹ và mức thấp ở Quý 3 mỗi năm được suy ra trực tiếp từ chuỗi dự báo. Nội dung rõ ràng, có cấu trúc và giúp người dùng nắm được biên độ, xu hướng hai năm cùng các mốc đáng chú ý.\"}"
+  }
+}

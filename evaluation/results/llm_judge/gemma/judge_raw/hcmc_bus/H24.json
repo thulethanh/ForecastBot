@@ -1,0 +1,26 @@
+{
+  "case_id": "H24",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 1066 điểm dữ liệu từ 2022-01-01 đến 2024-12-01.\""
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến 64/XKSG, kỳ hạn 30 ngày và nêu chính xác mức dự báo phẳng 1128.1429, khoảng ngày, thống kê lịch sử, chế độ fallback, trọng số và các cửa sổ h180/h365. Nội dung rõ ràng, có ích để hiểu dự báo ổn định. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện trên 1066 điểm”; dữ liệu chỉ xác nhận đây là phạm vi lịch sử khả dụng, trong khi thông tin cửa sổ cho biết các nhánh dùng 180 và 365 quan sát gần nhất, không xác nhận việc huấn luyện trên toàn bộ 1066 điểm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.060371250001481,
+    "input_tokens": 3238,
+    "output_tokens": 359,
+    "total_tokens": 3597,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 1066 điểm dữ liệu từ 2022-01-01 đến 2024-12-01.\\\"\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến 64/XKSG, kỳ hạn 30 ngày và nêu chính xác mức dự báo phẳng 1128.1429, khoảng ngày, thống kê lịch sử, chế độ fallback, trọng số và các cửa sổ h180/h365. Nội dung rõ ràng, có ích để hiểu dự báo ổn định. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện trên 1066 điểm”; dữ liệu chỉ xác nhận đây là phạm vi lịch sử khả dụng, trong khi thông tin cửa sổ cho biết các nhánh dùng 180 và 365 quan sát gần nhất, không xác nhận việc huấn luyện trên toàn bộ 1066 điểm.\"}"
+  }
+}

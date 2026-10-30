@@ -1,0 +1,37 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2024-01-01",
+      "yhat": 430373.0
+    },
+    {
+      "step": 2,
+      "ds": "2024-04-01",
+      "yhat": 408108.0
+    },
+    {
+      "step": 3,
+      "ds": "2024-07-01",
+      "yhat": 404460.0
+    },
+    {
+      "step": 4,
+      "ds": "2024-10-01",
+      "yhat": 470780.0
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "single",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 8,
+    "long_n": 8,
+    "short_window_name": "h8",
+    "long_window_name": "h8"
+  }
+}

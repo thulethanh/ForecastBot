@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": null,
+  "horizon": null,
+  "filters": {
+    "route_id": "127",
+    "operator": "HTX-ThanhSon"
+  },
+  "missing_fields": [
+    "granularity",
+    "horizon"
+  ],
+  "needs_clarification": true,
+  "user_message_for_clarification": "Bạn muốn xem dự báo cho 2 năm tới theo ngày, tháng, quý hay năm?"
+}

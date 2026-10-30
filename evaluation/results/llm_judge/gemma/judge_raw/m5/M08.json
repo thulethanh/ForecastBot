@@ -1,0 +1,27 @@
+{
+  "case_id": "M08",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình đã được huấn luyện trên các cửa sổ dữ liệu h24 và h36.\"",
+      "\"Sự tăng trưởng dự kiến từ Tháng 2 năm 2016 ... lên Tháng 3 năm 2016 ... là đáng kể.\""
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, địa điểm, tần suất tháng và 6 kỳ dự báo; các giá trị, cực trị và các thay đổi nêu ra khớp forecast. Trình bày rõ ràng, hữu ích để thấy mức dự báo và dao động chính. Tuy nhiên, window_info chỉ cho biết các nhánh dùng cửa sổ 24 và 36 quan sát, không hỗ trợ khẳng định mô hình được “huấn luyện” trên các cửa sổ này. Nhận định mức tăng 35.8 lên 40.0 là “đáng kể” cũng không có tiêu chí hoặc bằng chứng kèm theo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.215297916001873,
+    "input_tokens": 2467,
+    "output_tokens": 363,
+    "total_tokens": 2830,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình đã được huấn luyện trên các cửa sổ dữ liệu h24 và h36.\\\"\",\"\\\"Sự tăng trưởng dự kiến từ Tháng 2 năm 2016 ... lên Tháng 3 năm 2016 ... là đáng kể.\\\"\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, địa điểm, tần suất tháng và 6 kỳ dự báo; các giá trị, cực trị và các thay đổi nêu ra khớp forecast. Trình bày rõ ràng, hữu ích để thấy mức dự báo và dao động chính. Tuy nhiên, window_info chỉ cho biết các nhánh dùng cửa sổ 24 và 36 quan sát, không hỗ trợ khẳng định mô hình được “huấn luyện” trên các cửa sổ này. Nhận định mức tăng 35.8 lên 40.0 là “đáng kể” cũng không có tiêu chí hoặc bằng chứng kèm theo.\"}"
+  }
+}

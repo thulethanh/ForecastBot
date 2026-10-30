@@ -1,0 +1,12 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 12,
+  "filters": {
+    "route_id": "70"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

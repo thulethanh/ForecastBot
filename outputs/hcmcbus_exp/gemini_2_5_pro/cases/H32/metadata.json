@@ -1,0 +1,33 @@
+{
+  "case_id": "H32",
+  "question": "Dự báo lượng khách của tuyến 43 do Cty-BaoYen vận hành trong 1 quý tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 9,
+    "n_train": 8,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 8.5802039170012,
+    "load_schema": 0.0025808339996729046,
+    "sql_generation": 8.188081457999942,
+    "sql_execution_and_repair": 0.00969125000119675,
+    "forecast": 32.53072616600548,
+    "explanation": 20.603548541002965,
+    "end_to_end": 69.9148740419987
+  },
+  "total_tokens": 11106,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

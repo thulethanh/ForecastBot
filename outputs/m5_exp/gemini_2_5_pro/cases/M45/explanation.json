@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 30 ngày cho item_id FOODS_1_215",
+  "summary_text": "ForecastBot dự báo cho item_id FOODS_1_215 trong 30 ngày tới, từ 26/03/2016 đến 24/04/2016. Giá trị dự báo trung bình là 20.6, cao hơn mức trung bình lịch sử là 12.1. Các giá trị dự báo dao động từ 11.2 đến 25.4.",
+  "insights": [
+    "Dự báo cho thấy một chu kỳ hàng tuần rõ rệt. Các ngày Thứ Bảy có mức dự báo cao nhất và không đổi là 25.4. Các ngày Thứ Hai có mức dự báo thấp, dao động từ 13.2 đến 16.2.",
+    "Giá trị dự báo trung bình (20.6) cao hơn đáng kể so với giá trị trung bình trong quá khứ (12.1).",
+    "Điểm dự báo thấp nhất trong 30 ngày là 11.2, dự kiến vào Thứ Tư, ngày 13/04/2016."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 29/01/2011 đến 25/03/2016 và dự báo của ForecastBot cho 30 ngày tiếp theo. Dự báo được tạo bằng mô hình ensemble, kết hợp các dự báo từ cửa sổ 180 ngày (trọng số 0.6) và 365 ngày (trọng số 0.4)."
+}

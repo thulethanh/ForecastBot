@@ -1,0 +1,26 @@
+{
+  "case_id": "H55",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định 7 điểm dữ liệu lịch sử được sử dụng để huấn luyện mô hình; thông tin cung cấp chỉ nêu các cửa sổ đầu vào dự báo, không xác nhận việc huấn luyện mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà vận hành, kỳ dự báo và nêu đầy đủ ba giá trị dự báo. Các so sánh với trung bình lịch sử, xu hướng giảm rồi tăng nhẹ, phạm vi và thống kê lịch sử đều khớp dữ liệu được cung cấp. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo. Tuy nhiên, chart note đưa ra khẳng định các điểm lịch sử được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cho biết cửa sổ quan sát của nhánh dự báo, nên giảm nhẹ tính trung thực."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.58093366700632,
+    "input_tokens": 2326,
+    "output_tokens": 329,
+    "total_tokens": 2655,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định 7 điểm dữ liệu lịch sử được sử dụng để huấn luyện mô hình; thông tin cung cấp chỉ nêu các cửa sổ đầu vào dự báo, không xác nhận việc huấn luyện mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà vận hành, kỳ dự báo và nêu đầy đủ ba giá trị dự báo. Các so sánh với trung bình lịch sử, xu hướng giảm rồi tăng nhẹ, phạm vi và thống kê lịch sử đều khớp dữ liệu được cung cấp. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo. Tuy nhiên, chart note đưa ra khẳng định các điểm lịch sử được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cho biết cửa sổ quan sát của nhánh dự báo, nên giảm nhẹ tính trung thực.\"}"
+  }
+}

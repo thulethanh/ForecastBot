@@ -1,0 +1,24 @@
+{
+  "case_id": "M41",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 5 năm cho đúng mặt hàng và cửa hàng. Các mốc dự báo 18.2 năm 2017 và 0.0 năm 2021, cùng mức trung bình lịch sử 177.17 và phạm vi 2011–2016, đều khớp dữ liệu cung cấp. Nội dung nêu rõ xu hướng giảm mạnh, so sánh hợp lý với mức lịch sử và mô tả đúng khoảng thời gian trên biểu đồ. Cách trình bày ngắn gọn, dễ hiểu và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.189429125050083,
+    "input_tokens": 2312,
+    "output_tokens": 277,
+    "total_tokens": 2589,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 5 năm cho đúng mặt hàng và cửa hàng. Các mốc dự báo 18.2 năm 2017 và 0.0 năm 2021, cùng mức trung bình lịch sử 177.17 và phạm vi 2011–2016, đều khớp dữ liệu cung cấp. Nội dung nêu rõ xu hướng giảm mạnh, so sánh hợp lý với mức lịch sử và mô tả đúng khoảng thời gian trên biểu đồ. Cách trình bày ngắn gọn, dễ hiểu và hữu ích.\"}"
+  }
+}

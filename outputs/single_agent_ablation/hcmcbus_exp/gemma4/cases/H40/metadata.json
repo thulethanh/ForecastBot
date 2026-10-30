@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H40",
+  "question": "Tôi muốn xem xu hướng lượng hành khách của tuyến 128 do HTX-ThanhSon vận hành trong 3 năm tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 3,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 5,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.0050119999796152115,
+    "request_sql": 53.337190291960724,
+    "sql_execution_and_repair": 0.05919304199051112,
+    "forecast": 62.02156975003891,
+    "explanation": 81.44584749999922,
+    "end_to_end": 196.86905637499876
+  },
+  "total_tokens": 4692,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

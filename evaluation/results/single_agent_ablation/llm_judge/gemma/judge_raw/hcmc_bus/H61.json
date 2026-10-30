@@ -1,0 +1,26 @@
+{
+  "case_id": "H61",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Cụm \"xu hướng tăng trưởng hiện tại\" không được xác nhận trực tiếp bởi history summary, vốn chỉ cung cấp min, max và trung bình mà không nêu diễn biến theo từng năm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà khai thác, chân trời 2025-2027 và các giá trị dự báo; mô tả chính xác xu hướng tăng liên tục cũng như mức dự báo đầu-cuối kỳ. Thông tin chế độ single, trọng số và cửa sổ h3 phù hợp với forecast_result. So sánh với trung bình lịch sử là đúng, dù từ “đáng kể” hơi mang tính diễn giải. Phần giả định duy trì “xu hướng tăng trưởng hiện tại” chưa được history summary chứng minh trực tiếp vì không có các giá trị lịch sử theo thứ tự thời gian. Nội dung rõ ràng và hữu ích, nhưng có thể nêu thêm giá trị năm 2026 hoặc mức tăng cụ thể."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.935951334075071,
+    "input_tokens": 2298,
+    "output_tokens": 445,
+    "total_tokens": 2743,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Cụm \\\"xu hướng tăng trưởng hiện tại\\\" không được xác nhận trực tiếp bởi history summary, vốn chỉ cung cấp min, max và trung bình mà không nêu diễn biến theo từng năm.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà khai thác, chân trời 2025-2027 và các giá trị dự báo; mô tả chính xác xu hướng tăng liên tục cũng như mức dự báo đầu-cuối kỳ. Thông tin chế độ single, trọng số và cửa sổ h3 phù hợp với forecast_result. So sánh với trung bình lịch sử là đúng, dù từ “đáng kể” hơi mang tính diễn giải. Phần giả định duy trì “xu hướng tăng trưởng hiện tại” chưa được history summary chứng minh trực tiếp vì không có các giá trị lịch sử theo thứ tự thời gian. Nội dung rõ ràng và hữu ích, nhưng có thể nêu thêm giá trị năm 2026 hoặc mức tăng cụ thể.\"}"
+  }
+}

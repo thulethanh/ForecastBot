@@ -1,0 +1,17 @@
+{
+  "case_id": "M17",
+  "question": "Dự báo lượng bán của sản phẩm HOUSEHOLD_1_457 tại cửa hàng CA_1, bang CA trong 1 năm tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "orchestration": 22.52595758300231,
+    "end_to_end": 22.52818966600171
+  },
+  "total_tokens": 3571,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "needs_clarification: granularity,horizon"
+}

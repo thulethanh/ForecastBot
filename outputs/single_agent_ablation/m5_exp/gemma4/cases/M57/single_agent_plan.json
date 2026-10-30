@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "quarter",
+  "horizon": 8,
+  "filters": {
+    "item_id": "HOUSEHOLD_1_280",
+    "store_id": "WI_2"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'HOUSEHOLD_1_280' AND s.store_id = 'WI_2' GROUP BY DATE_TRUNC('quarter', c.date)::date ORDER BY ds ASC",
+  "sql_explanation": "The query calculates the sum of sales (y) for the specified item and store, grouped by quarter (quarter granularity), using the calendar table to determine the time index (ds)."
+}

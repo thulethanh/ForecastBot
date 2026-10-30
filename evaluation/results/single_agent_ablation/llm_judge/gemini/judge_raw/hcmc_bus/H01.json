@@ -1,0 +1,24 @@
+{
+  "case_id": "H01",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 7 ngày cho tuyến 19, nêu đúng khoảng ngày và mức dự báo. Khoảng 2.802–4.226 khớp các giá trị forecast; mức trung bình lịch sử 3.783 khớp history summary. Nhận định mức thấp nhất rơi vào Thứ Bảy và Chủ Nhật được forecast hỗ trợ. Mô tả kết hợp cửa sổ 180 và 365 ngày, với ưu tiên dữ liệu gần đây, phù hợp weights 0,6/0,4. Trình bày rõ ràng và giúp hiểu mức độ, biến động cuối tuần, cũng như cách kết hợp dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.125453916960396,
+    "input_tokens": 2372,
+    "output_tokens": 306,
+    "total_tokens": 2678,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 7 ngày cho tuyến 19, nêu đúng khoảng ngày và mức dự báo. Khoảng 2.802–4.226 khớp các giá trị forecast; mức trung bình lịch sử 3.783 khớp history summary. Nhận định mức thấp nhất rơi vào Thứ Bảy và Chủ Nhật được forecast hỗ trợ. Mô tả kết hợp cửa sổ 180 và 365 ngày, với ưu tiên dữ liệu gần đây, phù hợp weights 0,6/0,4. Trình bày rõ ràng và giúp hiểu mức độ, biến động cuối tuần, cũng như cách kết hợp dự báo.\"}"
+  }
+}

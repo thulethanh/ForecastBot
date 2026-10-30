@@ -1,0 +1,26 @@
+{
+  "case_id": "H22",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 1089 điểm dữ liệu từ 2022-01-01 đến 2024-12-24.\""
+    ],
+    "reason_vi": "Giải thích bám sát tuyến 58, đơn vị HTX-VTHANG, kỳ dự báo 7 ngày và mức dự báo cố định 1469.7143. Các ngày, giá trị dự báo, phương pháp deterministic_recent_mean, phạm vi lịch sử và thống kê trung bình đều phù hợp dữ liệu cung cấp. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên toàn bộ 1089 điểm; thông tin hiện có chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ dự báo h180/h365, không xác nhận dữ liệu huấn luyện. Trình bày rõ ràng và hữu ích, dù có thể nêu ngắn ý nghĩa mức dự báo so với trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.021150375003344,
+    "input_tokens": 2448,
+    "output_tokens": 327,
+    "total_tokens": 2775,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 1089 điểm dữ liệu từ 2022-01-01 đến 2024-12-24.\\\"\"],\"reason_vi\":\"Giải thích bám sát tuyến 58, đơn vị HTX-VTHANG, kỳ dự báo 7 ngày và mức dự báo cố định 1469.7143. Các ngày, giá trị dự báo, phương pháp deterministic_recent_mean, phạm vi lịch sử và thống kê trung bình đều phù hợp dữ liệu cung cấp. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên toàn bộ 1089 điểm; thông tin hiện có chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ dự báo h180/h365, không xác nhận dữ liệu huấn luyện. Trình bày rõ ràng và hữu ích, dù có thể nêu ngắn ý nghĩa mức dự báo so với trung bình lịch sử.\"}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng hành khách cho tuyến 38 (XKSG) của HCMC_BUS",
+  "summary_text": "Dự báo lưu lượng hành khách cho 4 quý tiếp theo của tuyến 38 (XKSG) trong dataset HCMC_BUS. Theo dự báo, lưu lượng sẽ đạt mức cao nhất vào quý 4 năm 2024, với giá trị ước tính là 216,684.0.",
+  "insights": [
+    "So với mức trung bình lịch sử là 152,647.625, dự báo cho quý 4 năm 2024 (216,684.0) cho thấy sự tăng trưởng đáng kể.",
+    "Lưu lượng dự báo cho quý 2 năm 2024 (144,935.0) và quý 3 năm 2024 (140,661.0) duy trì ở mức tương đối ổn định, gần với mức trung bình lịch sử.",
+    "Dự báo cho quý 1 năm 2024 (108,310.5) thấp hơn đáng kể so với mức trung bình lịch sử."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 8 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-10-01. ForecastBot đã sử dụng các cửa sổ ngắn (h8) và dài (h8) để dự báo 4 bước tiếp theo, kéo dài đến quý 4 năm 2024."
+}

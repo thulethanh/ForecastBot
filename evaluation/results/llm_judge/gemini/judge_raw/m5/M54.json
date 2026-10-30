@@ -1,0 +1,24 @@
+{
+  "case_id": "M54",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo 2 quý cho đúng item và bang, nêu rõ hai giá trị dự báo cùng xu hướng giảm. Các so sánh với trung bình lịch sử (96.15), phạm vi lịch sử (39.0–130.0), số điểm và khoảng thời gian lịch sử đều khớp dữ liệu cung cấp. Mô tả ensemble, hai cửa sổ 8/12 quý và trọng số 60%/40% cũng đúng với forecast_result. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo trong bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.5817901249974966,
+    "input_tokens": 2226,
+    "output_tokens": 224,
+    "total_tokens": 2450,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo 2 quý cho đúng item và bang, nêu rõ hai giá trị dự báo cùng xu hướng giảm. Các so sánh với trung bình lịch sử (96.15), phạm vi lịch sử (39.0–130.0), số điểm và khoảng thời gian lịch sử đều khớp dữ liệu cung cấp. Mô tả ensemble, hai cửa sổ 8/12 quý và trọng số 60%/40% cũng đúng với forecast_result. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo trong bối cảnh lịch sử.\"}"
+  }
+}

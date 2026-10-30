@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho năm 2024-01-01 (HCMC_BUS, tuyến 44, HTX-ThanhSon) là 528,493.0. Đây là dự báo cho một bước (horizon 1) với trạng thái thành công.",
+  "insights": [
+    "Dự báo được thực hiện trên bộ dữ liệu HCMC_BUS, tập trung vào tuyến 44 của nhà khai thác HTX-ThanhSon, với độ chi tiết là năm.",
+    "Mô hình sử dụng phương pháp 'single' và áp dụng trọng số 60% cho dữ liệu ngắn hạn (short) và 40% cho dữ liệu dài hạn (long).",
+    "Việc dự báo dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2023-01-01, sử dụng cửa sổ (window) 2 điểm cho cả hai thành phần ngắn và dài."
+  ],
+  "chart_note": "Giá trị dự báo 528,493.0 là ước tính cho năm 2024-01-01 và không đại diện cho giá trị thực tế trong tương lai."
+}

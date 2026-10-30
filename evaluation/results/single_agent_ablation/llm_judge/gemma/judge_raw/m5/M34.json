@@ -1,0 +1,26 @@
+{
+  "case_id": "M34",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dự báo được xây dựng dựa trên 19 điểm dữ liệu lịch sử\" không khớp hoàn toàn với window_info, vốn cho biết hai nhánh ensemble sử dụng các cửa sổ 8 và 12 quý gần nhất."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu, đúng mặt hàng/cửa hàng, kỳ dự báo 3 quý và nêu chính xác các giá trị yhat 49.7 cũng như cấu hình ensemble 60/40 với cửa sổ 8/12. Nội dung rõ ràng, ngắn gọn và giúp nhận biết dự báo đi ngang. Tuy nhiên, câu nói dự báo được xây dựng dựa trên toàn bộ 19 điểm lịch sử chưa được hỗ trợ trực tiếp bởi thông tin cửa sổ thực tế của các nhánh dự báo; 19 điểm là phạm vi lịch sử khả dụng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.193469875026494,
+    "input_tokens": 2268,
+    "output_tokens": 538,
+    "total_tokens": 2806,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dự báo được xây dựng dựa trên 19 điểm dữ liệu lịch sử\\\" không khớp hoàn toàn với window_info, vốn cho biết hai nhánh ensemble sử dụng các cửa sổ 8 và 12 quý gần nhất.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu, đúng mặt hàng/cửa hàng, kỳ dự báo 3 quý và nêu chính xác các giá trị yhat 49.7 cũng như cấu hình ensemble 60/40 với cửa sổ 8/12. Nội dung rõ ràng, ngắn gọn và giúp nhận biết dự báo đi ngang. Tuy nhiên, câu nói dự báo được xây dựng dựa trên toàn bộ 19 điểm lịch sử chưa được hỗ trợ trực tiếp bởi thông tin cửa sổ thực tế của các nhánh dự báo; 19 điểm là phạm vi lịch sử khả dụng.\"}"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M14",
+  "question": "Hãy ước tính lượng bán của sản phẩm HOBBIES_1_227 tại cửa hàng CA_2 trong 4 quý tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 18,
+    "n_test": 4,
+    "horizon": 4,
+    "minimum_train_required": 4,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.007002957980148494,
+    "request_sql": 56.66251220903359,
+    "sql_execution_and_repair": 0.029149333015084267,
+    "forecast": 151.16564212506637,
+    "explanation": 77.4768364999909,
+    "end_to_end": 285.3413181670476
+  },
+  "total_tokens": 6291,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

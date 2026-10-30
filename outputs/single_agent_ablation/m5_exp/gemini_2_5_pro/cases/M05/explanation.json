@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo bán hàng hàng ngày cho mặt hàng FOODS_3_149 tại bang CA trong 90 ngày tới, bắt đầu từ ngày 26 tháng 1 năm 2016. Dự báo này được tạo ra dựa trên 1823 điểm dữ liệu lịch sử từ năm 2011 đến năm 2016, với doanh số trung bình trong quá khứ là 1.35 đơn vị mỗi ngày.",
+  "insights": [
+    "Dự báo cho thấy một quy luật hàng tuần rõ rệt, với doanh số cao nhất được dự đoán vào các ngày Thứ Năm (khoảng 3.5 đơn vị) và thấp nhất vào các ngày Thứ Hai và Thứ Sáu (khoảng 1.25 đơn vị).",
+    "Các giá trị dự báo nằm trong khoảng từ 1.25 đến 3.5 đơn vị, phù hợp với phạm vi dữ liệu lịch sử (từ 0 đến 16 đơn vị)."
+  ],
+  "chart_note": "Biểu đồ này hiển thị doanh số bán hàng dự báo hàng ngày (yhat) cho 90 ngày tới."
+}

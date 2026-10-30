@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 24,
+  "filters": {
+    "route_id": "127",
+    "operator": "HTX-ThanhSon"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '127' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "This SQL query aggregates the total number of passengers by month for route 127 operated by HTX-ThanhSon. It selects the start of each month as the timestamp (ds) and the sum of passengers as the value (y), filtering by the specified route ID and operator."
+}

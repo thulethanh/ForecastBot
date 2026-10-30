@@ -1,0 +1,33 @@
+{
+  "case_id": "H10",
+  "question": "Tôi muốn xem lượng hành khách của tuyến 32 do HTX-VTHANG vận hành trong 24 tháng tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 36,
+    "n_train": 36,
+    "n_test": 0,
+    "horizon": 24,
+    "minimum_train_required": 24,
+    "required_points_for_evaluation": 48,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 30.78697616700083,
+    "load_schema": 0.01605395799560938,
+    "sql_generation": 59.85516704100155,
+    "sql_execution_and_repair": 0.02175554099812871,
+    "forecast": 85.70244904099673,
+    "explanation": 69.60902524999983,
+    "end_to_end": 245.99150662499596
+  },
+  "total_tokens": 7305,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho FOODS_3_083 tại WI_2 từ 2016-04-18 đến 2016-04-24",
+  "summary_text": "Dự báo cho 7 ngày tới cho FOODS_3_083 tại WI_2 cho thấy mức tiêu thụ dao động từ 2.0 đến 5.0. Mức cao nhất được dự báo vào ngày 2016-04-21 với giá trị 5.0, và mức thấp nhất là 2.0 vào ngày 2016-04-24. Các ngày trong tuần có xu hướng tăng nhẹ vào giữa chu kỳ dự báo.",
+  "insights": [
+    "Mức tiêu thụ dự báo cao nhất trong 7 ngày là 5.0 vào ngày 2016-04-21.",
+    "Mức tiêu thụ dự báo thấp nhất là 2.0 vào ngày 2016-04-24.",
+    "Dự báo cho thấy sự biến động rõ rệt, với mức tăng từ 2.5 (2016-04-20) lên 5.0 (2016-04-21), sau đó giảm dần về 2.0 (2016-04-24)."
+  ],
+  "chart_note": "Biểu đồ này hiển thị lịch sử dữ liệu của FOODS_3_083 (từ 2011-01-29 đến 2016-04-17) và kết quả dự báo 7 ngày tới (từ 2016-04-18 đến 2016-04-24) được tạo bởi ForecastBot. Mô hình đã sử dụng cửa sổ ngắn (h180) và cửa sổ dài (h365) để đưa ra dự báo."
+}

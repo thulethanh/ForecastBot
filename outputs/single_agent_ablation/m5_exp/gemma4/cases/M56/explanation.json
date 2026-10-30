@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho HOBBIES_2_140 tại WI",
+  "summary_text": "Dự báo này cung cấp dự đoán cho chỉ số HOBBIES_2_140 tại bang Wisconsin (WI) trong 4 quý tiếp theo, bắt đầu từ quý 3 năm 2015. Mô hình sử dụng phương pháp ensemble (kết hợp) với trọng số 60% cho cửa sổ ngắn hạn (h8) và 40% cho cửa sổ dài hạn (h12). Các giá trị dự báo cho thấy xu hướng giảm nhẹ qua các quý.",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 18 điểm dữ liệu, trải dài từ 2011-01-01 đến 2015-04-01.",
+    "Dự báo được thực hiện cho 4 bước thời gian, bao gồm các quý từ 2015-07-01 đến 2016-04-01.",
+    "Giá trị dự báo bắt đầu ở mức 25.75 (Q3 2015) và giảm dần xuống 23.85 (Q2 2016)."
+  ],
+  "chart_note": "Đây là dự báo cho dữ liệu theo quý (quarterly). Các giá trị dự báo được tính toán bằng mô hình ensemble, kết hợp giữa các xu hướng ngắn và dài hạn."
+}

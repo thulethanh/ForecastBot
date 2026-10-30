@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho mặt hàng HOBBIES_1_349 tại cửa hàng TX_2, với độ chi tiết hàng quý, cho thấy mức bán dự kiến là 0.0 cho hai quý tiếp theo (Quý 1/2016 và Quý 2/2016).",
+  "insights": [
+    "Mô hình dự báo được sử dụng là ensemble, kết hợp trọng số 60% từ cửa sổ ngắn (h8) và 40% từ cửa sổ dài (h12).",
+    "Phân tích được thực hiện dựa trên 20 điểm dữ liệu lịch sử, trải dài từ 2011-01-01 đến 2015-10-01."
+  ],
+  "chart_note": "Kết quả dự báo thành công và không sử dụng phương pháp dự phòng (fallback)."
+}

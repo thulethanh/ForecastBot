@@ -1,0 +1,24 @@
+{
+  "case_id": "M42",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 10 năm theo năm cho đúng mặt hàng/cửa hàng/bang. Các mốc 2017–2026, 6 điểm lịch sử 2011–2016, mức dự báo cố định 119.33 và trung bình lịch sử 119.33 đều khớp dữ liệu cung cấp. Nội dung cũng nêu đúng chế độ single và các trọng số đã cho. Trình bày ngắn gọn, rõ ràng và giúp người dùng hiểu dự báo ổn định trong toàn bộ kỳ hạn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.990080957999453,
+    "input_tokens": 2491,
+    "output_tokens": 281,
+    "total_tokens": 2772,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 10 năm theo năm cho đúng mặt hàng/cửa hàng/bang. Các mốc 2017–2026, 6 điểm lịch sử 2011–2016, mức dự báo cố định 119.33 và trung bình lịch sử 119.33 đều khớp dữ liệu cung cấp. Nội dung cũng nêu đúng chế độ single và các trọng số đã cho. Trình bày ngắn gọn, rõ ràng và giúp người dùng hiểu dự báo ổn định trong toàn bộ kỳ hạn.\"}"
+  }
+}

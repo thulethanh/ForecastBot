@@ -1,0 +1,11 @@
+{
+  "title": "Dự báo cho FOODS_1_078 tại TX_3",
+  "summary_text": "Dự báo 30 ngày cho FOODS_1_078 tại TX_3 cho thấy một mô hình chu kỳ rõ rệt, với các giá trị dự báo luân phiên giữa 0.0, 1.0 và 2.0. Các giá trị dự báo dao động trong khoảng từ 0.0 đến 2.0 trong suốt 30 ngày tới.",
+  "insights": [
+    "Mô hình dự báo được chọn là \"short_only\" với trọng số short là 0.6 và long là 0.4.",
+    "Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1883 điểm dữ liệu, từ 2011-01-29 đến 2016-03-25.",
+    "Trong 30 ngày dự báo, các giá trị dự báo (yhat) thường tuân theo chu kỳ: 0.0, 1.0, 2.0, 0.0, 1.0, 2.0, v.v.",
+    "Dự báo cho ngày 2016-03-26 là 0.0, và dự báo cho ngày cuối cùng (2016-04-24) là 1.0."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2011-01-29 đến 2016-03-25 và tiếp nối bằng dự báo 30 ngày cho FOODS_1_078 tại TX_3."
+}

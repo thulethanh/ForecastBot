@@ -1,0 +1,6 @@
+﻿dataset,case_id,gemini_valid,gemini_reason,gemini_overall,gemma_valid,gemma_reason,gemma_overall
+HCMC_BUS,H38,False,pipeline_status_not_success; forecast_invalid; chart_not_success,2.0,True,,4.25
+HCMC_BUS,H39,False,pipeline_status_not_success; forecast_invalid; chart_not_success,2.0,True,,4.0
+HCMC_BUS,H59,False,pipeline_status_not_success; forecast_invalid; chart_not_success,2.0,True,,4.75
+HCMC_BUS,H63,True,,4.75,False,pipeline_status_not_success; forecast_invalid; chart_not_success,2.0
+M5,M17,False,pipeline_status_not_success; forecast_invalid; chart_not_success,2.0,True,,4.5

@@ -1,0 +1,24 @@
+{
+  "case_id": "H28",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng đối tượng lọc, kỳ hạn 3 tháng và các tháng dự báo. Các giá trị, xu hướng giảm, so sánh với trung bình lịch sử và mức cao nhất đều khớp với forecast तथा history summary. Chart note cũng mô tả đúng 22 điểm lịch sử trong phạm vi dữ liệu khả dụng và 3 tháng dự báo. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu cả mức dự báo lẫn xu hướng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.112088750000112,
+    "input_tokens": 2333,
+    "output_tokens": 264,
+    "total_tokens": 2597,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng đối tượng lọc, kỳ hạn 3 tháng và các tháng dự báo. Các giá trị, xu hướng giảm, so sánh với trung bình lịch sử và mức cao nhất đều khớp với forecast तथा history summary. Chart note cũng mô tả đúng 22 điểm lịch sử trong phạm vi dữ liệu khả dụng và 3 tháng dự báo. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu cả mức dự báo lẫn xu hướng.\"}"
+  }
+}

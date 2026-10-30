@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo trong 30 ngày cho mặt hàng FOODS_1_215, từ ngày 26/03/2016 đến ngày 24/04/2016. Dự báo cho thấy một mô hình hàng tuần nhất quán, với nhu cầu cao hơn vào cuối tuần và đầu tuần.",
+  "insights": [
+    "Dự báo xác định một chu kỳ hàng tuần rõ rệt. Nhu cầu dự kiến sẽ đạt đỉnh vào các ngày Thứ Hai (khoảng 23,7 đơn vị) và Chủ Nhật (khoảng 22,1 đơn vị).",
+    "Ngày có nhu cầu thấp nhất trong tuần được dự báo là Thứ Năm (khoảng 9,2 đơn vị). Nhìn chung, mức dự báo trung bình (khoảng 16,3 đơn vị) cao hơn mức trung bình lịch sử (12,1 đơn vị), cho thấy xu hướng tăng gần đây."
+  ],
+  "chart_note": "Dự báo này được tạo ra bằng cách sử dụng mô hình tổng hợp kết hợp các dự báo dựa trên dữ liệu lịch sử 180 ngày và 365 ngày qua."
+}

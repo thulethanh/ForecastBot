@@ -1,0 +1,26 @@
+{
+  "case_id": "H36",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Biểu đồ này được huấn luyện trên 12 điểm dữ liệu lịch sử\" không được xác nhận trực tiếp; dữ liệu chỉ cho biết có 12 điểm lịch sử và các cửa sổ dự báo đều gồm 12 quan sát."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, nhóm xe, phạm vi 8 quý và các mức dự báo. Các số đầu kỳ, cuối kỳ, mức tăng 16.100 và so sánh với trung bình lịch sử đều khớp dữ liệu. Nội dung rõ ràng, nêu được xu hướng tăng ổn định và ý nghĩa mức cuối kỳ. Tuy nhiên, chart_note khẳng định biểu đồ/mô hình được “huấn luyện trên 12 điểm dữ liệu”, trong khi thông tin cung cấp chỉ xác nhận 12 điểm lịch sử và cửa sổ đầu vào, không xác nhận cách huấn luyện mô hình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.251530082998215,
+    "input_tokens": 2476,
+    "output_tokens": 378,
+    "total_tokens": 2854,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Biểu đồ này được huấn luyện trên 12 điểm dữ liệu lịch sử\\\" không được xác nhận trực tiếp; dữ liệu chỉ cho biết có 12 điểm lịch sử và các cửa sổ dự báo đều gồm 12 quan sát.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, nhóm xe, phạm vi 8 quý và các mức dự báo. Các số đầu kỳ, cuối kỳ, mức tăng 16.100 và so sánh với trung bình lịch sử đều khớp dữ liệu. Nội dung rõ ràng, nêu được xu hướng tăng ổn định và ý nghĩa mức cuối kỳ. Tuy nhiên, chart_note khẳng định biểu đồ/mô hình được “huấn luyện trên 12 điểm dữ liệu”, trong khi thông tin cung cấp chỉ xác nhận 12 điểm lịch sử và cửa sổ đầu vào, không xác nhận cách huấn luyện mô hình.\"}"
+  }
+}

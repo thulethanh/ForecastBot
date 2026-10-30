@@ -1,0 +1,24 @@
+{
+  "case_id": "M41",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 5 năm cho đúng item và cửa hàng, nêu rõ mức đầu-cuối, xu hướng giảm và các mốc thời gian. Toàn bộ số liệu về dự báo, trung bình lịch sử, phạm vi 2011–2016, số điểm lịch sử và mức giảm giữa các năm đều khớp dữ liệu được cung cấp. Cách trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo cũng như tốc độ giảm chậm dần."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.138064958999166,
+    "input_tokens": 2380,
+    "output_tokens": 262,
+    "total_tokens": 2642,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 5 năm cho đúng item và cửa hàng, nêu rõ mức đầu-cuối, xu hướng giảm và các mốc thời gian. Toàn bộ số liệu về dự báo, trung bình lịch sử, phạm vi 2011–2016, số điểm lịch sử và mức giảm giữa các năm đều khớp dữ liệu được cung cấp. Cách trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo cũng như tốc độ giảm chậm dần.\"}"
+  }
+}

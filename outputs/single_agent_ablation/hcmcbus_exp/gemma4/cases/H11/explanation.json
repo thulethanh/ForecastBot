@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Route 33) trong quý tiếp theo, bắt đầu từ ngày 2024-10-01, là 972,611.1.",
+  "insights": [
+    "Dự báo được thực hiện dựa trên 11 điểm dữ liệu lịch sử, trải dài từ 2022-01-01 đến 2024-07-01.",
+    "Mô hình sử dụng là Ensemble, kết hợp trọng số 60% từ cửa sổ ngắn hạn (h8) và 40% từ cửa sổ dài hạn (h11)."
+  ],
+  "chart_note": "Đây là giá trị dự báo cho quý 4 năm 2024 và không đại diện cho giá trị thực tế trong tương lai."
+}

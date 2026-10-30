@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã thực hiện dự báo cho 24 tháng, bắt đầu từ tháng 5 năm 2014 và kết thúc vào tháng 4 năm 2016. Dự báo được tạo ra bằng phương pháp ensemble (kết hợp), sử dụng trọng số 60% cho thành phần ngắn hạn và 40% cho thành phần dài hạn. Kết quả cho thấy một xu hướng giảm dần và ổn định trong suốt giai đoạn dự báo.",
+  "insights": [
+    "Dự báo được thực hiện thành công (status: success) và không sử dụng chế độ dự phòng (fallback_used: false).",
+    "Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 40 điểm dữ liệu, trải dài từ 2011-01-01 đến 2014-04-01, với giá trị trung bình lịch sử là 10.575.",
+    "Các giá trị dự báo (yhat) bắt đầu ở mức 8.2 (tháng 5/2014) và giảm dần xuống mức 6.06 (tháng 4/2016), cho thấy sự suy giảm nhẹ theo thời gian."
+  ],
+  "chart_note": "Phạm vi dự báo là 24 bước (24 tháng) cho bộ dữ liệu M5, áp dụng cho bộ lọc cụ thể: item_id='HOUSEHOLD_2_275', store_id='TX_2', state_id='TX'."
+}

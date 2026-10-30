@@ -1,0 +1,26 @@
+{
+  "case_id": "H05",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện (1006 điểm dữ liệu từ 2022-01-01 đến 2024-10-02)."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến/operator, chân trời 90 ngày và nêu rõ mức trung bình, biên dao động, xu hướng tăng, mẫu theo tuần cùng các cực trị. Các số liệu chính phù hợp với forecast và historical summary; chế độ short_only cũng đúng. Tuy nhiên, chart_note khẳng định toàn bộ 1006 điểm lịch sử được dùng để huấn luyện, trong khi thông tin cửa sổ chỉ cho biết nhánh short_only dùng cửa sổ 180 quan sát và không cung cấp bằng chứng về huấn luyện toàn bộ dữ liệu. Nội dung còn lại rõ ràng, mạch lạc và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.493157417004113,
+    "input_tokens": 5317,
+    "output_tokens": 451,
+    "total_tokens": 5768,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện (1006 điểm dữ liệu từ 2022-01-01 đến 2024-10-02).\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến/operator, chân trời 90 ngày và nêu rõ mức trung bình, biên dao động, xu hướng tăng, mẫu theo tuần cùng các cực trị. Các số liệu chính phù hợp với forecast và historical summary; chế độ short_only cũng đúng. Tuy nhiên, chart_note khẳng định toàn bộ 1006 điểm lịch sử được dùng để huấn luyện, trong khi thông tin cửa sổ chỉ cho biết nhánh short_only dùng cửa sổ 180 quan sát và không cung cấp bằng chứng về huấn luyện toàn bộ dữ liệu. Nội dung còn lại rõ ràng, mạch lạc và hữu ích.\"}"
+  }
+}

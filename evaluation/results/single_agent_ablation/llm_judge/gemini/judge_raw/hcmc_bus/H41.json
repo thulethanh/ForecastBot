@@ -1,0 +1,26 @@
+{
+  "case_id": "H41",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Cụm “tiếp nối đà tăng được ghi nhận trong dữ liệu lịch sử 3 năm qua” không được history summary xác nhận trực tiếp, vì summary chỉ cung cấp min, max và trung bình, không nêu từng giá trị theo năm hay xu hướng theo thứ tự thời gian."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo tuyến 139/XKSG trong 5 năm, nêu đúng mức dự báo đầu-cuối và xu hướng tăng đều trong forecast. Phạm vi lịch sử, số điểm dữ liệu và các mốc dự báo đều phù hợp dữ liệu cung cấp; lưu ý về chuỗi ngắn cũng hữu ích. Tuy nhiên, nhận định lịch sử đã có “đà tăng” chưa được xác minh trực tiếp từ summary vì không có giá trị từng năm. Nội dung còn lại rõ ràng, mạch lạc và giúp người dùng hiểu giới hạn của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.22209216596093,
+    "input_tokens": 2317,
+    "output_tokens": 398,
+    "total_tokens": 2715,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Cụm “tiếp nối đà tăng được ghi nhận trong dữ liệu lịch sử 3 năm qua” không được history summary xác nhận trực tiếp, vì summary chỉ cung cấp min, max và trung bình, không nêu từng giá trị theo năm hay xu hướng theo thứ tự thời gian.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo tuyến 139/XKSG trong 5 năm, nêu đúng mức dự báo đầu-cuối và xu hướng tăng đều trong forecast. Phạm vi lịch sử, số điểm dữ liệu và các mốc dự báo đều phù hợp dữ liệu cung cấp; lưu ý về chuỗi ngắn cũng hữu ích. Tuy nhiên, nhận định lịch sử đã có “đà tăng” chưa được xác minh trực tiếp từ summary vì không có giá trị từng năm. Nội dung còn lại rõ ràng, mạch lạc và giúp người dùng hiểu giới hạn của dự báo.\"}"
+  }
+}

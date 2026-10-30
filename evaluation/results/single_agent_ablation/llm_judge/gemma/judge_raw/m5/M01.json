@@ -1,0 +1,26 @@
+{
+  "case_id": "M01",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình dự báo sử dụng phương pháp kết hợp trọng số ngắn hạn (60%) và dài hạn (40%)\" không phù hợp với kết quả cho biết selected_mode là \"short_only\" và fallback_used là true; các trọng số được liệt kê không chứng minh rằng cả hai nhánh đã được kết hợp trong dự báo này."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 7 ngày cho đúng mặt hàng, nêu đúng ngày, mức dự báo đầu-cuối và xu hướng tăng đều từ 52.6 lên 55.5. Nội dung rõ ràng, ngắn gọn và việc lưu ý cơ chế dự phòng là hữu ích. Tuy nhiên, nhận định dự báo đã kết hợp nhánh ngắn hạn 60% và dài hạn 40% chưa được hỗ trợ, vì kết quả ghi selected_mode là short_only dù vẫn hiển thị các trọng số."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.544293791055679,
+    "input_tokens": 2381,
+    "output_tokens": 314,
+    "total_tokens": 2695,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình dự báo sử dụng phương pháp kết hợp trọng số ngắn hạn (60%) và dài hạn (40%)\\\" không phù hợp với kết quả cho biết selected_mode là \\\"short_only\\\" và fallback_used là true; các trọng số được liệt kê không chứng minh rằng cả hai nhánh đã được kết hợp trong dự báo này.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 7 ngày cho đúng mặt hàng, nêu đúng ngày, mức dự báo đầu-cuối và xu hướng tăng đều từ 52.6 lên 55.5. Nội dung rõ ràng, ngắn gọn và việc lưu ý cơ chế dự phòng là hữu ích. Tuy nhiên, nhận định dự báo đã kết hợp nhánh ngắn hạn 60% và dài hạn 40% chưa được hỗ trợ, vì kết quả ghi selected_mode là short_only dù vẫn hiển thị các trọng số.\"}"
+  }
+}

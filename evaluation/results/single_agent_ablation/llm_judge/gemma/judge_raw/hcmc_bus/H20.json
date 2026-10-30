@@ -1,0 +1,24 @@
+{
+  "case_id": "H20",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo tuyến 48 của HTX-195 theo năm trong giai đoạn 2025–2029. Các mốc dự báo đầu-cuối, xu hướng tăng liên tục, số điểm lịch sử và thông tin chế độ single/trọng số đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn, đồng thời nêu đúng lưu ý rằng đây là giá trị dự báo chứ không phải thực tế."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.581471874960698,
+    "input_tokens": 2326,
+    "output_tokens": 227,
+    "total_tokens": 2553,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo tuyến 48 của HTX-195 theo năm trong giai đoạn 2025–2029. Các mốc dự báo đầu-cuối, xu hướng tăng liên tục, số điểm lịch sử và thông tin chế độ single/trọng số đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn, đồng thời nêu đúng lưu ý rằng đây là giá trị dự báo chứ không phải thực tế.\"}"
+  }
+}

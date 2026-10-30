@@ -1,0 +1,33 @@
+{
+  "case_id": "M56",
+  "question": "Cho tôi dự báo lượng bán của sản phẩm HOBBIES_2_140 tại bang WI trong 4 quý tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 18,
+    "n_test": 4,
+    "horizon": 4,
+    "minimum_train_required": 4,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 37.77819775001262,
+    "load_schema": 0.0033871250052470714,
+    "sql_generation": 59.945516916995985,
+    "sql_execution_and_repair": 0.03790283300622832,
+    "forecast": 115.34764566599915,
+    "explanation": 53.688426083987,
+    "end_to_end": 266.801116290997
+  },
+  "total_tokens": 6801,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,3 @@
+dataset,model,n_total_cases,n_router_correct,router_exact_match_rate,n_sql_input_after_router_correct,n_sql_correct,sql_accuracy_given_router_correct,n_history_input_after_sql_correct,n_history_correct,history_accuracy_given_upstream_correct,n_forecast_eligible_e2e,n_forecast_valid_e2e,forecast_coverage_e2e,n_forecast_input_upstream_correct,n_forecast_valid_upstream_correct,forecast_coverage_given_upstream_correct,forecast_mean_mae_given_upstream_correct,forecast_mean_rmse_given_upstream_correct
+HCMC_BUS,Gemini 2.5 Pro,63,59,0.9365079365079365,59,59,1.0,59,59,1.0,44,40,0.9090909090909091,40,40,1.0,11312.839040539686,12180.084126365617
+M5,Gemini 2.5 Pro,63,58,0.9206349206349206,58,58,1.0,58,58,1.0,54,49,0.9074074074074074,49,49,1.0,44.621602508908325,49.75113539799441

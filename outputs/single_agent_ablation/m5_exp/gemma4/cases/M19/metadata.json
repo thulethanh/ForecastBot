@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M19",
+  "question": "Hãy dự báo lượng bán của sản phẩm HOUSEHOLD_2_146 tại cửa hàng CA_4, bang CA trong 3 năm tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 3,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 5,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.003522332990542054,
+    "request_sql": 65.209047790966,
+    "sql_execution_and_repair": 0.024644916993565857,
+    "forecast": 34.091804084018804,
+    "explanation": 62.38590875000227,
+    "end_to_end": 161.7151336669922
+  },
+  "total_tokens": 3946,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

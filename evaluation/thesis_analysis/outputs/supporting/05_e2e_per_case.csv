@@ -1,0 +1,253 @@
+﻿dataset,model,case_id,e2e_time_s,e2e_source,llm_time_s,input_tokens,output_tokens,total_tokens
+M5,Gemini 2.5 Pro,M01,160.0841231250015,metadata.json:timings.end_to_end,159.93649108200407,5941.0,21558.0,27499.0
+M5,Gemini 2.5 Pro,M02,120.5362577090018,metadata.json:timings.end_to_end,120.38117304199841,6083.0,14836.0,20919.0
+M5,Gemini 2.5 Pro,M03,170.7025107920017,metadata.json:timings.end_to_end,170.66396179199728,6127.0,22422.0,28549.0
+M5,Gemini 2.5 Pro,M04,456.48083875000157,metadata.json:timings.end_to_end,456.4534839590051,7069.0,71135.0,78204.0
+M5,Gemini 2.5 Pro,M05,940.2439459999987,metadata.json:timings.end_to_end,940.1965799569989,9981.0,145298.0,155279.0
+M5,Gemini 2.5 Pro,M06,404.4917884580027,metadata.json:timings.end_to_end,404.4649306249994,6195.0,62463.0,68658.0
+M5,Gemini 2.5 Pro,M07,144.90540191699984,metadata.json:timings.end_to_end,144.8854589180046,2925.0,18205.0,21130.0
+M5,Gemini 2.5 Pro,M08,155.3379740829987,metadata.json:timings.end_to_end,155.32122950099802,3043.0,20397.0,23440.0
+M5,Gemini 2.5 Pro,M09,142.68249316699803,metadata.json:timings.end_to_end,142.66575762499633,3443.0,18182.0,21625.0
+M5,Gemini 2.5 Pro,M10,162.11209175000113,metadata.json:timings.end_to_end,162.0965688739998,3684.0,21834.0,25518.0
+M5,Gemini 2.5 Pro,M11,162.64773470800355,metadata.json:timings.end_to_end,162.60434120599894,2629.0,19504.0,22133.0
+M5,Gemini 2.5 Pro,M12,138.7257783339992,metadata.json:timings.end_to_end,138.7103339159985,2644.0,17943.0,20587.0
+M5,Gemini 2.5 Pro,M13,119.47771025000111,metadata.json:timings.end_to_end,119.43747087299926,2712.0,15660.0,18372.0
+M5,Gemini 2.5 Pro,M14,100.03834841700154,metadata.json:timings.end_to_end,100.02304608399572,2721.0,12219.0,14940.0
+M5,Gemini 2.5 Pro,M15,145.76573391700003,metadata.json:timings.end_to_end,145.72887670899945,2877.0,17644.0,20521.0
+M5,Gemini 2.5 Pro,M16,114.35342591699737,metadata.json:timings.end_to_end,114.33063762399615,3124.0,14690.0,17814.0
+M5,Gemini 2.5 Pro,M17,22.52818966600171,metadata.json:timings.end_to_end,22.525846125001408,962.0,2609.0,3571.0
+M5,Gemini 2.5 Pro,M18,61.283395208,metadata.json:timings.end_to_end,61.242536500001734,2366.0,7512.0,9878.0
+M5,Gemini 2.5 Pro,M19,38.40516129200114,metadata.json:timings.end_to_end,38.39081729299869,2412.0,4404.0,6816.0
+M5,Gemini 2.5 Pro,M20,89.08347758300079,metadata.json:timings.end_to_end,89.06843571000354,2505.0,8813.0,11318.0
+M5,Gemini 2.5 Pro,M21,78.23573770800067,metadata.json:timings.end_to_end,78.2154717509984,2684.0,9313.0,11997.0
+M5,Gemini 2.5 Pro,M22,139.95780216599815,metadata.json:timings.end_to_end,139.93322854200233,5422.0,18960.0,24382.0
+M5,Gemini 2.5 Pro,M23,226.31617837500016,metadata.json:timings.end_to_end,226.26740654199602,6709.0,31980.0,38689.0
+M5,Gemini 2.5 Pro,M24,175.7693971669978,metadata.json:timings.end_to_end,175.7443879160055,6138.0,23265.0,29403.0
+M5,Gemini 2.5 Pro,M25,191.11344066699894,metadata.json:timings.end_to_end,191.0638819170017,7057.0,24509.0,31566.0
+M5,Gemini 2.5 Pro,M26,163.34247795800184,metadata.json:timings.end_to_end,163.31604875099583,8015.0,22865.0,30880.0
+M5,Gemini 2.5 Pro,M27,139.30374533400027,metadata.json:timings.end_to_end,139.28432008300297,2855.0,16676.0,19531.0
+M5,Gemini 2.5 Pro,M28,132.00753762500244,metadata.json:timings.end_to_end,131.98502504099815,2928.0,16134.0,19062.0
+M5,Gemini 2.5 Pro,M29,155.77391050000006,metadata.json:timings.end_to_end,155.7259556670033,3022.0,20776.0,23798.0
+M5,Gemini 2.5 Pro,M30,143.7512655419996,metadata.json:timings.end_to_end,143.73406520799836,3413.0,18875.0,22288.0
+M5,Gemini 2.5 Pro,M31,88.15002541600188,metadata.json:timings.end_to_end,88.11055212599967,3623.0,11544.0,15167.0
+M5,Gemini 2.5 Pro,M32,116.20987674999924,metadata.json:timings.end_to_end,116.1735264590061,2623.0,13988.0,16611.0
+M5,Gemini 2.5 Pro,M33,106.0626298749994,metadata.json:timings.end_to_end,106.04919950100157,2653.0,12237.0,14890.0
+M5,Gemini 2.5 Pro,M34,100.7075067500009,metadata.json:timings.end_to_end,100.68935266700282,2683.0,12429.0,15112.0
+M5,Gemini 2.5 Pro,M35,147.64818625000044,metadata.json:timings.end_to_end,147.6050283340046,2726.0,19627.0,22353.0
+M5,Gemini 2.5 Pro,M36,88.88284795800064,metadata.json:timings.end_to_end,88.86773883300339,2908.0,11019.0,13927.0
+M5,Gemini 2.5 Pro,M37,158.81730241699915,metadata.json:timings.end_to_end,158.77549429100327,3121.0,19749.0,22870.0
+M5,Gemini 2.5 Pro,M38,183.26696029199957,metadata.json:timings.end_to_end,183.2180222900024,3418.0,23327.0,26745.0
+M5,Gemini 2.5 Pro,M39,144.2489740409983,metadata.json:timings.end_to_end,144.23662975099433,2400.0,12676.0,15076.0
+M5,Gemini 2.5 Pro,M40,103.81636545900255,metadata.json:timings.end_to_end,103.80137699899933,2407.0,9757.0,12164.0
+M5,Gemini 2.5 Pro,M41,94.07391300000018,metadata.json:timings.end_to_end,94.05831225100337,2517.0,10936.0,13453.0
+M5,Gemini 2.5 Pro,M42,83.939707542002,metadata.json:timings.end_to_end,83.92168162500093,2689.0,10515.0,13204.0
+M5,Gemini 2.5 Pro,M43,211.94859270800225,metadata.json:timings.end_to_end,211.92214125000464,5434.0,28931.0,34365.0
+M5,Gemini 2.5 Pro,M44,70.65462387499792,metadata.json:timings.end_to_end,70.60208675100148,6373.0,9168.0,15541.0
+M5,Gemini 2.5 Pro,M45,208.00604512500286,metadata.json:timings.end_to_end,207.91007183200054,6485.0,29695.0,36180.0
+M5,Gemini 2.5 Pro,M46,179.3825662499985,metadata.json:timings.end_to_end,179.35406383200097,7216.0,26172.0,33388.0
+M5,Gemini 2.5 Pro,M47,206.0477239159991,metadata.json:timings.end_to_end,205.9916900830067,8037.0,29608.0,37645.0
+M5,Gemini 2.5 Pro,M48,120.75132266700166,metadata.json:timings.end_to_end,120.73633945900292,2885.0,15943.0,18828.0
+M5,Gemini 2.5 Pro,M49,113.06951495799876,metadata.json:timings.end_to_end,113.05257820800034,2907.0,14613.0,17520.0
+M5,Gemini 2.5 Pro,M50,122.82186133399955,metadata.json:timings.end_to_end,122.80343850000281,3020.0,15967.0,18987.0
+M5,Gemini 2.5 Pro,M51,143.9396480419964,metadata.json:timings.end_to_end,143.92571316700923,3359.0,17530.0,20889.0
+M5,Gemini 2.5 Pro,M52,139.87207374999707,metadata.json:timings.end_to_end,139.85655445899465,3636.0,18710.0,22346.0
+M5,Gemini 2.5 Pro,M53,85.95217429199693,metadata.json:timings.end_to_end,85.93201245999808,2633.0,11223.0,13856.0
+M5,Gemini 2.5 Pro,M54,144.78570491600112,metadata.json:timings.end_to_end,144.7484089999998,2652.0,19061.0,21713.0
+M5,Gemini 2.5 Pro,M55,118.13855245799641,metadata.json:timings.end_to_end,118.09079229199415,2694.0,15057.0,17751.0
+M5,Gemini 2.5 Pro,M56,122.94112937500176,metadata.json:timings.end_to_end,122.90416245899542,2710.0,14211.0,16921.0
+M5,Gemini 2.5 Pro,M57,141.2700712500009,metadata.json:timings.end_to_end,141.25735199999326,2886.0,18808.0,21694.0
+M5,Gemini 2.5 Pro,M58,119.79066854199482,metadata.json:timings.end_to_end,119.77253691699298,3093.0,15589.0,18682.0
+M5,Gemini 2.5 Pro,M59,52.274454750004224,metadata.json:timings.end_to_end,52.26027037599124,2372.0,6344.0,8716.0
+M5,Gemini 2.5 Pro,M60,86.85923958299827,metadata.json:timings.end_to_end,86.83955870701175,2388.0,10116.0,12504.0
+M5,Gemini 2.5 Pro,M61,67.66161712499888,metadata.json:timings.end_to_end,67.65119691700238,2441.0,8231.0,10672.0
+M5,Gemini 2.5 Pro,M62,92.26849508399755,metadata.json:timings.end_to_end,92.22620025099604,2492.0,11519.0,14011.0
+M5,Gemini 2.5 Pro,M63,86.69420454200008,metadata.json:timings.end_to_end,86.67955029100267,2694.0,10590.0,13284.0
+M5,Gemma4 (gemma4:e4b),M01,767.0309323330002,metadata.json:timings.end_to_end,766.670565999997,9668.0,11692.0,21360.0
+M5,Gemma4 (gemma4:e4b),M02,732.7762064160052,metadata.json:timings.end_to_end,732.0943056679971,8213.0,9555.0,17768.0
+M5,Gemma4 (gemma4:e4b),M03,702.9399507079943,metadata.json:timings.end_to_end,702.8756688340218,8164.0,8827.0,16991.0
+M5,Gemma4 (gemma4:e4b),M04,650.3644245000032,metadata.json:timings.end_to_end,650.3285518739867,9286.0,8341.0,17627.0
+M5,Gemma4 (gemma4:e4b),M05,526.254614000005,metadata.json:timings.end_to_end,526.2039157480176,11874.0,6199.0,18073.0
+M5,Gemma4 (gemma4:e4b),M06,351.0006826250028,metadata.json:timings.end_to_end,350.9783825419727,2902.0,4287.0,7189.0
+M5,Gemma4 (gemma4:e4b),M07,338.59097370800737,metadata.json:timings.end_to_end,338.57106591599586,2949.0,4107.0,7056.0
+M5,Gemma4 (gemma4:e4b),M08,378.6238063339988,metadata.json:timings.end_to_end,378.5913184590172,3067.0,4971.0,8038.0
+M5,Gemma4 (gemma4:e4b),M09,696.2602317089913,metadata.json:timings.end_to_end,696.2377431670029,3477.0,9231.0,12708.0
+M5,Gemma4 (gemma4:e4b),M10,550.7163945409993,metadata.json:timings.end_to_end,550.5913885849877,3671.0,7169.0,10840.0
+M5,Gemma4 (gemma4:e4b),M11,359.3663027500006,metadata.json:timings.end_to_end,359.2788705429557,2659.0,4686.0,7345.0
+M5,Gemma4 (gemma4:e4b),M12,341.4333289999922,metadata.json:timings.end_to_end,341.4089506240125,2672.0,4715.0,7387.0
+M5,Gemma4 (gemma4:e4b),M13,373.02472845801094,metadata.json:timings.end_to_end,372.9791535419936,2741.0,4995.0,7736.0
+M5,Gemma4 (gemma4:e4b),M14,412.795783708003,metadata.json:timings.end_to_end,412.7695273749996,2750.0,5237.0,7987.0
+M5,Gemma4 (gemma4:e4b),M15,448.44746733301145,metadata.json:timings.end_to_end,448.40115854199394,2925.0,5776.0,8701.0
+M5,Gemma4 (gemma4:e4b),M16,357.2503387080069,metadata.json:timings.end_to_end,357.21929454298515,3147.0,4785.0,7932.0
+M5,Gemma4 (gemma4:e4b),M17,218.55765529201017,metadata.json:timings.end_to_end,218.53394070801733,2390.0,3301.0,5691.0
+M5,Gemma4 (gemma4:e4b),M18,212.59231712500332,metadata.json:timings.end_to_end,212.53411224998126,2381.0,3349.0,5730.0
+M5,Gemma4 (gemma4:e4b),M19,173.29502187500475,metadata.json:timings.end_to_end,173.26622650100035,2426.0,2595.0,5021.0
+M5,Gemma4 (gemma4:e4b),M20,219.36608245800016,metadata.json:timings.end_to_end,219.3304009179992,2518.0,3549.0,6067.0
+M5,Gemma4 (gemma4:e4b),M21,217.0942918750079,metadata.json:timings.end_to_end,217.06358950102003,2697.0,3548.0,6245.0
+M5,Gemma4 (gemma4:e4b),M22,843.6720387079986,metadata.json:timings.end_to_end,843.6064276239922,8565.0,12995.0,21560.0
+M5,Gemma4 (gemma4:e4b),M23,475.48965725000016,metadata.json:timings.end_to_end,475.38240366800164,9134.0,6729.0,15863.0
+M5,Gemma4 (gemma4:e4b),M24,608.7086512499955,metadata.json:timings.end_to_end,608.6298126679903,8176.0,9017.0,17193.0
+M5,Gemma4 (gemma4:e4b),M25,564.0568396670133,metadata.json:timings.end_to_end,563.9559305840085,9276.0,8193.0,17469.0
+M5,Gemma4 (gemma4:e4b),M26,672.5020197909907,metadata.json:timings.end_to_end,672.4574191680003,13915.0,9673.0,23588.0
+M5,Gemma4 (gemma4:e4b),M27,362.6739781249926,metadata.json:timings.end_to_end,362.62194608399295,2884.0,5369.0,8253.0
+M5,Gemma4 (gemma4:e4b),M28,307.42229933300405,metadata.json:timings.end_to_end,307.3960321669874,2958.0,4559.0,7517.0
+M5,Gemma4 (gemma4:e4b),M29,406.33635733400297,metadata.json:timings.end_to_end,406.26763308297086,3048.0,6013.0,9061.0
+M5,Gemma4 (gemma4:e4b),M30,517.7934876670042,metadata.json:timings.end_to_end,517.6994952080131,3438.0,7698.0,11136.0
+M5,Gemma4 (gemma4:e4b),M31,451.77909404199454,metadata.json:timings.end_to_end,451.73034937499324,3682.0,6848.0,10530.0
+M5,Gemma4 (gemma4:e4b),M32,277.8500388329994,metadata.json:timings.end_to_end,277.7668488749914,2654.0,4203.0,6857.0
+M5,Gemma4 (gemma4:e4b),M33,226.83406158300932,metadata.json:timings.end_to_end,226.80495995898673,2680.0,3398.0,6078.0
+M5,Gemma4 (gemma4:e4b),M34,304.6079392919928,metadata.json:timings.end_to_end,304.56384887499735,2711.0,4673.0,7384.0
+M5,Gemma4 (gemma4:e4b),M35,371.9872996250051,metadata.json:timings.end_to_end,371.919996083001,2755.0,5605.0,8360.0
+M5,Gemma4 (gemma4:e4b),M36,300.7342006670078,metadata.json:timings.end_to_end,300.7114966250083,2950.0,4493.0,7443.0
+M5,Gemma4 (gemma4:e4b),M37,373.7403294160031,metadata.json:timings.end_to_end,373.6650857090135,3149.0,5518.0,8667.0
+M5,Gemma4 (gemma4:e4b),M38,233.01500833399768,metadata.json:timings.end_to_end,232.9482914180262,2354.0,3422.0,5776.0
+M5,Gemma4 (gemma4:e4b),M39,286.7482357909903,metadata.json:timings.end_to_end,286.71877749898704,2413.0,4223.0,6636.0
+M5,Gemma4 (gemma4:e4b),M40,195.18909058300778,metadata.json:timings.end_to_end,194.92962024899316,2422.0,2842.0,5264.0
+M5,Gemma4 (gemma4:e4b),M41,271.56022333299916,metadata.json:timings.end_to_end,271.53537458300707,2531.0,4012.0,6543.0
+M5,Gemma4 (gemma4:e4b),M42,208.42035054200096,metadata.json:timings.end_to_end,208.39876679300505,2714.0,3102.0,5816.0
+M5,Gemma4 (gemma4:e4b),M43,598.1643015000009,metadata.json:timings.end_to_end,598.1280060419958,7480.0,8891.0,16371.0
+M5,Gemma4 (gemma4:e4b),M44,373.9842414580053,metadata.json:timings.end_to_end,373.9319349180005,6402.0,5308.0,11710.0
+M5,Gemma4 (gemma4:e4b),M45,442.27622100000735,metadata.json:timings.end_to_end,442.21292408398585,6514.0,6218.0,12732.0
+M5,Gemma4 (gemma4:e4b),M46,684.7708974999987,metadata.json:timings.end_to_end,684.5786230830272,9282.0,9840.0,19122.0
+M5,Gemma4 (gemma4:e4b),M47,400.0441944159975,metadata.json:timings.end_to_end,399.93975795898587,11869.0,5513.0,17382.0
+M5,Gemma4 (gemma4:e4b),M48,300.6643282909936,metadata.json:timings.end_to_end,300.63036608399125,2914.0,4505.0,7419.0
+M5,Gemma4 (gemma4:e4b),M49,307.38158087499323,metadata.json:timings.end_to_end,307.35382287501125,2936.0,4632.0,7568.0
+M5,Gemma4 (gemma4:e4b),M50,441.44187004199193,metadata.json:timings.end_to_end,441.39931841701036,3050.0,6641.0,9691.0
+M5,Gemma4 (gemma4:e4b),M51,469.0131656670128,metadata.json:timings.end_to_end,468.9636864589993,3400.0,7098.0,10498.0
+M5,Gemma4 (gemma4:e4b),M52,387.48339891601063,metadata.json:timings.end_to_end,387.45892887498485,3671.0,5805.0,9476.0
+M5,Gemma4 (gemma4:e4b),M53,312.1504882080044,metadata.json:timings.end_to_end,312.10262212500675,2662.0,4675.0,7337.0
+M5,Gemma4 (gemma4:e4b),M54,300.9910006669961,metadata.json:timings.end_to_end,300.93696579399693,2679.0,4498.0,7177.0
+M5,Gemma4 (gemma4:e4b),M55,309.8019638330006,metadata.json:timings.end_to_end,309.7477092919871,2721.0,4658.0,7379.0
+M5,Gemma4 (gemma4:e4b),M56,266.801116290997,metadata.json:timings.end_to_end,266.75857391500904,2740.0,4061.0,6801.0
+M5,Gemma4 (gemma4:e4b),M57,322.17122249999375,metadata.json:timings.end_to_end,322.1312708740006,2916.0,4723.0,7639.0
+M5,Gemma4 (gemma4:e4b),M58,385.5662747089955,metadata.json:timings.end_to_end,385.3409843759873,3119.0,5711.0,8830.0
+M5,Gemma4 (gemma4:e4b),M59,232.378736957995,metadata.json:timings.end_to_end,232.3295955000067,2386.0,3377.0,5763.0
+M5,Gemma4 (gemma4:e4b),M60,270.7011206669995,metadata.json:timings.end_to_end,270.67049866700836,2403.0,3992.0,6395.0
+M5,Gemma4 (gemma4:e4b),M61,236.04797100000724,metadata.json:timings.end_to_end,235.95868870898266,2452.0,3363.0,5815.0
+M5,Gemma4 (gemma4:e4b),M62,225.87497112501296,metadata.json:timings.end_to_end,225.59972675000608,2506.0,3306.0,5812.0
+M5,Gemma4 (gemma4:e4b),M63,259.41939479199937,metadata.json:timings.end_to_end,259.309706998989,2709.0,3687.0,6396.0
+HCMC Bus,Gemini 2.5 Pro,H01,194.52929070900427,metadata.json:timings.end_to_end,194.4283582930002,7152.0,28326.0,35478.0
+HCMC Bus,Gemini 2.5 Pro,H02,175.8089501669965,metadata.json:timings.end_to_end,175.7891773750016,7899.0,26294.0,34193.0
+HCMC Bus,Gemini 2.5 Pro,H03,198.3323944589938,metadata.json:timings.end_to_end,198.31602645899693,7983.0,29117.0,37100.0
+HCMC Bus,Gemini 2.5 Pro,H04,215.90923912500148,metadata.json:timings.end_to_end,215.8800021660063,8997.0,33014.0,42011.0
+HCMC Bus,Gemini 2.5 Pro,H05,242.41695125000115,metadata.json:timings.end_to_end,242.39742212500278,10006.0,36403.0,46409.0
+HCMC Bus,Gemini 2.5 Pro,H06,82.69590445799986,metadata.json:timings.end_to_end,82.68601966600545,3152.0,10678.0,13830.0
+HCMC Bus,Gemini 2.5 Pro,H07,81.59198041700438,metadata.json:timings.end_to_end,81.57520429200667,2747.0,10915.0,13662.0
+HCMC Bus,Gemini 2.5 Pro,H08,81.59213387499767,metadata.json:timings.end_to_end,81.5820636240096,2812.0,10824.0,13636.0
+HCMC Bus,Gemini 2.5 Pro,H09,110.46342779199767,metadata.json:timings.end_to_end,110.45373229299003,3043.0,14959.0,18002.0
+HCMC Bus,Gemini 2.5 Pro,H10,84.93865208399802,metadata.json:timings.end_to_end,84.92168479199609,3603.0,11535.0,15138.0
+HCMC Bus,Gemini 2.5 Pro,H11,113.98565608399804,metadata.json:timings.end_to_end,113.97178316600184,2795.0,14866.0,17661.0
+HCMC Bus,Gemini 2.5 Pro,H12,129.16388154200104,metadata.json:timings.end_to_end,129.153681123993,2831.0,17486.0,20317.0
+HCMC Bus,Gemini 2.5 Pro,H13,112.03130516700185,metadata.json:timings.end_to_end,112.02410799900099,2861.0,15085.0,17946.0
+HCMC Bus,Gemini 2.5 Pro,H14,90.39766758299811,metadata.json:timings.end_to_end,90.38445754300483,2627.0,12012.0,14639.0
+HCMC Bus,Gemini 2.5 Pro,H15,83.53546874999302,metadata.json:timings.end_to_end,83.52342795799632,2817.0,10707.0,13524.0
+HCMC Bus,Gemini 2.5 Pro,H16,88.32110362499952,metadata.json:timings.end_to_end,88.30887025000266,2944.0,11746.0,14690.0
+HCMC Bus,Gemini 2.5 Pro,H17,50.568082666999544,metadata.json:timings.end_to_end,50.560107291996246,2471.0,6079.0,8550.0
+HCMC Bus,Gemini 2.5 Pro,H18,52.0180002920024,metadata.json:timings.end_to_end,52.005023832993174,2496.0,6022.0,8518.0
+HCMC Bus,Gemini 2.5 Pro,H19,85.379093208001,metadata.json:timings.end_to_end,85.36455104200286,2528.0,12109.0,14637.0
+HCMC Bus,Gemini 2.5 Pro,H20,93.77167662500142,metadata.json:timings.end_to_end,93.75781904200267,2623.0,12722.0,15345.0
+HCMC Bus,Gemini 2.5 Pro,H21,79.4487494999994,metadata.json:timings.end_to_end,79.43597908299853,2857.0,10450.0,13307.0
+HCMC Bus,Gemini 2.5 Pro,H22,147.24031087500043,metadata.json:timings.end_to_end,147.22288358300284,6955.0,21459.0,28414.0
+HCMC Bus,Gemini 2.5 Pro,H23,239.00360887499846,metadata.json:timings.end_to_end,238.98628337300033,7887.0,35607.0,43494.0
+HCMC Bus,Gemini 2.5 Pro,H24,122.38777699999628,metadata.json:timings.end_to_end,122.36878070801322,7722.0,17442.0,25164.0
+HCMC Bus,Gemini 2.5 Pro,H25,141.68234308400133,metadata.json:timings.end_to_end,141.66569137499755,9032.0,20758.0,29790.0
+HCMC Bus,Gemini 2.5 Pro,H26,190.84597579100227,metadata.json:timings.end_to_end,190.83208708400343,10012.0,26537.0,36549.0
+HCMC Bus,Gemini 2.5 Pro,H27,136.96530808300304,metadata.json:timings.end_to_end,136.9551230010111,3127.0,17642.0,20769.0
+HCMC Bus,Gemini 2.5 Pro,H28,89.45290141699661,metadata.json:timings.end_to_end,89.44450320800388,2757.0,11869.0,14626.0
+HCMC Bus,Gemini 2.5 Pro,H29,152.1929564999955,metadata.json:timings.end_to_end,152.18145670800004,3334.0,21297.0,24631.0
+HCMC Bus,Gemini 2.5 Pro,H30,89.4905235000042,metadata.json:timings.end_to_end,89.47857991700585,3074.0,12677.0,15751.0
+HCMC Bus,Gemini 2.5 Pro,H31,102.49652537499787,metadata.json:timings.end_to_end,102.48455770799046,3559.0,14295.0,17854.0
+HCMC Bus,Gemini 2.5 Pro,H32,69.9148740419987,metadata.json:timings.end_to_end,69.90204329199332,2526.0,8580.0,11106.0
+HCMC Bus,Gemini 2.5 Pro,H33,145.58162191599695,metadata.json:timings.end_to_end,145.5701445419836,2830.0,19338.0,22168.0
+HCMC Bus,Gemini 2.5 Pro,H34,107.06970875000115,metadata.json:timings.end_to_end,107.05546625100396,2858.0,14493.0,17351.0
+HCMC Bus,Gemini 2.5 Pro,H35,70.55448125000112,metadata.json:timings.end_to_end,70.54328220900788,2608.0,8975.0,11583.0
+HCMC Bus,Gemini 2.5 Pro,H36,105.35235900000407,metadata.json:timings.end_to_end,105.07709204200364,2842.0,15005.0,17847.0
+HCMC Bus,Gemini 2.5 Pro,H37,108.56285512500472,metadata.json:timings.end_to_end,108.54963533299451,2984.0,15670.0,18654.0
+HCMC Bus,Gemini 2.5 Pro,H38,23.163258249995124,metadata.json:timings.end_to_end,23.161821250003413,958.0,2761.0,3719.0
+HCMC Bus,Gemini 2.5 Pro,H39,29.78438395899866,metadata.json:timings.end_to_end,29.78381766700477,957.0,3739.0,4696.0
+HCMC Bus,Gemini 2.5 Pro,H40,82.91756841700408,metadata.json:timings.end_to_end,82.90188541800308,2565.0,11062.0,13627.0
+HCMC Bus,Gemini 2.5 Pro,H41,72.59267925000313,metadata.json:timings.end_to_end,72.5799859579929,2624.0,9696.0,12320.0
+HCMC Bus,Gemini 2.5 Pro,H42,87.49510779199773,metadata.json:timings.end_to_end,87.48338141699787,2807.0,11410.0,14217.0
+HCMC Bus,Gemini 2.5 Pro,H43,182.28862300000037,metadata.json:timings.end_to_end,182.27421508199768,7159.0,25462.0,32621.0
+HCMC Bus,Gemini 2.5 Pro,H44,152.89383087500028,metadata.json:timings.end_to_end,152.8788081249877,7870.0,22280.0,30150.0
+HCMC Bus,Gemini 2.5 Pro,H45,129.2480603330041,metadata.json:timings.end_to_end,129.22670654100511,7937.0,18482.0,26419.0
+HCMC Bus,Gemini 2.5 Pro,H46,135.80414525000378,metadata.json:timings.end_to_end,135.7879386659988,9533.0,20112.0,29645.0
+HCMC Bus,Gemini 2.5 Pro,H47,142.1250434169997,metadata.json:timings.end_to_end,142.10846504299843,10009.0,20212.0,30221.0
+HCMC Bus,Gemini 2.5 Pro,H48,53.71066562499618,metadata.json:timings.end_to_end,53.69947712400608,2685.0,6853.0,9538.0
+HCMC Bus,Gemini 2.5 Pro,H49,96.96528349999426,metadata.json:timings.end_to_end,96.95471766700211,3260.0,13505.0,16765.0
+HCMC Bus,Gemini 2.5 Pro,H50,142.52396574999875,metadata.json:timings.end_to_end,142.511742082992,3333.0,20069.0,23402.0
+HCMC Bus,Gemini 2.5 Pro,H51,100.10203937500046,metadata.json:timings.end_to_end,100.0925701249871,3034.0,14180.0,17214.0
+HCMC Bus,Gemini 2.5 Pro,H52,79.38088974999846,metadata.json:timings.end_to_end,79.36648433399387,3619.0,10994.0,14613.0
+HCMC Bus,Gemini 2.5 Pro,H53,126.87938608299737,metadata.json:timings.end_to_end,126.86787837400334,2799.0,17009.0,19808.0
+HCMC Bus,Gemini 2.5 Pro,H54,72.58802275000198,metadata.json:timings.end_to_end,72.57885687499947,2554.0,9529.0,12083.0
+HCMC Bus,Gemini 2.5 Pro,H55,86.91563195799972,metadata.json:timings.end_to_end,86.90523929299525,2590.0,12112.0,14702.0
+HCMC Bus,Gemini 2.5 Pro,H56,89.82018887499726,metadata.json:timings.end_to_end,89.81027520899806,2637.0,12279.0,14916.0
+HCMC Bus,Gemini 2.5 Pro,H57,64.83249754199642,metadata.json:timings.end_to_end,64.81979091600806,2789.0,8949.0,11738.0
+HCMC Bus,Gemini 2.5 Pro,H58,104.32791379199625,metadata.json:timings.end_to_end,104.31465379300062,2983.0,14210.0,17193.0
+HCMC Bus,Gemini 2.5 Pro,H59,29.079314707996673,metadata.json:timings.end_to_end,29.077892790999613,947.0,3856.0,4803.0
+HCMC Bus,Gemini 2.5 Pro,H60,35.590039167000214,metadata.json:timings.end_to_end,35.57870575100242,2510.0,4361.0,6871.0
+HCMC Bus,Gemini 2.5 Pro,H61,56.286153499997454,metadata.json:timings.end_to_end,56.26585399999749,2548.0,7426.0,9974.0
+HCMC Bus,Gemini 2.5 Pro,H62,69.76070383300248,metadata.json:timings.end_to_end,69.7496661250043,2612.0,9339.0,11951.0
+HCMC Bus,Gemini 2.5 Pro,H63,80.63313716700213,metadata.json:timings.end_to_end,80.62442937400192,2822.0,10927.0,13749.0
+HCMC Bus,Gemma4 (gemma4:e4b),H01,598.7601832079963,metadata.json:timings.end_to_end,598.6480102069982,11966.0,9074.0,21040.0
+HCMC Bus,Gemma4 (gemma4:e4b),H02,394.2328037500047,metadata.json:timings.end_to_end,394.1671879590067,11076.0,5233.0,16309.0
+HCMC Bus,Gemma4 (gemma4:e4b),H03,684.3944201659979,metadata.json:timings.end_to_end,684.3473125419987,12872.0,9538.0,22410.0
+HCMC Bus,Gemma4 (gemma4:e4b),H04,443.71749258300406,metadata.json:timings.end_to_end,443.6624657909997,12357.0,5830.0,18187.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,645.7453085000016,metadata.json:timings.end_to_end,645.6975211660028,18925.0,8736.0,27661.0
+HCMC Bus,Gemma4 (gemma4:e4b),H06,330.06543216700084,metadata.json:timings.end_to_end,330.03789508299815,3227.0,4788.0,8015.0
+HCMC Bus,Gemma4 (gemma4:e4b),H07,243.13422229100252,metadata.json:timings.end_to_end,243.11102383499383,2807.0,3429.0,6236.0
+HCMC Bus,Gemma4 (gemma4:e4b),H08,304.5906347919954,metadata.json:timings.end_to_end,304.5497196659926,2871.0,4317.0,7188.0
+HCMC Bus,Gemma4 (gemma4:e4b),H09,263.6640882079955,metadata.json:timings.end_to_end,263.580190749999,3103.0,3763.0,6866.0
+HCMC Bus,Gemma4 (gemma4:e4b),H10,245.99150662499596,metadata.json:timings.end_to_end,245.94313954100653,3729.0,3576.0,7305.0
+HCMC Bus,Gemma4 (gemma4:e4b),H11,305.132765250004,metadata.json:timings.end_to_end,305.10683700099617,2869.0,4566.0,7435.0
+HCMC Bus,Gemma4 (gemma4:e4b),H12,335.7731202079958,metadata.json:timings.end_to_end,335.7462467499863,2905.0,5085.0,7990.0
+HCMC Bus,Gemma4 (gemma4:e4b),H13,348.2464050000053,metadata.json:timings.end_to_end,348.2015695410082,2942.0,5009.0,7951.0
+HCMC Bus,Gemma4 (gemma4:e4b),H14,253.12642670900095,metadata.json:timings.end_to_end,253.09706462500617,2687.0,3697.0,6384.0
+HCMC Bus,Gemma4 (gemma4:e4b),H15,300.50920670800406,metadata.json:timings.end_to_end,300.47369104200334,2877.0,4432.0,7309.0
+HCMC Bus,Gemma4 (gemma4:e4b),H16,263.3280724590004,metadata.json:timings.end_to_end,263.3004385829918,3004.0,3866.0,6870.0
+HCMC Bus,Gemma4 (gemma4:e4b),H17,173.282946542,metadata.json:timings.end_to_end,173.25796554100089,2531.0,2489.0,5020.0
+HCMC Bus,Gemma4 (gemma4:e4b),H18,195.92894345900277,metadata.json:timings.end_to_end,195.89933604100224,2556.0,2829.0,5385.0
+HCMC Bus,Gemma4 (gemma4:e4b),H19,202.0215709999975,metadata.json:timings.end_to_end,202.00417887500225,2588.0,2975.0,5563.0
+HCMC Bus,Gemma4 (gemma4:e4b),H20,244.50559445800172,metadata.json:timings.end_to_end,244.4769879579908,2683.0,3527.0,6210.0
+HCMC Bus,Gemma4 (gemma4:e4b),H21,311.1780286669964,metadata.json:timings.end_to_end,311.1360905420079,2868.0,4459.0,7327.0
+HCMC Bus,Gemma4 (gemma4:e4b),H22,713.2253419580011,metadata.json:timings.end_to_end,713.1882915000024,11549.0,10139.0,21688.0
+HCMC Bus,Gemma4 (gemma4:e4b),H23,423.47013349999906,metadata.json:timings.end_to_end,423.4374184999906,11136.0,5838.0,16974.0
+HCMC Bus,Gemma4 (gemma4:e4b),H24,680.6850117499926,metadata.json:timings.end_to_end,680.6521038749706,12375.0,9883.0,22258.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,778.8742836670135,metadata.json:timings.end_to_end,778.828554415988,16725.0,11040.0,27765.0
+HCMC Bus,Gemma4 (gemma4:e4b),H26,438.8478952500009,metadata.json:timings.end_to_end,438.81198308299645,16771.0,5822.0,22593.0
+HCMC Bus,Gemma4 (gemma4:e4b),H27,320.121696000002,metadata.json:timings.end_to_end,320.0949628749804,3204.0,4860.0,8064.0
+HCMC Bus,Gemma4 (gemma4:e4b),H28,262.567747041001,metadata.json:timings.end_to_end,262.53642750198196,2817.0,3973.0,6790.0
+HCMC Bus,Gemma4 (gemma4:e4b),H29,378.671676708007,metadata.json:timings.end_to_end,378.6289332929882,3409.0,5710.0,9119.0
+HCMC Bus,Gemma4 (gemma4:e4b),H30,289.2568777080014,metadata.json:timings.end_to_end,289.2248640420148,3137.0,4325.0,7462.0
+HCMC Bus,Gemma4 (gemma4:e4b),H31,264.7201492919994,metadata.json:timings.end_to_end,264.6793016670126,3699.0,3626.0,7325.0
+HCMC Bus,Gemma4 (gemma4:e4b),H32,248.97174337499018,metadata.json:timings.end_to_end,248.95423845799814,2585.0,3594.0,6179.0
+HCMC Bus,Gemma4 (gemma4:e4b),H33,396.6527527080034,metadata.json:timings.end_to_end,396.63624541701574,2905.0,5840.0,8745.0
+HCMC Bus,Gemma4 (gemma4:e4b),H34,387.9801924580097,metadata.json:timings.end_to_end,387.9549811669858,2938.0,5613.0,8551.0
+HCMC Bus,Gemma4 (gemma4:e4b),H35,243.48936174999108,metadata.json:timings.end_to_end,243.46172487500007,2672.0,3456.0,6128.0
+HCMC Bus,Gemma4 (gemma4:e4b),H36,216.615246166999,metadata.json:timings.end_to_end,216.25727279199782,2902.0,3667.0,6569.0
+HCMC Bus,Gemma4 (gemma4:e4b),H37,302.33113229100127,metadata.json:timings.end_to_end,302.2992970839987,3044.0,4260.0,7304.0
+HCMC Bus,Gemma4 (gemma4:e4b),H38,316.2276164590003,metadata.json:timings.end_to_end,316.2107675849984,3132.0,4496.0,7628.0
+HCMC Bus,Gemma4 (gemma4:e4b),H39,169.61648679200152,metadata.json:timings.end_to_end,169.59986183299043,2558.0,2328.0,4886.0
+HCMC Bus,Gemma4 (gemma4:e4b),H40,276.52616679199855,metadata.json:timings.end_to_end,276.49854558499646,2625.0,3932.0,6557.0
+HCMC Bus,Gemma4 (gemma4:e4b),H41,286.2763345419953,metadata.json:timings.end_to_end,286.2441940839926,2679.0,4054.0,6733.0
+HCMC Bus,Gemma4 (gemma4:e4b),H42,236.14081662500394,metadata.json:timings.end_to_end,236.1185787509894,2867.0,3394.0,6261.0
+HCMC Bus,Gemma4 (gemma4:e4b),H43,666.8159532080026,metadata.json:timings.end_to_end,666.7801112080051,11972.0,9102.0,21074.0
+HCMC Bus,Gemma4 (gemma4:e4b),H44,531.7920174169994,metadata.json:timings.end_to_end,531.7033756660094,10993.0,6539.0,17532.0
+HCMC Bus,Gemma4 (gemma4:e4b),H45,797.5179474579927,metadata.json:timings.end_to_end,797.4668698310124,12787.0,9729.0,22516.0
+HCMC Bus,Gemma4 (gemma4:e4b),H46,725.5401992080006,metadata.json:timings.end_to_end,725.4758574990119,15007.0,8549.0,23556.0
+HCMC Bus,Gemma4 (gemma4:e4b),H47,475.8900352089986,metadata.json:timings.end_to_end,475.84181549801724,17314.0,5312.0,22626.0
+HCMC Bus,Gemma4 (gemma4:e4b),H48,308.9379222080024,metadata.json:timings.end_to_end,308.9118618340144,2746.0,3937.0,6683.0
+HCMC Bus,Gemma4 (gemma4:e4b),H49,435.5834341250011,metadata.json:timings.end_to_end,435.5523059170082,3341.0,5604.0,8945.0
+HCMC Bus,Gemma4 (gemma4:e4b),H50,458.68219933299406,metadata.json:timings.end_to_end,458.65485045700916,3410.0,5650.0,9060.0
+HCMC Bus,Gemma4 (gemma4:e4b),H51,333.74122845800593,metadata.json:timings.end_to_end,333.687265665998,3094.0,3915.0,7009.0
+HCMC Bus,Gemma4 (gemma4:e4b),H52,354.23534004100657,metadata.json:timings.end_to_end,354.1624012079992,3679.0,4170.0,7849.0
+HCMC Bus,Gemma4 (gemma4:e4b),H53,354.09092495900404,metadata.json:timings.end_to_end,354.04341412501526,2874.0,4336.0,7210.0
+HCMC Bus,Gemma4 (gemma4:e4b),H54,280.1319667090138,metadata.json:timings.end_to_end,280.0978084170056,2616.0,3270.0,5886.0
+HCMC Bus,Gemma4 (gemma4:e4b),H55,311.61345083299966,metadata.json:timings.end_to_end,311.5765141669981,2650.0,3652.0,6302.0
+HCMC Bus,Gemma4 (gemma4:e4b),H56,322.2086879169947,metadata.json:timings.end_to_end,322.1719674590131,2697.0,3923.0,6620.0
+HCMC Bus,Gemma4 (gemma4:e4b),H57,268.20796616699954,metadata.json:timings.end_to_end,268.17507350099913,2851.0,3358.0,6209.0
+HCMC Bus,Gemma4 (gemma4:e4b),H58,328.6382956250018,metadata.json:timings.end_to_end,328.6075144989736,3043.0,4014.0,7057.0
+HCMC Bus,Gemma4 (gemma4:e4b),H59,208.56310333299916,metadata.json:timings.end_to_end,208.51299741699768,2499.0,2504.0,5003.0
+HCMC Bus,Gemma4 (gemma4:e4b),H60,242.51183675001084,metadata.json:timings.end_to_end,242.4957609159901,2570.0,2994.0,5564.0
+HCMC Bus,Gemma4 (gemma4:e4b),H61,285.96742287499364,metadata.json:timings.end_to_end,285.93536070799746,2607.0,3566.0,6173.0
+HCMC Bus,Gemma4 (gemma4:e4b),H62,287.00648383400403,metadata.json:timings.end_to_end,286.9699746240076,2672.0,3606.0,6278.0
+HCMC Bus,Gemma4 (gemma4:e4b),H63,71.41918275000353,metadata.json:timings.end_to_end,71.4115889579989,985.0,900.0,1885.0

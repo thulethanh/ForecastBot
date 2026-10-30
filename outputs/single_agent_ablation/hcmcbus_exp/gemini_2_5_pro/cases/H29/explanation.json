@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo cho 6 tháng tới về số lượt hành khách trên tuyến xe buýt số 3 do HTX-195 vận hành, dựa trên dữ liệu lịch sử từ tháng 1/2022 đến tháng 6/2024. Dự báo cho thấy số lượt khách có xu hướng tăng từ tháng 7, đạt đỉnh vào tháng 10 (khoảng 137,049 lượt), sau đó giảm nhẹ vào cuối năm.",
+  "insights": [
+    "Tháng 10/2024 được dự báo là tháng có số lượt khách cao nhất trong giai đoạn dự báo, đạt khoảng 137,049 lượt. Con số này gần với mức cao nhất đã được ghi nhận trong dữ liệu lịch sử (137,948 lượt).",
+    "Dự báo được tạo ra bằng phương pháp tổ hợp (ensemble), kết hợp một mô hình dựa trên toàn bộ 30 tháng dữ liệu và một mô hình tập trung vào 24 tháng gần đây. Mô hình gần đây có trọng số cao hơn (60%), cho thấy các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử (30 điểm) từ tháng 1/2022 đến tháng 6/2024 và dự báo cho 6 tháng tiếp theo."
+}

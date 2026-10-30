@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 3,
+  "filters": {
+    "route_id": "100",
+    "operator": "HTX-VTHANG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '100' AND TRIM(d.operator) = 'HTX-VTHANG' GROUP BY DATE_TRUNC('quarter', d.date) ORDER BY ds ASC",
+  "sql_explanation": "Retrieves the total number of passengers (y) for route 100 operated by HTX-VTHANG, aggregated by quarter (ds)."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M60",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo theo năm cho đúng mặt hàng và cửa hàng, nêu rõ 4 điểm lịch sử, mức trung bình 282.5 và hai giá trị dự báo 125.0 तथा 105.0. Các nhận định về xu hướng giảm và mức giảm 20.0 đơn vị đều khớp trực tiếp với forecast. Chart note cũng phù hợp với window_info h4 và horizon 2. Nội dung ngắn gọn, mạch lạc và giúp người dùng hiểu mức dự báo cùng chiều hướng biến động."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.8090920420072507,
+    "input_tokens": 2207,
+    "output_tokens": 194,
+    "total_tokens": 2401,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo theo năm cho đúng mặt hàng và cửa hàng, nêu rõ 4 điểm lịch sử, mức trung bình 282.5 và hai giá trị dự báo 125.0 तथा 105.0. Các nhận định về xu hướng giảm và mức giảm 20.0 đơn vị đều khớp trực tiếp với forecast. Chart note cũng phù hợp với window_info h4 và horizon 2. Nội dung ngắn gọn, mạch lạc và giúp người dùng hiểu mức dự báo cùng chiều hướng biến động.\"}"
+  }
+}

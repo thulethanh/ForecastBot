@@ -1,0 +1,33 @@
+{
+  "case_id": "M15",
+  "question": "Tôi muốn dự báo nhu cầu của sản phẩm HOUSEHOLD_1_143 tại bang CA trong 8 quý tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 14,
+    "n_test": 8,
+    "horizon": 8,
+    "minimum_train_required": 8,
+    "required_points_for_evaluation": 16,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.090955709001719,
+    "load_schema": 0.0012057080020895228,
+    "sql_generation": 11.14111970799786,
+    "sql_execution_and_repair": 0.034791291000146884,
+    "forecast": 105.97133895799925,
+    "explanation": 22.526286666998203,
+    "end_to_end": 145.76573391700003
+  },
+  "total_tokens": 20521,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

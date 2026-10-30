@@ -1,0 +1,26 @@
+{
+  "case_id": "H02",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Câu \"cho thấy sự ổn định cao của dữ liệu trong khung thời gian này\" suy diễn về độ ổn định của dữ liệu, trong khi thông tin được cung cấp chỉ xác nhận các giá trị dự báo đều bằng 1796.0."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, 28 ngày dự báo, khoảng ngày và mức dự báo 1796.0. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số và hai cửa sổ đều khớp kết quả dự báo. Nội dung rõ ràng và hữu ích khi nêu được mức dự báo phẳng trên toàn kỳ. Tuy nhiên, dự báo đồng nhất không tự nó chứng minh dữ liệu thực tế có độ ổn định cao; đây là một diễn giải hơi mạnh so với bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.1197122919838876,
+    "input_tokens": 3138,
+    "output_tokens": 390,
+    "total_tokens": 3528,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Câu \\\"cho thấy sự ổn định cao của dữ liệu trong khung thời gian này\\\" suy diễn về độ ổn định của dữ liệu, trong khi thông tin được cung cấp chỉ xác nhận các giá trị dự báo đều bằng 1796.0.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, 28 ngày dự báo, khoảng ngày và mức dự báo 1796.0. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số và hai cửa sổ đều khớp kết quả dự báo. Nội dung rõ ràng và hữu ích khi nêu được mức dự báo phẳng trên toàn kỳ. Tuy nhiên, dự báo đồng nhất không tự nó chứng minh dữ liệu thực tế có độ ổn định cao; đây là một diễn giải hơi mạnh so với bằng chứng.\"}"
+  }
+}

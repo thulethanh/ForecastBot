@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Lộ trình 48, Nhà khai thác HTX-195) đã được thực hiện thành công với độ chi tiết theo năm, dự đoán cho 5 năm tiếp theo (2025-2029). Kết quả cho thấy một xu hướng tăng trưởng ổn định và liên tục qua các năm.",
+  "insights": [
+    "Mô hình dự báo sử dụng phương pháp 'single' và được cân nhắc trọng số cao hơn cho dữ liệu ngắn hạn (0.6) so với dữ liệu dài hạn (0.4).",
+    "Các giá trị dự báo cho thấy sự gia tăng đều đặn hàng năm, bắt đầu từ 400,225.0 vào năm 2025 và đạt 414,578.8 vào năm 2029.",
+    "Dự báo được xây dựng dựa trên 3 điểm dữ liệu lịch sử (từ 2022 đến 2024)."
+  ],
+  "chart_note": "Đây là dự báo toán học cho 5 năm tới, không phải giá trị thực tế. Các giá trị được tính toán theo độ chi tiết hàng năm."
+}

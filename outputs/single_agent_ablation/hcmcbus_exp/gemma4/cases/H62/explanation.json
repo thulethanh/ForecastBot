@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã hoàn thành việc dự báo dữ liệu cho bộ dữ liệu HCMC_BUS, áp dụng cho tuyến 91 của nhà khai thác XKSG, trong vòng 5 năm tới (2025-2029). Mô hình đã xác định một xu hướng tăng trưởng ổn định qua các năm dự báo.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng tăng trưởng liên tục, bắt đầu từ 684,283.5 vào năm 2025 và tăng dần lên 777,657.5 vào năm 2029.",
+    "Việc dự báo được thực hiện bằng chế độ 'single' (đơn), sử dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 3 điểm dữ liệu, trải dài từ năm 2022 đến năm 2024."
+  ],
+  "chart_note": "Kết quả này là dự báo toán học dựa trên dữ liệu lịch sử có sẵn và không đại diện cho các giá trị thực tế trong tương lai."
+}

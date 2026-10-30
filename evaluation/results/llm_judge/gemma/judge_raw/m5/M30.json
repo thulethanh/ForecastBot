@@ -1,0 +1,26 @@
+{
+  "case_id": "M30",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 52 điểm\" không được hỗ trợ trực tiếp: thông tin cung cấp chỉ nêu phạm vi lịch sử và các cửa sổ của nhánh dự báo, không xác nhận 52 điểm được dùng để huấn luyện mô hình."
+    ],
+    "reason_vi": "Explanation bám sát đúng mặt hàng, cửa hàng, kỳ hạn 12 tháng và nêu chính xác tháng/giá trị dự báo cao nhất, thấp nhất. Mô tả biến động sau đỉnh tháng 06/2015 nhìn chung phù hợp với dãy dự báo, dù tính “ổn định hơn” là nhận định định tính. Nội dung rõ ràng, ngắn gọn và hữu ích để hiểu biên độ cùng diễn biến dự báo. Tuy nhiên, chart_note khẳng định 52 điểm lịch sử được dùng để “huấn luyện”, trong khi dữ liệu chỉ cho biết lịch sử khả dụng và cửa sổ ensemble, nên nhận định này không có căn cứ trực tiếp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.915889083989896,
+    "input_tokens": 2626,
+    "output_tokens": 471,
+    "total_tokens": 3097,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 52 điểm\\\" không được hỗ trợ trực tiếp: thông tin cung cấp chỉ nêu phạm vi lịch sử và các cửa sổ của nhánh dự báo, không xác nhận 52 điểm được dùng để huấn luyện mô hình.\"],\"reason_vi\":\"Explanation bám sát đúng mặt hàng, cửa hàng, kỳ hạn 12 tháng và nêu chính xác tháng/giá trị dự báo cao nhất, thấp nhất. Mô tả biến động sau đỉnh tháng 06/2015 nhìn chung phù hợp với dãy dự báo, dù tính “ổn định hơn” là nhận định định tính. Nội dung rõ ràng, ngắn gọn và hữu ích để hiểu biên độ cùng diễn biến dự báo. Tuy nhiên, chart_note khẳng định 52 điểm lịch sử được dùng để “huấn luyện”, trong khi dữ liệu chỉ cho biết lịch sử khả dụng và cửa sổ ensemble, nên nhận định này không có căn cứ trực tiếp.\"}"
+  }
+}

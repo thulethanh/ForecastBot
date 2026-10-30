@@ -1,0 +1,24 @@
+{
+  "case_id": "H60",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo năm cho đúng tuyến và nhóm xe, nêu đầy đủ hai giá trị dự báo. Các nhận định đều phù hợp với dữ liệu: lịch sử chỉ có một điểm năm 2022 và dự báo giữ nguyên mức 1.031.944 cho hai năm tiếp theo. Phần giải thích cũng nêu đúng hạn chế là không thể suy ra xu hướng hay mùa vụ từ một quan sát, trình bày ngắn gọn và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.53336054191459,
+    "input_tokens": 2153,
+    "output_tokens": 376,
+    "total_tokens": 2529,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo năm cho đúng tuyến và nhóm xe, nêu đầy đủ hai giá trị dự báo. Các nhận định đều phù hợp với dữ liệu: lịch sử chỉ có một điểm năm 2022 và dự báo giữ nguyên mức 1.031.944 cho hai năm tiếp theo. Phần giải thích cũng nêu đúng hạn chế là không thể suy ra xu hướng hay mùa vụ từ một quan sát, trình bày ngắn gọn và hữu ích.\"}"
+  }
+}

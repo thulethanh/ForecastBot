@@ -1,0 +1,27 @@
+{
+  "case_id": "M59",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Khẳng định không có xu hướng tăng/giảm hoặc tính thời vụ rõ rệt nào được phát hiện trong dữ liệu lịch sử; tóm tắt lịch sử không cung cấp chi tiết diễn biến hay mùa vụ.",
+      "Nhận định doanh số giai đoạn gần đây có thể đã cao hơn trung bình toàn thời gian; dữ liệu được cung cấp không có các giá trị gần đây để hỗ trợ suy luận này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, cửa hàng, kỳ hạn 12 tháng và nêu chính xác mức dự báo cố định 34.94. So sánh với trung bình lịch sử 6.04 là đúng, đồng thời thông tin về hai cửa sổ 36/52 tháng và trọng số 60%/40% phù hợp kết quả forecast. Tuy nhiên, tóm tắt lịch sử không đủ để kết luận mô hình không phát hiện xu hướng hoặc mùa vụ, cũng không cho thấy mức bán giai đoạn gần đây. Trình bày rõ ràng, hữu ích, nhưng thiếu lưu ý về độ bất định của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.226972375065088,
+    "input_tokens": 2606,
+    "output_tokens": 453,
+    "total_tokens": 3059,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Khẳng định không có xu hướng tăng/giảm hoặc tính thời vụ rõ rệt nào được phát hiện trong dữ liệu lịch sử; tóm tắt lịch sử không cung cấp chi tiết diễn biến hay mùa vụ.\",\"Nhận định doanh số giai đoạn gần đây có thể đã cao hơn trung bình toàn thời gian; dữ liệu được cung cấp không có các giá trị gần đây để hỗ trợ suy luận này.\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, cửa hàng, kỳ hạn 12 tháng và nêu chính xác mức dự báo cố định 34.94. So sánh với trung bình lịch sử 6.04 là đúng, đồng thời thông tin về hai cửa sổ 36/52 tháng và trọng số 60%/40% phù hợp kết quả forecast. Tuy nhiên, tóm tắt lịch sử không đủ để kết luận mô hình không phát hiện xu hướng hoặc mùa vụ, cũng không cho thấy mức bán giai đoạn gần đây. Trình bày rõ ràng, hữu ích, nhưng thiếu lưu ý về độ bất định của dự báo.\"}"
+  }
+}

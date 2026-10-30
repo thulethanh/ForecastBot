@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho HCMC_BUS (Tuyến 122, HTX-195)",
+  "summary_text": "Dự báo đã được thực hiện thành công cho dữ liệu HCMC_BUS, áp dụng cho tuyến 122 của nhà khai thác HTX-195, với độ chi tiết theo quý. Kết quả dự báo bao gồm 12 bước, kéo dài từ quý 1 năm 2025 đến quý 4 năm 2027, cho thấy một xu hướng tăng trưởng ổn định và liên tục.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên 12 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-10-01) và sử dụng chế độ dự báo đơn (single mode).",
+    "Xu hướng dự báo cho thấy sự tăng trưởng tuyến tính rõ rệt, bắt đầu từ mức 518,269.0 vào quý 1 năm 2025 và đạt mức 1,068,269.0 vào quý 4 năm 2027.",
+    "Mỗi quý tiếp theo trong giai đoạn dự báo đều được dự đoán tăng thêm một lượng tương đương 50,000 đơn vị so với quý trước đó."
+  ],
+  "chart_note": "Các giá trị dự báo (yhat) là ước tính toán học dựa trên xu hướng lịch sử và không đại diện cho các giá trị thực tế trong tương lai."
+}

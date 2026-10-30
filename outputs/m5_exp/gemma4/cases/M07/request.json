@@ -1,0 +1,13 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 3,
+  "filters": {
+    "item_id": "FOODS_3_718",
+    "store_id": "CA_3"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

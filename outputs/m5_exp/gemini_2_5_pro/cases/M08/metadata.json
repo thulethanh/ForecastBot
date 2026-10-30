@@ -1,0 +1,33 @@
+{
+  "case_id": "M08",
+  "question": "Hãy dự báo nhu cầu bán của sản phẩm HOBBIES_1_124 tại cửa hàng CA_1, bang CA trong 6 tháng tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 58,
+    "n_test": 6,
+    "horizon": 6,
+    "minimum_train_required": 6,
+    "required_points_for_evaluation": 12,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.68038795800021,
+    "load_schema": 0.0018007079997914843,
+    "sql_generation": 13.455059042000357,
+    "sql_execution_and_repair": 0.014122208001936087,
+    "forecast": 112.79226083300091,
+    "explanation": 22.394299833998957,
+    "end_to_end": 155.3379740829987
+  },
+  "total_tokens": 23440,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id HOUSEHOLD_1_230 tại store_id WI_1 cho 2 năm tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2014-01-01, ForecastBot dự báo giá trị sẽ giảm so với mức trung bình lịch sử là 282.5. Dự báo cho năm 2015 là 120.7 và cho năm 2016 là 94.0.",
+  "insights": [
+    "Giá trị dự báo cho 2015-01-01 là 120.7 và cho 2016-01-01 là 94.0.",
+    "Các giá trị dự báo này thấp hơn mức tối thiểu trong lịch sử là 155.0.",
+    "Dữ liệu lịch sử có 4 điểm, với giá trị trung bình là 282.5 và dao động từ 155.0 đến 401.0."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử gồm 4 điểm từ 2011-01-01 đến 2014-01-01 và dự báo của ForecastBot cho 2 năm tiếp theo."
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H18",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 1 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết có 1 điểm lịch sử và các cửa sổ dự báo có kích thước 1, không nêu thông tin huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 2 năm cho đúng tuyến/đơn vị, nêu chính xác các giá trị dự báo 2023–2024 và trạng thái duy trì không đổi. Trình bày rõ ràng, ngắn gọn; thông tin chế độ single và trọng số cũng khớp kết quả. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên 1 điểm dữ liệu không có bằng chứng trực tiếp trong thông tin cung cấp. Giải thích sẽ hữu ích hơn nếu lưu ý dự báo dựa trên chỉ một quan sát lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.646895540994592,
+    "input_tokens": 2168,
+    "output_tokens": 307,
+    "total_tokens": 2475,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 1 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết có 1 điểm lịch sử và các cửa sổ dự báo có kích thước 1, không nêu thông tin huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 2 năm cho đúng tuyến/đơn vị, nêu chính xác các giá trị dự báo 2023–2024 và trạng thái duy trì không đổi. Trình bày rõ ràng, ngắn gọn; thông tin chế độ single và trọng số cũng khớp kết quả. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên 1 điểm dữ liệu không có bằng chứng trực tiếp trong thông tin cung cấp. Giải thích sẽ hữu ích hơn nếu lưu ý dự báo dựa trên chỉ một quan sát lịch sử.\"}"
+  }
+}

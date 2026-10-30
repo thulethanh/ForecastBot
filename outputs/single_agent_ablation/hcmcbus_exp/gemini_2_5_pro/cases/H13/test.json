@@ -1,0 +1,21 @@
+{
+  "status": "available",
+  "evaluation_eligible": true,
+  "reason": null,
+  "horizon": 3,
+  "n_test": 3,
+  "test": [
+    {
+      "ds": "2024-04-01",
+      "y": 194237
+    },
+    {
+      "ds": "2024-07-01",
+      "y": 198603
+    },
+    {
+      "ds": "2024-10-01",
+      "y": 228715
+    }
+  ]
+}

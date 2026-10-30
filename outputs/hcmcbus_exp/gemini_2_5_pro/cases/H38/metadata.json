@@ -1,0 +1,17 @@
+{
+  "case_id": "H38",
+  "question": "Trong 1 năm tới, lượng khách của tuyến 126 do HTX-195 vận hành sẽ như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "orchestration": 23.161908875001245,
+    "end_to_end": 23.163258249995124
+  },
+  "total_tokens": 3719,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "needs_clarification: granularity,horizon"
+}

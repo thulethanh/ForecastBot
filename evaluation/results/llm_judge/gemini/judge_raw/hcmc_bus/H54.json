@@ -1,0 +1,26 @@
+{
+  "case_id": "H54",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"8 điểm dữ liệu lịch sử ... được sử dụng để huấn luyện mô hình\" không được history summary hoặc forecast_result xác nhận; các thông tin này chỉ xác nhận có 8 điểm lịch sử và hai cửa sổ đều có 8 quan sát."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, hai quý cần dự báo và nêu chính xác các mức dự báo, xu hướng giảm nhẹ quý sau, cùng thống kê lịch sử. Các số liệu về trung bình, min/max, số điểm và thời gian lịch sử đều khớp dữ liệu cung cấp. Tuy nhiên, chart_note khẳng định dữ liệu được dùng để “huấn luyện mô hình”, trong khi thông tin đầu vào chỉ cho biết cửa sổ dự báo gồm 8 quan sát, không xác nhận việc huấn luyện/fine-tune. Trình bày rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.22008820901101,
+    "input_tokens": 2274,
+    "output_tokens": 314,
+    "total_tokens": 2588,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"8 điểm dữ liệu lịch sử ... được sử dụng để huấn luyện mô hình\\\" không được history summary hoặc forecast_result xác nhận; các thông tin này chỉ xác nhận có 8 điểm lịch sử và hai cửa sổ đều có 8 quan sát.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, hai quý cần dự báo và nêu chính xác các mức dự báo, xu hướng giảm nhẹ quý sau, cùng thống kê lịch sử. Các số liệu về trung bình, min/max, số điểm và thời gian lịch sử đều khớp dữ liệu cung cấp. Tuy nhiên, chart_note khẳng định dữ liệu được dùng để “huấn luyện mô hình”, trong khi thông tin đầu vào chỉ cho biết cửa sổ dự báo gồm 8 quan sát, không xác nhận việc huấn luyện/fine-tune. Trình bày rõ ràng và hữu ích.\"}"
+  }
+}

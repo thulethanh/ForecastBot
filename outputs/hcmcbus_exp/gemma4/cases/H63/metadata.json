@@ -1,0 +1,17 @@
+{
+  "case_id": "H63",
+  "question": "Trong 10 năm tới, lượng khách của tuyến 99 do HTX-ThanhSon vận hành, sử dụng nhóm xe 2B.1_ML sẽ như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "orchestration": 71.41200958300033,
+    "end_to_end": 71.41918275000353
+  },
+  "total_tokens": 1885,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "needs_clarification: granularity"
+}

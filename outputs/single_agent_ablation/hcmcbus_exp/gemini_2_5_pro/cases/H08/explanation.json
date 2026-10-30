@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 6 tháng tới, từ tháng 7/2023 đến tháng 12/2023, cho tuyến xe 30 của nhà xe XKSG, nhóm xe 4A_ML. Dự báo cho thấy sản lượng sẽ giảm trong hai tháng đầu, sau đó tăng mạnh và đạt đỉnh vào tháng 10 với khoảng 101 nghìn. Các giá trị sau đó có xu hướng giảm dần về cuối năm.",
+  "insights": [
+    "Dự báo đạt đỉnh vào tháng 10/2023 với giá trị 100.941, cao hơn mức cao nhất trong dữ liệu lịch sử được cung cấp (100.349).",
+    "Dự báo cho thấy một sự sụt giảm trong tháng 8/2023 xuống còn 62.273, thấp hơn mức trung bình lịch sử (70.101), trước khi phục hồi mạnh mẽ trong các tháng tiếp theo."
+  ],
+  "chart_note": "Dự báo được tạo ra dựa trên dữ liệu lịch sử từ tháng 1/2022 đến tháng 6/2023."
+}

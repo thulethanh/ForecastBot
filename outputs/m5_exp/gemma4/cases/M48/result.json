@@ -1,0 +1,700 @@
+{
+  "case_id": "M48",
+  "question": "Hãy dự báo nhu cầu bán của sản phẩm FOODS_1_002 tại cửa hàng WI_1, bang WI trong 1 tháng tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "forecast_request": {
+    "intent": "forecast_request",
+    "dataset": "M5",
+    "granularity": "month",
+    "horizon": 1,
+    "filters": {
+      "item_id": "FOODS_1_002",
+      "store_id": "WI_1",
+      "state_id": "WI"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": ""
+  },
+  "generated_sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_1_002' AND s.store_id = 'WI_1' AND s.state_id = 'WI' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "Truy vấn này tính tổng doanh số bán hàng (y) theo tháng (ds) cho sản phẩm 'FOODS_1_002' tại cửa hàng 'WI_1' ở bang 'WI', sử dụng bảng m5_sales_train và m5_calendar.",
+  "sql_result": [
+    {
+      "ds": "2011-01-01",
+      "y": 1.0
+    },
+    {
+      "ds": "2011-02-01",
+      "y": 19.0
+    },
+    {
+      "ds": "2011-03-01",
+      "y": 17.0
+    },
+    {
+      "ds": "2011-04-01",
+      "y": 13.0
+    },
+    {
+      "ds": "2011-05-01",
+      "y": 9.0
+    },
+    {
+      "ds": "2011-06-01",
+      "y": 3.0
+    },
+    {
+      "ds": "2011-07-01",
+      "y": 6.0
+    },
+    {
+      "ds": "2011-08-01",
+      "y": 12.0
+    },
+    {
+      "ds": "2011-09-01",
+      "y": 23.0
+    },
+    {
+      "ds": "2011-10-01",
+      "y": 15.0
+    },
+    {
+      "ds": "2011-11-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2011-12-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2012-01-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2012-02-01",
+      "y": 26.0
+    },
+    {
+      "ds": "2012-03-01",
+      "y": 30.0
+    },
+    {
+      "ds": "2012-04-01",
+      "y": 32.0
+    },
+    {
+      "ds": "2012-05-01",
+      "y": 31.0
+    },
+    {
+      "ds": "2012-06-01",
+      "y": 31.0
+    },
+    {
+      "ds": "2012-07-01",
+      "y": 30.0
+    },
+    {
+      "ds": "2012-08-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2012-09-01",
+      "y": 31.0
+    },
+    {
+      "ds": "2012-10-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2012-11-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2012-12-01",
+      "y": 28.0
+    },
+    {
+      "ds": "2013-01-01",
+      "y": 23.0
+    },
+    {
+      "ds": "2013-02-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2013-03-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2013-04-01",
+      "y": 22.0
+    },
+    {
+      "ds": "2013-05-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2013-06-01",
+      "y": 24.0
+    },
+    {
+      "ds": "2013-07-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2013-08-01",
+      "y": 25.0
+    },
+    {
+      "ds": "2013-09-01",
+      "y": 25.0
+    },
+    {
+      "ds": "2013-10-01",
+      "y": 30.0
+    },
+    {
+      "ds": "2013-11-01",
+      "y": 16.0
+    },
+    {
+      "ds": "2013-12-01",
+      "y": 14.0
+    },
+    {
+      "ds": "2014-01-01",
+      "y": 18.0
+    },
+    {
+      "ds": "2014-02-01",
+      "y": 18.0
+    },
+    {
+      "ds": "2014-03-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2014-04-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2014-05-01",
+      "y": 18.0
+    },
+    {
+      "ds": "2014-06-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2014-07-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2014-08-01",
+      "y": 23.0
+    },
+    {
+      "ds": "2014-09-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2014-10-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2014-11-01",
+      "y": 18.0
+    },
+    {
+      "ds": "2014-12-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2015-01-01",
+      "y": 28.0
+    },
+    {
+      "ds": "2015-02-01",
+      "y": 26.0
+    },
+    {
+      "ds": "2015-03-01",
+      "y": 25.0
+    },
+    {
+      "ds": "2015-04-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2015-05-01",
+      "y": 31.0
+    },
+    {
+      "ds": "2015-06-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2015-07-01",
+      "y": 23.0
+    },
+    {
+      "ds": "2015-08-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2015-09-01",
+      "y": 26.0
+    },
+    {
+      "ds": "2015-10-01",
+      "y": 29.0
+    },
+    {
+      "ds": "2015-11-01",
+      "y": 32.0
+    },
+    {
+      "ds": "2015-12-01",
+      "y": 32.0
+    },
+    {
+      "ds": "2016-01-01",
+      "y": 29.0
+    },
+    {
+      "ds": "2016-02-01",
+      "y": 35.0
+    },
+    {
+      "ds": "2016-03-01",
+      "y": 28.0
+    },
+    {
+      "ds": "2016-04-01",
+      "y": 23.0
+    }
+  ],
+  "historical_data_summary": {
+    "n_points": 64,
+    "start_date": "2011-01-01",
+    "end_date": "2016-04-01",
+    "min_y": 1.0,
+    "max_y": 35.0,
+    "mean_y": 22.515625
+  },
+  "historical_n": 64,
+  "forecast_history": [
+    {
+      "ds": "2011-01-01",
+      "y": 1.0
+    },
+    {
+      "ds": "2011-02-01",
+      "y": 19.0
+    },
+    {
+      "ds": "2011-03-01",
+      "y": 17.0
+    },
+    {
+      "ds": "2011-04-01",
+      "y": 13.0
+    },
+    {
+      "ds": "2011-05-01",
+      "y": 9.0
+    },
+    {
+      "ds": "2011-06-01",
+      "y": 3.0
+    },
+    {
+      "ds": "2011-07-01",
+      "y": 6.0
+    },
+    {
+      "ds": "2011-08-01",
+      "y": 12.0
+    },
+    {
+      "ds": "2011-09-01",
+      "y": 23.0
+    },
+    {
+      "ds": "2011-10-01",
+      "y": 15.0
+    },
+    {
+      "ds": "2011-11-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2011-12-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2012-01-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2012-02-01",
+      "y": 26.0
+    },
+    {
+      "ds": "2012-03-01",
+      "y": 30.0
+    },
+    {
+      "ds": "2012-04-01",
+      "y": 32.0
+    },
+    {
+      "ds": "2012-05-01",
+      "y": 31.0
+    },
+    {
+      "ds": "2012-06-01",
+      "y": 31.0
+    },
+    {
+      "ds": "2012-07-01",
+      "y": 30.0
+    },
+    {
+      "ds": "2012-08-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2012-09-01",
+      "y": 31.0
+    },
+    {
+      "ds": "2012-10-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2012-11-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2012-12-01",
+      "y": 28.0
+    },
+    {
+      "ds": "2013-01-01",
+      "y": 23.0
+    },
+    {
+      "ds": "2013-02-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2013-03-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2013-04-01",
+      "y": 22.0
+    },
+    {
+      "ds": "2013-05-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2013-06-01",
+      "y": 24.0
+    },
+    {
+      "ds": "2013-07-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2013-08-01",
+      "y": 25.0
+    },
+    {
+      "ds": "2013-09-01",
+      "y": 25.0
+    },
+    {
+      "ds": "2013-10-01",
+      "y": 30.0
+    },
+    {
+      "ds": "2013-11-01",
+      "y": 16.0
+    },
+    {
+      "ds": "2013-12-01",
+      "y": 14.0
+    },
+    {
+      "ds": "2014-01-01",
+      "y": 18.0
+    },
+    {
+      "ds": "2014-02-01",
+      "y": 18.0
+    },
+    {
+      "ds": "2014-03-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2014-04-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2014-05-01",
+      "y": 18.0
+    },
+    {
+      "ds": "2014-06-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2014-07-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2014-08-01",
+      "y": 23.0
+    },
+    {
+      "ds": "2014-09-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2014-10-01",
+      "y": 20.0
+    },
+    {
+      "ds": "2014-11-01",
+      "y": 18.0
+    },
+    {
+      "ds": "2014-12-01",
+      "y": 21.0
+    },
+    {
+      "ds": "2015-01-01",
+      "y": 28.0
+    },
+    {
+      "ds": "2015-02-01",
+      "y": 26.0
+    },
+    {
+      "ds": "2015-03-01",
+      "y": 25.0
+    },
+    {
+      "ds": "2015-04-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2015-05-01",
+      "y": 31.0
+    },
+    {
+      "ds": "2015-06-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2015-07-01",
+      "y": 23.0
+    },
+    {
+      "ds": "2015-08-01",
+      "y": 27.0
+    },
+    {
+      "ds": "2015-09-01",
+      "y": 26.0
+    },
+    {
+      "ds": "2015-10-01",
+      "y": 29.0
+    },
+    {
+      "ds": "2015-11-01",
+      "y": 32.0
+    },
+    {
+      "ds": "2015-12-01",
+      "y": 32.0
+    },
+    {
+      "ds": "2016-01-01",
+      "y": 29.0
+    },
+    {
+      "ds": "2016-02-01",
+      "y": 35.0
+    },
+    {
+      "ds": "2016-03-01",
+      "y": 28.0
+    }
+  ],
+  "test_artifact": {
+    "status": "available",
+    "evaluation_eligible": true,
+    "reason": null,
+    "horizon": 1,
+    "n_test": 1,
+    "test": [
+      {
+        "ds": "2016-04-01",
+        "y": 23.0
+      }
+    ]
+  },
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 63,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "forecast_result": {
+    "forecast": [
+      {
+        "step": 1,
+        "ds": "2016-04-01",
+        "yhat": 31.0
+      }
+    ],
+    "status": "success",
+    "fallback_used": false,
+    "selected_mode": "ensemble",
+    "weights": {
+      "short": 0.6,
+      "long": 0.4
+    },
+    "window_info": {
+      "short_n": 24,
+      "long_n": 36,
+      "short_window_name": "h24",
+      "long_window_name": "h36"
+    }
+  },
+  "explanation_result": {
+    "title": "Dự báo M5 cho FOODS_1_002 tại WI_1 (WI) vào tháng 4 năm 2016",
+    "summary_text": "Dựa trên dữ liệu lịch sử, giá trị dự báo cho tháng 4 năm 2016 là 31.0.",
+    "insights": [
+      "Dữ liệu lịch sử cho M5 của FOODS_1_002 tại WI_1 (WI) bao gồm 63 điểm, trải dài từ 2011-01-01 đến 2016-03-01, với giá trị trung bình là 22.51.",
+      "Giá trị dự báo 31.0 cao hơn mức trung bình lịch sử (22.51) và gần với mức tối đa lịch sử (35.0)."
+    ],
+    "chart_note": "Bản dự báo này được tạo ra bằng phương pháp 'ensemble', kết hợp trọng số 0.6 từ cửa sổ ngắn (h24, sử dụng 24 điểm) và trọng số 0.4 từ cửa sổ dài (h36, sử dụng 36 điểm)."
+  },
+  "status": "success",
+  "timings": {
+    "orchestration": 49.356659333003336,
+    "load_schema": 0.004332167009124532,
+    "sql_generation": 60.302869749997626,
+    "sql_execution_and_repair": 0.02597612500539981,
+    "forecast": 121.07495912500599,
+    "explanation": 69.89946250000503,
+    "end_to_end": 300.6643282909936
+  },
+  "traces": [
+    {
+      "stage": "orchestration",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the Orchestration Agent of ForecastBot. Interpret the ORIGINAL user request semantically. Do not use or assume regex/rule-based extraction.\n\nReturn STRICT JSON only with exactly these fields:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS\",\n  \"granularity\": \"day or month or quarter or year\",\n  \"horizon\": integer,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n\nCRITICAL OUTPUT CONTRACT:\n- intent MUST be exactly \"forecast_request\".\n- filters MUST ALWAYS be one JSON object/dictionary, NEVER a list/array.\n- Put every explicitly stated filter directly inside the filters object.\n- If no filter is explicitly stated, return \"filters\": {}.\n- Never represent filters as a list.\n\nCorrect:\n\"filters\": {\"item_id\": \"FOODS_3_228\"}\n\nCorrect with multiple filters:\n\"filters\": {\n  \"item_id\": \"FOODS_3_540\",\n  \"store_id\": \"CA_4\"\n}\n\nIncorrect:\n\"filters\": [{\"item_id\": \"FOODS_3_228\"}]\n\nIncorrect:\n\"filters\": [{\"field\": \"item_id\", \"value\": \"FOODS_3_228\"}]\n\nValid datasets: M5, HCMC_BUS.\n\nGranularity mapping:\n- ngày/day = day\n- tháng/month = month\n- quý/quarter = quarter\n- năm/year = year\n\nAllowed horizons:\n- day=[7,28,30,60,90]\n- month=[1,3,6,12,24]\n- quarter=[1,2,3,4,8,12]\n- year=[1,2,3,5,10]\n\nM5 filters:\n- item_id\n- store_id\n- state_id\n- cat_id\n- dept_id\n- id\n\nM5 examples:\n- FOODS_1_001 means item_id=\"FOODS_1_001\".\n- CA_1/TX_1/WI_1 mean store_id when explicitly stated as a store.\n- CA/TX/WI mean state_id when explicitly stated as a state.\n\nHCMC_BUS filters:\n- route_id\n- route_name\n- operator\n- vehicle_group\n- start_stop\n- end_stop\n\nHCMC_BUS examples and interpretation:\n- \"tuyến 55\" means route_id=\"55\".\n- \"tuyến số 55\" means route_id=\"55\".\n- \"tuyến xe buýt 55\" means route_id=\"55\".\n- \"tuyến bus 55\" means route_id=\"55\".\n- Generic words such as \"tuyến\", \"xe\", \"buýt\", \"buyt\", and \"bus\" must never become route_id.\n- route_id, operator, vehicle_group, route_name, start_stop, and end_stop are independent filters and may coexist when explicitly stated.\n- Example: \"Tuyến 19 do HTX-195 vận hành, với nhóm xe 4_CNG.1\" means:\n  {\"route_id\":\"19\",\"operator\":\"HTX-195\",\"vehicle_group\":\"4_CNG.1\"}\n\nExtract ALL explicitly stated filters independently.\nPreserve identifier punctuation such as _, -, and .\nNever invent a filter or value.\n\nIf a required field dataset/granularity/horizon cannot be inferred:\n- use null;\n- list it in missing_fields;\n- set needs_clarification=true;\n- write a concise Vietnamese clarification question in user_message_for_clarification.\n\nOtherwise:\n- missing_fields=[]\n- needs_clarification=false\n- user_message_for_clarification=\"\"\n\nIf a stated horizon is unsupported, choose the nearest allowed horizon for the inferred granularity.\n\nOriginal user query:\nHãy dự báo nhu cầu bán của sản phẩm FOODS_1_002 tại cửa hàng WI_1, bang WI trong 1 tháng tiếp theo.\n\nReturn STRICT JSON only. No markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5\",\n  \"granularity\": \"month\",\n  \"horizon\": 1,\n  \"filters\": {\n    \"item_id\": \"FOODS_1_002\",\n    \"store_id\": \"WI_1\",\n    \"state_id\": \"WI\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n```",
+      "input_tokens": 978,
+      "output_tokens": 726,
+      "total_tokens": 1704,
+      "llm_time_s": 49.35590954199142,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "sql_generate",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the SQL Agent of ForecastBot. Generate exactly one safe PostgreSQL SELECT for time-series history.\n\nForecast request:\n{\"intent\": \"forecast_request\", \"dataset\": \"M5\", \"granularity\": \"month\", \"horizon\": 1, \"filters\": {\"item_id\": \"FOODS_1_002\", \"store_id\": \"WI_1\", \"state_id\": \"WI\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nSchema context:\n\nDataset: M5\n\nYou are working with a PostgreSQL database for M5 retail sales forecasting.\n\n1. Table: m5_sales_train\n- id (TEXT): Unique series identifier\n- item_id (TEXT): Product identifier\n- dept_id (TEXT): Department identifier\n- cat_id (TEXT): Category identifier\n- store_id (TEXT): Store identifier\n- state_id (TEXT): State identifier\n- d (TEXT): Day key, not a real calendar date\n- sales (NUMERIC): Daily sales quantity\n\n2. Table: m5_calendar\n- d (TEXT): Day key\n- date (DATE): Real calendar date\n\nRelationship:\n- m5_sales_train.d = m5_calendar.d\n\nBusiness meaning:\n- m5_sales_train is the forecasting fact table.\n- sales is the forecasting target.\n- m5_calendar provides the real calendar date.\n- Always use m5_calendar.date as the true time axis.\n\n\nSQL rules:\n\n- Use m5_sales_train as the fact table with alias s.\n- Always join m5_calendar as alias c on s.d = c.d.\n- Always return exactly two columns: ds and y.\n- For day granularity, use c.date as ds.\n- For month granularity, use DATE_TRUNC('month', c.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', c.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', c.date)::date AS ds.\n- Aggregate the forecasting target with SUM(s.sales) AS y.\n- Support filters on item_id, dept_id, cat_id, store_id and state_id.\n- A logical date filter must be translated to c.date after joining m5_calendar.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n\n\nRequirements:\n- Follow the supplied schema context and SQL rules.\n- Apply ALL filters in forecast_request.\n- Return exactly two columns: ds and y.\n- Sort ds ascending.\n- Use only described tables and columns.\n- Generate only one SELECT statement; no write or DDL statements.\n\nReturn JSON only:\n{\"status\":\"success\",\"sql\":\"SELECT ...\",\"explanation\":\"short Vietnamese explanation\"}.",
+      "raw_response": "```json\n{\n\"status\": \"success\",\n\"sql\": \"SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_1_002' AND s.store_id = 'WI_1' AND s.state_id = 'WI' GROUP BY ds ORDER BY ds ASC;\",\n\"explanation\": \"Truy vấn này tính tổng doanh số bán hàng (y) theo tháng (ds) cho sản phẩm 'FOODS_1_002' tại cửa hàng 'WI_1' ở bang 'WI', sử dụng bảng m5_sales_train và m5_calendar.\"\n}\n```",
+      "input_tokens": 657,
+      "output_tokens": 905,
+      "total_tokens": 1562,
+      "llm_time_s": 60.302431667005294,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_short",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive MONTHLY observations for one time series, ordered from oldest to newest.\nThis is the supplied recent-history window. Use only these past observations.\n\nHistory:\n[20.0, 18.0, 20.0, 21.0, 23.0, 20.0, 20.0, 18.0, 21.0, 28.0, 26.0, 25.0, 27.0, 31.0, 27.0, 23.0, 27.0, 26.0, 29.0, 32.0, 32.0, 29.0, 35.0, 28.0]\n\nTask:\nForecast the next exactly 1 MONTHLY values.\n\nRequirements:\n1. Return exactly 1 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f1]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 24",
+      "raw_response": "```json\n{\n\"forecast\": [31.0]\n}\n```",
+      "input_tokens": 323,
+      "output_tokens": 969,
+      "total_tokens": 1292,
+      "llm_time_s": 63.878929457991035,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_long",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive MONTHLY observations for one time series, ordered from oldest to newest.\nThis is the supplied longer-history window. Use only these past observations.\n\nHistory:\n[22.0, 21.0, 24.0, 21.0, 25.0, 25.0, 30.0, 16.0, 14.0, 18.0, 18.0, 21.0, 20.0, 18.0, 20.0, 21.0, 23.0, 20.0, 20.0, 18.0, 21.0, 28.0, 26.0, 25.0, 27.0, 31.0, 27.0, 23.0, 27.0, 26.0, 29.0, 32.0, 32.0, 29.0, 35.0, 28.0]\n\nTask:\nForecast the next exactly 1 MONTHLY values.\n\nRequirements:\n1. Return exactly 1 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f1]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 36",
+      "raw_response": "{\"forecast\":[31.0]}",
+      "input_tokens": 395,
+      "output_tokens": 864,
+      "total_tokens": 1259,
+      "llm_time_s": 57.19433912499517,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": true,
+      "error": ""
+    },
+    {
+      "stage": "explanation",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the Explanation Agent of ForecastBot. Explain the forecast result in concise, clear Vietnamese.\n\nAll user-facing values in \"title\", \"summary_text\", \"insights\", and \"chart_note\" must be written in Vietnamese, except identifiers, dataset names, model names, product names, and technical terms that should remain unchanged.\n\nUse ONLY the supplied:\n- forecast request,\n- historical summary,\n- forecast result.\n\nDo not invent causes, external facts, unseen actual values, ground truth, test data, backtesting results, or accuracy metrics.\nDo not mention MAE, RMSE, evaluation eligibility, or whether actual future observations are available.\nPrefer quantitative descriptions supported directly by the supplied values; avoid unsupported qualitative claims unless explicitly justified by the supplied statistics.\n\nThe chart_note must describe only the training history and forecast produced by ForecastBot. Do not mention held-out actual/test values because they are not supplied to this agent.\n\nForecast request: {\"intent\": \"forecast_request\", \"dataset\": \"M5\", \"granularity\": \"month\", \"horizon\": 1, \"filters\": {\"item_id\": \"FOODS_1_002\", \"store_id\": \"WI_1\", \"state_id\": \"WI\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\nHistorical summary: {\"n_points\": 63, \"start_date\": \"2011-01-01\", \"end_date\": \"2016-03-01\", \"min_y\": 1.0, \"max_y\": 35.0, \"mean_y\": 22.50793650793651}\nForecast result: {\"forecast\": [{\"step\": 1, \"ds\": \"2016-04-01\", \"yhat\": 31.0}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"ensemble\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 24, \"long_n\": 36, \"short_window_name\": \"h24\", \"long_window_name\": \"h36\"}}\n\nReturn STRICT JSON only with exactly:\n{\"title\":\"...\",\"summary_text\":\"...\",\"insights\":[\"...\"],\"chart_note\":\"...\"}.\nNo markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"title\": \"Dự báo M5 cho FOODS_1_002 tại WI_1 (WI) vào tháng 4 năm 2016\",\n  \"summary_text\": \"Dựa trên dữ liệu lịch sử, giá trị dự báo cho tháng 4 năm 2016 là 31.0.\",\n  \"insights\": [\n    \"Dữ liệu lịch sử cho M5 của FOODS_1_002 tại WI_1 (WI) bao gồm 63 điểm, trải dài từ 2011-01-01 đến 2016-03-01, với giá trị trung bình là 22.51.\",\n    \"Giá trị dự báo 31.0 cao hơn mức trung bình lịch sử (22.51) và gần với mức tối đa lịch sử (35.0).\"\n  ],\n  \"chart_note\": \"Bản dự báo này được tạo ra bằng phương pháp 'ensemble', kết hợp trọng số 0.6 từ cửa sổ ngắn (h24, sử dụng 24 điểm) và trọng số 0.4 từ cửa sổ dài (h36, sử dụng 36 điểm).\"\n}\n```",
+      "input_tokens": 561,
+      "output_tokens": 1041,
+      "total_tokens": 1602,
+      "llm_time_s": 69.89875629200833,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    }
+  ],
+  "total_tokens": 7419,
+  "chart_status": "success",
+  "chart_error": ""
+}

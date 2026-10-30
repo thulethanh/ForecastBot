@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 3,
+  "filters": {
+    "route_id": "53",
+    "operator": "HTX-QTHANG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '53' AND TRIM(d.operator) = 'HTX-QTHANG' GROUP BY DATE_TRUNC('month', d.date)::date ORDER BY ds ASC",
+  "sql_explanation": "This query calculates the total monthly passengers for route '53' operated by 'HTX-QTHANG'. It aggregates the `total_passengers` from the `daily_passenger_stats` table, grouping the data by month. The `ds` column represents the start of each month, and the `y` column is the total passenger count for that month. The results are filtered for the specified route and operator and sorted by date."
+}

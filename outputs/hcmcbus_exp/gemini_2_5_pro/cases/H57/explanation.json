@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 84, operator: HTX-28) trong 8 quý tới",
+  "summary_text": "ForecastBot dự báo dữ liệu cho HCMC_BUS (route_id: 84, operator: HTX-28) trong 8 quý tiếp theo, từ Quý 2 2024 đến Quý 1 2026. Dự báo cho thấy một quy luật mùa vụ rõ rệt, với giá trị cao nhất vào Quý 4 (khoảng 135,637) và thấp nhất vào Quý 1 (khoảng 85,449) mỗi năm.",
+  "insights": [
+    "Dự báo cho thấy một quy luật mùa vụ hàng năm rõ rệt, với giá trị đạt đỉnh vào Quý 4 (135,637) và giảm xuống mức thấp nhất vào Quý 1 (85,449).",
+    "Quy luật theo quý được dự báo sẽ lặp lại chính xác cho năm tiếp theo (Quý 2 2025 - Quý 1 2026 so với Quý 2 2024 - Quý 1 2025).",
+    "Các giá trị dự báo, dao động từ 85,449 đến 135,637, nằm trong phạm vi của dữ liệu lịch sử (84,649 đến 142,845)."
+  ],
+  "chart_note": "Biểu đồ thể hiện 9 điểm dữ liệu lịch sử từ Quý 1 2022 đến Quý 1 2024 và dự báo của ForecastBot cho 8 quý tiếp theo."
+}

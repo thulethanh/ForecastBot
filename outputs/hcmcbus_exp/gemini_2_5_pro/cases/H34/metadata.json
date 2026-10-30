@@ -1,0 +1,33 @@
+{
+  "case_id": "H34",
+  "question": "Hãy ước tính lượng khách của tuyến 100 do HTX-VTHANG vận hành trong 3 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 9,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 5.869762000002083,
+    "load_schema": 0.0023865829934948124,
+    "sql_generation": 8.934642083004292,
+    "sql_execution_and_repair": 0.01080845799879171,
+    "forecast": 73.82032941600482,
+    "explanation": 18.431619790993864,
+    "end_to_end": 107.06970875000115
+  },
+  "total_tokens": 17351,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

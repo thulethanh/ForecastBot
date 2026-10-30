@@ -1,0 +1,27 @@
+{
+  "case_id": "M49",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Dự báo được thực hiện dựa trên 61 điểm dữ liệu lịch sử; thông tin cửa sổ cho thấy các nhánh ensemble dùng lần lượt 24 và 36 điểm gần nhất, không xác nhận cả 61 điểm được đưa vào dự báo.",
+      "Các giá trị dự báo không tính đến bất kỳ sự kiện thị trường hoặc yếu tố bên ngoài nào khác; thông tin được cung cấp không xác nhận điều này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 3 tháng, phương pháp ensemble, trọng số và các mức dự báo. Xu hướng tăng từ 32.8 lên 40.8 được nêu đúng và rõ ràng. Tuy nhiên, câu nói dự báo dựa trên 61 điểm lịch sử dễ mâu thuẫn với thông tin hai nhánh chỉ dùng cửa sổ 24 và 36 điểm. Ngoài ra, khẳng định không xét yếu tố bên ngoài không có bằng chứng trực tiếp trong dữ liệu cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.024079332943074,
+    "input_tokens": 2246,
+    "output_tokens": 453,
+    "total_tokens": 2699,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Dự báo được thực hiện dựa trên 61 điểm dữ liệu lịch sử; thông tin cửa sổ cho thấy các nhánh ensemble dùng lần lượt 24 và 36 điểm gần nhất, không xác nhận cả 61 điểm được đưa vào dự báo.\",\"Các giá trị dự báo không tính đến bất kỳ sự kiện thị trường hoặc yếu tố bên ngoài nào khác; thông tin được cung cấp không xác nhận điều này.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 3 tháng, phương pháp ensemble, trọng số và các mức dự báo. Xu hướng tăng từ 32.8 lên 40.8 được nêu đúng và rõ ràng. Tuy nhiên, câu nói dự báo dựa trên 61 điểm lịch sử dễ mâu thuẫn với thông tin hai nhánh chỉ dùng cửa sổ 24 và 36 điểm. Ngoài ra, khẳng định không xét yếu tố bên ngoài không có bằng chứng trực tiếp trong dữ liệu cung cấp.\"}"
+  }
+}

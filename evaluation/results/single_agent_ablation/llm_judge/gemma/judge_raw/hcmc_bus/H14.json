@@ -1,0 +1,24 @@
+{
+  "case_id": "H14",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho tuyến 38, nhà khai thác XKSG; nêu đúng 4 mốc thời gian và mức dự báo 161.861,5 lặp lại ở mọi quý. Thông tin về chế độ single, trọng số 60%/40% và 8 điểm lịch sử cũng khớp dữ liệu cung cấp. Câu cho rằng mô hình “nhận diện” xu hướng ổn định là diễn giải hơi mạnh về cơ chế mô hình, dù được gợi ý hợp lý bởi chuỗi dự báo phẳng. Nội dung rõ ràng và hữu ích, nhưng có thể hữu ích hơn nếu đặt mức dự báo trong bối cảnh phạm vi hoặc trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.035866374964826,
+    "input_tokens": 2282,
+    "output_tokens": 428,
+    "total_tokens": 2710,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho tuyến 38, nhà khai thác XKSG; nêu đúng 4 mốc thời gian và mức dự báo 161.861,5 lặp lại ở mọi quý. Thông tin về chế độ single, trọng số 60%/40% và 8 điểm lịch sử cũng khớp dữ liệu cung cấp. Câu cho rằng mô hình “nhận diện” xu hướng ổn định là diễn giải hơi mạnh về cơ chế mô hình, dù được gợi ý hợp lý bởi chuỗi dự báo phẳng. Nội dung rõ ràng và hữu ích, nhưng có thể hữu ích hơn nếu đặt mức dự báo trong bối cảnh phạm vi hoặc trung bình lịch sử.\"}"
+  }
+}

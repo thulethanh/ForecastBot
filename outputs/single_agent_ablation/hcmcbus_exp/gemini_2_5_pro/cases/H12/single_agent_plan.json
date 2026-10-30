@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 2,
+  "filters": {
+    "route_id": "34",
+    "operator": "HTX 26"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '34' AND TRIM(d.operator) = 'HTX 26' GROUP BY DATE_TRUNC('quarter', d.date) ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the historical quarterly passenger count for bus route 34 operated by 'HTX 26'. 'ds' represents the start of each quarter, and 'y' is the total number of passengers for that quarter."
+}

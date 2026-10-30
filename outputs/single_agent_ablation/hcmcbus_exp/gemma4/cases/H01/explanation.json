@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo lưu lượng xe buýt (HCMC_BUS)",
+  "summary_text": "Hệ thống đã tạo thành công dự báo cho 7 ngày liên tiếp (từ 2024-12-25 đến 2024-12-31) cho tuyến xe buýt 19. Mô hình dự báo sử dụng chế độ 'short_only' và kết hợp trọng số 60% từ cửa sổ ngắn hạn (h180) và 40% từ cửa sổ dài hạn (h365). Lưu ý rằng quá trình dự báo đã kích hoạt cơ chế dự phòng (fallback_used: true).",
+  "insights": [
+    "Dự báo được thực hiện cho 7 bước thời gian, bao gồm các ngày từ 2024-12-25 đến 2024-12-31.",
+    "Mô hình ưu tiên sử dụng dữ liệu ngắn hạn (h180) với trọng số cao hơn (0.6) so với dữ liệu dài hạn (h365) (0.4).",
+    "Việc sử dụng cơ chế dự phòng (fallback) cho thấy mô hình đã điều chỉnh dự báo dựa trên các điều kiện dữ liệu hoặc tính ổn định của dữ liệu lịch sử."
+  ],
+  "chart_note": "Dự báo được xây dựng dựa trên dữ liệu lịch sử của bộ dữ liệu HCMC_BUS, bao gồm 1089 điểm dữ liệu từ ngày 2022-01-01 đến 2024-12-24."
+}

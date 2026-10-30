@@ -1,0 +1,26 @@
+{
+  "case_id": "M11",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"21 điểm dữ liệu lịch sử hàng quý được sử dụng để huấn luyện mô hình\" không được hỗ trợ: window_info chỉ cho biết các nhánh dự báo dùng cửa sổ h8 và h12, không xác nhận toàn bộ 21 điểm được dùng để huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo quý tiếp theo, nêu đúng giá trị dự báo, thời điểm, thống kê lịch sử và cấu hình ensemble. Các số liệu về 21 điểm, phạm vi thời gian, trung bình, nhỏ nhất/lớn nhất đều khớp dữ liệu cung cấp. Tuy nhiên, chart_note khẳng định toàn bộ 21 điểm được dùng để huấn luyện mô hình, trong khi thông tin chỉ xác nhận hai cửa sổ h8 và h12 cho các nhánh dự báo và không nêu việc huấn luyện. Nội dung rõ ràng, cô đọng và hữu ích, dù chưa diễn giải thêm mức dự báo trong bối cảnh biến động gần đây."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.426475292013492,
+    "input_tokens": 2247,
+    "output_tokens": 383,
+    "total_tokens": 2630,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"21 điểm dữ liệu lịch sử hàng quý được sử dụng để huấn luyện mô hình\\\" không được hỗ trợ: window_info chỉ cho biết các nhánh dự báo dùng cửa sổ h8 và h12, không xác nhận toàn bộ 21 điểm được dùng để huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo quý tiếp theo, nêu đúng giá trị dự báo, thời điểm, thống kê lịch sử và cấu hình ensemble. Các số liệu về 21 điểm, phạm vi thời gian, trung bình, nhỏ nhất/lớn nhất đều khớp dữ liệu cung cấp. Tuy nhiên, chart_note khẳng định toàn bộ 21 điểm được dùng để huấn luyện mô hình, trong khi thông tin chỉ xác nhận hai cửa sổ h8 và h12 cho các nhánh dự báo và không nêu việc huấn luyện. Nội dung rõ ràng, cô đọng và hữu ích, dù chưa diễn giải thêm mức dự báo trong bối cảnh biến động gần đây.\"}"
+  }
+}

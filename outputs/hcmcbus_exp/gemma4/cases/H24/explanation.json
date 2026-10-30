@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS (Route 64, XKSG)",
+  "summary_text": "Dự báo cho 30 ngày tới (từ 2024-12-02 đến 2024-12-31) cho thấy giá trị dự đoán ổn định ở mức 1128.1429.",
+  "insights": [
+    "Dựa trên lịch sử dữ liệu từ 2022-01-01 đến 2024-12-01 (với 1066 điểm dữ liệu), giá trị trung bình lịch sử là 1015.6651031894934.",
+    "Mô hình sử dụng phương pháp 'deterministic_recent_mean', kết hợp trọng số 60% từ dữ liệu ngắn hạn (h180) và 40% từ dữ liệu dài hạn (h365).",
+    "Do sử dụng fallback, dự báo được duy trì ở mức ổn định 1128.1429 trong suốt 30 ngày."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện trên 1066 điểm dữ liệu từ 2022-01-01 đến 2024-12-01. Dự báo được tạo ra bằng cách sử dụng các cửa sổ dữ liệu h180 và h365, và kết quả dự báo là một đường thẳng ổn định trong 30 ngày tới."
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H40",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định mô hình được \"huấn luyện ... bằng chế độ single\", trong khi dữ liệu chỉ cho biết selected_mode là \"single\" cho kết quả dự báo, không cung cấp thông tin về quá trình huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà vận hành, chân trời 3 năm và nêu chính xác ba giá trị dự báo cùng xu hướng tăng liên tục. Các số liệu lịch sử, dự báo, trọng số và kích thước cửa sổ đều khớp dữ liệu được cung cấp. Tuy nhiên, câu nói mô hình được “huấn luyện ... bằng chế độ single” không có bằng chứng trực tiếp; kết quả chỉ nêu chế độ được chọn cho dự báo. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo cũng như xu hướng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.329395790991839,
+    "input_tokens": 2256,
+    "output_tokens": 372,
+    "total_tokens": 2628,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định mô hình được \\\"huấn luyện ... bằng chế độ single\\\", trong khi dữ liệu chỉ cho biết selected_mode là \\\"single\\\" cho kết quả dự báo, không cung cấp thông tin về quá trình huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà vận hành, chân trời 3 năm và nêu chính xác ba giá trị dự báo cùng xu hướng tăng liên tục. Các số liệu lịch sử, dự báo, trọng số và kích thước cửa sổ đều khớp dữ liệu được cung cấp. Tuy nhiên, câu nói mô hình được “huấn luyện ... bằng chế độ single” không có bằng chứng trực tiếp; kết quả chỉ nêu chế độ được chọn cho dự báo. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo cũng như xu hướng.\"}"
+  }
+}

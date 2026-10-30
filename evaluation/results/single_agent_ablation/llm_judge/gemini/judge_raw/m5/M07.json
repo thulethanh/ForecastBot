@@ -1,0 +1,26 @@
+{
+  "case_id": "M07",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Dự báo thấp bị ảnh hưởng mạnh mẽ bởi sự sụt giảm doanh số trong thời gian gần đây. History summary không cung cấp diễn biến của 24 tháng gần nhất để xác nhận có sự sụt giảm, cũng không chứng minh ảnh hưởng nhân quả này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 3 tháng và nêu chính xác các giá trị dự báo. Mức trung bình lịch sử khoảng 52, cơ chế tổ hợp, cửa sổ 24/36 tháng và trọng số 60%/40% đều phù hợp dữ liệu cung cấp. Tuy nhiên, câu khẳng định doanh số gần đây sụt giảm và là nguyên nhân khiến dự báo thấp không được history summary hay forecast hỗ trợ. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo rất thấp so với trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.4436989589594305,
+    "input_tokens": 2251,
+    "output_tokens": 384,
+    "total_tokens": 2635,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Dự báo thấp bị ảnh hưởng mạnh mẽ bởi sự sụt giảm doanh số trong thời gian gần đây. History summary không cung cấp diễn biến của 24 tháng gần nhất để xác nhận có sự sụt giảm, cũng không chứng minh ảnh hưởng nhân quả này.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 3 tháng và nêu chính xác các giá trị dự báo. Mức trung bình lịch sử khoảng 52, cơ chế tổ hợp, cửa sổ 24/36 tháng và trọng số 60%/40% đều phù hợp dữ liệu cung cấp. Tuy nhiên, câu khẳng định doanh số gần đây sụt giảm và là nguyên nhân khiến dự báo thấp không được history summary hay forecast hỗ trợ. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo rất thấp so với trung bình lịch sử.\"}"
+  }
+}

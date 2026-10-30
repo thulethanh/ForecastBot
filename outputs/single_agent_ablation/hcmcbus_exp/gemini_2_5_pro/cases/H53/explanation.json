@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho quý tiếp theo (Q4 2024) của tuyến xe buýt 77 do HTX 26 vận hành là khoảng 43.276. Giá trị này thấp hơn mức trung bình lịch sử (51.659) nhưng vẫn nằm trong phạm vi dữ liệu đã ghi nhận.",
+  "insights": [
+    "Kết quả được tạo ra bởi một mô hình tổng hợp, ưu tiên 60% trọng số cho các xu hướng trong 8 quý gần đây, cho thấy các thay đổi gần nhất có ảnh hưởng lớn đến dự báo.",
+    "Giá trị dự báo thấp hơn mức trung bình lịch sử, cho thấy mô hình đã ghi nhận một xu hướng giảm hoặc ổn định ở mức thấp hơn trong giai đoạn gần đây của dữ liệu."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử trong 11 quý và điểm dự báo cho quý tiếp theo."
+}

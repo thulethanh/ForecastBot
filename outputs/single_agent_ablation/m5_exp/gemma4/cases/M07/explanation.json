@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo đã được thực hiện thành công cho sản phẩm FOODS_3_718 tại cửa hàng CA_3, với độ chi tiết hàng tháng (granularity: month). Mô hình đã dự báo cho 3 bước thời gian tiếp theo, bắt đầu từ tháng 2 năm 2016.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'ensemble' (kết hợp), kết hợp trọng số 60% từ mô hình ngắn hạn (short) và 40% từ mô hình dài hạn (long).",
+    "Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 61 điểm dữ liệu, trải dài từ ngày 2011-01-01 đến ngày 2016-01-01.",
+    "Các giá trị dự báo cho 3 tháng tới (0.5, 0.3, 0.2) cho thấy một xu hướng giảm dần rõ rệt theo thời gian."
+  ],
+  "chart_note": "Các giá trị dự báo (yhat) được cung cấp cho các mốc thời gian 2016-02-01, 2016-03-01 và 2016-04-01. Lưu ý rằng các giá trị này là dự đoán và không đại diện cho giá trị thực tế trong tương lai."
+}

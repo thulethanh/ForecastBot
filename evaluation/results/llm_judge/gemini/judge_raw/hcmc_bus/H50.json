@@ -1,0 +1,24 @@
+{
+  "case_id": "H50",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng yêu cầu dự báo 6 tháng theo tuyến và đơn vị vận hành. Các mốc thời gian, khoảng dự báo, giá trị cao nhất/thấp nhất, số điểm lịch sử, trung bình lịch sử và nhận định 4/6 tháng cao hơn trung bình đều khớp với dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được mức dự báo cùng các đỉnh/đáy chính mà không suy diễn nguyên nhân ngoài bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.420635250004125,
+    "input_tokens": 2431,
+    "output_tokens": 228,
+    "total_tokens": 2659,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng yêu cầu dự báo 6 tháng theo tuyến và đơn vị vận hành. Các mốc thời gian, khoảng dự báo, giá trị cao nhất/thấp nhất, số điểm lịch sử, trung bình lịch sử và nhận định 4/6 tháng cao hơn trung bình đều khớp với dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được mức dự báo cùng các đỉnh/đáy chính mà không suy diễn nguyên nhân ngoài bằng chứng.\"}"
+  }
+}

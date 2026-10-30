@@ -1,0 +1,17 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": null,
+  "horizon": null,
+  "filters": {
+    "item_id": "HOUSEHOLD_1_457",
+    "store_id": "CA_1",
+    "state_id": "CA"
+  },
+  "missing_fields": [
+    "granularity",
+    "horizon"
+  ],
+  "needs_clarification": true,
+  "user_message_for_clarification": "Bạn muốn xem dự báo cho 1 năm tới theo ngày, tháng, quý hay năm?"
+}

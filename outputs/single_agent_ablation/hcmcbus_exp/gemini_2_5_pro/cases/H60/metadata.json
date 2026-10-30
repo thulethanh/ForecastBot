@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H60",
+  "question": "Tôi muốn xem xu hướng lượng hành khách của tuyến 88 sử dụng nhóm xe 2B.1_ML trong 2 năm tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 3,
+    "n_train": 1,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 3,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.0014924590941518545,
+    "request_sql": 9.6661928340327,
+    "sql_execution_and_repair": 0.0157427079975605,
+    "forecast": 7.115720874979161,
+    "explanation": 11.604777291999198,
+    "end_to_end": 28.404023958020844
+  },
+  "total_tokens": 5421,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

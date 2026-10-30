@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho năm 2024-01-01, dựa trên bộ dữ liệu HCMC_BUS (tuyến 126, HTX-195), được xác định là 980,819.0. Kết quả này được tính toán thành công (status: success).",
+  "insights": [
+    "Dự báo được thực hiện cho một bước thời gian (horizon 1), sử dụng 2 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2023-01-01).",
+    "Mô hình sử dụng phương pháp 'single' với trọng số ưu tiên dữ liệu ngắn hạn (short) là 0.6 và dữ liệu dài hạn (long) là 0.4.",
+    "Giá trị dự báo (980,819.0) cao hơn đáng kể so với giá trị trung bình lịch sử (765,464.0)."
+  ],
+  "chart_note": "Đây là dự báo cho một bước thời gian duy nhất (step 1). Các tham số tính toán sử dụng cửa sổ ngắn (short_n: 2) và cửa sổ dài (long_n: 2)."
+}

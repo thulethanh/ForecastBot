@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 30,
+  "filters": {
+    "route_id": "64",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '64' AND TRIM(d.operator) = 'XKSG' GROUP BY d.date ORDER BY ds ASC",
+  "sql_explanation": "Retrieves the daily total passenger count for route 64 operated by XKSG, to be used for a 30-day forecast."
+}

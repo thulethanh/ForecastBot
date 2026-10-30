@@ -1,0 +1,26 @@
+{
+  "case_id": "M63",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 6 điểm dữ liệu lịch sử\" không được xác nhận trực tiếp: dữ liệu chỉ cho biết có 6 điểm lịch sử và các cửa sổ dự báo đều gồm 6 điểm, không nêu việc huấn luyện mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 10 năm cho đúng mặt hàng/cửa hàng, nêu chính xác giai đoạn, mức dự báo 219.3 và trạng thái ổn định của toàn bộ 10 bước. So sánh với trung bình lịch sử 219.33 cũng được hỗ trợ trực tiếp. Nội dung rõ ràng, ngắn gọn và giúp hiểu mức cũng như xu hướng dự báo. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên 6 điểm lịch sử, trong khi thông tin cung cấp chỉ xác nhận phạm vi/cửa sổ dữ liệu, không xác nhận cách huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.879626624999219,
+    "input_tokens": 2468,
+    "output_tokens": 354,
+    "total_tokens": 2822,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 6 điểm dữ liệu lịch sử\\\" không được xác nhận trực tiếp: dữ liệu chỉ cho biết có 6 điểm lịch sử và các cửa sổ dự báo đều gồm 6 điểm, không nêu việc huấn luyện mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 10 năm cho đúng mặt hàng/cửa hàng, nêu chính xác giai đoạn, mức dự báo 219.3 và trạng thái ổn định của toàn bộ 10 bước. So sánh với trung bình lịch sử 219.33 cũng được hỗ trợ trực tiếp. Nội dung rõ ràng, ngắn gọn và giúp hiểu mức cũng như xu hướng dự báo. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên 6 điểm lịch sử, trong khi thông tin cung cấp chỉ xác nhận phạm vi/cửa sổ dữ liệu, không xác nhận cách huấn luyện.\"}"
+  }
+}

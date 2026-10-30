@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (Tuyến 19) cho 7 ngày tới",
+  "summary_text": "Dựa trên mô hình deterministic_recent_mean, lưu lượng dự báo cho tuyến 19 của HCMC_BUS trong 7 ngày tới (từ 2024-12-25 đến 2024-12-31) được dự đoán ổn định ở mức 3766.1429.",
+  "insights": [
+    "Mức dự báo 3766.1429 cho thấy sự ổn định cao trong lưu lượng trong suốt 7 ngày dự báo.",
+    "Giá trị dự báo này rất gần với mức trung bình lịch sử của dataset HCMC_BUS (3783.384756657484).",
+    "Việc sử dụng chế độ deterministic_recent_mean và kích hoạt fallback đã giúp đưa ra dự báo ổn định này."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 1089 điểm dữ liệu lịch sử của HCMC_BUS, trải dài từ 2022-01-01 đến 2024-12-24. ForecastBot đã sử dụng phương pháp deterministic_recent_mean để dự báo 7 bước tiếp theo, và đã kích hoạt fallback trong quá trình dự báo."
+}

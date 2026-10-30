@@ -1,0 +1,26 @@
+{
+  "case_id": "M45",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định mức dự báo cao hơn trung bình lịch sử \"cho thấy xu hướng tăng gần đây\" không được history summary hỗ trợ, vì summary không cung cấp diễn biến theo thời gian gần đây."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, kỳ hạn 30 ngày và nêu rõ mẫu lặp theo tuần trong forecast. Các ngày/giá trị đỉnh, đáy và mức trung bình lịch sử đều nhìn chung phù hợp dữ liệu; chart note cũng khớp với ensemble dùng hai cửa sổ 180 và 365 ngày. Tuy nhiên, chênh lệch giữa mức dự báo và trung bình lịch sử chỉ cho thấy mức dự báo cao hơn, chưa đủ bằng chứng để kết luận có xu hướng tăng gần đây. Trình bày rõ ràng và hữu ích, dù có thể nêu thêm biên độ dao động dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.515121917007491,
+    "input_tokens": 3142,
+    "output_tokens": 720,
+    "total_tokens": 3862,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định mức dự báo cao hơn trung bình lịch sử \\\"cho thấy xu hướng tăng gần đây\\\" không được history summary hỗ trợ, vì summary không cung cấp diễn biến theo thời gian gần đây.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, kỳ hạn 30 ngày và nêu rõ mẫu lặp theo tuần trong forecast. Các ngày/giá trị đỉnh, đáy và mức trung bình lịch sử đều nhìn chung phù hợp dữ liệu; chart note cũng khớp với ensemble dùng hai cửa sổ 180 và 365 ngày. Tuy nhiên, chênh lệch giữa mức dự báo và trung bình lịch sử chỉ cho thấy mức dự báo cao hơn, chưa đủ bằng chứng để kết luận có xu hướng tăng gần đây. Trình bày rõ ràng và hữu ích, dù có thể nêu thêm biên độ dao động dự báo.\"}"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H34",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà khai thác, độ hạt theo quý và 3 mốc dự báo được yêu cầu. Toàn bộ các giá trị dự báo, khoảng dự báo, thống kê lịch sử, so sánh với trung bình/cực đại lịch sử, ngày-quý và thông tin ensemble/trọng số đều khớp dữ liệu được cung cấp. Nội dung ngắn gọn, có cấu trúc rõ và giúp người dùng nhận biết mức dự báo, điểm cao/thấp và biến động giữa các quý."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.9617565410007956,
+    "input_tokens": 2367,
+    "output_tokens": 259,
+    "total_tokens": 2626,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà khai thác, độ hạt theo quý và 3 mốc dự báo được yêu cầu. Toàn bộ các giá trị dự báo, khoảng dự báo, thống kê lịch sử, so sánh với trung bình/cực đại lịch sử, ngày-quý và thông tin ensemble/trọng số đều khớp dữ liệu được cung cấp. Nội dung ngắn gọn, có cấu trúc rõ và giúp người dùng nhận biết mức dự báo, điểm cao/thấp và biến động giữa các quý.\"}"
+  }
+}

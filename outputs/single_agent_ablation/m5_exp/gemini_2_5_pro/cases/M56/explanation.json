@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số hàng quý cho mặt hàng HOBBIES_2_140 tại bang WI trong 4 quý tới, bắt đầu từ Quý 3 năm 2015. Dự báo cho thấy giá trị ban đầu là 3.0, sau đó tăng đáng kể lên 36.0 trong quý tiếp theo và ổn định trong khoảng 31.0-33.0 cho phần còn lại của giai đoạn dự báo.",
+  "insights": [
+    "Dự báo cho thấy một sự biến động đáng kể giữa các quý, với mức tăng mạnh từ 3.0 (Quý 3 2015) lên 36.0 (Quý 4 2015), cho thấy mô hình đã xác định được một quy luật có tính chu kỳ trong dữ liệu lịch sử.",
+    "Kết quả này được tạo ra bởi một mô hình tổng hợp, ưu tiên hơn cho các xu hướng gần đây bằng cách gán 60% trọng số cho mô hình dựa trên 8 quý gần nhất và 40% trọng số cho mô hình dựa trên 12 quý gần nhất."
+  ],
+  "chart_note": "Dữ liệu lịch sử được cung cấp bao gồm 18 quý từ 2011-01-01 đến 2015-04-01, với giá trị trung bình là 20.8."
+}

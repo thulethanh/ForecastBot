@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "quarter",
+  "horizon": 3,
+  "filters": {
+    "item_id": "HOBBIES_1_173",
+    "state_id": "CA"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOBBIES_1_173' AND s.state_id = 'CA' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "This SQL query calculates the total quarterly sales for the specified item and state. It aggregates sales data by quarter and filters for item_id 'HOBBIES_1_173' and state_id 'CA'."
+}

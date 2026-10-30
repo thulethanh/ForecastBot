@@ -1,0 +1,27 @@
+{
+  "case_id": "M36",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "“Dữ liệu lịch sử cho thấy một mô hình theo mùa rất rõ rệt, trong đó doanh số bán hàng gần như chỉ tập trung vào một quý duy nhất mỗi năm.” History summary chỉ cung cấp phạm vi, số điểm, min/max và trung bình; không đủ để xác nhận mô hình này.",
+      "“Mô hình dự báo đã nắm bắt và kéo dài xu hướng này.” Không có bằng chứng trực tiếp về xu hướng lịch sử trong history summary để đối chiếu."
+    ],
+    "reason_vi": "Giải thích trả lời đúng đối tượng, phạm vi 8 quý và mô tả chính xác các mức dự báo: chỉ quý 2 năm 2015 và 2016 là 84, các quý còn lại là 0. Nội dung rõ ràng, mạch lạc và hữu ích. Tuy nhiên, phần khẳng định dữ liệu lịch sử có mùa vụ rất rõ, tập trung gần như vào một quý mỗi năm, không được history summary hỗ trợ vì tóm tắt không cung cấp giá trị theo từng quý hay chỉ dấu mùa vụ. Do đó faithfulness giảm, dù mô hình lặp lại trong forecast là có thể quan sát được."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.629676082986407,
+    "input_tokens": 2449,
+    "output_tokens": 527,
+    "total_tokens": 2976,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"“Dữ liệu lịch sử cho thấy một mô hình theo mùa rất rõ rệt, trong đó doanh số bán hàng gần như chỉ tập trung vào một quý duy nhất mỗi năm.” History summary chỉ cung cấp phạm vi, số điểm, min/max và trung bình; không đủ để xác nhận mô hình này.\",\"“Mô hình dự báo đã nắm bắt và kéo dài xu hướng này.” Không có bằng chứng trực tiếp về xu hướng lịch sử trong history summary để đối chiếu.\"],\"reason_vi\":\"Giải thích trả lời đúng đối tượng, phạm vi 8 quý và mô tả chính xác các mức dự báo: chỉ quý 2 năm 2015 và 2016 là 84, các quý còn lại là 0. Nội dung rõ ràng, mạch lạc và hữu ích. Tuy nhiên, phần khẳng định dữ liệu lịch sử có mùa vụ rất rõ, tập trung gần như vào một quý mỗi năm, không được history summary hỗ trợ vì tóm tắt không cung cấp giá trị theo từng quý hay chỉ dấu mùa vụ. Do đó faithfulness giảm, dù mô hình lặp lại trong forecast là có thể quan sát được.\"}"
+  }
+}

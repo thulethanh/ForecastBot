@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng xe buýt tuyến 62 (XKSG) tại TP.HCM trong 28 ngày tới",
+  "summary_text": "Mô hình dự báo cho thấy lưu lượng xe buýt tuyến 62 (XKSG) sẽ duy trì mức ổn định khoảng 1574.86 lượt trong suốt 28 ngày, từ ngày 04/12/2024 đến ngày 31/12/2024.",
+  "insights": [
+    "Dự báo được thực hiện bằng phương pháp `deterministic_recent_mean` (sử dụng chế độ dự đoán gần đây), với trọng số 60% từ cửa sổ ngắn (h180) và 40% từ cửa sổ dài (h365).",
+    "Lưu lượng dự báo cho thấy sự ổn định cao, duy trì ở mức xấp xỉ 1574.86 lượt trong toàn bộ giai đoạn dự báo 28 ngày.",
+    "Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1068 điểm dữ liệu, trải dài từ 01/01/2022 đến 03/12/2024."
+  ],
+  "chart_note": "Dữ liệu lịch sử được thu thập từ 01/01/2022 đến 03/12/2024 (1068 điểm dữ liệu). ForecastBot đã sử dụng phương pháp `deterministic_recent_mean` với trọng số 0.6 (h180) và 0.4 (h365) để tạo ra dự báo cho 28 ngày tiếp theo."
+}

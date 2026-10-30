@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOBBIES_1_013 tại CA_1 (CA)",
+  "summary_text": "Mô hình đã dự báo giá trị cho 24 tháng tới, bắt đầu từ tháng 5 năm 2014. Giá trị dự báo được duy trì ổn định ở mức 9.5.",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để huấn luyện mô hình bao gồm 40 điểm, trải dài từ 2011-01-01 đến 2014-04-01.",
+    "Trong giai đoạn lịch sử, giá trị trung bình là 5.775, với phạm vi dao động từ 0.0 đến 17.0.",
+    "Mô hình dự báo sử dụng chế độ `long_only` và đưa ra dự báo ổn định là 9.5 cho tất cả 24 tháng tiếp theo."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 40 điểm dữ liệu từ 2011-01-01 đến 2014-04-01. Dự báo được thực hiện cho 24 bước, sử dụng cửa sổ `long_n` (h40) và `short_n` (h36)."
+}

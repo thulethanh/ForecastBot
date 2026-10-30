@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (tuyến 9, nhà khai thác HTX-VTTP) trong 24 tháng tới (từ tháng 5 năm 2024 đến tháng 4 năm 2026) đã được thực hiện thành công. Mô hình dự báo cho thấy một giá trị ổn định và không thay đổi trong suốt toàn bộ giai đoạn dự báo.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', cho thấy sự ổn định cao trong xu hướng dữ liệu.",
+    "Giá trị dự báo (yhat) được xác định là 115,490.86 và được duy trì không đổi qua tất cả 24 bước dự báo.",
+    "Việc dự báo đã sử dụng toàn bộ 28 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-04-01) để tính toán, và đã kích hoạt chế độ dự phòng (fallback_used: true)."
+  ],
+  "chart_note": "Dự báo cho thấy một xu hướng ổn định, không có sự biến động đáng kể nào được dự đoán trong 24 tháng tới. Giá trị dự báo này cao hơn giá trị trung bình lịch sử (109,693.82)."
+}

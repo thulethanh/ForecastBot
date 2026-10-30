@@ -1,0 +1,24 @@
+{
+  "case_id": "H45",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng đối tượng, kỳ hạn và mức độ chi tiết của yêu cầu dự báo. Các ngày, phạm vi lịch sử, trung bình lịch sử, trọng số ensemble và cửa sổ 180 ngày đều khớp dữ liệu cung cấp. Nhận định chu kỳ tuần, mức cao ngày thường và giảm cuối tuần được thể hiện trực tiếp trong chuỗi dự báo lặp lại theo ngày. Nội dung rõ ràng, cô đọng và giúp người dùng hiểu cả mức dự báo, biến động tuần lẫn so sánh với trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.965949625009671,
+    "input_tokens": 3248,
+    "output_tokens": 332,
+    "total_tokens": 3580,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng đối tượng, kỳ hạn và mức độ chi tiết của yêu cầu dự báo. Các ngày, phạm vi lịch sử, trung bình lịch sử, trọng số ensemble và cửa sổ 180 ngày đều khớp dữ liệu cung cấp. Nhận định chu kỳ tuần, mức cao ngày thường và giảm cuối tuần được thể hiện trực tiếp trong chuỗi dự báo lặp lại theo ngày. Nội dung rõ ràng, cô đọng và giúp người dùng hiểu cả mức dự báo, biến động tuần lẫn so sánh với trung bình lịch sử.\"}"
+  }
+}

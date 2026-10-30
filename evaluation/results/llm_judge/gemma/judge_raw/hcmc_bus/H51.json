@@ -1,0 +1,26 @@
+{
+  "case_id": "H51",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 24 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp; dữ liệu chỉ cho biết các nhánh dự báo dùng cửa sổ 24 quan sát, không xác nhận việc huấn luyện biểu đồ/mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến 70 và đúng kỳ hạn 12 tháng. Các mốc dự báo, khoảng 53.500–55.500, tháng cao nhất 6/2024 và các tháng ở mức 55.000 đều khớp forecast; nhận định ổn định và cao hơn trung bình lịch sử cũng được hỗ trợ. Trình bày rõ ràng, nêu được mức độ và biến động chính. Điểm faithfulness giảm nhẹ vì chart_note dùng khẳng định “được huấn luyện”, trong khi đầu vào chỉ xác nhận cửa sổ dự báo gồm 24 quan sát."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.850744915995165,
+    "input_tokens": 2585,
+    "output_tokens": 340,
+    "total_tokens": 2925,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 24 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp; dữ liệu chỉ cho biết các nhánh dự báo dùng cửa sổ 24 quan sát, không xác nhận việc huấn luyện biểu đồ/mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát tuyến 70 và đúng kỳ hạn 12 tháng. Các mốc dự báo, khoảng 53.500–55.500, tháng cao nhất 6/2024 và các tháng ở mức 55.000 đều khớp forecast; nhận định ổn định và cao hơn trung bình lịch sử cũng được hỗ trợ. Trình bày rõ ràng, nêu được mức độ và biến động chính. Điểm faithfulness giảm nhẹ vì chart_note dùng khẳng định “được huấn luyện”, trong khi đầu vào chỉ xác nhận cửa sổ dự báo gồm 24 quan sát.\"}"
+  }
+}

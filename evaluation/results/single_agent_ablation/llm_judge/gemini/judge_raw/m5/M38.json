@@ -1,0 +1,26 @@
+{
+  "case_id": "M38",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng các dự báo cao hơn trung bình lịch sử \"cho thấy khả năng tiếp tục một xu hướng hoặc quy luật đã được quan sát trong giai đoạn gần đây\" không được history summary cung cấp bằng chứng trực tiếp về xu hướng hoặc quy luật gần đây."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 tháng, nêu đúng mặt hàng, thời gian, khoảng giá trị, cực trị và cách kết hợp hai cửa sổ 36/52 tháng với trọng số gần đây cao hơn. Các số liệu chính đều khớp forecast và history summary. Tuy nhiên, history summary chỉ có thống kê tổng quát, không chứng minh xu hướng hoặc quy luật ở giai đoạn gần đây; vì vậy diễn giải này hơi vượt quá bằng chứng. Trình bày rõ ràng và giúp người dùng hiểu mức dự báo cùng biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.3527787500061095,
+    "input_tokens": 2553,
+    "output_tokens": 322,
+    "total_tokens": 2875,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng các dự báo cao hơn trung bình lịch sử \\\"cho thấy khả năng tiếp tục một xu hướng hoặc quy luật đã được quan sát trong giai đoạn gần đây\\\" không được history summary cung cấp bằng chứng trực tiếp về xu hướng hoặc quy luật gần đây.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 tháng, nêu đúng mặt hàng, thời gian, khoảng giá trị, cực trị và cách kết hợp hai cửa sổ 36/52 tháng với trọng số gần đây cao hơn. Các số liệu chính đều khớp forecast và history summary. Tuy nhiên, history summary chỉ có thống kê tổng quát, không chứng minh xu hướng hoặc quy luật ở giai đoạn gần đây; vì vậy diễn giải này hơi vượt quá bằng chứng. Trình bày rõ ràng và giúp người dùng hiểu mức dự báo cùng biến động chính.\"}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho mặt hàng HOUSEHOLD_1_280 tại cửa hàng WI_2 đã được thực hiện thành công cho 8 quý tiếp theo, bắt đầu từ quý 3 năm 2014. Kết quả cho thấy một xu hướng tăng trưởng ổn định và mạnh mẽ trong suốt giai đoạn dự báo.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'ensemble' (kết hợp), với trọng số 60% dành cho mô hình ngắn hạn và 40% dành cho mô hình dài hạn.",
+    "Dự báo được xây dựng dựa trên 14 điểm dữ liệu lịch sử, trải dài từ 2011-01-01 đến 2014-04-01.",
+    "Trong 8 quý dự báo, giá trị dự kiến (yhat) tăng dần từ 143.398 (2014-07-01) lên 258.184 (2016-04-01)."
+  ],
+  "chart_note": "Phạm vi dự báo bao gồm 8 bước thời gian, từ 2014-07-01 đến 2016-04-01. Các giá trị này là dự đoán và không đại diện cho giá trị thực tế trong tương lai."
+}

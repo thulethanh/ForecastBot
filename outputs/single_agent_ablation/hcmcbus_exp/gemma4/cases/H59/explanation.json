@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho tuyến HCMC_BUS (Route 87)",
+  "summary_text": "Dự báo đã được thực hiện thành công cho bộ dữ liệu HCMC_BUS, tập trung vào tuyến 87, với độ chi tiết theo năm và tầm nhìn 10 năm (từ năm 2025 đến 2034). Mô hình sử dụng phương pháp dự báo đơn (single mode), kết hợp trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn, dựa trên 3 điểm dữ liệu lịch sử (2022-2024).",
+  "insights": [
+    "Dự báo cho thấy một xu hướng tăng trưởng mạnh mẽ trong giai đoạn đầu (từ 2025 đến 2029), với giá trị dự kiến đạt đỉnh vào năm 2029.",
+    "Sau năm 2029, xu hướng dự báo chuyển sang giai đoạn ổn định và giảm dần (từ 2030 đến 2034), cho thấy sự điều chỉnh về mức độ hoạt động theo thời gian.",
+    "Các giá trị dự báo được tính toán dựa trên việc cân nhắc giữa các xu hướng ngắn hạn (h3) và dài hạn (h3) từ dữ liệu lịch sử."
+  ],
+  "chart_note": "Đây là kết quả dự báo toán học dựa trên các mẫu hình lịch sử và không phải là giá trị thực tế được đảm bảo trong tương lai."
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "M38",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 5 điểm dữ liệu\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 5 quan sát, không xác nhận việc huấn luyện biểu đồ/mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo một năm cho đúng mặt hàng, nêu chính xác giá trị 5068.0, so sánh đúng với trung bình 3546.6 và cực đại 5251.0, đồng thời mô tả đúng phạm vi 5 điểm lịch sử. Nội dung rõ ràng, ngắn gọn và giúp đặt dự báo trong bối cảnh lịch sử. Tuy nhiên, chart_note khẳng định biểu đồ được \"huấn luyện\" trên 5 điểm, trong khi thông tin cung cấp chỉ xác nhận cửa sổ đầu vào của các nhánh dự báo, không xác nhận quá trình huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.217501915991306,
+    "input_tokens": 2133,
+    "output_tokens": 398,
+    "total_tokens": 2531,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 5 điểm dữ liệu\\\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 5 quan sát, không xác nhận việc huấn luyện biểu đồ/mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo một năm cho đúng mặt hàng, nêu chính xác giá trị 5068.0, so sánh đúng với trung bình 3546.6 và cực đại 5251.0, đồng thời mô tả đúng phạm vi 5 điểm lịch sử. Nội dung rõ ràng, ngắn gọn và giúp đặt dự báo trong bối cảnh lịch sử. Tuy nhiên, chart_note khẳng định biểu đồ được \\\"huấn luyện\\\" trên 5 điểm, trong khi thông tin cung cấp chỉ xác nhận cửa sổ đầu vào của các nhánh dự báo, không xác nhận quá trình huấn luyện.\"}"
+  }
+}

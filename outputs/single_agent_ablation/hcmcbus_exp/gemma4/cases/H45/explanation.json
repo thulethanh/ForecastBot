@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho HCMC_BUS (Tuyến 148, Nhóm xe 3_CNG)",
+  "summary_text": "Dự báo cho 30 ngày tới (từ 2024-12-02 đến 2024-12-31) cho thấy một giá trị ổn định và không thay đổi, với mức dự đoán là 1445.2857 đơn vị trong suốt toàn bộ giai đoạn.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', kết hợp trọng số 60% từ cửa sổ ngắn (180 ngày) và 40% từ cửa sổ dài (365 ngày).",
+    "Do sử dụng cơ chế dự phòng (fallback_used: true), mô hình đã đưa ra một giá trị trung bình ổn định cho toàn bộ giai đoạn dự báo.",
+    "Dữ liệu lịch sử được phân tích bao gồm 1064 điểm dữ liệu, trải dài từ 2022-01-01 đến 2024-12-01, với giá trị trung bình lịch sử là 1292.61."
+  ],
+  "chart_note": "Giá trị dự báo được duy trì ở mức hằng số (1445.2857) trong suốt 30 ngày, cho thấy sự ổn định theo mô hình dự đoán."
+}

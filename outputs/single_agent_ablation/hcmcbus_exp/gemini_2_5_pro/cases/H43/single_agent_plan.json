@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 7,
+  "filters": {
+    "route_id": "145"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '145' GROUP BY d.date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the historical daily total passenger count for bus route 145, which will be used to forecast the next 7 days."
+}

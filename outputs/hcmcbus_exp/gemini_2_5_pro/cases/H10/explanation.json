@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo hàng tháng cho tuyến 32 (HTX-VTHANG) trong 24 tháng tới",
+  "summary_text": "ForecastBot dự báo cho 24 tháng tới, từ tháng 1/2025 đến tháng 12/2026. Các giá trị dự báo dao động từ 79684 (tháng 2) đến 113437 (tháng 10). Dự báo cho thấy một chu kỳ theo mùa hàng năm lặp lại, không có xu hướng tăng hoặc giảm rõ rệt trong giai đoạn dự báo.",
+  "insights": [
+    "Điểm dự báo cao nhất là 113437, được dự kiến vào tháng 10 của cả hai năm 2025 và 2026.",
+    "Điểm dự báo thấp nhất là 79684, được dự kiến vào tháng 2 của cả hai năm 2025 và 2026.",
+    "Mô hình dự báo cho năm 2026 lặp lại chính xác các giá trị của năm 2025, cho thấy tính thời vụ hàng năm ổn định."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1/2022 đến tháng 12/2024 và dự báo của ForecastBot cho 24 tháng tiếp theo."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "ForecastBot: Dự báo hàng quý cho item_id HOBBIES_2_089",
+  "summary_text": "ForecastBot dự báo giá trị cho quý tiếp theo (bắt đầu vào 2016-04-01) là 245.56. Con số này thấp hơn mức trung bình lịch sử là 291.86. Dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01 có các giá trị dao động trong khoảng từ 77.0 đến 375.0.",
+  "insights": [
+    "Giá trị dự báo cho quý bắt đầu vào 2016-04-01 là 245.56.",
+    "Dữ liệu lịch sử bao gồm 21 điểm dữ liệu hàng quý từ 2011-01-01 đến 2016-01-01.",
+    "Giá trị trung bình lịch sử là 291.86, với giá trị cao nhất là 375.0 và thấp nhất là 77.0.",
+    "Dự báo được tạo ra bằng mô hình `ensemble`, kết hợp mô hình `h8` (trọng số 60%) và `h12` (trọng số 40%)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 21 điểm dữ liệu lịch sử hàng quý được sử dụng để huấn luyện mô hình, từ 2011-01-01 đến 2016-01-01. ForecastBot đã tạo ra dự báo cho 1 quý tiếp theo."
+}

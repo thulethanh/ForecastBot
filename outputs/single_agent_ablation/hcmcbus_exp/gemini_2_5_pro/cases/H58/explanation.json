@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 12 quý tiếp theo về số lượng cho tuyến xe buýt 85 do HTX-195 vận hành, dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2024-10-01. Dự báo cho thấy một xu hướng tăng trưởng chung qua các năm, đồng thời thể hiện một quy luật theo mùa rõ rệt.",
+  "insights": [
+    "Dự báo chỉ ra một xu hướng tăng trưởng ổn định. Ví dụ, giá trị dự báo cho Quý 4 năm 2027 (193,081) cao hơn so với Quý 4 năm 2025 (188,790).",
+    "Có một quy luật theo mùa nhất quán, với giá trị dự báo thấp nhất vào Quý 1 và cao nhất vào Quý 4 mỗi năm. Sự chênh lệch giữa quý cao nhất và thấp nhất trong năm 2025 là khoảng 18,500."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dữ liệu lịch sử trong 12 quý và dự báo cho 12 quý tiếp theo."
+}

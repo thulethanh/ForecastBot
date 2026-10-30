@@ -1,0 +1,24 @@
+{
+  "case_id": "H62",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 91, đơn vị XKSG và kỳ hạn 5 năm theo yêu cầu. Các mức dự báo, mức giảm 9.820 và so sánh với trung bình lịch sử đều khớp dữ liệu cung cấp. Nội dung nêu rõ xu hướng giảm nhẹ, các mốc đầu-cuối và phạm vi 3 điểm lịch sử/5 bước dự báo; trình bày mạch lạc, ngắn gọn và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.138492708996637,
+    "input_tokens": 2362,
+    "output_tokens": 232,
+    "total_tokens": 2594,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 91, đơn vị XKSG và kỳ hạn 5 năm theo yêu cầu. Các mức dự báo, mức giảm 9.820 và so sánh với trung bình lịch sử đều khớp dữ liệu cung cấp. Nội dung nêu rõ xu hướng giảm nhẹ, các mốc đầu-cuối và phạm vi 3 điểm lịch sử/5 bước dự báo; trình bày mạch lạc, ngắn gọn và hữu ích.\"}"
+  }
+}

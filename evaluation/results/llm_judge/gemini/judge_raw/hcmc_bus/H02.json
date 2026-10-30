@@ -1,0 +1,26 @@
+{
+  "case_id": "H02",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định dữ liệu lịch sử từ 01/01/2022 đến 03/12/2024 được sử dụng để huấn luyện mô hình. Thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng; forecast cho biết các nhánh dùng cửa sổ 180 và 365 quan sát gần nhất, không xác nhận toàn bộ khoảng này được dùng để huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành và 28 ngày dự báo; các mức thấp/cao, trung bình dự báo, mẫu hình theo thứ trong tuần, ensemble, trọng số và cửa sổ 180/365 đều phù hợp dữ liệu forecast. Trình bày rõ ràng và giúp người dùng hiểu mức độ cũng như biến động dự báo. Tuy nhiên, chart note khẳng định toàn bộ lịch sử 01/01/2022–03/12/2024 được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ xác nhận phạm vi lịch sử khả dụng và các cửa sổ dự báo thực tế."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.633815834007692,
+    "input_tokens": 3245,
+    "output_tokens": 428,
+    "total_tokens": 3673,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định dữ liệu lịch sử từ 01/01/2022 đến 03/12/2024 được sử dụng để huấn luyện mô hình. Thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng; forecast cho biết các nhánh dùng cửa sổ 180 và 365 quan sát gần nhất, không xác nhận toàn bộ khoảng này được dùng để huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành và 28 ngày dự báo; các mức thấp/cao, trung bình dự báo, mẫu hình theo thứ trong tuần, ensemble, trọng số và cửa sổ 180/365 đều phù hợp dữ liệu forecast. Trình bày rõ ràng và giúp người dùng hiểu mức độ cũng như biến động dự báo. Tuy nhiên, chart note khẳng định toàn bộ lịch sử 01/01/2022–03/12/2024 được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ xác nhận phạm vi lịch sử khả dụng và các cửa sổ dự báo thực tế.\"}"
+  }
+}

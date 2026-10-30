@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã thực hiện dự báo cho dữ liệu M5 với độ chi tiết hàng tháng, kéo dài trong 24 bước (từ tháng 5 năm 2014 đến tháng 4 năm 2016). Mô hình sử dụng phương pháp 'ensemble' (kết hợp) với trọng số 0.6 cho mô hình ngắn hạn và 0.4 cho mô hình dài hạn. Dự báo được xây dựng dựa trên 40 điểm dữ liệu lịch sử và 36 điểm dữ liệu ngắn hạn.",
+  "insights": [
+    "Dự báo cho thấy tính mùa vụ rõ rệt, với các giá trị dự kiến cao hơn vào các tháng cuối năm (ví dụ: tháng 11 và tháng 12) và các giá trị thấp hơn vào đầu năm.",
+    "Các giá trị dự báo được tính toán bằng cách kết hợp trọng số giữa mô hình ngắn hạn (0.6) và mô hình dài hạn (0.4), giúp cân bằng giữa xu hướng gần và xu hướng dài hạn.",
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 40 điểm dữ liệu, trải dài từ 2011-01-01 đến 2014-04-01."
+  ],
+  "chart_note": "Đây là kết quả dự báo toán học dựa trên các mẫu hình lịch sử và không phải là giá trị thực tế được đảm bảo trong tương lai."
+}

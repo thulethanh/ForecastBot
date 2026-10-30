@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 30 ngày tới về lượng hành khách hàng ngày trên tuyến xe buýt 64 do nhà vận hành XKSG quản lý, từ ngày 02/12/2024 đến 31/12/2024. Lượng hành khách dự báo trung bình là khoảng 1.132 mỗi ngày, cao hơn mức trung bình lịch sử (1.016). Dự báo cho thấy một quy luật tuần rõ rệt.",
+  "insights": [
+    "Dự báo xác định một quy luật tuần rất rõ ràng. Lượng hành khách dự kiến sẽ cao nhất vào các ngày trong tuần (Thứ Hai đến Thứ Sáu), giảm vào Thứ Bảy và thấp nhất vào Chủ Nhật.",
+    "Các giá trị dự báo cho các ngày trong tuần (khoảng 1.206 - 1.240) đều cao hơn mức trung bình lịch sử là 1.016. Ngược lại, lượng khách vào Chủ Nhật (khoảng 794) được dự báo sẽ thấp hơn đáng kể so với mức trung bình này."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dự báo lượng hành khách hàng ngày trong 30 ngày tới. Dữ liệu lịch sử từ 01/01/2022 đến 01/12/2024 đã được sử dụng. Các bộ lọc được áp dụng: Mã tuyến là 64, Nhà vận hành là XKSG."
+}

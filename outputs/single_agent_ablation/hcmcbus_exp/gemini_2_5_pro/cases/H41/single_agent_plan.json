@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 5,
+  "filters": {
+    "route_id": "139",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '139' AND TRIM(d.operator) = 'XKSG' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "Selects the yearly total number of passengers for route 139 operated by XKSG."
+}

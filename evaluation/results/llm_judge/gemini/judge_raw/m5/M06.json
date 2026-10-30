@@ -1,0 +1,24 @@
+{
+  "case_id": "M06",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng và kỳ dự báo 30 ngày. Các mốc thời gian, khoảng dự báo, giá trị cực đại/cực tiểu, tổng và trung bình dự báo đều phù hợp với forecast. So sánh với trung bình lịch sử 0.56 và phạm vi lịch sử 1883 điểm được hỗ trợ bởi history summary. Ghi chú biểu đồ mô tả đúng phạm vi dữ liệu lịch sử và việc dùng mô hình ensemble theo kết quả dự báo. Nội dung ngắn gọn, rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.8801385830010986,
+    "input_tokens": 3207,
+    "output_tokens": 215,
+    "total_tokens": 3422,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng và kỳ dự báo 30 ngày. Các mốc thời gian, khoảng dự báo, giá trị cực đại/cực tiểu, tổng và trung bình dự báo đều phù hợp với forecast. So sánh với trung bình lịch sử 0.56 và phạm vi lịch sử 1883 điểm được hỗ trợ bởi history summary. Ghi chú biểu đồ mô tả đúng phạm vi dữ liệu lịch sử và việc dùng mô hình ensemble theo kết quả dự báo. Nội dung ngắn gọn, rõ ràng và hữu ích.\"}"
+  }
+}

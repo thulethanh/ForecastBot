@@ -1,0 +1,26 @@
+{
+  "case_id": "M56",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Câu \"mô hình đã xác định được một quy luật có tính chu kỳ trong dữ liệu lịch sử\" không được hỗ trợ bởi history summary, vốn chỉ cung cấp phạm vi, số điểm và các thống kê tổng quát."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý, đúng mặt hàng, bang, kỳ hạn và nêu rõ các mức dự báo chính. Các số liệu dự báo, thông tin mô hình tổng hợp, trọng số, cửa sổ 8/12 quý và mô tả dữ liệu lịch sử đều khớp dữ liệu cung cấp. Tuy nhiên, nhận định về \"quy luật có tính chu kỳ\" không thể suy ra từ history summary và forecast đã cho. Trình bày rõ ràng, ngắn gọn; hữu ích nhờ chỉ ra biến động đầu kỳ và mức ổn định tương đối sau đó."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.474547959049232,
+    "input_tokens": 2334,
+    "output_tokens": 304,
+    "total_tokens": 2638,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Câu \\\"mô hình đã xác định được một quy luật có tính chu kỳ trong dữ liệu lịch sử\\\" không được hỗ trợ bởi history summary, vốn chỉ cung cấp phạm vi, số điểm và các thống kê tổng quát.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý, đúng mặt hàng, bang, kỳ hạn và nêu rõ các mức dự báo chính. Các số liệu dự báo, thông tin mô hình tổng hợp, trọng số, cửa sổ 8/12 quý và mô tả dữ liệu lịch sử đều khớp dữ liệu cung cấp. Tuy nhiên, nhận định về \\\"quy luật có tính chu kỳ\\\" không thể suy ra từ history summary và forecast đã cho. Trình bày rõ ràng, ngắn gọn; hữu ích nhờ chỉ ra biến động đầu kỳ và mức ổn định tương đối sau đó.\"}"
+  }
+}

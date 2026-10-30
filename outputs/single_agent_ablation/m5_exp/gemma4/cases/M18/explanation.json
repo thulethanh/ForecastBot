@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho hai năm tiếp theo (2015 và 2016) được xác định là 842.25. Giá trị này được thiết lập dựa trên mức trung bình lịch sử của dữ liệu có sẵn.",
+  "insights": [
+    "Mô hình sử dụng chế độ 'single' (đơn) và áp dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+    "Kết quả dự báo ổn định, cho thấy sự duy trì giá trị trung bình lịch sử (842.25) trong suốt giai đoạn dự báo.",
+    "Phạm vi dự báo là 2 bước (2 năm) với độ chi tiết là hàng năm."
+  ],
+  "chart_note": "Dự báo được tính toán dựa trên 4 điểm dữ liệu lịch sử (2011-2014) và không có dấu hiệu sử dụng các giá trị thực tế trong tương lai."
+}

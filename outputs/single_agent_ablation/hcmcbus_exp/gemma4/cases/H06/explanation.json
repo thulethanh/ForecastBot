@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử của tuyến 28 (XKSG) tại HCMC_BUS, mô hình đã thực hiện dự báo cho 24 tháng tới (từ tháng 01/2025 đến tháng 12/2026). Do sử dụng phương pháp 'deterministic_recent_mean' và kích hoạt fallback, kết quả dự báo cho toàn bộ giai đoạn được xác định là một giá trị ổn định, không thay đổi theo thời gian.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', cho thấy giá trị dự báo được tính toán dựa trên mức trung bình gần đây của dữ liệu lịch sử.",
+    "Giá trị dự báo ổn định cho 24 tháng tới là 55008.7143, bất kể sự thay đổi theo mùa hay xu hướng tăng/giảm.",
+    "Phạm vi dữ liệu lịch sử được sử dụng để tính toán là 36 điểm dữ liệu (từ 2022-01-01 đến 2024-12-01)."
+  ],
+  "chart_note": "Dự báo này cung cấp một ước tính ổn định cho 24 tháng tới (2025-2026) cho tuyến 28 của XKSG. Giá trị dự báo được tính toán bằng phương pháp trung bình gần đây (deterministic_recent_mean) và không phản ánh sự biến động theo mùa hoặc xu hướng tăng trưởng phức tạp."
+}

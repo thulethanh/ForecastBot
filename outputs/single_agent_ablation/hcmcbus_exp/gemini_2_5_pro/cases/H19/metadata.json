@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H19",
+  "question": "Hãy dự báo lượng hành khách của tuyến 47 trong 3 năm tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 3,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 5,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.007932750042527914,
+    "request_sql": 10.083107459009625,
+    "sql_execution_and_repair": 0.015862916014157236,
+    "forecast": 11.276195875019766,
+    "explanation": 14.261704750009812,
+    "end_to_end": 35.6448927919846
+  },
+  "total_tokens": 6247,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

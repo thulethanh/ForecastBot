@@ -1,0 +1,24 @@
+{
+  "case_id": "H58",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 quý cho đúng tuyến 85 và đơn vị HTX-195. Các mốc thời gian, phạm vi 12 quý lịch sử và 12 quý dự báo đều khớp dữ liệu. Nhận định tăng trưởng được minh họa bằng dự báo Quý 4/2027 cao hơn Quý 4/2025; mô hình theo quý thấp nhất ở Quý 1 và cao nhất ở Quý 4 cũng khớp toàn bộ các năm dự báo. Chênh lệch khoảng 18.500 trong năm 2025 phù hợp với các giá trị dự báo. Nội dung rõ ràng, ngắn gọn và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.481207416043617,
+    "input_tokens": 2562,
+    "output_tokens": 329,
+    "total_tokens": 2891,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 quý cho đúng tuyến 85 và đơn vị HTX-195. Các mốc thời gian, phạm vi 12 quý lịch sử và 12 quý dự báo đều khớp dữ liệu. Nhận định tăng trưởng được minh họa bằng dự báo Quý 4/2027 cao hơn Quý 4/2025; mô hình theo quý thấp nhất ở Quý 1 và cao nhất ở Quý 4 cũng khớp toàn bộ các năm dự báo. Chênh lệch khoảng 18.500 trong năm 2025 phù hợp với các giá trị dự báo. Nội dung rõ ràng, ngắn gọn và hữu ích.\"}"
+  }
+}

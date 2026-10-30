@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng tháng cho mặt hàng HOBBIES_1_079 tại cửa hàng WI_1 trong 6 tháng, từ tháng 11 năm 2015 đến tháng 4 năm 2016. Dự báo cho thấy xu hướng giảm chung, với doanh số dự kiến sẽ giảm từ khoảng 29.8 đơn vị xuống còn 6.1 đơn vị trong kỳ. Dự báo được tạo ra bằng mô hình tổng hợp kết hợp các xu hướng từ dữ liệu lịch sử 24 và 36 tháng gần nhất, với trọng số cao hơn cho các xu hướng gần đây.",
+  "insights": [
+    "Dự báo bắt đầu gần với mức trung bình lịch sử hàng tháng là khoảng 27.0 đơn vị nhưng cho thấy xu hướng giảm đáng kể, với doanh số dự kiến cho đầu năm 2016 giảm xuống dưới mức trung bình này.",
+    "Mô hình đặt 60% trọng số vào các xu hướng từ 24 tháng gần nhất, cho thấy rằng hiệu suất gần đây được coi là yếu tố dự báo mạnh mẽ hơn cho doanh số tương lai của mặt hàng này so với lịch sử dài hạn của nó."
+  ],
+  "chart_note": "Biểu đồ hiển thị 58 tháng dữ liệu bán hàng lịch sử và dự báo cho 6 tháng tới. Mức bán hàng trung bình trong lịch sử là 27.0 đơn vị mỗi tháng."
+}

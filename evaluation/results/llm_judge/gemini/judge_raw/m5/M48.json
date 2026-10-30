@@ -1,0 +1,24 @@
+{
+  "case_id": "M48",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo 1 tháng cho đúng item và cửa hàng, nêu rõ giá trị dự báo 30,0 vào 2016-04-01. Các số liệu về trung bình lịch sử, số điểm, phạm vi ngày, min/max và cấu hình ensemble đều khớp với history summary và forecast result. Nội dung trình bày mạch lạc, ngắn gọn, đồng thời giúp đặt dự báo trong bối cảnh mức trung bình và biên độ lịch sử mà không suy diễn nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 11.987425458006328,
+    "input_tokens": 2209,
+    "output_tokens": 220,
+    "total_tokens": 2429,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo 1 tháng cho đúng item và cửa hàng, nêu rõ giá trị dự báo 30,0 vào 2016-04-01. Các số liệu về trung bình lịch sử, số điểm, phạm vi ngày, min/max và cấu hình ensemble đều khớp với history summary và forecast result. Nội dung trình bày mạch lạc, ngắn gọn, đồng thời giúp đặt dự báo trong bối cảnh mức trung bình và biên độ lịch sử mà không suy diễn nguyên nhân không có bằng chứng.\"}"
+  }
+}

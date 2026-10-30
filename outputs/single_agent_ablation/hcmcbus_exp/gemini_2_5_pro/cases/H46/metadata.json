@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H46",
+  "question": "Tôi muốn dự báo lượng hành khách của tuyến 150 do HTX-195 vận hành trong 60 ngày tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1094,
+    "n_train": 1034,
+    "n_test": 60,
+    "horizon": 60,
+    "minimum_train_required": 60,
+    "required_points_for_evaluation": 120,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.038436500006355345,
+    "request_sql": 8.341362165985629,
+    "sql_execution_and_repair": 0.022856042021885514,
+    "forecast": 137.71745220804587,
+    "explanation": 14.653532875003293,
+    "end_to_end": 160.77390391705558
+  },
+  "total_tokens": 33586,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

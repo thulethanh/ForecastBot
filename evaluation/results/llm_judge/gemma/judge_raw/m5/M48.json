@@ -1,0 +1,24 @@
+{
+  "case_id": "M48",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, mức tháng và kỳ dự báo yêu cầu. Mức dự báo 31.0, phạm vi lịch sử, số điểm, trung bình 22.51, tối đa 35.0 तथा thông tin ensemble/cửa sổ đều khớp dữ liệu cung cấp. So sánh dự báo cao hơn trung bình và gần mức tối đa là phù hợp. Nội dung ngắn gọn, mạch lạc và giúp người dùng đặt mức dự báo trong bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.682682541999384,
+    "input_tokens": 2177,
+    "output_tokens": 154,
+    "total_tokens": 2331,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, mức tháng và kỳ dự báo yêu cầu. Mức dự báo 31.0, phạm vi lịch sử, số điểm, trung bình 22.51, tối đa 35.0 तथा thông tin ensemble/cửa sổ đều khớp dữ liệu cung cấp. So sánh dự báo cao hơn trung bình và gần mức tối đa là phù hợp. Nội dung ngắn gọn, mạch lạc và giúp người dùng đặt mức dự báo trong bối cảnh lịch sử.\"}"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M11",
+  "question": "Cho tôi dự báo lượng bán của sản phẩm HOBBIES_2_089 trong 1 quý tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 21,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.005182833061553538,
+    "request_sql": 9.607123416964896,
+    "sql_execution_and_repair": 0.04491562501061708,
+    "forecast": 55.96578349999618,
+    "explanation": 13.311984666972421,
+    "end_to_end": 78.93505387497135
+  },
+  "total_tokens": 12576,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

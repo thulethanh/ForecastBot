@@ -1,0 +1,28 @@
+{
+  "case_id": "H16",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Giá trị hằng số phản ánh sự ổn định cao trong hiệu suất lịch sử.",
+      "Mô hình đã sử dụng giá trị trung bình làm cơ sở dự báo.",
+      "Dự báo được thực hiện dựa trên việc tính toán giá trị trung bình lịch sử của 9 điểm dữ liệu gần nhất."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến, nhà khai thác, tần suất, 12 quý, các mốc thời gian và mức dự báo hằng số 137.310; các thông tin này rõ ràng và hữu ích. Giá trị dự báo cũng gần như trùng với trung bình lịch sử 137.309,56. Tuy nhiên, tóm tắt lịch sử chỉ cung cấp min, max, trung bình và số điểm, không đủ để kết luận lịch sử có độ ổn định cao. Đồng thời không có bằng chứng trực tiếp về cơ chế mô hình đã tính trung bình làm cơ sở dự báo, dù kết quả có sự trùng khớp gần đúng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.281166708096862,
+    "input_tokens": 2594,
+    "output_tokens": 419,
+    "total_tokens": 3013,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Giá trị hằng số phản ánh sự ổn định cao trong hiệu suất lịch sử.\",\"Mô hình đã sử dụng giá trị trung bình làm cơ sở dự báo.\",\"Dự báo được thực hiện dựa trên việc tính toán giá trị trung bình lịch sử của 9 điểm dữ liệu gần nhất.\"],\"reason_vi\":\"Giải thích bám sát tuyến, nhà khai thác, tần suất, 12 quý, các mốc thời gian và mức dự báo hằng số 137.310; các thông tin này rõ ràng và hữu ích. Giá trị dự báo cũng gần như trùng với trung bình lịch sử 137.309,56. Tuy nhiên, tóm tắt lịch sử chỉ cung cấp min, max, trung bình và số điểm, không đủ để kết luận lịch sử có độ ổn định cao. Đồng thời không có bằng chứng trực tiếp về cơ chế mô hình đã tính trung bình làm cơ sở dự báo, dù kết quả có sự trùng khớp gần đúng.\"}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo doanh số cho HOBBIES_2_018 tại TX_2 (Quý)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo doanh số cho HOBBIES_2_018 tại TX_2 trong 3 quý tới. Dự báo cho quý 2015-10-01 là 56.0, tiếp theo là 60.0 vào quý 2016-01-01, và 54.0 vào quý 2016-04-01.",
+  "insights": [
+    "Dự báo cho thấy mức tăng trưởng từ quý 2015-10-01 (56.0) lên mức cao nhất là 60.0 vào quý 2016-01-01.",
+    "Sau khi đạt đỉnh vào quý 2016-01-01, dự báo cho quý 2016-04-01 giảm xuống còn 54.0."
+  ],
+  "chart_note": "Biểu đồ này được tạo bằng mô hình ensemble, sử dụng trọng số 0.6 cho cửa sổ ngắn (h8) và 0.4 cho cửa sổ dài (h12). Các giá trị dự báo được tính toán dựa trên lịch sử dữ liệu cho đến quý 2015-07-01."
+}

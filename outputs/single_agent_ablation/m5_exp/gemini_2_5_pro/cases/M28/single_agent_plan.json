@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 3,
+  "filters": {
+    "item_id": "FOODS_3_302",
+    "store_id": "TX_1",
+    "state_id": "TX"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'FOODS_3_302' AND s.store_id = 'TX_1' AND s.state_id = 'TX' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "This SQL query aggregates the monthly sales for the item FOODS_3_302 in store TX_1 and state TX. It joins the sales and calendar tables, filters by the specified item, store, and state, groups the results by month, and orders them chronologically to create the time series for forecasting."
+}

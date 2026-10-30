@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 1,
+  "filters": {
+    "route_id": "43",
+    "operator": "Cty-BaoYen"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '43' AND TRIM(d.operator) = 'Cty-BaoYen' GROUP BY DATE_TRUNC('quarter', d.date)::date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query aggregates the total number of passengers by quarter for route 43 operated by Cty-BaoYen. It selects the start of each quarter as the timestamp 'ds' and the sum of passengers as the value 'y', filtering by the specified route ID and operator."
+}

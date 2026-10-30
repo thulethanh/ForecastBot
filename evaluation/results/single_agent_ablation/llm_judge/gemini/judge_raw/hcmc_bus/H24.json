@@ -1,0 +1,26 @@
+{
+  "case_id": "H24",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Câu “Lượng hành khách dự báo trung bình là khoảng 1.132 mỗi ngày” không khớp hoàn toàn với trung bình của 30 giá trị dự báo, xấp xỉ 1.138 mỗi ngày."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến 64, nhà vận hành XKSG, kỳ hạn 30 ngày và nêu rõ mức dự báo cũng như quy luật theo tuần. Các nhận định về ngày thường, Thứ Bảy và Chủ Nhật đều được hỗ trợ trực tiếp bởi dãy forecast lặp theo tuần. Phạm vi dữ liệu lịch sử và các bộ lọc trong chart note phù hợp với thông tin được cung cấp. Điểm faithfulness giảm nhẹ vì mức trung bình 1.132/ngày không khớp chính xác với trung bình của toàn bộ 30 dự báo (khoảng 1.138/ngày)."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.424732833984308,
+    "input_tokens": 3232,
+    "output_tokens": 571,
+    "total_tokens": 3803,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Câu “Lượng hành khách dự báo trung bình là khoảng 1.132 mỗi ngày” không khớp hoàn toàn với trung bình của 30 giá trị dự báo, xấp xỉ 1.138 mỗi ngày.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến 64, nhà vận hành XKSG, kỳ hạn 30 ngày và nêu rõ mức dự báo cũng như quy luật theo tuần. Các nhận định về ngày thường, Thứ Bảy và Chủ Nhật đều được hỗ trợ trực tiếp bởi dãy forecast lặp theo tuần. Phạm vi dữ liệu lịch sử và các bộ lọc trong chart note phù hợp với thông tin được cung cấp. Điểm faithfulness giảm nhẹ vì mức trung bình 1.132/ngày không khớp chính xác với trung bình của toàn bộ 30 dự báo (khoảng 1.138/ngày).\"}"
+  }
+}

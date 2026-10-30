@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H57",
+  "question": "Dự báo lượng khách của tuyến 84 do HTX-28 vận hành trong 8 quý tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 9,
+    "n_train": 9,
+    "n_test": 0,
+    "horizon": 8,
+    "minimum_train_required": 8,
+    "required_points_for_evaluation": 16,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.0030300409998744726,
+    "request_sql": 10.294207958038896,
+    "sql_execution_and_repair": 0.016086374991573393,
+    "forecast": 32.26263008301612,
+    "explanation": 15.654008082929067,
+    "end_to_end": 58.23005291703157
+  },
+  "total_tokens": 10305,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

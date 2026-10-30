@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 24 tháng cho item_id HOBBIES_1_121 tại state_id TX",
+  "summary_text": "ForecastBot đã tạo dự báo cho 24 tháng tới, từ 2014-05-01 đến 2016-04-01. Dữ liệu lịch sử bao gồm 40 điểm dữ liệu hàng tháng từ 2011-01-01 đến 2014-04-01, với giá trị trung bình là 6.875. Các giá trị dự báo dao động trong khoảng từ 4.0 đến 37.0.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 37.0, được dự kiến vào tháng 8 của cả hai năm 2014 và 2015.",
+    "Giá trị dự báo thấp nhất là 4.0, được dự kiến vào tháng 1 của cả hai năm 2015 và 2016.",
+    "Dự báo cho thấy một mô hình mùa vụ hàng năm rõ rệt, lặp lại các đỉnh và đáy vào cùng các tháng mỗi năm."
+  ],
+  "chart_note": "Biểu đồ hiển thị 40 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2014-04-01) được sử dụng để huấn luyện và dự báo của ForecastBot cho 24 tháng tiếp theo (từ 2014-05-01 đến 2016-04-01). Dự báo được tạo bởi mô hình `ensemble`."
+}

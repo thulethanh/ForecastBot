@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (Route 55, XKSG, 4_CNG.2)",
+  "summary_text": "Trong lịch sử, dữ liệu HCMC_BUS cho tuyến 55 (XKSG, 4_CNG.2) dao động từ 1,379,297.0 đến 1,619,070.0, với mức trung bình là 1,517,182.3333333333. Dự báo cho năm 2025-01-01 là 1,181,627.0, sau đó giảm mạnh xuống 504,411.0 vào năm 2026-01-01 và bằng 0.0 cho các năm tiếp theo.",
+  "insights": [
+    "Dự báo cho năm 2025-01-01 là 1,181,627.0, thấp hơn so với mức trung bình lịch sử (1,517,182.3333333333).",
+    "Có sự sụt giảm đáng kể dự kiến từ năm 2025 (1,181,627.0) xuống năm 2026 (504,411.0).",
+    "Sau năm 2026-01-01, dự báo cho tất cả các bước tiếp theo (từ 2027 đến 2034) đều bằng 0.0."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 3 điểm dữ liệu lịch sử và đưa ra dự báo cho 10 bước tiếp theo (horizon 10). Mô hình sử dụng cửa sổ ngắn (h3) và cửa sổ dài (h3) để tính toán."
+}

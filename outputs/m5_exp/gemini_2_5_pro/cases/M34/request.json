@@ -1,0 +1,13 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "quarter",
+  "horizon": 3,
+  "filters": {
+    "item_id": "HOBBIES_2_018",
+    "store_id": "TX_2"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

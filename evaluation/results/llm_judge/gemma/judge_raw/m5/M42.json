@@ -1,0 +1,24 @@
+{
+  "case_id": "M42",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 10 năm cho đúng sản phẩm/cửa hàng/bang. Các mốc thời gian và mức dự báo 119.33 cho toàn bộ giai đoạn 2017–2026 khớp hoàn toàn với forecast. Nhận định dự báo ổn định được hỗ trợ trực tiếp bởi các yhat không đổi; nhận định bằng trung bình lịch sử cũng khớp với mean_y 119.3333 sau làm tròn. Nội dung ngắn gọn, rõ ràng và nêu được ý nghĩa chính của kết quả."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.546253374996013,
+    "input_tokens": 2458,
+    "output_tokens": 223,
+    "total_tokens": 2681,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 10 năm cho đúng sản phẩm/cửa hàng/bang. Các mốc thời gian và mức dự báo 119.33 cho toàn bộ giai đoạn 2017–2026 khớp hoàn toàn với forecast. Nhận định dự báo ổn định được hỗ trợ trực tiếp bởi các yhat không đổi; nhận định bằng trung bình lịch sử cũng khớp với mean_y 119.3333 sau làm tròn. Nội dung ngắn gọn, rõ ràng và nêu được ý nghĩa chính của kết quả.\"}"
+  }
+}

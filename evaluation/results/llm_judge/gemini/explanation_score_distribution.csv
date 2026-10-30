@@ -1,0 +1,11 @@
+dataset,target_model,score_band,n_cases,n_total_judged,rate
+HCMC_BUS,Gemini 2.5 Pro,"(1,2]",3,63,0.047619047619047616
+HCMC_BUS,Gemini 2.5 Pro,"(2,3]",0,63,0.0
+HCMC_BUS,Gemini 2.5 Pro,"(3,4]",0,63,0.0
+HCMC_BUS,Gemini 2.5 Pro,"(4,4.5]",14,63,0.2222222222222222
+HCMC_BUS,Gemini 2.5 Pro,"(4.5,5]",46,63,0.7301587301587301
+M5,Gemini 2.5 Pro,"(1,2]",1,63,0.015873015873015872
+M5,Gemini 2.5 Pro,"(2,3]",0,63,0.0
+M5,Gemini 2.5 Pro,"(3,4]",1,63,0.015873015873015872
+M5,Gemini 2.5 Pro,"(4,4.5]",17,63,0.2698412698412698
+M5,Gemini 2.5 Pro,"(4.5,5]",44,63,0.6984126984126984

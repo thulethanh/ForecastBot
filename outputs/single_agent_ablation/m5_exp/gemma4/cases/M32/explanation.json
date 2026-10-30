@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho chỉ tiêu HOBBIES_1_208 tại khu vực TX cho quý 2 năm 2016 (2016-04-01) là 54.582. Kết quả này được tính toán bằng mô hình ensemble, kết hợp các xu hướng ngắn hạn và dài hạn.",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 21 điểm dữ liệu, trải dài từ 2011-01-01 đến 2016-01-01.",
+    "Mô hình dự báo sử dụng phương pháp ensemble với trọng số 60% cho xu hướng ngắn hạn (h8) và 40% cho xu hướng dài hạn (h12)."
+  ],
+  "chart_note": "Giá trị 54.582 là dự báo cho bước thời gian tiếp theo (1 bước) sau ngày kết thúc dữ liệu lịch sử."
+}

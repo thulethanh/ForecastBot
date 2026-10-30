@@ -1,0 +1,27 @@
+{
+  "case_id": "H08",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"83070.6 cao hơn 13.0% so với 70101.5\" không khớp với các số được nêu: chênh lệch tương ứng khoảng 18.5%, không phải 13.0%.",
+      "\"Mức dự báo ổn định ... cho thấy sự tăng trưởng\" là diễn giải xu hướng chưa được hỗ trợ rõ, vì forecast chỉ thể hiện mức đi ngang trong 6 tháng và history summary không cung cấp xu hướng theo thời gian."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, nhóm xe, kỳ hạn 6 tháng và mức dự báo cố định 83.070,6. Các số về 18 điểm lịch sử, thời gian lịch sử và trung bình 70.101,5 đều khớp dữ liệu; chart note cũng phù hợp. Tuy nhiên, phần trăm cao hơn trung bình được tính sai (thực tế khoảng 18,5%), và việc gọi mức dự báo đi ngang là “tăng trưởng” chưa có đủ bằng chứng về xu hướng. Trình bày rõ ràng, ngắn gọn và nhìn chung hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 10.411864416993922,
+    "input_tokens": 2329,
+    "output_tokens": 496,
+    "total_tokens": 2825,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"83070.6 cao hơn 13.0% so với 70101.5\\\" không khớp với các số được nêu: chênh lệch tương ứng khoảng 18.5%, không phải 13.0%.\",\"\\\"Mức dự báo ổn định ... cho thấy sự tăng trưởng\\\" là diễn giải xu hướng chưa được hỗ trợ rõ, vì forecast chỉ thể hiện mức đi ngang trong 6 tháng và history summary không cung cấp xu hướng theo thời gian.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, nhóm xe, kỳ hạn 6 tháng và mức dự báo cố định 83.070,6. Các số về 18 điểm lịch sử, thời gian lịch sử và trung bình 70.101,5 đều khớp dữ liệu; chart note cũng phù hợp. Tuy nhiên, phần trăm cao hơn trung bình được tính sai (thực tế khoảng 18,5%), và việc gọi mức dự báo đi ngang là “tăng trưởng” chưa có đủ bằng chứng về xu hướng. Trình bày rõ ràng, ngắn gọn và nhìn chung hữu ích.\"}"
+  }
+}

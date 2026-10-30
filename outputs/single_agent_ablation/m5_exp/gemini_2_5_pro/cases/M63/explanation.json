@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo 10 năm cho mặt hàng HOUSEHOLD_2_483 tại cửa hàng WI_2. Dựa trên 6 năm dữ liệu lịch sử từ 2011 đến 2016, với doanh số dao động từ 89 đến 352. Dự báo cho thấy một giá trị không đổi là 89 đơn vị mỗi năm cho 10 năm tới, từ 2017 đến 2026.",
+  "insights": [
+    "Dự báo là một đường thẳng, dự đoán cùng một giá trị doanh số cho mỗi năm trong 10 năm tới.",
+    "Giá trị dự báo hàng năm là 89 đơn vị, bằng với giá trị thấp nhất được quan sát trong dữ liệu lịch sử."
+  ],
+  "chart_note": "Biểu đồ hiển thị 6 năm dữ liệu lịch sử và dự báo cho 10 năm tiếp theo. Đường dự báo là một đường thẳng nằm ngang tại mức tối thiểu của dữ liệu lịch sử."
+}

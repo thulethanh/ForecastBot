@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo M5 cho FOODS_1_002 tại WI_1 (WI) vào tháng 4 năm 2016",
+  "summary_text": "Dựa trên dữ liệu lịch sử, giá trị dự báo cho tháng 4 năm 2016 là 31.0.",
+  "insights": [
+    "Dữ liệu lịch sử cho M5 của FOODS_1_002 tại WI_1 (WI) bao gồm 63 điểm, trải dài từ 2011-01-01 đến 2016-03-01, với giá trị trung bình là 22.51.",
+    "Giá trị dự báo 31.0 cao hơn mức trung bình lịch sử (22.51) và gần với mức tối đa lịch sử (35.0)."
+  ],
+  "chart_note": "Bản dự báo này được tạo ra bằng phương pháp 'ensemble', kết hợp trọng số 0.6 từ cửa sổ ngắn (h24, sử dụng 24 điểm) và trọng số 0.4 từ cửa sổ dài (h36, sử dụng 36 điểm)."
+}

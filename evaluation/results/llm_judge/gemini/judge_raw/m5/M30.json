@@ -1,0 +1,24 @@
+{
+  "case_id": "M30",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng item và cửa hàng, nêu rõ phạm vi thời gian, khoảng giá trị, trung bình dự báo và so sánh hợp lý với lịch sử. Các số liệu về đỉnh, đáy, trung bình lịch sử, cửa sổ 36/52 điểm và trọng số ensemble đều khớp với thông tin được cung cấp. Nội dung rõ ràng, có cấu trúc và giúp người dùng nhận diện mức biến động chính của dự báo mà không suy diễn nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.210331207999843,
+    "input_tokens": 2628,
+    "output_tokens": 222,
+    "total_tokens": 2850,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng item và cửa hàng, nêu rõ phạm vi thời gian, khoảng giá trị, trung bình dự báo và so sánh hợp lý với lịch sử. Các số liệu về đỉnh, đáy, trung bình lịch sử, cửa sổ 36/52 điểm và trọng số ensemble đều khớp với thông tin được cung cấp. Nội dung rõ ràng, có cấu trúc và giúp người dùng nhận diện mức biến động chính của dự báo mà không suy diễn nguyên nhân không có bằng chứng.\"}"
+  }
+}

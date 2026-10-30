@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 30 ngày cho item FOODS_1_078 tại cửa hàng TX_3",
+  "summary_text": "ForecastBot dự báo doanh số trung bình hàng ngày là 0.74 cho item FOODS_1_078 tại cửa hàng TX_3 trong 30 ngày tới (từ 2016-03-26 đến 2016-04-24). Mức dự báo này cao hơn mức trung bình lịch sử là 0.29. Dự báo cũng cho thấy một chu kỳ hàng tuần ổn định.",
+  "insights": [
+    "Giá trị dự báo trung bình trong 30 ngày tới là 0.74, cao hơn mức trung bình lịch sử (0.29) được ghi nhận từ 2011-01-29 đến 2016-03-25.",
+    "Dự báo cho thấy một chu kỳ hàng tuần rõ rệt, với giá trị cao nhất là 1.4 (Thứ Năm) và thấp nhất là 0.0 (Thứ Hai).",
+    "Các giá trị dự báo dao động trong khoảng từ 0.0 đến 1.4, trong khi dữ liệu lịch sử đã ghi nhận các giá trị từ 0.0 đến 11.0."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (1883 điểm dữ liệu từ 2011-01-29 đến 2016-03-25) và dự báo của ForecastBot cho 30 ngày tiếp theo. Dự báo được tạo bằng mô hình `ensemble`."
+}

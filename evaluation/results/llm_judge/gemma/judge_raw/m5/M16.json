@@ -1,0 +1,26 @@
+{
+  "case_id": "M16",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Câu \"tăng dần đến mức cao nhất là 883.2 vào quý 2018-04-01\" không được dãy dự báo hỗ trợ, vì các giá trị dao động tăng giảm trước khi đạt mức cao nhất."
+    ],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo 12 quý cho đúng sản phẩm và cửa hàng, nêu đúng khoảng dự báo, điểm cao nhất/thấp nhất, thời điểm tương ứng và thông tin ensemble. Hầu hết số liệu đều khớp forecast. Tuy nhiên, mô tả doanh số \"tăng dần\" đến đỉnh 2018-04-01 là không chính xác vì chuỗi dự báo có các nhịp giảm xen kẽ. Nội dung nhìn chung rõ ràng và hữu ích, nhưng nhận định xu hướng này có thể gây hiểu nhầm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.827131916987128,
+    "input_tokens": 2566,
+    "output_tokens": 298,
+    "total_tokens": 2864,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Câu \\\"tăng dần đến mức cao nhất là 883.2 vào quý 2018-04-01\\\" không được dãy dự báo hỗ trợ, vì các giá trị dao động tăng giảm trước khi đạt mức cao nhất.\"],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo 12 quý cho đúng sản phẩm và cửa hàng, nêu đúng khoảng dự báo, điểm cao nhất/thấp nhất, thời điểm tương ứng và thông tin ensemble. Hầu hết số liệu đều khớp forecast. Tuy nhiên, mô tả doanh số \\\"tăng dần\\\" đến đỉnh 2018-04-01 là không chính xác vì chuỗi dự báo có các nhịp giảm xen kẽ. Nội dung nhìn chung rõ ràng và hữu ích, nhưng nhận định xu hướng này có thể gây hiểu nhầm.\"}"
+  }
+}

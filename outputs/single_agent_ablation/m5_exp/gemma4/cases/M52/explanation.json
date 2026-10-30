@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã hoàn thành việc dự báo thành công 24 tháng dữ liệu cho mặt hàng HOBBIES_1_026 tại cửa hàng WI_2 (bang WI). Các dự báo được thực hiện từ tháng 5 năm 2014 đến tháng 4 năm 2016.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'ensemble' (kết hợp), kết hợp trọng số 60% từ mô hình ngắn hạn và 40% từ mô hình dài hạn.",
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 40 điểm dữ liệu, trải dài từ ngày 2011-01-01 đến ngày 2014-04-01.",
+    "Giá trị trung bình lịch sử của dữ liệu là 2.55."
+  ],
+  "chart_note": "Dữ liệu được phân tích và dự báo theo độ chi tiết hàng tháng (granularity: month)."
+}

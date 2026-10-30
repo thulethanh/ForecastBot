@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 24 tháng tới, từ tháng 5 năm 2014 đến tháng 4 năm 2016, cho mặt hàng HOBBIES_1_013 tại cửa hàng CA_1. Dự báo được tạo ra bằng cách sử dụng mô hình tổng hợp, kết hợp các xu hướng từ dữ liệu lịch sử gần đây (36 tháng) và toàn bộ lịch sử (40 tháng).",
+  "insights": [
+    "Dự báo cho thấy một mô hình lặp lại hàng năm, với doanh số dự kiến cao nhất vào tháng 11 (17 đơn vị) và thấp nhất vào tháng 1 và tháng 3 (5 đơn vị).",
+    "Các giá trị dự báo nằm trong khoảng từ 5.0 đến 17.0, phù hợp với phạm vi dữ liệu lịch sử (0.0 đến 17.0)."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số hàng tháng trong lịch sử cùng với dự báo cho 24 tháng tới."
+}

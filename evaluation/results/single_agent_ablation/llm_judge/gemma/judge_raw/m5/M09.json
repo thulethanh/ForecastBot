@@ -1,0 +1,27 @@
+{
+  "case_id": "M09",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 3.75,
+    "unsupported_claims": [
+      "\"Dự báo thể hiện sự biến động theo chu kỳ hàng tháng, cho thấy mô hình đã nắm bắt được các yếu tố mùa vụ trong dữ liệu lịch sử.\" Không có bằng chứng trực tiếp về tính chu kỳ hay mùa vụ trong history summary hoặc forecast.",
+      "\"...giúp tăng tính ổn định và độ tin cậy của dự đoán.\" Trọng số ensemble được cung cấp, nhưng tác động này không được hỗ trợ trực tiếp."
+    ],
+    "reason_vi": "Giải thích nêu đúng mặt hàng, cửa hàng, kỳ hạn, các tháng dự báo, chế độ ensemble, trọng số và kích thước hai cửa sổ. Trình bày rõ ràng, ngắn gọn. Tuy nhiên, phần insight suy ra mùa vụ/chu kỳ và khẳng định ensemble làm tăng ổn định, độ tin cậy mà dữ liệu được cung cấp không chứng minh. Giải thích cũng chưa tóm tắt các mức dự báo hoặc biên độ biến động cụ thể, nên giá trị thực tế ở mức khá."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.149167874944396,
+    "input_tokens": 2554,
+    "output_tokens": 404,
+    "total_tokens": 2958,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":3,\"clarity\":5,\"usefulness\":3,\"overall_score\":3.75,\"unsupported_claims\":[\"\\\"Dự báo thể hiện sự biến động theo chu kỳ hàng tháng, cho thấy mô hình đã nắm bắt được các yếu tố mùa vụ trong dữ liệu lịch sử.\\\" Không có bằng chứng trực tiếp về tính chu kỳ hay mùa vụ trong history summary hoặc forecast.\",\"\\\"...giúp tăng tính ổn định và độ tin cậy của dự đoán.\\\" Trọng số ensemble được cung cấp, nhưng tác động này không được hỗ trợ trực tiếp.\"],\"reason_vi\":\"Giải thích nêu đúng mặt hàng, cửa hàng, kỳ hạn, các tháng dự báo, chế độ ensemble, trọng số và kích thước hai cửa sổ. Trình bày rõ ràng, ngắn gọn. Tuy nhiên, phần insight suy ra mùa vụ/chu kỳ và khẳng định ensemble làm tăng ổn định, độ tin cậy mà dữ liệu được cung cấp không chứng minh. Giải thích cũng chưa tóm tắt các mức dự báo hoặc biên độ biến động cụ thể, nên giá trị thực tế ở mức khá.\"}"
+  }
+}

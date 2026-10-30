@@ -1,0 +1,1 @@
+SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '34' AND TRIM(d.operator) = 'HTX 26' GROUP BY 1 ORDER BY 1 ASC;

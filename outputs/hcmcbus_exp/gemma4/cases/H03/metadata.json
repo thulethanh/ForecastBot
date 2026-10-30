@@ -1,0 +1,33 @@
+{
+  "case_id": "H03",
+  "question": "Cho tôi biết tuyến 23 sử dụng nhóm xe 3B.1_ML trong 30 ngày tiếp theo dự kiến có bao nhiêu lượt hành khách.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1066,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 41.67282349999732,
+    "load_schema": 0.018009833001997322,
+    "sql_generation": 57.82354583399865,
+    "sql_execution_and_repair": 0.02205366700218292,
+    "forecast": 491.00197104200197,
+    "explanation": 93.85574520900263,
+    "end_to_end": 684.3944201659979
+  },
+  "total_tokens": 22410,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

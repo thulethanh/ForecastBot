@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "quarter",
+  "horizon": 4,
+  "filters": {
+    "item_id": "HOBBIES_2_115"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOBBIES_2_115' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the total quarterly sales (y) for the product with item_id 'HOBBIES_2_115'. It aggregates daily sales data from the m5_sales_train table by joining it with the m5_calendar table to establish the time axis, then groups the results by quarter (ds)."
+}

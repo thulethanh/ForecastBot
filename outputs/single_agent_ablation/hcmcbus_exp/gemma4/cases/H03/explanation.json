@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho 30 ngày tới (từ 2024-12-02 đến 2024-12-31) đã được thực hiện thành công. Mô hình sử dụng phương pháp 'deterministic_recent_mean', tính toán dựa trên trọng số 60% từ 180 ngày gần nhất và 40% từ 365 ngày dài hạn. Kết quả dự báo cho thấy một giá trị ổn định và không thay đổi trong suốt toàn bộ giai đoạn 30 ngày.",
+  "insights": [
+    "Giá trị dự báo ổn định: Trong suốt 30 ngày, giá trị dự báo (yhat) được duy trì ở mức 2904.7143.",
+    "Phương pháp dự báo: Việc sử dụng 'deterministic_recent_mean' cho thấy mô hình đã xác định một mức trung bình ổn định dựa trên dữ liệu lịch sử gần và dài hạn.",
+    "Phạm vi dữ liệu: Dữ liệu lịch sử được sử dụng để tính toán bao gồm 1066 điểm, từ 2022-01-01 đến 2024-12-01."
+  ],
+  "chart_note": "Lưu ý: Dự báo này là một giá trị trung bình xác định (deterministic mean) và không thể hiện sự biến động theo thời gian. Nó chỉ phản ánh mức trung bình ổn định được tính toán từ các cửa sổ dữ liệu lịch sử (180 ngày và 365 ngày)."
+}

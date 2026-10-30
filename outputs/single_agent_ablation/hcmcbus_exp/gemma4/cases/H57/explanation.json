@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo HCMC_BUS (Route 84, HTX-28)",
+  "summary_text": "Dự báo cho 8 quý tiếp theo (từ 2024-04-01 đến 2026-01-01) cho thấy một giá trị ổn định và không thay đổi. Giá trị dự báo (yhat) được xác định là 132,674.33 cho toàn bộ giai đoạn dự báo.",
+  "insights": [
+    "Dự báo được thực hiện bằng chế độ 'single' và sử dụng trọng số kết hợp giữa cửa sổ ngắn (0.6) và cửa sổ dài (0.4).",
+    "Kết quả dự báo được xây dựng dựa trên 9 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-01-01) của bộ dữ liệu HCMC_BUS.",
+    "Mô hình dự báo đã xác định một xu hướng ổn định, dẫn đến việc duy trì một giá trị dự báo hằng định trong suốt 8 quý tới."
+  ],
+  "chart_note": "Phạm vi dự báo bao gồm 8 bước thời gian, bắt đầu từ quý 2 năm 2024 và kết thúc vào quý 1 năm 2026."
+}

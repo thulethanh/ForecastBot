@@ -1,0 +1,28 @@
+{
+  "case_id": "H42",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Dự báo là đường thẳng không đổi \"do\" chỉ có 3 năm dữ liệu; dữ liệu/forecast không nêu cơ chế mô hình xác lập nguyên nhân này.",
+      "Mô hình \"không thể xác định\" xu hướng tăng trưởng hay quy luật theo mùa một cách đáng tin cậy; điều này không được cung cấp trực tiếp bởi history summary hoặc forecast.",
+      "Giá trị dự báo thấp nhất \"cho thấy một dự báo thận trọng\" và \"có thể do\" biến động lớn trong quá khứ; đây là diễn giải về đặc tính/cơ chế dự báo chưa được chứng minh trực tiếp."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến 141, HTX 15, kỳ hạn 2025–2034 và nêu chính xác mức dự báo cố định 346.632 lượt/năm. Nội dung rõ ràng, có cảnh báo hợp lý về chỉ 3 điểm dữ liệu, đồng thời giúp người dùng hiểu mức độ hạn chế của kết quả. Tuy vậy, một số nhận định gán nguyên nhân cho dạng dự báo và năng lực của mô hình không được history summary hay forecast xác nhận. Việc mức dự báo bằng giá trị nhỏ nhất lịch sử là đúng, nhưng diễn giải đó là “thận trọng” do biến động quá khứ chỉ mang tính suy đoán."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.756959749967791,
+    "input_tokens": 2500,
+    "output_tokens": 440,
+    "total_tokens": 2940,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"Dự báo là đường thẳng không đổi \\\"do\\\" chỉ có 3 năm dữ liệu; dữ liệu/forecast không nêu cơ chế mô hình xác lập nguyên nhân này.\",\"Mô hình \\\"không thể xác định\\\" xu hướng tăng trưởng hay quy luật theo mùa một cách đáng tin cậy; điều này không được cung cấp trực tiếp bởi history summary hoặc forecast.\",\"Giá trị dự báo thấp nhất \\\"cho thấy một dự báo thận trọng\\\" và \\\"có thể do\\\" biến động lớn trong quá khứ; đây là diễn giải về đặc tính/cơ chế dự báo chưa được chứng minh trực tiếp.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến 141, HTX 15, kỳ hạn 2025–2034 và nêu chính xác mức dự báo cố định 346.632 lượt/năm. Nội dung rõ ràng, có cảnh báo hợp lý về chỉ 3 điểm dữ liệu, đồng thời giúp người dùng hiểu mức độ hạn chế của kết quả. Tuy vậy, một số nhận định gán nguyên nhân cho dạng dự báo và năng lực của mô hình không được history summary hay forecast xác nhận. Việc mức dự báo bằng giá trị nhỏ nhất lịch sử là đúng, nhưng diễn giải đó là “thận trọng” do biến động quá khứ chỉ mang tính suy đoán.\"}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho M5 (HOBBIES_1_079 tại WI_1)",
+  "summary_text": "Dự báo cho 6 tháng tới (từ tháng 11 năm 2015 đến tháng 4 năm 2016) cho mặt hàng HOBBIES_1_079 tại cửa hàng WI_1. Kết quả dự báo cho thấy xu hướng giảm dần qua các tháng, bắt đầu từ mức 29.7 vào tháng 11 năm 2015 và giảm xuống 14.5 vào tháng 4 năm 2016.",
+  "insights": [
+    "Dự báo được thực hiện bằng mô hình ensemble, kết hợp trọng số 60% từ dữ liệu ngắn hạn (24 kỳ) và 40% từ dữ liệu dài hạn (36 kỳ).",
+    "Xu hướng dự báo cho thấy sự suy giảm liên tục trong 6 tháng tới, với mức giảm đáng kể từ tháng 11 năm 2015 đến tháng 12 năm 2015, và tiếp tục giảm dần qua các quý tiếp theo.",
+    "Các giá trị dự báo được tính toán dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2015-10-01."
+  ],
+  "chart_note": "Dự báo được tính toán cho 6 bước thời gian (horizon=6) với độ chi tiết là tháng (granularity=month). Các giá trị dự báo (yhat) là: 29.7 (2015-11), 25.7 (2015-12), 21.3 (2016-01), 17.3 (2016-02), 17.3 (2016-03), và 14.5 (2016-04)."
+}

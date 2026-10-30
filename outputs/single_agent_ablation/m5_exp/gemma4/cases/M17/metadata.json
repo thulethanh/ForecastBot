@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M17",
+  "question": "Dự báo lượng bán của sản phẩm HOUSEHOLD_1_457 tại cửa hàng CA_1, bang CA trong 1 năm tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 5,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.0035135410726070404,
+    "request_sql": 53.454575833980925,
+    "sql_execution_and_repair": 0.03371862496715039,
+    "forecast": 74.84331066603772,
+    "explanation": 71.75496279099025,
+    "end_to_end": 200.09025412495248
+  },
+  "total_tokens": 4623,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

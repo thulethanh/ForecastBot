@@ -1,0 +1,24 @@
+{
+  "case_id": "H57",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 84, đơn vị HTX-28, tần suất theo quý và chân trời 8 quý. Khoảng lịch sử 9 điểm từ Quý 1/2022 đến Quý 1/2024 và các mốc dự báo đều khớp dữ liệu cung cấp. Nhận định đỉnh Quý 4, đáy Quý 1 và mẫu lặp lại hằng năm được hỗ trợ trực tiếp bởi các giá trị dự báo lặp lại giữa hai năm; không có xu hướng dài hạn cũng phù hợp với các mức dự báo cố định theo từng quý. Trình bày rõ ràng, cô đọng và giúp hiểu mức biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.5243610829347745,
+    "input_tokens": 2421,
+    "output_tokens": 317,
+    "total_tokens": 2738,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 84, đơn vị HTX-28, tần suất theo quý và chân trời 8 quý. Khoảng lịch sử 9 điểm từ Quý 1/2022 đến Quý 1/2024 và các mốc dự báo đều khớp dữ liệu cung cấp. Nhận định đỉnh Quý 4, đáy Quý 1 và mẫu lặp lại hằng năm được hỗ trợ trực tiếp bởi các giá trị dự báo lặp lại giữa hai năm; không có xu hướng dài hạn cũng phù hợp với các mức dự báo cố định theo từng quý. Trình bày rõ ràng, cô đọng và giúp hiểu mức biến động chính.\"}"
+  }
+}

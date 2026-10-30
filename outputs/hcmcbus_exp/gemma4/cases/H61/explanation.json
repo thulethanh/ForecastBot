@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 90, HTX 26)",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01, dự báo cho thấy xu hướng giảm đáng kể qua các năm. Cụ thể, năm 2025 dự kiến đạt 718,591.0, tiếp tục giảm xuống 447,156.0 vào năm 2026, và giảm sâu nhất là 51,566.0 vào năm 2027.",
+  "insights": [
+    "Mức trung bình lịch sử của dữ liệu là 847,611.0, nằm trong khoảng từ 787,966.0 đến 888,996.0.",
+    "Dự báo cho thấy sự sụt giảm liên tục qua các năm, với mức dự báo năm 2027 (51,566.0) thấp hơn đáng kể so với mức thấp nhất được ghi nhận trong lịch sử (787,966.0)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01 và kết quả dự báo cho 3 bước tiếp theo (2025-01-01, 2026-01-01, 2027-01-01) được tạo ra bởi ForecastBot."
+}

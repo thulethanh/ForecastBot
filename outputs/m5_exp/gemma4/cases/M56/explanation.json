@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo doanh số cho HOBBIES_2_140 tại WI (Quý)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo doanh số cho HOBBIES_2_140 tại WI trong 4 quý tới. Dự báo cho thấy xu hướng giảm dần, bắt đầu từ 27.7 vào quý 2015-07-01 và giảm xuống 24.1 vào quý 2016-04-01.",
+  "insights": [
+    "Dự báo cho thấy sự giảm dần ổn định qua các quý: từ 27.7 (2015-07-01) xuống 26.5 (2015-10-01), sau đó là 25.3 (2016-01-01) và kết thúc ở mức 24.1 (2016-04-01).",
+    "Mức dự báo cuối cùng (2016-04-01) là 24.1, thấp hơn mức trung bình lịch sử (20.83) và thấp hơn mức dự báo ban đầu (27.7)."
+  ],
+  "chart_note": "Bản đồ này hiển thị kết quả dự báo được tạo ra bằng mô hình ensemble. Mô hình đã được huấn luyện trên 18 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2015-04-01) và đưa ra dự báo cho 4 quý tiếp theo."
+}

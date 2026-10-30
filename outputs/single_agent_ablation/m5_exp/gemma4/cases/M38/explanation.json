@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho mục 'HOUSEHOLD_1_511' trên tập dữ liệu M5, với độ chi tiết theo năm, cho thấy giá trị dự kiến là 4933.0 cho năm 2016 (bước 1).",
+  "insights": [
+    "Mô hình sử dụng chế độ dự báo 'single' (đơn).",
+    "Việc dự báo được thực hiện bằng cách gán trọng số 0.6 cho dữ liệu ngắn hạn và 0.4 cho dữ liệu dài hạn, sử dụng cả hai cửa sổ dữ liệu (cả hai đều là 5 điểm).",
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 5 điểm dữ liệu, với giá trị trung bình là 3546.6."
+  ],
+  "chart_note": "Đây là dự báo cho một bước thời gian duy nhất (1 năm) và không đại diện cho giá trị thực tế trong tương lai."
+}

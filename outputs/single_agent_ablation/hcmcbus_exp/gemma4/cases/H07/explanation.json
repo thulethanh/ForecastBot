@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo lưu lượng xe buýt (HCMC_BUS)",
+  "summary_text": "Dự báo được thực hiện cho tuyến xe buýt 29 của nhà khai thác HTX-ThanhSon, với độ chi tiết theo tháng, trong vòng 3 tháng tới (từ tháng 1 đến tháng 3 năm 2024). Kết quả dự báo cho thấy một xu hướng giảm dần rõ rệt qua các tháng.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên 24 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2023-12-01).",
+    "Mô hình sử dụng phương pháp 'single' và áp dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+    "Các giá trị dự báo cho thấy sự sụt giảm liên tục: từ 57,864 (Tháng 1/2024) xuống 45,192 (Tháng 3/2024)."
+  ],
+  "chart_note": "Đây là kết quả dự báo thống kê và không đại diện cho giá trị thực tế trong tương lai."
+}

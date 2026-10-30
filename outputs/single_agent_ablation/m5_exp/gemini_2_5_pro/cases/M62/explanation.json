@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử 6 năm từ 2011 đến 2016 cho mặt hàng HOUSEHOLD_1_005 tại bang WI, dự báo cho thấy doanh số hàng năm sẽ vào khoảng 751.5 đơn vị cho mỗi năm trong 5 năm tới (2017-2021).",
+  "insights": [
+    "Giá trị dự báo 751.5 là mức trung bình lịch sử của doanh số hàng năm từ 2011 đến 2016.",
+    "Mô hình không phát hiện thấy xu hướng tăng hoặc giảm đáng kể trong dữ liệu lịch sử, dẫn đến một dự báo ổn định, không thay đổi."
+  ],
+  "chart_note": "Đường màu xanh thể hiện dự báo, là giá trị trung bình của dữ liệu lịch sử được thể hiện bằng màu xám."
+}

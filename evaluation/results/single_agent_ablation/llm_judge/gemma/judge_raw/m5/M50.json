@@ -1,0 +1,26 @@
+{
+  "case_id": "M50",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định \"sự suy giảm liên tục trong 6 tháng tới\" không hoàn toàn khớp forecast vì giá trị tháng 2 và tháng 3 năm 2016 đều là 17.3, tức không giảm giữa hai tháng này."
+    ],
+    "reason_vi": "Explanation bám sát đúng mặt hàng, cửa hàng, chân trời 6 tháng và nêu đầy đủ các mức dự báo chính. Thông tin về ensemble, trọng số 60/40, cửa sổ 24/36 kỳ, phạm vi lịch sử và các yhat đều được dữ liệu cung cấp hỗ trợ. Nội dung rõ ràng, có ích để hiểu xu hướng giảm và các mốc dự báo. Điểm faithfulness giảm nhẹ vì mô tả giảm \"liên tục\" không chính xác tuyệt đối: dự báo giữ nguyên 17.3 từ tháng 2 sang tháng 3/2016."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.386524499976076,
+    "input_tokens": 2473,
+    "output_tokens": 465,
+    "total_tokens": 2938,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định \\\"sự suy giảm liên tục trong 6 tháng tới\\\" không hoàn toàn khớp forecast vì giá trị tháng 2 và tháng 3 năm 2016 đều là 17.3, tức không giảm giữa hai tháng này.\"],\"reason_vi\":\"Explanation bám sát đúng mặt hàng, cửa hàng, chân trời 6 tháng và nêu đầy đủ các mức dự báo chính. Thông tin về ensemble, trọng số 60/40, cửa sổ 24/36 kỳ, phạm vi lịch sử và các yhat đều được dữ liệu cung cấp hỗ trợ. Nội dung rõ ràng, có ích để hiểu xu hướng giảm và các mốc dự báo. Điểm faithfulness giảm nhẹ vì mô tả giảm \\\"liên tục\\\" không chính xác tuyệt đối: dự báo giữ nguyên 17.3 từ tháng 2 sang tháng 3/2016.\"}"
+  }
+}

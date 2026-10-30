@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 60,
+  "filters": {
+    "route_id": "150",
+    "operator": "HTX-195"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '150' AND TRIM(d.operator) = 'HTX-195' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the sum of total passengers (y) for route 150 operated by HTX-195 (d.route_id = '150' AND TRIM(d.operator) = 'HTX-195') at a daily granularity (d.date AS ds)."
+}

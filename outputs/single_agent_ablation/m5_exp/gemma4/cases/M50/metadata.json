@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M50",
+  "question": "Tôi muốn xem lượng bán dự kiến của sản phẩm HOBBIES_1_079 tại cửa hàng WI_1 trong 6 tháng tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 58,
+    "n_test": 6,
+    "horizon": 6,
+    "minimum_train_required": 6,
+    "required_points_for_evaluation": 12,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.013964332989417017,
+    "request_sql": 59.224711457965896,
+    "sql_execution_and_repair": 0.037039624992758036,
+    "forecast": 218.44327133405022,
+    "explanation": 88.69935500004794,
+    "end_to_end": 366.4184705000371
+  },
+  "total_tokens": 7137,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

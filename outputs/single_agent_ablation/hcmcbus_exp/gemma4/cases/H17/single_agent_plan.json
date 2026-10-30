@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 1,
+  "filters": {
+    "route_id": "44",
+    "operator": "HTX-ThanhSon"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '44' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY DATE_TRUNC('year', d.date)::date ORDER BY ds ASC;",
+  "sql_explanation": "Retrieves the total passenger count (y) aggregated by year (ds) for route '44' operated by 'HTX-ThanhSon'."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H18",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo năm cho tuyến 46 của HTX-ThanhSon và nêu đúng hai mốc 2023–2024 cùng giá trị 459.979 mỗi năm. Nhận định dự báo ổn định, chỉ có một điểm lịch sử năm 2022, sử dụng single mode và bằng trung bình lịch sử đều phù hợp với history summary तथा forecast_result. Nội dung ngắn gọn, có nêu hạn chế dữ liệu lịch sử và giúp người dùng hiểu rõ mức dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.853750417008996,
+    "input_tokens": 2179,
+    "output_tokens": 246,
+    "total_tokens": 2425,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo năm cho tuyến 46 của HTX-ThanhSon và nêu đúng hai mốc 2023–2024 cùng giá trị 459.979 mỗi năm. Nhận định dự báo ổn định, chỉ có một điểm lịch sử năm 2022, sử dụng single mode và bằng trung bình lịch sử đều phù hợp với history summary तथा forecast_result. Nội dung ngắn gọn, có nêu hạn chế dữ liệu lịch sử và giúp người dùng hiểu rõ mức dự báo.\"}"
+  }
+}

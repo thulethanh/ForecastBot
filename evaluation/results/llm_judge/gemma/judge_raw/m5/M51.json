@@ -1,0 +1,26 @@
+{
+  "case_id": "M51",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình đã được huấn luyện trên 52 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: window_info chỉ cho biết nhánh dài dùng cửa sổ 52 điểm và nhánh ngắn dùng 36 điểm, không cung cấp thông tin về quá trình huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu 12 tháng, nêu đúng các mốc dự báo đầu-cuối và xu hướng tăng đều; các con số khớp forecast. Cách trình bày rõ ràng và có ích khi nêu ensemble, trọng số và cửa sổ dữ liệu. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên 52 điểm không có bằng chứng trong dữ liệu cung cấp; 52 điểm chỉ được nêu là cửa sổ dài và tổng lịch sử khả dụng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.062712250000914,
+    "input_tokens": 2554,
+    "output_tokens": 354,
+    "total_tokens": 2908,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình đã được huấn luyện trên 52 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: window_info chỉ cho biết nhánh dài dùng cửa sổ 52 điểm và nhánh ngắn dùng 36 điểm, không cung cấp thông tin về quá trình huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu 12 tháng, nêu đúng các mốc dự báo đầu-cuối và xu hướng tăng đều; các con số khớp forecast. Cách trình bày rõ ràng và có ích khi nêu ensemble, trọng số và cửa sổ dữ liệu. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên 52 điểm không có bằng chứng trong dữ liệu cung cấp; 52 điểm chỉ được nêu là cửa sổ dài và tổng lịch sử khả dụng.\"}"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "M10",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Giá trị trung bình dự báo được nêu là 12.84, trong khi trung bình từ 24 giá trị forecast được cung cấp xấp xỉ 12.85.",
+      "Giá trị trung bình của 12 tháng cuối được nêu là 13.55, trong khi tính từ forecast được cung cấp là xấp xỉ 13.57."
+    ],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo 24 tháng cho đúng item và cửa hàng, nêu rõ phạm vi lịch sử, mức dự báo, dao động, mẫu biến động theo tháng và xu hướng giữa hai năm dự báo. Các nhận định về đỉnh tháng 11, đáy tháng 1/tháng 3, ensemble và trọng số đều phù hợp forecast/window_info. Trình bày rõ ràng, có giá trị thực tế. Faithfulness giảm nhẹ vì hai số trung bình dự báo được làm tròn/tính chưa khớp hoàn toàn với các giá trị forecast đã liệt kê."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.125343666994013,
+    "input_tokens": 3040,
+    "output_tokens": 587,
+    "total_tokens": 3627,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Giá trị trung bình dự báo được nêu là 12.84, trong khi trung bình từ 24 giá trị forecast được cung cấp xấp xỉ 12.85.\",\"Giá trị trung bình của 12 tháng cuối được nêu là 13.55, trong khi tính từ forecast được cung cấp là xấp xỉ 13.57.\"],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo 24 tháng cho đúng item và cửa hàng, nêu rõ phạm vi lịch sử, mức dự báo, dao động, mẫu biến động theo tháng và xu hướng giữa hai năm dự báo. Các nhận định về đỉnh tháng 11, đáy tháng 1/tháng 3, ensemble và trọng số đều phù hợp forecast/window_info. Trình bày rõ ràng, có giá trị thực tế. Faithfulness giảm nhẹ vì hai số trung bình dự báo được làm tròn/tính chưa khớp hoàn toàn với các giá trị forecast đã liệt kê.\"}"
+  }
+}

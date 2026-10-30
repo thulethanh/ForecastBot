@@ -1,0 +1,24 @@
+{
+  "case_id": "H18",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 2 năm cho tuyến 46 và nêu đúng mức dự báo 459.979 cho 2023–2024. Các nhận định đều được hỗ trợ: lịch sử chỉ có một điểm năm 2022 với giá trị 459.979, và cả hai giá trị dự báo đều bằng mức này. Phần giải thích cũng nêu rõ hạn chế không thể xác định xu hướng từ một năm dữ liệu, giúp người dùng hiểu đúng ý nghĩa và giới hạn của kết quả. Trình bày ngắn gọn, rõ ràng và nhất quán với biểu đồ mô tả."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.990836082957685,
+    "input_tokens": 2144,
+    "output_tokens": 274,
+    "total_tokens": 2418,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 2 năm cho tuyến 46 và nêu đúng mức dự báo 459.979 cho 2023–2024. Các nhận định đều được hỗ trợ: lịch sử chỉ có một điểm năm 2022 với giá trị 459.979, và cả hai giá trị dự báo đều bằng mức này. Phần giải thích cũng nêu rõ hạn chế không thể xác định xu hướng từ một năm dữ liệu, giúp người dùng hiểu đúng ý nghĩa và giới hạn của kết quả. Trình bày ngắn gọn, rõ ràng và nhất quán với biểu đồ mô tả.\"}"
+  }
+}

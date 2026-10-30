@@ -1,0 +1,33 @@
+{
+  "case_id": "H21",
+  "question": "Tôi muốn dự báo lượng hành khách của tuyến 55 do XKSG vận hành, sử dụng nhóm xe 4_CNG.2 trong 10 năm tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 10,
+    "minimum_train_required": 5,
+    "required_points_for_evaluation": 15,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "orchestration": 7.154180082994571,
+    "load_schema": 0.0021062079977127723,
+    "sql_generation": 7.881205124998814,
+    "sql_execution_and_repair": 0.008715957999811508,
+    "forecast": 36.03773616599938,
+    "explanation": 28.36477300000115,
+    "end_to_end": 79.4487494999994
+  },
+  "total_tokens": 13307,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M43",
+  "question": "Cho tôi biết lượng bán dự kiến của sản phẩm FOODS_3_083 tại cửa hàng WI_2 trong 7 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1906,
+    "n_test": 7,
+    "horizon": 7,
+    "minimum_train_required": 7,
+    "required_points_for_evaluation": 14,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.004985874984413385,
+    "request_sql": 8.532640125020407,
+    "sql_execution_and_repair": 0.02742533292621374,
+    "forecast": 85.21701000002213,
+    "explanation": 12.186192041961476,
+    "end_to_end": 105.96861541608814
+  },
+  "total_tokens": 21486,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

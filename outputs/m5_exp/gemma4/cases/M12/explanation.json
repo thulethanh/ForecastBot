@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo doanh số cho HOBBIES_1_126 tại CA_4 (Quý 1/2016 - Quý 2/2016)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo doanh số cho quý 1 năm 2016 là 33.0 và quý 2 năm 2016 là 34.4.",
+  "insights": [
+    "So với mức trung bình lịch sử là 13.15, dự báo cho cả hai quý năm 2016 đều tăng đáng kể.",
+    "Dự báo cho quý 2 năm 2016 (34.4) cao hơn so với quý 1 năm 2016 (33.0), cho thấy xu hướng tăng nhẹ trong giai đoạn này."
+  ],
+  "chart_note": "Bản đồ này hiển thị kết quả dự báo được tạo ra bằng mô hình ensemble, sử dụng trọng số 0.6 cho cửa sổ ngắn (h8) và 0.4 cho cửa sổ dài (h12). Dữ liệu lịch sử được sử dụng để huấn luyện mô hình."
+}

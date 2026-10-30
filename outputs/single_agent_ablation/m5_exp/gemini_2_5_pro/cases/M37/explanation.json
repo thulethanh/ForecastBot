@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho mặt hàng `HOUSEHOLD_1_416` tại bang `TX` trong 12 quý tới, từ tháng 7 năm 2016 đến tháng 4 năm 2019. Dự báo cho thấy xu hướng giảm chung theo thời gian, đồng thời thể hiện một mô hình mùa vụ rõ rệt với doanh số cao nhất vào quý 3 và thấp nhất vào quý 2 mỗi năm.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng giảm tổng thể, với các đỉnh và đáy theo mùa được dự kiến sẽ thấp hơn trong những năm tiếp theo so với các năm trước.",
+    "Mô hình mùa vụ rất mạnh, với doanh số dự kiến đạt đỉnh vào quý 3 (bắt đầu từ tháng 7) và giảm xuống mức thấp nhất vào quý 2 (bắt đầu từ tháng 4) hàng năm."
+  ],
+  "chart_note": "Biểu đồ hiển thị 22 quý dữ liệu lịch sử và 12 quý dự báo. Dự báo được tạo ra bằng mô hình tổng hợp, kết hợp các dự báo dựa trên 12 và 20 điểm dữ liệu gần nhất."
+}

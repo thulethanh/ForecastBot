@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 53) trong 3 tháng tới",
+  "summary_text": "ForecastBot dự báo các giá trị cho 3 tháng tới: 240.525,2 cho Tháng 10/2024, 209.458,8 cho Tháng 11/2024, và 192.414,4 cho Tháng 12/2024.",
+  "insights": [
+    "Dự báo cho thấy xu hướng giảm trong 3 tháng tới, từ 240.525,2 vào Tháng 10/2024 xuống còn 192.414,4 vào Tháng 12/2024.",
+    "Giá trị dự báo cho Tháng 10/2024 (240.525,2) cao hơn đáng kể so với mức trung bình lịch sử (161.628,4).",
+    "Dự báo này được tạo ra bằng mô hình `ensemble`, kết hợp hai cửa sổ dữ liệu lịch sử có độ dài 24 và 33 tháng."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 01/01/2022 đến 01/09/2024 (33 điểm dữ liệu) và dự báo của ForecastBot cho 3 tháng tiếp theo đến hết Tháng 12/2024."
+}

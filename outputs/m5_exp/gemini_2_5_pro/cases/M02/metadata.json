@@ -1,0 +1,33 @@
+{
+  "case_id": "M02",
+  "question": "Dự báo lượng bán của sản phẩm FOODS_3_540 tại cửa hàng CA_4 trong 28 ngày tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1885,
+    "n_test": 28,
+    "horizon": 28,
+    "minimum_train_required": 28,
+    "required_points_for_evaluation": 56,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.213789916000678,
+    "load_schema": 0.09571991700067883,
+    "sql_generation": 10.801252417000796,
+    "sql_execution_and_repair": 0.05779074999736622,
+    "forecast": 76.74573416699786,
+    "explanation": 26.621825624999474,
+    "end_to_end": 120.5362577090018
+  },
+  "total_tokens": 20919,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

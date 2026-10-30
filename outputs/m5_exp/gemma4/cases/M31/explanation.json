@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOBBIES_1_121 tại TX (24 tháng)",
+  "summary_text": "Dự báo cho HOBBIES_1_121 tại TX trong 24 tháng tới cho thấy xu hướng biến động theo mùa rõ rệt. Giá trị dự báo bắt đầu ở mức 17.04 vào tháng 5 năm 2014, đạt đỉnh vào tháng 11 năm 2015 với mức 19.44, và sau đó giảm dần về mức 16.44 vào tháng 4 năm 2016.",
+  "insights": [
+    "Trong 24 tháng dự báo, giá trị cao nhất được dự đoán là 19.44 vào tháng 11 năm 2015.",
+    "Giá trị dự báo có xu hướng giảm dần từ đỉnh điểm, kết thúc ở mức 16.44 vào tháng 4 năm 2016.",
+    "Các tháng 10, 11, 12 của năm 2015 (18.84, 19.44, 19.14) là giai đoạn có giá trị dự báo cao nhất trong chu kỳ này."
+  ],
+  "chart_note": "Biểu đồ này được huấn luyện trên 40 điểm dữ liệu từ 2011-01-01 đến 2014-04-01. Dự báo được tạo bằng chế độ ensemble, sử dụng trọng số short là 0.6 và long là 0.4."
+}

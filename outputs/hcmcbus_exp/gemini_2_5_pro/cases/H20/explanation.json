@@ -1,0 +1,11 @@
+{
+  "title": "Dự báo cho dataset HCMC_BUS (route_id: 48, operator: HTX-195) trong 5 năm tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022 đến 2024, ForecastBot dự báo một xu hướng tăng trong 5 năm tiếp theo. Giá trị dự báo sẽ tăng từ 416,713.0 vào năm 2025 lên 506,977.0 vào năm 2029.",
+  "insights": [
+    "Dữ liệu lịch sử trong 3 năm (2022-2024) có giá trị trung bình là 371,581.0 và giá trị cao nhất là 394,147.0.",
+    "ForecastBot dự báo một xu hướng tăng trưởng đều đặn trong 5 năm tiếp theo.",
+    "Giá trị dự báo bắt đầu ở mức 416,713.0 cho năm 2025 và tăng lên 506,977.0 vào năm 2029.",
+    "Mức tăng trung bình hàng năm được dự báo là khoảng 22,566.0."
+  ],
+  "chart_note": "Biểu đồ hiển thị 3 điểm dữ liệu lịch sử từ 2022 đến 2024 và dự báo cho 5 năm tiếp theo được tạo bởi ForecastBot. Mô hình đã sử dụng 3 điểm dữ liệu gần nhất để tính toán dự báo."
+}

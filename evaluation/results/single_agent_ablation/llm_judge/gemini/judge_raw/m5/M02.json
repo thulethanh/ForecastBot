@@ -1,0 +1,26 @@
+{
+  "case_id": "M02",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng việc ưu tiên dữ liệu 180 ngày gần đây \"có thể giải thích\" vì sao dự báo cao hơn đáng kể mức trung bình lịch sử không được chứng minh trực tiếp bởi history summary hoặc forecast."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 28 ngày cho đúng mặt hàng và cửa hàng; nêu chính xác khoảng dự báo, chu kỳ 7 ngày, ngày đỉnh/đáy và mức trung bình lịch sử. Các ngày trong tuần và giá trị làm tròn đều phù hợp forecast. Thông tin mô hình tổ hợp, trọng số 60/40 và các cửa sổ 180/365 cũng khớp dữ liệu. Tuy nhiên, quan hệ giải thích rằng ưu tiên cửa sổ ngắn là nguyên nhân khiến dự báo cao hơn trung bình lịch sử là suy đoán chưa có bằng chứng trực tiếp. Trình bày rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 11.76540599996224,
+    "input_tokens": 3145,
+    "output_tokens": 452,
+    "total_tokens": 3597,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng việc ưu tiên dữ liệu 180 ngày gần đây \\\"có thể giải thích\\\" vì sao dự báo cao hơn đáng kể mức trung bình lịch sử không được chứng minh trực tiếp bởi history summary hoặc forecast.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 28 ngày cho đúng mặt hàng và cửa hàng; nêu chính xác khoảng dự báo, chu kỳ 7 ngày, ngày đỉnh/đáy và mức trung bình lịch sử. Các ngày trong tuần và giá trị làm tròn đều phù hợp forecast. Thông tin mô hình tổ hợp, trọng số 60/40 và các cửa sổ 180/365 cũng khớp dữ liệu. Tuy nhiên, quan hệ giải thích rằng ưu tiên cửa sổ ngắn là nguyên nhân khiến dự báo cao hơn trung bình lịch sử là suy đoán chưa có bằng chứng trực tiếp. Trình bày rõ ràng và hữu ích.\"}"
+  }
+}

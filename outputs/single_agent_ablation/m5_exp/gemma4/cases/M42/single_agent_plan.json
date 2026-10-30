@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "year",
+  "horizon": 10,
+  "filters": {
+    "item_id": "HOUSEHOLD_1_302",
+    "store_id": "TX_2",
+    "state_id": "TX"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'HOUSEHOLD_1_302' AND s.store_id = 'TX_2' AND s.state_id = 'TX' GROUP BY DATE_TRUNC('year', c.date)::date ORDER BY ds ASC;",
+  "sql_explanation": "The query aggregates the sales (y) by year (ds) for the specified product (HOUSEHOLD_1_302), store (TX_2), and state (TX)."
+}

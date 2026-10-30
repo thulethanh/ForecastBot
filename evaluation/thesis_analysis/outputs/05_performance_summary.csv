@@ -1,0 +1,21 @@
+﻿Bộ dữ liệu,Mô hình,Phạm vi,Thành phần,Số trường hợp,Thời gian trung bình (s),Thời gian trung vị (s),Token đầu vào TB,Token đầu ra TB,Tổng token TB
+HCMC Bus,Gemini 2.5 Pro,Toàn hệ thống,ForecastBot end-to-end,63,107.83,93.77,4087.17,14981.06,19068.24
+HCMC Bus,Gemma4 (gemma4:e4b),Toàn hệ thống,ForecastBot end-to-end,63,361.39,311.18,5421.89,4915.84,10337.73
+M5,Gemini 2.5 Pro,Toàn hệ thống,ForecastBot end-to-end,63,149.94,138.73,3807.32,19929.7,23737.02
+M5,Gemma4 (gemma4:e4b),Toàn hệ thống,ForecastBot end-to-end,63,393.91,359.37,4345.98,5619.08,9965.06
+HCMC Bus,Gemini 2.5 Pro,Theo Agent,Router Agent,63,7.74,6.33,957.0,855.89,1812.89
+HCMC Bus,Gemini 2.5 Pro,Theo Agent,SQL Agent,60,9.24,8.87,796.77,1098.25,1895.02
+HCMC Bus,Gemini 2.5 Pro,Theo Agent,Forecast Agent,60,72.43,56.68,1450.52,10526.47,11976.98
+HCMC Bus,Gemini 2.5 Pro,Theo Agent,Explanation Agent,60,23.4,23.22,1039.4,3206.72,4246.12
+HCMC Bus,Gemma4 (gemma4:e4b),Theo Agent,Router Agent,63,41.2,40.13,972.0,558.67,1530.67
+HCMC Bus,Gemma4 (gemma4:e4b),Theo Agent,SQL Agent,62,62.06,59.48,811.42,830.35,1641.77
+HCMC Bus,Gemma4 (gemma4:e4b),Theo Agent,Forecast Agent,62,184.83,123.27,2417.52,2565.89,4983.4
+HCMC Bus,Gemma4 (gemma4:e4b),Theo Agent,Explanation Agent,62,78.42,72.82,1292.73,1031.21,2323.94
+M5,Gemini 2.5 Pro,Theo Agent,Router Agent,63,8.34,6.95,960.17,826.3,1786.48
+M5,Gemini 2.5 Pro,Theo Agent,SQL Agent,62,11.36,11.13,681.6,1278.73,1960.32
+M5,Gemini 2.5 Pro,Theo Agent,Forecast Agent,62,111.49,96.01,1209.95,15420.9,16630.85
+M5,Gemini 2.5 Pro,Theo Agent,Explanation Agent,62,21.01,20.39,1001.52,2711.89,3713.4
+M5,Gemma4 (gemma4:e4b),Theo Agent,Router Agent,63,41.74,41.2,975.17,586.86,1562.03
+M5,Gemma4 (gemma4:e4b),Theo Agent,SQL Agent,63,64.64,64.16,651.4,923.25,1574.65
+M5,Gemma4 (gemma4:e4b),Theo Agent,Forecast Agent,63,218.47,180.25,1539.71,3167.1,4706.81
+M5,Gemma4 (gemma4:e4b),Theo Agent,Explanation Agent,63,68.98,64.18,1179.7,941.87,2121.57

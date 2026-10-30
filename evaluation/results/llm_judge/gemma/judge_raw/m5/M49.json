@@ -1,0 +1,26 @@
+{
+  "case_id": "M49",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 61 điểm dữ liệu lịch sử\" không được hỗ trợ: thông tin chỉ cho biết có 61 điểm lịch sử khả dụng, trong khi các cửa sổ đầu vào của ensemble là h24 và h36; không có thông tin về huấn luyện mô hình trên toàn bộ 61 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng đối tượng, mức dự báo và 3 tháng yêu cầu; các giá trị và mức tăng 3.0, 1.4 đều khớp forecast. Cách trình bày rõ ràng, ngắn gọn và nêu đúng phương pháp ensemble cùng trọng số. Tuy nhiên, câu mô hình được huấn luyện trên 61 điểm là khẳng định không có căn cứ trực tiếp: 61 là số điểm lịch sử khả dụng, còn thông tin cửa sổ cho thấy các nhánh dùng h24 và h36. Giải thích sẽ hữu ích hơn nếu đặt dự báo cao này trong bối cảnh lịch sử được cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.412884582998231,
+    "input_tokens": 2271,
+    "output_tokens": 344,
+    "total_tokens": 2615,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 61 điểm dữ liệu lịch sử\\\" không được hỗ trợ: thông tin chỉ cho biết có 61 điểm lịch sử khả dụng, trong khi các cửa sổ đầu vào của ensemble là h24 và h36; không có thông tin về huấn luyện mô hình trên toàn bộ 61 điểm.\"],\"reason_vi\":\"Giải thích bám sát đúng đối tượng, mức dự báo và 3 tháng yêu cầu; các giá trị và mức tăng 3.0, 1.4 đều khớp forecast. Cách trình bày rõ ràng, ngắn gọn và nêu đúng phương pháp ensemble cùng trọng số. Tuy nhiên, câu mô hình được huấn luyện trên 61 điểm là khẳng định không có căn cứ trực tiếp: 61 là số điểm lịch sử khả dụng, còn thông tin cửa sổ cho thấy các nhánh dùng h24 và h36. Giải thích sẽ hữu ích hơn nếu đặt dự báo cao này trong bối cảnh lịch sử được cung cấp.\"}"
+  }
+}

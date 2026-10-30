@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H54",
+  "question": "Hãy ước tính lượng khách của tuyến 78 do HTX-195 vận hành trong 2 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 10,
+    "n_train": 8,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 4,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.009369874955154955,
+    "request_sql": 57.548600207897834,
+    "sql_execution_and_repair": 0.04700341692660004,
+    "forecast": 60.618002166971564,
+    "explanation": 70.87430804199539,
+    "end_to_end": 189.09742324997205
+  },
+  "total_tokens": 4793,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

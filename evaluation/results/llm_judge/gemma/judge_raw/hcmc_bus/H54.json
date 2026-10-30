@@ -1,0 +1,26 @@
+{
+  "case_id": "H54",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Chart note khẳng định ForecastBot \"huấn luyện\" bằng 8 điểm dữ liệu lịch sử; thông tin cung cấp chỉ xác nhận các cửa sổ dự báo có 8 quan sát, không xác nhận quá trình huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu theo quý cho Tuyến 78, HTX-195, nêu đúng hai giá trị dự báo và diễn giải được mức tăng giữa hai quý. Các so sánh với trung bình lịch sử, cực đại lịch sử và số điểm/phạm vi lịch sử đều khớp dữ liệu được cung cấp. Tuy nhiên, chart note dùng khẳng định về quá trình “huấn luyện” của ForecastBot, trong khi dữ liệu chỉ cho biết cửa sổ đầu vào của các nhánh dự báo là 8 điểm. Nội dung nhìn chung rõ ràng và hữu ích, dù chưa nêu thêm ý nghĩa thực tế ngoài xu hướng tăng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.951512874991749,
+    "input_tokens": 2237,
+    "output_tokens": 343,
+    "total_tokens": 2580,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Chart note khẳng định ForecastBot \\\"huấn luyện\\\" bằng 8 điểm dữ liệu lịch sử; thông tin cung cấp chỉ xác nhận các cửa sổ dự báo có 8 quan sát, không xác nhận quá trình huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu theo quý cho Tuyến 78, HTX-195, nêu đúng hai giá trị dự báo và diễn giải được mức tăng giữa hai quý. Các so sánh với trung bình lịch sử, cực đại lịch sử và số điểm/phạm vi lịch sử đều khớp dữ liệu được cung cấp. Tuy nhiên, chart note dùng khẳng định về quá trình “huấn luyện” của ForecastBot, trong khi dữ liệu chỉ cho biết cửa sổ đầu vào của các nhánh dự báo là 8 điểm. Nội dung nhìn chung rõ ràng và hữu ích, dù chưa nêu thêm ý nghĩa thực tế ngoài xu hướng tăng.\"}"
+  }
+}

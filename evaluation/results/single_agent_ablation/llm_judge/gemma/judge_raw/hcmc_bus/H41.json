@@ -1,0 +1,24 @@
+{
+  "case_id": "H41",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 5 năm cho đúng tuyến và nhà khai thác. Các mốc 2025–2029, xu hướng tăng và giá trị đầu-cuối đều khớp forecast. Phạm vi lịch sử 2022–2024 khớp history summary; chế độ single và trọng số 60%/40% khớp forecast_result. Nội dung rõ ràng, ngắn gọn và có lưu ý phù hợp rằng yhat không phải giá trị thực tế tương lai."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.75299399998039,
+    "input_tokens": 2296,
+    "output_tokens": 245,
+    "total_tokens": 2541,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 5 năm cho đúng tuyến và nhà khai thác. Các mốc 2025–2029, xu hướng tăng và giá trị đầu-cuối đều khớp forecast. Phạm vi lịch sử 2022–2024 khớp history summary; chế độ single và trọng số 60%/40% khớp forecast_result. Nội dung rõ ràng, ngắn gọn và có lưu ý phù hợp rằng yhat không phải giá trị thực tế tương lai.\"}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 28 ngày cho HCMC_BUS (route_id: 62, operator: XKSG)",
+  "summary_text": "ForecastBot dự báo cho 28 ngày tới, từ 04/12/2024 đến 31/12/2024. Giá trị dự báo trung bình là 1537.1, với các giá trị dao động trong khoảng từ 1121.0 đến 1788.5.",
+  "insights": [
+    "Dự báo cho thấy một chu kỳ tuần rõ rệt, với các giá trị cao hơn vào các ngày trong tuần và giảm đáng kể vào cuối tuần (thấp nhất vào Chủ Nhật).",
+    "Giá trị dự báo cao nhất là 1788.5 vào ngày 25/12/2024 và thấp nhất là 1121.0 vào ngày 29/12/2024.",
+    "Giá trị dự báo trung bình (1537.1) cao hơn so với giá trị trung bình lịch sử (1440.8) trong giai đoạn từ 01/01/2022 đến 03/12/2024."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử (1068 điểm, từ 01/01/2022 đến 03/12/2024) và dự báo cho 28 ngày tiếp theo. Dự báo được tạo bởi mô hình ensemble của ForecastBot."
+}

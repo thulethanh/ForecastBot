@@ -1,0 +1,26 @@
+{
+  "case_id": "H43",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 3.75,
+    "unsupported_claims": [
+      "Mô hình ở chế độ \"short_only\" nhưng được mô tả là \"kết hợp trọng số 60% từ dữ liệu ngắn hạn và 40% từ dữ liệu dài hạn\". Điều này không nhất quán với selected_mode: \"short_only\"; các trọng số có xuất hiện trong kết quả nhưng không cho thấy chúng đã được kết hợp trong chế độ được chọn."
+    ],
+    "reason_vi": "Giải thích đúng tuyến, thời hạn 7 ngày, các ngày dự báo và trạng thái fallback. Trình bày rõ ràng, súc tích. Tuy nhiên, phần phương pháp luận mâu thuẫn giữa chế độ \"short_only\" và khẳng định kết hợp hai cửa sổ theo trọng số 60/40. Ngoài ra, nội dung chủ yếu nêu cấu hình, chưa giúp người dùng hiểu mức dự báo hoặc diễn biến chính của các giá trị yhat trong 7 ngày."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.414630624931306,
+    "input_tokens": 2410,
+    "output_tokens": 538,
+    "total_tokens": 2948,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":3,\"clarity\":5,\"usefulness\":3,\"overall_score\":3.75,\"unsupported_claims\":[\"Mô hình ở chế độ \\\"short_only\\\" nhưng được mô tả là \\\"kết hợp trọng số 60% từ dữ liệu ngắn hạn và 40% từ dữ liệu dài hạn\\\". Điều này không nhất quán với selected_mode: \\\"short_only\\\"; các trọng số có xuất hiện trong kết quả nhưng không cho thấy chúng đã được kết hợp trong chế độ được chọn.\"],\"reason_vi\":\"Giải thích đúng tuyến, thời hạn 7 ngày, các ngày dự báo và trạng thái fallback. Trình bày rõ ràng, súc tích. Tuy nhiên, phần phương pháp luận mâu thuẫn giữa chế độ \\\"short_only\\\" và khẳng định kết hợp hai cửa sổ theo trọng số 60/40. Ngoài ra, nội dung chủ yếu nêu cấu hình, chưa giúp người dùng hiểu mức dự báo hoặc diễn biến chính của các giá trị yhat trong 7 ngày.\"}"
+  }
+}

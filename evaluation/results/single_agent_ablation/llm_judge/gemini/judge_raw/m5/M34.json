@@ -1,0 +1,24 @@
+{
+  "case_id": "M34",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo doanh số theo quý cho đúng mặt hàng và cửa hàng, nêu đầy đủ ba mốc dự báo cùng xu hướng giảm sau Quý 4/2015. Các chi tiết về mô hình tổng hợp, hai cửa sổ 8 và 12 quý, तथा trọng số ngắn hạn 60% đều khớp với forecast_result. Ghi chú về 19 quý lịch sử và phạm vi thời gian cũng khớp history summary. Nội dung ngắn gọn, rõ ràng và giúp người dùng hiểu mức dự báo, xu hướng chính và cách kết hợp dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.612818083027378,
+    "input_tokens": 2208,
+    "output_tokens": 253,
+    "total_tokens": 2461,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo doanh số theo quý cho đúng mặt hàng và cửa hàng, nêu đầy đủ ba mốc dự báo cùng xu hướng giảm sau Quý 4/2015. Các chi tiết về mô hình tổng hợp, hai cửa sổ 8 và 12 quý, तथा trọng số ngắn hạn 60% đều khớp với forecast_result. Ghi chú về 19 quý lịch sử và phạm vi thời gian cũng khớp history summary. Nội dung ngắn gọn, rõ ràng và giúp người dùng hiểu mức dự báo, xu hướng chính và cách kết hợp dự báo.\"}"
+  }
+}

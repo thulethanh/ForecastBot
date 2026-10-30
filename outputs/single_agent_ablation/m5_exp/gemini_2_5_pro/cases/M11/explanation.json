@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01, doanh số bán hàng cho mặt hàng HOBBIES_2_089 được dự báo là 241.16 cho quý tiếp theo (bắt đầu từ 2016-04-01). Con số này thấp hơn mức trung bình lịch sử là 291.86.",
+  "insights": [
+    "Dự báo này được tạo ra bằng mô hình tổng hợp, kết hợp một mô hình ngắn hạn (dựa trên 8 quý gần nhất) và một mô hình dài hạn (dựa trên 12 quý gần nhất).",
+    "Mô hình ngắn hạn có trọng số cao hơn (60%), cho thấy các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả dự báo."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử theo quý và một điểm dự báo cho quý tiếp theo."
+}

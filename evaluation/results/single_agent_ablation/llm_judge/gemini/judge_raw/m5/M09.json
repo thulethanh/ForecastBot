@@ -1,0 +1,26 @@
+{
+  "case_id": "M09",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định rằng 4 tháng dự báo bằng 0 cho thấy mô hình đã xác định một quy luật mùa vụ hoặc định kỳ mạnh mẽ trong dữ liệu lịch sử không được history summary hoặc forecast trực tiếp hỗ trợ."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ dự báo 12 tháng và nêu chính xác phạm vi lịch sử, trung bình làm tròn, các tháng dự báo bằng 0, các mức cao nổi bật và trọng số ensemble. Trình bày rõ ràng, dễ theo dõi và giúp người dùng nhận diện biến động chính. Tuy nhiên, việc suy ra một quy luật mùa vụ hoặc định kỳ mạnh từ các giá trị dự báo bằng 0 là diễn giải vượt quá bằng chứng được cung cấp, vì tóm tắt lịch sử không nêu mẫu mùa vụ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.240755500039086,
+    "input_tokens": 2665,
+    "output_tokens": 351,
+    "total_tokens": 3016,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định rằng 4 tháng dự báo bằng 0 cho thấy mô hình đã xác định một quy luật mùa vụ hoặc định kỳ mạnh mẽ trong dữ liệu lịch sử không được history summary hoặc forecast trực tiếp hỗ trợ.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ dự báo 12 tháng và nêu chính xác phạm vi lịch sử, trung bình làm tròn, các tháng dự báo bằng 0, các mức cao nổi bật và trọng số ensemble. Trình bày rõ ràng, dễ theo dõi và giúp người dùng nhận diện biến động chính. Tuy nhiên, việc suy ra một quy luật mùa vụ hoặc định kỳ mạnh từ các giá trị dự báo bằng 0 là diễn giải vượt quá bằng chứng được cung cấp, vì tóm tắt lịch sử không nêu mẫu mùa vụ.\"}"
+  }
+}

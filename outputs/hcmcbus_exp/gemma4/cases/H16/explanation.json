@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (Route 41, HTX-195)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho 12 quý tiếp theo, bắt đầu từ 2024-04-01 và kết thúc vào 2027-01-01. Giá trị dự báo dao động trong khoảng từ 130,000.0 đến 155,000.0.",
+  "insights": [
+    "Giá trị dự báo cao nhất được ghi nhận vào quý 2026-01-01, với mức 155,000.0.",
+    "Giá trị dự báo thấp nhất là 130,000.0, xuất hiện vào các quý 2024-10-01 và 2026-07-01.",
+    "Trong 12 quý dự báo, giá trị có xu hướng biến động, với mức trung bình dự kiến khoảng 140,000.0."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện trên 9 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01. ForecastBot đã tạo ra dự báo cho 12 bước tiếp theo."
+}

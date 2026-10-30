@@ -1,0 +1,1 @@
+SELECT DATE_TRUNC('quarter', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'HOBBIES_2_018' AND s.store_id = 'TX_2' GROUP BY DATE_TRUNC('quarter', c.date)::date ORDER BY ds ASC;

@@ -1,0 +1,26 @@
+{
+  "case_id": "H29",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Mô hình đã được huấn luyện trên dữ liệu lịch sử từ 2022-01-01 đến 2024-06-01.\" Không có thông tin nào xác nhận việc huấn luyện mô hình trên toàn bộ khoảng này; chỉ có phạm vi lịch sử khả dụng và các cửa sổ h24, h30 được cung cấp."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo tuyến 3/HTX-195 trong 6 tháng, nêu đúng các mức dự báo cao nhất, thấp nhất và đối chiếu hợp lý với trung bình lịch sử. Các số liệu, mốc thời gian, ensemble và trọng số đều phù hợp dữ liệu cung cấp. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên toàn bộ dữ liệu lịch sử không được xác nhận: thông tin chỉ cho biết phạm vi lịch sử và hai cửa sổ đầu vào h24/h30. Trình bày rõ ràng, ngắn gọn và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.28823762499087,
+    "input_tokens": 2447,
+    "output_tokens": 387,
+    "total_tokens": 2834,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Mô hình đã được huấn luyện trên dữ liệu lịch sử từ 2022-01-01 đến 2024-06-01.\\\" Không có thông tin nào xác nhận việc huấn luyện mô hình trên toàn bộ khoảng này; chỉ có phạm vi lịch sử khả dụng và các cửa sổ h24, h30 được cung cấp.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo tuyến 3/HTX-195 trong 6 tháng, nêu đúng các mức dự báo cao nhất, thấp nhất và đối chiếu hợp lý với trung bình lịch sử. Các số liệu, mốc thời gian, ensemble và trọng số đều phù hợp dữ liệu cung cấp. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên toàn bộ dữ liệu lịch sử không được xác nhận: thông tin chỉ cho biết phạm vi lịch sử và hai cửa sổ đầu vào h24/h30. Trình bày rõ ràng, ngắn gọn và hữu ích.\"}"
+  }
+}

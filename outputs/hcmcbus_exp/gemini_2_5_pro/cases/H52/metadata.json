@@ -1,0 +1,33 @@
+{
+  "case_id": "H52",
+  "question": "Cho tôi dự báo lượng khách của tuyến 71 do XKSG vận hành, sử dụng nhóm xe 2B.2_ML trong 24 tháng tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 36,
+    "n_train": 36,
+    "n_test": 0,
+    "horizon": 24,
+    "minimum_train_required": 24,
+    "required_points_for_evaluation": 48,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.9368139159996645,
+    "load_schema": 0.002161208998586517,
+    "sql_generation": 9.521130374996574,
+    "sql_execution_and_repair": 0.008507000005920418,
+    "forecast": 38.90725320800266,
+    "explanation": 24.004983334001736,
+    "end_to_end": 79.38088974999846
+  },
+  "total_tokens": 14613,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

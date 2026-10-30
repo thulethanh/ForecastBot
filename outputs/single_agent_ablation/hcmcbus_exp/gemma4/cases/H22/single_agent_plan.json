@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 7,
+  "filters": {
+    "route_id": "58",
+    "operator": "HTX-VTHANG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '58' AND TRIM(d.operator) = 'HTX-VTHANG' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the sum of total passengers (y) for the specified route '58' and operator 'HTX-VTHANG' (fact filters) for each day (ds) in the daily_passenger_stats table."
+}

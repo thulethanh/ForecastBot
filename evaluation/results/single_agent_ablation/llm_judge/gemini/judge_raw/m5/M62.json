@@ -1,0 +1,26 @@
+{
+  "case_id": "M62",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Mô hình không phát hiện thấy xu hướng tăng hoặc giảm đáng kể trong dữ liệu lịch sử\" không được hỗ trợ trực tiếp bởi history summary, vì summary chỉ cung cấp min, max và trung bình, không cung cấp diễn biến theo từng năm hay chẩn đoán của mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 5 năm cho đúng mặt hàng và bang, nêu chính xác mức dự báo 751.5 cho từng năm 2017–2021. Việc xác định 751.5 là trung bình lịch sử cũng phù hợp với history summary và forecast. Nội dung rõ ràng, ngắn gọn, đồng thời giúp hiểu dự báo ổn định. Tuy nhiên, nhận định mô hình không phát hiện xu hướng tăng hoặc giảm đáng kể chưa có bằng chứng trực tiếp trong dữ liệu tóm tắt hoặc kết quả dự báo; dự báo phẳng không tự nó chứng minh chẩn đoán này."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.032299124985002,
+    "input_tokens": 2252,
+    "output_tokens": 301,
+    "total_tokens": 2553,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Mô hình không phát hiện thấy xu hướng tăng hoặc giảm đáng kể trong dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp bởi history summary, vì summary chỉ cung cấp min, max và trung bình, không cung cấp diễn biến theo từng năm hay chẩn đoán của mô hình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 5 năm cho đúng mặt hàng và bang, nêu chính xác mức dự báo 751.5 cho từng năm 2017–2021. Việc xác định 751.5 là trung bình lịch sử cũng phù hợp với history summary và forecast. Nội dung rõ ràng, ngắn gọn, đồng thời giúp hiểu dự báo ổn định. Tuy nhiên, nhận định mô hình không phát hiện xu hướng tăng hoặc giảm đáng kể chưa có bằng chứng trực tiếp trong dữ liệu tóm tắt hoặc kết quả dự báo; dự báo phẳng không tự nó chứng minh chẩn đoán này.\"}"
+  }
+}

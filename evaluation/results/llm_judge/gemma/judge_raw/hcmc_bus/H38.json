@@ -1,0 +1,28 @@
+{
+  "case_id": "H38",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Sự tăng trưởng này cho thấy xu hướng tăng trưởng mạnh mẽ\" là nhận định định tính không được history summary hoặc forecast trực tiếp xác lập.",
+      "\"Mức tăng trưởng trung bình hàng tháng được duy trì xuyên suốt\" chưa chính xác rõ ràng vì mức tăng giữa các tháng trong forecast thay đổi, không cố định.",
+      "\"Biểu đồ này được huấn luyện trên 24 điểm dữ liệu lịch sử\" khẳng định việc huấn luyện mà thông tin cung cấp chỉ cho biết có 24 quan sát lịch sử và cửa sổ dự báo 24 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến/đơn vị, kỳ hạn 12 tháng và nêu chính xác giá trị đầu-cuối cùng xu hướng tăng liên tục của forecast. Trình bày rõ ràng, ngắn gọn và giúp hiểu diễn biến dự báo. Tuy nhiên, mô tả tăng trưởng là “mạnh mẽ”, nói mức tăng trung bình được duy trì xuyên suốt, và khẳng định biểu đồ được huấn luyện trên 24 điểm đều vượt quá hoặc chưa được hỗ trợ đầy đủ bởi thông tin được cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.032745125005022,
+    "input_tokens": 2624,
+    "output_tokens": 453,
+    "total_tokens": 3077,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Sự tăng trưởng này cho thấy xu hướng tăng trưởng mạnh mẽ\\\" là nhận định định tính không được history summary hoặc forecast trực tiếp xác lập.\",\"\\\"Mức tăng trưởng trung bình hàng tháng được duy trì xuyên suốt\\\" chưa chính xác rõ ràng vì mức tăng giữa các tháng trong forecast thay đổi, không cố định.\",\"\\\"Biểu đồ này được huấn luyện trên 24 điểm dữ liệu lịch sử\\\" khẳng định việc huấn luyện mà thông tin cung cấp chỉ cho biết có 24 quan sát lịch sử và cửa sổ dự báo 24 điểm.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến/đơn vị, kỳ hạn 12 tháng và nêu chính xác giá trị đầu-cuối cùng xu hướng tăng liên tục của forecast. Trình bày rõ ràng, ngắn gọn và giúp hiểu diễn biến dự báo. Tuy nhiên, mô tả tăng trưởng là “mạnh mẽ”, nói mức tăng trung bình được duy trì xuyên suốt, và khẳng định biểu đồ được huấn luyện trên 24 điểm đều vượt quá hoặc chưa được hỗ trợ đầy đủ bởi thông tin được cung cấp.\"}"
+  }
+}

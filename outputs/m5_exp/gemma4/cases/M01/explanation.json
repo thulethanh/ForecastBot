@@ -1,0 +1,8 @@
+{
+  "title": "Dự báo cho FOODS_3_228 (M5) trong 7 ngày tới",
+  "summary_text": "Dự báo cho FOODS_3_228 trong 7 ngày tới (từ 2016-04-18 đến 2016-04-24) là 52.5714. Mô hình đã sử dụng phương pháp `deterministic_recent_mean` và kích hoạt chế độ fallback.",
+  "insights": [
+    "Dự báo được tính toán dựa trên trọng số 0.6 cho dữ liệu ngắn hạn (h180) và 0.4 cho dữ liệu dài hạn (h365)."
+  ],
+  "chart_note": "Dữ liệu lịch sử được sử dụng từ 2011-01-29 đến 2016-04-17. ForecastBot đã tạo ra dự báo cho 7 bước tiếp theo."
+}

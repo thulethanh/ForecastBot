@@ -1,0 +1,33 @@
+{
+  "case_id": "H24",
+  "question": "Trong 30 ngày tới, lượng hành khách của tuyến 64 do XKSG vận hành được dự báo như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1066,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 5.857315667002695,
+    "load_schema": 0.00203291600337252,
+    "sql_generation": 7.166293250003946,
+    "sql_execution_and_repair": 0.015059749995998573,
+    "forecast": 88.66367712499778,
+    "explanation": 20.68323750000127,
+    "end_to_end": 122.38777699999628
+  },
+  "total_tokens": 25164,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

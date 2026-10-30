@@ -1,0 +1,24 @@
+{
+  "case_id": "H40",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 128, nhà vận hành HTX-ThanhSon và chân trời 3 năm. Các số liệu lịch sử (2022–2024, trung bình 340.010,33, mức cao nhất 356.345,0) và toàn bộ nhận định về xu hướng, mức dự báo 2025/2027 तथा mức tăng hằng năm đều khớp với history summary và forecast. Nội dung rõ ràng, ngắn gọn, đồng thời giúp người dùng thấy được xu hướng tăng, quy mô dự báo và sự vượt mức lịch sử của năm 2025."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.242349958003615,
+    "input_tokens": 2284,
+    "output_tokens": 224,
+    "total_tokens": 2508,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 128, nhà vận hành HTX-ThanhSon và chân trời 3 năm. Các số liệu lịch sử (2022–2024, trung bình 340.010,33, mức cao nhất 356.345,0) và toàn bộ nhận định về xu hướng, mức dự báo 2025/2027 तथा mức tăng hằng năm đều khớp với history summary và forecast. Nội dung rõ ràng, ngắn gọn, đồng thời giúp người dùng thấy được xu hướng tăng, quy mô dự báo và sự vượt mức lịch sử của năm 2025.\"}"
+  }
+}

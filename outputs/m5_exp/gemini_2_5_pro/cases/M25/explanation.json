@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo doanh số cho item FOODS_3_576 tại TX",
+  "summary_text": "ForecastBot dự báo tổng cộng 91.2 đơn vị sẽ được bán trong 60 ngày tới (25/02/2016 - 24/04/2016), với doanh số trung bình là 1.52 mỗi ngày. Mức này cao hơn so với trung bình lịch sử là 0.58.",
+  "insights": [
+    "Doanh số trung bình dự báo hàng ngày là 1.52, cao hơn so với mức trung bình lịch sử là 0.58.",
+    "Dự báo đạt đỉnh 3.2 vào ngày 14/03/2016 và chạm mức thấp nhất là 0.6 vào nhiều ngày khác nhau.",
+    "Tổng doanh số dự báo cho toàn bộ giai đoạn 60 ngày là 91.2."
+  ],
+  "chart_note": "Biểu đồ hiển thị 1853 điểm dữ liệu lịch sử từ 29/01/2011 đến 24/02/2016 và dự báo của ForecastBot cho 60 ngày tiếp theo."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_1_133 tại CA_2 (M5) từ năm 2017 đến năm 2021",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2011 đến năm 2016, dự báo cho 5 năm tới cho thấy xu hướng tăng trưởng ổn định. Giá trị dự báo bắt đầu từ 75.6 vào năm 2017 và tăng dần lên 126.0 vào năm 2021.",
+  "insights": [
+    "Giá trị trung bình lịch sử của HOUSEHOLD_1_133 tại CA_2 là 124.67.",
+    "Dự báo cho năm 2017 là 75.6, thấp hơn mức trung bình lịch sử.",
+    "Dự báo cho năm 2021 là 126.0, cao hơn mức trung bình lịch sử 1.3%."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng bằng cách sử dụng dữ liệu lịch sử 6 điểm (h6) để huấn luyện mô hình. Dự báo được thực hiện cho 5 bước tiếp theo (2017-2021) với chế độ single."
+}

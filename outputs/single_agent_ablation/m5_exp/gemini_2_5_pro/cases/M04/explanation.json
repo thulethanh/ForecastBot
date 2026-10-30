@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 60 ngày cho mặt hàng FOODS_3_055 tại cửa hàng CA_1, bắt đầu từ ngày 25 tháng 2 năm 2016. Dự báo cho thấy một mô hình hàng tuần nhất quán, với doanh số dao động trong một phạm vi ổn định và không có xu hướng tăng hoặc giảm rõ rệt trong suốt giai đoạn dự báo.",
+  "insights": [
+    "Dự báo xác định một chu kỳ hàng tuần mạnh mẽ và lặp lại. Doanh số dự kiến sẽ cao nhất vào các ngày thứ Ba (khoảng 0.31) và thấp nhất vào các ngày thứ Tư (khoảng 0.16).",
+    "Các giá trị dự báo đều dưới 1.0, phù hợp với mức trung bình lịch sử là 0.42, cho thấy đây là một mặt hàng bán chậm, không bán được mỗi ngày."
+  ],
+  "chart_note": "Biểu đồ này hiển thị doanh số dự báo từ ngày 25 tháng 2 năm 2016 đến ngày 24 tháng 4 năm 2016. Dự báo này được tạo ra dựa trên dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 2 năm 2016."
+}

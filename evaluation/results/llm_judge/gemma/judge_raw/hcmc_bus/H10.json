@@ -1,0 +1,26 @@
+{
+  "case_id": "H10",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 4,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 36 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp; dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 36 quan sát, không xác nhận việc huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo tuyến 32 trong 24 tháng, nêu đúng giai đoạn, mức dự báo cố định 96345.2857, thống kê lịch sử và chế độ fallback/phương pháp theo kết quả cung cấp. Các số liệu lịch sử, trọng số và 24 dự báo đều nhất quán. Tuy nhiên, câu nói biểu đồ được “huấn luyện” trên 36 điểm dữ liệu không có bằng chứng trực tiếp và diễn đạt này cũng hơi thiếu chính xác. Ngoài điểm này, nội dung rõ ràng, cô đọng và hữu ích để hiểu mức dự báo ổn định."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 40.4779430829949,
+    "input_tokens": 3053,
+    "output_tokens": 459,
+    "total_tokens": 3512,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":4,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 36 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp; dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 36 quan sát, không xác nhận việc huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo tuyến 32 trong 24 tháng, nêu đúng giai đoạn, mức dự báo cố định 96345.2857, thống kê lịch sử và chế độ fallback/phương pháp theo kết quả cung cấp. Các số liệu lịch sử, trọng số và 24 dự báo đều nhất quán. Tuy nhiên, câu nói biểu đồ được “huấn luyện” trên 36 điểm dữ liệu không có bằng chứng trực tiếp và diễn đạt này cũng hơi thiếu chính xác. Ngoài điểm này, nội dung rõ ràng, cô đọng và hữu ích để hiểu mức dự báo ổn định.\"}"
+  }
+}

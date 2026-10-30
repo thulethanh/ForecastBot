@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 10,
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": null,
+  "filters": {
+    "route_id": "99",
+    "operator": "HTX-ThanhSon",
+    "vehicle_group": "2B.1_ML"
+  }
+}

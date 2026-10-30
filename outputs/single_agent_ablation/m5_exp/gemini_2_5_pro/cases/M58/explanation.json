@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số cho 12 quý tới của mặt hàng HOUSEHOLD_1_321 tại cửa hàng WI_1. Dự báo này được xây dựng dựa trên 22 quý dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 4 năm 2016. Kết quả dự báo cho thấy một quy luật mùa vụ rõ rệt, với doanh số dự kiến đạt đỉnh vào quý đầu tiên của mỗi năm (tháng 1) và thấp nhất vào quý thứ hai (tháng 4).",
+  "insights": [
+    "Dự báo xác định một quy luật mùa vụ hàng năm rất rõ ràng. Doanh số được dự kiến cao nhất vào Quý 1 (ví dụ: 146 đơn vị vào tháng 1 năm 2017) và thấp nhất vào Quý 2 (ví dụ: 31 đơn vị vào tháng 4 năm 2017). Quy luật này lặp lại trong suốt chu kỳ dự báo 3 năm.",
+    "Một mô hình tổng hợp (ensemble) đã được sử dụng, với 60% trọng số cho các xu hướng gần đây (12 quý gần nhất) và 40% cho lịch sử dài hạn hơn (20 quý gần nhất). Điều này cho thấy hiệu suất gần đây là một chỉ báo quan trọng hơn cho doanh số trong tương lai."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số lịch sử trong 22 quý và dự báo cho 12 quý tiếp theo. Đường dự báo tiếp nối các quy luật mùa vụ đã được quan sát trong dữ liệu lịch sử."
+}

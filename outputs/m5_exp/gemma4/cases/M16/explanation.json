@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo doanh số cho HOUSEHOLD_1_334 tại CA_1 (CA)",
+  "summary_text": "Dự báo cho 12 quý tới cho thấy doanh số dự kiến dao động trong khoảng từ 623.2 đến 883.2. Giá trị dự báo bắt đầu ở 703.2 vào quý 2016-07-01 và tăng dần đến mức cao nhất là 883.2 vào quý 2018-04-01.",
+  "insights": [
+    "Trong 12 quý dự báo, doanh số dự kiến đạt mức cao nhất là 883.2 vào quý 2018-04-01.",
+    "Doanh số dự kiến thấp nhất là 623.2, xảy ra vào quý 2017-10-01.",
+    "Xu hướng chung cho thấy sự ổn định, với các giá trị dự báo duy trì quanh mức 700-800 trong giai đoạn 2019-01-01 đến 2019-04-01."
+  ],
+  "chart_note": "Biểu đồ này hiển thị kết quả dự báo được tạo ra bằng mô hình ensemble, sử dụng các cửa sổ h12 và h20. Trạng thái dự báo là success."
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H43",
+  "question": "Cho tôi biết tuyến 145 trong 7 ngày tiếp theo dự kiến có bao nhiêu lượt hành khách.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1094,
+    "n_train": 1087,
+    "n_test": 7,
+    "horizon": 7,
+    "minimum_train_required": 7,
+    "required_points_for_evaluation": 14,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.004041624953970313,
+    "request_sql": 65.77703204099089,
+    "sql_execution_and_repair": 0.055963207967579365,
+    "forecast": 233.15327545802575,
+    "explanation": 75.47922466695309,
+    "end_to_end": 374.4699403330451
+  },
+  "total_tokens": 14640,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

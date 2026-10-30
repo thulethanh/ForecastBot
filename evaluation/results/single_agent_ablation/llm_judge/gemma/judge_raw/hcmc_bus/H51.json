@@ -1,0 +1,26 @@
+{
+  "case_id": "H51",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Các nhận định về “mức dao động theo mùa rõ rệt” và “tính mùa vụ rõ rệt” không được hỗ trợ trực tiếp bởi summary lịch sử; forecast chỉ thể hiện biến động dự báo trong một năm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến 70, kỳ hạn 12 tháng và nêu được các mức đỉnh, nhịp giảm cùng dữ liệu lịch sử liên quan. Các số liệu về thời gian, số điểm lịch sử, trung bình, mức đỉnh và các tháng giảm đều khớp thông tin cung cấp. Tuy nhiên, việc khẳng định mùa vụ rõ rệt chưa có bằng chứng trực tiếp từ history summary, vốn không mô tả mẫu mùa vụ. Trình bày rõ ràng, dễ theo dõi và hữu ích, dù có thể nêu thêm mức đầu-cuối kỳ để làm rõ xu hướng tổng thể."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.693162124953233,
+    "input_tokens": 2604,
+    "output_tokens": 460,
+    "total_tokens": 3064,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Các nhận định về “mức dao động theo mùa rõ rệt” và “tính mùa vụ rõ rệt” không được hỗ trợ trực tiếp bởi summary lịch sử; forecast chỉ thể hiện biến động dự báo trong một năm.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến 70, kỳ hạn 12 tháng và nêu được các mức đỉnh, nhịp giảm cùng dữ liệu lịch sử liên quan. Các số liệu về thời gian, số điểm lịch sử, trung bình, mức đỉnh và các tháng giảm đều khớp thông tin cung cấp. Tuy nhiên, việc khẳng định mùa vụ rõ rệt chưa có bằng chứng trực tiếp từ history summary, vốn không mô tả mẫu mùa vụ. Trình bày rõ ràng, dễ theo dõi và hữu ích, dù có thể nêu thêm mức đầu-cuối kỳ để làm rõ xu hướng tổng thể.\"}"
+  }
+}

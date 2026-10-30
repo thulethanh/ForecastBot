@@ -1,0 +1,24 @@
+{
+  "case_id": "M54",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và bang, nêu đầy đủ hai giá trị dự báo. Các nhận định về mức giảm từ 72.6 xuống 70.0 và việc cả hai thấp hơn trung bình lịch sử 96.15 đều được hỗ trợ trực tiếp. Ghi chú biểu đồ khớp với phạm vi 20 điểm lịch sử và thông tin ensemble/cửa sổ h8, h12. Nội dung rõ ràng, ngắn gọn và giúp hiểu mức dự báo lẫn xu hướng ngắn hạn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.993270582999685,
+    "input_tokens": 2157,
+    "output_tokens": 216,
+    "total_tokens": 2373,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng và bang, nêu đầy đủ hai giá trị dự báo. Các nhận định về mức giảm từ 72.6 xuống 70.0 và việc cả hai thấp hơn trung bình lịch sử 96.15 đều được hỗ trợ trực tiếp. Ghi chú biểu đồ khớp với phạm vi 20 điểm lịch sử và thông tin ensemble/cửa sổ h8, h12. Nội dung rõ ràng, ngắn gọn và giúp hiểu mức dự báo lẫn xu hướng ngắn hạn.\"}"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M18",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo 2 năm theo năm cho đúng mặt hàng, nêu rõ mức dự báo 842.25 cho 2015–2016 và tính ổn định. Các thông tin về chế độ single, trọng số, cửa sổ 4 điểm và phạm vi lịch sử 2011–2014 đều phù hợp dữ liệu được cung cấp. Việc liên hệ mức dự báo với trung bình lịch sử được hỗ trợ trực tiếp vì yhat trùng mean_y. Nội dung rõ ràng, nhưng có thể hữu ích hơn nếu nêu thêm biên độ lịch sử để đặt mức 842.25 vào bối cảnh."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.915203499956988,
+    "input_tokens": 2168,
+    "output_tokens": 318,
+    "total_tokens": 2486,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo 2 năm theo năm cho đúng mặt hàng, nêu rõ mức dự báo 842.25 cho 2015–2016 và tính ổn định. Các thông tin về chế độ single, trọng số, cửa sổ 4 điểm và phạm vi lịch sử 2011–2014 đều phù hợp dữ liệu được cung cấp. Việc liên hệ mức dự báo với trung bình lịch sử được hỗ trợ trực tiếp vì yhat trùng mean_y. Nội dung rõ ràng, nhưng có thể hữu ích hơn nếu nêu thêm biên độ lịch sử để đặt mức 842.25 vào bối cảnh.\"}"
+  }
+}

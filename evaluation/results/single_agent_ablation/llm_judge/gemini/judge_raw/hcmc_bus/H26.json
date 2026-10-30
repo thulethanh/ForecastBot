@@ -1,0 +1,24 @@
+{
+  "case_id": "H26",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 90 ngày cho đúng tuyến và đơn vị vận hành. Các mốc dữ liệu lịch sử, trung bình khoảng 2.164 và mô tả chu kỳ tuần đều phù hợp thông tin được cung cấp. Forecast thực tế lặp lại mẫu: ngày thường khoảng 2.668–2.740, thứ Bảy 2.006,6 và Chủ Nhật thấp nhất 1.720. Nội dung rõ ràng, ngắn gọn, giúp người dùng nắm mức dự báo và khác biệt ngày thường/cuối tuần mà không suy diễn nguyên nhân."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.9353390840115026,
+    "input_tokens": 5203,
+    "output_tokens": 271,
+    "total_tokens": 5474,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 90 ngày cho đúng tuyến và đơn vị vận hành. Các mốc dữ liệu lịch sử, trung bình khoảng 2.164 và mô tả chu kỳ tuần đều phù hợp thông tin được cung cấp. Forecast thực tế lặp lại mẫu: ngày thường khoảng 2.668–2.740, thứ Bảy 2.006,6 và Chủ Nhật thấp nhất 1.720. Nội dung rõ ràng, ngắn gọn, giúp người dùng nắm mức dự báo và khác biệt ngày thường/cuối tuần mà không suy diễn nguyên nhân.\"}"
+  }
+}

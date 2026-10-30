@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho mặt hàng HOBBIES_1_173 tại tiểu bang CA trong 3 quý tới. Dự báo cho thấy xu hướng giảm, bắt đầu từ 266.0 trong Quý 4 2015 và giảm xuống 245.0 vào Quý 2 2016. Dự báo này dựa trên 19 điểm dữ liệu lịch sử từ Quý 1 2011 đến Quý 3 2015, với doanh số dao động từ 0.0 đến 294.0.",
+  "insights": [
+    "Dự báo cho thấy doanh số sẽ giảm dần trong ba quý tới.",
+    "Kết quả này là một mô hình tổng hợp, kết hợp góc nhìn ngắn hạn (sử dụng 8 quý gần nhất) và dài hạn (sử dụng 12 quý gần nhất), với trọng số lớn hơn (60%) được đặt vào các xu hướng gần đây."
+  ],
+  "chart_note": "Biểu đồ hiển thị 19 điểm dữ liệu lịch sử và dự báo cho 3 quý."
+}

@@ -1,0 +1,33 @@
+{
+  "case_id": "M24",
+  "question": "Trong 30 ngày tới, lượng bán của sản phẩm FOODS_1_078 tại cửa hàng TX_3 được dự báo như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1883,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 39.896758249989944,
+    "load_schema": 0.02711137500591576,
+    "sql_generation": 61.2100941670069,
+    "sql_execution_and_repair": 0.03649262498947792,
+    "forecast": 430.6627528340032,
+    "explanation": 76.87529016700864,
+    "end_to_end": 608.7086512499955
+  },
+  "total_tokens": 17193,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

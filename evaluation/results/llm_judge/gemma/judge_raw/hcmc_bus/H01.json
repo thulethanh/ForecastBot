@@ -1,0 +1,24 @@
+{
+  "case_id": "H01",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 7 ngày cho tuyến 19, nêu đúng thời gian và mức dự báo 3766.1429 lặp lại trong toàn bộ kỳ hạn. Nhận định mức này gần trung bình lịch sử được hỗ trợ trực tiếp bởi số liệu 3783.3848, và thông tin về deterministic_recent_mean तथा fallback khớp kết quả dự báo. Nội dung rõ ràng, mạch lạc, không đưa nguyên nhân hay dữ liệu ngoài phạm vi. Tính hữu ích tốt, dù có thể bổ sung ngắn gọn ý nghĩa vận hành hoặc lưu ý rằng đây là dự báo ổn định theo phương pháp fallback."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.078577791005955,
+    "input_tokens": 2402,
+    "output_tokens": 279,
+    "total_tokens": 2681,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 7 ngày cho tuyến 19, nêu đúng thời gian và mức dự báo 3766.1429 lặp lại trong toàn bộ kỳ hạn. Nhận định mức này gần trung bình lịch sử được hỗ trợ trực tiếp bởi số liệu 3783.3848, và thông tin về deterministic_recent_mean तथा fallback khớp kết quả dự báo. Nội dung rõ ràng, mạch lạc, không đưa nguyên nhân hay dữ liệu ngoài phạm vi. Tính hữu ích tốt, dù có thể bổ sung ngắn gọn ý nghĩa vận hành hoặc lưu ý rằng đây là dự báo ổn định theo phương pháp fallback.\"}"
+  }
+}

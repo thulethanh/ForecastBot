@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 12 quý tới cho item_id HOUSEHOLD_1_334 tại store_id CA_1",
+  "summary_text": "ForecastBot dự báo giá trị sẽ dao động trong khoảng 492.0 đến 1153.8 trong 12 quý tới. Dự báo cho thấy một quy luật mùa vụ rõ rệt lặp lại hàng năm, với các đỉnh vào Quý 1 và Quý 3, và mức thấp nhất vào Quý 2.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 1153.8, được dự kiến cho Quý 3 của mỗi năm.",
+    "Giá trị dự báo thấp nhất là 492.0, được dự kiến cho Quý 2 của mỗi năm.",
+    "Giá trị trung bình dự báo (khoảng 899.9) cao hơn mức trung bình lịch sử (583.6)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 22 điểm dữ liệu lịch sử hàng quý từ 2011-01-01 đến 2016-04-01 và dự báo cho 12 quý tiếp theo. Dự báo được tạo bởi mô hình `ensemble` của ForecastBot."
+}

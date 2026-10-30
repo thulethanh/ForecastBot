@@ -1,0 +1,24 @@
+{
+  "case_id": "H26",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 2,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 1,
+    "overall_score": 3.25,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation chỉ xác nhận hệ thống đã tạo dự báo và cho biết phần diễn giải LLM không khả dụng. Nội dung này phù hợp với trạng thái forecast thành công, không đưa ra số liệu, xu hướng hay nguyên nhân không có căn cứ. Tuy nhiên, nó không diễn giải mức dự báo, xu hướng giảm rồi phục hồi trong 90 ngày, hay ý nghĩa thực tế cho tuyến/đơn vị được yêu cầu, nên giá trị hữu ích rất thấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.664349999991828,
+    "input_tokens": 5025,
+    "output_tokens": 232,
+    "total_tokens": 5257,
+    "raw_response": "{\"relevance\":2,\"faithfulness\":5,\"clarity\":5,\"usefulness\":1,\"overall_score\":3.25,\"unsupported_claims\":[],\"reason_vi\":\"Explanation chỉ xác nhận hệ thống đã tạo dự báo và cho biết phần diễn giải LLM không khả dụng. Nội dung này phù hợp với trạng thái forecast thành công, không đưa ra số liệu, xu hướng hay nguyên nhân không có căn cứ. Tuy nhiên, nó không diễn giải mức dự báo, xu hướng giảm rồi phục hồi trong 90 ngày, hay ý nghĩa thực tế cho tuyến/đơn vị được yêu cầu, nên giá trị hữu ích rất thấp.\"}"
+  }
+}

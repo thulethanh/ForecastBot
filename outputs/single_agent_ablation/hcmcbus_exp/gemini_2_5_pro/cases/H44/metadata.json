@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H44",
+  "question": "Trong 28 ngày tới, lượng hành khách của tuyến 146 do HTX-ThanhSon vận hành được dự báo như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1094,
+    "n_train": 1066,
+    "n_test": 28,
+    "horizon": 28,
+    "minimum_train_required": 28,
+    "required_points_for_evaluation": 56,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.004517457913607359,
+    "request_sql": 8.331653209053911,
+    "sql_execution_and_repair": 0.023498040973208845,
+    "forecast": 103.50225229200441,
+    "explanation": 15.157249290961772,
+    "end_to_end": 127.01945012493525
+  },
+  "total_tokens": 26205,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

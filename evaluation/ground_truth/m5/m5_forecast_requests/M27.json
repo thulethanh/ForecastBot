@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 1,
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": null,
+  "filters": {
+    "item_id": "FOODS_1_031",
+    "store_id": "TX_1",
+    "state_id": null
+  }
+}

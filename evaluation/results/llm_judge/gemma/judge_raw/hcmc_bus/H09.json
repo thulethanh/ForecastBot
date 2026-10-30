@@ -1,0 +1,27 @@
+{
+  "case_id": "H09",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Khẳng định có \"sự biến động theo mùa rõ rệt\" không được history summary hoặc dãy forecast tự chứng minh.",
+      "Khẳng định ForecastBot dùng trọng số 0.6 ngắn hạn và 0.4 dài hạn để dự báo không phù hợp rõ ràng với selected_mode là \"single\"; cả hai cửa sổ cũng đều là h24."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến 31/XKSG, đúng kỳ hạn 12 tháng và nêu chính xác tháng cao nhất, thấp nhất, các mức dự báo và trung bình lịch sử. Trình bày mạch lạc, hữu ích để nhận biết biên độ dự báo. Tuy nhiên, nhận định mùa vụ rõ rệt chưa có bằng chứng trực tiếp từ phần tóm tắt lịch sử, và mô tả việc áp dụng trọng số ngắn/dài hạn gây không nhất quán với chế độ dự báo \"single\"."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.696435542005929,
+    "input_tokens": 2693,
+    "output_tokens": 426,
+    "total_tokens": 3119,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Khẳng định có \\\"sự biến động theo mùa rõ rệt\\\" không được history summary hoặc dãy forecast tự chứng minh.\",\"Khẳng định ForecastBot dùng trọng số 0.6 ngắn hạn và 0.4 dài hạn để dự báo không phù hợp rõ ràng với selected_mode là \\\"single\\\"; cả hai cửa sổ cũng đều là h24.\"],\"reason_vi\":\"Giải thích bám sát tuyến 31/XKSG, đúng kỳ hạn 12 tháng và nêu chính xác tháng cao nhất, thấp nhất, các mức dự báo và trung bình lịch sử. Trình bày mạch lạc, hữu ích để nhận biết biên độ dự báo. Tuy nhiên, nhận định mùa vụ rõ rệt chưa có bằng chứng trực tiếp từ phần tóm tắt lịch sử, và mô tả việc áp dụng trọng số ngắn/dài hạn gây không nhất quán với chế độ dự báo \\\"single\\\".\"}"
+  }
+}

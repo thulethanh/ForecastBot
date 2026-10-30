@@ -1,0 +1,26 @@
+{
+  "case_id": "H32",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Giải thích nêu dữ liệu lịch sử và biểu đồ chỉ đến Q2 2024, trong khi history_summary cho biết dữ liệu lịch sử kết thúc ở 2024-07-01 (Q3 2024)."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và đơn vị vận hành, nêu rõ mức dự báo, đối chiếu với mức cao nhất và mô tả biên độ biến động. Các số liệu 131.597, 4.767 và 8 quý đều được hỗ trợ. Tuy nhiên, phần tóm tắt và ghi chú biểu đồ ghi lịch sử kết thúc ở Q2/2024, không khớp với phạm vi lịch sử được cung cấp là đến Q3/2024. Nội dung vẫn rõ ràng và hữu ích, nhưng sai lệch mốc thời gian này làm giảm nhẹ tính trung thực và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.930388499982655,
+    "input_tokens": 2116,
+    "output_tokens": 383,
+    "total_tokens": 2499,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Giải thích nêu dữ liệu lịch sử và biểu đồ chỉ đến Q2 2024, trong khi history_summary cho biết dữ liệu lịch sử kết thúc ở 2024-07-01 (Q3 2024).\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và đơn vị vận hành, nêu rõ mức dự báo, đối chiếu với mức cao nhất và mô tả biên độ biến động. Các số liệu 131.597, 4.767 và 8 quý đều được hỗ trợ. Tuy nhiên, phần tóm tắt và ghi chú biểu đồ ghi lịch sử kết thúc ở Q2/2024, không khớp với phạm vi lịch sử được cung cấp là đến Q3/2024. Nội dung vẫn rõ ràng và hữu ích, nhưng sai lệch mốc thời gian này làm giảm nhẹ tính trung thực và hữu ích.\"}"
+  }
+}

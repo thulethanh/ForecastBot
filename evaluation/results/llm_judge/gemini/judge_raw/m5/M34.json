@@ -1,0 +1,24 @@
+{
+  "case_id": "M34",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất quý và chân trời 3 quý. Các mốc thời gian, 19 điểm lịch sử, trung bình 17.8, mức tối đa 77.0, ba giá trị dự báo và nhận định giảm từ 122.0 xuống 70.2 đều khớp dữ liệu cung cấp. Mô tả ensemble, hai cửa sổ 8/12 quý và trọng số 60%/40% cũng chính xác. Nội dung rõ ràng, ngắn gọn và giúp người dùng nhận biết mức dự báo đầu kỳ cao bất thường so với lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.9143276660033735,
+    "input_tokens": 2320,
+    "output_tokens": 233,
+    "total_tokens": 2553,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất quý và chân trời 3 quý. Các mốc thời gian, 19 điểm lịch sử, trung bình 17.8, mức tối đa 77.0, ba giá trị dự báo và nhận định giảm từ 122.0 xuống 70.2 đều khớp dữ liệu cung cấp. Mô tả ensemble, hai cửa sổ 8/12 quý và trọng số 60%/40% cũng chính xác. Nội dung rõ ràng, ngắn gọn và giúp người dùng nhận biết mức dự báo đầu kỳ cao bất thường so với lịch sử.\"}"
+  }
+}

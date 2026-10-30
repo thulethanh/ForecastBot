@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_2_117 tại WI_1 (2014-2016)",
+  "summary_text": "Dự báo cho HOUSEHOLD_2_117 cho thấy giá trị bằng 0.0 trong cả ba năm dự báo (2014, 2015, và 2016).",
+  "insights": [
+    "Giá trị dự báo cho cả ba năm liên tiếp đều là 0.0.",
+    "Điều này thể hiện sự khác biệt đáng kể so với phạm vi lịch sử đã quan sát (từ 103.0 đến 221.0)."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện dựa trên 3 điểm dữ liệu lịch sử (2011-01-01 đến 2013-01-01). Dự báo được tạo ra bằng chế độ single, sử dụng các cửa sổ h3 (short) và h3 (long)."
+}

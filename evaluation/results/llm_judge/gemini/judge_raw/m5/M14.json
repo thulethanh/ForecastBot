@@ -1,0 +1,24 @@
+{
+  "case_id": "M14",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo theo quý cho đúng item và cửa hàng, nêu rõ phạm vi lịch sử, trung bình lịch sử và đầy đủ 4 giá trị dự báo. Các mốc thời gian, mức dự báo, khoảng dao động 23.4–69.6 và so sánh 69.6 với mức lịch sử cao nhất 69.0 đều được dữ liệu cung cấp hỗ trợ. Nội dung rõ ràng, có cấu trúc, đồng thời giúp người dùng nhận biết diễn biến tăng dần sau quý 3/2015 và mức cao ở quý 2/2016."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.386368665989721,
+    "input_tokens": 2288,
+    "output_tokens": 225,
+    "total_tokens": 2513,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo theo quý cho đúng item và cửa hàng, nêu rõ phạm vi lịch sử, trung bình lịch sử và đầy đủ 4 giá trị dự báo. Các mốc thời gian, mức dự báo, khoảng dao động 23.4–69.6 và so sánh 69.6 với mức lịch sử cao nhất 69.0 đều được dữ liệu cung cấp hỗ trợ. Nội dung rõ ràng, có cấu trúc, đồng thời giúp người dùng nhận biết diễn biến tăng dần sau quý 3/2015 và mức cao ở quý 2/2016.\"}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS cho tuyến 48 của HTX-195 (Theo năm)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo chỉ số cho HCMC_BUS sẽ tiếp tục tăng trưởng ổn định trong 5 năm tới, từ 400,225.0 vào năm 2025 đến 424,537.0 vào năm 2029.",
+  "insights": [
+    "Trong 5 năm dự báo, chỉ số được kỳ vọng tăng trưởng liên tục, với mức tăng từ 400,225.0 (2025-01-01) lên 424,537.0 (2029-01-01).",
+    "Mức tăng trưởng dự kiến hàng năm là khoảng 6,072.0 đơn vị, thể hiện xu hướng tăng trưởng ổn định qua các năm."
+  ],
+  "chart_note": "Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01 và cung cấp dự báo cho 5 năm tiếp theo, từ 2025-01-01 đến 2029-01-01."
+}

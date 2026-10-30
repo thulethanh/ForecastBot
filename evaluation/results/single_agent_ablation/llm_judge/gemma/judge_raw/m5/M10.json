@@ -1,0 +1,26 @@
+{
+  "case_id": "M10",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Trọng số 0.6 và 0.4 \"giúp cân bằng giữa xu hướng gần và xu hướng dài hạn\"; dữ liệu chỉ xác nhận các trọng số và hai cửa sổ, chưa trực tiếp cho thấy tác động cân bằng hay đặc điểm xu hướng của từng nhánh."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo tháng cho 24 bước, nêu đúng thời gian dự báo, chế độ ensemble, trọng số và số điểm ở hai cửa sổ (40 dài hạn, 36 ngắn hạn). Nhận xét về mẫu lặp theo năm nhìn chung phù hợp với chuỗi forecast. Nội dung rõ ràng, gọn và có lưu ý hợp lý rằng đây không phải giá trị tương lai được đảm bảo. Tuy nhiên, diễn giải rằng việc kết hợp trọng số tạo ra sự cân bằng giữa các xu hướng là suy luận thêm, chưa được dữ liệu cung cấp trực tiếp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 12.38447541592177,
+    "input_tokens": 3009,
+    "output_tokens": 651,
+    "total_tokens": 3660,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Trọng số 0.6 và 0.4 \\\"giúp cân bằng giữa xu hướng gần và xu hướng dài hạn\\\"; dữ liệu chỉ xác nhận các trọng số và hai cửa sổ, chưa trực tiếp cho thấy tác động cân bằng hay đặc điểm xu hướng của từng nhánh.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo tháng cho 24 bước, nêu đúng thời gian dự báo, chế độ ensemble, trọng số và số điểm ở hai cửa sổ (40 dài hạn, 36 ngắn hạn). Nhận xét về mẫu lặp theo năm nhìn chung phù hợp với chuỗi forecast. Nội dung rõ ràng, gọn và có lưu ý hợp lý rằng đây không phải giá trị tương lai được đảm bảo. Tuy nhiên, diễn giải rằng việc kết hợp trọng số tạo ra sự cân bằng giữa các xu hướng là suy luận thêm, chưa được dữ liệu cung cấp trực tiếp.\"}"
+  }
+}

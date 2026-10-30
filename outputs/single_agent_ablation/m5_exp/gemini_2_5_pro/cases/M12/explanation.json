@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo doanh số cho sản phẩm HOBBIES_1_126 tại cửa hàng CA_4 trong 2 quý tới. Doanh số dự báo là 52.0 cho quý 1 năm 2016 và 34.0 cho quý 2 năm 2016. Các giá trị dự báo này cao hơn đáng kể so với mức trung bình lịch sử là 13.15.",
+  "insights": [
+    "Dự báo cho quý đầu tiên (52.0) bằng với mức cao nhất đã được ghi nhận trong 20 quý vừa qua, cho thấy mô hình dự đoán một quý có doanh số đỉnh điểm.",
+    "Dự báo được tạo ra bằng mô hình tổng hợp, ưu tiên các xu hướng gần đây (trọng số 60% cho 8 quý gần nhất) hơn so với các xu hướng dài hạn (trọng số 40% cho 12 quý gần nhất)."
+  ],
+  "chart_note": "Biểu đồ này hiển thị doanh số bán hàng theo quý trong quá khứ (20 điểm dữ liệu) và dự báo cho 2 quý tiếp theo."
+}

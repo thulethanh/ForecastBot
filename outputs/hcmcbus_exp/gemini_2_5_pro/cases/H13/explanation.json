@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS: Tuyến 36 (XKSG) trong 3 quý tới",
+  "summary_text": "ForecastBot dự báo các giá trị cho 3 quý tới, từ Quý 2 2024 đến Quý 4 2024. Các giá trị dự báo dao động từ khoảng 202,992 đến 229,466.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 229,466 vào Quý 4 2024.",
+    "Giá trị dự báo cao nhất (229,466) vượt qua mức cao nhất trong lịch sử (227,829).",
+    "Tất cả các giá trị dự báo đều cao hơn mức trung bình trong lịch sử (189,458)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 9 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01. Dự báo cho 3 quý tiếp theo được tạo bởi mô hình `ensemble` của ForecastBot."
+}

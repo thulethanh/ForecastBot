@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo lưu lượng xe buýt (HCMC_BUS)",
+  "summary_text": "Hệ thống đã dự báo chỉ số cho tuyến xe buýt 30 (Operator: XKSG, Vehicle Group: 4A_ML) trong 6 tháng tới, từ tháng 7 năm 2023 đến tháng 12 năm 2023. Kết quả dự báo cho thấy một xu hướng giảm dần ổn định qua các tháng trong giai đoạn này.",
+  "insights": [
+    "Dự báo được thực hiện dựa trên 18 điểm dữ liệu lịch sử, trải dài từ tháng 1 năm 2022 đến tháng 6 năm 2023.",
+    "Xu hướng dự báo cho thấy sự sụt giảm liên tục, bắt đầu từ mức 66,176.5 vào tháng 7 và giảm xuống 36,504.0 vào tháng 12.",
+    "Phép dự báo sử dụng chế độ 'single' (đơn) với trọng số ngắn hạn (0.6) và dài hạn (0.4)."
+  ],
+  "chart_note": "Các giá trị được hiển thị là dự báo (yhat) và không đại diện cho dữ liệu thực tế trong tương lai."
+}

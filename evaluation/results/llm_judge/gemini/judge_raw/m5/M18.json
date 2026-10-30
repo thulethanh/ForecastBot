@@ -1,0 +1,24 @@
+{
+  "case_id": "M18",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng item và chân trời dự báo 2 năm, nêu đầy đủ hai giá trị dự báo. Các so sánh với mức tối thiểu, tối đa và trung bình lịch sử đều khớp history summary; nhận định giá trị tăng mạnh từ 2015 sang 2016 khớp forecast. Phạm vi dữ liệu lịch sử và ghi chú biểu đồ cũng đúng với dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng nhận biết mức biến động lớn của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.6800530000036815,
+    "input_tokens": 2221,
+    "output_tokens": 199,
+    "total_tokens": 2420,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng item và chân trời dự báo 2 năm, nêu đầy đủ hai giá trị dự báo. Các so sánh với mức tối thiểu, tối đa và trung bình lịch sử đều khớp history summary; nhận định giá trị tăng mạnh từ 2015 sang 2016 khớp forecast. Phạm vi dữ liệu lịch sử và ghi chú biểu đồ cũng đúng với dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và giúp người dùng nhận biết mức biến động lớn của dự báo.\"}"
+  }
+}

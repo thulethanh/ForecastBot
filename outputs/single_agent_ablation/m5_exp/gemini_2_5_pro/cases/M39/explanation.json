@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2011 đến năm 2014 cho mặt hàng HOUSEHOLD_2_275 tại cửa hàng TX_2, dự báo cho thấy doanh số bằng 0 cho hai năm tới, 2015 và 2016.",
+  "insights": [
+    "Dữ liệu lịch sử chỉ bao gồm 4 điểm dữ liệu (doanh số hàng năm), đây là một khoảng thời gian rất ngắn để xác định một xu hướng đáng tin cậy cho tương lai.",
+    "Với lượng dữ liệu hạn chế như vậy, mô hình dự báo không thể xác định được một mẫu hình hoặc xu hướng rõ ràng, dẫn đến dự báo bằng không. Điều này thường xảy ra khi mô hình không thể ngoại suy một cách tự tin từ lịch sử có sẵn."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử hàng năm từ 2011 đến 2014 và dự báo cho 2 năm tiếp theo."
+}

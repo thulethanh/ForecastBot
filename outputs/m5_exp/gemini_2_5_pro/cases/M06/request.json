@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 30,
+  "filters": {
+    "item_id": "FOODS_3_395",
+    "store_id": "CA_2",
+    "state_id": "CA"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

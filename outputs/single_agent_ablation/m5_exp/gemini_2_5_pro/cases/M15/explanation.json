@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số cho mặt hàng `HOUSEHOLD_1_143` tại bang `CA` trong 8 quý tiếp theo. Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2014-04-01, với doanh số trung bình hàng quý là 292, mô hình dự báo một xu hướng giảm mạnh trong giai đoạn tới.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng giảm rất nhanh và rõ rệt, với doanh số dự kiến giảm từ khoảng 76 trong quý đầu tiên (2014-07-01) xuống còn 0 vào quý cuối cùng của giai đoạn dự báo (2016-04-01).",
+    "Kết quả này được tạo ra bằng cách kết hợp một mô hình ngắn hạn (12 quý gần nhất) và một mô hình dài hạn (toàn bộ 14 quý lịch sử), trong đó mô hình ngắn hạn có trọng số cao hơn (60%), cho thấy xu hướng giảm gần đây có ảnh hưởng lớn đến dự báo."
+  ],
+  "chart_note": "Lưu ý: Biểu đồ thể hiện dữ liệu lịch sử và dự báo 8 quý. Dự báo cho thấy xu hướng giảm mạnh."
+}

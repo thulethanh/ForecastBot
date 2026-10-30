@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho route_id 22, operator HTX-VTHANG: 04/12/2024 - 31/12/2024",
+  "summary_text": "ForecastBot dự báo cho route_id 22, operator HTX-VTHANG trong 28 ngày tới, từ 04/12/2024 đến 31/12/2024. Các giá trị dự báo dao động từ 1385.6 đến 1945.8. Giá trị trung bình dự báo là khoảng 1790, cao hơn so với trung bình lịch sử là 1536.2.",
+  "insights": [
+    "Dự báo cho thấy một quy luật tuần rõ rệt, với các giá trị thấp hơn vào cuối tuần (thấp nhất vào Chủ Nhật, khoảng 1386) và cao hơn vào các ngày trong tuần (cao nhất vào Thứ Năm, khoảng 1946).",
+    "Phạm vi dự báo (khoảng 1386 - 1946) hẹp hơn so với phạm vi lịch sử (158.0 - 2240.0), cho thấy mô hình dự đoán sự ổn định hơn và không lặp lại các giá trị cực thấp đã từng xảy ra.",
+    "Dự báo được tạo ra bởi mô hình ensemble, kết hợp các xu hướng từ 180 ngày gần nhất (trọng số 60%) và 365 ngày qua (trọng số 40%). Điều này cho thấy dự báo ưu tiên các mẫu hình gần đây hơn."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện mô hình (01/01/2022 - 03/12/2024) và dự báo của ForecastBot cho 28 ngày tiếp theo (04/12/2024 - 31/12/2024)."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M05",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng yêu cầu dự báo 90 ngày cho item và bang đã chọn. Các số liệu tổng 168, trung bình 1.87, chênh lệch khoảng 38%, khoảng ngày dự báo, biên 1–3 và so sánh với thống kê lịch sử đều khớp dữ liệu được cung cấp. Nhận định chu kỳ tuần cũng khớp trực tiếp với chuỗi forecast: mức 3 vào Thứ Tư, mức 1 vào Thứ Hai và Thứ Ba. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo, biến động tuần cũng như mức độ biến động so với lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.631876583007397,
+    "input_tokens": 5176,
+    "output_tokens": 412,
+    "total_tokens": 5588,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng yêu cầu dự báo 90 ngày cho item và bang đã chọn. Các số liệu tổng 168, trung bình 1.87, chênh lệch khoảng 38%, khoảng ngày dự báo, biên 1–3 và so sánh với thống kê lịch sử đều khớp dữ liệu được cung cấp. Nhận định chu kỳ tuần cũng khớp trực tiếp với chuỗi forecast: mức 3 vào Thứ Tư, mức 1 vào Thứ Hai và Thứ Ba. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo, biến động tuần cũng như mức độ biến động so với lịch sử.\"}"
+  }
+}

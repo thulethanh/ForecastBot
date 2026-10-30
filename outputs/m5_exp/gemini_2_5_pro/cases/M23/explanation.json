@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 28 ngày cho item_id FOODS_3_455",
+  "summary_text": "ForecastBot dự báo cho item_id FOODS_3_455 trong 28 ngày, từ 2016-03-28 đến 2016-04-24. Giá trị dự báo trung bình là 78.78, cao hơn so với trung bình lịch sử là 70.59. Các giá trị dự báo dao động trong khoảng từ 52.98 đến 105.76.",
+  "insights": [
+    "Dự báo cho thấy một chu kỳ hàng tuần rõ rệt, với giá trị cao nhất vào các ngày Chủ Nhật (lên tới 105.76) và thấp nhất vào các ngày Thứ Tư (xuống tới 52.98).",
+    "Giá trị dự báo trung bình trong 28 ngày tới (78.78) cao hơn khoảng 11.6% so với giá trị trung bình trong lịch sử (70.59).",
+    "Dự báo được tạo ra bằng mô hình `ensemble`, kết hợp các dự đoán dựa trên dữ liệu lịch sử 180 ngày và 365 ngày với trọng số lần lượt là 0.6 và 0.4."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện mô hình (1885 điểm từ 2011-01-29 đến 2016-03-27) và dự báo của ForecastBot cho 28 ngày tiếp theo (từ 2016-03-28 đến 2016-04-24)."
+}

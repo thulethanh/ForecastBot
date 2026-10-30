@@ -1,0 +1,33 @@
+{
+  "case_id": "H50",
+  "question": "Tôi muốn xem lượng hành khách của tuyến 56 do HTX-QTHANG vận hành trong 6 tháng tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 36,
+    "n_train": 30,
+    "n_test": 6,
+    "horizon": 6,
+    "minimum_train_required": 6,
+    "required_points_for_evaluation": 12,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.4357172079980955,
+    "load_schema": 0.0023063330008881167,
+    "sql_generation": 8.698723249995965,
+    "sql_execution_and_repair": 0.008986958004243206,
+    "forecast": 101.7819359999994,
+    "explanation": 25.596243375002814,
+    "end_to_end": 142.52396574999875
+  },
+  "total_tokens": 23402,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

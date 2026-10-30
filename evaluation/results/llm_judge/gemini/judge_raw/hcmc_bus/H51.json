@@ -1,0 +1,27 @@
+{
+  "case_id": "H51",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dự báo thể hiện một quy luật theo mùa\" không được xác nhận bởi tóm tắt lịch sử; chuỗi dự báo chỉ cho thấy một nhịp giảm rồi tăng trong năm.",
+      "\"Dữ liệu lịch sử từ tháng 1/2022 đến tháng 12/2023 được dùng để huấn luyện mô hình\" không được cung cấp bằng chứng trực tiếp; window_info chỉ cho biết các cửa sổ đầu vào dự báo gồm 24 quan sát."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến 70, kỳ hạn 12 tháng và nêu chính xác tháng/giá trị cao nhất, thấp nhất so với forecast và cực trị lịch sử. Diễn đạt rõ ràng, có ích để thấy mức dự báo và diễn biến giảm đến tháng 6 rồi phục hồi. Tuy nhiên, việc gọi đây là “quy luật theo mùa” chưa được lịch sử tóm tắt hỗ trợ, và chart_note khẳng định dữ liệu được dùng để huấn luyện mô hình dù thông tin cung cấp không xác nhận điều này."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.17511683300836,
+    "input_tokens": 2600,
+    "output_tokens": 524,
+    "total_tokens": 3124,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dự báo thể hiện một quy luật theo mùa\\\" không được xác nhận bởi tóm tắt lịch sử; chuỗi dự báo chỉ cho thấy một nhịp giảm rồi tăng trong năm.\",\"\\\"Dữ liệu lịch sử từ tháng 1/2022 đến tháng 12/2023 được dùng để huấn luyện mô hình\\\" không được cung cấp bằng chứng trực tiếp; window_info chỉ cho biết các cửa sổ đầu vào dự báo gồm 24 quan sát.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến 70, kỳ hạn 12 tháng và nêu chính xác tháng/giá trị cao nhất, thấp nhất so với forecast và cực trị lịch sử. Diễn đạt rõ ràng, có ích để thấy mức dự báo và diễn biến giảm đến tháng 6 rồi phục hồi. Tuy nhiên, việc gọi đây là “quy luật theo mùa” chưa được lịch sử tóm tắt hỗ trợ, và chart_note khẳng định dữ liệu được dùng để huấn luyện mô hình dù thông tin cung cấp không xác nhận điều này.\"}"
+  }
+}

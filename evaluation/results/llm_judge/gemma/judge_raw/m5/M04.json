@@ -1,0 +1,24 @@
+{
+  "case_id": "M04",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng sản phẩm và cửa hàng, nêu đúng khoảng ngày và mức dự báo cố định 0.5714. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số 0.6/0.4 và hai cửa sổ h180/h365 đều được forecast_result hỗ trợ. Phạm vi lịch sử 29/01/2011–24/02/2016 với 1853 điểm khớp history summary. Trình bày rõ ràng, ngắn gọn. Hữu ích vì cho biết mức và tính ổn định của dự báo, dù có thể tăng giá trị thực tế hơn nếu giải thích ngắn ý nghĩa của fallback hoặc đặt mức dự báo trong bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.579998542001704,
+    "input_tokens": 4190,
+    "output_tokens": 353,
+    "total_tokens": 4543,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng sản phẩm và cửa hàng, nêu đúng khoảng ngày và mức dự báo cố định 0.5714. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số 0.6/0.4 và hai cửa sổ h180/h365 đều được forecast_result hỗ trợ. Phạm vi lịch sử 29/01/2011–24/02/2016 với 1853 điểm khớp history summary. Trình bày rõ ràng, ngắn gọn. Hữu ích vì cho biết mức và tính ổn định của dự báo, dù có thể tăng giá trị thực tế hơn nếu giải thích ngắn ý nghĩa của fallback hoặc đặt mức dự báo trong bối cảnh lịch sử.\"}"
+  }
+}

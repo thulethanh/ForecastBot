@@ -1,0 +1,24 @@
+{
+  "case_id": "H57",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 84, đơn vị HTX-28, phạm vi 8 quý và các mốc thời gian dự báo. Các mức đỉnh Quý 4 (135,637), đáy Quý 1 (85,449), tính lặp lại giữa hai năm và khoảng dao động đều khớp trực tiếp với forecast. So sánh với phạm vi lịch sử 84,649–142,845 là chính xác. Ghi chú biểu đồ cũng phù hợp với 9 quan sát lịch sử từ Quý 1/2022 đến Quý 1/2024. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm xu hướng dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.502698083000723,
+    "input_tokens": 2514,
+    "output_tokens": 278,
+    "total_tokens": 2792,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 84, đơn vị HTX-28, phạm vi 8 quý và các mốc thời gian dự báo. Các mức đỉnh Quý 4 (135,637), đáy Quý 1 (85,449), tính lặp lại giữa hai năm và khoảng dao động đều khớp trực tiếp với forecast. So sánh với phạm vi lịch sử 84,649–142,845 là chính xác. Ghi chú biểu đồ cũng phù hợp với 9 quan sát lịch sử từ Quý 1/2022 đến Quý 1/2024. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm xu hướng dự báo.\"}"
+  }
+}

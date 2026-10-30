@@ -1,0 +1,24 @@
+{
+  "case_id": "H33",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 2 quý cho đúng tuyến và đơn vị vận hành. Các mức dự báo, trung bình lịch sử, mức cao nhất lịch sử và mức tăng 35,3% đều khớp dữ liệu được cung cấp. Chart note mô tả đúng 10 điểm lịch sử, phạm vi thời gian và mô hình ensemble. Nội dung rõ ràng, ngắn gọn, đồng thời nêu được xu hướng tăng mạnh ở quý 4 và ý nghĩa so với mức lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.691173457991681,
+    "input_tokens": 2218,
+    "output_tokens": 204,
+    "total_tokens": 2422,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 2 quý cho đúng tuyến và đơn vị vận hành. Các mức dự báo, trung bình lịch sử, mức cao nhất lịch sử và mức tăng 35,3% đều khớp dữ liệu được cung cấp. Chart note mô tả đúng 10 điểm lịch sử, phạm vi thời gian và mô hình ensemble. Nội dung rõ ràng, ngắn gọn, đồng thời nêu được xu hướng tăng mạnh ở quý 4 và ý nghĩa so với mức lịch sử.\"}"
+  }
+}

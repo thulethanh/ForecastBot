@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_2_275 tại TX_2, TX",
+  "summary_text": "Dự báo cho hai năm tới (2015 và 2016) đều là 0.0.",
+  "insights": [
+    "Dữ liệu lịch sử từ năm 2011 đến năm 2014 bao gồm 4 điểm dữ liệu, với giá trị dao động từ 50.0 đến 145.0, và giá trị trung bình là 113.0.",
+    "Dự báo cho năm 2015-01-01 là 0.0.",
+    "Dự báo cho năm 2016-01-01 là 0.0."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 4 điểm dữ liệu lịch sử (2011-2014). Biểu đồ hiển thị dự báo cho 2 bước tiếp theo (2015 và 2016)."
+}

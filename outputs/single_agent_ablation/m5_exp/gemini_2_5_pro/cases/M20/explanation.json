@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2011 đến 2016, doanh số bán hàng cho mặt hàng HOUSEHOLD_1_133 tại cửa hàng CA_2 được dự báo sẽ ổn định ở mức 91.5 đơn vị mỗi năm trong 5 năm tới (2017-2021).",
+  "insights": [
+    "Dự báo là một đường thẳng, cho thấy mô hình không phát hiện thấy xu hướng tăng trưởng hoặc suy giảm rõ rệt trong dữ liệu bán hàng hàng năm trong quá khứ.",
+    "Giá trị dự báo (91.5) thấp hơn mức trung bình lịch sử (khoảng 125 đơn vị), điều này cho thấy mô hình có thể đã tính đến sự biến động hoặc các điểm dữ liệu gần đây hơn trong quá trình tính toán."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu bán hàng thực tế hàng năm từ 2011 đến 2016 và đường dự báo cho 5 năm tiếp theo."
+}

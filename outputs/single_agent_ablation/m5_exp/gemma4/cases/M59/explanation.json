@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã tạo thành công dự báo cho năm 2016 (bước 1) với giá trị dự kiến là 810.0. Dự báo này được thực hiện cho mặt hàng HOUSEHOLD_2_389 tại cửa hàng WI_1, bang WI.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên 5 điểm dữ liệu lịch sử (từ 2011 đến 2015).",
+    "Mô hình sử dụng phương pháp kết hợp trọng số (single mode), với trọng số 60% cho xu hướng ngắn hạn và 40% cho xu hướng dài hạn.",
+    "Giá trị dự báo 810.0 là giá trị ước tính cho năm 2016."
+  ],
+  "chart_note": "Lưu ý: Giá trị 810.0 là kết quả dự báo của mô hình cho năm 2016 và không phải là giá trị thực tế đã được xác nhận."
+}

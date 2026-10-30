@@ -1,0 +1,24 @@
+{
+  "case_id": "M41",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, phạm vi 5 năm và mức dự báo 84.0 mỗi năm. Các nhận định về dự báo phẳng, chế độ single, trọng số 60%/40% và 6 điểm lịch sử đều phù hợp với thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn, đồng thời nêu lưu ý rằng đây là ước tính thay vì giá trị thực tế tương lai."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.891151332994923,
+    "input_tokens": 2316,
+    "output_tokens": 298,
+    "total_tokens": 2614,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, phạm vi 5 năm và mức dự báo 84.0 mỗi năm. Các nhận định về dự báo phẳng, chế độ single, trọng số 60%/40% và 6 điểm lịch sử đều phù hợp với thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn, đồng thời nêu lưu ý rằng đây là ước tính thay vì giá trị thực tế tương lai.\"}"
+  }
+}

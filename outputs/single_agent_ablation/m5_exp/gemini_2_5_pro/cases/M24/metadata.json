@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M24",
+  "question": "Trong 30 ngày tới, lượng bán của sản phẩm FOODS_1_078 tại cửa hàng TX_3 được dự báo như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1883,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.0036951249931007624,
+    "request_sql": 10.952223832951859,
+    "sql_execution_and_repair": 0.025591582991182804,
+    "forecast": 280.96862516598776,
+    "explanation": 14.531667625065893,
+    "end_to_end": 306.4820717499824
+  },
+  "total_tokens": 59011,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

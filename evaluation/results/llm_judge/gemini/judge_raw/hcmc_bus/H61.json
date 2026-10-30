@@ -1,0 +1,24 @@
+{
+  "case_id": "H61",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng tuyến 90, đơn vị HTX 26 và chân trời 3 năm. Các số liệu về phạm vi lịch sử, trung bình, mức dự báo từng mốc và so sánh với mức tối thiểu lịch sử đều khớp với dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và nêu được xu hướng giảm cũng như mức dự báo đầu-cuối kỳ. Hữu ích tốt, dù có thể tăng thêm giá trị bằng cách lưu ý rằng chỉ có 3 điểm dữ liệu lịch sử nên xu hướng cần được diễn giải thận trọng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.670437082997523,
+    "input_tokens": 2270,
+    "output_tokens": 249,
+    "total_tokens": 2519,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng tuyến 90, đơn vị HTX 26 và chân trời 3 năm. Các số liệu về phạm vi lịch sử, trung bình, mức dự báo từng mốc và so sánh với mức tối thiểu lịch sử đều khớp với dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn và nêu được xu hướng giảm cũng như mức dự báo đầu-cuối kỳ. Hữu ích tốt, dù có thể tăng thêm giá trị bằng cách lưu ý rằng chỉ có 3 điểm dữ liệu lịch sử nên xu hướng cần được diễn giải thận trọng.\"}"
+  }
+}

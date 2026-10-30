@@ -1,0 +1,33 @@
+{
+  "case_id": "H49",
+  "question": "Dự báo lượng hành khách của tuyến 53 do HTX-QTHANG vận hành trong 3 tháng tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 36,
+    "n_train": 33,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 43.88918720900256,
+    "load_schema": 0.004639167003915645,
+    "sql_generation": 69.1568836249935,
+    "sql_execution_and_repair": 0.02402816699759569,
+    "forecast": 239.42218295800558,
+    "explanation": 83.08644991600886,
+    "end_to_end": 435.5834341250011
+  },
+  "total_tokens": 8945,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

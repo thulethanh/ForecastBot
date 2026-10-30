@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 107) cho 8 quý tới",
+  "summary_text": "ForecastBot dự báo cho HCMC_BUS với route_id=107, operator=HTX-195, và vehicle_group=2B.1_ML sẽ có xu hướng tăng trong 8 quý tới. Giá trị dự báo bắt đầu từ 48.063 trong Quý 1 2025 và đạt 56.228 vào Quý 4 2026.",
+  "insights": [
+    "Giá trị dự báo có xu hướng tăng tổng thể, tăng từ 48.063 lên 56.228 trong giai đoạn dự báo.",
+    "Tất cả các giá trị dự báo, bắt đầu từ 48.063, đều cao hơn đáng kể so với mức trung bình lịch sử (40.210) và gần bằng hoặc vượt qua mức cao nhất trong lịch sử (49.452).",
+    "Dự báo đạt đỉnh vào Quý 3 2026 với giá trị 56.808 trước khi giảm nhẹ vào quý cuối cùng của giai đoạn dự báo."
+  ],
+  "chart_note": "Biểu đồ này hiển thị 12 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-10-01 và dự báo của ForecastBot cho 8 quý tiếp theo đến 2026-10-01."
+}

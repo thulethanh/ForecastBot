@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H14",
+  "question": "Hãy ước tính lượng khách của tuyến 38 do XKSG vận hành trong 4 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 8,
+    "n_test": 4,
+    "horizon": 4,
+    "minimum_train_required": 4,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.005821458995342255,
+    "request_sql": 82.93898104107939,
+    "sql_execution_and_repair": 0.06663825002033263,
+    "forecast": 126.86026799993124,
+    "explanation": 91.98167095903773,
+    "end_to_end": 301.8536593330791
+  },
+  "total_tokens": 5086,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

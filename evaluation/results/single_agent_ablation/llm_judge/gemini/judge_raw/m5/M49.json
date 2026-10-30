@@ -1,0 +1,26 @@
+{
+  "case_id": "M49",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng dữ liệu lịch sử có \"xu hướng tăng trưởng mạnh mẽ gần đây\" không được history summary hỗ trợ trực tiếp, vì phần tóm tắt không cung cấp diễn biến theo thời gian gần đây."
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, cửa hàng, tần suất tháng và 3 mốc dự báo; nêu rõ mức dự báo cùng xu hướng tăng. Các số dự báo, trung bình lịch sử, cực đại lịch sử, cửa sổ 24/36 tháng và trọng số 60% đều phù hợp thông tin được cung cấp. Tuy nhiên, kết luận về tăng trưởng mạnh mẽ gần đây trong dữ liệu lịch sử vượt quá bằng chứng, vì history summary chỉ có thống kê tổng hợp chứ không mô tả xu hướng theo thời gian. Trình bày rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.567171709029935,
+    "input_tokens": 2279,
+    "output_tokens": 335,
+    "total_tokens": 2614,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng dữ liệu lịch sử có \\\"xu hướng tăng trưởng mạnh mẽ gần đây\\\" không được history summary hỗ trợ trực tiếp, vì phần tóm tắt không cung cấp diễn biến theo thời gian gần đây.\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, cửa hàng, tần suất tháng và 3 mốc dự báo; nêu rõ mức dự báo cùng xu hướng tăng. Các số dự báo, trung bình lịch sử, cực đại lịch sử, cửa sổ 24/36 tháng và trọng số 60% đều phù hợp thông tin được cung cấp. Tuy nhiên, kết luận về tăng trưởng mạnh mẽ gần đây trong dữ liệu lịch sử vượt quá bằng chứng, vì history summary chỉ có thống kê tổng hợp chứ không mô tả xu hướng theo thời gian. Trình bày rõ ràng và hữu ích.\"}"
+  }
+}

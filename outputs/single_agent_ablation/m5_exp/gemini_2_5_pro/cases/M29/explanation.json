@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số hàng tháng cho sản phẩm HOBBIES_1_264 tại bang TX trong 6 tháng tới, từ tháng 11 năm 2015 đến tháng 4 năm 2016. Dự báo cho thấy doanh số sẽ giảm trong bốn tháng đầu, đạt mức thấp nhất là 20.76 vào tháng 2 năm 2016, sau đó bắt đầu phục hồi. Các giá trị dự báo này đều thấp hơn đáng kể so với mức trung bình lịch sử là 63.19.",
+  "insights": [
+    "Dự báo được tạo ra bằng mô hình tổng hợp, kết hợp các xu hướng từ 24 tháng và 36 tháng gần nhất. Mô hình này đặt trọng số cao hơn (60%) vào dữ liệu gần đây, cho thấy các xu hướng trong hai năm qua có ảnh hưởng lớn hơn đến kết quả.",
+    "Các giá trị dự báo (từ 20.76 đến 40.56) đều nằm ở nửa dưới của phạm vi doanh số lịch sử (3.0 đến 112.0). Điều này cho thấy mô hình dự đoán doanh số sẽ duy trì ở mức thấp hơn so với mức trung bình trong quá khứ."
+  ],
+  "chart_note": "Dự báo cho 6 tháng tới, dựa trên dữ liệu lịch sử từ tháng 1/2011 đến tháng 10/2015."
+}

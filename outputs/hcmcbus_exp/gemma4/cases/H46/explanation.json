@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS (Route 150, HTX-195) trong 60 ngày",
+  "summary_text": "Dự báo cho 60 ngày tới (từ 2024-11-02 đến 2024-12-31) cho thấy giá trị ổn định ở mức 13769.8571.",
+  "insights": [
+    "ForecastBot đã sử dụng phương pháp deterministic_recent_mean để đưa ra dự báo.",
+    "Dự báo được tính toán dựa trên trọng số 60% từ cửa sổ ngắn (h180) và 40% từ cửa sổ dài (h365).",
+    "Giá trị dự báo được duy trì ở mức 13769.8571 trong suốt 60 bước dự báo."
+  ],
+  "chart_note": "Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1034 điểm, từ 2022-01-01 đến 2024-11-01. ForecastBot đã sử dụng các cửa sổ h180 và h365 để tính toán và đưa ra dự báo 60 bước."
+}

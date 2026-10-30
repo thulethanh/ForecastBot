@@ -1,0 +1,24 @@
+{
+  "case_id": "H44",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng tuyến, nhà xe, tần suất ngày và kỳ hạn 28 ngày. Các mức dự báo theo ngày trong tuần/cuối tuần, khoảng giá trị và ngày dự báo đều khớp forecast; nhận định quy luật lặp lại hàng tuần được thể hiện trực tiếp trong dãy dự báo. Thông tin hai cửa sổ 180/365 ngày và trọng số 60%/40% khớp window_info và weights. Ghi chú về 1.066 điểm lịch sử cùng phạm vi ngày cũng khớp history summary. Nội dung rõ ràng, cô đọng và giúp người dùng hiểu mức độ biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.810940333059989,
+    "input_tokens": 3123,
+    "output_tokens": 358,
+    "total_tokens": 3481,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng tuyến, nhà xe, tần suất ngày và kỳ hạn 28 ngày. Các mức dự báo theo ngày trong tuần/cuối tuần, khoảng giá trị và ngày dự báo đều khớp forecast; nhận định quy luật lặp lại hàng tuần được thể hiện trực tiếp trong dãy dự báo. Thông tin hai cửa sổ 180/365 ngày và trọng số 60%/40% khớp window_info và weights. Ghi chú về 1.066 điểm lịch sử cùng phạm vi ngày cũng khớp history summary. Nội dung rõ ràng, cô đọng và giúp người dùng hiểu mức độ biến động chính.\"}"
+  }
+}

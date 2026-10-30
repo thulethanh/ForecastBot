@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 30,
+  "filters": {
+    "route_id": "23",
+    "vehicle_group": "3B.1_ML"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '23' AND TRIM(d.vehicle_group) = '3B.1_ML' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the sum of total passengers (y) for route '23' using vehicle group '3B.1_ML' (fact filters) for each day (ds) over the specified 30-day period."
+}

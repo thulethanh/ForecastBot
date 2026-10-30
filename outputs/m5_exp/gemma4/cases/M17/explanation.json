@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_1_457 tại CA_1 (CA) năm 2016",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho HOUSEHOLD_1_457 tại CA_1 (CA) vào năm 2016 là 1076.0.",
+  "insights": [
+    "Trong giai đoạn lịch sử từ 2011-01-01 đến 2015-01-01, dữ liệu có trung bình là 202.4.",
+    "Giá trị dự báo cho năm 2016 (1076.0) cao hơn đáng kể so với mức trung bình lịch sử (202.4)."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện trên 5 điểm dữ liệu từ 2011-01-01 đến 2015-01-01. ForecastBot đã sử dụng mô hình single mode với trọng số short (0.6) và long (0.4) để dự báo giá trị cho năm 2016."
+}

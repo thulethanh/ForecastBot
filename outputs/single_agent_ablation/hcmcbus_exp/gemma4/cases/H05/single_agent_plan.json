@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 90,
+  "filters": {
+    "route_id": "27",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '27' AND TRIM(d.operator) = 'XKSG' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the daily total passenger count (y) for Route 27 operated by XKSG (d.operator) from the daily_passenger_stats table, using the date as the time index (ds)."
+}

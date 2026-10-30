@@ -1,0 +1,24 @@
+{
+  "case_id": "H55",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng tuyến 79, nhà khai thác HTX-QTIEN và chân trời 3 quý. Các mức dự báo 46.000, 46.500 và 47.000 cùng mốc thời gian đều khớp forecast, đồng thời mô tả đúng xu hướng tăng ổn định. Ghi chú biểu đồ nêu đúng 7 điểm lịch sử, phạm vi ngày lịch sử, chế độ single, trọng số và cửa sổ h7 theo dữ liệu cung cấp. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo lẫn xu hướng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.6820285839930875,
+    "input_tokens": 2291,
+    "output_tokens": 269,
+    "total_tokens": 2560,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng tuyến 79, nhà khai thác HTX-QTIEN và chân trời 3 quý. Các mức dự báo 46.000, 46.500 và 47.000 cùng mốc thời gian đều khớp forecast, đồng thời mô tả đúng xu hướng tăng ổn định. Ghi chú biểu đồ nêu đúng 7 điểm lịch sử, phạm vi ngày lịch sử, chế độ single, trọng số và cửa sổ h7 theo dữ liệu cung cấp. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo lẫn xu hướng.\"}"
+  }
+}

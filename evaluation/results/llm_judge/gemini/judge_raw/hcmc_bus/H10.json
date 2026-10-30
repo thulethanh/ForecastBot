@@ -1,0 +1,24 @@
+{
+  "case_id": "H10",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng theo tháng cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, giá trị thấp nhất/cao nhất và việc lặp lại chính xác giữa năm 2025 và 2026 đều khớp trực tiếp với forecast. Nhận định về chu kỳ lặp lại hàng năm và không có xu hướng tăng/giảm rõ rệt được hỗ trợ bởi dãy dự báo giống hệt theo từng tháng giữa hai năm. Phạm vi dữ liệu lịch sử trong ghi chú biểu đồ cũng khớp history summary. Nội dung ngắn gọn, rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 21.39587395900162,
+    "input_tokens": 2985,
+    "output_tokens": 250,
+    "total_tokens": 3235,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng theo tháng cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, giá trị thấp nhất/cao nhất và việc lặp lại chính xác giữa năm 2025 và 2026 đều khớp trực tiếp với forecast. Nhận định về chu kỳ lặp lại hàng năm và không có xu hướng tăng/giảm rõ rệt được hỗ trợ bởi dãy dự báo giống hệt theo từng tháng giữa hai năm. Phạm vi dữ liệu lịch sử trong ghi chú biểu đồ cũng khớp history summary. Nội dung ngắn gọn, rõ ràng và hữu ích.\"}"
+  }
+}

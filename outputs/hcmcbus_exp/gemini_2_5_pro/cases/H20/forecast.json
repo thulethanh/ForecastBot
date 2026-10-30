@@ -1,0 +1,42 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2025-01-01",
+      "yhat": 416713.0
+    },
+    {
+      "step": 2,
+      "ds": "2026-01-01",
+      "yhat": 439279.0
+    },
+    {
+      "step": 3,
+      "ds": "2027-01-01",
+      "yhat": 461845.0
+    },
+    {
+      "step": 4,
+      "ds": "2028-01-01",
+      "yhat": 484411.0
+    },
+    {
+      "step": 5,
+      "ds": "2029-01-01",
+      "yhat": 506977.0
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "single",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 3,
+    "long_n": 3,
+    "short_window_name": "h3",
+    "long_window_name": "h3"
+  }
+}

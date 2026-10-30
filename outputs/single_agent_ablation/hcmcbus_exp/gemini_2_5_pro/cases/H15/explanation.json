@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 8 quý tiếp theo (từ Q1 2025 đến Q4 2026) cho tuyến xe 39 và nhóm xe 3B.1_ML, dựa trên 12 điểm dữ liệu lịch sử từ Q1 2022 đến Q4 2024. Dự báo cho thấy một xu hướng theo mùa lặp lại hàng năm, với giá trị dao động từ khoảng 79,800 đến 89,100.",
+  "insights": [
+    "Mô hình dự báo cho thấy tính thời vụ rõ rệt, với các giá trị của năm 2026 lặp lại chính xác các giá trị của năm 2025.",
+    "Quý 4 được dự báo là quý cao điểm nhất (khoảng 89,100), trong khi Quý 2 được dự báo là quý thấp điểm nhất (khoảng 79,800)."
+  ],
+  "chart_note": "Dữ liệu lịch sử được hiển thị đến Q4 2024. Các điểm sau đó là giá trị dự báo."
+}

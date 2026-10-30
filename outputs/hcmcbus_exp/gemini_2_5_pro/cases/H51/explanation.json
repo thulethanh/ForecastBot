@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho route_id 70 trong 12 tháng tới",
+  "summary_text": "ForecastBot dự báo cho route_id 70 trong 12 tháng, từ tháng 1/2024 đến tháng 12/2024. Giá trị dự báo cao nhất là 58,591.0 (tháng 1/2024) và thấp nhất là 36,243.0 (tháng 6/2024). Nhìn chung, các giá trị dự báo cao hơn so với dữ liệu lịch sử trong 24 tháng qua.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 58,591.0 vào tháng 1/2024, vượt qua mức cao nhất trong lịch sử (54,132.0).",
+    "Giá trị dự báo thấp nhất là 36,243.0 vào tháng 6/2024, cao hơn đáng kể so với mức thấp nhất trong lịch sử (21,015.0).",
+    "Dự báo thể hiện một quy luật theo mùa, với các giá trị giảm từ tháng 3 đến tháng 6, sau đó tăng dần trở lại vào cuối năm."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1/2022 đến tháng 12/2023 được dùng để huấn luyện mô hình, cùng với dự báo của ForecastBot cho 12 tháng tiếp theo."
+}

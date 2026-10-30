@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo doanh số cho HOBBIES_1_026 tại WI_2, WI",
+  "summary_text": "Dự báo cho dataset M5, với độ chi tiết hàng tháng, kéo dài 24 tháng, từ 2014-05-01 đến 2016-04-01. Giá trị dự báo dao động trong khoảng từ 8.0 đến 15.0.",
+  "insights": [
+    "Trong giai đoạn đầu (2014), dự báo cho thấy mức tăng trưởng mạnh mẽ, đạt đỉnh 15.0 vào tháng 7 năm 2014.",
+    "Các tháng giữa năm (tháng 5 đến tháng 8) thường có mức dự báo cao hơn, ví dụ: 11.6 (2015-05-01), 12.0 (2015-07-01) và 13.4 (2015-08-01).",
+    "Dự báo cho thấy xu hướng giảm nhẹ vào cuối năm và đầu năm (ví dụ: 12.2 vào 2014-12-01 và 9.2 vào 2015-01-01), sau đó tăng trở lại vào quý 2 năm 2015 (10.0 vào 2015-02-01)."
+  ],
+  "chart_note": "Bản dự báo này được tạo ra bằng phương pháp ensemble, sử dụng 40 điểm dữ liệu lịch sử từ 2011-01-01 đến 2014-04-01 để dự báo 24 bước tiếp theo."
+}

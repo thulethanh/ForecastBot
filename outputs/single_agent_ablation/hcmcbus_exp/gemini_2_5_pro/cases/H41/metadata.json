@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H41",
+  "question": "Tôi muốn dự báo lượng hành khách của tuyến 139 do XKSG vận hành trong 5 năm tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 5,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.04567516699898988,
+    "request_sql": 29.693069832981564,
+    "sql_execution_and_repair": 0.01744087494444102,
+    "forecast": 34.18402687495109,
+    "explanation": 12.504046124988236,
+    "end_to_end": 76.44436308403965
+  },
+  "total_tokens": 10203,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

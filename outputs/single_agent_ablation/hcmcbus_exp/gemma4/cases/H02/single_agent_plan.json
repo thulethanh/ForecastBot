@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 28,
+  "filters": {
+    "route_id": "22",
+    "operator": "HTX-VTHANG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '22' AND TRIM(d.operator) = 'HTX-VTHANG' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the daily total passengers (y) for Route 22 operated by HTX-VTHANG (d.route_id = '22' and d.operator = 'HTX-VTHANG') over the specified time period (d.date)."
+}

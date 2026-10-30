@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOBBIES_1_297 (M5)",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2015-07-01, ForecastBot dự báo các giá trị cho 3 quý tiếp theo. Giá trị dự báo bắt đầu ở mức 520.1 vào quý 2015-10-01, sau đó giảm xuống 467.4 vào quý 2016-01-01, và tăng nhẹ lên 479.2 vào quý 2016-04-01.",
+  "insights": [
+    "Giá trị dự báo cho quý 2015-10-01 là 520.1, cao hơn mức trung bình lịch sử (498.37).",
+    "Dự báo cho quý 2016-01-01 (467.4) là mức thấp nhất trong ba quý dự báo.",
+    "Sự tăng trưởng từ quý 2016-01-01 lên quý 2016-04-01 là 11.8 đơn vị (479.2 - 467.4)."
+  ],
+  "chart_note": "Bản đồ này được tạo bằng mô hình ensemble, sử dụng trọng số 0.6 cho h8 và 0.4 cho h12. Các giá trị dự báo được tính toán dựa trên cửa sổ ngắn (h8) và cửa sổ dài (h12)."
+}

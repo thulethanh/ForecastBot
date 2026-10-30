@@ -1,0 +1,1 @@
+SELECT DATE_TRUNC('year', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOUSEHOLD_2_146' AND s.store_id = 'CA_4' AND s.state_id = 'CA' GROUP BY ds ORDER BY ds ASC;

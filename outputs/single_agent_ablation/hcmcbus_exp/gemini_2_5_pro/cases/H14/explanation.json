@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo số lượng hành khách cho tuyến xe buýt 38 của nhà xe XKSG trong 4 quý tiếp theo, dựa trên dữ liệu lịch sử từ Quý 1 2022 đến Quý 4 2023. Dự báo cho thấy số lượng hành khách có xu hướng giảm nhẹ vào giữa năm và tăng mạnh vào quý cuối cùng của năm 2024, phản ánh các biến động theo mùa đã quan sát được trong quá khứ.",
+  "insights": [
+    "Quý 4 năm 2024 (bắt đầu từ tháng 10) được dự báo sẽ có lượng hành khách cao nhất, ước tính đạt khoảng 208,757 lượt. Mức tăng đột biến này phù hợp với quy luật đã thấy trong dữ liệu lịch sử.",
+    "Số lượng hành khách dự kiến sẽ giảm trong Quý 2 và Quý 3 năm 2024, với mức thấp nhất là khoảng 139,844 lượt trong Quý 3, trước khi tăng trở lại vào cuối năm."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử trong 8 quý qua và kết quả dự báo cho 4 quý tới. Các giá trị dự báo được tính toán hoàn toàn dựa trên các xu hướng và quy luật theo mùa từ dữ liệu quá khứ."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M32",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo quý kế tiếp cho đúng mặt hàng và khu vực, nêu rõ thời điểm cùng giá trị dự báo 54.582. Các thông tin về phạm vi lịch sử, số điểm dữ liệu, ensemble và trọng số 60%/40% đều phù hợp dữ liệu được cung cấp. Cách trình bày ngắn gọn, rõ ràng. Mức hữu ích cao, dù chưa đối chiếu dự báo với mức trung bình hoặc biên độ lịch sử để người dùng dễ diễn giải mức 54.582 hơn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.797319000004791,
+    "input_tokens": 2138,
+    "output_tokens": 398,
+    "total_tokens": 2536,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo quý kế tiếp cho đúng mặt hàng và khu vực, nêu rõ thời điểm cùng giá trị dự báo 54.582. Các thông tin về phạm vi lịch sử, số điểm dữ liệu, ensemble và trọng số 60%/40% đều phù hợp dữ liệu được cung cấp. Cách trình bày ngắn gọn, rõ ràng. Mức hữu ích cao, dù chưa đối chiếu dự báo với mức trung bình hoặc biên độ lịch sử để người dùng dễ diễn giải mức 54.582 hơn.\"}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo số lượt khách hàng ngày cho tuyến xe buýt 22 của nhà xe HTX-VTHANG trong 28 ngày tới, từ 04/12/2024 đến 31/12/2024. Các giá trị dự báo dao động trong khoảng từ 1,409 đến 1,979, phù hợp với phạm vi dữ liệu lịch sử đã quan sát (tối thiểu 158, tối đa 2,240).",
+  "insights": [
+    "Dự báo cho thấy một quy luật hàng tuần rõ rệt, với số lượt khách cao hơn vào các ngày trong tuần và giảm đáng kể vào cuối tuần (Thứ Bảy và Chủ Nhật).",
+    "Mô hình dự báo là sự kết hợp của các xu hướng trong 180 ngày và 365 ngày qua, trong đó 60% trọng số được đặt vào các mẫu dữ liệu gần đây hơn."
+  ],
+  "chart_note": "Lưu ý: Dữ liệu lịch sử được hiển thị đến ngày 03/12/2024. Các điểm sau đó là giá trị dự báo."
+}

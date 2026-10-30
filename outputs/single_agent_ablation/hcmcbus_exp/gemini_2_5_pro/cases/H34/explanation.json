@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ ngày 2022-01-01 đến 2024-01-01, đây là dự báo số lượng hành khách cho tuyến xe buýt 100 (nhà vận hành HTX-VTHANG) trong 3 quý tiếp theo. Dự báo cho Quý 2 2024 là 99,559.6, tiếp theo là 94,950.0 trong Quý 3, và tăng lên 129,805.2 trong Quý 4.",
+  "insights": [
+    "Dự báo cho Quý 4 năm 2024 (129,805.2) cao hơn mức cao nhất trong dữ liệu lịch sử (128,488.0).",
+    "Dự báo cho thấy một sự sụt giảm trong Quý 3, tiếp theo là một mức tăng đáng kể trong Quý 4, cho thấy một mô hình biến động có thể xảy ra trong nửa cuối năm.",
+    "Kết quả được tạo ra bằng cách kết hợp các xu hướng gần đây (8 quý vừa qua) và dài hạn (toàn bộ 9 quý lịch sử), trong đó các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả cuối cùng (trọng số 60%)."
+  ],
+  "chart_note": "Dữ liệu lịch sử được hiển thị đến Quý 1 2024. Các điểm sau đó là dự báo và không phải là giá trị thực tế."
+}

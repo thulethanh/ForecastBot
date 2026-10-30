@@ -1,0 +1,26 @@
+{
+  "case_id": "H20",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử\" không được xác nhận trực tiếp: dữ liệu chỉ cho biết có 3 điểm lịch sử và các cửa sổ dự báo đều dùng 3 quan sát, không nêu việc huấn luyện mô hình/biểu đồ."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến 48, HTX-195, tần suất năm và chân trời 5 năm. Các mức dự báo đầu-cuối, xu hướng tăng liên tục và mức tăng hằng năm 6.072 đơn vị đều khớp forecast. Nội dung rõ ràng, ngắn gọn và giúp hiểu xu hướng cũng như quy mô biến động. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện” trên 3 điểm lịch sử, trong khi thông tin cung cấp chỉ xác nhận số điểm lịch sử và cửa sổ dự báo, không xác nhận chi tiết huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.691348124993965,
+    "input_tokens": 2314,
+    "output_tokens": 366,
+    "total_tokens": 2680,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử\\\" không được xác nhận trực tiếp: dữ liệu chỉ cho biết có 3 điểm lịch sử và các cửa sổ dự báo đều dùng 3 quan sát, không nêu việc huấn luyện mô hình/biểu đồ.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến 48, HTX-195, tần suất năm và chân trời 5 năm. Các mức dự báo đầu-cuối, xu hướng tăng liên tục và mức tăng hằng năm 6.072 đơn vị đều khớp forecast. Nội dung rõ ràng, ngắn gọn và giúp hiểu xu hướng cũng như quy mô biến động. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện” trên 3 điểm lịch sử, trong khi thông tin cung cấp chỉ xác nhận số điểm lịch sử và cửa sổ dự báo, không xác nhận chi tiết huấn luyện.\"}"
+  }
+}

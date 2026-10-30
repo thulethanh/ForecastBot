@@ -1,0 +1,26 @@
+{
+  "case_id": "M21",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định 6 điểm dữ liệu lịch sử được sử dụng để huấn luyện mô hình; thông tin cung cấp chỉ cho biết các cửa sổ dự báo đều có 6 điểm, không xác nhận việc huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 10 năm cho đúng mặt hàng và cửa hàng, nêu rõ mức đầu-cuối, xu hướng giảm, dao động xen kẽ và so sánh với trung bình lịch sử. Các số liệu và nhận định xu hướng đều phù hợp với forecast và history summary. Trình bày rõ ràng, hữu ích. Tuy nhiên, chart note nói dữ liệu được dùng để huấn luyện mô hình là nhận định không có bằng chứng trực tiếp; window_info chỉ xác nhận cửa sổ đầu vào dự báo gồm 6 điểm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.982546291008475,
+    "input_tokens": 2543,
+    "output_tokens": 351,
+    "total_tokens": 2894,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định 6 điểm dữ liệu lịch sử được sử dụng để huấn luyện mô hình; thông tin cung cấp chỉ cho biết các cửa sổ dự báo đều có 6 điểm, không xác nhận việc huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 10 năm cho đúng mặt hàng và cửa hàng, nêu rõ mức đầu-cuối, xu hướng giảm, dao động xen kẽ và so sánh với trung bình lịch sử. Các số liệu và nhận định xu hướng đều phù hợp với forecast và history summary. Trình bày rõ ràng, hữu ích. Tuy nhiên, chart note nói dữ liệu được dùng để huấn luyện mô hình là nhận định không có bằng chứng trực tiếp; window_info chỉ xác nhận cửa sổ đầu vào dự báo gồm 6 điểm.\"}"
+  }
+}

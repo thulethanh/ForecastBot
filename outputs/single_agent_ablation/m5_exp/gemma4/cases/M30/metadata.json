@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M30",
+  "question": "Tôi muốn xem lượng bán dự kiến của sản phẩm HOBBIES_1_277 tại cửa hàng TX_3, bang TX trong 12 tháng tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 52,
+    "n_test": 12,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.047460374888032675,
+    "request_sql": 95.08371420798358,
+    "sql_execution_and_repair": 0.07056854106485844,
+    "forecast": 331.95411233301274,
+    "explanation": 104.40934520796873,
+    "end_to_end": 531.5661963750608
+  },
+  "total_tokens": 8571,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

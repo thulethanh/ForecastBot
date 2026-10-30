@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo cho 2 quý tiếp theo của tuyến xe buýt 34 do HTX 26 vận hành. Dự báo cho Quý 3 năm 2024 là khoảng 96,880 và cho Quý 4 năm 2024 là khoảng 115,540. Kết quả này được tính toán dựa trên 10 quý dữ liệu lịch sử từ Quý 1 2022 đến Quý 2 2024.",
+  "insights": [
+    "Giá trị dự báo cho Quý 3 2024 (96,880) thấp hơn mức trung bình lịch sử (116,404), trong khi dự báo cho Quý 4 2024 (115,540) gần bằng mức trung bình này.",
+    "Mô hình dự báo là sự kết hợp giữa xu hướng ngắn hạn (8 quý gần nhất) và dài hạn (toàn bộ 10 quý), trong đó xu hướng ngắn hạn có trọng số cao hơn (60%)."
+  ],
+  "chart_note": "Dữ liệu lịch sử trong 10 quý và dự báo cho 2 quý tiếp theo của tuyến 34 (HTX 26)."
+}

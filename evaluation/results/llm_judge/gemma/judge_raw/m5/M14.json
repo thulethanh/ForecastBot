@@ -1,0 +1,24 @@
+{
+  "case_id": "M14",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, độ hạt quý và 4 bước dự báo. Các mốc thời gian cùng giá trị 58.0, 64.6, 71.2 và 77.8 đều khớp forecast, đồng thời nhận định xu hướng tăng liên tục được hỗ trợ trực tiếp. Phạm vi lịch sử, chế độ ensemble, tên và kích thước hai cửa sổ h8/h12 đều phù hợp dữ liệu cung cấp. Nội dung rõ ràng, ngắn gọn; tuy nhiên chưa nêu thêm bối cảnh định lượng từ lịch sử (ví dụ mức trung bình hoặc biên độ lịch sử) để người dùng dễ đặt dự báo vào bối cảnh hơn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.7164541670063045,
+    "input_tokens": 2321,
+    "output_tokens": 195,
+    "total_tokens": 2516,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, độ hạt quý và 4 bước dự báo. Các mốc thời gian cùng giá trị 58.0, 64.6, 71.2 và 77.8 đều khớp forecast, đồng thời nhận định xu hướng tăng liên tục được hỗ trợ trực tiếp. Phạm vi lịch sử, chế độ ensemble, tên và kích thước hai cửa sổ h8/h12 đều phù hợp dữ liệu cung cấp. Nội dung rõ ràng, ngắn gọn; tuy nhiên chưa nêu thêm bối cảnh định lượng từ lịch sử (ví dụ mức trung bình hoặc biên độ lịch sử) để người dùng dễ đặt dự báo vào bối cảnh hơn.\"}"
+  }
+}

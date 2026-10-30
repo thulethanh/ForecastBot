@@ -1,0 +1,47 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2024-07-01",
+      "yhat": 135704.6
+    },
+    {
+      "step": 2,
+      "ds": "2024-08-01",
+      "yhat": 132371.8
+    },
+    {
+      "step": 3,
+      "ds": "2024-09-01",
+      "yhat": 209598.2
+    },
+    {
+      "step": 4,
+      "ds": "2024-10-01",
+      "yhat": 243712.6
+    },
+    {
+      "step": 5,
+      "ds": "2024-11-01",
+      "yhat": 224337.0
+    },
+    {
+      "step": 6,
+      "ds": "2024-12-01",
+      "yhat": 180542.0
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "ensemble",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 24,
+    "long_n": 30,
+    "short_window_name": "h24",
+    "long_window_name": "h30"
+  }
+}

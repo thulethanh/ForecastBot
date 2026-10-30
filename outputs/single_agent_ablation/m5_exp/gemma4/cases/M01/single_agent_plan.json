@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 7,
+  "filters": {
+    "item_id": "FOODS_3_228"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_3_228' GROUP BY c.date ORDER BY c.date ASC",
+  "sql_explanation": "Retrieves the daily historical sales data for the specified item (FOODS_3_228) to prepare for a 7-day forecast."
+}

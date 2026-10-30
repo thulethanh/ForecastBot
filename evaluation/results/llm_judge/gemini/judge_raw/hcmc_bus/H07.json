@@ -1,0 +1,26 @@
+{
+  "case_id": "H07",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định 24 điểm dữ liệu lịch sử được sử dụng để huấn luyện, nhưng thông tin cung cấp chỉ cho biết các cửa sổ đầu vào dự báo đều gồm 24 quan sát, không xác nhận việc huấn luyện mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng tuyến và đơn vị vận hành; các mốc, giá trị dự báo, trung bình và phạm vi lịch sử đều khớp dữ liệu. Nội dung trình bày rõ xu hướng tăng từ tháng 01 đến 03/2024 và giúp đặt dự báo trong bối cảnh lịch sử. Tuy nhiên, chart note nêu rõ dữ liệu được dùng để “huấn luyện”, trong khi case chỉ xác nhận cửa sổ lịch sử đầu vào cho nhánh dự báo, không xác nhận huấn luyện/fine-tune mô hình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.856050208007218,
+    "input_tokens": 2299,
+    "output_tokens": 330,
+    "total_tokens": 2629,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định 24 điểm dữ liệu lịch sử được sử dụng để huấn luyện, nhưng thông tin cung cấp chỉ cho biết các cửa sổ đầu vào dự báo đều gồm 24 quan sát, không xác nhận việc huấn luyện mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng tuyến và đơn vị vận hành; các mốc, giá trị dự báo, trung bình và phạm vi lịch sử đều khớp dữ liệu. Nội dung trình bày rõ xu hướng tăng từ tháng 01 đến 03/2024 và giúp đặt dự báo trong bối cảnh lịch sử. Tuy nhiên, chart note nêu rõ dữ liệu được dùng để “huấn luyện”, trong khi case chỉ xác nhận cửa sổ lịch sử đầu vào cho nhánh dự báo, không xác nhận huấn luyện/fine-tune mô hình.\"}"
+  }
+}

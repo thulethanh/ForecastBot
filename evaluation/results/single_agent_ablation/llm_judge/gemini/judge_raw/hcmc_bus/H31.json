@@ -1,0 +1,24 @@
+{
+  "case_id": "H31",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng theo tháng cho tuyến 9 của HTX-VTTP. Các mốc thời gian, 28 điểm lịch sử và 24 tháng dự báo đều khớp dữ liệu cung cấp. Nhận định tăng nhẹ và biến động lặp lại theo năm phù hợp với các giá trị dự báo; tháng 10–11 cao trên 134.000 vé, tháng 2 thấp nhất khoảng 105.000 vé, còn tháng 6–7 thấp hơn mức trung bình lịch sử. Nội dung ngắn gọn, rõ ràng và nêu được các mức cao/thấp có ý nghĩa thực tế."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.601591250044294,
+    "input_tokens": 2950,
+    "output_tokens": 350,
+    "total_tokens": 3300,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng theo tháng cho tuyến 9 của HTX-VTTP. Các mốc thời gian, 28 điểm lịch sử và 24 tháng dự báo đều khớp dữ liệu cung cấp. Nhận định tăng nhẹ và biến động lặp lại theo năm phù hợp với các giá trị dự báo; tháng 10–11 cao trên 134.000 vé, tháng 2 thấp nhất khoảng 105.000 vé, còn tháng 6–7 thấp hơn mức trung bình lịch sử. Nội dung ngắn gọn, rõ ràng và nêu được các mức cao/thấp có ý nghĩa thực tế.\"}"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "H46",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Trạng thái fallback_used=true \"dẫn đến\" việc duy trì một giá trị hằng số cho tất cả 60 bước thời gian; dữ liệu cho thấy fallback được dùng và dự báo hằng số, nhưng không xác nhận trực tiếp quan hệ nguyên nhân này.",
+      "Giá trị dự báo hằng số \"cho thấy sự ổn định cao\"; điều này được hỗ trợ cho chuỗi dự báo, nhưng không đủ để kết luận mức ổn định cao của dữ liệu thực tế."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà khai thác, kỳ hạn 60 ngày, phương pháp được chọn, cửa sổ 180/365 và mức dự báo 13.769,8571. Các ngày và giá trị hằng số đều khớp forecast. Trình bày rõ ràng, súc tích và giúp người dùng nhận ra dự báo không biến động. Tuy nhiên, quan hệ nhân quả rằng fallback trực tiếp dẫn đến giá trị hằng số và diễn giải về sự ổn định cao chưa được xác nhận trực tiếp bởi thông tin được cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.99623583292123,
+    "input_tokens": 4327,
+    "output_tokens": 436,
+    "total_tokens": 4763,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Trạng thái fallback_used=true \\\"dẫn đến\\\" việc duy trì một giá trị hằng số cho tất cả 60 bước thời gian; dữ liệu cho thấy fallback được dùng và dự báo hằng số, nhưng không xác nhận trực tiếp quan hệ nguyên nhân này.\",\"Giá trị dự báo hằng số \\\"cho thấy sự ổn định cao\\\"; điều này được hỗ trợ cho chuỗi dự báo, nhưng không đủ để kết luận mức ổn định cao của dữ liệu thực tế.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà khai thác, kỳ hạn 60 ngày, phương pháp được chọn, cửa sổ 180/365 và mức dự báo 13.769,8571. Các ngày và giá trị hằng số đều khớp forecast. Trình bày rõ ràng, súc tích và giúp người dùng nhận ra dự báo không biến động. Tuy nhiên, quan hệ nhân quả rằng fallback trực tiếp dẫn đến giá trị hằng số và diễn giải về sự ổn định cao chưa được xác nhận trực tiếp bởi thông tin được cung cấp.\"}"
+  }
+}

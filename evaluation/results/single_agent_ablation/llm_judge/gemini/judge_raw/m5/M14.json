@@ -1,0 +1,26 @@
+{
+  "case_id": "M14",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dự báo cho thấy một mô hình doanh số theo mùa\" không được hỗ trợ trực tiếp bởi tóm tắt lịch sử hoặc bốn giá trị dự báo; các dữ liệu này chỉ cho thấy mức dự báo cao nhất rơi vào Quý 2/2016."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý, đúng mặt hàng/cửa hàng, thời hạn và nêu rõ mức cao nhất 51.0 ở Quý 2/2016. Các thông tin về mô hình tổng hợp, cửa sổ 8 và 12 quý, trọng số 60%/40%, cùng 18 quý lịch sử đều khớp dữ liệu cung cấp. Tuy nhiên, kết luận có “mô hình doanh số theo mùa” là mạnh hơn bằng chứng hiện có, vì tóm tắt lịch sử không cung cấp cấu trúc theo mùa. Nội dung còn lại rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.48733324999921,
+    "input_tokens": 2280,
+    "output_tokens": 324,
+    "total_tokens": 2604,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dự báo cho thấy một mô hình doanh số theo mùa\\\" không được hỗ trợ trực tiếp bởi tóm tắt lịch sử hoặc bốn giá trị dự báo; các dữ liệu này chỉ cho thấy mức dự báo cao nhất rơi vào Quý 2/2016.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý, đúng mặt hàng/cửa hàng, thời hạn và nêu rõ mức cao nhất 51.0 ở Quý 2/2016. Các thông tin về mô hình tổng hợp, cửa sổ 8 và 12 quý, trọng số 60%/40%, cùng 18 quý lịch sử đều khớp dữ liệu cung cấp. Tuy nhiên, kết luận có “mô hình doanh số theo mùa” là mạnh hơn bằng chứng hiện có, vì tóm tắt lịch sử không cung cấp cấu trúc theo mùa. Nội dung còn lại rõ ràng và hữu ích.\"}"
+  }
+}

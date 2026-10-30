@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo số lượt khách trên tuyến xe buýt 44 (HTX-ThanhSơn)",
+  "summary_text": "Đây là dự báo số lượt khách hàng tháng cho tuyến xe buýt 44 do HTX-ThanhSơn vận hành trong 12 tháng tới, từ tháng 1 năm 2024 đến tháng 12 năm 2024. Dự báo được tạo ra dựa trên phân tích dữ liệu lịch sử của 24 tháng trước đó (từ tháng 1/2022 đến tháng 12/2023).",
+  "insights": [
+    "Số lượt khách được dự báo sẽ đạt đỉnh vào tháng 10 năm 2024 với khoảng 51,791 lượt.",
+    "Tháng 1 năm 2024 được dự báo có số lượt khách thấp nhất trong giai đoạn dự báo, với khoảng 34,793 lượt.",
+    "Dự báo cho thấy một mô hình theo mùa rõ rệt, với số lượt khách có xu hướng tăng cao vào các tháng cuối năm, tương tự như các mẫu đã quan sát được trong dữ liệu lịch sử."
+  ],
+  "chart_note": "Biểu đồ hiển thị 24 điểm dữ liệu lịch sử và 12 điểm dữ liệu dự báo. Dữ liệu lịch sử có giá trị trung bình là 35,809 lượt mỗi tháng."
+}

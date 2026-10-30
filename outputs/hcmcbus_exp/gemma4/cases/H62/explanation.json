@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng hành khách cho tuyến 91 (XKSG) của HCMC_BUS",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo lưu lượng hành khách cho tuyến 91 (XKSG) sẽ duy trì ở mức cao trong 5 năm tới, với xu hướng giảm nhẹ qua các năm. Cụ thể, dự báo bắt đầu từ 658485.0 vào năm 2025 và giảm dần xuống 648665.0 vào năm 2029.",
+  "insights": [
+    "Lưu lượng dự báo năm 2025 là 658485.0, cao hơn mức trung bình lịch sử (646196.0).",
+    "Trong 5 năm dự báo, lưu lượng hành khách được dự đoán giảm khoảng 9820.0, từ 658485.0 (2025) xuống 648665.0 (2029).",
+    "Mức dự báo năm 2029 (648665.0) gần với mức trung bình lịch sử (646196.0)."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 3 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-01-01) và mở rộng dự báo cho 5 bước tiếp theo (đến 2029-01-01) bằng mô hình ForecastBot."
+}

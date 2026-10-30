@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 9, HTX-VTTP) trong 24 tháng tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử của HCMC_BUS (Tuyến 9, HTX-VTTP), mô hình đã dự báo giá trị trung bình ổn định trong 24 tháng tới. Giá trị dự báo được xác định là 115490.86.",
+  "insights": [
+    "Giá trị dự báo (115490.86) cao hơn mức trung bình lịch sử (109693.82) của 28 điểm dữ liệu.",
+    "Mô hình đã sử dụng phương pháp deterministic_recent_mean và xác nhận sử dụng fallback.",
+    "Giá trị dự báo được duy trì ổn định ở mức 115490.86 trong suốt 24 tháng dự báo (từ 2024-05-01 đến 2026-04-01)."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 28 điểm dữ liệu từ 2022-01-01 đến 2024-04-01. Kết quả dự báo được tạo ra cho 24 tháng tiếp theo, sử dụng phương pháp deterministic_recent_mean."
+}

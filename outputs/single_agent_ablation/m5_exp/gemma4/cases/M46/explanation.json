@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã hoàn thành việc dự báo cho mặt hàng FOODS_3_085 tại cửa hàng WI_2 trong 60 ngày tới (từ 2016-02-25 đến 2016-04-24). Kết quả dự báo cho thấy một mức giá trị ổn định và không thay đổi, duy trì ở mức 0.1429 trong toàn bộ giai đoạn dự báo.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', kết hợp trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+    "Do sử dụng cơ chế dự phòng (fallback_used: true), mô hình đã đưa ra một giá trị trung bình ổn định cho toàn bộ 60 bước dự báo.",
+    "Dữ liệu lịch sử được sử dụng để tính toán bao gồm 1853 điểm dữ liệu, trải dài từ 2011-01-29 đến 2016-02-24."
+  ],
+  "chart_note": "Dự báo cho thấy xu hướng ổn định và không có sự biến động đáng kể nào trong 60 ngày tới, với giá trị dự kiến duy trì ở mức 0.1429."
+}

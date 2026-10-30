@@ -1,0 +1,24 @@
+{
+  "case_id": "M33",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, phạm vi 2 quý và hai giá trị dự báo đều bằng 0. Các số liệu lịch sử nêu ra (20 quý, Quý 1/2011–Quý 4/2015, khoảng 0–379) khớp dữ liệu tóm tắt. Nhận định về khả năng doanh số ngừng lại được diễn đạt thận trọng và phù hợp với dự báo bằng 0 cùng mức tối thiểu lịch sử là 0. Thông tin ensemble, cửa sổ 8/12 quý và trọng số 60% khớp kết quả dự báo. Trình bày rõ ràng, súc tích và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.523564166971482,
+    "input_tokens": 2246,
+    "output_tokens": 334,
+    "total_tokens": 2580,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, phạm vi 2 quý và hai giá trị dự báo đều bằng 0. Các số liệu lịch sử nêu ra (20 quý, Quý 1/2011–Quý 4/2015, khoảng 0–379) khớp dữ liệu tóm tắt. Nhận định về khả năng doanh số ngừng lại được diễn đạt thận trọng và phù hợp với dự báo bằng 0 cùng mức tối thiểu lịch sử là 0. Thông tin ensemble, cửa sổ 8/12 quý và trọng số 60% khớp kết quả dự báo. Trình bày rõ ràng, súc tích và hữu ích.\"}"
+  }
+}

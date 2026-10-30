@@ -1,0 +1,27 @@
+{
+  "case_id": "H21",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên một chuỗi dữ liệu lịch sử ngắn chỉ với 3 điểm dữ liệu từ năm 2022 đến 2024.\"",
+      "\"Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện từ 2022 đến 2024...\""
+    ],
+    "reason_vi": "Giải thích bám sát đúng đối tượng, kỳ hạn 10 năm và nêu chính xác mức dự báo đầu-cuối, xu hướng giảm dần rồi tiệm cận trung bình lịch sử. Các con số và nhận định ổn định dài hạn đều phù hợp forecast và history summary. Tuy nhiên, dữ liệu chỉ cho biết có 3 quan sát lịch sử/cửa sổ đầu vào; không có bằng chứng rằng mô hình được “huấn luyện” trên các điểm này. Hai phát biểu về huấn luyện làm giảm tính trung thực. Nội dung rõ ràng và nhìn chung hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.789828540990129,
+    "input_tokens": 2563,
+    "output_tokens": 422,
+    "total_tokens": 2985,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên một chuỗi dữ liệu lịch sử ngắn chỉ với 3 điểm dữ liệu từ năm 2022 đến 2024.\\\"\",\"\\\"Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện từ 2022 đến 2024...\\\"\"],\"reason_vi\":\"Giải thích bám sát đúng đối tượng, kỳ hạn 10 năm và nêu chính xác mức dự báo đầu-cuối, xu hướng giảm dần rồi tiệm cận trung bình lịch sử. Các con số và nhận định ổn định dài hạn đều phù hợp forecast và history summary. Tuy nhiên, dữ liệu chỉ cho biết có 3 quan sát lịch sử/cửa sổ đầu vào; không có bằng chứng rằng mô hình được “huấn luyện” trên các điểm này. Hai phát biểu về huấn luyện làm giảm tính trung thực. Nội dung rõ ràng và nhìn chung hữu ích.\"}"
+  }
+}

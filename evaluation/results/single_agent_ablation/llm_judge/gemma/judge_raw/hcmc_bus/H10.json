@@ -1,0 +1,24 @@
+{
+  "case_id": "H10",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, mức dự báo đầu kỳ (96.000), đỉnh (110.000 vào tháng 3/2026) và cuối kỳ (101.000 vào tháng 12/2026) đều khớp với forecast. Nhận định tăng đến quý 1/2026 rồi giảm dần trong phần còn lại của năm 2026 cũng được dữ liệu dự báo hỗ trợ. Nội dung rõ ràng, ngắn gọn và nêu được xu hướng chính cùng cơ sở gồm 36 điểm lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.61953995807562,
+    "input_tokens": 2959,
+    "output_tokens": 246,
+    "total_tokens": 3205,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, mức dự báo đầu kỳ (96.000), đỉnh (110.000 vào tháng 3/2026) và cuối kỳ (101.000 vào tháng 12/2026) đều khớp với forecast. Nhận định tăng đến quý 1/2026 rồi giảm dần trong phần còn lại của năm 2026 cũng được dữ liệu dự báo hỗ trợ. Nội dung rõ ràng, ngắn gọn và nêu được xu hướng chính cùng cơ sở gồm 36 điểm lịch sử.\"}"
+  }
+}

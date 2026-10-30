@@ -1,0 +1,26 @@
+{
+  "case_id": "H48",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "“các xu hướng gần đây có trọng số cao hơn (60%)” không được hỗ trợ rõ: hai cửa sổ short và long đều gồm 24 điểm (h24), dù trọng số short là 60%."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ dự báo và nêu rõ mức dự báo. Các số liệu 51.043, trung bình khoảng 46.558, khoảng lịch sử 5.600–56.493, phạm vi thời gian và 24 điểm dữ liệu đều phù hợp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và giúp đặt dự báo trong bối cảnh lịch sử. Tuy nhiên, diễn giải rằng xu hướng gần đây được ưu tiên 60% chưa thật sự chính xác vì cả hai nhánh short và long đều dùng cùng cửa sổ 24 điểm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.500243917107582,
+    "input_tokens": 2152,
+    "output_tokens": 334,
+    "total_tokens": 2486,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"“các xu hướng gần đây có trọng số cao hơn (60%)” không được hỗ trợ rõ: hai cửa sổ short và long đều gồm 24 điểm (h24), dù trọng số short là 60%.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ dự báo và nêu rõ mức dự báo. Các số liệu 51.043, trung bình khoảng 46.558, khoảng lịch sử 5.600–56.493, phạm vi thời gian và 24 điểm dữ liệu đều phù hợp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và giúp đặt dự báo trong bối cảnh lịch sử. Tuy nhiên, diễn giải rằng xu hướng gần đây được ưu tiên 60% chưa thật sự chính xác vì cả hai nhánh short và long đều dùng cùng cửa sổ 24 điểm.\"}"
+  }
+}

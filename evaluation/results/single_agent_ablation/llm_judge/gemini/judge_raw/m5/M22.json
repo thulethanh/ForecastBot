@@ -1,0 +1,24 @@
+{
+  "case_id": "M22",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 7 ngày cho đúng mặt hàng và cửa hàng, nêu đúng khoảng ngày, biên độ dự báo 1.4–4.0 và đỉnh dự báo vào cuối tuần (23–24/04). Trung bình lịch sử 1.47 khớp dữ liệu tóm tắt; thông tin tổ hợp, trọng số 60/40 và các cửa sổ 180/365 ngày khớp forecast result. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo, biến động chính cùng cách kết hợp xu hướng gần và dài hạn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.8207666659727693,
+    "input_tokens": 2363,
+    "output_tokens": 279,
+    "total_tokens": 2642,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 7 ngày cho đúng mặt hàng và cửa hàng, nêu đúng khoảng ngày, biên độ dự báo 1.4–4.0 và đỉnh dự báo vào cuối tuần (23–24/04). Trung bình lịch sử 1.47 khớp dữ liệu tóm tắt; thông tin tổ hợp, trọng số 60/40 và các cửa sổ 180/365 ngày khớp forecast result. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo, biến động chính cùng cách kết hợp xu hướng gần và dài hạn.\"}"
+  }
+}

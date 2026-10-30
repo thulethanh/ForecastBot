@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (Tuyến 145) trong 7 ngày tới",
+  "summary_text": "Dựa trên mô hình `deterministic_recent_mean`, lưu lượng xe buýt cho tuyến 145 được dự báo duy trì ổn định ở mức 2170.2857 trong suốt 7 ngày, từ 2024-12-25 đến 2024-12-31.",
+  "insights": [
+    "Lưu lượng dự báo cho tất cả 7 ngày đều bằng nhau (2170.2857), cho thấy sự ổn định cao trong dự báo trong giai đoạn này.",
+    "Mức dự báo này được tính toán bằng phương pháp `deterministic_recent_mean` và sử dụng chế độ fallback."
+  ],
+  "chart_note": "Biểu đồ này được tạo bằng mô hình `deterministic_recent_mean`. Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1087 điểm từ 2022-01-01 đến 2024-12-24. Dự báo được thực hiện cho 7 bước tiếp theo."
+}

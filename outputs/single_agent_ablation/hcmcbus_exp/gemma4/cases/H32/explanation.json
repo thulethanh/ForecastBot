@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 43, Nhà khai thác Cty-BaoYen) trong quý tiếp theo (bắt đầu từ 2024-10-01) là 80,546.4.",
+  "insights": [
+    "Dự báo được thực hiện dựa trên 8 điểm dữ liệu lịch sử, trải dài từ 2022-04-01 đến 2024-07-01.",
+    "Mô hình sử dụng phương pháp dự báo đơn (single mode), với trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn."
+  ],
+  "chart_note": "Giá trị dự báo (yhat) là 80,546.4 cho quý 2024-10-01, được tính toán bằng cách kết hợp các xu hướng từ cả hai cửa sổ ngắn và dài (h8)."
+}

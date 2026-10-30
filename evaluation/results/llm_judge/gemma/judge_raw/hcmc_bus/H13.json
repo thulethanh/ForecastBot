@@ -1,0 +1,27 @@
+{
+  "case_id": "H13",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.0,
+    "unsupported_claims": [
+      "\"tăng khoảng 1,200 đơn vị mỗi quý\" không khớp forecast: mỗi bước chỉ tăng 600 đơn vị (tổng tăng 1,200 từ quý đầu đến quý cuối).",
+      "\"Biểu đồ này được huấn luyện trên 9 điểm dữ liệu\" không được hỗ trợ trực tiếp; thông tin chỉ cho biết nhánh short dùng 8 điểm, nhánh long dùng 9 điểm và kết quả ensemble kết hợp hai nhánh."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà vận hành, kỳ theo quý và 3 giá trị dự báo; các mức dự báo, xu hướng tăng và phạm vi lịch sử đều được nêu rõ. Tuy nhiên, mức tăng bị diễn giải sai: forecast tăng 600 đơn vị giữa mỗi quý liên tiếp, không phải 1.200 mỗi quý. Ngoài ra, câu về biểu đồ được “huấn luyện trên 9 điểm” không được xác nhận bởi dữ liệu cung cấp và làm mờ khác biệt giữa hai cửa sổ short 8 điểm và long 9 điểm. Cấu trúc nhìn chung rõ, nhưng cách diễn đạt này giảm độ chính xác và giá trị thực tế."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.34507958299946,
+    "input_tokens": 2300,
+    "output_tokens": 554,
+    "total_tokens": 2854,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.0,\"unsupported_claims\":[\"\\\"tăng khoảng 1,200 đơn vị mỗi quý\\\" không khớp forecast: mỗi bước chỉ tăng 600 đơn vị (tổng tăng 1,200 từ quý đầu đến quý cuối).\",\"\\\"Biểu đồ này được huấn luyện trên 9 điểm dữ liệu\\\" không được hỗ trợ trực tiếp; thông tin chỉ cho biết nhánh short dùng 8 điểm, nhánh long dùng 9 điểm và kết quả ensemble kết hợp hai nhánh.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà vận hành, kỳ theo quý và 3 giá trị dự báo; các mức dự báo, xu hướng tăng và phạm vi lịch sử đều được nêu rõ. Tuy nhiên, mức tăng bị diễn giải sai: forecast tăng 600 đơn vị giữa mỗi quý liên tiếp, không phải 1.200 mỗi quý. Ngoài ra, câu về biểu đồ được “huấn luyện trên 9 điểm” không được xác nhận bởi dữ liệu cung cấp và làm mờ khác biệt giữa hai cửa sổ short 8 điểm và long 9 điểm. Cấu trúc nhìn chung rõ, nhưng cách diễn đạt này giảm độ chính xác và giá trị thực tế.\"}"
+  }
+}

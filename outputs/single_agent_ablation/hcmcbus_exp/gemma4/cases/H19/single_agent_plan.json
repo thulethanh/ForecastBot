@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 3,
+  "filters": {
+    "route_id": "47"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '47' GROUP BY DATE_TRUNC('year', d.date) ORDER BY ds ASC;",
+  "sql_explanation": "Retrieves the total number of passengers (y) for route 47, aggregated by year (ds), from the daily_passenger_stats table."
+}

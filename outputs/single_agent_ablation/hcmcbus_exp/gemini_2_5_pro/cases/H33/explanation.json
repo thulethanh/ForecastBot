@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ Quý 1 2022 đến Quý 2 2024, hệ thống dự báo số lượt khách cho tuyến xe buýt 45 của nhà xe XKSG sẽ đạt khoảng 229,956 trong Quý 3 2024 và 306,369 trong Quý 4 2024.",
+  "insights": [
+    "Dự báo cho Quý 4 2024 (306,369) cao hơn đáng kể so với Quý 3 và vượt qua mức cao nhất trong dữ liệu lịch sử (300,597).",
+    "Giá trị dự báo cho Quý 3 2024 (229,956) gần với mức trung bình của dữ liệu lịch sử (227,678)."
+  ],
+  "chart_note": "Dự báo này được tạo ra bằng mô hình tổng hợp, kết hợp các xu hướng từ 10 quý gần nhất. Mô hình đặc biệt chú trọng (60% trọng số) vào các xu hướng trong 8 quý gần đây nhất để đưa ra kết quả."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 88, vehicle_group: 2B.1_ML) trong 2 năm tới",
+  "summary_text": "ForecastBot dự báo giá trị sẽ không đổi ở mức 1.031.944 trong 2 năm tới (2023 và 2024). Dự báo này dựa trên một điểm dữ liệu lịch sử duy nhất từ năm 2022.",
+  "insights": [
+    "Dự báo cho năm 2023 và 2024 đều là 1.031.944.",
+    "Dự báo không đổi vì chỉ có một điểm dữ liệu lịch sử (năm 2022, giá trị 1.031.944) được cung cấp để huấn luyện mô hình.",
+    "Dự báo này áp dụng cho các bộ lọc đã chọn: route_id là '88' và vehicle_group là '2B.1_ML'."
+  ],
+  "chart_note": "Biểu đồ thể hiện một điểm dữ liệu lịch sử từ năm 2022 và dự báo của ForecastBot cho 2 năm tiếp theo, đến hết năm 2024."
+}

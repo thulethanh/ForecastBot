@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 10 năm tới cho HCMC_BUS (route_id: 55, operator: XKSG, vehicle_group: 4_CNG.2)",
+  "summary_text": "ForecastBot dự báo giá trị sẽ bắt đầu ở mức 1.535.181,2 cho năm 2025 và giảm dần, ổn định ở mức khoảng 1.517.217,5 vào năm 2034. Giá trị dự báo trong dài hạn tiệm cận mức trung bình lịch sử là 1.517.182,3.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 1.535.181,2 vào năm 2025, sau đó giảm dần trong các năm tiếp theo.",
+    "Dự báo có xu hướng ổn định trong dài hạn, với giá trị cho năm 2034 (1.517.217,5) rất gần với giá trị trung bình lịch sử (1.517.182,3).",
+    "Mô hình được huấn luyện trên một chuỗi dữ liệu lịch sử ngắn chỉ với 3 điểm dữ liệu từ năm 2022 đến 2024."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện từ 2022 đến 2024 và dự báo cho 10 năm tiếp theo, từ 2025 đến 2034."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M34",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng sản phẩm và cửa hàng, nêu đầy đủ cả 3 mốc dự báo. Các giá trị 56.0, 60.0, 54.0 và nhận định tăng rồi giảm đều khớp kết quả forecast. Thông tin ensemble, trọng số hai cửa sổ và mốc lịch sử đến 2015-07-01 cũng phù hợp dữ liệu cung cấp. Nội dung ngắn gọn, mạch lạc và giúp người dùng hiểu rõ diễn biến dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.887450084002921,
+    "input_tokens": 2278,
+    "output_tokens": 215,
+    "total_tokens": 2493,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng sản phẩm và cửa hàng, nêu đầy đủ cả 3 mốc dự báo. Các giá trị 56.0, 60.0, 54.0 và nhận định tăng rồi giảm đều khớp kết quả forecast. Thông tin ensemble, trọng số hai cửa sổ và mốc lịch sử đến 2015-07-01 cũng phù hợp dữ liệu cung cấp. Nội dung ngắn gọn, mạch lạc và giúp người dùng hiểu rõ diễn biến dự báo.\"}"
+  }
+}

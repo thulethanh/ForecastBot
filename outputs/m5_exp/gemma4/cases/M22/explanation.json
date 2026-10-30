@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho FOODS_1_097 tại TX_3 (M5)",
+  "summary_text": "Dự báo cho 7 ngày tới (từ 2016-04-18 đến 2016-04-24) cho thấy giá trị dự kiến ổn định ở mức 2.2857.",
+  "insights": [
+    "ForecastBot đã sử dụng phương pháp 'deterministic_recent_mean' và kích hoạt cơ chế fallback.",
+    "Các trọng số được áp dụng là 0.6 cho cửa sổ ngắn (h180) và 0.4 cho cửa sổ dài (h365)."
+  ],
+  "chart_note": "Dữ liệu lịch sử được sử dụng để huấn luyện trải dài từ 2011-01-29 đến 2016-04-17 (1906 điểm). ForecastBot đã tạo ra dự báo cho 7 bước tiếp theo."
+}

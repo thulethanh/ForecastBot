@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho 3 quý tới của route_id 79 (operator HTX-QTIEN) từ dữ liệu HCMC_BUS.",
+  "summary_text": "ForecastBot dự báo cho 3 quý tới. Các giá trị dự báo là 44794.0 (bắt đầu từ 2023-10-01), 42607.0 (bắt đầu từ 2024-01-01), và 42676.0 (bắt đầu từ 2024-04-01).",
+  "insights": [
+    "Dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2023-07-01, giá trị đã dao động từ 33313.0 đến 48365.0, với mức trung bình là 43255.57.",
+    "Giá trị dự báo đầu tiên (44794.0) cao hơn mức trung bình lịch sử, trong khi hai giá trị tiếp theo (42607.0 và 42676.0) thấp hơn một chút so với mức trung bình.",
+    "Dự báo cho thấy giá trị sẽ giảm từ quý đầu tiên sang quý thứ hai, sau đó tăng nhẹ trong quý thứ ba."
+  ],
+  "chart_note": "Biểu đồ hiển thị 7 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-07-01 được sử dụng để huấn luyện mô hình, cùng với dự báo cho 3 quý tiếp theo được tạo bởi ForecastBot bằng chế độ `single`."
+}

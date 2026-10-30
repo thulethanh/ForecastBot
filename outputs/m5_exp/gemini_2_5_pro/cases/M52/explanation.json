@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 24 tháng cho item_id HOBBIES_1_026 tại store_id WI_2",
+  "summary_text": "ForecastBot đã tạo dự báo cho 24 tháng tới (từ 2014-05-01 đến 2016-04-01) cho item_id HOBBIES_1_026 tại store_id WI_2. Các giá trị dự báo dao động từ 6.6 đến 15.0, cao hơn mức trung bình lịch sử là 2.55.",
+  "insights": [
+    "Dự báo cho thấy quy luật thời vụ hàng năm, với các giá trị cao nhất vào tháng 10 (15.0) và thấp nhất từ tháng 5 đến tháng 7 (6.6).",
+    "Toàn bộ các giá trị dự báo, dao động từ 6.6 đến 15.0, đều cao hơn mức trung bình lịch sử là 2.55.",
+    "Dự báo được tạo ra bằng mô hình `ensemble`, kết hợp dữ liệu từ 36 tháng gần nhất (trọng số 0.6) và toàn bộ 40 tháng lịch sử (trọng số 0.4)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử trong 40 tháng (từ 2011-01-01 đến 2014-04-01) và dự báo của ForecastBot cho 24 tháng tiếp theo (từ 2014-05-01 đến 2016-04-01)."
+}

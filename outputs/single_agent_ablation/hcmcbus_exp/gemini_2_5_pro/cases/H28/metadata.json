@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H28",
+  "question": "Hãy dự báo nhu cầu hành khách của tuyến 18 sử dụng nhóm xe 3B.2_ML trong 3 tháng sắp tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 25,
+    "n_train": 22,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.0035867089172825217,
+    "request_sql": 7.925615249900147,
+    "sql_execution_and_repair": 0.013051375048235059,
+    "forecast": 33.01365145796444,
+    "explanation": 14.70143541705329,
+    "end_to_end": 55.657429832965136
+  },
+  "total_tokens": 10121,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

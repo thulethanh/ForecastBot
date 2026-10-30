@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 24 tháng tới cho lượt khách trên tuyến xe buýt số 9 (HTX-VTTP)",
+  "summary_text": "ForecastBot đã tạo dự báo cho 24 tháng tiếp theo, từ tháng 5 năm 2024 đến tháng 4 năm 2026. Dự báo cho thấy một chu kỳ theo mùa rõ rệt, với lượt khách dự kiến đạt đỉnh vào tháng 10 hàng năm (khoảng 129.167 lượt) và giảm xuống mức thấp nhất vào tháng 2 (khoảng 94.576 lượt). Các giá trị dự báo nằm trong khoảng từ 94.576 đến 129.167.",
+  "insights": [
+    "Dự báo cho thấy tính thời vụ hàng năm, với lượt khách cao nhất vào tháng 10 (dự kiến 129.167) và thấp nhất vào tháng 2 (dự kiến 94.576).",
+    "Phạm vi dự báo (94.576 - 129.167) có giá trị tối thiểu cao hơn so với dữ liệu lịch sử (69.593 - 127.971), trong khi giá trị tối đa tương đối tương đồng.",
+    "Trong 3 tháng tới (từ tháng 5/2024 đến tháng 7/2024), lượt khách được dự báo sẽ dao động trong khoảng từ 102.428 đến 112.265."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử gồm 28 điểm dữ liệu hàng tháng từ 2022-01-01 đến 2024-04-01 và dự báo của ForecastBot cho 24 tháng tiếp theo đến 2026-04-01."
+}

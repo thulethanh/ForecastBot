@@ -1,0 +1,26 @@
+{
+  "case_id": "M21",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định chế độ \"single\" sử dụng đồng thời cả cửa sổ ngắn và cửa sổ dài để tính toán không được xác nhận rõ bởi kết quả; selected_mode là \"single\", dù window_info có liệt kê cả hai cửa sổ đều gồm 6 kỳ."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, phạm vi 10 năm và mức dự báo 88.0 không đổi. Các mốc lịch sử 2011–2016, 6 điểm dữ liệu, chế độ single và dự báo ổn định đều rõ ràng, dễ hiểu và phù hợp với dữ liệu cung cấp. Tuy nhiên, câu nói chế độ single dùng đồng thời cả hai cửa sổ để tính toán chưa được kết quả xác nhận trực tiếp; thông tin chỉ cho biết hai cửa sổ cùng có 6 kỳ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.571549125015736,
+    "input_tokens": 2472,
+    "output_tokens": 524,
+    "total_tokens": 2996,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định chế độ \\\"single\\\" sử dụng đồng thời cả cửa sổ ngắn và cửa sổ dài để tính toán không được xác nhận rõ bởi kết quả; selected_mode là \\\"single\\\", dù window_info có liệt kê cả hai cửa sổ đều gồm 6 kỳ.\"],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, phạm vi 10 năm và mức dự báo 88.0 không đổi. Các mốc lịch sử 2011–2016, 6 điểm dữ liệu, chế độ single và dự báo ổn định đều rõ ràng, dễ hiểu và phù hợp với dữ liệu cung cấp. Tuy nhiên, câu nói chế độ single dùng đồng thời cả hai cửa sổ để tính toán chưa được kết quả xác nhận trực tiếp; thông tin chỉ cho biết hai cửa sổ cùng có 6 kỳ.\"}"
+  }
+}

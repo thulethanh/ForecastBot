@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "year",
+  "horizon": 1,
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": null,
+  "filters": {
+    "item_id": "HOUSEHOLD_1_457",
+    "store_id": "CA_1",
+    "state_id": "CA"
+  }
+}

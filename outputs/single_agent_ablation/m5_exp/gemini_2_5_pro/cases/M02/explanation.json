@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 28 ngày cho mặt hàng FOODS_3_540 tại cửa hàng CA_4, bắt đầu từ ngày 28 tháng 3 năm 2016. Dự báo cho thấy một mô hình hàng tuần nhất quán, với doanh số dự kiến dao động trong khoảng từ 2.8 đến 6.0 đơn vị mỗi ngày. Các giá trị dự báo này cao hơn mức trung bình lịch sử là 1.9 đơn vị.",
+  "insights": [
+    "Dự báo thể hiện một chu kỳ 7 ngày rõ rệt, lặp lại hàng tuần. Doanh số dự kiến đạt đỉnh vào ngày thứ Bảy hàng tuần (khoảng 6.0 đơn vị) và thấp nhất vào ngày thứ Ba (khoảng 2.8 đơn vị).",
+    "Mô hình dự báo là một tổ hợp (ensemble) ưu tiên các xu hướng gần đây (trọng số 60% cho dữ liệu 180 ngày qua), điều này có thể giải thích tại sao các giá trị dự báo cao hơn đáng kể so với mức trung bình dài hạn trong lịch sử."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dự báo doanh số cho 28 ngày tới, dựa trên dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 3 năm 2016. Các giá trị được tạo ra bằng mô hình tổ hợp."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_2_041 (M5)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho HOUSEHOLD_2_041 sẽ đạt 1157.0 vào năm 2015-01-01 và 1262.0 vào năm 2016-01-01.",
+  "insights": [
+    "Trong giai đoạn lịch sử (2011-2014), giá trị trung bình của HOUSEHOLD_2_041 là 842.25. Các dự báo cho năm 2015 và 2016 cho thấy mức tăng trưởng đáng kể so với mức trung bình này.",
+    "Mô hình sử dụng trọng số 0.6 cho dữ liệu ngắn hạn (h4) và 0.4 cho dữ liệu dài hạn (h4) để đưa ra dự báo."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 4 điểm dữ liệu lịch sử từ 2011-01-01 đến 2014-01-01 và bao gồm dự báo cho 2 bước tiếp theo (2015-01-01 và 2016-01-01)."
+}

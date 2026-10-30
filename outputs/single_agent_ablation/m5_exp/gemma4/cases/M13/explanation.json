@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho HOBBIES_1_173 tại CA",
+  "summary_text": "Hệ thống đã hoàn thành việc dự báo cho 3 quý tiếp theo (từ 2015-10-01 đến 2016-04-01) cho mặt hàng HOBBIES_1_173 tại khu vực CA. Dự báo được thực hiện thành công bằng phương pháp ensemble.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên 19 điểm dữ liệu lịch sử, trải dài từ 2011-01-01 đến 2015-07-01.",
+    "Phương pháp dự báo sử dụng là 'ensemble', kết hợp mô hình ngắn hạn (h8) và mô hình dài hạn (h12) với trọng số 60% cho mô hình ngắn hạn và 40% cho mô hình dài hạn.",
+    "Các giá trị dự báo cho 3 quý liên tiếp cho thấy xu hướng giảm nhẹ, từ 264.08 (2015-10-01) xuống 255.08 (2016-04-01)."
+  ],
+  "chart_note": "Các giá trị dự báo (yhat) là ước tính cho các quý 2015-10-01, 2016-01-01 và 2016-04-01. Các giá trị này không phải là dữ liệu thực tế."
+}

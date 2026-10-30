@@ -1,0 +1,24 @@
+{
+  "case_id": "M27",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 1 tháng cho đúng sản phẩm và cửa hàng, nêu rõ giá trị 28.0 cùng thời điểm dự báo. Các thông tin về ensemble, trọng số 60%/40%, cửa sổ h24/h36, horizon=1 và phạm vi lịch sử 63 điểm đều phù hợp với dữ liệu được cung cấp. Diễn đạt rõ ràng, ngắn gọn và có lưu ý hợp lý rằng đây là giá trị dự báo, không phải giá trị thực tế tương lai."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.921801208984107,
+    "input_tokens": 2185,
+    "output_tokens": 370,
+    "total_tokens": 2555,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 1 tháng cho đúng sản phẩm và cửa hàng, nêu rõ giá trị 28.0 cùng thời điểm dự báo. Các thông tin về ensemble, trọng số 60%/40%, cửa sổ h24/h36, horizon=1 và phạm vi lịch sử 63 điểm đều phù hợp với dữ liệu được cung cấp. Diễn đạt rõ ràng, ngắn gọn và có lưu ý hợp lý rằng đây là giá trị dự báo, không phải giá trị thực tế tương lai.\"}"
+  }
+}

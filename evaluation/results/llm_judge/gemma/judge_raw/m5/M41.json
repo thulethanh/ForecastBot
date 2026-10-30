@@ -1,0 +1,26 @@
+{
+  "case_id": "M41",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện dựa trên 6 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 6 quan sát, không xác nhận việc huấn luyện biểu đồ/mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, địa điểm, kỳ hạn 5 năm và nêu chính xác mức dự báo 84.0 ổn định từ 2017 đến 2021. Diễn đạt ngắn gọn, rõ ràng và giúp người dùng nhận biết xu hướng phẳng. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện” trên 6 điểm lịch sử; thông tin cung cấp chỉ xác nhận có 6 điểm lịch sử và các cửa sổ dự báo dài 6 quan sát, không xác nhận chi tiết huấn luyện mô hình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.120289083002717,
+    "input_tokens": 2252,
+    "output_tokens": 451,
+    "total_tokens": 2703,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện dựa trên 6 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 6 quan sát, không xác nhận việc huấn luyện biểu đồ/mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, địa điểm, kỳ hạn 5 năm và nêu chính xác mức dự báo 84.0 ổn định từ 2017 đến 2021. Diễn đạt ngắn gọn, rõ ràng và giúp người dùng nhận biết xu hướng phẳng. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện” trên 6 điểm lịch sử; thông tin cung cấp chỉ xác nhận có 6 điểm lịch sử và các cửa sổ dự báo dài 6 quan sát, không xác nhận chi tiết huấn luyện mô hình.\"}"
+  }
+}

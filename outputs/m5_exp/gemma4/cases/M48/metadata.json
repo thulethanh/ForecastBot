@@ -1,0 +1,33 @@
+{
+  "case_id": "M48",
+  "question": "Hãy dự báo nhu cầu bán của sản phẩm FOODS_1_002 tại cửa hàng WI_1, bang WI trong 1 tháng tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 63,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 49.356659333003336,
+    "load_schema": 0.004332167009124532,
+    "sql_generation": 60.302869749997626,
+    "sql_execution_and_repair": 0.02597612500539981,
+    "forecast": 121.07495912500599,
+    "explanation": 69.89946250000503,
+    "end_to_end": 300.6643282909936
+  },
+  "total_tokens": 7419,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

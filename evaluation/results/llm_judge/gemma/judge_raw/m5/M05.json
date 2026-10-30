@@ -1,0 +1,24 @@
+{
+  "case_id": "M05",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 2,
+    "faithfulness": 5,
+    "clarity": 4,
+    "usefulness": 1,
+    "overall_score": 3.0,
+    "unsupported_claims": [],
+    "reason_vi": "Nội dung chỉ xác nhận hệ thống đã tạo dự báo và cho biết diễn giải LLM không khả dụng; không trình bày mức dự báo 1,4286/ngày, thời hạn 90 ngày, tính ổn định của dự báo hay ý nghĩa cho mặt hàng/khu vực được yêu cầu. Các câu nêu ra không chứa số liệu, nguyên nhân hoặc xu hướng không có căn cứ. Diễn đạt ngắn gọn, dễ hiểu, nhưng giá trị thực tế rất hạn chế vì gần như không giúp người dùng hiểu kết quả dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.435807833011495,
+    "input_tokens": 5027,
+    "output_tokens": 306,
+    "total_tokens": 5333,
+    "raw_response": "{\"relevance\":2,\"faithfulness\":5,\"clarity\":4,\"usefulness\":1,\"overall_score\":3.0,\"unsupported_claims\":[],\"reason_vi\":\"Nội dung chỉ xác nhận hệ thống đã tạo dự báo và cho biết diễn giải LLM không khả dụng; không trình bày mức dự báo 1,4286/ngày, thời hạn 90 ngày, tính ổn định của dự báo hay ý nghĩa cho mặt hàng/khu vực được yêu cầu. Các câu nêu ra không chứa số liệu, nguyên nhân hoặc xu hướng không có căn cứ. Diễn đạt ngắn gọn, dễ hiểu, nhưng giá trị thực tế rất hạn chế vì gần như không giúp người dùng hiểu kết quả dự báo.\"}"
+  }
+}

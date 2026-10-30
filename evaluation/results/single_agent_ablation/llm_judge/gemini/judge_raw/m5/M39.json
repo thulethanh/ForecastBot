@@ -1,0 +1,27 @@
+{
+  "case_id": "M39",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Mô hình không thể xác định được mẫu hình hoặc xu hướng rõ ràng từ lịch sử.",
+      "Dự báo bằng không là do mô hình không thể ngoại suy một cách tự tin từ lịch sử có sẵn."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, phạm vi lịch sử và hai năm dự báo; các mốc 2011–2014, 4 điểm dữ liệu và dự báo 0 cho 2015–2016 đều phù hợp dữ liệu cung cấp. Nội dung rõ ràng và hữu ích khi nêu hạn chế của chuỗi lịch sử ngắn. Tuy nhiên, history summary và forecast không cho biết cơ chế hay chẩn đoán của mô hình, nên các khẳng định rằng mô hình không nhận diện được xu hướng hoặc thiếu tự tin khi ngoại suy là suy diễn chưa được hỗ trợ trực tiếp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.267391707981005,
+    "input_tokens": 2196,
+    "output_tokens": 306,
+    "total_tokens": 2502,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Mô hình không thể xác định được mẫu hình hoặc xu hướng rõ ràng từ lịch sử.\",\"Dự báo bằng không là do mô hình không thể ngoại suy một cách tự tin từ lịch sử có sẵn.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, phạm vi lịch sử và hai năm dự báo; các mốc 2011–2014, 4 điểm dữ liệu và dự báo 0 cho 2015–2016 đều phù hợp dữ liệu cung cấp. Nội dung rõ ràng và hữu ích khi nêu hạn chế của chuỗi lịch sử ngắn. Tuy nhiên, history summary và forecast không cho biết cơ chế hay chẩn đoán của mô hình, nên các khẳng định rằng mô hình không nhận diện được xu hướng hoặc thiếu tự tin khi ngoại suy là suy diễn chưa được hỗ trợ trực tiếp.\"}"
+  }
+}

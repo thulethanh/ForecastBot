@@ -1,0 +1,24 @@
+{
+  "case_id": "H59",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo năm 2024 cho tuyến 87, nêu rõ giá trị dự báo và xu hướng lịch sử liên quan. Các số liệu 2022, 2023 và dự báo 2024 đều khớp dữ liệu được cung cấp. Nhận định ngoại suy từ xu hướng tăng là phù hợp với hai điểm lịch sử và kết quả dự báo. Nội dung ngắn gọn, rõ ràng, đồng thời ghi đúng phạm vi biểu đồ gồm 2 điểm lịch sử và 1 năm dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.8370394579833373,
+    "input_tokens": 2080,
+    "output_tokens": 209,
+    "total_tokens": 2289,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo năm 2024 cho tuyến 87, nêu rõ giá trị dự báo và xu hướng lịch sử liên quan. Các số liệu 2022, 2023 và dự báo 2024 đều khớp dữ liệu được cung cấp. Nhận định ngoại suy từ xu hướng tăng là phù hợp với hai điểm lịch sử và kết quả dự báo. Nội dung ngắn gọn, rõ ràng, đồng thời ghi đúng phạm vi biểu đồ gồm 2 điểm lịch sử và 1 năm dự báo.\"}"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M17",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 1 năm cho đúng mặt hàng và khu vực, nêu rõ giá trị dự báo 743.0 tại 2016-01-01 và trạng thái thành công. Các thông tin về 5 điểm lịch sử, phạm vi lịch sử, trọng số 60%/40% và horizon 1 đều phù hợp với dữ liệu cung cấp. Nội dung rõ ràng, ngắn gọn và lưu ý đúng rằng đây không phải giá trị thực tế tương lai. Tuy nhiên, phần ý nghĩa thực tế có thể hữu ích hơn nếu đối chiếu mức dự báo với phạm vi hoặc trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.315367917064577,
+    "input_tokens": 2149,
+    "output_tokens": 290,
+    "total_tokens": 2439,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 1 năm cho đúng mặt hàng và khu vực, nêu rõ giá trị dự báo 743.0 tại 2016-01-01 và trạng thái thành công. Các thông tin về 5 điểm lịch sử, phạm vi lịch sử, trọng số 60%/40% và horizon 1 đều phù hợp với dữ liệu cung cấp. Nội dung rõ ràng, ngắn gọn và lưu ý đúng rằng đây không phải giá trị thực tế tương lai. Tuy nhiên, phần ý nghĩa thực tế có thể hữu ích hơn nếu đối chiếu mức dự báo với phạm vi hoặc trung bình lịch sử.\"}"
+  }
+}

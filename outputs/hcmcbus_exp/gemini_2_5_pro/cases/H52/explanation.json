@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo hàng tháng cho HCMC_BUS (route_id: 71) trong 24 tháng tới",
+  "summary_text": "ForecastBot dự báo cho dataset HCMC_BUS với các bộ lọc đã chọn trong 24 tháng tới, từ tháng 1/2025 đến tháng 12/2026. Dự báo cho thấy một quy luật thời vụ rõ rệt lặp lại hàng năm, với các giá trị cao nhất vào khoảng tháng 10 (khoảng 37.845) và thấp nhất vào khoảng tháng 7 (khoảng 21.301). Không có xu hướng tăng hoặc giảm tổng thể nào được ghi nhận trong giai đoạn dự báo.",
+  "insights": [
+    "Dự báo thể hiện một quy luật thời vụ rõ rệt, lặp lại hàng năm trong suốt giai đoạn 24 tháng mà không có xu hướng tăng hoặc giảm tổng thể.",
+    "Hàng năm, giá trị dự báo đạt đỉnh vào tháng 10 (khoảng 37.845) và chạm đáy vào tháng 7 (khoảng 21.301).",
+    "Phạm vi của các giá trị dự báo (21.301 - 37.845) nằm trong phạm vi của dữ liệu lịch sử đã quan sát (14.166 - 38.910)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1/2022 đến tháng 12/2024 và dự báo của ForecastBot cho 24 tháng tiếp theo, đến tháng 12/2026."
+}

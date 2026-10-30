@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo M5 (12 Quarters)",
+  "summary_text": "Dự báo cho bộ dữ liệu M5, áp dụng cho item_id 'HOUSEHOLD_1_321' tại cửa hàng 'WI_1' (bang WI), đã được thực hiện thành công cho một chu kỳ 12 quý, bắt đầu từ ngày 2016-07-01. Mô hình sử dụng phương pháp ensemble (kết hợp) với trọng số 60% cho cửa sổ ngắn hạn (h12) và 40% cho cửa sổ dài hạn (h20).",
+  "insights": [
+    "Dự báo cho thấy một mô hình tính mùa vụ rõ rệt, với các giá trị dự kiến có xu hướng tăng đáng kể tại các bước 4, 8, và 12.",
+    "Mô hình đã sử dụng 22 điểm dữ liệu lịch sử, trải dài từ 2011-01-01 đến 2016-04-01, để xác định xu hướng và tính mùa vụ."
+  ],
+  "chart_note": "Các giá trị được trình bày là dự báo (yhat) và không đại diện cho giá trị thực tế trong tương lai."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo cho số lượng hành khách hàng ngày trên tuyến xe buýt 19 trong 7 ngày tới, từ 25/12/2024 đến 31/12/2024. Các giá trị dự báo dao động từ khoảng 2.802 đến 4.226, xoay quanh mức trung bình lịch sử là 3.783.",
+  "insights": [
+    "Dự báo cho thấy số lượng hành khách có xu hướng giảm vào cuối tuần, với các giá trị thấp nhất được dự đoán vào Thứ Bảy (28/12) và Chủ Nhật (29/12).",
+    "Mô hình dự báo đã kết hợp các xu hướng gần đây (180 ngày) và các quy luật dài hạn (365 ngày), trong đó ưu tiên hơn cho các mẫu dữ liệu gần đây."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử về số lượng hành khách hàng ngày từ 01/01/2022 đến 24/12/2024, cùng với dự báo cho 7 ngày tiếp theo."
+}

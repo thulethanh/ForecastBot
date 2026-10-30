@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS cho 4 quý tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo rằng chỉ số HCMC_BUS sẽ duy trì ở mức xấp xỉ 131277.25 trong suốt 4 quý tới, từ quý 1 năm 2024 đến quý 4 năm 2024.",
+  "insights": [
+    "Mức dự báo 131277.25 cho mỗi quý cao hơn mức trung bình lịch sử (121063.0) của dataset HCMC_BUS.",
+    "Dự báo cho thấy sự ổn định cao, với giá trị dự kiến không thay đổi qua các quý trong giai đoạn 2024."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 8 điểm dữ liệu lịch sử của HCMC_BUS từ 2022-01-01 đến 2023-10-01. ForecastBot sử dụng chế độ 'single' với trọng số (weights) là 0.6 cho 'short' và 0.4 cho 'long' để dự báo 4 bước tiếp theo."
+}

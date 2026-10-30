@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho dataset HCMC_BUS (route_id: 65, operator: Cty-BaoYen) trong 60 ngày tới",
+  "summary_text": "ForecastBot dự báo cho 60 ngày tới, từ 2024-11-02 đến 2024-12-31. Các giá trị dự báo dao động từ 2385.18 đến 4326.08. Dự báo cho thấy một quy luật theo tuần rõ rệt, với các giá trị thấp nhất vào Chủ Nhật và cao nhất vào các ngày trong tuần.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 4326.08 (vào 2024-12-27) và thấp nhất là 2385.18 (vào 2024-12-29).",
+    "Dự báo thể hiện tính chu kỳ hàng tuần: các giá trị thấp nhất luôn rơi vào Chủ Nhật (dao động từ 2385 đến 2411), trong khi các ngày trong tuần từ Thứ Hai đến Thứ Sáu có giá trị cao hơn đáng kể (thường trên 4100).",
+    "Có một xu hướng tăng nhẹ trong giai đoạn dự báo. Giá trị trung bình của 30 ngày cuối (khoảng 3707) cao hơn một chút so với 30 ngày đầu (khoảng 3640)."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử từ 2022-05-01 đến 2024-11-01 và dự báo cho 60 ngày tiếp theo. Dự báo được tạo bởi mô hình ensemble của ForecastBot, kết hợp một mô hình ngắn hạn (sử dụng 180 ngày dữ liệu gần nhất) và một mô hình dài hạn (sử dụng 365 ngày dữ liệu gần nhất)."
+}

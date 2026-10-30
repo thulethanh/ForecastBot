@@ -1,0 +1,24 @@
+{
+  "case_id": "H13",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 36, nhà khai thác XKSG, độ chi tiết theo quý và chân trời 3 quý. Các giá trị dự báo, ngày dự báo, trạng thái ổn định, chế độ ensemble, trọng số 60%/40% và thông tin 8–9 điểm dữ liệu đều phù hợp với dữ liệu được cung cấp. Nội dung ngắn gọn, rõ ràng và giúp người dùng hiểu mức dự báo cũng như xu hướng dự báo không đổi trong ba quý."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.003026666934602,
+    "input_tokens": 2279,
+    "output_tokens": 260,
+    "total_tokens": 2539,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 36, nhà khai thác XKSG, độ chi tiết theo quý và chân trời 3 quý. Các giá trị dự báo, ngày dự báo, trạng thái ổn định, chế độ ensemble, trọng số 60%/40% và thông tin 8–9 điểm dữ liệu đều phù hợp với dữ liệu được cung cấp. Nội dung ngắn gọn, rõ ràng và giúp người dùng hiểu mức dự báo cũng như xu hướng dự báo không đổi trong ba quý.\"}"
+  }
+}

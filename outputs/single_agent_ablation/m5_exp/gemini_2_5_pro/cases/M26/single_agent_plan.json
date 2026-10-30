@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 90,
+  "filters": {
+    "item_id": "FOODS_3_629",
+    "store_id": "TX_3",
+    "state_id": "TX"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'FOODS_3_629' AND s.store_id = 'TX_3' AND s.state_id = 'TX' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "This SQL query retrieves the daily sales time series for the specified product, store, and state. It joins the sales and calendar tables, filters by item_id, store_id, and state_id, aggregates sales by day, and returns the data as 'ds' (date) and 'y' (total sales)."
+}

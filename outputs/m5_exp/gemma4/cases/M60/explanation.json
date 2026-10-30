@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo hàng năm cho HOUSEHOLD_1_230 tại WI_1",
+  "summary_text": "Trong giai đoạn lịch sử từ năm 2011 đến năm 2014, dữ liệu có 4 điểm, với giá trị trung bình là 282.5. Dự báo cho hai năm tiếp theo cho thấy xu hướng giảm đáng kể, với mức dự kiến là 125.0 vào năm 2015 và giảm xuống 105.0 vào năm 2016.",
+  "insights": [
+    "Dự báo cho năm 2015 là 125.0, thể hiện sự giảm mạnh so với mức trung bình lịch sử (282.5).",
+    "Dự báo cho năm 2016 là 105.0, tiếp tục xu hướng giảm so với năm 2015 (giảm 20.0 đơn vị)."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 4 điểm dữ liệu lịch sử (cửa sổ h4) và đưa ra dự báo cho 2 bước thời gian (2015-01-01 và 2016-01-01)."
+}

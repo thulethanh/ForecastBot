@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS cho tuyến 18, nhóm xe 3B.2_ML (3 tháng)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo lượng dữ liệu cho HCMC_BUS (tuyến 18, nhóm xe 3B.2_ML) trong 3 tháng tới, từ 2024-10-01 đến 2024-12-01. Giá trị dự báo cho thấy xu hướng tăng trưởng qua các tháng.",
+  "insights": [
+    "Lượng dự báo bắt đầu ở mức 161585.0 vào tháng 10 năm 2024.",
+    "Giá trị dự báo tiếp tục tăng lên 176778.0 vào tháng 11 năm 2024.",
+    "Mức dự báo cao nhất trong giai đoạn này là 191971.0 vào tháng 12 năm 2024."
+  ],
+  "chart_note": "Việc dự báo được thực hiện bằng cách sử dụng 22 điểm dữ liệu lịch sử (từ 2022-05-01 đến 2024-09-01). Mô hình sử dụng phương thức 'single' với trọng số short: 0.6 và long: 0.4."
+}

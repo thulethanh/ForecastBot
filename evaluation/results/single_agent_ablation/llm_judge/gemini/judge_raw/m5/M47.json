@@ -1,0 +1,24 @@
+{
+  "case_id": "M47",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 90 ngày cho đúng mặt hàng và khu vực, nêu đúng ngày bắt đầu, khoảng dự báo và so sánh hợp lý với thống kê lịch sử. Các mức 0,95–1,61, trung bình lịch sử 0,99, chu kỳ lặp 7 ngày, đỉnh Thứ Bảy và đáy Thứ Hai/Thứ Tư đều được hỗ trợ trực tiếp bởi forecast và history summary. Nội dung rõ ràng, cô đọng, đồng thời giúp người dùng hiểu tính ổn định và biến động theo tuần của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.568902958068065,
+    "input_tokens": 5273,
+    "output_tokens": 408,
+    "total_tokens": 5681,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 90 ngày cho đúng mặt hàng và khu vực, nêu đúng ngày bắt đầu, khoảng dự báo và so sánh hợp lý với thống kê lịch sử. Các mức 0,95–1,61, trung bình lịch sử 0,99, chu kỳ lặp 7 ngày, đỉnh Thứ Bảy và đáy Thứ Hai/Thứ Tư đều được hỗ trợ trực tiếp bởi forecast và history summary. Nội dung rõ ràng, cô đọng, đồng thời giúp người dùng hiểu tính ổn định và biến động theo tuần của dự báo.\"}"
+  }
+}

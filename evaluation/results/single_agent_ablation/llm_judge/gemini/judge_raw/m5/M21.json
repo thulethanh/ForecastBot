@@ -1,0 +1,26 @@
+{
+  "case_id": "M21",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định rằng với 6 điểm dữ liệu lịch sử \"không thể xác định được một xu hướng tăng hoặc giảm rõ ràng\" không được history summary cung cấp trực tiếp, vì không có chuỗi giá trị theo từng năm để kiểm tra xu hướng."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 10 năm cho đúng mặt hàng và cửa hàng, nêu rõ mức dự báo 128.8 mỗi năm và so sánh chính xác với trung bình lịch sử 128.83. Cách trình bày ngắn gọn, rõ ràng; mô tả đường dự báo không đổi phù hợp với forecast. Tuy nhiên, kết luận không xác định được xu hướng tăng/giảm rõ ràng chỉ dựa trên 6 điểm chưa được chứng minh trực tiếp bởi phần tóm tắt lịch sử. Giải thích hữu ích, dù có thể bổ sung phạm vi biến động lịch sử để tạo thêm ngữ cảnh."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.5422130830120295,
+    "input_tokens": 2449,
+    "output_tokens": 397,
+    "total_tokens": 2846,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định rằng với 6 điểm dữ liệu lịch sử \\\"không thể xác định được một xu hướng tăng hoặc giảm rõ ràng\\\" không được history summary cung cấp trực tiếp, vì không có chuỗi giá trị theo từng năm để kiểm tra xu hướng.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 10 năm cho đúng mặt hàng và cửa hàng, nêu rõ mức dự báo 128.8 mỗi năm và so sánh chính xác với trung bình lịch sử 128.83. Cách trình bày ngắn gọn, rõ ràng; mô tả đường dự báo không đổi phù hợp với forecast. Tuy nhiên, kết luận không xác định được xu hướng tăng/giảm rõ ràng chỉ dựa trên 6 điểm chưa được chứng minh trực tiếp bởi phần tóm tắt lịch sử. Giải thích hữu ích, dù có thể bổ sung phạm vi biến động lịch sử để tạo thêm ngữ cảnh.\"}"
+  }
+}

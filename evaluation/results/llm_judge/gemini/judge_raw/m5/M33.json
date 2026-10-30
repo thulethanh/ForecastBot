@@ -1,0 +1,24 @@
+{
+  "case_id": "M33",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, tần suất quý và hai kỳ dự báo. Các giá trị dự báo, mức trung bình lịch sử, phạm vi 20 điểm dữ liệu, xu hướng giảm giữa hai quý, cùng cấu hình ensemble, cửa sổ h8/h12 và trọng số đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, có cấu trúc và giúp người dùng hiểu mức dự báo, so sánh với lịch sử và biến động ngắn hạn mà không suy diễn nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.499387999996543,
+    "input_tokens": 2278,
+    "output_tokens": 229,
+    "total_tokens": 2507,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, tần suất quý và hai kỳ dự báo. Các giá trị dự báo, mức trung bình lịch sử, phạm vi 20 điểm dữ liệu, xu hướng giảm giữa hai quý, cùng cấu hình ensemble, cửa sổ h8/h12 và trọng số đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, có cấu trúc và giúp người dùng hiểu mức dự báo, so sánh với lịch sử và biến động ngắn hạn mà không suy diễn nguyên nhân không có bằng chứng.\"}"
+  }
+}

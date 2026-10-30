@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 2 năm cho item_id HOUSEHOLD_2_041",
+  "summary_text": "ForecastBot dự báo giá trị cho item_id HOUSEHOLD_2_041 sẽ là 553,0 vào năm 2015 và 1169,0 vào năm 2016.",
+  "insights": [
+    "Giá trị dự báo cho năm 2015 (553,0) thấp hơn mức tối thiểu trong lịch sử (645,0), trong khi giá trị dự báo cho năm 2016 (1169,0) cao hơn mức tối đa trong lịch sử (1052,0).",
+    "Dự báo cho thấy một sự tăng trưởng đáng kể, với giá trị tăng từ 553,0 trong năm 2015 lên 1169,0 trong năm 2016.",
+    "Dữ liệu lịch sử kéo dài 4 năm, từ 2011-01-01 đến 2014-01-01, với giá trị trung bình là 842,25."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2011-01-01 đến 2014-01-01 và dự báo của ForecastBot cho 2 năm tiếp theo."
+}

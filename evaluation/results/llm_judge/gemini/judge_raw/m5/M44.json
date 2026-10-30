@@ -1,0 +1,26 @@
+{
+  "case_id": "M44",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Chart note khẳng định dữ liệu lịch sử từ 2011-01-29 đến 2016-03-27 được sử dụng để huấn luyện, trong khi thông tin cung cấp chỉ xác nhận phạm vi lịch sử và các cửa sổ 180/365 ngày cho các nhánh dự báo, không xác nhận quá trình huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, bang, kỳ hạn 28 ngày và nêu chính xác toàn bộ dự báo bằng 0.0, các thống kê lịch sử, cùng chế độ ensemble và trọng số. Trình bày rõ ràng, ngắn gọn và giúp đối chiếu mức dự báo với mức trung bình lịch sử. Tuy nhiên, chart note đưa ra khẳng định không được hỗ trợ rằng toàn bộ dữ liệu lịch sử trong khoảng nêu trên đã được dùng để huấn luyện mô hình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.591565708004055,
+    "input_tokens": 3109,
+    "output_tokens": 417,
+    "total_tokens": 3526,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Chart note khẳng định dữ liệu lịch sử từ 2011-01-29 đến 2016-03-27 được sử dụng để huấn luyện, trong khi thông tin cung cấp chỉ xác nhận phạm vi lịch sử và các cửa sổ 180/365 ngày cho các nhánh dự báo, không xác nhận quá trình huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát đúng item, bang, kỳ hạn 28 ngày và nêu chính xác toàn bộ dự báo bằng 0.0, các thống kê lịch sử, cùng chế độ ensemble và trọng số. Trình bày rõ ràng, ngắn gọn và giúp đối chiếu mức dự báo với mức trung bình lịch sử. Tuy nhiên, chart note đưa ra khẳng định không được hỗ trợ rằng toàn bộ dữ liệu lịch sử trong khoảng nêu trên đã được dùng để huấn luyện mô hình.\"}"
+  }
+}

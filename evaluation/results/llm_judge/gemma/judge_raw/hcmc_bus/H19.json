@@ -1,0 +1,26 @@
+{
+  "case_id": "H19",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử...\" — dữ liệu cung cấp chỉ cho biết có 3 điểm lịch sử và các cửa sổ dự báo h3, không xác nhận biểu đồ hoặc mô hình được huấn luyện trên chúng."
+    ],
+    "reason_vi": "Giải thích bám sát route 47, đúng kỳ hạn 3 năm và nêu đầy đủ các mức dự báo cùng xu hướng tăng. Các thống kê lịch sử, ngày dự báo, giá trị dự báo, chế độ single và trọng số đều khớp dữ liệu được cung cấp. Trình bày rõ ràng, hữu ích và ngắn gọn. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện” trên 3 điểm lịch sử, trong khi thông tin đầu vào chỉ xác nhận phạm vi/cửa sổ dữ liệu, không xác nhận việc huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.831555750002735,
+    "input_tokens": 2318,
+    "output_tokens": 357,
+    "total_tokens": 2675,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử...\\\" — dữ liệu cung cấp chỉ cho biết có 3 điểm lịch sử và các cửa sổ dự báo h3, không xác nhận biểu đồ hoặc mô hình được huấn luyện trên chúng.\"],\"reason_vi\":\"Giải thích bám sát route 47, đúng kỳ hạn 3 năm và nêu đầy đủ các mức dự báo cùng xu hướng tăng. Các thống kê lịch sử, ngày dự báo, giá trị dự báo, chế độ single và trọng số đều khớp dữ liệu được cung cấp. Trình bày rõ ràng, hữu ích và ngắn gọn. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện” trên 3 điểm lịch sử, trong khi thông tin đầu vào chỉ xác nhận phạm vi/cửa sổ dữ liệu, không xác nhận việc huấn luyện.\"}"
+  }
+}

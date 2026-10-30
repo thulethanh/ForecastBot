@@ -1,0 +1,24 @@
+{
+  "case_id": "H12",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation trả lời trực tiếp đúng tuyến, đơn vị vận hành, tần suất quý và 2 kỳ dự báo. Các giá trị, mốc thời gian, so sánh với trung bình lịch sử và các tỷ lệ phần trăm đều khớp với forecast và history summary (sai số làm tròn hợp lý). Nhận định xu hướng tăng từ quý 3 sang quý 4 cũng được hỗ trợ trực tiếp bởi hai giá trị dự báo. Nội dung rõ ràng, có cấu trúc và giúp người dùng nắm mức dự báo, diễn biến ngắn hạn cũng như vị trí so với mức lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.54371766699478,
+    "input_tokens": 2273,
+    "output_tokens": 354,
+    "total_tokens": 2627,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation trả lời trực tiếp đúng tuyến, đơn vị vận hành, tần suất quý và 2 kỳ dự báo. Các giá trị, mốc thời gian, so sánh với trung bình lịch sử và các tỷ lệ phần trăm đều khớp với forecast và history summary (sai số làm tròn hợp lý). Nhận định xu hướng tăng từ quý 3 sang quý 4 cũng được hỗ trợ trực tiếp bởi hai giá trị dự báo. Nội dung rõ ràng, có cấu trúc và giúp người dùng nắm mức dự báo, diễn biến ngắn hạn cũng như vị trí so với mức lịch sử.\"}"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "case_id": "H04",
+  "question": "Trong 60 ngày tới, lượng hành khách của tuyến 24 do HTX-195 vận hành được dự báo như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1036,
+    "n_test": 60,
+    "horizon": 60,
+    "minimum_train_required": 60,
+    "required_points_for_evaluation": 120,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 35.7865370829968,
+    "load_schema": 0.011717084002157208,
+    "sql_generation": 58.59211150000192,
+    "sql_execution_and_repair": 0.03775150000001304,
+    "forecast": 248.38751149999734,
+    "explanation": 100.90161858299689,
+    "end_to_end": 443.71749258300406
+  },
+  "total_tokens": 18187,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

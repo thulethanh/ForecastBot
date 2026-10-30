@@ -1,0 +1,26 @@
+{
+  "case_id": "H53",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện mô hình\" không được hỗ trợ: thông tin chỉ cho biết các cửa sổ dữ liệu dùng cho các nhánh dự báo, không xác nhận việc huấn luyện mô hình trên 11 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và đơn vị vận hành; nêu rõ mức dự báo, so sánh với trung bình và khoảng lịch sử, đồng thời mô tả ensemble cùng trọng số/cửa sổ phù hợp dữ liệu cung cấp. Các số liệu và tỷ lệ 16,6% là nhất quán với forecast và history summary. Tuy nhiên, chart_note khẳng định 11 điểm được dùng để “huấn luyện mô hình”, trong khi dữ liệu chỉ xác nhận cửa sổ của các nhánh dự báo, nên đây là diễn giải vượt bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.50544166698819,
+    "input_tokens": 2243,
+    "output_tokens": 327,
+    "total_tokens": 2570,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện mô hình\\\" không được hỗ trợ: thông tin chỉ cho biết các cửa sổ dữ liệu dùng cho các nhánh dự báo, không xác nhận việc huấn luyện mô hình trên 11 điểm.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và đơn vị vận hành; nêu rõ mức dự báo, so sánh với trung bình và khoảng lịch sử, đồng thời mô tả ensemble cùng trọng số/cửa sổ phù hợp dữ liệu cung cấp. Các số liệu và tỷ lệ 16,6% là nhất quán với forecast và history summary. Tuy nhiên, chart_note khẳng định 11 điểm được dùng để “huấn luyện mô hình”, trong khi dữ liệu chỉ xác nhận cửa sổ của các nhánh dự báo, nên đây là diễn giải vượt bằng chứng.\"}"
+  }
+}

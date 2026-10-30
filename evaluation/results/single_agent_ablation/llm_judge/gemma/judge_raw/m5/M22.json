@@ -1,0 +1,27 @@
+{
+  "case_id": "M22",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình sử dụng trọng số kết hợp giữa cửa sổ ngắn hạn (h180) và dài hạn (h365)\" không được hỗ trợ rõ vì selected_mode là \"short_only\", dù metadata có nêu các trọng số.",
+      "\"Do sử dụng cơ chế fallback, kết quả dự báo được coi là ổn định và đồng nhất\" gán nguyên nhân cho fallback mà dữ liệu chỉ cho thấy các giá trị dự báo đồng nhất, không chứng minh fallback là nguyên nhân."
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, cửa hàng, kỳ hạn 7 ngày và nêu chính xác mức dự báo 3.9 lặp lại trong toàn bộ giai đoạn. Trình bày rõ ràng, ngắn gọn và giúp người dùng nhận biết dự báo phẳng. Tuy nhiên, phần nói kết hợp hai cửa sổ chưa phù hợp hoàn toàn với selected_mode \"short_only\"; đồng thời không có bằng chứng rằng fallback chính là nguyên nhân làm dự báo ổn định."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.157160708098672,
+    "input_tokens": 2394,
+    "output_tokens": 347,
+    "total_tokens": 2741,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình sử dụng trọng số kết hợp giữa cửa sổ ngắn hạn (h180) và dài hạn (h365)\\\" không được hỗ trợ rõ vì selected_mode là \\\"short_only\\\", dù metadata có nêu các trọng số.\",\"\\\"Do sử dụng cơ chế fallback, kết quả dự báo được coi là ổn định và đồng nhất\\\" gán nguyên nhân cho fallback mà dữ liệu chỉ cho thấy các giá trị dự báo đồng nhất, không chứng minh fallback là nguyên nhân.\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, cửa hàng, kỳ hạn 7 ngày và nêu chính xác mức dự báo 3.9 lặp lại trong toàn bộ giai đoạn. Trình bày rõ ràng, ngắn gọn và giúp người dùng nhận biết dự báo phẳng. Tuy nhiên, phần nói kết hợp hai cửa sổ chưa phù hợp hoàn toàn với selected_mode \\\"short_only\\\"; đồng thời không có bằng chứng rằng fallback chính là nguyên nhân làm dự báo ổn định.\"}"
+  }
+}

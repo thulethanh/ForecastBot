@@ -1,0 +1,26 @@
+{
+  "case_id": "H24",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Cơ chế fallback được áp dụng \"để đảm bảo kết quả dự báo\"; dữ liệu chỉ xác nhận fallback đã được kích hoạt, không nêu rõ mục đích hoặc tác động này."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến 64, nhà khai thác XKSG, đúng 30 ngày và nêu chính xác mức dự báo cố định 1128.1429. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số 60%/40% và cửa sổ h180/h365 đều khớp kết quả. Nội dung rõ ràng và hữu ích khi cho biết dự báo không biến động, đồng thời lưu ý đây chỉ là ước tính. Tuy nhiên, nhận định fallback nhằm “đảm bảo” kết quả là diễn giải về mục đích/tác động chưa được dữ liệu cung cấp trực tiếp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.456476249964908,
+    "input_tokens": 3284,
+    "output_tokens": 447,
+    "total_tokens": 3731,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Cơ chế fallback được áp dụng \\\"để đảm bảo kết quả dự báo\\\"; dữ liệu chỉ xác nhận fallback đã được kích hoạt, không nêu rõ mục đích hoặc tác động này.\"],\"reason_vi\":\"Giải thích bám sát tuyến 64, nhà khai thác XKSG, đúng 30 ngày và nêu chính xác mức dự báo cố định 1128.1429. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số 60%/40% và cửa sổ h180/h365 đều khớp kết quả. Nội dung rõ ràng và hữu ích khi cho biết dự báo không biến động, đồng thời lưu ý đây chỉ là ước tính. Tuy nhiên, nhận định fallback nhằm “đảm bảo” kết quả là diễn giải về mục đích/tác động chưa được dữ liệu cung cấp trực tiếp.\"}"
+  }
+}

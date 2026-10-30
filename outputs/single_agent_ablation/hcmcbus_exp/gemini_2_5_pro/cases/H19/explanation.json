@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024, dự báo cho tuyến xe buýt 47 cho thấy số lượng hành khách sẽ tiếp tục tăng trong ba năm tới, từ 2025 đến 2027.",
+  "insights": [
+    "Dự báo cho thấy số lượng hành khách sẽ tăng từ khoảng 986.000 vào năm 2025 lên hơn 1.019.000 vào năm 2027.",
+    "Các giá trị dự báo cho cả ba năm đều cao hơn mức cao nhất trong lịch sử (khoảng 969.000).",
+    "Dự báo này được xây dựng dựa trên một khoảng thời gian lịch sử giới hạn chỉ với 3 điểm dữ liệu, điều này có thể ảnh hưởng đến độ chính xác."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dữ liệu lịch sử trong 3 năm và dự báo cho 3 năm tới, cho thấy một xu hướng tăng trưởng nhất quán."
+}

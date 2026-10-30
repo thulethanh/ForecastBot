@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho dữ liệu HCMC_BUS (Tuyến 77, HTX 26) cho quý tiếp theo (2024-10-01) là 29,725.0. Kết quả này được tính toán thành công bằng mô hình Ensemble, sử dụng sự kết hợp giữa các mô hình ngắn hạn và dài hạn.",
+  "insights": [
+    "Dự báo được thực hiện cho bước thời gian 1, tương ứng với ngày 2024-10-01.",
+    "Mô hình Ensemble được sử dụng với trọng số 60% cho dữ liệu ngắn hạn (h8) và 40% cho dữ liệu dài hạn (h11).",
+    "Phân tích dựa trên 11 điểm dữ liệu lịch sử, trải dài từ 2022-01-01 đến 2024-07-01."
+  ],
+  "chart_note": "Đây là kết quả dự báo toán học và không đại diện cho giá trị thực tế trong tương lai. Dự báo được xây dựng dựa trên xu hướng lịch sử cho đến ngày 2024-07-01."
+}

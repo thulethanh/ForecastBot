@@ -1,0 +1,26 @@
+{
+  "case_id": "M23",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Điều này cho thấy hiệu suất bán hàng gần đây mạnh hơn mức trung bình dài hạn.\" không được suy ra trực tiếp từ trọng số 60% cho cửa sổ 180 ngày và 40% cho cửa sổ 365 ngày; các trọng số chỉ cho thấy nhánh dự báo ngắn hạn được ưu tiên hơn."
+    ],
+    "reason_vi": "Giải thích bám sát mặt hàng, kỳ dự báo 28 ngày và các mức dự báo cụ thể. Khoảng 79–100, mức trung bình lịch sử 70,6, ngày cao nhất/thấp nhất và tỷ trọng ensemble đều phù hợp dữ liệu. Nhận xét về mô hình theo tuần nhìn chung được hỗ trợ bởi các giá trị dự báo lặp lại theo ngày trong tuần. Tuy nhiên, việc suy ra hiệu suất bán hàng gần đây mạnh hơn trung bình dài hạn không có bằng chứng trực tiếp từ history summary hay forecast; trọng số chỉ phản ánh cách kết hợp các nhánh dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.649912541965023,
+    "input_tokens": 3154,
+    "output_tokens": 570,
+    "total_tokens": 3724,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Điều này cho thấy hiệu suất bán hàng gần đây mạnh hơn mức trung bình dài hạn.\\\" không được suy ra trực tiếp từ trọng số 60% cho cửa sổ 180 ngày và 40% cho cửa sổ 365 ngày; các trọng số chỉ cho thấy nhánh dự báo ngắn hạn được ưu tiên hơn.\"],\"reason_vi\":\"Giải thích bám sát mặt hàng, kỳ dự báo 28 ngày và các mức dự báo cụ thể. Khoảng 79–100, mức trung bình lịch sử 70,6, ngày cao nhất/thấp nhất và tỷ trọng ensemble đều phù hợp dữ liệu. Nhận xét về mô hình theo tuần nhìn chung được hỗ trợ bởi các giá trị dự báo lặp lại theo ngày trong tuần. Tuy nhiên, việc suy ra hiệu suất bán hàng gần đây mạnh hơn trung bình dài hạn không có bằng chứng trực tiếp từ history summary hay forecast; trọng số chỉ phản ánh cách kết hợp các nhánh dự báo.\"}"
+  }
+}

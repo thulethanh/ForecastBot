@@ -1,0 +1,24 @@
+{
+  "case_id": "M59",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo một năm cho đúng mặt hàng, cửa hàng và bang; nêu rõ giá trị 810.0 cho năm 2016. Các thông tin về 5 điểm lịch sử, giai đoạn 2011–2015, chế độ single và trọng số 60%/40% đều phù hợp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và có lưu ý đúng rằng đây là dự báo, không phải số thực tế. Tuy vậy, phần ý nghĩa thực tế còn cơ bản, chưa đặt mức 810.0 trong bối cảnh mức hoặc biến động lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.593563667032868,
+    "input_tokens": 2154,
+    "output_tokens": 298,
+    "total_tokens": 2452,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo một năm cho đúng mặt hàng, cửa hàng và bang; nêu rõ giá trị 810.0 cho năm 2016. Các thông tin về 5 điểm lịch sử, giai đoạn 2011–2015, chế độ single và trọng số 60%/40% đều phù hợp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và có lưu ý đúng rằng đây là dự báo, không phải số thực tế. Tuy vậy, phần ý nghĩa thực tế còn cơ bản, chưa đặt mức 810.0 trong bối cảnh mức hoặc biến động lịch sử.\"}"
+  }
+}

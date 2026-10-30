@@ -1,0 +1,28 @@
+{
+  "case_id": "H60",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Khẳng định có \"xu hướng mùa vụ rõ rệt\" không được history summary cung cấp bằng chứng về mẫu mùa vụ.",
+      "Nêu các đỉnh thường rơi vào tháng 4, 6, 10 và 12 của cả hai năm không khớp đầy đủ với dãy forecast, đặc biệt các tháng 6 và 12 năm 2026 không phải mức đỉnh.",
+      "Khẳng định dự báo không tính đến các yếu tố bên ngoài hoặc thay đổi vận hành thực tế không được thông tin case cung cấp xác nhận."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến, nhóm xe, kỳ hạn 24 tháng, phương thức single và 35 điểm lịch sử; các mức thấp/cao cùng trọng số đều phù hợp dữ liệu được cung cấp. Trình bày rõ ràng và nêu được phạm vi biến động hữu ích. Tuy nhiên, kết luận về mùa vụ rõ rệt và các tháng đỉnh lặp lại qua cả hai năm bị diễn đạt quá mạnh, không được history summary chứng minh và không hoàn toàn khớp forecast. Ghi chú về việc loại trừ yếu tố bên ngoài cũng chưa có căn cứ trực tiếp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 10.071210082969628,
+    "input_tokens": 3094,
+    "output_tokens": 539,
+    "total_tokens": 3633,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Khẳng định có \\\"xu hướng mùa vụ rõ rệt\\\" không được history summary cung cấp bằng chứng về mẫu mùa vụ.\",\"Nêu các đỉnh thường rơi vào tháng 4, 6, 10 và 12 của cả hai năm không khớp đầy đủ với dãy forecast, đặc biệt các tháng 6 và 12 năm 2026 không phải mức đỉnh.\",\"Khẳng định dự báo không tính đến các yếu tố bên ngoài hoặc thay đổi vận hành thực tế không được thông tin case cung cấp xác nhận.\"],\"reason_vi\":\"Giải thích bám sát tuyến, nhóm xe, kỳ hạn 24 tháng, phương thức single và 35 điểm lịch sử; các mức thấp/cao cùng trọng số đều phù hợp dữ liệu được cung cấp. Trình bày rõ ràng và nêu được phạm vi biến động hữu ích. Tuy nhiên, kết luận về mùa vụ rõ rệt và các tháng đỉnh lặp lại qua cả hai năm bị diễn đạt quá mạnh, không được history summary chứng minh và không hoàn toàn khớp forecast. Ghi chú về việc loại trừ yếu tố bên ngoài cũng chưa có căn cứ trực tiếp.\"}"
+  }
+}

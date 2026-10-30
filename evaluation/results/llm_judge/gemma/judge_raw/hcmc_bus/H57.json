@@ -1,0 +1,24 @@
+{
+  "case_id": "H57",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho Tuyến 84, HTX-28 và nêu đúng 8 kỳ dự báo. Các số liệu về 9 điểm lịch sử, trung bình 121673.22, phạm vi lịch sử, khoảng thời gian dự báo và mức dự báo cố định 127437.5 đều khớp dữ liệu cung cấp. Nội dung ngắn gọn, rõ ràng và dễ theo dõi. Hữu ích tốt nhưng có thể tăng thêm giá trị nếu nêu rõ mức dự báo cao hơn trung bình lịch sử khoảng bao nhiêu hoặc lưu ý rằng chuỗi dự báo không thể hiện biến động."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.352967833008734,
+    "input_tokens": 2370,
+    "output_tokens": 243,
+    "total_tokens": 2613,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho Tuyến 84, HTX-28 và nêu đúng 8 kỳ dự báo. Các số liệu về 9 điểm lịch sử, trung bình 121673.22, phạm vi lịch sử, khoảng thời gian dự báo và mức dự báo cố định 127437.5 đều khớp dữ liệu cung cấp. Nội dung ngắn gọn, rõ ràng và dễ theo dõi. Hữu ích tốt nhưng có thể tăng thêm giá trị nếu nêu rõ mức dự báo cao hơn trung bình lịch sử khoảng bao nhiêu hoặc lưu ý rằng chuỗi dự báo không thể hiện biến động.\"}"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "case_id": "H51",
+  "question": "Trong 12 tháng tới, tuyến 70 dự kiến phục vụ bao nhiêu lượt hành khách?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 36,
+    "n_train": 24,
+    "n_test": 12,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 8.661504707997665,
+    "load_schema": 0.0023605840033269487,
+    "sql_generation": 9.824932333001925,
+    "sql_execution_and_repair": 0.006502290998469107,
+    "forecast": 55.70068404199992,
+    "explanation": 25.906017792003695,
+    "end_to_end": 100.10203937500046
+  },
+  "total_tokens": 17214,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

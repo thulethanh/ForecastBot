@@ -1,0 +1,24 @@
+{
+  "case_id": "M19",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo năm cho đúng sản phẩm, cửa hàng và bang; nêu đầy đủ ba giá trị dự báo 0.0 cho 2014–2016. Các thông tin về 3 điểm lịch sử, phạm vi 2011–2013, chế độ single, số bước và trọng số đều khớp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và giúp người dùng nhận biết mức dự báo ổn định ở 0.0 trong toàn bộ kỳ dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.2848755000013625,
+    "input_tokens": 2261,
+    "output_tokens": 244,
+    "total_tokens": 2505,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo năm cho đúng sản phẩm, cửa hàng và bang; nêu đầy đủ ba giá trị dự báo 0.0 cho 2014–2016. Các thông tin về 3 điểm lịch sử, phạm vi 2011–2013, chế độ single, số bước và trọng số đều khớp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và giúp người dùng nhận biết mức dự báo ổn định ở 0.0 trong toàn bộ kỳ dự báo.\"}"
+  }
+}

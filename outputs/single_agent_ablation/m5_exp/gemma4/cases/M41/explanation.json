@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu M5, áp dụng cho item_id 'HOUSEHOLD_1_077' tại cửa hàng 'TX_3' (bang TX), cho thấy một mức dự báo ổn định là 84.0 đơn vị hàng năm trong suốt 5 năm tới (từ 2017 đến 2021).",
+  "insights": [
+    "Dự báo được thực hiện bằng chế độ 'single' (đơn), sử dụng trọng số kết hợp giữa ngắn hạn (60%) và dài hạn (40%).",
+    "Mức dự báo 84.0 được duy trì ổn định và không thay đổi qua tất cả 5 bước dự báo, cho thấy một xu hướng ổn định được mô hình nhận diện.",
+    "Phân tích này dựa trên 6 điểm dữ liệu lịch sử (từ 2011 đến 2016)."
+  ],
+  "chart_note": "Các giá trị dự báo (yhat) là các ước tính toán học và không đại diện cho các giá trị thực tế trong tương lai."
+}

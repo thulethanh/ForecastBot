@@ -1,0 +1,33 @@
+{
+  "case_id": "M13",
+  "question": "Trong 3 quý tới, lượng bán của sản phẩm HOBBIES_1_173 tại bang CA dự kiến như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 19,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 47.1840518329991,
+    "load_schema": 0.002785000004223548,
+    "sql_generation": 70.20884504199785,
+    "sql_execution_and_repair": 0.040153417008696124,
+    "forecast": 181.9486561250087,
+    "explanation": 73.64019308298884,
+    "end_to_end": 373.02472845801094
+  },
+  "total_tokens": 7736,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

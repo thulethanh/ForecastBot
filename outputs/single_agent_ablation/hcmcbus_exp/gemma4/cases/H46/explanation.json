@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS, áp dụng cho tuyến 150 của nhà khai thác HTX-195, trong vòng 60 ngày tới (từ 2024-11-02 đến 2024-12-31). Mô hình đã sử dụng phương pháp 'deterministic_recent_mean' và cung cấp một giá trị dự báo ổn định và không thay đổi trong toàn bộ giai đoạn dự báo.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', kết hợp trọng số 60% từ cửa sổ ngắn hạn (180 ngày) và 40% từ cửa sổ dài hạn (365 ngày).",
+    "Do trạng thái 'fallback_used' là true, giá trị dự báo được tính toán dựa trên một cơ chế dự phòng, dẫn đến việc duy trì một giá trị hằng số cho tất cả 60 bước thời gian.",
+    "Giá trị dự báo ổn định là 13769.8571 cho mọi ngày trong phạm vi dự báo, cho thấy sự ổn định cao hoặc việc áp dụng một giá trị trung bình xác định."
+  ],
+  "chart_note": "Phạm vi dự báo bao gồm 60 ngày, bắt đầu từ ngày 2024-11-02 và kết thúc vào ngày 2024-12-31. Tất cả các điểm dữ liệu dự báo (yhat) đều giữ giá trị 13769.8571."
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "M62",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 6 điểm dữ liệu từ 2011-01-01 đến 2016-01-01.\" Không có thông tin nào xác nhận việc huấn luyện mô hình trên các điểm dữ liệu này; dữ liệu chỉ cho biết phạm vi lịch sử và cửa sổ đầu vào dự báo."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu 5 năm, nêu đúng các mốc dự báo 2017–2021 và mức 751.5, đồng thời trung bình lịch sử 751.5 cũng khớp dữ liệu. Nội dung rõ ràng, ngắn gọn và giúp hiểu dự báo đi ngang. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên 6 điểm dữ liệu, trong khi thông tin cung cấp chỉ xác nhận có 6 điểm lịch sử và các cửa sổ dự báo, không xác nhận quá trình huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.105106666000211,
+    "input_tokens": 2241,
+    "output_tokens": 341,
+    "total_tokens": 2582,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 6 điểm dữ liệu từ 2011-01-01 đến 2016-01-01.\\\" Không có thông tin nào xác nhận việc huấn luyện mô hình trên các điểm dữ liệu này; dữ liệu chỉ cho biết phạm vi lịch sử và cửa sổ đầu vào dự báo.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu 5 năm, nêu đúng các mốc dự báo 2017–2021 và mức 751.5, đồng thời trung bình lịch sử 751.5 cũng khớp dữ liệu. Nội dung rõ ràng, ngắn gọn và giúp hiểu dự báo đi ngang. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên 6 điểm dữ liệu, trong khi thông tin cung cấp chỉ xác nhận có 6 điểm lịch sử và các cửa sổ dự báo, không xác nhận quá trình huấn luyện.\"}"
+  }
+}

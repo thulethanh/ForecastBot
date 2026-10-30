@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOBBIES_1_173 tại CA (M5)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho HOBBIES_1_173 tại CA trong 3 quý tới. Giá trị dự báo cho thấy xu hướng tăng nhẹ và ổn định qua các quý.",
+  "insights": [
+    "Trong 3 quý dự báo, giá trị được dự đoán tăng dần: từ 279.2 (2015-10-01) lên 280.4 (2016-01-01), và tiếp tục tăng lên 281.6 (2016-04-01).",
+    "Các giá trị dự báo này cao hơn đáng kể so với mức trung bình lịch sử (179.79)."
+  ],
+  "chart_note": "Bản đồ này được xây dựng dựa trên 19 điểm dữ liệu lịch sử từ 2011-01-01 đến 2015-07-01. ForecastBot sử dụng mô hình ensemble với trọng số (weights) 0.6 cho h8 và 0.4 cho h12 để đưa ra dự báo cho 3 bước tiếp theo."
+}

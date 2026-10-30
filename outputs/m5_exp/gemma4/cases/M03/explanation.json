@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho FOODS_2_069 tại CA trong 30 ngày",
+  "summary_text": "Dự báo cho FOODS_2_069 tại CA trong 30 ngày (từ 2016-03-26 đến 2016-04-24) cho thấy mức dự báo dao động trong khoảng từ 1.0 đến 4.0. Các giá trị dự báo có xu hướng biến động theo chu kỳ, với các đỉnh điểm dự kiến vào ngày 2016-04-01 (4.0), 2016-04-16 (4.0), và 2016-04-23 (4.0).",
+  "insights": [
+    "Trong 30 ngày dự báo, mức dự báo cao nhất đạt 4.0 vào các ngày 2016-04-01, 2016-04-16 và 2016-04-23.",
+    "Mức dự báo thấp nhất là 1.0, xuất hiện vào các ngày 2016-03-28, 2016-04-03, 2016-04-10, 2016-04-08 và 2016-04-17.",
+    "Các ngày dự báo có xu hướng tăng trưởng mạnh mẽ vào giai đoạn đầu và cuối của chu kỳ, với nhiều ngày đạt mức 2.0 hoặc 3.0."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên dữ liệu lịch sử từ 2011-01-29 đến 2016-03-25 (1883 điểm dữ liệu). ForecastBot đã tạo ra dự báo cho 30 bước tiếp theo, từ 2016-03-26 đến 2016-04-24."
+}

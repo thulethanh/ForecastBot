@@ -1,0 +1,33 @@
+{
+  "case_id": "H27",
+  "question": "Cho tôi dự báo lượng khách của tuyến 15 trong 1 tháng tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 36,
+    "n_train": 35,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 34.047092332999455,
+    "load_schema": 0.00677995799924247,
+    "sql_generation": 55.94207291699422,
+    "sql_execution_and_repair": 0.018188458008808084,
+    "forecast": 168.48891566699604,
+    "explanation": 61.61859062498843,
+    "end_to_end": 320.121696000002
+  },
+  "total_tokens": 8064,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

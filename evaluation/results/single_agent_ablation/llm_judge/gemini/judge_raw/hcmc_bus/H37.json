@@ -1,0 +1,24 @@
+{
+  "case_id": "H37",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 122, đơn vị vận hành HTX-195 và chân trời 12 quý. Nội dung phản ánh đúng mẫu trong dự báo: mức dự báo nhìn chung tăng qua các năm, Quý 4 là mức cao nhất và Quý 3 thấp hơn trong từng năm dự báo. Cách trình bày rõ ràng, ngắn gọn và ghi đúng phạm vi lịch sử hiển thị. Tuy nhiên, giải thích chưa nêu các mức dự báo cụ thể hoặc độ lớn biến động, nên giá trị thực tế cho việc đọc kết quả còn có thể đầy đủ hơn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.386725332937203,
+    "input_tokens": 2522,
+    "output_tokens": 298,
+    "total_tokens": 2820,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 122, đơn vị vận hành HTX-195 và chân trời 12 quý. Nội dung phản ánh đúng mẫu trong dự báo: mức dự báo nhìn chung tăng qua các năm, Quý 4 là mức cao nhất và Quý 3 thấp hơn trong từng năm dự báo. Cách trình bày rõ ràng, ngắn gọn và ghi đúng phạm vi lịch sử hiển thị. Tuy nhiên, giải thích chưa nêu các mức dự báo cụ thể hoặc độ lớn biến động, nên giá trị thực tế cho việc đọc kết quả còn có thể đầy đủ hơn.\"}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 31, XKSG) trong 12 tháng tới cho thấy một xu hướng tăng trưởng ổn định và liên tục. Giá trị dự báo bắt đầu ở mức 63,000 vào tháng 1 năm 2024 và tăng dần đều đặn lên 74,000 vào tháng 12 năm 2024.",
+  "insights": [
+    "Xu hướng dự báo cho thấy sự tăng trưởng đều đặn hàng tháng trong suốt 12 tháng, không có dấu hiệu suy giảm.",
+    "Mô hình dự báo được sử dụng là 'single' (đơn), với trọng số 60% dành cho dữ liệu ngắn hạn và 40% dành cho dữ liệu dài hạn."
+  ],
+  "chart_note": "Dự báo được xây dựng dựa trên 24 điểm dữ liệu lịch sử, bao gồm khoảng thời gian từ tháng 1 năm 2022 đến tháng 12 năm 2023."
+}

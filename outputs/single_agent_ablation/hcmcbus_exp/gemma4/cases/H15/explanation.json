@@ -1,0 +1,11 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS, tập trung vào tuyến đường 39 (nhóm xe 3B.1_ML), với độ chi tiết theo quý. Mô hình đã dự đoán mức tăng trưởng liên tục trong 8 quý tiếp theo, từ quý 1 năm 2025 đến quý 4 năm 2026.",
+  "insights": [
+    "Dự báo được thực hiện dựa trên 12 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-10-01), với mức trung bình lịch sử là 81,098.33.",
+    "Xu hướng dự báo cho thấy sự tăng trưởng ổn định và mạnh mẽ qua các quý, với giá trị dự kiến tăng từ 93,690.5 (Q1/2025) lên 126,167.0 (Q4/2026).",
+    "Mô hình sử dụng phương pháp 'single' và kết hợp trọng số 60% từ dữ liệu ngắn hạn và 40% từ dữ liệu dài hạn để đưa ra dự báo.",
+    "Phạm vi dự báo bao gồm 8 bước (quý), kéo dài từ 2025-01-01 đến 2026-10-01."
+  ],
+  "chart_note": "Các giá trị được trình bày là dự báo (yhat) và chỉ phản ánh xu hướng dựa trên dữ liệu lịch sử, không phải giá trị thực tế trong tương lai."
+}

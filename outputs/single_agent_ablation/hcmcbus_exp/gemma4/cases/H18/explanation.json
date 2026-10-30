@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 46, HTX-ThanhSon) trong hai năm tới (2023 và 2024) được xác định là 459,979.0 đơn vị mỗi năm. Giá trị dự báo này được duy trì ổn định qua các năm.",
+  "insights": [
+    "Do chỉ có một điểm dữ liệu lịch sử duy nhất (năm 2022), mô hình đã sử dụng phương pháp dự báo đơn (single mode) và duy trì giá trị dự báo bằng với giá trị trung bình lịch sử.",
+    "Các tham số dự báo được áp dụng là độ chi tiết theo năm (yearly granularity) cho tuyến 46 của HTX-ThanhSon."
+  ],
+  "chart_note": "Dự báo được thực hiện cho 2 bước thời gian (2023 và 2024) với giá trị dự kiến (yhat) là 459,979.0."
+}

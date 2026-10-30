@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 3 tháng cho mặt hàng FOODS_3_718 tại cửa hàng CA_3. Dự báo cho thấy doanh số bán hàng sẽ là khoảng 0,4 đơn vị vào tháng 2 năm 2016, sau đó là 0,0 đơn vị cho tháng 3 và tháng 4 năm 2016.",
+  "insights": [
+    "Dự báo cho thấy doanh số bán hàng giảm đáng kể xuống gần bằng không, khác biệt rõ rệt so với mức trung bình lịch sử khoảng 52 đơn vị mỗi tháng.",
+    "Mô hình dự báo là một tổ hợp, trong đó xu hướng gần đây (24 tháng qua) có trọng số cao hơn (60%). Điều này cho thấy dự báo thấp bị ảnh hưởng mạnh mẽ bởi sự sụt giảm doanh số trong thời gian gần đây."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số bán hàng hàng tháng trong quá khứ từ tháng 1 năm 2011 đến tháng 1 năm 2016, cùng với dự báo cho 3 tháng tiếp theo."
+}

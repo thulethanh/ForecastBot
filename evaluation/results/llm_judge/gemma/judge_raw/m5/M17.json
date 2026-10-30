@@ -1,0 +1,26 @@
+{
+  "case_id": "M17",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 5 điểm dữ liệu\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 5 quan sát, không xác nhận biểu đồ hoặc mô hình được huấn luyện trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, năm dự báo và nêu chính xác giá trị 1076.0. Phần trung bình lịch sử 202.4, phạm vi 2011–2015 và so sánh mức dự báo cao hơn trung bình đều được dữ liệu hỗ trợ. Cách trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo. Tuy nhiên, câu nói biểu đồ được “huấn luyện” trên 5 điểm không được xác nhận; window_info chỉ cho biết các cửa sổ dự báo có 5 quan sát."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.6579274170071585,
+    "input_tokens": 2164,
+    "output_tokens": 354,
+    "total_tokens": 2518,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 5 điểm dữ liệu\\\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết hai cửa sổ dự báo đều có 5 quan sát, không xác nhận biểu đồ hoặc mô hình được huấn luyện trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, năm dự báo và nêu chính xác giá trị 1076.0. Phần trung bình lịch sử 202.4, phạm vi 2011–2015 và so sánh mức dự báo cao hơn trung bình đều được dữ liệu hỗ trợ. Cách trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo. Tuy nhiên, câu nói biểu đồ được “huấn luyện” trên 5 điểm không được xác nhận; window_info chỉ cho biết các cửa sổ dự báo có 5 quan sát.\"}"
+  }
+}

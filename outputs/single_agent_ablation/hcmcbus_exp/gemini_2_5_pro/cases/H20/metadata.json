@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H20",
+  "question": "Tôi muốn xem xu hướng lượng hành khách của tuyến 48 do HTX-195 vận hành trong 5 năm tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 5,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.002551250043325126,
+    "request_sql": 11.436009041965008,
+    "sql_execution_and_repair": 0.034220875008031726,
+    "forecast": 15.88082033302635,
+    "explanation": 10.607792375027202,
+    "end_to_end": 37.96154445805587
+  },
+  "total_tokens": 6976,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

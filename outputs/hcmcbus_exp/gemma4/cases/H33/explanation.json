@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 45, XKSG) theo quý cho 2 kỳ tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo các giá trị cho HCMC_BUS (Tuyến 45, XKSG) trong hai quý tới. Dự báo cho quý 3 năm 2024 (2024-07-01) là 205,776.2, và dự báo cho quý 4 năm 2024 (2024-10-01) là 215,607.0.",
+  "insights": [
+    "Giá trị dự báo cho quý 4 năm 2024 (215,607.0) cao hơn so với quý 3 năm 2024 (205,776.2), cho thấy xu hướng tăng nhẹ trong hai quý dự báo.",
+    "Giá trị dự báo này nằm gần mức trung bình lịch sử của bộ dữ liệu (227,677.6), nhưng thấp hơn mức tối đa ghi nhận (300,597.0)."
+  ],
+  "chart_note": "Biểu đồ này được tạo bằng mô hình ensemble, sử dụng trọng số 0.6 cho cửa sổ ngắn (h8) và 0.4 cho cửa sổ dài (h10). Mô hình được huấn luyện trên 10 điểm dữ liệu lịch sử, từ 2022-01-01 đến 2024-04-01, và cung cấp dự báo cho 2 bước tiếp theo."
+}

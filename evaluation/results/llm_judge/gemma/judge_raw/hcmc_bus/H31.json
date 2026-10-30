@@ -1,0 +1,26 @@
+{
+  "case_id": "H31",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 28 điểm dữ liệu từ 2022-01-01 đến 2024-04-01.\" Không có thông tin nào xác nhận mô hình được huấn luyện trên các điểm này; dữ liệu chỉ cho biết phạm vi lịch sử và cửa sổ 28 quan sát được dùng cho dự báo."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, chân trời 24 tháng và nêu chính xác mức dự báo cố định 115490.86, trung bình lịch sử 109693.82, phương pháp fallback và thời gian dự báo. Nội dung rõ ràng, cô đọng và giúp hiểu xu hướng đi ngang. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên 28 điểm dữ liệu, trong khi thông tin cung cấp chỉ xác nhận dữ liệu lịch sử/cửa sổ dự báo, không xác nhận việc huấn luyện mô hình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.950446749993716,
+    "input_tokens": 3001,
+    "output_tokens": 341,
+    "total_tokens": 3342,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 28 điểm dữ liệu từ 2022-01-01 đến 2024-04-01.\\\" Không có thông tin nào xác nhận mô hình được huấn luyện trên các điểm này; dữ liệu chỉ cho biết phạm vi lịch sử và cửa sổ 28 quan sát được dùng cho dự báo.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, chân trời 24 tháng và nêu chính xác mức dự báo cố định 115490.86, trung bình lịch sử 109693.82, phương pháp fallback và thời gian dự báo. Nội dung rõ ràng, cô đọng và giúp hiểu xu hướng đi ngang. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên 28 điểm dữ liệu, trong khi thông tin cung cấp chỉ xác nhận dữ liệu lịch sử/cửa sổ dự báo, không xác nhận việc huấn luyện mô hình.\"}"
+  }
+}

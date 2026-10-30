@@ -1,0 +1,27 @@
+{
+  "case_id": "H17",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 2 điểm dữ liệu lịch sử.\" Không có thông tin trực tiếp về việc huấn luyện mô hình trong history summary hoặc forecast result.",
+      "\"Dự báo ... được tạo ra bằng chế độ single, sử dụng trọng số 0.6 cho cửa sổ ngắn (h2) và 0.4 cho cửa sổ dài (h2).\" Forecast result nêu selected_mode là single và có các trọng số, nhưng không xác nhận các trọng số này đã được dùng để tạo dự báo single."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà khai thác, kỳ dự báo và nêu chính xác phạm vi lịch sử, trung bình lịch sử तथा giá trị dự báo. Câu so sánh dự báo cao hơn trung bình cũng được hỗ trợ bởi số liệu. Trình bày ngắn gọn, rõ ràng và giúp nhận biết mức dự báo. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên 2 điểm nhưng dữ liệu chỉ cho biết cửa sổ đầu vào, không xác nhận quá trình huấn luyện. Việc nói chế độ single sử dụng các trọng số cũng chưa được xác nhận trực tiếp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.426863500004401,
+    "input_tokens": 2150,
+    "output_tokens": 412,
+    "total_tokens": 2562,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 2 điểm dữ liệu lịch sử.\\\" Không có thông tin trực tiếp về việc huấn luyện mô hình trong history summary hoặc forecast result.\",\"\\\"Dự báo ... được tạo ra bằng chế độ single, sử dụng trọng số 0.6 cho cửa sổ ngắn (h2) và 0.4 cho cửa sổ dài (h2).\\\" Forecast result nêu selected_mode là single và có các trọng số, nhưng không xác nhận các trọng số này đã được dùng để tạo dự báo single.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà khai thác, kỳ dự báo và nêu chính xác phạm vi lịch sử, trung bình lịch sử तथा giá trị dự báo. Câu so sánh dự báo cao hơn trung bình cũng được hỗ trợ bởi số liệu. Trình bày ngắn gọn, rõ ràng và giúp nhận biết mức dự báo. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên 2 điểm nhưng dữ liệu chỉ cho biết cửa sổ đầu vào, không xác nhận quá trình huấn luyện. Việc nói chế độ single sử dụng các trọng số cũng chưa được xác nhận trực tiếp.\"}"
+  }
+}

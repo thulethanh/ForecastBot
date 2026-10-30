@@ -1,0 +1,24 @@
+{
+  "case_id": "H48",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng đối tượng, tần suất và kỳ dự báo 1 tháng. Các số liệu dự báo 49.382, trung bình lịch sử 46.558, khoảng 5.600–56.493, phạm vi lịch sử và 24 điểm dữ liệu đều khớp thông tin được cung cấp. Nội dung ngắn gọn, rõ ràng và giúp người dùng đặt mức dự báo trong bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.013265957997646,
+    "input_tokens": 2153,
+    "output_tokens": 251,
+    "total_tokens": 2404,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng đối tượng, tần suất và kỳ dự báo 1 tháng. Các số liệu dự báo 49.382, trung bình lịch sử 46.558, khoảng 5.600–56.493, phạm vi lịch sử và 24 điểm dữ liệu đều khớp thông tin được cung cấp. Nội dung ngắn gọn, rõ ràng và giúp người dùng đặt mức dự báo trong bối cảnh lịch sử.\"}"
+  }
+}

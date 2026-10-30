@@ -1,0 +1,26 @@
+{
+  "case_id": "H03",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"ForecastBot đã huấn luyện mô hình trên dữ liệu lịch sử\" không được history summary hoặc forecast_result xác nhận; kết quả chỉ cho biết chế độ dự phòng deterministic_recent_mean, các cửa sổ và trọng số."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo tuyến 23/nhóm 3B.1_ML trong 30 ngày, nêu đúng khoảng thời gian, mức dự báo cố định 2904.7143, thống kê lịch sử và việc dùng fallback. Các số liệu lịch sử, dự báo, trọng số 60/40 và cửa sổ h180/h365 đều phù hợp dữ liệu cung cấp. Tuy nhiên, chart_note khẳng định ForecastBot đã “huấn luyện mô hình” trên dữ liệu lịch sử, trong khi thông tin đầu vào không xác nhận hoạt động huấn luyện/fine-tune. Trình bày rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.370445082997321,
+    "input_tokens": 3233,
+    "output_tokens": 560,
+    "total_tokens": 3793,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"ForecastBot đã huấn luyện mô hình trên dữ liệu lịch sử\\\" không được history summary hoặc forecast_result xác nhận; kết quả chỉ cho biết chế độ dự phòng deterministic_recent_mean, các cửa sổ và trọng số.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo tuyến 23/nhóm 3B.1_ML trong 30 ngày, nêu đúng khoảng thời gian, mức dự báo cố định 2904.7143, thống kê lịch sử và việc dùng fallback. Các số liệu lịch sử, dự báo, trọng số 60/40 và cửa sổ h180/h365 đều phù hợp dữ liệu cung cấp. Tuy nhiên, chart_note khẳng định ForecastBot đã “huấn luyện mô hình” trên dữ liệu lịch sử, trong khi thông tin đầu vào không xác nhận hoạt động huấn luyện/fine-tune. Trình bày rõ ràng và hữu ích.\"}"
+  }
+}

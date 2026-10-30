@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho mặt hàng FOODS_1_002 tại cửa hàng WI_1 (bang WI) trong tháng 4 năm 2016 là 31.0. Kết quả này được tính toán bằng mô hình ensemble, kết hợp trọng số 60% từ xu hướng ngắn hạn và 40% từ xu hướng dài hạn.",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 63 điểm dữ liệu, trải dài từ 2011-01-01 đến 2016-03-01.",
+    "Mô hình dự báo sử dụng phương pháp ensemble, với trọng số 60% cho cửa sổ ngắn hạn (24 điểm) và 40% cho cửa sổ dài hạn (36 điểm)."
+  ],
+  "chart_note": "Giá trị dự báo (yhat) là 31.0, áp dụng cho bước thời gian 1, bắt đầu từ ngày 2016-04-01."
+}

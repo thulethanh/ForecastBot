@@ -1,0 +1,26 @@
+{
+  "case_id": "M15",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Câu \"quý cuối cùng kết thúc vào 2016-04-01\" không được xác nhận trực tiếp: forecast chỉ cung cấp mốc ds là 2016-04-01, không nêu đây là ngày kết thúc quý."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 8 quý cho đúng item và bang, trình bày rõ mức dự báo giảm dần, đối chiếu hợp lý với thống kê lịch sử và nêu đúng cấu hình ensemble cùng trọng số/cửa sổ. Các số liệu lịch sử và dự báo đều khớp dữ liệu được cung cấp. Điểm trung thực giảm nhẹ vì diễn giải mốc ds cuối là ngày “kết thúc” quý, trong khi kết quả chỉ xác định mốc thời gian 2016-04-01."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 11.683946207995177,
+    "input_tokens": 2468,
+    "output_tokens": 670,
+    "total_tokens": 3138,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Câu \\\"quý cuối cùng kết thúc vào 2016-04-01\\\" không được xác nhận trực tiếp: forecast chỉ cung cấp mốc ds là 2016-04-01, không nêu đây là ngày kết thúc quý.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 8 quý cho đúng item và bang, trình bày rõ mức dự báo giảm dần, đối chiếu hợp lý với thống kê lịch sử và nêu đúng cấu hình ensemble cùng trọng số/cửa sổ. Các số liệu lịch sử và dự báo đều khớp dữ liệu được cung cấp. Điểm trung thực giảm nhẹ vì diễn giải mốc ds cuối là ngày “kết thúc” quý, trong khi kết quả chỉ xác định mốc thời gian 2016-04-01.\"}"
+  }
+}

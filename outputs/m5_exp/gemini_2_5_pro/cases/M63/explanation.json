@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id HOUSEHOLD_2_483 tại store_id WI_2 cho 10 năm tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử 6 năm (2011-01-01 đến 2016-01-01) với giá trị trung bình là 219.33, ForecastBot đã tạo ra dự báo cho 10 năm tiếp theo (2017-01-01 đến 2026-01-01).",
+  "insights": [
+    "Giá trị dự báo cao nhất là 352.0, dự kiến xảy ra vào các năm 2019-01-01 và 2025-01-01.",
+    "Giá trị dự báo thấp nhất là 89.0, dự kiến vào năm 2022-01-01.",
+    "Giá trị dự báo trung bình trong 10 năm tới là 221.9, tương đương với mức trung bình lịch sử là 219.33."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01 (6 điểm dữ liệu) và dự báo của ForecastBot cho 10 năm tiếp theo đến 2026-01-01."
+}

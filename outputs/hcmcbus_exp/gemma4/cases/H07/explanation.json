@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS cho tuyến 29 của HTX-ThanhSon",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo lưu lượng cho tuyến 29 của HTX-ThanhSon trong 3 tháng tới như sau: Tháng 1 năm 2024 dự kiến đạt 70150.0; Tháng 2 năm 2024 dự kiến đạt 71500.0; và Tháng 3 năm 2024 dự kiến đạt 72800.0.",
+  "insights": [
+    "Trong 3 tháng dự báo, lưu lượng được dự đoán có xu hướng tăng dần, từ 70150.0 (Tháng 1/2024) lên 72800.0 (Tháng 3/2024).",
+    "Các giá trị dự báo này cao hơn mức trung bình lịch sử (64217.54) và nằm trong phạm vi lịch sử (25016.0 - 84715.0)."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 24 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-12-01. ForecastBot đã sử dụng mô hình 'single' với trọng số short (0.6) và long (0.4) để tạo ra dự báo cho 3 bước tiếp theo."
+}

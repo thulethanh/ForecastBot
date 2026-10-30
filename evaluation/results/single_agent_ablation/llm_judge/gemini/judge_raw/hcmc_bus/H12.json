@@ -1,0 +1,24 @@
+{
+  "case_id": "H12",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 2 quý cho đúng tuyến 34 và HTX 26, nêu đầy đủ hai mức dự báo cùng thời điểm tương ứng. Các số liệu được làm tròn nhất quán với forecast và trung bình lịch sử. Mô tả 10 quý lịch sử phù hợp với phạm vi dữ liệu; đồng thời giải thích đúng cấu trúc ensemble gồm cửa sổ ngắn 8 quý, dài 10 quý và trọng số ngắn hạn 60%. Nội dung rõ ràng, ngắn gọn và giúp người dùng so sánh dự báo với mức trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.371074000024237,
+    "input_tokens": 2229,
+    "output_tokens": 298,
+    "total_tokens": 2527,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 2 quý cho đúng tuyến 34 và HTX 26, nêu đầy đủ hai mức dự báo cùng thời điểm tương ứng. Các số liệu được làm tròn nhất quán với forecast và trung bình lịch sử. Mô tả 10 quý lịch sử phù hợp với phạm vi dữ liệu; đồng thời giải thích đúng cấu trúc ensemble gồm cửa sổ ngắn 8 quý, dài 10 quý và trọng số ngắn hạn 60%. Nội dung rõ ràng, ngắn gọn và giúp người dùng so sánh dự báo với mức trung bình lịch sử.\"}"
+  }
+}

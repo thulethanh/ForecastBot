@@ -1,0 +1,373 @@
+{
+  "case_id": "M55",
+  "question": "Tôi muốn dự báo nhu cầu của sản phẩm HOBBIES_1_297 trong 3 quý tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "forecast_request": {
+    "intent": "forecast_request",
+    "dataset": "M5",
+    "granularity": "quarter",
+    "horizon": 3,
+    "filters": {
+      "item_id": "HOBBIES_1_297"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": ""
+  },
+  "generated_sql": "SELECT DATE_TRUNC('quarter', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOBBIES_1_297' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "Truy vấn này tổng hợp doanh số bán hàng theo quý cho sản phẩm có mã 'HOBBIES_1_297'.",
+  "sql_result": [
+    {
+      "ds": "2011-01-01",
+      "y": 522.0
+    },
+    {
+      "ds": "2011-04-01",
+      "y": 665.0
+    },
+    {
+      "ds": "2011-07-01",
+      "y": 666.0
+    },
+    {
+      "ds": "2011-10-01",
+      "y": 723.0
+    },
+    {
+      "ds": "2012-01-01",
+      "y": 622.0
+    },
+    {
+      "ds": "2012-04-01",
+      "y": 614.0
+    },
+    {
+      "ds": "2012-07-01",
+      "y": 144.0
+    },
+    {
+      "ds": "2012-10-01",
+      "y": 10.0
+    },
+    {
+      "ds": "2013-01-01",
+      "y": 452.0
+    },
+    {
+      "ds": "2013-04-01",
+      "y": 541.0
+    },
+    {
+      "ds": "2013-07-01",
+      "y": 579.0
+    },
+    {
+      "ds": "2013-10-01",
+      "y": 567.0
+    },
+    {
+      "ds": "2014-01-01",
+      "y": 444.0
+    },
+    {
+      "ds": "2014-04-01",
+      "y": 454.0
+    },
+    {
+      "ds": "2014-07-01",
+      "y": 519.0
+    },
+    {
+      "ds": "2014-10-01",
+      "y": 500.0
+    },
+    {
+      "ds": "2015-01-01",
+      "y": 434.0
+    },
+    {
+      "ds": "2015-04-01",
+      "y": 450.0
+    },
+    {
+      "ds": "2015-07-01",
+      "y": 563.0
+    },
+    {
+      "ds": "2015-10-01",
+      "y": 628.0
+    },
+    {
+      "ds": "2016-01-01",
+      "y": 699.0
+    },
+    {
+      "ds": "2016-04-01",
+      "y": 161.0
+    }
+  ],
+  "historical_data_summary": {
+    "n_points": 22,
+    "start_date": "2011-01-01",
+    "end_date": "2016-04-01",
+    "min_y": 10.0,
+    "max_y": 723.0,
+    "mean_y": 498.04545454545456
+  },
+  "historical_n": 22,
+  "forecast_history": [
+    {
+      "ds": "2011-01-01",
+      "y": 522.0
+    },
+    {
+      "ds": "2011-04-01",
+      "y": 665.0
+    },
+    {
+      "ds": "2011-07-01",
+      "y": 666.0
+    },
+    {
+      "ds": "2011-10-01",
+      "y": 723.0
+    },
+    {
+      "ds": "2012-01-01",
+      "y": 622.0
+    },
+    {
+      "ds": "2012-04-01",
+      "y": 614.0
+    },
+    {
+      "ds": "2012-07-01",
+      "y": 144.0
+    },
+    {
+      "ds": "2012-10-01",
+      "y": 10.0
+    },
+    {
+      "ds": "2013-01-01",
+      "y": 452.0
+    },
+    {
+      "ds": "2013-04-01",
+      "y": 541.0
+    },
+    {
+      "ds": "2013-07-01",
+      "y": 579.0
+    },
+    {
+      "ds": "2013-10-01",
+      "y": 567.0
+    },
+    {
+      "ds": "2014-01-01",
+      "y": 444.0
+    },
+    {
+      "ds": "2014-04-01",
+      "y": 454.0
+    },
+    {
+      "ds": "2014-07-01",
+      "y": 519.0
+    },
+    {
+      "ds": "2014-10-01",
+      "y": 500.0
+    },
+    {
+      "ds": "2015-01-01",
+      "y": 434.0
+    },
+    {
+      "ds": "2015-04-01",
+      "y": 450.0
+    },
+    {
+      "ds": "2015-07-01",
+      "y": 563.0
+    }
+  ],
+  "test_artifact": {
+    "status": "available",
+    "evaluation_eligible": true,
+    "reason": null,
+    "horizon": 3,
+    "n_test": 3,
+    "test": [
+      {
+        "ds": "2015-10-01",
+        "y": 628.0
+      },
+      {
+        "ds": "2016-01-01",
+        "y": 699.0
+      },
+      {
+        "ds": "2016-04-01",
+        "y": 161.0
+      }
+    ]
+  },
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 19,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "forecast_result": {
+    "forecast": [
+      {
+        "step": 1,
+        "ds": "2015-10-01",
+        "yhat": 453.44
+      },
+      {
+        "step": 2,
+        "ds": "2016-01-01",
+        "yhat": 425.8
+      },
+      {
+        "step": 3,
+        "ds": "2016-04-01",
+        "yhat": 446.08
+      }
+    ],
+    "status": "success",
+    "fallback_used": false,
+    "selected_mode": "ensemble",
+    "weights": {
+      "short": 0.6,
+      "long": 0.4
+    },
+    "window_info": {
+      "short_n": 8,
+      "long_n": 12,
+      "short_window_name": "h8",
+      "long_window_name": "h12"
+    }
+  },
+  "explanation_result": {
+    "title": "Dự báo 3 quý cho HOBBIES_1_297",
+    "summary_text": "Dựa trên 19 điểm dữ liệu lịch sử từ 2011-01-01 đến 2015-07-01, ForecastBot dự báo các giá trị cho 3 quý tiếp theo là 453,44 (cho 2015-10-01), 425,80 (cho 2016-01-01), và 446,08 (cho 2016-04-01). Dữ liệu lịch sử có giá trị trung bình là 498,37, với giá trị thấp nhất là 10,0 và cao nhất là 723,0.",
+    "insights": [
+      "Tất cả các giá trị dự báo (từ 425,80 đến 453,44) đều thấp hơn giá trị trung bình lịch sử (498,37).",
+      "Dự báo cho thấy giá trị sẽ giảm từ quý đầu tiên đến quý thứ hai của giai đoạn dự báo (từ 453,44 xuống 425,80), sau đó tăng trở lại trong quý thứ ba (lên 446,08).",
+      "Mô hình 'ensemble' đã được sử dụng, kết hợp một cửa sổ ngắn hạn (8 điểm dữ liệu) với trọng số 60% và một cửa sổ dài hạn (12 điểm dữ liệu) với trọng số 40%."
+    ],
+    "chart_note": "Biểu đồ hiển thị 19 điểm dữ liệu lịch sử theo quý cho item_id HOBBIES_1_297 từ 2011-01-01 đến 2015-07-01, cùng với dự báo của ForecastBot cho 3 quý tiếp theo."
+  },
+  "status": "success",
+  "timings": {
+    "orchestration": 6.316578625002876,
+    "load_schema": 0.0015357079973910004,
+    "sql_generation": 10.539092583996535,
+    "sql_execution_and_repair": 0.04524854099872755,
+    "forecast": 78.60663570900215,
+    "explanation": 22.62941149999824,
+    "end_to_end": 118.13855245799641
+  },
+  "traces": [
+    {
+      "stage": "orchestration",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the Orchestration Agent of ForecastBot. Interpret the ORIGINAL user request semantically. Do not use or assume regex/rule-based extraction.\n\nReturn STRICT JSON only with exactly these fields:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS\",\n  \"granularity\": \"day or month or quarter or year\",\n  \"horizon\": integer,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n\nCRITICAL OUTPUT CONTRACT:\n- intent MUST be exactly \"forecast_request\".\n- filters MUST ALWAYS be one JSON object/dictionary, NEVER a list/array.\n- Put every explicitly stated filter directly inside the filters object.\n- If no filter is explicitly stated, return \"filters\": {}.\n- Never represent filters as a list.\n\nCorrect:\n\"filters\": {\"item_id\": \"FOODS_3_228\"}\n\nCorrect with multiple filters:\n\"filters\": {\n  \"item_id\": \"FOODS_3_540\",\n  \"store_id\": \"CA_4\"\n}\n\nIncorrect:\n\"filters\": [{\"item_id\": \"FOODS_3_228\"}]\n\nIncorrect:\n\"filters\": [{\"field\": \"item_id\", \"value\": \"FOODS_3_228\"}]\n\nValid datasets: M5, HCMC_BUS.\n\nGranularity mapping:\n- ngày/day = day\n- tháng/month = month\n- quý/quarter = quarter\n- năm/year = year\n\nAllowed horizons:\n- day=[7,28,30,60,90]\n- month=[1,3,6,12,24]\n- quarter=[1,2,3,4,8,12]\n- year=[1,2,3,5,10]\n\nM5 filters:\n- item_id\n- store_id\n- state_id\n- cat_id\n- dept_id\n- id\n\nM5 examples:\n- FOODS_1_001 means item_id=\"FOODS_1_001\".\n- CA_1/TX_1/WI_1 mean store_id when explicitly stated as a store.\n- CA/TX/WI mean state_id when explicitly stated as a state.\n\nHCMC_BUS filters:\n- route_id\n- route_name\n- operator\n- vehicle_group\n- start_stop\n- end_stop\n\nHCMC_BUS examples and interpretation:\n- \"tuyến 55\" means route_id=\"55\".\n- \"tuyến số 55\" means route_id=\"55\".\n- \"tuyến xe buýt 55\" means route_id=\"55\".\n- \"tuyến bus 55\" means route_id=\"55\".\n- Generic words such as \"tuyến\", \"xe\", \"buýt\", \"buyt\", and \"bus\" must never become route_id.\n- route_id, operator, vehicle_group, route_name, start_stop, and end_stop are independent filters and may coexist when explicitly stated.\n- Example: \"Tuyến 19 do HTX-195 vận hành, với nhóm xe 4_CNG.1\" means:\n  {\"route_id\":\"19\",\"operator\":\"HTX-195\",\"vehicle_group\":\"4_CNG.1\"}\n\nExtract ALL explicitly stated filters independently.\nPreserve identifier punctuation such as _, -, and .\nNever invent a filter or value.\n\nIf a required field dataset/granularity/horizon cannot be inferred:\n- use null;\n- list it in missing_fields;\n- set needs_clarification=true;\n- write a concise Vietnamese clarification question in user_message_for_clarification.\n\nOtherwise:\n- missing_fields=[]\n- needs_clarification=false\n- user_message_for_clarification=\"\"\n\nIf a stated horizon is unsupported, choose the nearest allowed horizon for the inferred granularity.\n\nOriginal user query:\nTôi muốn dự báo nhu cầu của sản phẩm HOBBIES_1_297 trong 3 quý tiếp theo.\n\nReturn STRICT JSON only. No markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5\",\n  \"granularity\": \"quarter\",\n  \"horizon\": 3,\n  \"filters\": {\n    \"item_id\": \"HOBBIES_1_297\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n```",
+      "input_tokens": 956,
+      "output_tokens": 722,
+      "total_tokens": 1678,
+      "llm_time_s": 6.316475832994911,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "sql_generate",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the SQL Agent of ForecastBot. Generate exactly one safe PostgreSQL SELECT for time-series history.\nForecast request: {\"intent\": \"forecast_request\", \"dataset\": \"M5\", \"granularity\": \"quarter\", \"horizon\": 3, \"filters\": {\"item_id\": \"HOBBIES_1_297\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\nSchema context: \nDataset: M5\n\nYou are working with a PostgreSQL database for M5 retail sales forecasting.\n\n1. Table: m5_sales_train\n- id (TEXT): Unique series identifier\n- item_id (TEXT): Product identifier\n- dept_id (TEXT): Department identifier\n- cat_id (TEXT): Category identifier\n- store_id (TEXT): Store identifier\n- state_id (TEXT): State identifier\n- d (TEXT): Day key, not a real calendar date\n- sales (NUMERIC): Daily sales quantity\n\n2. Table: m5_calendar\n- d (TEXT): Day key\n- date (DATE): Real calendar date\n\nRelationship:\n- m5_sales_train.d = m5_calendar.d\n\nBusiness meaning:\n- m5_sales_train is the forecasting fact table.\n- sales is the forecasting target.\n- m5_calendar provides the real calendar date.\n- Always use m5_calendar.date as the true time axis.\n\nSQL rules: \n- Use m5_sales_train as the fact table with alias s.\n- Always join m5_calendar as alias c on s.d = c.d.\n- Always return exactly two columns: ds and y.\n- For day granularity, use c.date as ds.\n- For month granularity, use DATE_TRUNC('month', c.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', c.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', c.date)::date AS ds.\n- Aggregate the forecasting target with SUM(s.sales) AS y.\n- Support filters on item_id, dept_id, cat_id, store_id and state_id.\n- A logical date filter must be translated to c.date after joining m5_calendar.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n\nRequirements: return exactly columns ds and y; use only described tables/columns; apply ALL filters in forecast_request; sort ds ascending; no write/DDL statements. For M5 use m5_calendar.date as the real time axis. For HCMC_BUS use daily_passenger_stats.date as the real time axis. HCMC_BUS operator and vehicle_group are fact filters and may coexist with route_id. Join dimensions only when needed by dimension filters. Aggregate to requested day/month/quarter/year.\nReturn JSON only: {\"status\":\"success\",\"sql\":\"SELECT ...\",\"explanation\":\"short Vietnamese explanation\"}.",
+      "raw_response": "```json\n{\n  \"status\": \"success\",\n  \"sql\": \"SELECT DATE_TRUNC('quarter', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOBBIES_1_297' GROUP BY ds ORDER BY ds ASC;\",\n  \"explanation\": \"Truy vấn này tổng hợp doanh số bán hàng theo quý cho sản phẩm có mã 'HOBBIES_1_297'.\"\n}\n```",
+      "input_tokens": 671,
+      "output_tokens": 1293,
+      "total_tokens": 1964,
+      "llm_time_s": 10.538892208998732,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_short",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive QUARTERLY observations for one time series, ordered from oldest to newest.\nThis is the supplied recent-history window. Use only these past observations.\n\nHistory:\n[567.0, 444.0, 454.0, 519.0, 500.0, 434.0, 450.0, 563.0]\n\nTask:\nForecast the next exactly 3 QUARTERLY values.\n\nRequirements:\n1. Return exactly 3 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f3]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 8",
+      "raw_response": "```json\n{\"forecast\":[433.0,424.0,446.0]}\n```",
+      "input_tokens": 221,
+      "output_tokens": 6253,
+      "total_tokens": 6474,
+      "llm_time_s": 46.24616049999895,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_long",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive QUARTERLY observations for one time series, ordered from oldest to newest.\nThis is the supplied longer-history window. Use only these past observations.\n\nHistory:\n[10.0, 452.0, 541.0, 579.0, 567.0, 444.0, 454.0, 519.0, 500.0, 434.0, 450.0, 563.0]\n\nTask:\nForecast the next exactly 3 QUARTERLY values.\n\nRequirements:\n1. Return exactly 3 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f3]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 12",
+      "raw_response": "```json\n{\"forecast\":[484.1, 428.5, 446.2]}\n```",
+      "input_tokens": 249,
+      "output_tokens": 4098,
+      "total_tokens": 4347,
+      "llm_time_s": 32.36009066599945,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "explanation",
+      "type": "agent",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "attempt": 1,
+      "prompt": "You are the Explanation Agent of ForecastBot. Explain the forecast result in concise, clear Vietnamese.\n\nAll user-facing values in \"title\", \"summary_text\", \"insights\", and \"chart_note\" must be written in Vietnamese, except identifiers, dataset names, model names, product names, and technical terms that should remain unchanged.\n\nUse ONLY the supplied:\n- forecast request,\n- historical summary,\n- forecast result.\n\nDo not invent causes, external facts, unseen actual values, ground truth, test data, backtesting results, or accuracy metrics.\nDo not mention MAE, RMSE, evaluation eligibility, or whether actual future observations are available.\nPrefer quantitative descriptions supported directly by the supplied values; avoid unsupported qualitative claims unless explicitly justified by the supplied statistics.\n\nThe chart_note must describe only the training history and forecast produced by ForecastBot. Do not mention held-out actual/test values because they are not supplied to this agent.\n\nForecast request: {\"intent\": \"forecast_request\", \"dataset\": \"M5\", \"granularity\": \"quarter\", \"horizon\": 3, \"filters\": {\"item_id\": \"HOBBIES_1_297\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\nHistorical summary: {\"n_points\": 19, \"start_date\": \"2011-01-01\", \"end_date\": \"2015-07-01\", \"min_y\": 10.0, \"max_y\": 723.0, \"mean_y\": 498.36842105263156}\nForecast result: {\"forecast\": [{\"step\": 1, \"ds\": \"2015-10-01\", \"yhat\": 453.44}, {\"step\": 2, \"ds\": \"2016-01-01\", \"yhat\": 425.8}, {\"step\": 3, \"ds\": \"2016-04-01\", \"yhat\": 446.08}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"ensemble\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 8, \"long_n\": 12, \"short_window_name\": \"h8\", \"long_window_name\": \"h12\"}}\n\nReturn STRICT JSON only with exactly:\n{\"title\":\"...\",\"summary_text\":\"...\",\"insights\":[\"...\"],\"chart_note\":\"...\"}.\nNo markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n\"title\": \"Dự báo 3 quý cho HOBBIES_1_297\",\n\"summary_text\": \"Dựa trên 19 điểm dữ liệu lịch sử từ 2011-01-01 đến 2015-07-01, ForecastBot dự báo các giá trị cho 3 quý tiếp theo là 453,44 (cho 2015-10-01), 425,80 (cho 2016-01-01), và 446,08 (cho 2016-04-01). Dữ liệu lịch sử có giá trị trung bình là 498,37, với giá trị thấp nhất là 10,0 và cao nhất là 723,0.\",\n\"insights\": [\n\"Tất cả các giá trị dự báo (từ 425,80 đến 453,44) đều thấp hơn giá trị trung bình lịch sử (498,37).\",\n\"Dự báo cho thấy giá trị sẽ giảm từ quý đầu tiên đến quý thứ hai của giai đoạn dự báo (từ 453,44 xuống 425,80), sau đó tăng trở lại trong quý thứ ba (lên 446,08).\",\n\"Mô hình 'ensemble' đã được sử dụng, kết hợp một cửa sổ ngắn hạn (8 điểm dữ liệu) với trọng số 60% và một cửa sổ dài hạn (12 điểm dữ liệu) với trọng số 40%.\"\n],\n\"chart_note\": \"Biểu đồ hiển thị 19 điểm dữ liệu lịch sử theo quý cho item_id HOBBIES_1_297 từ 2011-01-01 đến 2015-07-01, cùng với dự báo của ForecastBot cho 3 quý tiếp theo.\"\n}\n```",
+      "input_tokens": 597,
+      "output_tokens": 2691,
+      "total_tokens": 3288,
+      "llm_time_s": 22.629173084002105,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    }
+  ],
+  "total_tokens": 17751,
+  "chart_status": "success",
+  "chart_error": ""
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H08",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng phạm vi dự báo 6 tháng, đúng tuyến/nhà xe/nhóm xe được yêu cầu. Các mốc và xu hướng nêu ra đều khớp forecast: giảm tháng 7–8, tăng mạnh đến đỉnh tháng 10 rồi giảm dần trong tháng 11–12. So sánh đỉnh 100.941 với mức lịch sử tối đa 100.349, và tháng 8 là 62.273 thấp hơn trung bình lịch sử 70.101, đều được hỗ trợ. Nội dung rõ ràng, ngắn gọn và giúp hiểu mức độ cũng như diễn biến dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.4479488329961896,
+    "input_tokens": 2358,
+    "output_tokens": 245,
+    "total_tokens": 2603,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng phạm vi dự báo 6 tháng, đúng tuyến/nhà xe/nhóm xe được yêu cầu. Các mốc và xu hướng nêu ra đều khớp forecast: giảm tháng 7–8, tăng mạnh đến đỉnh tháng 10 rồi giảm dần trong tháng 11–12. So sánh đỉnh 100.941 với mức lịch sử tối đa 100.349, và tháng 8 là 62.273 thấp hơn trung bình lịch sử 70.101, đều được hỗ trợ. Nội dung rõ ràng, ngắn gọn và giúp hiểu mức độ cũng như diễn biến dự báo.\"}"
+  }
+}

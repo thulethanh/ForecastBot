@@ -1,0 +1,26 @@
+{
+  "case_id": "M25",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Giải thích nêu tổng dự báo là 91.2 đơn vị và trung bình 1.52 đơn vị/ngày, nhưng tổng 60 giá trị forecast là 89.0 đơn vị, tương ứng khoảng 1.48 đơn vị/ngày."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, khu vực và chân trời 60 ngày; trình bày ngắn gọn, dễ hiểu. Các mốc thời gian, số điểm lịch sử, trung bình lịch sử 0.58, đỉnh 3.2 ngày 14/03 và đáy 0.6 đều phù hợp dữ liệu. Tuy nhiên, tổng và trung bình dự báo được nêu lặp lại đều sai so với dãy forecast, làm giảm độ trung thực và giá trị sử dụng của phần tóm tắt."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 12.028798624989577,
+    "input_tokens": 4125,
+    "output_tokens": 705,
+    "total_tokens": 4830,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Giải thích nêu tổng dự báo là 91.2 đơn vị và trung bình 1.52 đơn vị/ngày, nhưng tổng 60 giá trị forecast là 89.0 đơn vị, tương ứng khoảng 1.48 đơn vị/ngày.\"],\"reason_vi\":\"Giải thích bám sát đúng item, khu vực và chân trời 60 ngày; trình bày ngắn gọn, dễ hiểu. Các mốc thời gian, số điểm lịch sử, trung bình lịch sử 0.58, đỉnh 3.2 ngày 14/03 và đáy 0.6 đều phù hợp dữ liệu. Tuy nhiên, tổng và trung bình dự báo được nêu lặp lại đều sai so với dãy forecast, làm giảm độ trung thực và giá trị sử dụng của phần tóm tắt.\"}"
+  }
+}

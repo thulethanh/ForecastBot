@@ -1,0 +1,26 @@
+{
+  "case_id": "H50",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Sự sụt giảm đáng kể nhất\" từ tháng 7 đến tháng 9 là nhận định so sánh chưa được làm rõ; forecast còn cho thấy mức giảm tổng thể lớn hơn khi so tháng 7 với tháng 12."
+    ],
+    "reason_vi": "Explanation bám sát đúng tuyến, nhà vận hành, tần suất tháng và 6 tháng dự báo. Các mức dự báo đầu kỳ, cuối kỳ, xu hướng giảm nhẹ, khoảng dữ liệu lịch sử, chế độ ensemble, trọng số và cửa sổ h24/h30 đều phù hợp thông tin được cung cấp. Nội dung rõ ràng, cô đọng và giúp hiểu mức dự báo cũng như chiều hướng biến động. Tuy vậy, mô tả mức giảm từ tháng 7 đến tháng 9 là “đáng kể nhất” hơi mạnh và không nêu tiêu chí so sánh, trong khi mức giảm lũy kế đến tháng 12 lớn hơn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.659385000006296,
+    "input_tokens": 2414,
+    "output_tokens": 505,
+    "total_tokens": 2919,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Sự sụt giảm đáng kể nhất\\\" từ tháng 7 đến tháng 9 là nhận định so sánh chưa được làm rõ; forecast còn cho thấy mức giảm tổng thể lớn hơn khi so tháng 7 với tháng 12.\"],\"reason_vi\":\"Explanation bám sát đúng tuyến, nhà vận hành, tần suất tháng và 6 tháng dự báo. Các mức dự báo đầu kỳ, cuối kỳ, xu hướng giảm nhẹ, khoảng dữ liệu lịch sử, chế độ ensemble, trọng số và cửa sổ h24/h30 đều phù hợp thông tin được cung cấp. Nội dung rõ ràng, cô đọng và giúp hiểu mức dự báo cũng như chiều hướng biến động. Tuy vậy, mô tả mức giảm từ tháng 7 đến tháng 9 là “đáng kể nhất” hơi mạnh và không nêu tiêu chí so sánh, trong khi mức giảm lũy kế đến tháng 12 lớn hơn.\"}"
+  }
+}

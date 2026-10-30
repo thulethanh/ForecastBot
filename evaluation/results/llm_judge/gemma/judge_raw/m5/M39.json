@@ -1,0 +1,26 @@
+{
+  "case_id": "M39",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 4 điểm dữ liệu lịch sử (2011-2014).\" Không có thông tin xác nhận các điểm này được dùng để huấn luyện mô hình; dữ liệu chỉ cho biết phạm vi lịch sử và cửa sổ đầu vào dự báo."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ dự báo và nêu chính xác các giá trị dự báo 0.0 cho 2015–2016. Các thống kê lịch sử cũng khớp hoàn toàn với history summary, và trình bày rõ ràng. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên 4 điểm lịch sử không được dữ liệu cung cấp hỗ trợ: window_info chỉ cho biết số quan sát trong các cửa sổ dự báo, không xác nhận quá trình huấn luyện. Nội dung vẫn hữu ích nhờ nêu mức dự báo và bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.244769084005384,
+    "input_tokens": 2172,
+    "output_tokens": 322,
+    "total_tokens": 2494,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 4 điểm dữ liệu lịch sử (2011-2014).\\\" Không có thông tin xác nhận các điểm này được dùng để huấn luyện mô hình; dữ liệu chỉ cho biết phạm vi lịch sử và cửa sổ đầu vào dự báo.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ dự báo và nêu chính xác các giá trị dự báo 0.0 cho 2015–2016. Các thống kê lịch sử cũng khớp hoàn toàn với history summary, và trình bày rõ ràng. Tuy nhiên, câu khẳng định mô hình được huấn luyện trên 4 điểm lịch sử không được dữ liệu cung cấp hỗ trợ: window_info chỉ cho biết số quan sát trong các cửa sổ dự báo, không xác nhận quá trình huấn luyện. Nội dung vẫn hữu ích nhờ nêu mức dự báo và bối cảnh lịch sử.\"}"
+  }
+}

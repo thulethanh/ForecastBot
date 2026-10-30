@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho item HOUSEHOLD_2_226 tại store CA_3 (CA) được thực hiện trên cơ sở 6 điểm dữ liệu lịch sử (2011-2016). Mô hình dự báo đã xác định một giá trị ổn định là 88.0, được dự đoán duy trì trong suốt 10 năm tới, từ năm 2017 đến năm 2026.",
+  "insights": [
+    "Dự báo được thực hiện bằng chế độ 'single' (đơn), sử dụng cả cửa sổ ngắn (6 kỳ) và cửa sổ dài (6 kỳ) để tính toán.",
+    "Kết quả dự báo cho thấy một xu hướng ổn định và không thay đổi (yhat = 88.0) trong toàn bộ giai đoạn dự báo 10 năm."
+  ],
+  "chart_note": "Dự báo này dựa trên dữ liệu lịch sử từ năm 2011 đến năm 2016 và không đại diện cho các giá trị thực tế trong tương lai."
+}

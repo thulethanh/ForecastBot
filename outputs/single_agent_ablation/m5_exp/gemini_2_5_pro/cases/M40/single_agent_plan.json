@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "year",
+  "horizon": 3,
+  "filters": {
+    "item_id": "HOUSEHOLD_2_488",
+    "store_id": "TX_3"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'HOUSEHOLD_2_488' AND s.store_id = 'TX_3' GROUP BY DATE_TRUNC('year', c.date)::date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query calculates the total yearly sales for item 'HOUSEHOLD_2_488' at store 'TX_3'. It joins the sales and calendar tables, aggregates sales by year, and filters for the specified item and store."
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "H01",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 3,
+    "faithfulness": 3,
+    "clarity": 4,
+    "usefulness": 2,
+    "overall_score": 3.0,
+    "unsupported_claims": [
+      "Mô hình dự báo sử dụng chế độ \"short_only\" và kết hợp trọng số 60% từ cửa sổ ngắn hạn (h180) và 40% từ cửa sổ dài hạn (h365).",
+      "Việc sử dụng cơ chế dự phòng (fallback) cho thấy mô hình đã điều chỉnh dự báo dựa trên các điều kiện dữ liệu hoặc tính ổn định của dữ liệu lịch sử."
+    ],
+    "reason_vi": "Giải thích nêu đúng tuyến, thời hạn 7 ngày, các ngày dự báo, chế độ short_only, fallback và phạm vi dữ liệu lịch sử. Tuy nhiên, nó không trình bày các mức dự báo (3.550–4.050) hay xu hướng/dao động trong tuần, nên giá trị thực tế cho người dùng còn hạn chế. Khẳng định kết hợp trọng số 0,6/0,4 không phù hợp rõ ràng với selected_mode là short_only; còn diễn giải fallback phản ánh điều kiện hoặc độ ổn định dữ liệu không có bằng chứng trong thông tin được cung cấp. Diễn đạt nhìn chung rõ ràng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.383219792041928,
+    "input_tokens": 2445,
+    "output_tokens": 391,
+    "total_tokens": 2836,
+    "raw_response": "{\"relevance\":3,\"faithfulness\":3,\"clarity\":4,\"usefulness\":2,\"overall_score\":3.0,\"unsupported_claims\":[\"Mô hình dự báo sử dụng chế độ \\\"short_only\\\" và kết hợp trọng số 60% từ cửa sổ ngắn hạn (h180) và 40% từ cửa sổ dài hạn (h365).\",\"Việc sử dụng cơ chế dự phòng (fallback) cho thấy mô hình đã điều chỉnh dự báo dựa trên các điều kiện dữ liệu hoặc tính ổn định của dữ liệu lịch sử.\"],\"reason_vi\":\"Giải thích nêu đúng tuyến, thời hạn 7 ngày, các ngày dự báo, chế độ short_only, fallback và phạm vi dữ liệu lịch sử. Tuy nhiên, nó không trình bày các mức dự báo (3.550–4.050) hay xu hướng/dao động trong tuần, nên giá trị thực tế cho người dùng còn hạn chế. Khẳng định kết hợp trọng số 0,6/0,4 không phù hợp rõ ràng với selected_mode là short_only; còn diễn giải fallback phản ánh điều kiện hoặc độ ổn định dữ liệu không có bằng chứng trong thông tin được cung cấp. Diễn đạt nhìn chung rõ ràng.\"}"
+  }
+}

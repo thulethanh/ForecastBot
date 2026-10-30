@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng hàng quý cho sản phẩm HOUSEHOLD_1_280 tại cửa hàng WI_2 trong 8 quý tới, từ tháng 7 năm 2014 đến tháng 4 năm 2016. Dự báo cho thấy một xu hướng tăng trưởng mạnh mẽ, với các giá trị dự báo vượt qua mức cao nhất trong lịch sử.",
+  "insights": [
+    "Dự báo cho thấy xu hướng tăng trưởng đáng kể, với tất cả các giá trị dự báo đều cao hơn mức trung bình lịch sử (47.6) và hầu hết đều vượt qua mức tối đa trong lịch sử (127.0).",
+    "Dự báo thể hiện một quy luật thời vụ rõ rệt, với doanh số dự kiến đạt đỉnh vào Quý 1 (tháng 1) và thấp nhất vào Quý 4 (tháng 10) mỗi năm.",
+    "Mô hình dự báo là sự kết hợp giữa các xu hướng gần đây (60% trọng số) và dữ liệu lịch sử dài hạn (40% trọng số), cho thấy các mô hình gần đây có ảnh hưởng lớn hơn đến kết quả."
+  ],
+  "chart_note": "Biểu đồ hiển thị 14 quý dữ liệu lịch sử (2011-2014) và 8 quý dự báo (2014-2016)."
+}

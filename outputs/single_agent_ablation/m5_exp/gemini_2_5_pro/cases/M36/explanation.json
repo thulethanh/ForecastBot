@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng hàng quý cho mặt hàng HOUSEHOLD_1_135 tại cửa hàng TX_1 trong 8 quý tiếp theo. Dự báo này dựa trên 14 quý dữ liệu lịch sử từ 2011-01-01 đến 2014-04-01. Dự báo cho thấy một mô hình thời vụ mạnh mẽ, với doanh số dự kiến chỉ xảy ra vào quý thứ hai của mỗi năm.",
+  "insights": [
+    "Dữ liệu lịch sử cho thấy một mô hình theo mùa rất rõ rệt, trong đó doanh số bán hàng gần như chỉ tập trung vào một quý duy nhất mỗi năm. Mô hình dự báo đã nắm bắt và kéo dài xu hướng này.",
+    "Doanh số dự báo cho quý 2 (bắt đầu từ tháng 4) của năm 2015 và 2016 là 84.0 đơn vị. Tất cả các quý khác trong giai đoạn dự báo được dự kiến sẽ không có doanh số."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số bán hàng lịch sử (đường liền) và doanh số dự báo (đường chấm) cho 8 quý tiếp theo."
+}

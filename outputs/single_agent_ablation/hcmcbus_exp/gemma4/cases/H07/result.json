@@ -1,0 +1,395 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H07",
+  "question": "Cho tôi dự báo lượng khách của tuyến 29 do HTX-ThanhSon vận hành trong 3 tháng tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "forecast_request": {
+    "intent": "forecast_request",
+    "dataset": "HCMC_BUS",
+    "granularity": "month",
+    "horizon": 3,
+    "filters": {
+      "route_id": "29",
+      "operator": "HTX-ThanhSon"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": ""
+  },
+  "single_agent_plan": {
+    "intent": "forecast_request",
+    "dataset": "HCMC_BUS",
+    "granularity": "month",
+    "horizon": 3,
+    "filters": {
+      "route_id": "29",
+      "operator": "HTX-ThanhSon"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": "",
+    "sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '29' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY DATE_TRUNC('month', d.date)::date ORDER BY ds ASC",
+    "sql_explanation": "Retrieves the sum of total passengers (y) aggregated by month (ds) for route 29 operated by HTX-ThanhSon."
+  },
+  "generated_sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '29' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY DATE_TRUNC('month', d.date)::date ORDER BY ds ASC",
+  "sql_explanation": "Retrieves the sum of total passengers (y) aggregated by month (ds) for route 29 operated by HTX-ThanhSon.",
+  "sql_result": [
+    {
+      "ds": "2022-01-01",
+      "y": 25016
+    },
+    {
+      "ds": "2022-02-01",
+      "y": 33270
+    },
+    {
+      "ds": "2022-03-01",
+      "y": 55835
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 63038
+    },
+    {
+      "ds": "2022-05-01",
+      "y": 67872
+    },
+    {
+      "ds": "2022-06-01",
+      "y": 63923
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 56713
+    },
+    {
+      "ds": "2022-08-01",
+      "y": 61766
+    },
+    {
+      "ds": "2022-09-01",
+      "y": 74328
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 84715
+    },
+    {
+      "ds": "2022-11-01",
+      "y": 80916
+    },
+    {
+      "ds": "2022-12-01",
+      "y": 74413
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 49810
+    },
+    {
+      "ds": "2023-02-01",
+      "y": 70997
+    },
+    {
+      "ds": "2023-03-01",
+      "y": 83816
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 72044
+    },
+    {
+      "ds": "2023-05-01",
+      "y": 66082
+    },
+    {
+      "ds": "2023-06-01",
+      "y": 56181
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 51232
+    },
+    {
+      "ds": "2023-08-01",
+      "y": 63260
+    },
+    {
+      "ds": "2023-09-01",
+      "y": 72492
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 76872
+    },
+    {
+      "ds": "2023-11-01",
+      "y": 72430
+    },
+    {
+      "ds": "2023-12-01",
+      "y": 64200
+    },
+    {
+      "ds": "2024-01-01",
+      "y": 63365
+    },
+    {
+      "ds": "2024-02-01",
+      "y": 42102
+    },
+    {
+      "ds": "2024-03-01",
+      "y": 64818
+    }
+  ],
+  "historical_data_summary": {
+    "n_points": 27,
+    "start_date": "2022-01-01",
+    "end_date": "2024-03-01",
+    "min_y": 25016.0,
+    "max_y": 84715.0,
+    "mean_y": 63389.11111111111
+  },
+  "historical_n": 27,
+  "forecast_history": [
+    {
+      "ds": "2022-01-01",
+      "y": 25016
+    },
+    {
+      "ds": "2022-02-01",
+      "y": 33270
+    },
+    {
+      "ds": "2022-03-01",
+      "y": 55835
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 63038
+    },
+    {
+      "ds": "2022-05-01",
+      "y": 67872
+    },
+    {
+      "ds": "2022-06-01",
+      "y": 63923
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 56713
+    },
+    {
+      "ds": "2022-08-01",
+      "y": 61766
+    },
+    {
+      "ds": "2022-09-01",
+      "y": 74328
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 84715
+    },
+    {
+      "ds": "2022-11-01",
+      "y": 80916
+    },
+    {
+      "ds": "2022-12-01",
+      "y": 74413
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 49810
+    },
+    {
+      "ds": "2023-02-01",
+      "y": 70997
+    },
+    {
+      "ds": "2023-03-01",
+      "y": 83816
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 72044
+    },
+    {
+      "ds": "2023-05-01",
+      "y": 66082
+    },
+    {
+      "ds": "2023-06-01",
+      "y": 56181
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 51232
+    },
+    {
+      "ds": "2023-08-01",
+      "y": 63260
+    },
+    {
+      "ds": "2023-09-01",
+      "y": 72492
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 76872
+    },
+    {
+      "ds": "2023-11-01",
+      "y": 72430
+    },
+    {
+      "ds": "2023-12-01",
+      "y": 64200
+    }
+  ],
+  "test_artifact": {
+    "status": "available",
+    "evaluation_eligible": true,
+    "reason": null,
+    "horizon": 3,
+    "n_test": 3,
+    "test": [
+      {
+        "ds": "2024-01-01",
+        "y": 63365
+      },
+      {
+        "ds": "2024-02-01",
+        "y": 42102
+      },
+      {
+        "ds": "2024-03-01",
+        "y": 64818
+      }
+    ]
+  },
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 27,
+    "n_train": 24,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "forecast_result": {
+    "forecast": [
+      {
+        "step": 1,
+        "ds": "2024-01-01",
+        "yhat": 57864.0
+      },
+      {
+        "step": 2,
+        "ds": "2024-02-01",
+        "yhat": 51528.0
+      },
+      {
+        "step": 3,
+        "ds": "2024-03-01",
+        "yhat": 45192.0
+      }
+    ],
+    "status": "success",
+    "fallback_used": false,
+    "selected_mode": "single",
+    "weights": {
+      "short": 0.6,
+      "long": 0.4
+    },
+    "window_info": {
+      "short_n": 24,
+      "long_n": 24,
+      "short_window_name": "h24",
+      "long_window_name": "h24"
+    }
+  },
+  "explanation_result": {
+    "title": "Kết quả dự báo lưu lượng xe buýt (HCMC_BUS)",
+    "summary_text": "Dự báo được thực hiện cho tuyến xe buýt 29 của nhà khai thác HTX-ThanhSon, với độ chi tiết theo tháng, trong vòng 3 tháng tới (từ tháng 1 đến tháng 3 năm 2024). Kết quả dự báo cho thấy một xu hướng giảm dần rõ rệt qua các tháng.",
+    "insights": [
+      "Dự báo được xây dựng dựa trên 24 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2023-12-01).",
+      "Mô hình sử dụng phương pháp 'single' và áp dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+      "Các giá trị dự báo cho thấy sự sụt giảm liên tục: từ 57,864 (Tháng 1/2024) xuống 45,192 (Tháng 3/2024)."
+    ],
+    "chart_note": "Đây là kết quả dự báo thống kê và không đại diện cho giá trị thực tế trong tương lai."
+  },
+  "status": "success",
+  "timings": {
+    "load_schema": 0.005270916968584061,
+    "request_sql": 78.93068870808929,
+    "sql_execution_and_repair": 0.0218146659899503,
+    "forecast": 150.2334289579885,
+    "explanation": 110.423690250027,
+    "end_to_end": 339.61501441698056
+  },
+  "traces": [
+    {
+      "stage": "single_agent.request_sql",
+      "type": "single_agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are ForecastBot's SINGLE forecasting agent.\n\nYou are responsible for understanding the user's forecasting request and\ngenerating the SQL needed to retrieve the corresponding time series.\n\nUSER REQUEST:\nCho tôi dự báo lượng khách của tuyến 29 do HTX-ThanhSon vận hành trong 3 tháng tới.\n\nEXPECTED DATASET FOR THIS EVALUATION CASE:\nHCMC_BUS\n\nDATABASE SCHEMA KNOWLEDGE:\n\nDataset: HCMC_BUS\n\nYou are working with a PostgreSQL database for HCMC bus passenger forecasting.\n\n1. Table: daily_passenger_stats\n- date (DATE): Operating date and forecasting time axis\n- route_id (TEXT): Route identifier\n- operator (TEXT): Transport operator\n- vehicle_group (TEXT): Vehicle group\n- trips (INTEGER): Number of operated trips\n- buses (INTEGER): Number of buses\n- total_passengers (INTEGER): Total number of passengers and forecasting target\n\n2. Table: bus_routes\n- route_id (TEXT): Route identifier\n- route_name (TEXT): Route name\n- start_stop (TEXT): Start stop\n- end_stop (TEXT): End stop\n- distance_km (NUMERIC): Route distance in kilometres\n\nRelationship:\n- daily_passenger_stats.route_id = bus_routes.route_id\n\nBusiness meaning:\n- daily_passenger_stats is the forecasting fact table.\n- date is the true time axis.\n- total_passengers is the forecasting target.\n- bus_routes is a dimension table used for route filtering and description.\n\n\nSQL GENERATION RULES:\n\n- Use daily_passenger_stats as the fact table with alias d.\n- Join bus_routes as alias r only when route_name, start_stop or end_stop is required.\n- Join condition: d.route_id = r.route_id.\n- Always return exactly two columns: ds and y.\n- For day granularity, use d.date AS ds.\n- For month granularity, use DATE_TRUNC('month', d.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', d.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', d.date)::date AS ds.\n- Aggregate the forecasting target with SUM(d.total_passengers) AS y.\n- Support fact filters on route_id, operator, vehicle_group and date.\n- Route attributes route_name, start_stop and end_stop belong to bus_routes and require a join.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n- The source values of operator and vehicle_group may contain leading or trailing whitespace.\n- When filtering by operator, always apply TRIM to the database column: TRIM(d.operator).\n- When filtering by vehicle_group, always apply TRIM to the database column: TRIM(d.vehicle_group).\n- Compare trimmed operator and vehicle_group values using exact equality (=), unless the user explicitly requests partial or pattern matching.\n- route_id, operator and vehicle_group are independent fact filters and may be applied together in the same WHERE clause.\n\n\nAllowed granularities and horizons:\n- day: 7, 28, 30, 60, 90\n- month: 1, 3, 6, 12, 24\n- quarter: 1, 2, 3, 4, 8, 12\n- year: 1, 2, 3, 5, 10\n\nRequirements:\n1. Infer dataset, granularity, horizon and filters from the user's request.\n2. Do not invent filters that are not stated or semantically implied.\n3. Generate SQL using only the supplied schema/rules.\n4. SQL must return exactly two logical columns:\n   - ds: time index\n   - y: numeric value\n5. Return STRICT JSON only. No Markdown fences and no extra text.\n\nOutput schema:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS or null\",\n  \"granularity\": \"day or month or quarter or year or null\",\n  \"horizon\": 7,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\",\n  \"sql\": \"SELECT ...\",\n  \"sql_explanation\": \"brief explanation\"\n}",
+      "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"HCMC_BUS\",\n  \"granularity\": \"month\",\n  \"horizon\": 3,\n  \"filters\": {\n    \"route_id\": \"29\",\n    \"operator\": \"HTX-ThanhSon\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\",\n  \"sql\": \"SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '29' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY DATE_TRUNC('month', d.date)::date ORDER BY ds ASC\",\n  \"sql_explanation\": \"Retrieves the sum of total passengers (y) aggregated by month (ds) for route 29 operated by HTX-ThanhSon.\"\n}\n```",
+      "input_tokens": 1003,
+      "output_tokens": 781,
+      "total_tokens": 1784,
+      "llm_time_s": 78.93038241600152,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "single_agent.forecast_short",
+      "type": "single_agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the SAME ForecastBot SINGLE forecasting agent.\n\nEarlier in this case you interpreted the user's request and generated SQL.\nNow forecast the supplied historical time series.\n\nFORECAST REQUEST:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"month\", \"horizon\": 3, \"filters\": {\"route_id\": \"29\", \"operator\": \"HTX-ThanhSon\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nHISTORY BRANCH:\nshort\n\nTIME UNIT:\nMONTHLY\n\nFORECAST HORIZON:\n3\n\nNUMBER OF HISTORY POINTS:\n24\n\nHISTORY VALUES IN CHRONOLOGICAL ORDER:\n[25016.0, 33270.0, 55835.0, 63038.0, 67872.0, 63923.0, 56713.0, 61766.0, 74328.0, 84715.0, 80916.0, 74413.0, 49810.0, 70997.0, 83816.0, 72044.0, 66082.0, 56181.0, 51232.0, 63260.0, 72492.0, 76872.0, 72430.0, 64200.0]\n\nRules:\n1. Forecast exactly 3 future values.\n2. Use ONLY the history supplied above.\n3. Do not assume access to held-out actual/test values.\n4. All values must be finite numbers.\n5. Demand/passenger forecasts must not be negative.\n6. Return STRICT JSON only, with no Markdown or extra text.\n\nOutput:\n{\n  \"forecast\": [0.0, 0.0]\n}\n\nThe forecast array MUST contain exactly 3 values.",
+      "raw_response": "```json\n{\n  \"forecast\": [\n    57864.0,\n    51528.0,\n    45192.0\n  ]\n}\n```",
+      "input_tokens": 501,
+      "output_tokens": 1600,
+      "total_tokens": 2101,
+      "llm_time_s": 150.232450334006,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "single_agent.explanation",
+      "type": "single_agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the SAME ForecastBot SINGLE forecasting agent.\n\nEarlier in this case you interpreted the request, generated SQL and produced\nthe forecast. Explain the final result using ONLY the information below.\n\nFORECAST REQUEST:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"month\", \"horizon\": 3, \"filters\": {\"route_id\": \"29\", \"operator\": \"HTX-ThanhSon\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nHISTORICAL DATA SUMMARY:\n{\"n_points\": 24, \"start_date\": \"2022-01-01\", \"end_date\": \"2023-12-01\", \"min_y\": 25016.0, \"max_y\": 84715.0, \"mean_y\": 64217.541666666664}\n\nFINAL FORECAST:\n{\"forecast\": [{\"step\": 1, \"ds\": \"2024-01-01\", \"yhat\": 57864.0}, {\"step\": 2, \"ds\": \"2024-02-01\", \"yhat\": 51528.0}, {\"step\": 3, \"ds\": \"2024-03-01\", \"yhat\": 45192.0}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"single\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 24, \"long_n\": 24, \"short_window_name\": \"h24\", \"long_window_name\": \"h24\"}}\n\nRequirements:\n1. Do not claim knowledge of actual future/test values.\n2. Do not invent causes or external events not present in the inputs.\n3. Keep the explanation concise, clear and useful.\n4. Return STRICT JSON only.\n\nOutput:\n{\n  \"title\": \"Kết quả dự báo\",\n  \"summary_text\": \"...\",\n  \"insights\": [\"...\", \"...\"],\n  \"chart_note\": \"...\"\n}",
+      "raw_response": "```json\n{\n  \"title\": \"Kết quả dự báo lưu lượng xe buýt (HCMC_BUS)\",\n  \"summary_text\": \"Dự báo được thực hiện cho tuyến xe buýt 29 của nhà khai thác HTX-ThanhSon, với độ chi tiết theo tháng, trong vòng 3 tháng tới (từ tháng 1 đến tháng 3 năm 2024). Kết quả dự báo cho thấy một xu hướng giảm dần rõ rệt qua các tháng.\",\n  \"insights\": [\n    \"Dự báo được xây dựng dựa trên 24 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2023-12-01).\",\n    \"Mô hình sử dụng phương pháp 'single' và áp dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.\",\n    \"Các giá trị dự báo cho thấy sự sụt giảm liên tục: từ 57,864 (Tháng 1/2024) xuống 45,192 (Tháng 3/2024).\"\n  ],\n  \"chart_note\": \"Đây là kết quả dự báo thống kê và không đại diện cho giá trị thực tế trong tương lai.\"\n}\n```",
+      "input_tokens": 537,
+      "output_tokens": 1153,
+      "total_tokens": 1690,
+      "llm_time_s": 110.42237141705118,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    }
+  ],
+  "total_tokens": 5575,
+  "chart_status": "success",
+  "chart_error": ""
+}

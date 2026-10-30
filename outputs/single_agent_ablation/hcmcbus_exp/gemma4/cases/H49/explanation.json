@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 53, HTX-QTHANG) trong 3 tháng tới (Tháng 10 đến Tháng 12 năm 2024) cho thấy xu hướng giảm nhẹ. Giá trị dự báo bắt đầu ở mức 155,000 vào tháng 10 và giảm dần xuống 153,000 vào tháng 12.",
+  "insights": [
+    "Dự báo được thực hiện bằng mô hình ensemble, kết hợp trọng số 60% từ cửa sổ ngắn hạn (24 điểm) và 40% từ cửa sổ dài hạn (33 điểm).",
+    "Các giá trị dự báo (khoảng 153,000 - 155,000) thấp hơn so với mức trung bình lịch sử của bộ dữ liệu (161,628.42)."
+  ],
+  "chart_note": "Dự báo này chỉ dựa trên dữ liệu lịch sử đến ngày 01/09/2024 và không đại diện cho các giá trị thực tế trong tương lai."
+}

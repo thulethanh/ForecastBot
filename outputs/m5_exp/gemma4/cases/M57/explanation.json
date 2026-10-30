@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_1_280 tại WI_2 (M5)",
+  "summary_text": "Dự báo cho HOUSEHOLD_1_280 tại WI_2 cho thấy xu hướng tăng trưởng ổn định trong 8 quý tới. Giá trị dự báo bắt đầu từ 135.0 vào quý 2014-07-01 và tăng dần lên 182.2 vào quý 2016-04-01.",
+  "insights": [
+    "Trong 8 quý dự báo, giá trị dự kiến tăng từ 135.0 (2014-07-01) lên 182.2 (2016-04-01).",
+    "Sự tăng trưởng dự báo là liên tục, với mức tăng khoảng 7.2 đơn vị qua mỗi quý.",
+    "Mô hình sử dụng phương pháp ensemble với trọng số short (0.6) và long (0.4)."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 14 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2014-04-01). ForecastBot đã tạo ra dự báo cho 8 bước tiếp theo bằng cách sử dụng mô hình ensemble, kết hợp thông tin từ cửa sổ ngắn (h12) và cửa sổ dài (h14)."
+}

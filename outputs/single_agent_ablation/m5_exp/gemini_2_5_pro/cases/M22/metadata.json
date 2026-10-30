@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M22",
+  "question": "Dự báo lượng bán của sản phẩm FOODS_1_097 tại cửa hàng TX_3 trong 7 ngày tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1906,
+    "n_test": 7,
+    "horizon": 7,
+    "minimum_train_required": 7,
+    "required_points_for_evaluation": 14,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.003552541951648891,
+    "request_sql": 9.805171709042042,
+    "sql_execution_and_repair": 0.020965792005881667,
+    "forecast": 94.14934729191009,
+    "explanation": 20.692755916970782,
+    "end_to_end": 124.67210379196331
+  },
+  "total_tokens": 23222,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

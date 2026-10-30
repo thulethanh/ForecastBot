@@ -1,0 +1,24 @@
+{
+  "case_id": "H06",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng cho tuyến 28 của XKSG, nêu đúng giai đoạn 01/2025–12/2026 và mức dự báo cố định 55008.7143. Việc đề cập deterministic_recent_mean, fallback và 36 điểm lịch sử từ 2022-01 đến 2024-12 phù hợp với kết quả được cung cấp. Nội dung rõ ràng, nhất quán với chuỗi dự báo phẳng. Tuy vậy, phần ý nghĩa thực tế có thể hữu ích hơn nếu đặt mức dự báo trong bối cảnh trung bình hoặc biên độ lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.795255749952048,
+    "input_tokens": 3060,
+    "output_tokens": 292,
+    "total_tokens": 3352,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng cho tuyến 28 của XKSG, nêu đúng giai đoạn 01/2025–12/2026 và mức dự báo cố định 55008.7143. Việc đề cập deterministic_recent_mean, fallback và 36 điểm lịch sử từ 2022-01 đến 2024-12 phù hợp với kết quả được cung cấp. Nội dung rõ ràng, nhất quán với chuỗi dự báo phẳng. Tuy vậy, phần ý nghĩa thực tế có thể hữu ích hơn nếu đặt mức dự báo trong bối cảnh trung bình hoặc biên độ lịch sử.\"}"
+  }
+}

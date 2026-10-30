@@ -1,0 +1,33 @@
+{
+  "case_id": "M11",
+  "question": "Cho tôi dự báo lượng bán của sản phẩm HOBBIES_2_089 trong 1 quý tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 21,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 36.69380624999758,
+    "load_schema": 0.005705834002583288,
+    "sql_generation": 73.65411279199179,
+    "sql_execution_and_repair": 0.0792129999899771,
+    "forecast": 190.20355533300608,
+    "explanation": 58.729844832996605,
+    "end_to_end": 359.3663027500006
+  },
+  "total_tokens": 7345,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

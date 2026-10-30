@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng hành khách cho tuyến 58 (HTX-VTHANG) của HCMC_BUS",
+  "summary_text": "Mô hình đã dự báo lưu lượng hành khách cho 7 ngày tới, từ 2024-12-25 đến 2024-12-31. Phương pháp được sử dụng là \"deterministic_recent_mean\", cho thấy một giá trị dự báo ổn định là 1469.7143 trong suốt giai đoạn dự báo.",
+  "insights": [
+    "Dữ liệu lịch sử của HCMC_BUS (từ 2022-01-01 đến 2024-12-24) bao gồm 1089 điểm dữ liệu, với mức trung bình là 1260.16.",
+    "Trong 7 ngày dự báo, lưu lượng hành khách được dự đoán là 1469.7143 mỗi ngày.",
+    "Mô hình sử dụng trọng số 0.6 cho cửa sổ ngắn (h180) và 0.4 cho cửa sổ dài (h365) để đưa ra dự báo."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 1089 điểm dữ liệu từ 2022-01-01 đến 2024-12-24. Quá trình dự báo được thực hiện bằng phương pháp \"deterministic_recent_mean\" và bao gồm 7 bước dự báo."
+}

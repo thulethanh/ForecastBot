@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 6,
+  "filters": {
+    "route_id": "30",
+    "operator": "XKSG",
+    "vehicle_group": "4A_ML"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

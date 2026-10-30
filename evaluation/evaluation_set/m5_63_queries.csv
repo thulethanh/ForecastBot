@@ -1,0 +1,64 @@
+item,user_request
+M01,Tôi muốn dự báo lượng bán của sản phẩm FOODS_3_228 trong 7 ngày tới.
+M02,Dự báo lượng bán của sản phẩm FOODS_3_540 tại cửa hàng CA_4 trong 28 ngày tiếp theo.
+M03,Cho tôi biết lượng bán dự kiến của sản phẩm FOODS_2_069 tại bang CA trong 30 ngày tới.
+M04,"Trong 60 ngày tới, lượng bán của sản phẩm FOODS_3_055 tại cửa hàng CA_1 được dự báo như thế nào?"
+M05,Tôi cần xem xu hướng lượng bán của sản phẩm FOODS_3_149 tại bang CA trong 90 ngày tới.
+M06,"Trong 1 tháng tới, hãy dự báo lượng bán của sản phẩm FOODS_3_395 tại cửa hàng CA_2, bang CA."
+M07,Cho tôi dự báo lượng bán của sản phẩm FOODS_3_718 tại cửa hàng CA_3 trong 3 tháng tới.
+M08,"Hãy dự báo nhu cầu bán của sản phẩm HOBBIES_1_124 tại cửa hàng CA_1, bang CA trong 6 tháng tiếp theo."
+M09,Dự báo lượng bán của sản phẩm HOBBIES_1_398 tại cửa hàng CA_1 trong 12 tháng tiếp theo.
+M10,"Tôi muốn xem lượng bán dự kiến của sản phẩm HOBBIES_1_013 tại cửa hàng CA_1, bang CA trong 24 tháng tới."
+M11,Cho tôi dự báo lượng bán của sản phẩm HOBBIES_2_089 trong 1 quý tới.
+M12,Dự báo lượng bán của sản phẩm HOBBIES_1_126 tại cửa hàng CA_4 trong 2 quý tiếp theo.
+M13,"Trong 3 quý tới, lượng bán của sản phẩm HOBBIES_1_173 tại bang CA dự kiến như thế nào?"
+M14,Hãy ước tính lượng bán của sản phẩm HOBBIES_1_227 tại cửa hàng CA_2 trong 4 quý tới.
+M15,Tôi muốn dự báo nhu cầu của sản phẩm HOUSEHOLD_1_143 tại bang CA trong 8 quý tiếp theo.
+M16,"Cho tôi dự báo lượng bán của sản phẩm HOUSEHOLD_1_334 tại cửa hàng CA_1, bang CA trong 12 quý tới."
+M17,"Dự báo lượng bán của sản phẩm HOUSEHOLD_1_457 tại cửa hàng CA_1, bang CA trong 1 năm tiếp theo."
+M18,"Trong 2 năm tới, lượng bán của sản phẩm HOUSEHOLD_2_041 sẽ như thế nào?"
+M19,"Hãy dự báo lượng bán của sản phẩm HOUSEHOLD_2_146 tại cửa hàng CA_4, bang CA trong 3 năm tới."
+M20,Tôi muốn xem xu hướng lượng bán của sản phẩm HOUSEHOLD_1_133 tại cửa hàng CA_2 trong 5 năm tiếp theo.
+M21,"Tôi muốn dự báo lượng bán của sản phẩm HOUSEHOLD_2_226 tại cửa hàng CA_3, bang CA trong 10 năm tới."
+M22,Dự báo lượng bán của sản phẩm FOODS_1_097 tại cửa hàng TX_3 trong 7 ngày tiếp theo.
+M23,Cho tôi biết lượng bán dự kiến của sản phẩm FOODS_3_455 trong 28 ngày tới.
+M24,"Trong 30 ngày tới, lượng bán của sản phẩm FOODS_1_078 tại cửa hàng TX_3 được dự báo như thế nào?"
+M25,Tôi cần xem xu hướng lượng bán của sản phẩm FOODS_3_576 tại bang TX trong 60 ngày tới.
+M26,"Tôi muốn dự báo lượng bán của sản phẩm FOODS_3_629 tại cửa hàng TX_3, bang TX trong 90 ngày tới."
+M27,Cho tôi dự báo lượng bán của sản phẩm FOODS_1_031 tại cửa hàng TX_1 trong 1 tháng tới.
+M28,"Hãy dự báo nhu cầu bán của sản phẩm FOODS_3_302 tại cửa hàng TX_1, bang TX trong 3 tháng tiếp theo."
+M29,Dự báo lượng bán của sản phẩm HOBBIES_1_264 tại bang TX trong 6 tháng tiếp theo.
+M30,"Tôi muốn xem lượng bán dự kiến của sản phẩm HOBBIES_1_277 tại cửa hàng TX_3, bang TX trong 12 tháng tới."
+M31,"Trong 24 tháng tới, hãy dự báo lượng bán của sản phẩm HOBBIES_1_121 tại bang TX."
+M32,Dự báo lượng bán của sản phẩm HOBBIES_1_208 tại bang TX trong 1 quý tiếp theo.
+M33,"Trong 2 quý tới, lượng bán của sản phẩm HOBBIES_1_349 tại cửa hàng TX_2 dự kiến như thế nào?"
+M34,Hãy ước tính lượng bán của sản phẩm HOBBIES_2_018 tại cửa hàng TX_2 trong 3 quý tới.
+M35,Tôi muốn dự báo nhu cầu của sản phẩm HOBBIES_2_115 trong 4 quý tiếp theo.
+M36,"Cho tôi dự báo lượng bán của sản phẩm HOUSEHOLD_1_135 tại cửa hàng TX_1, bang TX trong 8 quý tới."
+M37,Dự báo lượng bán của sản phẩm HOUSEHOLD_1_416 tại bang TX trong 12 quý tiếp theo.
+M38,"Trong 1 năm tới, lượng bán của sản phẩm HOUSEHOLD_1_511 sẽ như thế nào?"
+M39,"Hãy dự báo lượng bán của sản phẩm HOUSEHOLD_2_275 tại cửa hàng TX_2, bang TX trong 2 năm tới."
+M40,Tôi muốn xem xu hướng lượng bán của sản phẩm HOUSEHOLD_2_488 tại cửa hàng TX_3 trong 3 năm tiếp theo.
+M41,"Tôi muốn dự báo lượng bán của sản phẩm HOUSEHOLD_1_077 tại cửa hàng TX_3, bang TX trong 5 năm tới."
+M42,"Dự báo lượng bán của sản phẩm HOUSEHOLD_1_302 tại cửa hàng TX_2, bang TX trong 10 năm tiếp theo."
+M43,Cho tôi biết lượng bán dự kiến của sản phẩm FOODS_3_083 tại cửa hàng WI_2 trong 7 ngày tới.
+M44,"Trong 28 ngày tới, lượng bán của sản phẩm FOODS_3_324 tại bang WI được dự báo như thế nào?"
+M45,Tôi cần xem xu hướng lượng bán của sản phẩm FOODS_1_215 trong 30 ngày tới.
+M46,Tôi muốn dự báo lượng bán của sản phẩm FOODS_3_085 tại cửa hàng WI_2 trong 60 ngày tới.
+M47,Dự báo lượng bán của sản phẩm FOODS_3_531 tại bang WI trong 90 ngày tiếp theo.
+M48,"Hãy dự báo nhu cầu bán của sản phẩm FOODS_1_002 tại cửa hàng WI_1, bang WI trong 1 tháng tiếp theo."
+M49,Dự báo lượng bán của sản phẩm FOODS_2_280 tại cửa hàng WI_1 trong 3 tháng tiếp theo.
+M50,Tôi muốn xem lượng bán dự kiến của sản phẩm HOBBIES_1_079 tại cửa hàng WI_1 trong 6 tháng tới.
+M51,"Trong 12 tháng tới, hãy dự báo lượng bán của sản phẩm HOBBIES_1_099 tại cửa hàng WI_3, bang WI."
+M52,"Cho tôi dự báo lượng bán của sản phẩm HOBBIES_1_026 tại cửa hàng WI_2, bang WI trong 24 tháng tới."
+M53,"Trong 1 quý tới, lượng bán của sản phẩm HOBBIES_1_277 tại cửa hàng WI_2 dự kiến như thế nào?"
+M54,Hãy ước tính lượng bán của sản phẩm HOBBIES_1_061 tại bang WI trong 2 quý tới.
+M55,Tôi muốn dự báo nhu cầu của sản phẩm HOBBIES_1_297 trong 3 quý tiếp theo.
+M56,Cho tôi dự báo lượng bán của sản phẩm HOBBIES_2_140 tại bang WI trong 4 quý tới.
+M57,Dự báo lượng bán của sản phẩm HOUSEHOLD_1_280 tại cửa hàng WI_2 trong 8 quý tiếp theo.
+M58,"Trong 12 quý tới, lượng bán của sản phẩm HOUSEHOLD_1_321 tại cửa hàng WI_1, bang WI dự kiến như thế nào?"
+M59,"Hãy dự báo lượng bán của sản phẩm HOUSEHOLD_2_389 tại cửa hàng WI_1, bang WI trong 1 năm tới."
+M60,Tôi muốn xem xu hướng lượng bán của sản phẩm HOUSEHOLD_1_230 tại cửa hàng WI_1 trong 2 năm tiếp theo.
+M61,"Tôi muốn dự báo lượng bán của sản phẩm HOUSEHOLD_2_117 tại cửa hàng WI_1, bang WI trong 3 năm tới."
+M62,Dự báo lượng bán của sản phẩm HOUSEHOLD_1_005 tại bang WI trong 5 năm tiếp theo.
+M63,"Trong 10 năm tới, lượng bán của sản phẩm HOUSEHOLD_2_483 tại cửa hàng WI_2, bang WI sẽ như thế nào?"

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo cho 6 tháng tới về số lượt hành khách trên tuyến xe buýt 56 do HTX-QTHANG vận hành. Dự báo cho thấy số lượt hành khách sẽ giảm nhẹ vào tháng 7 và 8, sau đó tăng mạnh vào mùa thu, đạt đỉnh vào tháng 10 (khoảng 243,713 lượt) trước khi giảm dần vào cuối năm.",
+  "insights": [
+    "Dự báo cho thấy một mô hình thời vụ rõ rệt, với số lượt đi cao nhất vào các tháng 9, 10 và 11. Tháng 10 được dự báo là tháng cao điểm nhất trong 6 tháng tới.",
+    "Mô hình dự báo là một mô hình kết hợp (ensemble), ưu tiên các xu hướng gần đây hơn (trọng số 60% cho dữ liệu 24 tháng gần nhất) để đưa ra dự đoán.",
+    "Các giá trị dự báo nằm trong phạm vi dữ liệu lịch sử (từ 29,283 đến 254,583), với mức cao nhất dự báo (243,713) gần với mức cao nhất đã ghi nhận."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1/2022 đến tháng 6/2024 và dự báo cho 6 tháng tiếp theo."
+}

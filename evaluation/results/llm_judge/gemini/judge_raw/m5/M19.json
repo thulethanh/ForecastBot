@@ -1,0 +1,26 @@
+{
+  "case_id": "M19",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Chart note khẳng định dữ liệu lịch sử từ 2011-01-01 đến 2013-01-01 được sử dụng để huấn luyện, trong khi thông tin cung cấp chỉ nêu các cửa sổ dữ liệu đầu vào cho dự báo, không xác nhận việc huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 năm cho đúng item và cửa hàng, nêu rõ mức dự báo 0.0, khoảng thời gian, cùng các thống kê lịch sử phù hợp. Các nhận định về trung bình, min/max và không biến động đều được history summary hỗ trợ. Tuy nhiên, chart note tự khẳng định dữ liệu được dùng để huấn luyện mô hình; thông tin case không xác nhận điều này. Nội dung rõ ràng và hữu ích, dù ý nghĩa thực tế chủ yếu ở mức cơ bản do chuỗi toàn số 0."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.51149516600708,
+    "input_tokens": 2288,
+    "output_tokens": 394,
+    "total_tokens": 2682,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Chart note khẳng định dữ liệu lịch sử từ 2011-01-01 đến 2013-01-01 được sử dụng để huấn luyện, trong khi thông tin cung cấp chỉ nêu các cửa sổ dữ liệu đầu vào cho dự báo, không xác nhận việc huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 năm cho đúng item và cửa hàng, nêu rõ mức dự báo 0.0, khoảng thời gian, cùng các thống kê lịch sử phù hợp. Các nhận định về trung bình, min/max và không biến động đều được history summary hỗ trợ. Tuy nhiên, chart note tự khẳng định dữ liệu được dùng để huấn luyện mô hình; thông tin case không xác nhận điều này. Nội dung rõ ràng và hữu ích, dù ý nghĩa thực tế chủ yếu ở mức cơ bản do chuỗi toàn số 0.\"}"
+  }
+}

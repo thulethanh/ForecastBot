@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M25",
+  "question": "Tôi cần xem xu hướng lượng bán của sản phẩm FOODS_3_576 tại bang TX trong 60 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1853,
+    "n_test": 60,
+    "horizon": 60,
+    "minimum_train_required": 60,
+    "required_points_for_evaluation": 120,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.012473625014536083,
+    "request_sql": 8.722792666987516,
+    "sql_execution_and_repair": 0.06111370795406401,
+    "forecast": 102.13296120800078,
+    "explanation": 18.69584458391182,
+    "end_to_end": 129.6255015839124
+  },
+  "total_tokens": 27360,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

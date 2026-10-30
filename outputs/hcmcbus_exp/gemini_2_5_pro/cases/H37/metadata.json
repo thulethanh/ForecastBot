@@ -1,0 +1,33 @@
+{
+  "case_id": "H37",
+  "question": "Dự báo lượng khách của tuyến 122 do HTX-195 vận hành trong 12 quý tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 12,
+    "n_train": 12,
+    "n_test": 0,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.397923290998733,
+    "load_schema": 0.0020679169974755496,
+    "sql_generation": 10.647444583002653,
+    "sql_execution_and_repair": 0.0092427920026239,
+    "forecast": 62.45527320799738,
+    "explanation": 29.050861499999883,
+    "end_to_end": 108.56285512500472
+  },
+  "total_tokens": 18654,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

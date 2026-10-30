@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho dữ liệu M5 của mặt hàng FOODS_3_576 tại tiểu bang TX, với độ chi tiết hàng ngày, trong khoảng thời gian 60 ngày (từ 2016-02-25 đến 2016-04-24). Mô hình dự báo đã xác định một giá trị ổn định là 2.4286 cho toàn bộ giai đoạn dự báo.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', kết hợp trọng số 60% từ cửa sổ ngắn (180 ngày) và 40% từ cửa sổ dài (365 ngày).",
+    "Do sử dụng cơ chế dự phòng (fallback_used: true), kết quả dự báo được tính toán dựa trên các tham số thống kê gần đây.",
+    "Giá trị dự báo (yhat) được duy trì ở mức 2.4286 ổn định trong suốt 60 bước thời gian, cho thấy sự ổn định dự kiến của dữ liệu trong giai đoạn này."
+  ],
+  "chart_note": "Phạm vi dự báo bao gồm 60 ngày, bắt đầu từ ngày 2016-02-25 và kết thúc vào ngày 2016-04-24. Tất cả các điểm dữ liệu dự báo đều có giá trị bằng nhau."
+}

@@ -1,0 +1,33 @@
+{
+  "case_id": "H11",
+  "question": "Cho tôi dự báo hành khách của tuyến 33 trong 1 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 11,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.055785500000638,
+    "load_schema": 0.001659666006162297,
+    "sql_generation": 8.80387583400443,
+    "sql_execution_and_repair": 0.011354165995726362,
+    "forecast": 82.01231679099874,
+    "explanation": 17.10061820899864,
+    "end_to_end": 113.98565608399804
+  },
+  "total_tokens": 17661,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

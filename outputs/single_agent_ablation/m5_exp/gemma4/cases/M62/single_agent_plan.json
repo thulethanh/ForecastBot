@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "year",
+  "horizon": 5,
+  "filters": {
+    "item_id": "HOUSEHOLD_1_005",
+    "state_id": "WI"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'HOUSEHOLD_1_005' AND s.state_id = 'WI' GROUP BY ds ORDER BY ds ASC;",
+  "sql_explanation": "Retrieves the sum of sales (y) for the specified item and state, aggregated by year (ds), suitable for forecasting the next 5 years."
+}

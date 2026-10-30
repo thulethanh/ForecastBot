@@ -1,0 +1,23 @@
+[
+  {
+    "env_key": "FORECASTBOT_DB_URI",
+    "database": "forecastbot",
+    "file": "forecastbot.dump",
+    "bytes": 102032,
+    "sha256": "bb286ae07705bb58f0e757bdd45e018b3db612db73ee10ad412c4402527448aa"
+  },
+  {
+    "env_key": "M5_DB_URI",
+    "database": "m5_db",
+    "file": "m5_db.dump",
+    "bytes": 296891668,
+    "sha256": "f961b987dbb15dcdcc9efda6721247829d8880c31c94473961089bb1c31bca68"
+  },
+  {
+    "env_key": "HCMC_BUS_DB_URI",
+    "database": "hcmcbus_db",
+    "file": "hcmcbus_db.dump",
+    "bytes": 2017175,
+    "sha256": "706e3eb03a0caf6105d39268f5c3964ef4430a0a878e181a6da392c00417af7f"
+  }
+]

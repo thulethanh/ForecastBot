@@ -1,0 +1,26 @@
+{
+  "case_id": "H47",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định rằng các quy luật theo tuần đã được quan sát trong dữ liệu lịch sử gần đây nhất không được history summary cung cấp trực tiếp."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà điều hành, kỳ hạn 90 ngày và nêu rõ mức dự báo cũng như dao động tuần hoàn. Các mốc thời gian, trung bình lịch sử và biên độ dự báo đều phù hợp dữ liệu được cung cấp. Chu kỳ 7 ngày và việc không có xu hướng dài hạn được thể hiện rõ trong dãy dự báo lặp lại. Tuy nhiên, history summary không trực tiếp chứng minh rằng quy luật tuần đã được quan sát trong dữ liệu lịch sử gần nhất, dù nhận định này phù hợp với dạng forecast. Trình bày rõ ràng và có ích, nhưng có thể nêu thêm ý nghĩa vận hành của các ngày cao/thấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.479482374968939,
+    "input_tokens": 5244,
+    "output_tokens": 576,
+    "total_tokens": 5820,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định rằng các quy luật theo tuần đã được quan sát trong dữ liệu lịch sử gần đây nhất không được history summary cung cấp trực tiếp.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà điều hành, kỳ hạn 90 ngày và nêu rõ mức dự báo cũng như dao động tuần hoàn. Các mốc thời gian, trung bình lịch sử và biên độ dự báo đều phù hợp dữ liệu được cung cấp. Chu kỳ 7 ngày và việc không có xu hướng dài hạn được thể hiện rõ trong dãy dự báo lặp lại. Tuy nhiên, history summary không trực tiếp chứng minh rằng quy luật tuần đã được quan sát trong dữ liệu lịch sử gần nhất, dù nhận định này phù hợp với dạng forecast. Trình bày rõ ràng và có ích, nhưng có thể nêu thêm ý nghĩa vận hành của các ngày cao/thấp.\"}"
+  }
+}

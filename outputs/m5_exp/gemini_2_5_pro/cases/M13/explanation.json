@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 3 quý tới cho item_id HOBBIES_1_173 tại state_id CA",
+  "summary_text": "ForecastBot dự báo giá trị sẽ giảm trong 3 quý tới, từ 257.2 (cho quý bắt đầu từ 2015-10-01) xuống 233.8 (cho quý bắt đầu từ 2016-04-01). Các giá trị dự báo này cao hơn mức trung bình lịch sử (179.8) trong giai đoạn từ 2011-01-01 đến 2015-07-01.",
+  "insights": [
+    "Dự báo cho thấy xu hướng giảm trong 3 quý tới, từ 257.2 xuống 233.8.",
+    "Các giá trị dự báo, dao động từ 233.8 đến 257.2, đều cao hơn giá trị trung bình lịch sử là 179.8.",
+    "Dự báo được tạo bằng mô hình `ensemble`, kết hợp mô hình ngắn hạn `h8` (cửa sổ 8 quý) với trọng số 60% và mô hình dài hạn `h12` (cửa sổ 12 quý) với trọng số 40%."
+  ],
+  "chart_note": "Biểu đồ hiển thị 19 điểm dữ liệu lịch sử theo quý từ 2011-01-01 đến 2015-07-01 và dự báo của ForecastBot cho 3 quý tiếp theo."
+}

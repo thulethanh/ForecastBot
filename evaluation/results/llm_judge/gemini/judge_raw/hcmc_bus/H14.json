@@ -1,0 +1,24 @@
+{
+  "case_id": "H14",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 38, đơn vị XKSG và horizon 4 quý. Các mốc thời gian, giá trị dự báo thấp nhất/cao nhất, so sánh với cực đại lịch sử, cũng như nhận định giảm nhẹ trong ba quý đầu rồi tăng mạnh quý cuối đều khớp forecast và history summary. Nội dung rõ ràng, ngắn gọn, đồng thời nêu được mức dự báo và diễn biến chính. Chart note cũng phù hợp với 8 điểm lịch sử từ Quý 1/2022 đến Quý 4/2023."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.6861764999921434,
+    "input_tokens": 2297,
+    "output_tokens": 215,
+    "total_tokens": 2512,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 38, đơn vị XKSG và horizon 4 quý. Các mốc thời gian, giá trị dự báo thấp nhất/cao nhất, so sánh với cực đại lịch sử, cũng như nhận định giảm nhẹ trong ba quý đầu rồi tăng mạnh quý cuối đều khớp forecast và history summary. Nội dung rõ ràng, ngắn gọn, đồng thời nêu được mức dự báo và diễn biến chính. Chart note cũng phù hợp với 8 điểm lịch sử từ Quý 1/2022 đến Quý 4/2023.\"}"
+  }
+}

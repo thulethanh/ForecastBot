@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 24,
+  "filters": {
+    "item_id": "HOBBIES_1_026",
+    "store_id": "WI_2",
+    "state_id": "WI"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'HOBBIES_1_026' AND s.store_id = 'WI_2' AND s.state_id = 'WI' GROUP BY DATE_TRUNC('month', c.date) ORDER BY ds ASC",
+  "sql_explanation": "The query retrieves the sum of sales (y) for the specified product (HOBBIES_1_026), store (WI_2), and state (WI). It aggregates the data by month (DATE_TRUNC('month', c.date)) to support the 24-month forecast horizon."
+}

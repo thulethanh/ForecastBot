@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 5 năm cho HCMC_BUS (tuyến 91, XKSG)",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024, ForecastBot dự báo giá trị sẽ giảm dần trong 5 năm tới. Dự báo bắt đầu ở mức 658.485 cho năm 2025 và giảm xuống 648.665 vào năm 2029.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng giảm nhẹ trong 5 năm tới, với giá trị giảm tổng cộng 9.820 (khoảng 1,5%) từ năm 2025 đến 2029.",
+    "Giá trị dự báo cho năm đầu tiên (2025) là 658.485, cao hơn mức trung bình lịch sử (646.196) nhưng thấp hơn mức cao nhất trong lịch sử (663.395).",
+    "Đến cuối giai đoạn dự báo vào năm 2029, giá trị dự kiến là 648.665, vẫn cao hơn một chút so với mức trung bình của 3 năm qua (646.196)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2022 đến 2024 và dự báo của ForecastBot cho 5 năm tiếp theo, từ 2025 đến 2029. Dự báo được tạo ra bằng mô hình `single` dựa trên 3 điểm dữ liệu gần nhất."
+}

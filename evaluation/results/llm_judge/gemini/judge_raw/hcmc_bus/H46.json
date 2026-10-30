@@ -1,0 +1,24 @@
+{
+  "case_id": "H46",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, khoảng dự báo, chu kỳ 7 ngày, mức thấp Chủ Nhật và cao Thứ Hai đều khớp chuỗi forecast. Trung bình dự báo khoảng 13.769, khoảng dự báo 9.517–15.546 và so sánh với trung bình/phạm vi lịch sử đều được hỗ trợ bởi dữ liệu. Chart note mô tả đúng phạm vi lịch sử, kỳ dự báo và cấu hình ensemble với hai cửa sổ 180 và 365 ngày. Nội dung ngắn gọn, rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.798411916999612,
+    "input_tokens": 4251,
+    "output_tokens": 348,
+    "total_tokens": 4599,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng tuyến và đơn vị vận hành. Các mốc thời gian, khoảng dự báo, chu kỳ 7 ngày, mức thấp Chủ Nhật và cao Thứ Hai đều khớp chuỗi forecast. Trung bình dự báo khoảng 13.769, khoảng dự báo 9.517–15.546 và so sánh với trung bình/phạm vi lịch sử đều được hỗ trợ bởi dữ liệu. Chart note mô tả đúng phạm vi lịch sử, kỳ dự báo và cấu hình ensemble với hai cửa sổ 180 và 365 ngày. Nội dung ngắn gọn, rõ ràng và hữu ích.\"}"
+  }
+}

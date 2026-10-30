@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho HOBBIES_1_061 tại WI",
+  "summary_text": "Dự báo đã được thực hiện thành công cho hai quý tiếp theo (2016-01-01 và 2016-04-01) cho mặt hàng HOBBIES_1_061 tại tiểu bang WI. Mô hình sử dụng phương pháp ensemble với trọng số 60% cho chuỗi ngắn hạn và 40% cho chuỗi dài hạn.",
+  "insights": [
+    "Dự báo cho quý 1 năm 2016 (2016-01-01) là 76.81.",
+    "Dự báo cho quý 2 năm 2016 (2016-04-01) là 73.51.",
+    "Phân tích được thực hiện dựa trên 20 điểm dữ liệu lịch sử, trải dài từ 2011-01-01 đến 2015-10-01."
+  ],
+  "chart_note": "Dữ liệu được phân tích theo độ chi tiết quý (quarterly granularity). Các giá trị dự báo (yhat) là ước tính cho hai bước thời gian tiếp theo."
+}

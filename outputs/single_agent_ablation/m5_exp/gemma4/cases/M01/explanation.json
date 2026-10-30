@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đã thực hiện dự báo 7 ngày (từ 2016-04-18 đến 2016-04-24) cho mặt hàng FOODS_3_228 với độ chi tiết hàng ngày. Kết quả dự báo cho thấy xu hướng tăng trưởng ổn định và liên tục trong suốt giai đoạn 7 ngày.",
+  "insights": [
+    "Mô hình dự báo sử dụng phương pháp kết hợp trọng số ngắn hạn (60%) và dài hạn (40%), dựa trên các cửa sổ dữ liệu 180 ngày và 365 ngày tương ứng.",
+    "Trạng thái dự báo là thành công, tuy nhiên, cần lưu ý rằng quá trình dự báo đã sử dụng cơ chế dự phòng (fallback_used: true).",
+    "Giá trị dự báo tăng dần đều đặn qua từng ngày, từ 52.6 (ngày 1) lên 55.5 (ngày 7)."
+  ],
+  "chart_note": "Phạm vi dự báo bao gồm 7 bước, bắt đầu từ ngày 2016-04-18 và kết thúc vào ngày 2016-04-24."
+}

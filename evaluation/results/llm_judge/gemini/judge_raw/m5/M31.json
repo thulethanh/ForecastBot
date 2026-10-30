@@ -1,0 +1,26 @@
+{
+  "case_id": "M31",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"40 điểm dữ liệu lịch sử ... được sử dụng để huấn luyện\" ForecastBot không được hỗ trợ bởi thông tin được cung cấp; chỉ có thông tin về dữ liệu lịch sử khả dụng và các cửa sổ dự báo 36/40 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, TX, chân trời 24 tháng và nêu chính xác phạm vi, trung bình lịch sử, khoảng dự báo, các tháng đạt đỉnh/đáy. Nhận định về mẫu lặp lại hằng năm được hỗ trợ trực tiếp bởi chuỗi dự báo lặp lại theo 12 tháng. Tuy nhiên, chart_note khẳng định 40 điểm được dùng để huấn luyện, trong khi dữ liệu chỉ nêu lịch sử khả dụng và cửa sổ cho các nhánh dự báo, không xác nhận quá trình huấn luyện. Nội dung còn lại rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.147693541992339,
+    "input_tokens": 3012,
+    "output_tokens": 423,
+    "total_tokens": 3435,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"40 điểm dữ liệu lịch sử ... được sử dụng để huấn luyện\\\" ForecastBot không được hỗ trợ bởi thông tin được cung cấp; chỉ có thông tin về dữ liệu lịch sử khả dụng và các cửa sổ dự báo 36/40 điểm.\"],\"reason_vi\":\"Giải thích bám sát đúng item, TX, chân trời 24 tháng và nêu chính xác phạm vi, trung bình lịch sử, khoảng dự báo, các tháng đạt đỉnh/đáy. Nhận định về mẫu lặp lại hằng năm được hỗ trợ trực tiếp bởi chuỗi dự báo lặp lại theo 12 tháng. Tuy nhiên, chart_note khẳng định 40 điểm được dùng để huấn luyện, trong khi dữ liệu chỉ nêu lịch sử khả dụng và cửa sổ cho các nhánh dự báo, không xác nhận quá trình huấn luyện. Nội dung còn lại rõ ràng và hữu ích.\"}"
+  }
+}

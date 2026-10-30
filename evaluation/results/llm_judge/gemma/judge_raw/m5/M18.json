@@ -1,0 +1,24 @@
+{
+  "case_id": "M18",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 2 năm cho đúng mặt hàng, nêu đầy đủ hai giá trị và mốc thời gian dự báo. Các số liệu trung bình lịch sử (842.25), phạm vi 4 điểm năm 2011–2014, giá trị dự báo và trọng số/cửa sổ h4 đều khớp dữ liệu được cung cấp. Nhận xét dự báo cao hơn đáng kể so với trung bình lịch sử được hỗ trợ trực tiếp bởi các con số. Nội dung rõ ràng, ngắn gọn; tuy nhiên có thể hữu ích hơn nếu nêu cụ thể mức chênh lệch hoặc xu hướng tăng giữa hai năm dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.4661072499875445,
+    "input_tokens": 2212,
+    "output_tokens": 256,
+    "total_tokens": 2468,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 2 năm cho đúng mặt hàng, nêu đầy đủ hai giá trị và mốc thời gian dự báo. Các số liệu trung bình lịch sử (842.25), phạm vi 4 điểm năm 2011–2014, giá trị dự báo và trọng số/cửa sổ h4 đều khớp dữ liệu được cung cấp. Nhận xét dự báo cao hơn đáng kể so với trung bình lịch sử được hỗ trợ trực tiếp bởi các con số. Nội dung rõ ràng, ngắn gọn; tuy nhiên có thể hữu ích hơn nếu nêu cụ thể mức chênh lệch hoặc xu hướng tăng giữa hai năm dự báo.\"}"
+  }
+}

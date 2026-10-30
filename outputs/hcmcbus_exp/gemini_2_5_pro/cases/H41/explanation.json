@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 5 năm cho HCMC_BUS (route_id: 139, operator: XKSG)",
+  "summary_text": "ForecastBot dự báo giá trị sẽ tăng đều đặn trong 5 năm tới, từ khoảng 767.0k vào năm 2025 lên 939.7k vào năm 2029. Giá trị dự báo cho năm 2025 (767.0k) cao hơn mức tối đa trong lịch sử (723.8k).",
+  "insights": [
+    "Dự báo cho thấy một xu hướng tăng trưởng tuyến tính, với giá trị tăng thêm khoảng 43.2k mỗi năm.",
+    "Giá trị dự báo cho năm đầu tiên (2025) là 767.0k, cao hơn khoảng 6% so với giá trị lịch sử cao nhất là 723.8k.",
+    "Trong suốt 5 năm dự báo, giá trị được dự kiến sẽ tăng tổng cộng 172.7k, tương đương mức tăng 22.5% so với giá trị năm 2025."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ năm 2022 đến 2024 và dự báo của ForecastBot cho 5 năm tiếp theo, từ 2025 đến 2029."
+}

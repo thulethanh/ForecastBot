@@ -1,0 +1,24 @@
+{
+  "case_id": "H46",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng tuyến 150 và đơn vị HTX-195. Khoảng thời gian, mức dự báo xấp xỉ 12.000–16.300, quy luật theo tuần và xu hướng tăng nhẹ đều phù hợp với các giá trị forecast. Ghi chú mô hình tổng hợp, hai cửa sổ 180/365 ngày và trọng số 60%/40% khớp forecast_result. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức độ cũng như nhịp biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.023913000011817,
+    "input_tokens": 4197,
+    "output_tokens": 327,
+    "total_tokens": 4524,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 60 ngày cho đúng tuyến 150 và đơn vị HTX-195. Khoảng thời gian, mức dự báo xấp xỉ 12.000–16.300, quy luật theo tuần và xu hướng tăng nhẹ đều phù hợp với các giá trị forecast. Ghi chú mô hình tổng hợp, hai cửa sổ 180/365 ngày và trọng số 60%/40% khớp forecast_result. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức độ cũng như nhịp biến động chính.\"}"
+  }
+}

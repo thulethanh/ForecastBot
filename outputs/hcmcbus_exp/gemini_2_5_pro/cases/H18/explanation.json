@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HCMC_BUS: route_id 46, operator HTX-ThanhSon",
+  "summary_text": "ForecastBot dự báo giá trị sẽ không đổi ở mức 459,979.0 cho các năm 2023 và 2024. Dự báo này được đưa ra dựa trên một điểm dữ liệu lịch sử duy nhất từ năm 2022.",
+  "insights": [
+    "Dữ liệu lịch sử chỉ có một điểm duy nhất cho năm 2022 với giá trị là 459,979.0.",
+    "Do không có xu hướng nào có thể được xác định từ một điểm dữ liệu, dự báo cho các năm 2023 và 2024 lặp lại giá trị lịch sử này."
+  ],
+  "chart_note": "Biểu đồ hiển thị một điểm dữ liệu lịch sử từ năm 2022 và dự báo của ForecastBot cho 2 năm tiếp theo."
+}

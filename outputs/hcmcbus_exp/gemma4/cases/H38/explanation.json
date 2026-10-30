@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HCMC_BUS (Route 126, HTX-195)",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2023-12-01, ForecastBot dự báo rằng chỉ số sẽ tiếp tục tăng trưởng ổn định trong 12 tháng tới (từ tháng 1 năm 2024 đến tháng 12 năm 2024). Giá trị dự báo bắt đầu ở mức 92,390.0 vào tháng 1 năm 2024 và tăng dần lên 105,390.0 vào tháng 12 năm 2024.",
+  "insights": [
+    "Trong 12 tháng dự báo, chỉ số được kỳ vọng tăng trưởng liên tục, với mức tăng từ 92,390.0 (tháng 1/2024) lên 105,390.0 (tháng 12/2024).",
+    "Sự tăng trưởng này cho thấy xu hướng tăng trưởng mạnh mẽ và ổn định qua các quý của năm 2024.",
+    "Mức tăng trưởng trung bình hàng tháng được duy trì xuyên suốt giai đoạn dự báo."
+  ],
+  "chart_note": "Biểu đồ này được huấn luyện trên 24 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-12-01. Phần dự báo (forecast) bao gồm 12 bước, kéo dài từ tháng 1 năm 2024 đến tháng 12 năm 2024."
+}

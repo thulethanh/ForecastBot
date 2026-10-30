@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo lưu lượng xe buýt (HCMC_BUS - Tuyến 47)",
+  "summary_text": "Dự báo cho tuyến xe buýt 47 (HCMC_BUS) trong 3 năm tới (2025-2027) cho thấy xu hướng tăng trưởng ổn định. Giá trị dự báo tăng dần từ 986,033.0 vào năm 2025 lên 1,019,331.0 vào năm 2027.",
+  "insights": [
+    "Dự báo được thực hiện bằng chế độ 'single' và sử dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+    "Khoảng thời gian dự báo bao gồm 3 bước (2025, 2026, 2027), bắt đầu từ ngày 2025-01-01.",
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 3 điểm dữ liệu, trải dài từ năm 2022 đến năm 2024."
+  ],
+  "chart_note": "Các giá trị dự báo (yhat) được tính toán dựa trên dữ liệu lịch sử của tuyến 47 (HCMC_BUS) và không đại diện cho các giá trị thực tế trong tương lai."
+}

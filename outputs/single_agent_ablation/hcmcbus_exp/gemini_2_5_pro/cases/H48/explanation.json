@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ tháng 5 năm 2022 đến tháng 11 năm 2024 cho tuyến xe buýt 152 do Cty-BaoYen vận hành, giá trị dự báo cho tháng 12 năm 2024 là 51,043.",
+  "insights": [
+    "Giá trị dự báo (51,043) cao hơn mức trung bình trong quá khứ (khoảng 46,558) và nằm trong khoảng dữ liệu lịch sử (5,600 - 56,493).",
+    "Mô hình dự báo này được tạo ra từ 24 điểm dữ liệu hàng tháng, trong đó các xu hướng gần đây có trọng số cao hơn (60%) trong việc tính toán kết quả."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 5 năm 2022 đến tháng 11 năm 2024 và điểm dự báo cho tháng tiếp theo."
+}

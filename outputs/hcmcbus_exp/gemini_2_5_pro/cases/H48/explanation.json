@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 1 tháng tới cho HCMC_BUS (route_id: 152, operator: Cty-BaoYen)",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ tháng 5 năm 2022 đến tháng 11 năm 2024, ForecastBot dự báo giá trị cho tháng 12 năm 2024 là 49.382.",
+  "insights": [
+    "Giá trị dự báo (49.382) cao hơn mức trung bình lịch sử (46.558).",
+    "Giá trị dự báo (49.382) nằm trong khoảng giá trị lịch sử đã quan sát được, từ 5.600 đến 56.493.",
+    "Dự báo được tạo ra từ 24 điểm dữ liệu lịch sử theo tháng."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 5 năm 2022 đến tháng 11 năm 2024 và dự báo của ForecastBot cho tháng 12 năm 2024."
+}

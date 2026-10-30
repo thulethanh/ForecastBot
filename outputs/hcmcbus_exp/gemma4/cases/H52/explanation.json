@@ -1,0 +1,11 @@
+{
+  "title": "Dự báo lưu lượng xe buýt HCMC_BUS (Route 71) trong 24 tháng tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2024-12-01, ForecastBot dự báo lưu lượng xe buýt cho tuyến 71 (XKSG, 2B.2_ML) sẽ tiếp tục dao động theo chu kỳ hàng năm trong 24 tháng tới (từ 2025-01-01 đến 2026-12-01). Lưu lượng dự kiến đạt mức cao nhất vào tháng 10 năm 2025 (38910.0) và tháng 10 năm 2026 (38910.0).",
+  "insights": [
+    "Lưu lượng dự báo cho thấy xu hướng mùa vụ rõ rệt, với mức cao điểm thường rơi vào các tháng 9 và 10 của mỗi năm.",
+    "Các tháng 10 (2025 và 2026) được dự báo đạt mức cao nhất là 38910.0, tương đương với mức tối đa lịch sử (38910.0).",
+    "Các tháng 6 và 7 được dự báo có lưu lượng thấp hơn, lần lượt là 21656.0 và 20582.0.",
+    "Mức trung bình lịch sử của dữ liệu là 28108.03, và các giá trị dự báo dao động quanh mức này."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện trên 36 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-12-01. ForecastBot đã tạo ra dự báo cho 24 bước tiếp theo, kéo dài từ 2025-01-01 đến 2026-12-01."
+}

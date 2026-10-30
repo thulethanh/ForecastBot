@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M38",
+  "question": "Trong 1 năm tới, lượng bán của sản phẩm HOUSEHOLD_1_511 sẽ như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 5,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.00812633300665766,
+    "request_sql": 89.34117591695394,
+    "sql_execution_and_repair": 0.08524533291347325,
+    "forecast": 111.16966704197694,
+    "explanation": 109.04175454203505,
+    "end_to_end": 309.64621479203925
+  },
+  "total_tokens": 4529,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

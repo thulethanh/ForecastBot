@@ -1,0 +1,26 @@
+{
+  "case_id": "M35",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (18 điểm, từ 2011-01-01 đến 2015-04-01)\": thông tin cung cấp chỉ xác nhận 18 điểm là phạm vi lịch sử khả dụng; các nhánh dự báo thực tế dùng cửa sổ h8 và h12, và không có bằng chứng về việc huấn luyện trên toàn bộ 18 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, chân trời 4 quý và nêu rõ mức dự báo, đỉnh/biên độ dự báo, so sánh với cực đại lịch sử và trọng số ensemble. Các số liệu đều khớp với history summary và forecast. Tuy nhiên, chart_note khẳng định 18 điểm lịch sử được dùng để huấn luyện, trong khi thông tin chỉ cho thấy các nhánh dự báo dùng cửa sổ 8 và 12 điểm và không xác nhận nội dung huấn luyện này."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.825198124992312,
+    "input_tokens": 2299,
+    "output_tokens": 421,
+    "total_tokens": 2720,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (18 điểm, từ 2011-01-01 đến 2015-04-01)\\\": thông tin cung cấp chỉ xác nhận 18 điểm là phạm vi lịch sử khả dụng; các nhánh dự báo thực tế dùng cửa sổ h8 và h12, và không có bằng chứng về việc huấn luyện trên toàn bộ 18 điểm.\"],\"reason_vi\":\"Giải thích bám sát đúng item, chân trời 4 quý và nêu rõ mức dự báo, đỉnh/biên độ dự báo, so sánh với cực đại lịch sử và trọng số ensemble. Các số liệu đều khớp với history summary và forecast. Tuy nhiên, chart_note khẳng định 18 điểm lịch sử được dùng để huấn luyện, trong khi thông tin chỉ cho thấy các nhánh dự báo dùng cửa sổ 8 và 12 điểm và không xác nhận nội dung huấn luyện này.\"}"
+  }
+}

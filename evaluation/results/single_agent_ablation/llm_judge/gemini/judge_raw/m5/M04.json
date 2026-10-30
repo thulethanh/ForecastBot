@@ -1,0 +1,26 @@
+{
+  "case_id": "M04",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng mặt hàng \"không bán được mỗi ngày\" không được chứng minh trực tiếp bởi phần tóm tắt lịch sử; dữ liệu chỉ cho biết mức nhỏ nhất là 0 và trung bình là 0,42."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng và chân trời 60 ngày. Các mô tả về chu kỳ 7 ngày, đỉnh thứ Ba khoảng 0,31, đáy thứ Tư khoảng 0,16, biên độ ổn định và không có xu hướng rõ đều khớp trực tiếp với dãy dự báo lặp theo tuần. Khoảng lịch sử và giai đoạn dự báo cũng chính xác. Tuy nhiên, từ mức trung bình thấp không thể khẳng định chắc chắn mặt hàng không bán được mỗi ngày. Nội dung nhìn chung rõ ràng, ngắn gọn và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.691520334105007,
+    "input_tokens": 4235,
+    "output_tokens": 589,
+    "total_tokens": 4824,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng mặt hàng \\\"không bán được mỗi ngày\\\" không được chứng minh trực tiếp bởi phần tóm tắt lịch sử; dữ liệu chỉ cho biết mức nhỏ nhất là 0 và trung bình là 0,42.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng và chân trời 60 ngày. Các mô tả về chu kỳ 7 ngày, đỉnh thứ Ba khoảng 0,31, đáy thứ Tư khoảng 0,16, biên độ ổn định và không có xu hướng rõ đều khớp trực tiếp với dãy dự báo lặp theo tuần. Khoảng lịch sử và giai đoạn dự báo cũng chính xác. Tuy nhiên, từ mức trung bình thấp không thể khẳng định chắc chắn mặt hàng không bán được mỗi ngày. Nội dung nhìn chung rõ ràng, ngắn gọn và hữu ích.\"}"
+  }
+}

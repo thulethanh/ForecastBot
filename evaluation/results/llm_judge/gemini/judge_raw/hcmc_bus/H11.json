@@ -1,0 +1,24 @@
+{
+  "case_id": "H11",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 1 quý cho tuyến 33, nêu đúng thời điểm và giá trị dự báo. Các so sánh với mức tối đa lịch sử, số điểm dữ liệu, phạm vi thời gian và giá trị trung bình đều khớp history summary. Mô tả ensemble cũng phù hợp với hai cửa sổ 8 và 11 quý trong forecast result. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo cũng như vị trí của nó so với lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.96266762498999,
+    "input_tokens": 2168,
+    "output_tokens": 253,
+    "total_tokens": 2421,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 1 quý cho tuyến 33, nêu đúng thời điểm và giá trị dự báo. Các so sánh với mức tối đa lịch sử, số điểm dữ liệu, phạm vi thời gian và giá trị trung bình đều khớp history summary. Mô tả ensemble cũng phù hợp với hai cửa sổ 8 và 11 quý trong forecast result. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo cũng như vị trí của nó so với lịch sử.\"}"
+  }
+}

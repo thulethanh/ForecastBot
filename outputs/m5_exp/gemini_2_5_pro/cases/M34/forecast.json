@@ -1,0 +1,32 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2015-10-01",
+      "yhat": 122.0
+    },
+    {
+      "step": 2,
+      "ds": "2016-01-01",
+      "yhat": 91.6
+    },
+    {
+      "step": 3,
+      "ds": "2016-04-01",
+      "yhat": 70.2
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "ensemble",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 8,
+    "long_n": 12,
+    "short_window_name": "h8",
+    "long_window_name": "h12"
+  }
+}

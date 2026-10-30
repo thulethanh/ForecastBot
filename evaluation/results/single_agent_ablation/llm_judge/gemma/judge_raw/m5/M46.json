@@ -1,0 +1,26 @@
+{
+  "case_id": "M46",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để tính toán bao gồm 1853 điểm dữ liệu\" không được window_info xác nhận; thông tin này chỉ xác nhận 1853 điểm là phạm vi lịch sử khả dụng, trong khi các cửa sổ dự báo được nêu là 180 và 365 quan sát gần nhất."
+    ],
+    "reason_vi": "Giải thích trực tiếp cho đúng mặt hàng, cửa hàng và 60 ngày dự báo; nêu chính xác khoảng ngày và mức dự báo cố định 0.1429. Các thông tin về chế độ deterministic_recent_mean, fallback và trọng số đều phù hợp metadata dự báo. Tuy nhiên, câu khẳng định toàn bộ 1853 điểm lịch sử được dùng để tính toán không được hỗ trợ rõ, vì window_info cho biết các nhánh sử dụng cửa sổ 180 và 365 quan sát. Nội dung còn lại rõ ràng, mạch lạc và giúp hiểu mức dự báo không biến động."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.163967916974798,
+    "input_tokens": 4220,
+    "output_tokens": 450,
+    "total_tokens": 4670,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để tính toán bao gồm 1853 điểm dữ liệu\\\" không được window_info xác nhận; thông tin này chỉ xác nhận 1853 điểm là phạm vi lịch sử khả dụng, trong khi các cửa sổ dự báo được nêu là 180 và 365 quan sát gần nhất.\"],\"reason_vi\":\"Giải thích trực tiếp cho đúng mặt hàng, cửa hàng và 60 ngày dự báo; nêu chính xác khoảng ngày và mức dự báo cố định 0.1429. Các thông tin về chế độ deterministic_recent_mean, fallback và trọng số đều phù hợp metadata dự báo. Tuy nhiên, câu khẳng định toàn bộ 1853 điểm lịch sử được dùng để tính toán không được hỗ trợ rõ, vì window_info cho biết các nhánh sử dụng cửa sổ 180 và 365 quan sát. Nội dung còn lại rõ ràng, mạch lạc và giúp hiểu mức dự báo không biến động.\"}"
+  }
+}

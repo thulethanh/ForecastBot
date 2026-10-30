@@ -1,0 +1,26 @@
+{
+  "case_id": "H56",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Biểu đồ này được huấn luyện trên 8 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết có 8 điểm lịch sử và các cửa sổ dự báo đều có 8 quan sát, không xác nhận việc huấn luyện biểu đồ/mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, tần suất theo quý và 4 kỳ dự báo. Các mức đầu-cuối, xu hướng tăng liên tục và chênh lệch 30.407 đều khớp forecast. Trình bày rõ ràng, ngắn gọn và giúp hiểu diễn biến dự báo. Tuy nhiên, chart_note khẳng định biểu đồ được huấn luyện trên 8 điểm lịch sử, trong khi thông tin cung cấp chỉ xác nhận phạm vi/cỡ dữ liệu lịch sử và cửa sổ dự báo, không xác nhận nội dung huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.021749584004283,
+    "input_tokens": 2338,
+    "output_tokens": 345,
+    "total_tokens": 2683,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Biểu đồ này được huấn luyện trên 8 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết có 8 điểm lịch sử và các cửa sổ dự báo đều có 8 quan sát, không xác nhận việc huấn luyện biểu đồ/mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, tần suất theo quý và 4 kỳ dự báo. Các mức đầu-cuối, xu hướng tăng liên tục và chênh lệch 30.407 đều khớp forecast. Trình bày rõ ràng, ngắn gọn và giúp hiểu diễn biến dự báo. Tuy nhiên, chart_note khẳng định biểu đồ được huấn luyện trên 8 điểm lịch sử, trong khi thông tin cung cấp chỉ xác nhận phạm vi/cỡ dữ liệu lịch sử và cửa sổ dự báo, không xác nhận nội dung huấn luyện.\"}"
+  }
+}

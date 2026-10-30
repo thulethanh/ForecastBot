@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo số lượt hành khách cho tuyến xe buýt 53 của nhà xe HTX-QTHANG trong 3 tháng tới. Dự báo cho tháng 10/2024 là 248,537, tháng 11/2024 là 216,309 và tháng 12/2024 là 199,606.",
+  "insights": [
+    "Dự báo cho thấy xu hướng giảm trong 3 tháng tới, từ 248,537 vào tháng 10 xuống 199,606 vào tháng 12.",
+    "Tất cả các giá trị dự báo đều cao hơn mức trung bình lịch sử (161,628) trong giai đoạn từ tháng 01/2022 đến tháng 09/2024."
+  ],
+  "chart_note": "Dự báo được tạo ra bằng mô hình tổng hợp, kết hợp các xu hướng từ 24 tháng gần nhất (trọng số 60%) và toàn bộ 33 tháng dữ liệu lịch sử (trọng số 40%)."
+}

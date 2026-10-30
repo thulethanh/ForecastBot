@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id HOUSEHOLD_1_321 cho 12 quý tới",
+  "summary_text": "Dựa trên 22 điểm dữ liệu lịch sử theo quý từ 2011-01-01 đến 2016-04-01 (giá trị trung bình 108.5), ForecastBot dự báo cho 12 quý tiếp theo. Các giá trị dự báo dao động trong khoảng từ 56.2 đến 141.0.",
+  "insights": [
+    "Dự báo cho thấy một quy luật mùa vụ rõ rệt lặp lại hàng năm (mỗi 4 quý).",
+    "Giá trị dự báo cao nhất (141.0) được dự kiến vào quý đầu tiên của mỗi năm (tháng 1).",
+    "Giá trị dự báo thấp nhất (56.2) được dự kiến vào quý thứ hai của mỗi năm (tháng 4)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 22 điểm dữ liệu lịch sử từ 2011-01-01 đến 2016-04-01 và dự báo của ForecastBot cho 12 quý tiếp theo. Dự báo được tạo ra bằng mô hình ensemble."
+}

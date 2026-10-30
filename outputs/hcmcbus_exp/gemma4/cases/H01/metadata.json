@@ -1,0 +1,33 @@
+{
+  "case_id": "H01",
+  "question": "Tôi muốn dự báo lượng hành khách của tuyến 19 trong 7 ngày tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1089,
+    "n_test": 7,
+    "horizon": 7,
+    "minimum_train_required": 7,
+    "required_points_for_evaluation": 14,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 20.790840041001502,
+    "load_schema": 0.06605358300294029,
+    "sql_generation": 38.08164525000029,
+    "sql_execution_and_repair": 0.04204929199477192,
+    "forecast": 481.02943087499443,
+    "explanation": 58.7500559580003,
+    "end_to_end": 598.7601832079963
+  },
+  "total_tokens": 21040,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

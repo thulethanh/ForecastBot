@@ -1,0 +1,22 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2024-10-01",
+      "yhat": 80546.4
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "single",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 8,
+    "long_n": 8,
+    "short_window_name": "h8",
+    "long_window_name": "h8"
+  }
+}

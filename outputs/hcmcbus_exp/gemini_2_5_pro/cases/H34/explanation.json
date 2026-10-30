@@ -1,0 +1,11 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 100, operator: HTX-VTHANG) trong 3 quý tới",
+  "summary_text": "Dựa trên 9 điểm dữ liệu lịch sử theo quý từ 2022-01-01 đến 2024-01-01, ForecastBot dự báo các giá trị cho 3 quý tới sẽ dao động trong khoảng 95,220.0 đến 131,122.4. Dữ liệu lịch sử có giá trị trung bình là 101,124.1 và nằm trong khoảng từ 66,418.0 đến 128,488.0.",
+  "insights": [
+    "Dự báo cao nhất là 131,122.4 cho Quý 4 2024, vượt qua mức tối đa trong lịch sử (128,488.0).",
+    "Dự báo thấp nhất là 95,220.0 cho Quý 3 2024.",
+    "Dự báo cho quý đầu tiên, Quý 2 2024, là 103,665.2, cao hơn một chút so với giá trị trung bình lịch sử (101,124.1).",
+    "Dự báo được tạo bởi mô hình `ensemble`, sử dụng trọng số 60% cho cửa sổ ngắn hạn (`h8`) và 40% cho cửa sổ dài hạn (`h9`)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 9 điểm dữ liệu lịch sử theo quý từ 2022-01-01 đến 2024-01-01 đã được sử dụng để tạo dự báo, cùng với dự báo cho 3 quý tiếp theo đến hết 2024-10-01."
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M21",
+  "question": "Tôi muốn dự báo lượng bán của sản phẩm HOUSEHOLD_2_226 tại cửa hàng CA_3, bang CA trong 10 năm tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 6,
+    "n_train": 6,
+    "n_test": 0,
+    "horizon": 10,
+    "minimum_train_required": 5,
+    "required_points_for_evaluation": 15,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.003955333027988672,
+    "request_sql": 10.430230709025636,
+    "sql_execution_and_repair": 0.015071041998453438,
+    "forecast": 11.66369933297392,
+    "explanation": 10.828886542003602,
+    "end_to_end": 32.94190895801876
+  },
+  "total_tokens": 6274,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

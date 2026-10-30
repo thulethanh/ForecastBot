@@ -1,0 +1,26 @@
+{
+  "case_id": "H16",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định 9 điểm dữ liệu lịch sử \"được sử dụng để huấn luyện mô hình\". Thông tin cung cấp chỉ xác nhận hai cửa sổ dự báo đều có 9 quan sát, không xác nhận việc huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 quý cho đúng tuyến và đơn vị vận hành; nêu đúng kỳ dự báo, mức thấp nhất/cao nhất và các mẫu biến động thể hiện trong forecast. Trình bày rõ ràng, ngắn gọn và hữu ích nhờ chỉ ra xu hướng tổng thể cùng các quý đỉnh/thấp. Tuy nhiên, chart note đưa thêm khẳng định rằng dữ liệu lịch sử được dùng để huấn luyện mô hình, trong khi thông tin case chỉ cho biết các cửa sổ dự báo có 9 quan sát."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.534017833997495,
+    "input_tokens": 2614,
+    "output_tokens": 466,
+    "total_tokens": 3080,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định 9 điểm dữ liệu lịch sử \\\"được sử dụng để huấn luyện mô hình\\\". Thông tin cung cấp chỉ xác nhận hai cửa sổ dự báo đều có 9 quan sát, không xác nhận việc huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 quý cho đúng tuyến và đơn vị vận hành; nêu đúng kỳ dự báo, mức thấp nhất/cao nhất và các mẫu biến động thể hiện trong forecast. Trình bày rõ ràng, ngắn gọn và hữu ích nhờ chỉ ra xu hướng tổng thể cùng các quý đỉnh/thấp. Tuy nhiên, chart note đưa thêm khẳng định rằng dữ liệu lịch sử được dùng để huấn luyện mô hình, trong khi thông tin case chỉ cho biết các cửa sổ dự báo có 9 quan sát.\"}"
+  }
+}

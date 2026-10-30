@@ -1,0 +1,26 @@
+{
+  "case_id": "M25",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Điều này cho thấy mô hình đã ghi nhận một xu hướng tăng gần đây\" không được hỗ trợ trực tiếp bởi history summary; việc dự báo cao hơn trung bình lịch sử và đặt 60% trọng số cho cửa sổ 180 ngày không tự nó chứng minh có xu hướng tăng gần đây."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu 60 ngày cho đúng sản phẩm và Texas, nêu đúng thời điểm bắt đầu, mức trung bình lịch sử và các mức dự báo theo thứ trong tuần. Nhận định đỉnh vào Thứ Bảy (~1,82), đáy vào Thứ Sáu (~1,19), cùng việc toàn bộ dự báo cao hơn 0,58 đều khớp forecast. Tuy nhiên, kết luận rằng mô hình đã ghi nhận xu hướng tăng gần đây chưa có bằng chứng trực tiếp từ phần tóm tắt lịch sử được cung cấp. Nội dung rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.150834208005108,
+    "input_tokens": 4221,
+    "output_tokens": 376,
+    "total_tokens": 4597,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Điều này cho thấy mô hình đã ghi nhận một xu hướng tăng gần đây\\\" không được hỗ trợ trực tiếp bởi history summary; việc dự báo cao hơn trung bình lịch sử và đặt 60% trọng số cho cửa sổ 180 ngày không tự nó chứng minh có xu hướng tăng gần đây.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu 60 ngày cho đúng sản phẩm và Texas, nêu đúng thời điểm bắt đầu, mức trung bình lịch sử và các mức dự báo theo thứ trong tuần. Nhận định đỉnh vào Thứ Bảy (~1,82), đáy vào Thứ Sáu (~1,19), cùng việc toàn bộ dự báo cao hơn 0,58 đều khớp forecast. Tuy nhiên, kết luận rằng mô hình đã ghi nhận xu hướng tăng gần đây chưa có bằng chứng trực tiếp từ phần tóm tắt lịch sử được cung cấp. Nội dung rõ ràng và hữu ích.\"}"
+  }
+}

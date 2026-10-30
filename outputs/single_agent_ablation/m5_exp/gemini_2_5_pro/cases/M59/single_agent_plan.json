@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 12,
+  "filters": {
+    "item_id": "HOUSEHOLD_2_389",
+    "store_id": "WI_1",
+    "state_id": "WI"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT\n  DATE_TRUNC('month', c.date)::date AS ds,\n  SUM(s.sales) AS y\nFROM\n  m5_sales_train AS s\n  INNER JOIN m5_calendar AS c ON s.d = c.d\nWHERE\n  s.item_id = 'HOUSEHOLD_2_389'\n  AND s.store_id = 'WI_1'\n  AND s.state_id = 'WI'\nGROUP BY\n  ds\nORDER BY\n  ds ASC",
+  "sql_explanation": "This SQL query retrieves the monthly sales for the product 'HOUSEHOLD_2_389' at the 'WI_1' store in the 'WI' state. The data is aggregated by month to prepare for the forecast."
+}

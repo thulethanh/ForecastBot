@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M10",
+  "question": "Tôi muốn xem lượng bán dự kiến của sản phẩm HOBBIES_1_013 tại cửa hàng CA_1, bang CA trong 24 tháng tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 40,
+    "n_test": 24,
+    "horizon": 24,
+    "minimum_train_required": 24,
+    "required_points_for_evaluation": 48,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.015117082977667451,
+    "request_sql": 9.721977666020393,
+    "sql_execution_and_repair": 0.016795417061075568,
+    "forecast": 39.712897500023246,
+    "explanation": 13.823251583962701,
+    "end_to_end": 63.2901229999261
+  },
+  "total_tokens": 11998,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

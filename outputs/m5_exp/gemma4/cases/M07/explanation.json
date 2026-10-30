@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho FOODS_3_718 tại CA_3 (M5)",
+  "summary_text": "Dự báo cho 3 tháng tới cho FOODS_3_718 tại CA_3 cho thấy mức tăng trưởng liên tục. Cụ thể, dự báo cho tháng 2 năm 2016 là 1.8, tháng 3 năm 2016 là 2.8, và tháng 4 năm 2016 là 3.8.",
+  "insights": [
+    "Dựa trên kết quả dự báo, giá trị được dự đoán tăng dần qua các tháng, tăng 1.0 đơn vị từ tháng 2 sang tháng 3, và tăng 1.0 đơn vị từ tháng 3 sang tháng 4.",
+    "Mức dự báo cho tháng 4 năm 2016 (3.8) cao hơn mức dự báo của tháng 2 năm 2016 (1.8) là 2.0 đơn vị."
+  ],
+  "chart_note": "Bản đồ này hiển thị kết quả dự báo được tạo ra bằng mô hình ensemble, sử dụng dữ liệu lịch sử 61 điểm. Mô hình kết hợp thông tin từ hai cửa sổ khác nhau: h24 (24 điểm) và h36 (36 điểm)."
+}

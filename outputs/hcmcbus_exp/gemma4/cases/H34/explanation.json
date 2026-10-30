@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 100, HTX-VTHANG) cho 3 quý tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo các giá trị cho 3 quý tiếp theo của dataset HCMC_BUS (Tuyến 100, HTX-VTHANG). Dự báo cho thấy xu hướng tăng trưởng ổn định qua các quý.",
+  "insights": [
+    "Giá trị dự báo bắt đầu từ 2024-04-01 là 100,765.732.",
+    "Dự báo cho quý 2 (2024-07-01) là 105,275.764, tăng nhẹ so với quý 1.",
+    "Giá trị dự báo cao nhất là 126,872.9 vào quý 3 (2024-10-01), cho thấy mức tăng trưởng đáng kể nhất trong giai đoạn dự báo."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 9 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01. ForecastBot sử dụng chế độ ensemble (với trọng số short: 0.6 và long: 0.4) để tạo ra dự báo cho 3 quý tiếp theo."
+}

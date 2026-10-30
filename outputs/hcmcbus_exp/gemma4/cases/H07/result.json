@@ -1,0 +1,396 @@
+{
+  "case_id": "H07",
+  "question": "Cho tôi dự báo lượng khách của tuyến 29 do HTX-ThanhSon vận hành trong 3 tháng tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "forecast_request": {
+    "intent": "forecast_request",
+    "dataset": "HCMC_BUS",
+    "granularity": "month",
+    "horizon": 3,
+    "filters": {
+      "route_id": "29",
+      "operator": "HTX-ThanhSon"
+    },
+    "missing_fields": [],
+    "needs_clarification": false,
+    "user_message_for_clarification": ""
+  },
+  "generated_sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '29' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY DATE_TRUNC('month', d.date)::date ORDER BY ds ASC",
+  "sql_explanation": "Truy vấn tính tổng số hành khách (y) theo tháng (ds) cho tuyến 29 của nhà khai thác HTX-ThanhSon.",
+  "sql_result": [
+    {
+      "ds": "2022-01-01",
+      "y": 25016
+    },
+    {
+      "ds": "2022-02-01",
+      "y": 33270
+    },
+    {
+      "ds": "2022-03-01",
+      "y": 55835
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 63038
+    },
+    {
+      "ds": "2022-05-01",
+      "y": 67872
+    },
+    {
+      "ds": "2022-06-01",
+      "y": 63923
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 56713
+    },
+    {
+      "ds": "2022-08-01",
+      "y": 61766
+    },
+    {
+      "ds": "2022-09-01",
+      "y": 74328
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 84715
+    },
+    {
+      "ds": "2022-11-01",
+      "y": 80916
+    },
+    {
+      "ds": "2022-12-01",
+      "y": 74413
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 49810
+    },
+    {
+      "ds": "2023-02-01",
+      "y": 70997
+    },
+    {
+      "ds": "2023-03-01",
+      "y": 83816
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 72044
+    },
+    {
+      "ds": "2023-05-01",
+      "y": 66082
+    },
+    {
+      "ds": "2023-06-01",
+      "y": 56181
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 51232
+    },
+    {
+      "ds": "2023-08-01",
+      "y": 63260
+    },
+    {
+      "ds": "2023-09-01",
+      "y": 72492
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 76872
+    },
+    {
+      "ds": "2023-11-01",
+      "y": 72430
+    },
+    {
+      "ds": "2023-12-01",
+      "y": 64200
+    },
+    {
+      "ds": "2024-01-01",
+      "y": 63365
+    },
+    {
+      "ds": "2024-02-01",
+      "y": 42102
+    },
+    {
+      "ds": "2024-03-01",
+      "y": 64818
+    }
+  ],
+  "historical_data_summary": {
+    "n_points": 27,
+    "start_date": "2022-01-01",
+    "end_date": "2024-03-01",
+    "min_y": 25016.0,
+    "max_y": 84715.0,
+    "mean_y": 63389.11111111111
+  },
+  "historical_n": 27,
+  "forecast_history": [
+    {
+      "ds": "2022-01-01",
+      "y": 25016
+    },
+    {
+      "ds": "2022-02-01",
+      "y": 33270
+    },
+    {
+      "ds": "2022-03-01",
+      "y": 55835
+    },
+    {
+      "ds": "2022-04-01",
+      "y": 63038
+    },
+    {
+      "ds": "2022-05-01",
+      "y": 67872
+    },
+    {
+      "ds": "2022-06-01",
+      "y": 63923
+    },
+    {
+      "ds": "2022-07-01",
+      "y": 56713
+    },
+    {
+      "ds": "2022-08-01",
+      "y": 61766
+    },
+    {
+      "ds": "2022-09-01",
+      "y": 74328
+    },
+    {
+      "ds": "2022-10-01",
+      "y": 84715
+    },
+    {
+      "ds": "2022-11-01",
+      "y": 80916
+    },
+    {
+      "ds": "2022-12-01",
+      "y": 74413
+    },
+    {
+      "ds": "2023-01-01",
+      "y": 49810
+    },
+    {
+      "ds": "2023-02-01",
+      "y": 70997
+    },
+    {
+      "ds": "2023-03-01",
+      "y": 83816
+    },
+    {
+      "ds": "2023-04-01",
+      "y": 72044
+    },
+    {
+      "ds": "2023-05-01",
+      "y": 66082
+    },
+    {
+      "ds": "2023-06-01",
+      "y": 56181
+    },
+    {
+      "ds": "2023-07-01",
+      "y": 51232
+    },
+    {
+      "ds": "2023-08-01",
+      "y": 63260
+    },
+    {
+      "ds": "2023-09-01",
+      "y": 72492
+    },
+    {
+      "ds": "2023-10-01",
+      "y": 76872
+    },
+    {
+      "ds": "2023-11-01",
+      "y": 72430
+    },
+    {
+      "ds": "2023-12-01",
+      "y": 64200
+    }
+  ],
+  "test_artifact": {
+    "status": "available",
+    "evaluation_eligible": true,
+    "reason": null,
+    "horizon": 3,
+    "n_test": 3,
+    "test": [
+      {
+        "ds": "2024-01-01",
+        "y": 63365
+      },
+      {
+        "ds": "2024-02-01",
+        "y": 42102
+      },
+      {
+        "ds": "2024-03-01",
+        "y": 64818
+      }
+    ]
+  },
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 27,
+    "n_train": 24,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "forecast_result": {
+    "forecast": [
+      {
+        "step": 1,
+        "ds": "2024-01-01",
+        "yhat": 70150.0
+      },
+      {
+        "step": 2,
+        "ds": "2024-02-01",
+        "yhat": 71500.0
+      },
+      {
+        "step": 3,
+        "ds": "2024-03-01",
+        "yhat": 72800.0
+      }
+    ],
+    "status": "success",
+    "fallback_used": false,
+    "selected_mode": "single",
+    "weights": {
+      "short": 0.6,
+      "long": 0.4
+    },
+    "window_info": {
+      "short_n": 24,
+      "long_n": 24,
+      "short_window_name": "h24",
+      "long_window_name": "h24"
+    }
+  },
+  "explanation_result": {
+    "title": "Dự báo lưu lượng HCMC_BUS cho tuyến 29 của HTX-ThanhSon",
+    "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo lưu lượng cho tuyến 29 của HTX-ThanhSon trong 3 tháng tới như sau: Tháng 1 năm 2024 dự kiến đạt 70150.0; Tháng 2 năm 2024 dự kiến đạt 71500.0; và Tháng 3 năm 2024 dự kiến đạt 72800.0.",
+    "insights": [
+      "Trong 3 tháng dự báo, lưu lượng được dự đoán có xu hướng tăng dần, từ 70150.0 (Tháng 1/2024) lên 72800.0 (Tháng 3/2024).",
+      "Các giá trị dự báo này cao hơn mức trung bình lịch sử (64217.54) và nằm trong phạm vi lịch sử (25016.0 - 84715.0)."
+    ],
+    "chart_note": "Biểu đồ này được xây dựng dựa trên 24 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-12-01. ForecastBot đã sử dụng mô hình 'single' với trọng số short (0.6) và long (0.4) để tạo ra dự báo cho 3 bước tiếp theo."
+  },
+  "status": "success",
+  "timings": {
+    "orchestration": 38.44805525000265,
+    "load_schema": 0.0028054170034010895,
+    "sql_generation": 57.46757737500593,
+    "sql_execution_and_repair": 0.01779716700548306,
+    "forecast": 80.11976795800001,
+    "explanation": 67.07812645800004,
+    "end_to_end": 243.13422229100252
+  },
+  "traces": [
+    {
+      "stage": "orchestration",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the Orchestration Agent of ForecastBot. Interpret the ORIGINAL user request semantically. Do not use or assume regex/rule-based extraction.\n\nReturn STRICT JSON only with exactly these fields:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS\",\n  \"granularity\": \"day or month or quarter or year\",\n  \"horizon\": integer,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n\nCRITICAL OUTPUT CONTRACT:\n- intent MUST be exactly \"forecast_request\".\n- filters MUST ALWAYS be one JSON object/dictionary, NEVER a list/array.\n- Put every explicitly stated filter directly inside the filters object.\n- If no filter is explicitly stated, return \"filters\": {}.\n- Never represent filters as a list.\n\nCorrect:\n\"filters\": {\"item_id\": \"FOODS_3_228\"}\n\nCorrect with multiple filters:\n\"filters\": {\n  \"item_id\": \"FOODS_3_540\",\n  \"store_id\": \"CA_4\"\n}\n\nIncorrect:\n\"filters\": [{\"item_id\": \"FOODS_3_228\"}]\n\nIncorrect:\n\"filters\": [{\"field\": \"item_id\", \"value\": \"FOODS_3_228\"}]\n\nValid datasets: M5, HCMC_BUS.\n\nGranularity mapping:\n- ngày/day = day\n- tháng/month = month\n- quý/quarter = quarter\n- năm/year = year\n\nAllowed horizons:\n- day=[7,28,30,60,90]\n- month=[1,3,6,12,24]\n- quarter=[1,2,3,4,8,12]\n- year=[1,2,3,5,10]\n\nM5 filters:\n- item_id\n- store_id\n- state_id\n- cat_id\n- dept_id\n- id\n\nM5 examples:\n- FOODS_1_001 means item_id=\"FOODS_1_001\".\n- CA_1/TX_1/WI_1 mean store_id when explicitly stated as a store.\n- CA/TX/WI mean state_id when explicitly stated as a state.\n\nHCMC_BUS filters:\n- route_id\n- route_name\n- operator\n- vehicle_group\n- start_stop\n- end_stop\n\nHCMC_BUS examples and interpretation:\n- \"tuyến 55\" means route_id=\"55\".\n- \"tuyến số 55\" means route_id=\"55\".\n- \"tuyến xe buýt 55\" means route_id=\"55\".\n- \"tuyến bus 55\" means route_id=\"55\".\n- Generic words such as \"tuyến\", \"xe\", \"buýt\", \"buyt\", and \"bus\" must never become route_id.\n- route_id, operator, vehicle_group, route_name, start_stop, and end_stop are independent filters and may coexist when explicitly stated.\n- Example: \"Tuyến 19 do HTX-195 vận hành, với nhóm xe 4_CNG.1\" means:\n  {\"route_id\":\"19\",\"operator\":\"HTX-195\",\"vehicle_group\":\"4_CNG.1\"}\n\nExtract ALL explicitly stated filters independently.\nPreserve identifier punctuation such as _, -, and .\nNever invent a filter or value.\n\nIf a required field dataset/granularity/horizon cannot be inferred:\n- use null;\n- list it in missing_fields;\n- set needs_clarification=true;\n- write a concise Vietnamese clarification question in user_message_for_clarification.\n\nOtherwise:\n- missing_fields=[]\n- needs_clarification=false\n- user_message_for_clarification=\"\"\n\nIf a stated horizon is unsupported, choose the nearest allowed horizon for the inferred granularity.\n\nOriginal user query:\nCho tôi dự báo lượng khách của tuyến 29 do HTX-ThanhSon vận hành trong 3 tháng tới.\n\nReturn STRICT JSON only. No markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"HCMC_BUS\",\n  \"granularity\": \"month\",\n  \"horizon\": 3,\n  \"filters\": {\n    \"route_id\": \"29\",\n    \"operator\": \"HTX-ThanhSon\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\"\n}\n```",
+      "input_tokens": 971,
+      "output_tokens": 547,
+      "total_tokens": 1518,
+      "llm_time_s": 38.44783170899609,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "sql_generate",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the SQL Agent of ForecastBot. Generate exactly one safe PostgreSQL SELECT for time-series history.\n\nForecast request:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"month\", \"horizon\": 3, \"filters\": {\"route_id\": \"29\", \"operator\": \"HTX-ThanhSon\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nSchema context:\n\nDataset: HCMC_BUS\n\nYou are working with a PostgreSQL database for HCMC bus passenger forecasting.\n\n1. Table: daily_passenger_stats\n- date (DATE): Operating date and forecasting time axis\n- route_id (TEXT): Route identifier\n- operator (TEXT): Transport operator\n- vehicle_group (TEXT): Vehicle group\n- trips (INTEGER): Number of operated trips\n- buses (INTEGER): Number of buses\n- total_passengers (INTEGER): Total number of passengers and forecasting target\n\n2. Table: bus_routes\n- route_id (TEXT): Route identifier\n- route_name (TEXT): Route name\n- start_stop (TEXT): Start stop\n- end_stop (TEXT): End stop\n- distance_km (NUMERIC): Route distance in kilometres\n\nRelationship:\n- daily_passenger_stats.route_id = bus_routes.route_id\n\nBusiness meaning:\n- daily_passenger_stats is the forecasting fact table.\n- date is the true time axis.\n- total_passengers is the forecasting target.\n- bus_routes is a dimension table used for route filtering and description.\n\n\nSQL rules:\n\n- Use daily_passenger_stats as the fact table with alias d.\n- Join bus_routes as alias r only when route_name, start_stop or end_stop is required.\n- Join condition: d.route_id = r.route_id.\n- Always return exactly two columns: ds and y.\n- For day granularity, use d.date AS ds.\n- For month granularity, use DATE_TRUNC('month', d.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', d.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', d.date)::date AS ds.\n- Aggregate the forecasting target with SUM(d.total_passengers) AS y.\n- Support fact filters on route_id, operator, vehicle_group and date.\n- Route attributes route_name, start_stop and end_stop belong to bus_routes and require a join.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n- The source values of operator and vehicle_group may contain leading or trailing whitespace.\n- When filtering by operator, always apply TRIM to the database column: TRIM(d.operator).\n- When filtering by vehicle_group, always apply TRIM to the database column: TRIM(d.vehicle_group).\n- Compare trimmed operator and vehicle_group values using exact equality (=), unless the user explicitly requests partial or pattern matching.\n- route_id, operator and vehicle_group are independent fact filters and may be applied together in the same WHERE clause.\n\n\nRequirements:\n- Follow the supplied schema context and SQL rules.\n- Apply ALL filters in forecast_request.\n- Return exactly two columns: ds and y.\n- Sort ds ascending.\n- Use only described tables and columns.\n- Generate only one SELECT statement; no write or DDL statements.\n\nReturn JSON only:\n{\"status\":\"success\",\"sql\":\"SELECT ...\",\"explanation\":\"short Vietnamese explanation\"}.",
+      "raw_response": "```json\n{\n  \"status\": \"success\",\n  \"sql\": \"SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '29' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY DATE_TRUNC('month', d.date)::date ORDER BY ds ASC\",\n  \"explanation\": \"Truy vấn tính tổng số hành khách (y) theo tháng (ds) cho tuyến 29 của nhà khai thác HTX-ThanhSon.\"\n}\n```",
+      "input_tokens": 812,
+      "output_tokens": 785,
+      "total_tokens": 1597,
+      "llm_time_s": 57.46684404199914,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "forecast.forecast_short",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are a time-series forecasting model.\n\nThe following list contains consecutive MONTHLY observations for one time series, ordered from oldest to newest.\nThis is the supplied recent-history window. Use only these past observations.\n\nHistory:\n[25016.0, 33270.0, 55835.0, 63038.0, 67872.0, 63923.0, 56713.0, 61766.0, 74328.0, 84715.0, 80916.0, 74413.0, 49810.0, 70997.0, 83816.0, 72044.0, 66082.0, 56181.0, 51232.0, 63260.0, 72492.0, 76872.0, 72430.0, 64200.0]\n\nTask:\nForecast the next exactly 3 MONTHLY values.\n\nRequirements:\n1. Return exactly 3 numeric predictions.\n2. Predictions must be non-negative.\n3. Do not include explanations.\n4. Return valid JSON only.\n5. Use exactly this schema:\n{\"forecast\":[f1,f2,...,f3]}\n6. Do not include dates, markdown, extra keys, sample data, or historical values presented as future predictions.\n7. JSON must use double quotes.\n\nHistory length: 24",
+      "raw_response": "```json\n{\n\"forecast\": [\n70150.0,\n71500.0,\n72800.0\n]\n}\n```",
+      "input_tokens": 395,
+      "output_tokens": 1148,
+      "total_tokens": 1543,
+      "llm_time_s": 80.1187123339987,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    },
+    {
+      "stage": "explanation",
+      "type": "agent",
+      "provider": "gemma",
+      "model": "gemma4:e4b",
+      "attempt": 1,
+      "prompt": "You are the Explanation Agent of ForecastBot. Explain the forecast result in concise, clear Vietnamese.\n\nAll user-facing values in \"title\", \"summary_text\", \"insights\", and \"chart_note\" must be written in Vietnamese, except identifiers, dataset names, model names, product names, and technical terms that should remain unchanged.\n\nUse ONLY the supplied:\n- forecast request,\n- historical summary,\n- forecast result.\n\nDo not invent causes, external facts, unseen actual values, ground truth, test data, backtesting results, or accuracy metrics.\nDo not mention MAE, RMSE, evaluation eligibility, or whether actual future observations are available.\nPrefer quantitative descriptions supported directly by the supplied values; avoid unsupported qualitative claims unless explicitly justified by the supplied statistics.\n\nThe chart_note must describe only the training history and forecast produced by ForecastBot. Do not mention held-out actual/test values because they are not supplied to this agent.\n\nForecast request: {\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"month\", \"horizon\": 3, \"filters\": {\"route_id\": \"29\", \"operator\": \"HTX-ThanhSon\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\nHistorical summary: {\"n_points\": 24, \"start_date\": \"2022-01-01\", \"end_date\": \"2023-12-01\", \"min_y\": 25016.0, \"max_y\": 84715.0, \"mean_y\": 64217.541666666664}\nForecast result: {\"forecast\": [{\"step\": 1, \"ds\": \"2024-01-01\", \"yhat\": 70150.0}, {\"step\": 2, \"ds\": \"2024-02-01\", \"yhat\": 71500.0}, {\"step\": 3, \"ds\": \"2024-03-01\", \"yhat\": 72800.0}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"single\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 24, \"long_n\": 24, \"short_window_name\": \"h24\", \"long_window_name\": \"h24\"}}\n\nReturn STRICT JSON only with exactly:\n{\"title\":\"...\",\"summary_text\":\"...\",\"insights\":[\"...\"],\"chart_note\":\"...\"}.\nNo markdown or prose outside JSON.",
+      "raw_response": "```json\n{\n  \"title\": \"Dự báo lưu lượng HCMC_BUS cho tuyến 29 của HTX-ThanhSon\",\n  \"summary_text\": \"Dựa trên dữ liệu lịch sử, ForecastBot dự báo lưu lượng cho tuyến 29 của HTX-ThanhSon trong 3 tháng tới như sau: Tháng 1 năm 2024 dự kiến đạt 70150.0; Tháng 2 năm 2024 dự kiến đạt 71500.0; và Tháng 3 năm 2024 dự kiến đạt 72800.0.\",\n  \"insights\": [\n    \"Trong 3 tháng dự báo, lưu lượng được dự đoán có xu hướng tăng dần, từ 70150.0 (Tháng 1/2024) lên 72800.0 (Tháng 3/2024).\",\n    \"Các giá trị dự báo này cao hơn mức trung bình lịch sử (64217.54) và nằm trong phạm vi lịch sử (25016.0 - 84715.0).\"\n  ],\n  \"chart_note\": \"Biểu đồ này được xây dựng dựa trên 24 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-12-01. ForecastBot đã sử dụng mô hình 'single' với trọng số short (0.6) và long (0.4) để tạo ra dự báo cho 3 bước tiếp theo.\"\n}\n```",
+      "input_tokens": 629,
+      "output_tokens": 949,
+      "total_tokens": 1578,
+      "llm_time_s": 67.0776357499999,
+      "status": "success",
+      "parse_ok": true,
+      "raw_json_compliant": false,
+      "error": ""
+    }
+  ],
+  "total_tokens": 6236,
+  "chart_status": "success",
+  "chart_error": ""
+}

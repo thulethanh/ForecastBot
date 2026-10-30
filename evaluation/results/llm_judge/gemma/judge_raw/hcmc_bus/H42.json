@@ -1,0 +1,27 @@
+{
+  "case_id": "H42",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 2,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 3.75,
+    "unsupported_claims": [
+      "Giá trị dự báo được dự đoán tăng đều đặn 10,000 đơn vị mỗi năm; forecast thực tế chỉ tăng 1,000 đơn vị mỗi năm.",
+      "Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử; dữ liệu chỉ cho biết các cửa sổ dự báo có 3 quan sát, không xác nhận việc huấn luyện mô hình trên chúng."
+    ],
+    "reason_vi": "Giải thích bám đúng tuyến, đơn vị vận hành, chân trời 10 năm và nêu chính xác mức đầu-cuối dự báo. Tuy nhiên, nhận định tăng 10.000 đơn vị mỗi năm mâu thuẫn forecast: các giá trị chỉ tăng 1.000 mỗi năm, tổng cộng 9.000 từ 2025 đến 2034. Chart note cũng khẳng định biểu đồ được huấn luyện trên 3 điểm, trong khi thông tin chỉ xác nhận cửa sổ dự báo gồm 3 điểm. Cách trình bày rõ ràng, nhưng lỗi định lượng cốt lõi làm giảm độ trung thực và giá trị sử dụng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.1242720000009285,
+    "input_tokens": 2499,
+    "output_tokens": 370,
+    "total_tokens": 2869,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":2,\"clarity\":5,\"usefulness\":3,\"overall_score\":3.75,\"unsupported_claims\":[\"Giá trị dự báo được dự đoán tăng đều đặn 10,000 đơn vị mỗi năm; forecast thực tế chỉ tăng 1,000 đơn vị mỗi năm.\",\"Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử; dữ liệu chỉ cho biết các cửa sổ dự báo có 3 quan sát, không xác nhận việc huấn luyện mô hình trên chúng.\"],\"reason_vi\":\"Giải thích bám đúng tuyến, đơn vị vận hành, chân trời 10 năm và nêu chính xác mức đầu-cuối dự báo. Tuy nhiên, nhận định tăng 10.000 đơn vị mỗi năm mâu thuẫn forecast: các giá trị chỉ tăng 1.000 mỗi năm, tổng cộng 9.000 từ 2025 đến 2034. Chart note cũng khẳng định biểu đồ được huấn luyện trên 3 điểm, trong khi thông tin chỉ xác nhận cửa sổ dự báo gồm 3 điểm. Cách trình bày rõ ràng, nhưng lỗi định lượng cốt lõi làm giảm độ trung thực và giá trị sử dụng.\"}"
+  }
+}

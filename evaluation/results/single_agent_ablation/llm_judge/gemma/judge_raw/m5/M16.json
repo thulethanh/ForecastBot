@@ -1,0 +1,26 @@
+{
+  "case_id": "M16",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để dự báo bao gồm 22 điểm dữ liệu\" không khớp hoàn toàn với window_info: hai nhánh ensemble dùng lần lượt 12 và 20 quan sát gần nhất; 22 điểm là phạm vi lịch sử khả dụng."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu: nêu đúng đối tượng, 12 quý, thời gian dự báo và mức dự báo cố định 678.95. Thông tin ensemble, trọng số 60/40 và các cửa sổ h12/h20 khớp kết quả. Diễn đạt rõ ràng, gọn và giúp hiểu xu hướng phẳng của dự báo. Tuy nhiên, câu nói 22 điểm lịch sử được dùng để dự báo chưa chính xác hoàn toàn, vì thông tin cửa sổ cho thấy các nhánh dùng 12 và 20 quan sát gần nhất; 22 điểm là phạm vi lịch sử có sẵn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.161007040995173,
+    "input_tokens": 2594,
+    "output_tokens": 417,
+    "total_tokens": 3011,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để dự báo bao gồm 22 điểm dữ liệu\\\" không khớp hoàn toàn với window_info: hai nhánh ensemble dùng lần lượt 12 và 20 quan sát gần nhất; 22 điểm là phạm vi lịch sử khả dụng.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu: nêu đúng đối tượng, 12 quý, thời gian dự báo và mức dự báo cố định 678.95. Thông tin ensemble, trọng số 60/40 và các cửa sổ h12/h20 khớp kết quả. Diễn đạt rõ ràng, gọn và giúp hiểu xu hướng phẳng của dự báo. Tuy nhiên, câu nói 22 điểm lịch sử được dùng để dự báo chưa chính xác hoàn toàn, vì thông tin cửa sổ cho thấy các nhánh dùng 12 và 20 quan sát gần nhất; 22 điểm là phạm vi lịch sử có sẵn.\"}"
+  }
+}

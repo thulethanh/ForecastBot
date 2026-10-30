@@ -1,0 +1,33 @@
+{
+  "case_id": "H08",
+  "question": "Hãy dự báo nhu cầu hành khách của tuyến 30 do XKSG vận hành, sử dụng nhóm xe 4A_ML trong 6 tháng sắp tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 24,
+    "n_train": 18,
+    "n_test": 6,
+    "horizon": 6,
+    "minimum_train_required": 6,
+    "required_points_for_evaluation": 12,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 7.657454375002999,
+    "load_schema": 0.0015711660016677342,
+    "sql_generation": 13.412705666996771,
+    "sql_execution_and_repair": 0.007968833997438196,
+    "forecast": 36.75357187500049,
+    "explanation": 23.75882491700031,
+    "end_to_end": 81.59213387499767
+  },
+  "total_tokens": 13636,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

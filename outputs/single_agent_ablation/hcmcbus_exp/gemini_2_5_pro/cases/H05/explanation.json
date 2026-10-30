@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ ngày 01/01/2022 đến 02/10/2024 cho tuyến xe buýt 27 của nhà xe XKSG, dự báo cho 90 ngày tới (từ 03/10/2024 đến 31/12/2024) là khoảng 3,574 lượt mỗi ngày.",
+  "insights": [
+    "Dự báo là một đường thẳng, cho thấy một giá trị ổn định là 3,574 mỗi ngày. Điều này là do hệ thống đã sử dụng một mô hình dự phòng dựa trên giá trị trung bình gần đây của dữ liệu.",
+    "Giá trị dự báo (3,574) cao hơn đáng kể so với mức trung bình lịch sử (2,711) nhưng vẫn nằm trong phạm vi dữ liệu đã ghi nhận (tối đa 4,021). Điều này cho thấy rằng các giá trị gần đây có xu hướng cao hơn so với trung bình dài hạn."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử đến ngày 02/10/2024 và dự báo cho 90 ngày tiếp theo."
+}

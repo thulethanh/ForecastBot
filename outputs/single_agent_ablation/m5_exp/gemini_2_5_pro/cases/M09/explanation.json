@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 12 tháng cho mặt hàng HOBBIES_1_398 tại cửa hàng CA_1, từ tháng 5 năm 2015 đến tháng 4 năm 2016. Dự báo này dựa trên dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 4 năm 2015, với doanh số trung bình là 174 sản phẩm mỗi tháng. Mô hình dự đoán doanh số sẽ biến động, với một giai đoạn đáng chú ý không có doanh số từ tháng 9 đến tháng 12 năm 2015.",
+  "insights": [
+    "Dự báo cho thấy một giai đoạn không có doanh số bán hàng (0.0) kéo dài 4 tháng từ tháng 9 đến tháng 12 năm 2015. Điều này cho thấy mô hình đã xác định được một quy luật có tính mùa vụ hoặc định kỳ mạnh mẽ trong dữ liệu lịch sử.",
+    "Doanh số dự báo có sự biến động đáng kể, với các đỉnh điểm được dự đoán vào tháng 6 năm 2015 (82.12) và tháng 2 năm 2016 (85.8).",
+    "Dự báo được tạo ra bởi một mô hình kết hợp, ưu tiên 60% trọng số cho dữ liệu của 36 tháng gần nhất, cho thấy các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả."
+  ],
+  "chart_note": "Biểu đồ thể hiện doanh số bán hàng thực tế hàng tháng từ tháng 1 năm 2011 đến tháng 4 năm 2015 và doanh số dự báo cho 12 tháng tiếp theo."
+}

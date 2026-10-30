@@ -1,0 +1,24 @@
+{
+  "case_id": "M55",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 quý cho đúng mặt hàng, nêu đầy đủ các giá trị và kỳ dự báo. Các nhận định về mô hình tổng hợp, hai cửa sổ 8/12 quý, trọng số 60% cho nhánh ngắn hạn, trung bình lịch sử 498.4 và số điểm lịch sử đều khớp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và giúp người dùng hiểu mức dự báo cũng như xu hướng giảm ở hai quý sau."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.5040134580340236,
+    "input_tokens": 2223,
+    "output_tokens": 211,
+    "total_tokens": 2434,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 quý cho đúng mặt hàng, nêu đầy đủ các giá trị và kỳ dự báo. Các nhận định về mô hình tổng hợp, hai cửa sổ 8/12 quý, trọng số 60% cho nhánh ngắn hạn, trung bình lịch sử 498.4 và số điểm lịch sử đều khớp dữ liệu được cung cấp. Trình bày ngắn gọn, rõ ràng và giúp người dùng hiểu mức dự báo cũng như xu hướng giảm ở hai quý sau.\"}"
+  }
+}

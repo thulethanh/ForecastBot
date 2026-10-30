@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dưới đây là dự báo số lượng hành khách trong 3 tháng tới cho tuyến xe buýt 18, nhóm xe 3B.2_ML. Dựa trên dữ liệu lịch sử từ tháng 5 năm 2022, mô hình dự báo cho thấy một xu hướng tăng trưởng liên tục.",
+  "insights": [
+    "Dự báo cho thấy số lượng hành khách sẽ tăng đều đặn, từ khoảng 150.210 vào tháng 10 năm 2024 lên đến 171.052 vào tháng 12 năm 2024.",
+    "Các giá trị dự báo này cao hơn đáng kể so với mức trung bình lịch sử (khoảng 115.095) và vượt qua mức cao nhất đã được ghi nhận trong 22 tháng qua (162.679)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử (22 điểm) và dự báo cho 3 tháng tiếp theo. Mô hình đã xác định một xu hướng tăng trưởng dựa trên toàn bộ dữ liệu có sẵn."
+}

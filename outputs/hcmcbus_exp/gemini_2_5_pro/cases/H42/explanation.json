@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 10 năm cho Tuyến 141 (HTX 15) từ bộ dữ liệu HCMC_BUS",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024 (với giá trị trung bình là 1,055,439), ForecastBot dự báo giá trị cho 10 năm tới (2025-2034) sẽ ổn định ở mức khoảng 562,350.",
+  "insights": [
+    "Dự báo là một đường thẳng, với giá trị không đổi là khoảng 562,350 cho mỗi năm từ 2025 đến 2034.",
+    "Giá trị dự báo (khoảng 562,350) thấp hơn mức trung bình lịch sử (1,055,439) nhưng nằm trong khoảng giá trị đã quan sát được (từ 346,632 đến 1,435,474).",
+    "Mô hình được huấn luyện trên một chuỗi thời gian ngắn, chỉ bao gồm 3 điểm dữ liệu từ năm 2022 đến 2024."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (3 điểm, từ 2022 đến 2024) và dự báo của ForecastBot cho 10 năm tiếp theo (từ 2025 đến 2034)."
+}

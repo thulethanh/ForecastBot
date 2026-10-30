@@ -1,0 +1,26 @@
+{
+  "case_id": "M35",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Dự báo được xây dựng dựa trên 18 điểm dữ liệu lịch sử\" không khớp hoàn toàn với window_info, trong đó hai nhánh ensemble dùng lần lượt cửa sổ h8 và h12."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng, nêu đầy đủ 4 giá trị, thời điểm, xu hướng giảm và phương pháp ensemble với trọng số chính xác. Trình bày rõ ràng, ngắn gọn và hữu ích. Điểm faithfulness giảm nhẹ vì câu nói dự báo được xây dựng trên 18 điểm lịch sử có thể gây hiểu là toàn bộ 18 điểm được đưa vào dự báo, trong khi hai nhánh ensemble thực tế dùng các cửa sổ h8 và h12."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.0056262500584126,
+    "input_tokens": 2326,
+    "output_tokens": 422,
+    "total_tokens": 2748,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Dự báo được xây dựng dựa trên 18 điểm dữ liệu lịch sử\\\" không khớp hoàn toàn với window_info, trong đó hai nhánh ensemble dùng lần lượt cửa sổ h8 và h12.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng mặt hàng, nêu đầy đủ 4 giá trị, thời điểm, xu hướng giảm và phương pháp ensemble với trọng số chính xác. Trình bày rõ ràng, ngắn gọn và hữu ích. Điểm faithfulness giảm nhẹ vì câu nói dự báo được xây dựng trên 18 điểm lịch sử có thể gây hiểu là toàn bộ 18 điểm được đưa vào dự báo, trong khi hai nhánh ensemble thực tế dùng các cửa sổ h8 và h12.\"}"
+  }
+}

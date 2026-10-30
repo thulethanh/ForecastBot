@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho dữ liệu HCMC_BUS (Tuyến 127, HTX-ThanhSon) với độ chi tiết hàng năm cho 2 năm tới (2023 và 2024) là 258,795.0. Giá trị dự báo này được xác định bằng chế độ 'single' và phản ánh sự ổn định tuyệt đối, dựa trên việc chỉ có một điểm dữ liệu lịch sử duy nhất (năm 2022) được cung cấp.",
+  "insights": [
+    "Do chỉ có một điểm dữ liệu lịch sử (2022), mô hình đã dự báo một giá trị ổn định và không có xu hướng thay đổi cho cả hai năm tiếp theo.",
+    "Việc dự báo sử dụng trọng số cân bằng (Short: 0.6, Long: 0.4) dựa trên cửa sổ dữ liệu rất hẹp (cả ngắn và dài đều là 1 năm)."
+  ],
+  "chart_note": "Lưu ý: Kết quả dự báo này được tính toán dựa trên một tập dữ liệu lịch sử cực kỳ hạn chế (chỉ 1 điểm dữ liệu), do đó, độ tin cậy của dự báo có thể bị ảnh hưởng."
+}

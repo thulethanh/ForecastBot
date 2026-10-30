@@ -1,0 +1,27 @@
+{
+  "case_id": "H63",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Kết quả dự báo bằng 0 cho thấy mô hình không thể phát hiện ra một mẫu hình hoặc xu hướng có ý nghĩa từ dữ liệu có sẵn.\"",
+      "\"Đây là một dự báo thận trọng do không đủ dữ liệu.\""
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà xe, nhóm phương tiện, kỳ hạn 2025–2034 và nêu chính xác dự báo 0 cho mọi năm. Phần trình bày rõ ràng, đồng thời lưu ý hợp lý rằng chỉ có 3 điểm lịch sử nên việc diễn giải xu hướng bị hạn chế. Tuy nhiên, dữ liệu và kết quả không chứng minh được rằng mô hình “không thể phát hiện” mẫu hình, cũng không cho thấy dự báo 0 là một lựa chọn “thận trọng” do thiếu dữ liệu. Các diễn giải này làm giảm tính trung thực ở mức vừa phải."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.467716375016607,
+    "input_tokens": 2484,
+    "output_tokens": 305,
+    "total_tokens": 2789,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Kết quả dự báo bằng 0 cho thấy mô hình không thể phát hiện ra một mẫu hình hoặc xu hướng có ý nghĩa từ dữ liệu có sẵn.\\\"\",\"\\\"Đây là một dự báo thận trọng do không đủ dữ liệu.\\\"\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà xe, nhóm phương tiện, kỳ hạn 2025–2034 và nêu chính xác dự báo 0 cho mọi năm. Phần trình bày rõ ràng, đồng thời lưu ý hợp lý rằng chỉ có 3 điểm lịch sử nên việc diễn giải xu hướng bị hạn chế. Tuy nhiên, dữ liệu và kết quả không chứng minh được rằng mô hình “không thể phát hiện” mẫu hình, cũng không cho thấy dự báo 0 là một lựa chọn “thận trọng” do thiếu dữ liệu. Các diễn giải này làm giảm tính trung thực ở mức vừa phải.\"}"
+  }
+}

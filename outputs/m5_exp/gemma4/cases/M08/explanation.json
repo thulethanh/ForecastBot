@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo doanh số cho HOBBIES_1_124 tại CA_1 (CA)",
+  "summary_text": "Dựa trên mô hình ensemble, dự báo cho 6 tháng tới như sau:\n- Tháng 11 năm 2015: 37.4\n- Tháng 12 năm 2015: 30.6\n- Tháng 1 năm 2016: 40.0\n- Tháng 2 năm 2016: 35.8\n- Tháng 3 năm 2016: 40.0\n- Tháng 4 năm 2016: 38.4",
+  "insights": [
+    "Dự báo cho thấy mức doanh số dự kiến sẽ tăng từ 30.6 (Tháng 12 năm 2015) lên 40.0 (Tháng 1 năm 2016).",
+    "Trong giai đoạn dự báo, mức doanh số dự kiến dao động từ mức thấp nhất là 30.6 (Tháng 12 năm 2015) đến mức cao nhất là 40.0 (Tháng 1 năm 2016 và Tháng 3 năm 2016).",
+    "Sự tăng trưởng dự kiến từ Tháng 2 năm 2016 (35.8) lên Tháng 3 năm 2016 (40.0) là đáng kể."
+  ],
+  "chart_note": "Bản đồ này hiển thị kết quả dự báo được tạo ra bằng mô hình ensemble, sử dụng trọng số short (0.6) và long (0.4). Mô hình đã được huấn luyện trên các cửa sổ dữ liệu h24 và h36."
+}

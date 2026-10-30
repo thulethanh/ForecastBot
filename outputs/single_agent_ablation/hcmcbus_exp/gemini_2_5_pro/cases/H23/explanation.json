@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo số lượng hành khách hàng ngày cho tuyến xe buýt 62 (nhà xe XKSG) trong 28 ngày tới, từ ngày 04/12/2024 đến 31/12/2024. Dự báo được tạo ra dựa trên dữ liệu lịch sử từ ngày 01/01/2022 đến 03/12/2024, với số lượng hành khách trung bình trong quá khứ là 1,441. Mô hình dự báo là sự kết hợp (ensemble) giữa xu hướng ngắn hạn (180 ngày) và dài hạn (365 ngày).",
+  "insights": [
+    "Dự báo cho thấy một quy luật tuần rõ rệt. Lượng hành khách dự kiến sẽ thấp hơn đáng kể vào cuối tuần (Thứ Bảy và Chủ Nhật) và cao hơn vào các ngày trong tuần, với mức cao nhất vào Thứ Hai.",
+    "Các giá trị dự báo (dao động từ khoảng 1,246 đến 1,815) nhìn chung cao hơn mức trung bình lịch sử (1,441). Điều này cho thấy mô hình đã xác định được một xu hướng tăng trưởng gần đây trong dữ liệu và ngoại suy xu hướng này cho tương lai."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dữ liệu lịch sử từ 01/01/2022 đến 03/12/2024 và dự báo cho 28 ngày tiếp theo. Dự báo được tạo bằng mô hình tổng hợp ưu tiên các xu hướng gần đây."
+}

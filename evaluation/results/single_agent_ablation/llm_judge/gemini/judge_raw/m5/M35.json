@@ -1,0 +1,26 @@
+{
+  "case_id": "M35",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định doanh số \"sau đó giảm trong nửa đầu năm 2016\" không khớp hoàn toàn với dự báo: doanh số giảm từ 694.84 xuống 511.28 ở quý 1/2016, nhưng tăng lại lên 539.96 ở quý 2/2016."
+    ],
+    "reason_vi": "Giải thích bám sát mặt hàng, kỳ hạn 4 quý và nêu rõ các mức dự báo, đỉnh, so sánh với lịch sử, cùng thông tin ensemble/cửa sổ và trọng số đều được dữ liệu hỗ trợ. Trình bày rõ ràng, hữu ích để hiểu mức dự báo và diễn biến chính. Điểm faithfulness giảm nhẹ vì mô tả giảm trong toàn bộ nửa đầu 2016 chưa chính xác hoàn toàn: quý 2/2016 được dự báo tăng so với quý 1/2016."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.744865957996808,
+    "input_tokens": 2326,
+    "output_tokens": 445,
+    "total_tokens": 2771,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định doanh số \\\"sau đó giảm trong nửa đầu năm 2016\\\" không khớp hoàn toàn với dự báo: doanh số giảm từ 694.84 xuống 511.28 ở quý 1/2016, nhưng tăng lại lên 539.96 ở quý 2/2016.\"],\"reason_vi\":\"Giải thích bám sát mặt hàng, kỳ hạn 4 quý và nêu rõ các mức dự báo, đỉnh, so sánh với lịch sử, cùng thông tin ensemble/cửa sổ và trọng số đều được dữ liệu hỗ trợ. Trình bày rõ ràng, hữu ích để hiểu mức dự báo và diễn biến chính. Điểm faithfulness giảm nhẹ vì mô tả giảm trong toàn bộ nửa đầu 2016 chưa chính xác hoàn toàn: quý 2/2016 được dự báo tăng so với quý 1/2016.\"}"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H40",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 năm cho đúng tuyến và đơn vị vận hành. Các mốc dự báo, giá trị dự báo, số điểm lịch sử, khoảng thời gian lịch sử, trung bình, chế độ single và trọng số đều khớp dữ liệu cung cấp. Nội dung nêu rõ xu hướng tăng ổn định trong toàn bộ giai đoạn dự báo và có lưu ý rằng đây không phải giá trị thực tế tương lai. Trình bày ngắn gọn, mạch lạc và đủ giúp người dùng hiểu kết quả."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.738878625095822,
+    "input_tokens": 2279,
+    "output_tokens": 292,
+    "total_tokens": 2571,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 năm cho đúng tuyến và đơn vị vận hành. Các mốc dự báo, giá trị dự báo, số điểm lịch sử, khoảng thời gian lịch sử, trung bình, chế độ single và trọng số đều khớp dữ liệu cung cấp. Nội dung nêu rõ xu hướng tăng ổn định trong toàn bộ giai đoạn dự báo và có lưu ý rằng đây không phải giá trị thực tế tương lai. Trình bày ngắn gọn, mạch lạc và đủ giúp người dùng hiểu kết quả.\"}"
+  }
+}

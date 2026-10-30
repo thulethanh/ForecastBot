@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024 cho tuyến xe buýt 90 do HTX 26 vận hành, dự báo số lượt hành khách hàng năm sẽ ổn định ở mức khoảng 847,611 cho mỗi năm trong ba năm tới (2025-2027).",
+  "insights": [
+    "Dự báo là một đường thẳng, phản ánh rằng với chỉ ba điểm dữ liệu lịch sử, không có đủ thông tin để xác định một xu hướng tăng hoặc giảm rõ rệt.",
+    "Giá trị dự báo cho mỗi năm tương lai (847,611) chính là giá trị trung bình của số lượt hành khách trong ba năm qua (2022-2024)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2022 đến 2024 và dự báo cho các năm 2025, 2026 và 2027."
+}

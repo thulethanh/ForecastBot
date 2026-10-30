@@ -1,0 +1,11 @@
+{
+  "status": "not_available",
+  "evaluation_eligible": false,
+  "reason": "insufficient_history_for_holdout",
+  "horizon": 8,
+  "available_points": 12,
+  "minimum_train_required": 8,
+  "required_points_for_evaluation": 16,
+  "n_test": 0,
+  "test": []
+}

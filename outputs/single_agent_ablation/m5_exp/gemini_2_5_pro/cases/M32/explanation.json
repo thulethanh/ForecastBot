@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01, dự báo doanh số cho mặt hàng HOBBIES_1_208 tại bang TX cho quý tiếp theo (bắt đầu từ 2016-04-01) là 75.26. Kết quả này được tạo ra bằng mô hình tổng hợp (ensemble model) mà không cần sử dụng phương pháp dự phòng.",
+  "insights": [
+    "Mô hình dự báo là sự kết hợp của hai khung thời gian: một mô hình ngắn hạn xem xét 8 quý gần nhất và một mô hình dài hạn xem xét 12 quý gần nhất. Mô hình đã đặt trọng số cao hơn (60%) cho các xu hướng gần đây.",
+    "Giá trị dự báo 75.26 cao hơn đáng kể so với mức trung bình lịch sử (khoảng 35.81) nhưng vẫn nằm trong phạm vi dữ liệu đã quan sát (tối đa là 90.0)."
+  ],
+  "chart_note": "Dữ liệu lịch sử được hiển thị theo quý. Điểm cuối cùng là dự báo cho quý 2 năm 2016."
+}

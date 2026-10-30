@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 3 tháng tới cho Tuyến 29 (HTX-ThanhSon)",
+  "summary_text": "Dựa trên dữ liệu lịch sử 24 tháng từ 01/2022 đến 12/2023, giá trị trung bình là 64.218. ForecastBot dự báo các giá trị cho 3 tháng tới, bắt đầu từ 43.150 vào tháng 01/2024 và tăng lên 72.551 vào tháng 03/2024.",
+  "insights": [
+    "Giá trị dự báo cho tháng 01/2024 (43.150) thấp hơn mức trung bình lịch sử (64.218), trong khi dự báo cho tháng 03/2024 (72.551) cao hơn.",
+    "Dự báo cho thấy một xu hướng tăng trong 3 tháng tới, từ 43.150 vào tháng 01/2024 lên 72.551 vào tháng 03/2024.",
+    "Tất cả các giá trị dự báo đều nằm trong phạm vi lịch sử đã quan sát (từ 25.016 đến 84.715)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (24 điểm dữ liệu từ tháng 01/2022 đến tháng 12/2023) và dự báo của ForecastBot cho 3 tháng tiếp theo."
+}

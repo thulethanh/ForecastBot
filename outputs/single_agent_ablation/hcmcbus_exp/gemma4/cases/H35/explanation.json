@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo doanh thu tuyến 103 (HCMC_BUS)",
+  "summary_text": "Dự báo cho 4 quý tiếp theo (từ Q1/2024 đến Q4/2024) của tuyến 103 trên bộ dữ liệu HCMC_BUS đã được thực hiện thành công. Giá trị dự báo cho thấy xu hướng tăng trưởng dần qua các quý, đặc biệt là quý cuối năm 2024.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên 8 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2023-10-01), với mức trung bình lịch sử là 121,063.0.",
+    "Các giá trị dự báo cho thấy sự tăng trưởng liên tục: từ 126,193.0 (Q1/2024) lên 161,193.0 (Q4/2024).",
+    "Mô hình dự báo sử dụng phương pháp 'single' với trọng số ngắn hạn (0.6) và dài hạn (0.4), cho thấy sự cân bằng giữa các xu hướng gần và xa."
+  ],
+  "chart_note": "Dự báo được tính toán theo quý (quarter) và bao gồm 4 bước (horizon=4). Các giá trị dự báo (yhat) là: Q1/2024: 126,193.0; Q2/2024: 126,193.0; Q3/2024: 136,193.0; Q4/2024: 161,193.0."
+}

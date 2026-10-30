@@ -1,0 +1,33 @@
+{
+  "case_id": "H31",
+  "question": "Trong 24 tháng tới, tuyến 9 do HTX-VTTP vận hành dự kiến phục vụ bao nhiêu lượt hành khách?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 28,
+    "n_train": 28,
+    "n_test": 0,
+    "horizon": 24,
+    "minimum_train_required": 24,
+    "required_points_for_evaluation": 48,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 43.84078995899472,
+    "load_schema": 0.019519958004821092,
+    "sql_generation": 62.31364883300557,
+    "sql_execution_and_repair": 0.0176184580050176,
+    "forecast": 74.16920383399702,
+    "explanation": 84.35930983298749,
+    "end_to_end": 264.7201492919994
+  },
+  "total_tokens": 7325,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

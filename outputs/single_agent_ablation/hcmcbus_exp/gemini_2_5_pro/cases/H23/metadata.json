@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H23",
+  "question": "Cho tôi biết tuyến 62 do XKSG vận hành trong 28 ngày tiếp theo dự kiến có bao nhiêu lượt hành khách.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1068,
+    "n_test": 28,
+    "horizon": 28,
+    "minimum_train_required": 28,
+    "required_points_for_evaluation": 56,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.0032004170352593064,
+    "request_sql": 6.236334166955203,
+    "sql_execution_and_repair": 0.020406124996952713,
+    "forecast": 85.45758754108101,
+    "explanation": 13.989049334079027,
+    "end_to_end": 105.70683962502517
+  },
+  "total_tokens": 23354,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

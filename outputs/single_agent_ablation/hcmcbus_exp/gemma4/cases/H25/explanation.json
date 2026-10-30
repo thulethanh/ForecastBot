@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo lưu lượng xe buýt (HCMC_BUS)",
+  "summary_text": "Hệ thống đã dự báo giá trị cho 60 ngày tiếp theo (từ 2024-11-02 đến 2024-12-31) cho tuyến 65 của nhà khai thác Cty-BaoYen. Kết quả dự báo cho thấy một mức giá trị ổn định và gần như không thay đổi trong toàn bộ giai đoạn 60 ngày.",
+  "insights": [
+    "Phương pháp dự báo được sử dụng là 'deterministic_recent_mean', kết hợp trọng số 60% từ dữ liệu gần đây (cửa sổ ngắn 180 ngày) và 40% từ dữ liệu dài hạn (cửa sổ dài 365 ngày).",
+    "Do sử dụng chế độ dự phòng (fallback_used: true), mô hình đã xác định một giá trị trung bình ổn định là 3811.29 cho toàn bộ 60 bước dự báo.",
+    "Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 586 điểm dữ liệu, trải dài từ 2022-05-01 đến 2024-11-01."
+  ],
+  "chart_note": "Giá trị dự báo được duy trì ở mức hằng số (3811.29) trong suốt 60 ngày, cho thấy sự ổn định cao theo mô hình dự báo đã chọn."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H49",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo tháng cho tuyến 53 của HTX-QTHANG và nêu đầy đủ ba giá trị dự báo. Nhận định xu hướng giảm khớp với các giá trị từ tháng 10 đến tháng 12/2024. So sánh với trung bình lịch sử là chính xác theo số liệu được cung cấp. Ghi chú về mô hình tổng hợp, hai cửa sổ 24 và 33 tháng cùng trọng số 60%/40% khớp forecast_result. Trình bày rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.383621375076473,
+    "input_tokens": 2230,
+    "output_tokens": 262,
+    "total_tokens": 2492,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo tháng cho tuyến 53 của HTX-QTHANG và nêu đầy đủ ba giá trị dự báo. Nhận định xu hướng giảm khớp với các giá trị từ tháng 10 đến tháng 12/2024. So sánh với trung bình lịch sử là chính xác theo số liệu được cung cấp. Ghi chú về mô hình tổng hợp, hai cửa sổ 24 và 33 tháng cùng trọng số 60%/40% khớp forecast_result. Trình bày rõ ràng và hữu ích.\"}"
+  }
+}

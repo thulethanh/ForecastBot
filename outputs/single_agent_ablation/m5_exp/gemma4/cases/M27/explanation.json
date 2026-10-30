@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho tháng 4 năm 2016 (2016-04-01) là 28.0. Kết quả này được tính toán bằng phương pháp ensemble, kết hợp trọng số 60% từ cửa sổ ngắn hạn (h24) và 40% từ cửa sổ dài hạn (h36).",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 63 điểm dữ liệu, trải dài từ 2011-01-01 đến 2016-03-01.",
+    "Mô hình đã sử dụng phương pháp ensemble, cho thấy sự kết hợp giữa xu hướng ngắn hạn (24 tháng) và xu hướng dài hạn (36 tháng) để đưa ra dự báo cuối cùng.",
+    "Dự báo này chỉ bao gồm một bước thời gian (horizon=1) cho sản phẩm FOODS_1_031 tại cửa hàng TX_1."
+  ],
+  "chart_note": "Giá trị 28.0 là dự báo toán học cho tháng 4 năm 2016 và không đại diện cho giá trị thực tế trong tương lai."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 3 năm tới cho HCMC_BUS (route_id: 128, operator: HTX-ThanhSon)",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024 (giá trị trung bình: 340.010,33), ForecastBot dự báo giá trị sẽ tiếp tục tăng trong 3 năm tới. Dự báo cho năm 2025 là 362.399,5 và dự kiến sẽ đạt 382.770,5 vào năm 2027.",
+  "insights": [
+    "Dự báo cho thấy xu hướng tăng liên tục trong 3 năm tới, từ 362.399,5 vào năm 2025 lên 382.770,5 vào năm 2027.",
+    "Giá trị dự báo cho năm 2025 (362.399,5) cao hơn mức cao nhất trong giai đoạn lịch sử (356.345,0).",
+    "Mức tăng trưởng hàng năm được dự báo là khoảng 10.185,5 cho giai đoạn 2026-2027."
+  ],
+  "chart_note": "Biểu đồ hiển thị 3 điểm dữ liệu lịch sử từ năm 2022 đến 2024 và dự báo của ForecastBot cho 3 năm tiếp theo đến năm 2027."
+}

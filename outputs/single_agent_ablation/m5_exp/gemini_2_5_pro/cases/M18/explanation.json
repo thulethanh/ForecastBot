@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số hàng tháng cho mặt hàng HOUSEHOLD_2_041 trong 24 tháng tới, từ tháng 5 năm 2014 đến tháng 4 năm 2016. Dự báo được tạo ra dựa trên 40 điểm dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 4 năm 2014. Kết quả cho thấy một xu hướng tăng trưởng nhẹ qua các năm cùng với một quy luật thời vụ rõ rệt.",
+  "insights": [
+    "Dự báo cho thấy một quy luật thời vụ mạnh mẽ, với doanh số dự kiến sẽ đạt đỉnh vào cuối mùa đông và đầu mùa xuân (tháng 2 - tháng 4) và chạm mức thấp nhất vào mùa hè và mùa thu (tháng 7 - tháng 10).",
+    "Có một xu hướng tăng trưởng tổng thể khiêm tốn, với doanh số dự báo trong năm thứ hai (tháng 5 năm 2015 - tháng 4 năm 2016) cao hơn so với năm đầu tiên.",
+    "Mô hình dự báo là sự kết hợp (ensemble) giữa các xu hướng dài hạn và ngắn hạn, trong đó chú trọng hơn (60% trọng số) vào các quy luật được quan sát trong 36 tháng gần nhất của dữ liệu lịch sử."
+  ],
+  "chart_note": "Dữ liệu lịch sử từ 2011-01-01 đến 2014-04-01. Dự báo cho 24 tháng tiếp theo."
+}

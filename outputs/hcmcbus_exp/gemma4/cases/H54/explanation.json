@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 78, HTX-195) theo quý",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo rằng chỉ số sẽ tiếp tục tăng trưởng mạnh mẽ trong hai quý sắp tới. Cụ thể, dự báo cho quý 1 năm 2024 là 90236.5, và quý 2 năm 2024 là 101276.75.",
+  "insights": [
+    "Giá trị dự báo cho cả hai quý năm 2024 đều cao hơn đáng kể so với mức trung bình lịch sử là 61055.25.",
+    "Dự báo cho quý 2 năm 2024 (101276.75) cao hơn so với quý 1 năm 2024 (90236.5), cho thấy xu hướng tăng trưởng tiếp diễn.",
+    "Trong lịch sử 8 điểm dữ liệu (2022-01-01 đến 2023-10-01), chỉ số đã đạt mức tối đa là 80281.0."
+  ],
+  "chart_note": "Biểu đồ này hiển thị quá trình huấn luyện của ForecastBot sử dụng 8 điểm dữ liệu lịch sử (h8) và đưa ra dự báo cho 2 bước (2 steps) tiếp theo."
+}

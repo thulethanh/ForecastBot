@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 8 quý tiếp theo (từ Quý 1 2025 đến Quý 4 2026) cho tuyến xe 107, nhà xe HTX-195, và nhóm phương tiện 2B.1_ML. Dự báo cho thấy xu hướng tăng trưởng chung trong hai năm tới, với các giá trị dự báo dao động từ khoảng 46.852 đến 58.896.",
+  "insights": [
+    "Dự báo cho thấy xu hướng tăng trưởng nhất quán, với giá trị dự báo cho quý cuối cùng (Quý 4 2026) là cao nhất trong giai đoạn ở mức 58.896.",
+    "Các giá trị dự báo đều cao hơn mức trung bình lịch sử (40.210), tiếp nối xu hướng được quan sát trong dữ liệu quá khứ (dao động từ 19.046 đến 49.452)."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử từ Quý 1 2022 đến Quý 4 2024 và dự báo cho 8 quý tiếp theo."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 90 ngày cho mặt hàng FOODS_3_629 tại cửa hàng TX_3, từ ngày 26 tháng 1 năm 2016 đến ngày 24 tháng 4 năm 2016. Dựa trên dữ liệu lịch sử từ năm 2011 đến 2016, doanh số bán hàng trung bình hàng ngày được dự báo sẽ vẫn ở mức thấp, phù hợp với mức trung bình lịch sử là 0.38 đơn vị mỗi ngày.",
+  "insights": [
+    "Dự báo cho thấy một chu kỳ hàng tuần rất rõ ràng và lặp lại, với doanh số dự kiến cao nhất vào các ngày Thứ Ba (khoảng 0.63 đơn vị) và thấp nhất vào các ngày Thứ Tư (khoảng 0.12 đơn vị).",
+    "Doanh số bán hàng trong quá khứ và dự báo đều rất thấp (dưới 1.0 đơn vị mỗi ngày), cho thấy đây là một mặt hàng bán chậm và không thường xuyên."
+  ],
+  "chart_note": "Biểu đồ này hiển thị doanh số bán hàng dự kiến hàng ngày trong 90 ngày tới. Lưu ý chu kỳ 7 ngày lặp lại trong suốt thời gian dự báo."
+}

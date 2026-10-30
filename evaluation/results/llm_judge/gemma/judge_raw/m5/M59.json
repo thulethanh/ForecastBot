@@ -1,0 +1,24 @@
+{
+  "case_id": "M59",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo cho đúng mặt hàng, cửa hàng, địa điểm và năm 2016. Mọi số liệu nêu ra (5 điểm lịch sử, giai đoạn 2011–2015, trung bình 123.2, khoảng 0.0–443.0 và dự báo 734.0) đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn, đồng thời đặt mức dự báo trong tương quan với lịch sử. Ghi chú về chế độ single và trọng số cũng phù hợp với forecast_result."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.26329779200023,
+    "input_tokens": 2186,
+    "output_tokens": 250,
+    "total_tokens": 2436,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo cho đúng mặt hàng, cửa hàng, địa điểm và năm 2016. Mọi số liệu nêu ra (5 điểm lịch sử, giai đoạn 2011–2015, trung bình 123.2, khoảng 0.0–443.0 và dự báo 734.0) đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn, đồng thời đặt mức dự báo trong tương quan với lịch sử. Ghi chú về chế độ single và trọng số cũng phù hợp với forecast_result.\"}"
+  }
+}

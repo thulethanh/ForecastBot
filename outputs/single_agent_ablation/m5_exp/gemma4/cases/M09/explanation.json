@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho mặt hàng HOBBIES_1_398 tại cửa hàng CA_1 đã được thực hiện thành công cho 12 tháng tới (từ tháng 5 năm 2015 đến tháng 4 năm 2016). Mô hình sử dụng phương pháp ensemble (kết hợp) với trọng số 60% từ cửa sổ ngắn hạn (36 điểm) và 40% từ cửa sổ dài hạn (52 điểm) để đưa ra dự đoán.",
+  "insights": [
+    "Dự báo thể hiện sự biến động theo chu kỳ hàng tháng, cho thấy mô hình đã nắm bắt được các yếu tố mùa vụ trong dữ liệu lịch sử.",
+    "Kết quả dự báo được xây dựng dựa trên sự kết hợp trọng số giữa xu hướng ngắn hạn và dài hạn, giúp tăng tính ổn định và độ tin cậy của dự đoán."
+  ],
+  "chart_note": "Các giá trị dự báo (yhat) là mức tiêu thụ/doanh số dự kiến hàng tháng. Phạm vi dự báo bao gồm 12 bước, bắt đầu từ ngày 2015-05-01."
+}

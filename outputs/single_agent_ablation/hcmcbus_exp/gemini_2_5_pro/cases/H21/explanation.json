@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho số lượng hành khách trên tuyến 55, do nhà xe XKSG khai thác với nhóm phương tiện 4_CNG.2, được dự kiến là khoảng 1.517.182 mỗi năm trong 10 năm tới, từ 2025 đến 2034.",
+  "insights": [
+    "Dự báo là một đường thẳng vì nó dựa trên lịch sử dữ liệu giới hạn chỉ với 3 điểm dữ liệu (từ năm 2022 đến 2024). Do không đủ dữ liệu để xác định xu hướng, mô hình dự báo giá trị trung bình của lịch sử.",
+    "Trong lịch sử, số lượng hành khách hàng năm đã dao động trong khoảng từ 1.379.297 đến 1.619.070. Giá trị dự báo 1.517.182 là giá trị trung bình của giai đoạn này."
+  ],
+  "chart_note": "Dữ liệu lịch sử được hiển thị bằng màu xanh. Đường dự báo, hiển thị bằng màu cam, là một đường thẳng thể hiện giá trị trung bình của dữ liệu lịch sử."
+}

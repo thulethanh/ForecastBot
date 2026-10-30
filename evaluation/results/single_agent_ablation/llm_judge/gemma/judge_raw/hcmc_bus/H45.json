@@ -1,0 +1,24 @@
+{
+  "case_id": "H45",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 148, nhóm xe 3_CNG và kỳ dự báo 30 ngày. Mức dự báo 1445.2857, tính hằng số trong toàn bộ giai đoạn, chế độ deterministic_recent_mean, cờ fallback, trọng số 60/40, các cửa sổ 180/365 ngày và thống kê lịch sử đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, mạch lạc và nêu được xu hướng không biến động. Tính hữu ích cao, dù có thể tốt hơn nếu bổ sung một lưu ý ngắn rằng đây là giá trị dự báo từ cơ chế dự phòng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.181413499987684,
+    "input_tokens": 3241,
+    "output_tokens": 257,
+    "total_tokens": 3498,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 148, nhóm xe 3_CNG và kỳ dự báo 30 ngày. Mức dự báo 1445.2857, tính hằng số trong toàn bộ giai đoạn, chế độ deterministic_recent_mean, cờ fallback, trọng số 60/40, các cửa sổ 180/365 ngày và thống kê lịch sử đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, mạch lạc và nêu được xu hướng không biến động. Tính hữu ích cao, dù có thể tốt hơn nếu bổ sung một lưu ý ngắn rằng đây là giá trị dự báo từ cơ chế dự phòng.\"}"
+  }
+}

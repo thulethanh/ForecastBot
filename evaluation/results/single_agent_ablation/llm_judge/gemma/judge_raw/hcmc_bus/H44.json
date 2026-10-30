@@ -1,0 +1,26 @@
+{
+  "case_id": "H44",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"fallback_used: true\" cho thấy mô hình đã áp dụng một phương pháp dự báo mặc định hoặc đơn giản hóa."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu 28 ngày cho đúng tuyến/nhà khai thác, nêu chính xác mức dự báo cố định, thời gian, chế độ dự báo, trọng số và các cửa sổ dữ liệu. So sánh với trung bình lịch sử cũng khớp số liệu. Tuy nhiên, dữ liệu chỉ xác nhận fallback đã được dùng; không định nghĩa rõ fallback là phương pháp “mặc định hoặc đơn giản hóa”, nên nhận định này chưa được hỗ trợ trực tiếp. Nội dung rõ ràng và giúp hiểu mức dự báo, tính ổn định và giới hạn dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 10.133480707998388,
+    "input_tokens": 3179,
+    "output_tokens": 511,
+    "total_tokens": 3690,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"fallback_used: true\\\" cho thấy mô hình đã áp dụng một phương pháp dự báo mặc định hoặc đơn giản hóa.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu 28 ngày cho đúng tuyến/nhà khai thác, nêu chính xác mức dự báo cố định, thời gian, chế độ dự báo, trọng số và các cửa sổ dữ liệu. So sánh với trung bình lịch sử cũng khớp số liệu. Tuy nhiên, dữ liệu chỉ xác nhận fallback đã được dùng; không định nghĩa rõ fallback là phương pháp “mặc định hoặc đơn giản hóa”, nên nhận định này chưa được hỗ trợ trực tiếp. Nội dung rõ ràng và giúp hiểu mức dự báo, tính ổn định và giới hạn dự báo.\"}"
+  }
+}

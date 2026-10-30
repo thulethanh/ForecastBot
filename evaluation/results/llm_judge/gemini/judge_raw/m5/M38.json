@@ -1,0 +1,24 @@
+{
+  "case_id": "M38",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng item, nêu rõ khoảng thời gian, biên độ, trung bình dự báo, các điểm cực trị và so sánh với trung bình lịch sử. Các số liệu đều khớp forecast và history summary. Mô tả ensemble, hai cửa sổ 36/52 điểm và trọng số 60%/40% phù hợp forecast_result. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo cũng như biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.151434415995027,
+    "input_tokens": 2582,
+    "output_tokens": 362,
+    "total_tokens": 2944,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng item, nêu rõ khoảng thời gian, biên độ, trung bình dự báo, các điểm cực trị và so sánh với trung bình lịch sử. Các số liệu đều khớp forecast và history summary. Mô tả ensemble, hai cửa sổ 36/52 điểm và trọng số 60%/40% phù hợp forecast_result. Trình bày rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo cũng như biến động chính.\"}"
+  }
+}

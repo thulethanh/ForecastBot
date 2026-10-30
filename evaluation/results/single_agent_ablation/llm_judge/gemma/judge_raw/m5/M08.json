@@ -1,0 +1,26 @@
+{
+  "case_id": "M08",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Các giá trị dự báo cho 6 tháng tới tăng dần, từ 32.0 (tháng 11/2015) lên 40.08 (tháng 4/2016)."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, địa điểm, kỳ hạn 6 tháng, phương pháp ensemble, trọng số và các cửa sổ dữ liệu được cung cấp. Phạm vi 58 điểm lịch sử cũng khớp history summary. Nội dung rõ ràng, có nêu mức đầu-cuối và ý nghĩa xu hướng tổng thể. Tuy nhiên, nhận định các giá trị tăng dần chưa hoàn toàn chính xác: dự báo giảm nhẹ từ 32.88 ở 12/2015 xuống 32.52 ở 01/2016, dù xu hướng chung tăng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.58761183405295,
+    "input_tokens": 2416,
+    "output_tokens": 416,
+    "total_tokens": 2832,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Các giá trị dự báo cho 6 tháng tới tăng dần, từ 32.0 (tháng 11/2015) lên 40.08 (tháng 4/2016).\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, địa điểm, kỳ hạn 6 tháng, phương pháp ensemble, trọng số và các cửa sổ dữ liệu được cung cấp. Phạm vi 58 điểm lịch sử cũng khớp history summary. Nội dung rõ ràng, có nêu mức đầu-cuối và ý nghĩa xu hướng tổng thể. Tuy nhiên, nhận định các giá trị tăng dần chưa hoàn toàn chính xác: dự báo giảm nhẹ từ 32.88 ở 12/2015 xuống 32.52 ở 01/2016, dù xu hướng chung tăng.\"}"
+  }
+}

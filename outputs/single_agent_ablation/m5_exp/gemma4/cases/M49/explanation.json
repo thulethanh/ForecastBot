@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Hệ thống đã dự báo thành công nhu cầu cho mặt hàng FOODS_2_280 tại cửa hàng WI_1 trong 3 tháng tới (từ tháng 2/2016 đến tháng 4/2016). Dự báo được thực hiện bằng phương pháp ensemble (kết hợp) dựa trên 61 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2016-01-01).",
+  "insights": [
+    "Mô hình sử dụng phương pháp ensemble với trọng số 60% cho cửa sổ ngắn hạn (24 điểm) và 40% cho cửa sổ dài hạn (36 điểm).",
+    "Dự báo cho thấy xu hướng tăng trưởng rõ rệt và liên tục qua các bước thời gian, với giá trị tăng dần từ 32.8 (tháng 2) lên 40.8 (tháng 4)."
+  ],
+  "chart_note": "Các giá trị dự báo này chỉ dựa trên dữ liệu lịch sử và không tính đến các sự kiện thị trường hoặc yếu tố bên ngoài nào khác."
+}

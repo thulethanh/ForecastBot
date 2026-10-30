@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (Tuyến 3, HTX-195) trong 6 tháng tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2024-06-01, ForecastBot dự báo lưu lượng cho 6 tháng tới (tháng 7 năm 2024 đến tháng 12 năm 2024). Lưu lượng dự kiến bắt đầu ở mức 115,447.6 vào tháng 7 và giảm dần xuống mức thấp nhất là 108,840.0 vào tháng 11.",
+  "insights": [
+    "Lưu lượng dự báo cao nhất là 115,447.6 vào tháng 7 năm 2024 và 115,400.0 vào tháng 8 năm 2024.",
+    "Lưu lượng dự báo thấp nhất trong giai đoạn này là 108,840.0 vào tháng 11 năm 2024.",
+    "So với mức trung bình lịch sử là 110,710.27, lưu lượng dự báo cho tháng 7 năm 2024 (115,447.6) cao hơn, trong khi tháng 11 năm 2024 (108,840.0) thấp hơn."
+  ],
+  "chart_note": "Bản dự báo này được tạo ra bằng mô hình ensemble, sử dụng trọng số 0.6 cho cửa sổ ngắn (h24) và 0.4 cho cửa sổ dài (h30). Mô hình đã được huấn luyện trên dữ liệu lịch sử từ 2022-01-01 đến 2024-06-01."
+}

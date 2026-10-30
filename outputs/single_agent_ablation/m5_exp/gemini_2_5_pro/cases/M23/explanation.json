@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 28 ngày cho mặt hàng FOODS_3_455, từ ngày 28 tháng 3 năm 2016 đến ngày 24 tháng 4 năm 2016. Dự báo cho thấy doanh số bán hàng hàng ngày sẽ dao động trong khoảng từ 79 đến 100 đơn vị. Các giá trị dự báo này cao hơn mức trung bình lịch sử là 70,6 đơn vị mỗi ngày.",
+  "insights": [
+    "Dự báo cho thấy một mô hình doanh số bán hàng hàng tuần rõ ràng, với doanh số dự kiến sẽ cao nhất vào cuối tuần (Thứ Sáu đến Chủ Nhật) và thấp nhất vào giữa tuần.",
+    "Mô hình dự báo là một tập hợp (ensemble) ưu tiên các xu hướng gần đây, với 60% trọng số được đặt vào dữ liệu của 180 ngày qua. Điều này cho thấy hiệu suất bán hàng gần đây mạnh hơn mức trung bình dài hạn.",
+    "Doanh số dự báo cao nhất được dự kiến vào Thứ Bảy, ngày 23 tháng 4, với 100,2 đơn vị, trong khi mức thấp nhất được dự kiến vào Thứ Năm, ngày 31 tháng 3, với 79,2 đơn vị."
+  ],
+  "chart_note": "Biểu đồ này hiển thị doanh số bán hàng lịch sử cho mặt hàng FOODS_3_455 cho đến ngày 27 tháng 3 năm 2016, tiếp theo là dự báo cho 28 ngày tới."
+}

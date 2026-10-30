@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 2,
+  "filters": {
+    "route_id": "46",
+    "operator": "HTX-ThanhSon"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '46' AND TRIM(d.operator) = 'HTX-ThanhSon' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "This SQL query calculates the total yearly passengers for route 46 operated by HTX-ThanhSon, providing the historical data needed for the forecast."
+}

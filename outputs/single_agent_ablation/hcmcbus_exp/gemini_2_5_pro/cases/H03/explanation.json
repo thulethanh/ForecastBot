@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 30 ngày tới (từ 02/12/2024 đến 31/12/2024) về số lượng trên tuyến xe buýt 23, nhóm xe 3B.1_ML. Dự báo được tạo ra bằng mô hình tổng hợp dựa trên dữ liệu lịch sử từ 01/01/2022 đến 01/12/2024. Các giá trị dự báo dao động từ khoảng 2,265 đến 3,230, cao hơn mức trung bình lịch sử là 2,574.",
+  "insights": [
+    "Dự báo cho thấy một quy luật tuần rõ rệt: các giá trị cao nhất vào các ngày trong tuần, giảm dần vào Thứ Bảy và ở mức thấp nhất vào Chủ Nhật.",
+    "Mô hình dự báo là sự kết hợp, ưu tiên nhiều hơn (60% trọng số) cho các xu hướng trong 180 ngày gần nhất so với dữ liệu của cả năm (365 ngày), cho thấy các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 01/01/2022 đến 01/12/2024 và dự báo cho 30 ngày tiếp theo."
+}

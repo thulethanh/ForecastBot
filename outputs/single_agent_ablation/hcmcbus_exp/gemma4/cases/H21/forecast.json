@@ -1,0 +1,67 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2025-01-01",
+      "yhat": 1640121.5
+    },
+    {
+      "step": 2,
+      "ds": "2026-01-01",
+      "yhat": 1727063.0
+    },
+    {
+      "step": 3,
+      "ds": "2027-01-01",
+      "yhat": 1814004.5
+    },
+    {
+      "step": 4,
+      "ds": "2028-01-01",
+      "yhat": 1900946.0
+    },
+    {
+      "step": 5,
+      "ds": "2029-01-01",
+      "yhat": 1987887.5
+    },
+    {
+      "step": 6,
+      "ds": "2030-01-01",
+      "yhat": 2074829.0
+    },
+    {
+      "step": 7,
+      "ds": "2031-01-01",
+      "yhat": 2161770.5
+    },
+    {
+      "step": 8,
+      "ds": "2032-01-01",
+      "yhat": 2248712.0
+    },
+    {
+      "step": 9,
+      "ds": "2033-01-01",
+      "yhat": 2335653.5
+    },
+    {
+      "step": 10,
+      "ds": "2034-01-01",
+      "yhat": 2422595.0
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "single",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 3,
+    "long_n": 3,
+    "short_window_name": "h3",
+    "long_window_name": "h3"
+  }
+}

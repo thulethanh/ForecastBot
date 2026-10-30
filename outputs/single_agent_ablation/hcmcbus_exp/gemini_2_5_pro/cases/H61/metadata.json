@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H61",
+  "question": "Tôi muốn dự báo lượng hành khách của tuyến 90 do HTX 26 vận hành trong 3 năm tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 3,
+    "n_train": 3,
+    "n_test": 0,
+    "horizon": 3,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 5,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.0022495409939438105,
+    "request_sql": 9.022731582983397,
+    "sql_execution_and_repair": 0.01714870799332857,
+    "forecast": 20.38179037498776,
+    "explanation": 11.947020916966721,
+    "end_to_end": 41.37099825008772
+  },
+  "total_tokens": 7535,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

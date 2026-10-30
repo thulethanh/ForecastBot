@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_1_302 tại TX_2 (TX)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho 10 năm tới (2017-2026) sẽ duy trì ổn định ở mức 119.33.",
+  "insights": [
+    "Giá trị dự báo (yhat) cho tất cả các năm từ 2017-01-01 đến 2026-01-01 đều là 119.33, cho thấy một xu hướng ổn định và không thay đổi trong giai đoạn dự báo.",
+    "Giá trị dự báo này bằng với giá trị trung bình lịch sử (mean_y) của tập dữ liệu."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01 và dự báo cho 10 bước tiếp theo (2017-01-01 đến 2026-01-01) bằng ForecastBot."
+}

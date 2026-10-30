@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 90,
+  "filters": {
+    "route_id": "1",
+    "operator": "Cty-BaoYen"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '1' AND TRIM(d.operator) = 'Cty-BaoYen' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the sum of total passengers (y) for Route 1, operated by Cty-BaoYen, aggregated by day (ds), suitable for a 90-day forecast."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "H04",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 24, nhà khai thác HTX-195 và chân trời 60 ngày. Các chi tiết về giá trị 6696.7143, dự báo không đổi trong 60 bước, chế độ deterministic_recent_mean, fallback, trọng số và các cửa sổ 180/365 ngày đều phù hợp với kết quả cung cấp. Nội dung rõ ràng, có cấu trúc và nêu được ý nghĩa chính của chuỗi dự báo phẳng. Điểm hữu ích chưa tối đa vì chưa diễn giải thêm mức dự báo này trong tương quan với thống kê lịch sử được cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.48074262496084,
+    "input_tokens": 4291,
+    "output_tokens": 307,
+    "total_tokens": 4598,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 24, nhà khai thác HTX-195 và chân trời 60 ngày. Các chi tiết về giá trị 6696.7143, dự báo không đổi trong 60 bước, chế độ deterministic_recent_mean, fallback, trọng số và các cửa sổ 180/365 ngày đều phù hợp với kết quả cung cấp. Nội dung rõ ràng, có cấu trúc và nêu được ý nghĩa chính của chuỗi dự báo phẳng. Điểm hữu ích chưa tối đa vì chưa diễn giải thêm mức dự báo này trong tương quan với thống kê lịch sử được cung cấp.\"}"
+  }
+}

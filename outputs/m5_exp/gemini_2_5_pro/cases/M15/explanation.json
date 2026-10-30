@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 8 quý tới cho item_id HOUSEHOLD_1_143, state_id CA",
+  "summary_text": "ForecastBot dự báo giá trị sẽ giảm trong 8 quý tới, từ 64,46 trong quý bắt đầu từ 2014-07-01 xuống còn 0,00 vào quý cuối cùng kết thúc vào 2016-04-01.",
+  "insights": [
+    "Dữ liệu lịch sử kéo dài 14 quý (từ 2011-01-01 đến 2014-04-01) có giá trị trung bình là 292,14, cao nhất là 1246,0 và thấp nhất là 0,0.",
+    "Dự báo cho thấy một xu hướng giảm mạnh, bắt đầu từ 64,46 và giảm xuống 0,00 vào quý cuối cùng. Giá trị dự báo đầu tiên thấp hơn đáng kể so với giá trị trung bình lịch sử (292,14).",
+    "Mô hình 'ensemble' được sử dụng, với 60% trọng số cho xu hướng gần đây (dựa trên 12 quý) và 40% cho xu hướng dài hạn (dựa trên 14 quý)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2011-01-01 đến 2014-04-01 và dự báo của ForecastBot cho 8 quý tiếp theo."
+}

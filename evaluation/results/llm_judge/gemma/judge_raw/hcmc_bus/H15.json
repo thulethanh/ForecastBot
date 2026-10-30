@@ -1,0 +1,26 @@
+{
+  "case_id": "H15",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Cụm \"lịch sử dữ liệu huấn luyện\" khẳng định 12 điểm lịch sử là dữ liệu huấn luyện, trong khi thông tin cung cấp chỉ xác nhận đây là các cửa sổ lịch sử 12 điểm dùng cho nhánh dự báo."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhóm xe, 8 quý và các mốc dự báo; các mức đầu kỳ, đỉnh, cuối kỳ và diễn biến giảm rồi phục hồi đều khớp forecast. Trình bày rõ ràng, ngắn gọn và giúp hiểu xu hướng chính. Tuy nhiên, chart_note gọi dữ liệu lịch sử là \"dữ liệu huấn luyện\" khi case chỉ cung cấp thông tin về cửa sổ lịch sử dùng cho dự báo, không xác nhận quá trình huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.52305874999729,
+    "input_tokens": 2459,
+    "output_tokens": 407,
+    "total_tokens": 2866,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Cụm \\\"lịch sử dữ liệu huấn luyện\\\" khẳng định 12 điểm lịch sử là dữ liệu huấn luyện, trong khi thông tin cung cấp chỉ xác nhận đây là các cửa sổ lịch sử 12 điểm dùng cho nhánh dự báo.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhóm xe, 8 quý và các mốc dự báo; các mức đầu kỳ, đỉnh, cuối kỳ và diễn biến giảm rồi phục hồi đều khớp forecast. Trình bày rõ ràng, ngắn gọn và giúp hiểu xu hướng chính. Tuy nhiên, chart_note gọi dữ liệu lịch sử là \\\"dữ liệu huấn luyện\\\" khi case chỉ cung cấp thông tin về cửa sổ lịch sử dùng cho dự báo, không xác nhận quá trình huấn luyện.\"}"
+  }
+}

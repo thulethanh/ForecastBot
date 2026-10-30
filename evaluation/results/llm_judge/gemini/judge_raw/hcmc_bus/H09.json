@@ -1,0 +1,26 @@
+{
+  "case_id": "H09",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định \"Dự báo cho thấy các đỉnh theo mùa\" không được hỗ trợ trực tiếp bởi summary lịch sử hoặc các giá trị dự báo; dữ liệu chỉ cho thấy các mức cao ở một số tháng dự báo."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng tuyến và nhà xe, nêu rõ phạm vi thời gian, mức cao/thấp và so sánh trung bình dự báo với trung bình lịch sử. Các số liệu đều khớp forecast và history summary; trung bình dự báo 55.243 là phù hợp khi làm tròn. Tuy nhiên, cụm \"đỉnh theo mùa\" là diễn giải chưa có bằng chứng trực tiếp vì summary lịch sử không cung cấp cấu trúc mùa vụ. Nội dung còn lại rõ ràng, mạch lạc và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.842163624998648,
+    "input_tokens": 2640,
+    "output_tokens": 402,
+    "total_tokens": 3042,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định \\\"Dự báo cho thấy các đỉnh theo mùa\\\" không được hỗ trợ trực tiếp bởi summary lịch sử hoặc các giá trị dự báo; dữ liệu chỉ cho thấy các mức cao ở một số tháng dự báo.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 tháng cho đúng tuyến và nhà xe, nêu rõ phạm vi thời gian, mức cao/thấp và so sánh trung bình dự báo với trung bình lịch sử. Các số liệu đều khớp forecast và history summary; trung bình dự báo 55.243 là phù hợp khi làm tròn. Tuy nhiên, cụm \\\"đỉnh theo mùa\\\" là diễn giải chưa có bằng chứng trực tiếp vì summary lịch sử không cung cấp cấu trúc mùa vụ. Nội dung còn lại rõ ràng, mạch lạc và hữu ích.\"}"
+  }
+}

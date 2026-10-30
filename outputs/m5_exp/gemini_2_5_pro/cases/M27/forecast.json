@@ -1,0 +1,22 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2016-04-01",
+      "yhat": 51.4
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "ensemble",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 24,
+    "long_n": 36,
+    "short_window_name": "h24",
+    "long_window_name": "h36"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo HCMC_BUS (Tuyến 46, HTX-ThanhSon) cho 2 năm tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử năm 2022, dự báo cho cả năm 2023 và năm 2024 đều duy trì ở mức 459979.0.",
+  "insights": [
+    "Năm 2023: Giá trị dự báo (yhat) là 459979.0.",
+    "Năm 2024: Giá trị dự báo (yhat) là 459979.0."
+  ],
+  "chart_note": "Mô hình được huấn luyện trên 1 điểm dữ liệu lịch sử (năm 2022). Dự báo được thực hiện cho 2 bước (2023 và 2024) bằng chế độ \"single\", sử dụng trọng số ngắn hạn (short) là 0.6 và dài hạn (long) là 0.4."
+}

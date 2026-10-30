@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 7,
+  "filters": {
+    "route_id": "58",
+    "operator": "HTX-VTHANG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '58' AND TRIM(d.operator) = 'HTX-VTHANG' GROUP BY d.date ORDER BY ds ASC;",
+  "sql_explanation": "This SQL query selects the daily total passengers for bus route 58 operated by HTX-VTHANG, which will be used to forecast the next 7 days."
+}

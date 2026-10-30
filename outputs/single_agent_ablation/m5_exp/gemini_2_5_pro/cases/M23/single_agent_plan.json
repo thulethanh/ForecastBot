@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 28,
+  "filters": {
+    "item_id": "FOODS_3_455"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_3_455' GROUP BY c.date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the daily sales for the item 'FOODS_3_455' from the M5 dataset. It joins the sales and calendar tables, filters by the specified item_id, and aggregates sales by day to create the time series for forecasting."
+}

@@ -1,0 +1,16 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 1,
+  "filters": {
+    "item_id": "FOODS_1_002",
+    "store_id": "WI_1",
+    "state_id": "WI"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'FOODS_1_002' AND s.store_id = 'WI_1' AND s.state_id = 'WI' GROUP BY DATE_TRUNC('month', c.date)::date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query calculates the total monthly sales for the product 'FOODS_1_002' in store 'WI_1' and state 'WI'. It aggregates sales data by month to create the time series for forecasting."
+}

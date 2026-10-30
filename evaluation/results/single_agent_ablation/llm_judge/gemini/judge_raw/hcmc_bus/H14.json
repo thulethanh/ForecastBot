@@ -1,0 +1,28 @@
+{
+  "case_id": "H14",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Các biến động theo mùa đã được quan sát trong quá khứ.",
+      "Mức tăng đột biến quý 4 phù hợp với quy luật đã thấy trong dữ liệu lịch sử.",
+      "Các giá trị dự báo được tính toán hoàn toàn dựa trên các xu hướng và quy luật theo mùa từ dữ liệu quá khứ."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu: đúng tuyến/nhà xe, nêu đủ 4 quý dự báo và làm rõ mức thấp nhất quý 3 cùng mức cao nhất quý 4. Các số liệu dự báo và chiều giảm từ quý 1 đến quý 3 rồi tăng ở quý 4 đều khớp kết quả. Tuy nhiên, history summary chỉ cung cấp phạm vi, số điểm, min/max/mean; không đủ bằng chứng để khẳng định có quy luật mùa vụ hay rằng mức tăng quý 4 phù hợp mẫu lịch sử. Diễn đạt rõ ràng và có ích, nhưng các nhận định mùa vụ làm giảm tính trung thực."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.319860290968791,
+    "input_tokens": 2329,
+    "output_tokens": 375,
+    "total_tokens": 2704,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Các biến động theo mùa đã được quan sát trong quá khứ.\",\"Mức tăng đột biến quý 4 phù hợp với quy luật đã thấy trong dữ liệu lịch sử.\",\"Các giá trị dự báo được tính toán hoàn toàn dựa trên các xu hướng và quy luật theo mùa từ dữ liệu quá khứ.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu: đúng tuyến/nhà xe, nêu đủ 4 quý dự báo và làm rõ mức thấp nhất quý 3 cùng mức cao nhất quý 4. Các số liệu dự báo và chiều giảm từ quý 1 đến quý 3 rồi tăng ở quý 4 đều khớp kết quả. Tuy nhiên, history summary chỉ cung cấp phạm vi, số điểm, min/max/mean; không đủ bằng chứng để khẳng định có quy luật mùa vụ hay rằng mức tăng quý 4 phù hợp mẫu lịch sử. Diễn đạt rõ ràng và có ích, nhưng các nhận định mùa vụ làm giảm tính trung thực.\"}"
+  }
+}

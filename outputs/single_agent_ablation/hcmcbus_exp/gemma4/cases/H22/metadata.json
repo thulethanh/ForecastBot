@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H22",
+  "question": "Dự báo 7 ngày tới của tuyến 58 do HTX-VTHANG vận hành.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1089,
+    "n_test": 7,
+    "horizon": 7,
+    "minimum_train_required": 7,
+    "required_points_for_evaluation": 14,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.0197542910464108,
+    "request_sql": 73.69772087503225,
+    "sql_execution_and_repair": 0.07377224997617304,
+    "forecast": 665.3498029999901,
+    "explanation": 118.80138316692319,
+    "end_to_end": 857.9427622919902
+  },
+  "total_tokens": 20110,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

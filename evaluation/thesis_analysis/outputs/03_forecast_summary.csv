@@ -1,0 +1,21 @@
+﻿Bộ dữ liệu,Mô hình,Phạm vi,Số trường hợp đánh giá,Số dự báo hợp lệ,Tỷ lệ tạo dự báo hợp lệ (%),MAE,RMSE
+M5,Gemini 2.5 Pro,Tổng thể,54,51,94.44,63.7137,70.6985
+M5,Gemini 2.5 Pro,Ngày,15,15,,3.7202,4.9796
+M5,Gemini 2.5 Pro,Tháng,14,14,,17.906,21.1836
+M5,Gemini 2.5 Pro,Quý,15,15,,104.0729,115.5765
+M5,Gemini 2.5 Pro,Năm,7,7,,197.4024,214.3872
+HCMC Bus,Gemini 2.5 Pro,Tổng thể,44,41,93.18,12043.9944,12879.4623
+HCMC Bus,Gemini 2.5 Pro,Ngày,15,15,,302.0024,371.703
+HCMC Bus,Gemini 2.5 Pro,Tháng,11,11,,5289.0788,6076.9317
+HCMC Bus,Gemini 2.5 Pro,Quý,12,12,,16425.8222,18212.1571
+HCMC Bus,Gemini 2.5 Pro,Năm,3,3,,77994.6667,79030.0918
+M5,Gemma4 (gemma4:e4b),Tổng thể,54,54,100.0,148.0588,155.2768
+M5,Gemma4 (gemma4:e4b),Ngày,15,15,,4.1522,5.4429
+M5,Gemma4 (gemma4:e4b),Tháng,15,15,,15.6959,17.7234
+M5,Gemma4 (gemma4:e4b),Quý,15,15,,98.6412,113.7052
+M5,Gemma4 (gemma4:e4b),Năm,9,9,,690.8704,703.5415
+HCMC Bus,Gemma4 (gemma4:e4b),Tổng thể,44,43,97.73,23690.6247,25096.7867
+HCMC Bus,Gemma4 (gemma4:e4b),Ngày,15,15,,390.3346,517.7582
+HCMC Bus,Gemma4 (gemma4:e4b),Tháng,11,11,,16060.3443,18317.466
+HCMC Bus,Gemma4 (gemma4:e4b),Quý,12,12,,47939.2546,50452.3177
+HCMC Bus,Gemma4 (gemma4:e4b),Năm,5,5,,52181.4,52895.1031

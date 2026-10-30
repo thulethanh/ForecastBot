@@ -1,0 +1,27 @@
+{
+  "case_id": "M46",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để dự báo bao gồm 1853 điểm\" không phù hợp rõ ràng với window_info, vốn chỉ nêu các cửa sổ h180 và h365 được dùng cho các nhánh dự báo.",
+      "\"Mô hình được huấn luyện trên 1853 điểm dữ liệu\" không được hỗ trợ; thông tin cung cấp chỉ mô tả phạm vi lịch sử khả dụng 1853 điểm, không xác nhận việc huấn luyện trên toàn bộ số điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, chân trời 60 ngày và nêu chính xác mức dự báo cố định 0.1429 cùng khoảng ngày. Phương pháp, trọng số và tên cửa sổ được trình bày rõ ràng, dễ hiểu. Tuy nhiên, phần insight và chart_note khẳng định toàn bộ 1853 điểm được dùng để dự báo/huấn luyện, trong khi thông tin chỉ xác nhận đây là phạm vi lịch sử khả dụng; các nhánh dự báo dùng cửa sổ h180 và h365. Điều này làm giảm tính trung thực. Giải thích vẫn hữu ích, nhưng có thể tốt hơn nếu nêu ý nghĩa thực tế của mức dự báo thấp và ổn định."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.6324667089938885,
+    "input_tokens": 4204,
+    "output_tokens": 459,
+    "total_tokens": 4663,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để dự báo bao gồm 1853 điểm\\\" không phù hợp rõ ràng với window_info, vốn chỉ nêu các cửa sổ h180 và h365 được dùng cho các nhánh dự báo.\",\"\\\"Mô hình được huấn luyện trên 1853 điểm dữ liệu\\\" không được hỗ trợ; thông tin cung cấp chỉ mô tả phạm vi lịch sử khả dụng 1853 điểm, không xác nhận việc huấn luyện trên toàn bộ số điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, chân trời 60 ngày và nêu chính xác mức dự báo cố định 0.1429 cùng khoảng ngày. Phương pháp, trọng số và tên cửa sổ được trình bày rõ ràng, dễ hiểu. Tuy nhiên, phần insight và chart_note khẳng định toàn bộ 1853 điểm được dùng để dự báo/huấn luyện, trong khi thông tin chỉ xác nhận đây là phạm vi lịch sử khả dụng; các nhánh dự báo dùng cửa sổ h180 và h365. Điều này làm giảm tính trung thực. Giải thích vẫn hữu ích, nhưng có thể tốt hơn nếu nêu ý nghĩa thực tế của mức dự báo thấp và ổn định.\"}"
+  }
+}

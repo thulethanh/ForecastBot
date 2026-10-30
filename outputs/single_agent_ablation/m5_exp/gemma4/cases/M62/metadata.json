@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M62",
+  "question": "Dự báo lượng bán của sản phẩm HOUSEHOLD_1_005 tại bang WI trong 5 năm tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 6,
+    "n_train": 6,
+    "n_test": 0,
+    "horizon": 5,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.007171040982939303,
+    "request_sql": 74.37369820801541,
+    "sql_execution_and_repair": 0.10945554205682129,
+    "forecast": 89.14103854203131,
+    "explanation": 105.57580220804084,
+    "end_to_end": 269.20745916699525
+  },
+  "total_tokens": 4405,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

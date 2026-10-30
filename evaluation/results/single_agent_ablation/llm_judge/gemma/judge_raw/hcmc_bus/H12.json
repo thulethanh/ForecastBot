@@ -1,0 +1,24 @@
+{
+  "case_id": "H12",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến 34 và HTX 26, nêu đầy đủ hai kỳ dự báo, mức dự báo, xu hướng giảm và phương pháp ensemble cùng trọng số/cửa sổ tương ứng. Các số liệu, ngày tháng, trung bình lịch sử và nhận định xu hướng đều khớp với thông tin được cung cấp. Trình bày rõ ràng, ngắn gọn. Tính hữu ích cao, dù có thể tốt hơn nếu diễn giải trực tiếp mức dự báo so với trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.5174416250083596,
+    "input_tokens": 2210,
+    "output_tokens": 360,
+    "total_tokens": 2570,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến 34 và HTX 26, nêu đầy đủ hai kỳ dự báo, mức dự báo, xu hướng giảm và phương pháp ensemble cùng trọng số/cửa sổ tương ứng. Các số liệu, ngày tháng, trung bình lịch sử và nhận định xu hướng đều khớp với thông tin được cung cấp. Trình bày rõ ràng, ngắn gọn. Tính hữu ích cao, dù có thể tốt hơn nếu diễn giải trực tiếp mức dự báo so với trung bình lịch sử.\"}"
+  }
+}

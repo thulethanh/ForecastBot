@@ -1,0 +1,24 @@
+{
+  "case_id": "H62",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 5 năm cho đúng tuyến và nhà khai thác, nêu đầy đủ mức đầu-cuối và xu hướng giảm. Các số liệu về mức giảm 9.820 (khoảng 1,5%), so sánh với trung bình 646.196 và cực đại 663.395 đều khớp với forecast và history summary. Chart note cũng phù hợp với phạm vi lịch sử, kỳ dự báo và thông tin cửa sổ 3 điểm. Nội dung rõ ràng, có cấu trúc và giúp hiểu ý nghĩa thực tế của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.575110167003004,
+    "input_tokens": 2378,
+    "output_tokens": 255,
+    "total_tokens": 2633,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 5 năm cho đúng tuyến và nhà khai thác, nêu đầy đủ mức đầu-cuối và xu hướng giảm. Các số liệu về mức giảm 9.820 (khoảng 1,5%), so sánh với trung bình 646.196 và cực đại 663.395 đều khớp với forecast và history summary. Chart note cũng phù hợp với phạm vi lịch sử, kỳ dự báo và thông tin cửa sổ 3 điểm. Nội dung rõ ràng, có cấu trúc và giúp hiểu ý nghĩa thực tế của dự báo.\"}"
+  }
+}

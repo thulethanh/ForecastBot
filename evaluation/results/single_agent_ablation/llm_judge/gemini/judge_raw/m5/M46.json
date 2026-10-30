@@ -1,0 +1,26 @@
+{
+  "case_id": "M46",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng trọng số 60% cho cửa sổ 180 ngày đang phản ánh các xu hướng bán hàng gần đây cao hơn không được history summary cung cấp; chỉ có trọng số và độ dài cửa sổ được nêu."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất và chân trời 60 ngày. Các mốc thời gian, trung bình lịch sử 0,16, cực đại 5 và khoảng dự báo 0,36–0,55 đều phù hợp dữ liệu. Mô tả chu kỳ lặp lại theo tuần và mức cao hơn trung bình lịch sử được forecast hỗ trợ. Tuy nhiên, dữ liệu tóm tắt không cho biết doanh số trong 180 ngày gần nhất cao hơn, nên phần diễn giải về xu hướng gần đây chưa có bằng chứng trực tiếp. Nội dung rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.961694542085752,
+    "input_tokens": 4265,
+    "output_tokens": 429,
+    "total_tokens": 4694,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng trọng số 60% cho cửa sổ 180 ngày đang phản ánh các xu hướng bán hàng gần đây cao hơn không được history summary cung cấp; chỉ có trọng số và độ dài cửa sổ được nêu.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, tần suất và chân trời 60 ngày. Các mốc thời gian, trung bình lịch sử 0,16, cực đại 5 và khoảng dự báo 0,36–0,55 đều phù hợp dữ liệu. Mô tả chu kỳ lặp lại theo tuần và mức cao hơn trung bình lịch sử được forecast hỗ trợ. Tuy nhiên, dữ liệu tóm tắt không cho biết doanh số trong 180 ngày gần nhất cao hơn, nên phần diễn giải về xu hướng gần đây chưa có bằng chứng trực tiếp. Nội dung rõ ràng và hữu ích.\"}"
+  }
+}

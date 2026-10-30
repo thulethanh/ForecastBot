@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 7 ngày cho HCMC_BUS (route_id: 19)",
+  "summary_text": "ForecastBot dự báo các giá trị cho HCMC_BUS (route_id: 19) trong 7 ngày từ 25-12-2024 đến 31-12-2024. Giá trị dự báo trung bình là 3650.0. Các giá trị dự báo dao động từ 2788.0 đến 4120.0.",
+  "insights": [
+    "Dự báo đạt điểm cao nhất là 4120.0 vào ngày 30-12-2024 và điểm thấp nhất là 2788.0 vào ngày 29-12-2024.",
+    "Dự báo cho thấy sự sụt giảm vào cuối tuần, với các giá trị thấp hơn vào Thứ Bảy (3065.0) và Chủ Nhật (2788.0) so với các ngày khác trong tuần.",
+    "Giá trị dự báo trung bình (3650.0) thấp hơn một chút so với giá trị trung bình lịch sử (3783.4) trong 1089 ngày qua."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử của HCMC_BUS (route_id: 19) từ 01-01-2022 đến 24-12-2024. Dự báo cho 7 ngày tiếp theo được tạo bởi ForecastBot bằng mô hình 'ensemble', kết hợp một mô hình ngắn hạn (dựa trên 180 ngày gần nhất) và một mô hình dài hạn (dựa trên 365 ngày gần nhất)."
+}

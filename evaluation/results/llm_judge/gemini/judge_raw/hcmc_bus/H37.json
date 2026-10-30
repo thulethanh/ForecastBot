@@ -1,0 +1,26 @@
+{
+  "case_id": "H37",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"12 điểm dữ liệu lịch sử từ Q1 2022 đến Q4 2024 được sử dụng để huấn luyện mô hình\" không được hỗ trợ trực tiếp: thông tin chỉ cho biết phạm vi lịch sử và các cửa sổ đầu vào dự báo, không xác nhận việc huấn luyện mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến xe, đơn vị vận hành, phạm vi 12 quý và các mức dự báo. Các số liệu cực trị, mức trung bình lịch sử, xu hướng tăng nhẹ theo từng năm và mô hình đỉnh Q4/đáy Q3 đều khớp với dãy forecast. Nội dung rõ ràng, có ích và dễ theo dõi. Tuy nhiên, chart_note khẳng định toàn bộ 12 điểm lịch sử được dùng để huấn luyện mô hình, trong khi dữ liệu cung cấp chỉ xác nhận phạm vi lịch sử và cửa sổ dự báo, không xác nhận quá trình huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.548647125004209,
+    "input_tokens": 2624,
+    "output_tokens": 385,
+    "total_tokens": 3009,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"12 điểm dữ liệu lịch sử từ Q1 2022 đến Q4 2024 được sử dụng để huấn luyện mô hình\\\" không được hỗ trợ trực tiếp: thông tin chỉ cho biết phạm vi lịch sử và các cửa sổ đầu vào dự báo, không xác nhận việc huấn luyện mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến xe, đơn vị vận hành, phạm vi 12 quý và các mức dự báo. Các số liệu cực trị, mức trung bình lịch sử, xu hướng tăng nhẹ theo từng năm và mô hình đỉnh Q4/đáy Q3 đều khớp với dãy forecast. Nội dung rõ ràng, có ích và dễ theo dõi. Tuy nhiên, chart_note khẳng định toàn bộ 12 điểm lịch sử được dùng để huấn luyện mô hình, trong khi dữ liệu cung cấp chỉ xác nhận phạm vi lịch sử và cửa sổ dự báo, không xác nhận quá trình huấn luyện.\"}"
+  }
+}

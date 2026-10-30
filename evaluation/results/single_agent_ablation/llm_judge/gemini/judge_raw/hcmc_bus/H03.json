@@ -1,0 +1,24 @@
+{
+  "case_id": "H03",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng yêu cầu dự báo 30 ngày cho tuyến 23 và nhóm xe 3B.1_ML. Khoảng ngày, biên độ dự báo, mức trung bình lịch sử, quy luật theo ngày trong tuần và trọng số ensemble đều phù hợp với forecast, history summary và window_info. Nội dung trình bày rõ ràng, ngắn gọn, giúp người dùng nắm được mức dự báo, biến động tuần và cách kết hợp các cửa sổ lịch sử mà không đưa ra nguyên nhân ngoài bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.506526957964525,
+    "input_tokens": 3211,
+    "output_tokens": 377,
+    "total_tokens": 3588,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng yêu cầu dự báo 30 ngày cho tuyến 23 và nhóm xe 3B.1_ML. Khoảng ngày, biên độ dự báo, mức trung bình lịch sử, quy luật theo ngày trong tuần và trọng số ensemble đều phù hợp với forecast, history summary và window_info. Nội dung trình bày rõ ràng, ngắn gọn, giúp người dùng nắm được mức dự báo, biến động tuần và cách kết hợp các cửa sổ lịch sử mà không đưa ra nguyên nhân ngoài bằng chứng.\"}"
+  }
+}

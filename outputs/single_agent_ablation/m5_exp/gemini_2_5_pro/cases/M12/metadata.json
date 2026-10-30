@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M12",
+  "question": "Dự báo lượng bán của sản phẩm HOBBIES_1_126 tại cửa hàng CA_4 trong 2 quý tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 20,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 4,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.004587374976836145,
+    "request_sql": 10.076069083064795,
+    "sql_execution_and_repair": 0.030098582967184484,
+    "forecast": 40.26039779209532,
+    "explanation": 14.217569333035499,
+    "end_to_end": 64.58879308309406
+  },
+  "total_tokens": 10726,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

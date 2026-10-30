@@ -1,0 +1,24 @@
+{
+  "case_id": "M16",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 quý cho đúng item và cửa hàng, nêu rõ biên độ, các mức cao/thấp, nhịp lặp theo quý và so sánh với trung bình lịch sử. Các số liệu 492.0, 1153.8, trung bình dự báo khoảng 899.9, 22 điểm lịch sử và khoảng thời gian đều khớp dữ liệu cung cấp. Nhận định về quy luật lặp hàng năm được hỗ trợ trực tiếp bởi chuỗi dự báo lặp lại theo từng năm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.568980374999228,
+    "input_tokens": 2576,
+    "output_tokens": 364,
+    "total_tokens": 2940,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 quý cho đúng item và cửa hàng, nêu rõ biên độ, các mức cao/thấp, nhịp lặp theo quý và so sánh với trung bình lịch sử. Các số liệu 492.0, 1153.8, trung bình dự báo khoảng 899.9, 22 điểm lịch sử và khoảng thời gian đều khớp dữ liệu cung cấp. Nhận định về quy luật lặp hàng năm được hỗ trợ trực tiếp bởi chuỗi dự báo lặp lại theo từng năm.\"}"
+  }
+}

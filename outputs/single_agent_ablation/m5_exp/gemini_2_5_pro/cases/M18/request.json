@@ -1,0 +1,12 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "month",
+  "horizon": 24,
+  "filters": {
+    "item_id": "HOUSEHOLD_2_041"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": ""
+}

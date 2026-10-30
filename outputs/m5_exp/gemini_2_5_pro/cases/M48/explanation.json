@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho M5: item_id FOODS_1_002, store_id WI_1",
+  "summary_text": "ForecastBot dự báo giá trị cho tháng 2016-04-01 là 30,0. Con số này cao hơn mức trung bình lịch sử là 22,51 (từ 2011-01-01 đến 2016-03-01).",
+  "insights": [
+    "Dữ liệu lịch sử bao gồm 63 điểm dữ liệu hàng tháng từ 2011-01-01 đến 2016-03-01.",
+    "Trong giai đoạn lịch sử, giá trị đã dao động từ mức thấp nhất là 1,0 đến mức cao nhất là 35,0.",
+    "Dự báo được tạo bằng mô hình `ensemble`, kết hợp một mô hình ngắn hạn (dữ liệu 24 tháng, trọng số 60%) và một mô hình dài hạn (dữ liệu 36 tháng, trọng số 40%)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 63 điểm dữ liệu lịch sử hàng tháng từ 2011-01-01 đến 2016-03-01, cùng với dự báo 1 tháng của ForecastBot."
+}

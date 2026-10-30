@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 12,
+  "filters": {
+    "route_id": "70"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT\n  DATE_TRUNC('month', d.date)::date AS ds,\n  SUM(d.total_passengers) AS y\nFROM\n  daily_passenger_stats AS d\nWHERE\n  d.route_id = '70'\nGROUP BY\n  ds\nORDER BY\n  ds ASC",
+  "sql_explanation": "The SQL retrieves the total monthly passengers for bus route 70, which is needed to forecast the passenger count for the next 12 months."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo HCMC_BUS (route 39, 3B.1_ML) trong 8 quý tới",
+  "summary_text": "Dự báo cho 8 quý tới, bắt đầu từ 83500.0 vào quý 1 năm 2025, đạt đỉnh tại 91000.0 vào quý 4 năm 2025, và kết thúc ở mức 88000.0 vào quý 4 năm 2026.",
+  "insights": [
+    "Giá trị dự báo tăng trưởng mạnh mẽ từ quý 1 năm 2025 (83500.0) đến quý 4 năm 2025 (91000.0).",
+    "Sau đó, giá trị giảm nhẹ vào quý 1 năm 2026 (82000.0) so với quý 4 năm 2025.",
+    "Giá trị tiếp tục phục hồi và tăng dần trở lại trong nửa cuối năm 2026, kết thúc ở mức 88000.0."
+  ],
+  "chart_note": "Biểu đồ hiển thị lịch sử dữ liệu huấn luyện trong 12 điểm (từ 2022-01-01 đến 2024-10-01) và dự báo cho 8 bước tiếp theo (từ 2025-01-01 đến 2026-10-01)."
+}

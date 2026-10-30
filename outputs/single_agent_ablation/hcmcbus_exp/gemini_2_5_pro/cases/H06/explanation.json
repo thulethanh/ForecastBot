@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho tuyến xe buýt 28 của nhà xe XKSG trong tháng 12/2024 là khoảng 55,920. Dự báo này được tạo ra dựa trên dữ liệu lịch sử từ tháng 01/2022 đến tháng 11/2024.",
+  "insights": [
+    "Giá trị dự báo (55,920) cao hơn mức trung bình lịch sử (49,860) nhưng vẫn nằm trong phạm vi các giá trị đã quan sát được trong quá khứ (18,033 - 70,462).",
+    "Mô hình dự báo là sự kết hợp giữa xu hướng dài hạn (toàn bộ 35 tháng dữ liệu) và xu hướng ngắn hạn (24 tháng gần nhất), trong đó 60% trọng số được đặt vào dữ liệu gần đây hơn."
+  ],
+  "chart_note": "Dữ liệu lịch sử từ tháng 01/2022 đến tháng 11/2024 được sử dụng để tạo ra dự báo này."
+}

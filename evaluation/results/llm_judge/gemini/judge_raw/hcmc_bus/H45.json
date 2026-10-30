@@ -1,0 +1,26 @@
+{
+  "case_id": "H45",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (1064 điểm, từ 01/01/2022 đến 01/12/2024)\": thông tin cửa sổ dự báo chỉ cho biết hai nhánh dùng 180 và 365 quan sát gần nhất, không hỗ trợ khẳng định toàn bộ 1064 điểm được dùng để huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến xe, nhóm xe và chân trời 30 ngày. Các số liệu trung bình dự báo, trung bình lịch sử, cực đại/cực tiểu và các ngày tương ứng đều khớp forecast/history; nhận xét mức thấp vào cuối tuần cũng phù hợp dãy dự báo. Trình bày rõ ràng và hữu ích. Tuy nhiên, chart_note khẳng định toàn bộ 1064 điểm lịch sử được dùng để huấn luyện, trong khi thông tin cung cấp chỉ nêu các cửa sổ 180 và 365 quan sát cho các nhánh dự báo, nên khẳng định này không được hỗ trợ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.525860249996185,
+    "input_tokens": 3202,
+    "output_tokens": 410,
+    "total_tokens": 3612,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (1064 điểm, từ 01/01/2022 đến 01/12/2024)\\\": thông tin cửa sổ dự báo chỉ cho biết hai nhánh dùng 180 và 365 quan sát gần nhất, không hỗ trợ khẳng định toàn bộ 1064 điểm được dùng để huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến xe, nhóm xe và chân trời 30 ngày. Các số liệu trung bình dự báo, trung bình lịch sử, cực đại/cực tiểu và các ngày tương ứng đều khớp forecast/history; nhận xét mức thấp vào cuối tuần cũng phù hợp dãy dự báo. Trình bày rõ ràng và hữu ích. Tuy nhiên, chart_note khẳng định toàn bộ 1064 điểm lịch sử được dùng để huấn luyện, trong khi thông tin cung cấp chỉ nêu các cửa sổ 180 và 365 quan sát cho các nhánh dự báo, nên khẳng định này không được hỗ trợ.\"}"
+  }
+}

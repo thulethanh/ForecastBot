@@ -1,0 +1,26 @@
+{
+  "case_id": "M63",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dự báo được thực hiện bằng chế độ 'single' và dựa trên giá trị trung bình của 6 điểm dữ liệu lịch sử\" — chế độ single và 6 điểm lịch sử được cung cấp, nhưng không có bằng chứng trực tiếp rằng mô hình tạo dự báo bằng cách dựa trên giá trị trung bình."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 10 năm và nêu chính xác mức dự báo cố định 219.33 trong giai đoạn 2017–2026. Các nhận định về không có xu hướng tăng/giảm và trọng số 60%/40% phù hợp kết quả cung cấp. Tuy nhiên, câu khẳng định dự báo được tạo ra dựa trên giá trị trung bình lịch sử là diễn giải về cơ chế mô hình chưa được dữ liệu đầu vào xác nhận trực tiếp, dù giá trị dự báo trùng với trung bình lịch sử."
+  },
+  "meta": {
+    "attempt": 2,
+    "latency_s": 6.658734291908331,
+    "input_tokens": 2502,
+    "output_tokens": 316,
+    "total_tokens": 2818,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dự báo được thực hiện bằng chế độ 'single' và dựa trên giá trị trung bình của 6 điểm dữ liệu lịch sử\\\" — chế độ single và 6 điểm lịch sử được cung cấp, nhưng không có bằng chứng trực tiếp rằng mô hình tạo dự báo bằng cách dựa trên giá trị trung bình.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ hạn 10 năm và nêu chính xác mức dự báo cố định 219.33 trong giai đoạn 2017–2026. Các nhận định về không có xu hướng tăng/giảm và trọng số 60%/40% phù hợp kết quả cung cấp. Tuy nhiên, câu khẳng định dự báo được tạo ra dựa trên giá trị trung bình lịch sử là diễn giải về cơ chế mô hình chưa được dữ liệu đầu vào xác nhận trực tiếp, dù giá trị dự báo trùng với trung bình lịch sử.\"}"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M12",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 2 quý cho đúng sản phẩm và cửa hàng, nêu đầy đủ mức dự báo cùng các mốc thời gian. Các số liệu 52.0, 34.0, trung bình lịch sử 13.15, mức cao nhất 52.0, 20 điểm dữ liệu và trọng số/cửa sổ của mô hình tổng hợp đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, có diễn giải xu hướng nổi bật và cách kết hợp cửa sổ ngắn-dài, giúp người dùng hiểu ý nghĩa thực tế mà không suy diễn nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.12816683400888,
+    "input_tokens": 2221,
+    "output_tokens": 261,
+    "total_tokens": 2482,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 2 quý cho đúng sản phẩm và cửa hàng, nêu đầy đủ mức dự báo cùng các mốc thời gian. Các số liệu 52.0, 34.0, trung bình lịch sử 13.15, mức cao nhất 52.0, 20 điểm dữ liệu và trọng số/cửa sổ của mô hình tổng hợp đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, có diễn giải xu hướng nổi bật và cách kết hợp cửa sổ ngắn-dài, giúp người dùng hiểu ý nghĩa thực tế mà không suy diễn nguyên nhân không có bằng chứng.\"}"
+  }
+}

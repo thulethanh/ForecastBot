@@ -1,0 +1,24 @@
+{
+  "case_id": "M29",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 6 tháng cho đúng item và bang, nêu rõ mức dự báo, diễn biến giảm trong 4 tháng đầu rồi phục hồi, cùng các mốc thấp/cao cụ thể. Các số liệu lịch sử, khoảng thời gian, giá trị dự báo, chế độ ensemble, cửa sổ 24/36 tháng và trọng số 60%/40% đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, có cấu trúc và hữu ích mà không suy diễn nguyên nhân ngoài bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 11.135205291997408,
+    "input_tokens": 2453,
+    "output_tokens": 317,
+    "total_tokens": 2770,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 6 tháng cho đúng item và bang, nêu rõ mức dự báo, diễn biến giảm trong 4 tháng đầu rồi phục hồi, cùng các mốc thấp/cao cụ thể. Các số liệu lịch sử, khoảng thời gian, giá trị dự báo, chế độ ensemble, cửa sổ 24/36 tháng và trọng số 60%/40% đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, có cấu trúc và hữu ích mà không suy diễn nguyên nhân ngoài bằng chứng.\"}"
+  }
+}

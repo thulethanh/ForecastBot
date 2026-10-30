@@ -1,0 +1,26 @@
+{
+  "case_id": "H20",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định rằng dự báo “tiếp tục xu hướng tăng được quan sát trong dữ liệu lịch sử” không được chứng minh rõ bởi history summary, vì phần tóm tắt không cung cấp các giá trị theo từng năm để xác nhận xu hướng theo thời gian."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 5 năm cho đúng tuyến và đơn vị vận hành, nêu chính xác các mốc dự báo 2025 và 2029, đồng thời chỉ ra hạn chế chỉ có 3 điểm dữ liệu năm. Trình bày rõ ràng và biểu đồ được mô tả đúng phạm vi lịch sử/dự báo. Tuy nhiên, history summary chỉ cho min, max và trung bình nên chưa đủ bằng chứng trực tiếp để khẳng định lịch sử đã có xu hướng tăng theo thời gian."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.536527125048451,
+    "input_tokens": 2267,
+    "output_tokens": 382,
+    "total_tokens": 2649,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định rằng dự báo “tiếp tục xu hướng tăng được quan sát trong dữ liệu lịch sử” không được chứng minh rõ bởi history summary, vì phần tóm tắt không cung cấp các giá trị theo từng năm để xác nhận xu hướng theo thời gian.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 5 năm cho đúng tuyến và đơn vị vận hành, nêu chính xác các mốc dự báo 2025 và 2029, đồng thời chỉ ra hạn chế chỉ có 3 điểm dữ liệu năm. Trình bày rõ ràng và biểu đồ được mô tả đúng phạm vi lịch sử/dự báo. Tuy nhiên, history summary chỉ cho min, max và trung bình nên chưa đủ bằng chứng trực tiếp để khẳng định lịch sử đã có xu hướng tăng theo thời gian.\"}"
+  }
+}

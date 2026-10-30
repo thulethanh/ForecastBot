@@ -1,0 +1,24 @@
+{
+  "case_id": "M04",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 1,
+    "faithfulness": 5,
+    "clarity": 1,
+    "usefulness": 1,
+    "overall_score": 2.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation trống nên không trả lời yêu cầu dự báo 60 ngày cho mặt hàng và cửa hàng đã nêu, không cung cấp mức dự báo, xu hướng hay diễn giải nào hữu ích. Không có nhận định định lượng hoặc nguyên nhân không được hỗ trợ, nên không có claim thiếu căn cứ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.023395125055686,
+    "input_tokens": 1737,
+    "output_tokens": 168,
+    "total_tokens": 1905,
+    "raw_response": "{\"relevance\":1,\"faithfulness\":5,\"clarity\":1,\"usefulness\":1,\"overall_score\":2.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation trống nên không trả lời yêu cầu dự báo 60 ngày cho mặt hàng và cửa hàng đã nêu, không cung cấp mức dự báo, xu hướng hay diễn giải nào hữu ích. Không có nhận định định lượng hoặc nguyên nhân không được hỗ trợ, nên không có claim thiếu căn cứ.\"}"
+  }
+}

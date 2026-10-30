@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ Quý 1 2022 đến Quý 1 2024, đây là dự báo số lượt khách cho tuyến xe buýt 36 của nhà xe XKSG trong 3 quý tới. Dự báo cho thấy xu hướng tăng, bắt đầu từ 192,317 lượt trong Quý 2 2024 và đạt 227,806 lượt vào Quý 4 2024.",
+  "insights": [
+    "Dự báo cho thấy xu hướng tăng trưởng liên tục trong suốt năm 2024, với số lượt khách dự kiến vào Quý 4 (227,806) gần đạt mức cao nhất trong lịch sử (227,829).",
+    "Mô hình dự báo là sự kết hợp giữa xu hướng ngắn hạn và dài hạn, trong đó 60% trọng số được đặt vào 8 quý gần nhất. Điều này cho thấy các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả dự báo."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ Q1 2022 đến Q1 2024 và dự báo cho 3 quý tiếp theo."
+}

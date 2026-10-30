@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 5 năm cho item_id HOUSEHOLD_1_133 tại store_id CA_2",
+  "summary_text": "Dựa trên 6 điểm dữ liệu lịch sử hàng năm từ 2011-01-01 đến 2016-01-01, ForecastBot đã tạo ra dự báo cho 5 năm tiếp theo. Giá trị trung bình trong quá khứ là 124.67. Dự báo cho thấy các giá trị dao động, với mức cao nhất là 212.5 vào năm 2018 và 2020, và giảm xuống 31.5 vào năm 2021.",
+  "insights": [
+    "Dự báo cho thấy một mô hình lặp lại, với các giá trị 130.0 và 212.5 xen kẽ nhau trong bốn năm đầu tiên.",
+    "Giá trị dự báo cao nhất là 212.5, được dự kiến cho năm 2018 và 2020.",
+    "Dự báo kết thúc với một sự sụt giảm đáng kể xuống còn 31.5 vào năm 2021, thấp hơn nhiều so với mức trung bình lịch sử (124.67)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 6 điểm dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01 được sử dụng để huấn luyện mô hình, cùng với dự báo cho 5 năm tiếp theo đến 2021-01-01."
+}

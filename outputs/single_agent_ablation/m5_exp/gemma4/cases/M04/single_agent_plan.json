@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 60,
+  "filters": {
+    "item_id": "FOODS_3_055",
+    "store_id": "CA_1"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_3_055' AND s.store_id = 'CA_1' AND c.date >= CURRENT_DATE AND c.date <= CURRENT_DATE + INTERVAL '60 days' GROUP BY c.date ORDER BY c.date ASC",
+  "sql_explanation": "Retrieves the daily sales forecast (y) for product FOODS_3_055 at store CA_1 for the next 60 days, using the real calendar date (c.date) as the time index (ds)."
+}

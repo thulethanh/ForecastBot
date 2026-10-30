@@ -1,0 +1,33 @@
+{
+  "case_id": "M03",
+  "question": "Cho tôi biết lượng bán dự kiến của sản phẩm FOODS_2_069 tại bang CA trong 30 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1883,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 41.19768679198751,
+    "load_schema": 0.0027942080050706863,
+    "sql_generation": 75.28489383299893,
+    "sql_execution_and_repair": 0.05326204199809581,
+    "forecast": 502.5006475410046,
+    "explanation": 83.90014091599733,
+    "end_to_end": 702.9399507079943
+  },
+  "total_tokens": 16991,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

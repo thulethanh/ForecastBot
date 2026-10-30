@@ -1,0 +1,33 @@
+{
+  "case_id": "M04",
+  "question": "Trong 60 ngày tới, lượng bán của sản phẩm FOODS_3_055 tại cửa hàng CA_1 được dự báo như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1853,
+    "n_test": 60,
+    "horizon": 60,
+    "minimum_train_required": 60,
+    "required_points_for_evaluation": 120,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 46.7998269170057,
+    "load_schema": 0.005148791999090463,
+    "sql_generation": 71.78193283299333,
+    "sql_execution_and_repair": 0.026524957997025922,
+    "forecast": 426.35996808399796,
+    "explanation": 105.39081329200417,
+    "end_to_end": 650.3644245000032
+  },
+  "total_tokens": 17627,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

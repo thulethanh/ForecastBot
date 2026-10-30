@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 5 năm cho item_id: HOUSEHOLD_1_077, store_id: TX_3",
+  "summary_text": "ForecastBot dự báo giá trị sẽ giảm trong 5 năm tới, từ 56.0 vào năm 2017 xuống còn 29.8 vào năm 2021. Các giá trị dự báo này thấp hơn đáng kể so với mức trung bình lịch sử là 177.2 (từ 2011 đến 2016).",
+  "insights": [
+    "Dự báo cho thấy một xu hướng giảm liên tục trong 5 năm tới, từ 56.0 vào năm 2017 xuống 29.8 vào năm 2021.",
+    "Tất cả các giá trị dự báo đều thấp hơn đáng kể so với mức trung bình lịch sử là 177.2 (giai đoạn 2011-2016).",
+    "Tốc độ giảm được dự báo sẽ chậm dần, với mức giảm lớn nhất là 14.0 trong năm đầu tiên và giảm dần xuống 1.7 trong năm cuối cùng của giai đoạn dự báo."
+  ],
+  "chart_note": "Biểu đồ hiển thị 6 điểm dữ liệu lịch sử từ 2011 đến 2016 được dùng để tạo dự báo. Đường dự báo thể hiện dự đoán của ForecastBot cho 5 năm tiếp theo, từ 2017 đến 2021."
+}

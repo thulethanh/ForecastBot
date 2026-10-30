@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 12,
+  "filters": {
+    "route_id": "4",
+    "operator": "Cty-BaoYen"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '4' AND TRIM(d.operator) = 'Cty-BaoYen' GROUP BY DATE_TRUNC('month', d.date) ORDER BY ds ASC",
+  "sql_explanation": "Retrieves the sum of total passengers (y) for Route 4 operated by Cty-BaoYen, aggregated by month (ds), to forecast the next 12 months."
+}

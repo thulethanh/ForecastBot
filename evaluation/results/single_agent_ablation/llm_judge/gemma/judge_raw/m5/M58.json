@@ -1,0 +1,26 @@
+{
+  "case_id": "M58",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình đã sử dụng 22 điểm dữ liệu lịch sử ... để xác định xu hướng và tính mùa vụ.\" Không được hỗ trợ đầy đủ: kết quả chỉ cho biết hai nhánh ensemble dùng các cửa sổ h12 và h20; 22 điểm là phạm vi lịch sử khả dụng."
+    ],
+    "reason_vi": "Giải thích bám đúng đối tượng, kỳ hạn 12 quý, thời điểm bắt đầu và cấu hình ensemble; nhận định về chu kỳ lặp lại cũng phù hợp với các giá trị dự báo lặp theo từng năm. Tuy nhiên, câu khẳng định mô hình đã dùng toàn bộ 22 điểm để xác định xu hướng và mùa vụ không phù hợp hoàn toàn với thông tin cửa sổ h12/h20. Nội dung rõ ràng nhưng sẽ hữu ích hơn nếu nêu các mức dự báo chính hoặc khoảng biến động dự kiến."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.004870250006206,
+    "input_tokens": 2558,
+    "output_tokens": 397,
+    "total_tokens": 2955,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình đã sử dụng 22 điểm dữ liệu lịch sử ... để xác định xu hướng và tính mùa vụ.\\\" Không được hỗ trợ đầy đủ: kết quả chỉ cho biết hai nhánh ensemble dùng các cửa sổ h12 và h20; 22 điểm là phạm vi lịch sử khả dụng.\"],\"reason_vi\":\"Giải thích bám đúng đối tượng, kỳ hạn 12 quý, thời điểm bắt đầu và cấu hình ensemble; nhận định về chu kỳ lặp lại cũng phù hợp với các giá trị dự báo lặp theo từng năm. Tuy nhiên, câu khẳng định mô hình đã dùng toàn bộ 22 điểm để xác định xu hướng và mùa vụ không phù hợp hoàn toàn với thông tin cửa sổ h12/h20. Nội dung rõ ràng nhưng sẽ hữu ích hơn nếu nêu các mức dự báo chính hoặc khoảng biến động dự kiến.\"}"
+  }
+}

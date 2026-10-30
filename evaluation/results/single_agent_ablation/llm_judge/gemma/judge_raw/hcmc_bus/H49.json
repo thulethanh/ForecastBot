@@ -1,0 +1,24 @@
+{
+  "case_id": "H49",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo theo tháng cho tuyến 53 và HTX-QTHANG trong 3 tháng. Các mốc thời gian, giá trị 155.000 đến 153.000, xu hướng giảm nhẹ, mức trung bình lịch sử, cấu hình ensemble và trọng số đều khớp dữ liệu cung cấp. Diễn đạt rõ ràng, ngắn gọn, đồng thời nêu lưu ý phù hợp rằng dự báo không phải giá trị thực tế tương lai. Nội dung giúp người dùng hiểu mức dự báo, xu hướng và cách kết hợp các cửa sổ dữ liệu."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.403801875072531,
+    "input_tokens": 2234,
+    "output_tokens": 220,
+    "total_tokens": 2454,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo theo tháng cho tuyến 53 và HTX-QTHANG trong 3 tháng. Các mốc thời gian, giá trị 155.000 đến 153.000, xu hướng giảm nhẹ, mức trung bình lịch sử, cấu hình ensemble và trọng số đều khớp dữ liệu cung cấp. Diễn đạt rõ ràng, ngắn gọn, đồng thời nêu lưu ý phù hợp rằng dự báo không phải giá trị thực tế tương lai. Nội dung giúp người dùng hiểu mức dự báo, xu hướng và cách kết hợp các cửa sổ dữ liệu.\"}"
+  }
+}

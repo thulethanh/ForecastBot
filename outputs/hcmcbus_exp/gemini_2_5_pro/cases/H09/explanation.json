@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 12 tháng cho tuyến 31 (nhà xe XKSG) từ dataset HCMC_BUS",
+  "summary_text": "ForecastBot đã tạo dự báo cho 12 tháng tới, từ tháng 1/2024 đến tháng 12/2024. Các giá trị dự báo dao động trong khoảng từ 36.068 (tháng 1/2024) đến 73.676 (tháng 10/2024). Trung bình dự báo là 55.243, cao hơn so với trung bình lịch sử (52.339).",
+  "insights": [
+    "Giá trị dự báo cao nhất là 73.676 vào tháng 10/2024, trong khi giá trị thấp nhất là 36.068 vào tháng 1/2024.",
+    "Dự báo cho thấy các đỉnh theo mùa, với các giá trị cao nhất tập trung vào tháng 3 (63.309) và giai đoạn từ tháng 9 đến tháng 11 (cao nhất là 73.676 vào tháng 10).",
+    "Giá trị trung bình dự báo cho 12 tháng tới là 55.243, cao hơn một chút so với mức trung bình của 24 tháng lịch sử (52.339)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử trong 24 tháng (từ tháng 1/2022 đến tháng 12/2023) và dự báo của ForecastBot cho 12 tháng tiếp theo (từ tháng 1/2024 đến tháng 12/2024)."
+}

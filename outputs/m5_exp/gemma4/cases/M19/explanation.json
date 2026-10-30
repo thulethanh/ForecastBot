@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_2_146 tại CA_4 (CA) từ năm 2014 đến năm 2016",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo giá trị cho HOUSEHOLD_2_146 tại CA_4 (CA) sẽ là 0.0 trong ba năm tới, cụ thể là năm 2014, 2015 và 2016.",
+  "insights": [
+    "Giá trị dự báo cho năm 2014-01-01 là 0.0.",
+    "Giá trị dự báo cho năm 2015-01-01 là 0.0.",
+    "Giá trị dự báo cho năm 2016-01-01 là 0.0."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 3 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2013-01-01). ForecastBot sử dụng chế độ 'single' để dự báo 3 bước tiếp theo, với trọng số ngắn hạn (short) là 0.6 và trọng số dài hạn (long) là 0.4."
+}

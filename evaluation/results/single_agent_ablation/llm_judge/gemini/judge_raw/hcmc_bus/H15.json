@@ -1,0 +1,24 @@
+{
+  "case_id": "H15",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và nhóm xe, nêu đúng 8 quý từ Q1/2025 đến Q4/2026. Các mức dao động, quý cao nhất/thấp nhất và việc các giá trị năm 2026 lặp lại năm 2025 đều khớp trực tiếp với forecast. Phạm vi 12 điểm lịch sử từ Q1/2022 đến Q4/2024 phù hợp history summary và window_info. Nội dung ngắn gọn, rõ ràng, giúp người dùng nắm mức dự báo và mẫu biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 14.559182542026974,
+    "input_tokens": 2417,
+    "output_tokens": 283,
+    "total_tokens": 2700,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng tuyến và nhóm xe, nêu đúng 8 quý từ Q1/2025 đến Q4/2026. Các mức dao động, quý cao nhất/thấp nhất và việc các giá trị năm 2026 lặp lại năm 2025 đều khớp trực tiếp với forecast. Phạm vi 12 điểm lịch sử từ Q1/2022 đến Q4/2024 phù hợp history summary và window_info. Nội dung ngắn gọn, rõ ràng, giúp người dùng nắm mức dự báo và mẫu biến động chính.\"}"
+  }
+}

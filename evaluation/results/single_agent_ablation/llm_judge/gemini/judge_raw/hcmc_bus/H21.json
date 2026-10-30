@@ -1,0 +1,26 @@
+{
+  "case_id": "H21",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng mô hình không đủ dữ liệu để xác định xu hướng và vì vậy dự báo giá trị trung bình không được nêu trực tiếp trong thông tin mô hình; tuy nhiên kết quả phẳng đúng bằng trung bình lịch sử phù hợp với nhận định này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà xe, nhóm phương tiện, kỳ hạn 2025–2034 và mức dự báo. Các số liệu về 3 điểm lịch sử, khoảng dao động và trung bình đều khớp history summary तथा forecast; dự báo cũng thực tế là đường thẳng ở mức trung bình. Nội dung rõ ràng, ngắn gọn và giúp hiểu giới hạn của chuỗi dữ liệu rất ngắn. Điểm faithfulness giảm nhẹ vì lý do nội tại của mô hình (không đủ dữ liệu để xác định xu hướng nên dự báo trung bình) không được cung cấp trực tiếp, dù phù hợp với kết quả."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.600034457980655,
+    "input_tokens": 2514,
+    "output_tokens": 432,
+    "total_tokens": 2946,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng mô hình không đủ dữ liệu để xác định xu hướng và vì vậy dự báo giá trị trung bình không được nêu trực tiếp trong thông tin mô hình; tuy nhiên kết quả phẳng đúng bằng trung bình lịch sử phù hợp với nhận định này.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà xe, nhóm phương tiện, kỳ hạn 2025–2034 và mức dự báo. Các số liệu về 3 điểm lịch sử, khoảng dao động và trung bình đều khớp history summary तथा forecast; dự báo cũng thực tế là đường thẳng ở mức trung bình. Nội dung rõ ràng, ngắn gọn và giúp hiểu giới hạn của chuỗi dữ liệu rất ngắn. Điểm faithfulness giảm nhẹ vì lý do nội tại của mô hình (không đủ dữ liệu để xác định xu hướng nên dự báo trung bình) không được cung cấp trực tiếp, dù phù hợp với kết quả.\"}"
+  }
+}

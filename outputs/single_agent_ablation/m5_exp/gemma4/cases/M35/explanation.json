@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho M5 (HOBBIES_2_115)",
+  "summary_text": "Hệ thống đã hoàn thành việc dự báo 4 quý tiếp theo cho mặt hàng HOBBIES_2_115 trên tập dữ liệu M5. Dự báo được tính toán bằng phương pháp Ensemble, cho thấy xu hướng giảm dần ổn định qua các quý từ 2015-07-01 đến 2016-04-01.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên 18 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2015-04-01).",
+    "Phương pháp dự báo sử dụng là Ensemble, kết hợp trọng số 60% từ mô hình ngắn hạn (h8) và 40% từ mô hình dài hạn (h12).",
+    "Các giá trị dự báo cho 4 quý liên tiếp lần lượt là: 500.3 (2015-07-01), 491.54 (2015-10-01), 482.84 (2016-01-01), và 474.14 (2016-04-01)."
+  ],
+  "chart_note": "Đây là dự báo cho 4 quý (horizon=4) với độ chi tiết theo quý (granularity=quarter) cho mặt hàng HOBBIES_2_115."
+}

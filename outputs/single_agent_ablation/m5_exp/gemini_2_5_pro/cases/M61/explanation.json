@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 3 năm tới đối với mặt hàng HOUSEHOLD_2_117 tại cửa hàng WI_1. Dự báo cho thấy doanh số sẽ không đổi, ở mức khoảng 161.7 đơn vị mỗi năm từ 2014 đến 2016. Kết quả này dựa trên mức trung bình của dữ liệu lịch sử trong 3 năm có sẵn (2011-2013).",
+  "insights": [
+    "Dự báo là một đường thẳng ở mức 161.7 đơn vị, đây chính là doanh số bán hàng trung bình trong lịch sử từ năm 2011 đến 2013.",
+    "Chỉ với 3 điểm dữ liệu lịch sử, mô hình không thể xác định được bất kỳ xu hướng hay quy luật thời vụ nào, do đó mô hình sử dụng giá trị trung bình cho các dự báo trong tương lai."
+  ],
+  "chart_note": "Biểu đồ thể hiện doanh số lịch sử trong 3 năm (2011-2013) và dự báo cho 3 năm tới (2014-2016)."
+}

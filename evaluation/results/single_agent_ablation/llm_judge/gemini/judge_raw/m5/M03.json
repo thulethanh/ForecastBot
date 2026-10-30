@@ -1,0 +1,26 @@
+{
+  "case_id": "M03",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định rằng mức dự báo cao hơn cho thấy mô hình đã xác định được một xu hướng tăng gần đây trong dữ liệu bán hàng không được history summary hỗ trợ."
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, khu vực, chân trời 30 ngày và nêu chính xác khoảng dự báo 1.4–3.4, mức trung bình lịch sử 1.22 cùng quy luật theo thứ trong forecast. Các ngày thứ Ba có mức 3.4 và thứ Năm có mức 1.4 đúng với chuỗi dự báo. Tuy nhiên, history summary chỉ cung cấp trung bình toàn kỳ, không có bằng chứng về xu hướng tăng gần đây; vì vậy kết luận mô hình nhận diện xu hướng này chưa được hỗ trợ. Nội dung nhìn chung rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.152750917011872,
+    "input_tokens": 3151,
+    "output_tokens": 421,
+    "total_tokens": 3572,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định rằng mức dự báo cao hơn cho thấy mô hình đã xác định được một xu hướng tăng gần đây trong dữ liệu bán hàng không được history summary hỗ trợ.\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, khu vực, chân trời 30 ngày và nêu chính xác khoảng dự báo 1.4–3.4, mức trung bình lịch sử 1.22 cùng quy luật theo thứ trong forecast. Các ngày thứ Ba có mức 3.4 và thứ Năm có mức 1.4 đúng với chuỗi dự báo. Tuy nhiên, history summary chỉ cung cấp trung bình toàn kỳ, không có bằng chứng về xu hướng tăng gần đây; vì vậy kết luận mô hình nhận diện xu hướng này chưa được hỗ trợ. Nội dung nhìn chung rõ ràng và hữu ích.\"}"
+  }
+}

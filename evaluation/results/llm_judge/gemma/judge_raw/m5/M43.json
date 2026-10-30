@@ -1,0 +1,27 @@
+{
+  "case_id": "M43",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"sau đó giảm dần về 2.0 (2016-04-24)\" không hoàn toàn khớp chuỗi dự báo, vì giá trị tăng từ 3.5 ngày 2016-04-22 lên 4.0 ngày 2016-04-23.",
+      "\"Mô hình đã sử dụng cửa sổ ngắn (h180) và cửa sổ dài (h365) để đưa ra dự báo\" chưa phù hợp hoàn toàn với selected_mode là \"short_only\"."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu 7 ngày cho đúng sản phẩm và cửa hàng, nêu rõ khoảng dự báo, ngày cao/thấp nhất và các giá trị đều đối chiếu được với forecast. Trình bày rõ ràng, dễ đọc và hữu ích để nắm mức độ biến động. Tuy nhiên, mô tả “giảm dần” sau đỉnh không hoàn toàn chính xác vì có một nhịp tăng vào 23/04. Ngoài ra, chart_note nói dùng cả hai cửa sổ, trong khi kết quả cho biết chế độ được chọn là short_only."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.816284875007113,
+    "input_tokens": 2505,
+    "output_tokens": 526,
+    "total_tokens": 3031,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"sau đó giảm dần về 2.0 (2016-04-24)\\\" không hoàn toàn khớp chuỗi dự báo, vì giá trị tăng từ 3.5 ngày 2016-04-22 lên 4.0 ngày 2016-04-23.\",\"\\\"Mô hình đã sử dụng cửa sổ ngắn (h180) và cửa sổ dài (h365) để đưa ra dự báo\\\" chưa phù hợp hoàn toàn với selected_mode là \\\"short_only\\\".\"],\"reason_vi\":\"Giải thích bám sát yêu cầu 7 ngày cho đúng sản phẩm và cửa hàng, nêu rõ khoảng dự báo, ngày cao/thấp nhất và các giá trị đều đối chiếu được với forecast. Trình bày rõ ràng, dễ đọc và hữu ích để nắm mức độ biến động. Tuy nhiên, mô tả “giảm dần” sau đỉnh không hoàn toàn chính xác vì có một nhịp tăng vào 23/04. Ngoài ra, chart_note nói dùng cả hai cửa sổ, trong khi kết quả cho biết chế độ được chọn là short_only.\"}"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M44",
+  "question": "Trong 28 ngày tới, lượng bán của sản phẩm FOODS_3_324 tại bang WI được dự báo như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "load_schema": 0.0016819169977679849,
+    "request_sql": 68.9492199170636,
+    "sql_execution_and_repair": 0.015256832935847342,
+    "end_to_end": 68.9677767920075
+  },
+  "total_tokens": 1948,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "SQL succeeded but returned no historical data"
+}

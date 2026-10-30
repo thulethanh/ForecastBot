@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HCMC_BUS (route_id: 44, operator: HTX-ThanhSon) cho 1 năm tới",
+  "summary_text": "ForecastBot dự báo giá trị cho năm 2024 là 528,493.0. Con số này cao hơn giá trị lớn nhất trong lịch sử quan sát (462,635.0).",
+  "insights": [
+    "Dự báo cho năm 2024 là 528,493.0, thể hiện xu hướng tăng so với các giá trị lịch sử.",
+    "Dữ liệu lịch sử dùng cho dự báo này bao gồm 2 điểm dữ liệu từ năm 2022 đến 2023, với giá trị trung bình là 429,706.0."
+  ],
+  "chart_note": "Biểu đồ hiển thị 2 điểm dữ liệu lịch sử từ 2022 đến 2023 và dự báo của ForecastBot cho năm 2024."
+}

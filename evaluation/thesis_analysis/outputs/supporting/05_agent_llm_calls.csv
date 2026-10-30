@@ -1,0 +1,1188 @@
+﻿dataset,model,case_id,agent,stage,attempt,status,llm_time_s,input_tokens,output_tokens,total_tokens
+M5,Gemini 2.5 Pro,M01,Router Agent,orchestration,1,success,5.698623625001346,953.0,573.0,1526.0
+M5,Gemini 2.5 Pro,M01,SQL Agent,sql_generate,1,success,10.177811625002505,670.0,1180.0,1850.0
+M5,Gemini 2.5 Pro,M01,Forecast Agent,forecast.forecast_short,1,success,54.27855141599866,1243.0,7270.0,8513.0
+M5,Gemini 2.5 Pro,M01,Forecast Agent,forecast.forecast_long,1,success,64.07071062500108,2354.0,9039.0,11393.0
+M5,Gemini 2.5 Pro,M01,Explanation Agent,explanation,1,success,25.71079379100047,721.0,3496.0,4217.0
+M5,Gemini 2.5 Pro,M02,Router Agent,orchestration,1,success,6.213467333000153,960.0,644.0,1604.0
+M5,Gemini 2.5 Pro,M02,SQL Agent,sql_generate,1,success,10.801122208999004,681.0,1187.0,1868.0
+M5,Gemini 2.5 Pro,M02,Forecast Agent,forecast.forecast_short,1,success,59.992899416996806,1071.0,7544.0,8615.0
+M5,Gemini 2.5 Pro,M02,Forecast Agent,forecast.forecast_long,1,success,16.75239683300242,1998.0,1938.0,3936.0
+M5,Gemini 2.5 Pro,M02,Explanation Agent,explanation,1,success,26.621287250000023,1373.0,3523.0,4896.0
+M5,Gemini 2.5 Pro,M03,Router Agent,orchestration,1,success,6.933385416999954,958.0,725.0,1683.0
+M5,Gemini 2.5 Pro,M03,SQL Agent,sql_generate,1,success,8.899984125000628,679.0,960.0,1639.0
+M5,Gemini 2.5 Pro,M03,Forecast Agent,forecast.forecast_short,1,success,60.40062470799967,1066.0,8234.0,9300.0
+M5,Gemini 2.5 Pro,M03,Forecast Agent,forecast.forecast_long,1,success,73.69273645799694,1991.0,9689.0,11680.0
+M5,Gemini 2.5 Pro,M03,Explanation Agent,explanation,1,success,20.737231084000086,1433.0,2814.0,4247.0
+M5,Gemini 2.5 Pro,M04,Router Agent,orchestration,1,success,10.840429874999245,963.0,699.0,1662.0
+M5,Gemini 2.5 Pro,M04,SQL Agent,sql_generate,1,success,10.4844546250024,681.0,1234.0,1915.0
+M5,Gemini 2.5 Pro,M04,Forecast Agent,forecast.forecast_short,1,success,360.68448620900017,1066.0,58394.0,59460.0
+M5,Gemini 2.5 Pro,M04,Forecast Agent,forecast.forecast_long,1,success,47.83512862500356,1991.0,7095.0,9086.0
+M5,Gemini 2.5 Pro,M04,Explanation Agent,explanation,1,success,26.60898462499972,2368.0,3713.0,6081.0
+M5,Gemini 2.5 Pro,M05,Router Agent,orchestration,1,success,6.858017750000727,958.0,706.0,1664.0
+M5,Gemini 2.5 Pro,M05,SQL Agent,sql_generate,1,success,7.9163069169990194,679.0,815.0,1494.0
+M5,Gemini 2.5 Pro,M05,Forecast Agent,forecast.forecast_short,1,success,67.81344275000083,1066.0,9315.0,10381.0
+M5,Gemini 2.5 Pro,M05,Forecast Agent,forecast.forecast_long,1,error,408.2222954159988,1991.0,65533.0,67524.0
+M5,Gemini 2.5 Pro,M05,Forecast Agent,forecast.forecast_long,2,error,425.0065354159997,1991.0,65533.0,67524.0
+M5,Gemini 2.5 Pro,M05,Explanation Agent,explanation,1,success,24.379981707999832,3296.0,3396.0,6692.0
+M5,Gemini 2.5 Pro,M06,Router Agent,orchestration,1,success,8.345148832999257,962.0,994.0,1956.0
+M5,Gemini 2.5 Pro,M06,SQL Agent,sql_generate,1,success,10.134099584000069,689.0,1300.0,1989.0
+M5,Gemini 2.5 Pro,M06,Forecast Agent,forecast.forecast_short,1,success,235.58723666700098,1066.0,37923.0,38989.0
+M5,Gemini 2.5 Pro,M06,Forecast Agent,forecast.forecast_long,1,success,124.44226762499966,1991.0,18670.0,20661.0
+M5,Gemini 2.5 Pro,M06,Explanation Agent,explanation,1,success,25.956177915999433,1487.0,3576.0,5063.0
+M5,Gemini 2.5 Pro,M07,Router Agent,orchestration,1,success,6.011779708998802,959.0,688.0,1647.0
+M5,Gemini 2.5 Pro,M07,SQL Agent,sql_generate,1,success,12.805568833002326,680.0,1469.0,2149.0
+M5,Gemini 2.5 Pro,M07,Forecast Agent,forecast.forecast_short,1,success,44.73510050000186,305.0,5948.0,6253.0
+M5,Gemini 2.5 Pro,M07,Forecast Agent,forecast.forecast_long,1,success,61.63784379200297,378.0,7448.0,7826.0
+M5,Gemini 2.5 Pro,M07,Explanation Agent,explanation,1,success,19.69516608399863,603.0,2652.0,3255.0
+M5,Gemini 2.5 Pro,M08,Router Agent,orchestration,1,success,6.680290000000241,965.0,711.0,1676.0
+M5,Gemini 2.5 Pro,M08,SQL Agent,sql_generate,1,success,13.454958165999415,689.0,1638.0,2327.0
+M5,Gemini 2.5 Pro,M08,Forecast Agent,forecast.forecast_short,1,success,59.33981608399699,306.0,7365.0,7671.0
+M5,Gemini 2.5 Pro,M08,Forecast Agent,forecast.forecast_long,1,success,53.45209791700108,376.0,7490.0,7866.0
+M5,Gemini 2.5 Pro,M08,Explanation Agent,explanation,1,success,22.394067334000283,707.0,3193.0,3900.0
+M5,Gemini 2.5 Pro,M09,Router Agent,orchestration,1,success,5.699527833003231,962.0,677.0,1639.0
+M5,Gemini 2.5 Pro,M09,SQL Agent,sql_generate,1,success,11.387791165998351,682.0,1311.0,1993.0
+M5,Gemini 2.5 Pro,M09,Forecast Agent,forecast.forecast_short,1,success,58.14425783399929,401.0,7454.0,7855.0
+M5,Gemini 2.5 Pro,M09,Forecast Agent,forecast.forecast_long,1,success,47.01450254199881,512.0,5958.0,6470.0
+M5,Gemini 2.5 Pro,M09,Explanation Agent,explanation,1,success,20.41967824999665,886.0,2782.0,3668.0
+M5,Gemini 2.5 Pro,M10,Router Agent,orchestration,1,success,6.7064106249999895,966.0,743.0,1709.0
+M5,Gemini 2.5 Pro,M10,SQL Agent,sql_generate,1,success,11.731827916999464,690.0,1438.0,2128.0
+M5,Gemini 2.5 Pro,M10,Forecast Agent,forecast.forecast_short,1,success,60.66074304100039,362.0,8445.0,8807.0
+M5,Gemini 2.5 Pro,M10,Forecast Agent,forecast.forecast_long,1,success,59.190341833000275,382.0,7873.0,8255.0
+M5,Gemini 2.5 Pro,M10,Explanation Agent,explanation,1,success,23.80724545799967,1284.0,3335.0,4619.0
+M5,Gemini 2.5 Pro,M11,Router Agent,orchestration,1,success,5.601392290998774,955.0,539.0,1494.0
+M5,Gemini 2.5 Pro,M11,SQL Agent,sql_generate,1,success,11.968768208000256,671.0,1373.0,2044.0
+M5,Gemini 2.5 Pro,M11,Forecast Agent,forecast.forecast_short,1,success,60.0875541250025,221.0,7480.0,7701.0
+M5,Gemini 2.5 Pro,M11,Forecast Agent,forecast.forecast_long,1,success,63.95131541599767,250.0,7632.0,7882.0
+M5,Gemini 2.5 Pro,M11,Explanation Agent,explanation,1,success,20.995311165999738,532.0,2480.0,3012.0
+M5,Gemini 2.5 Pro,M12,Router Agent,orchestration,1,success,6.962015875000361,961.0,756.0,1717.0
+M5,Gemini 2.5 Pro,M12,SQL Agent,sql_generate,1,success,8.686706958000286,681.0,1066.0,1747.0
+M5,Gemini 2.5 Pro,M12,Forecast Agent,forecast.forecast_short,1,success,62.787741415999335,212.0,8263.0,8475.0
+M5,Gemini 2.5 Pro,M12,Forecast Agent,forecast.forecast_long,1,success,40.91963350000151,233.0,5169.0,5402.0
+M5,Gemini 2.5 Pro,M12,Explanation Agent,explanation,1,success,19.354236166996998,557.0,2689.0,3246.0
+M5,Gemini 2.5 Pro,M13,Router Agent,orchestration,1,success,6.429200540998863,960.0,625.0,1585.0
+M5,Gemini 2.5 Pro,M13,SQL Agent,sql_generate,1,success,9.215258541000367,679.0,1137.0,1816.0
+M5,Gemini 2.5 Pro,M13,Forecast Agent,forecast.forecast_short,1,success,48.80478458300058,221.0,6630.0,6851.0
+M5,Gemini 2.5 Pro,M13,Forecast Agent,forecast.forecast_long,1,success,35.94172804099799,250.0,4780.0,5030.0
+M5,Gemini 2.5 Pro,M13,Explanation Agent,explanation,1,success,19.046499167001457,602.0,2488.0,3090.0
+M5,Gemini 2.5 Pro,M14,Router Agent,orchestration,1,success,6.536811083999055,960.0,697.0,1657.0
+M5,Gemini 2.5 Pro,M14,SQL Agent,sql_generate,1,success,11.365857124998001,681.0,1388.0,2069.0
+M5,Gemini 2.5 Pro,M14,Forecast Agent,forecast.forecast_short,1,success,30.11528158299916,212.0,4051.0,4263.0
+M5,Gemini 2.5 Pro,M14,Forecast Agent,forecast.forecast_long,1,success,32.653807041999244,237.0,3791.0,4028.0
+M5,Gemini 2.5 Pro,M14,Explanation Agent,explanation,1,success,19.351289250000264,631.0,2292.0,2923.0
+M5,Gemini 2.5 Pro,M15,Router Agent,orchestration,1,success,6.090887207999913,957.0,685.0,1642.0
+M5,Gemini 2.5 Pro,M15,SQL Agent,sql_generate,1,success,11.141008624999813,678.0,1111.0,1789.0
+M5,Gemini 2.5 Pro,M15,Forecast Agent,forecast.forecast_short,1,success,58.0458928750013,238.0,6927.0,7165.0
+M5,Gemini 2.5 Pro,M15,Forecast Agent,forecast.forecast_long,1,success,47.92505158399945,248.0,5970.0,6218.0
+M5,Gemini 2.5 Pro,M15,Explanation Agent,explanation,1,success,22.526036416998977,756.0,2951.0,3707.0
+M5,Gemini 2.5 Pro,M16,Router Agent,orchestration,1,success,7.242540999999619,963.0,760.0,1723.0
+M5,Gemini 2.5 Pro,M16,SQL Agent,sql_generate,1,success,13.414547958000185,689.0,1549.0,2238.0
+M5,Gemini 2.5 Pro,M16,Forecast Agent,forecast.forecast_short,1,success,39.61061774999689,255.0,5386.0,5641.0
+M5,Gemini 2.5 Pro,M16,Forecast Agent,forecast.forecast_long,1,success,28.569555207999656,306.0,3668.0,3974.0
+M5,Gemini 2.5 Pro,M16,Explanation Agent,explanation,1,success,25.493375707999803,911.0,3327.0,4238.0
+M5,Gemini 2.5 Pro,M17,Router Agent,orchestration,1,success,22.525846125001408,962.0,2609.0,3571.0
+M5,Gemini 2.5 Pro,M18,Router Agent,orchestration,1,success,8.168823875003,954.0,805.0,1759.0
+M5,Gemini 2.5 Pro,M18,SQL Agent,sql_generate,1,success,9.31631012499929,670.0,1177.0,1847.0
+M5,Gemini 2.5 Pro,M18,Forecast Agent,forecast.forecast_short,1,success,24.02673295799832,192.0,3019.0,3211.0
+M5,Gemini 2.5 Pro,M18,Explanation Agent,explanation,1,success,19.730669542001124,550.0,2511.0,3061.0
+M5,Gemini 2.5 Pro,M19,Router Agent,orchestration,1,success,6.660465084001771,961.0,758.0,1719.0
+M5,Gemini 2.5 Pro,M19,SQL Agent,sql_generate,1,success,8.136527124999702,688.0,920.0,1608.0
+M5,Gemini 2.5 Pro,M19,Forecast Agent,forecast.forecast_short,1,success,8.133577583997976,178.0,754.0,932.0
+M5,Gemini 2.5 Pro,M19,Explanation Agent,explanation,1,success,15.460247499999241,585.0,1972.0,2557.0
+M5,Gemini 2.5 Pro,M20,Router Agent,orchestration,1,success,20.381548417000886,961.0,745.0,1706.0
+M5,Gemini 2.5 Pro,M20,SQL Agent,sql_generate,1,success,16.06747041700146,680.0,1650.0,2330.0
+M5,Gemini 2.5 Pro,M20,Forecast Agent,forecast.forecast_short,1,success,34.983770916998765,201.0,4162.0,4363.0
+M5,Gemini 2.5 Pro,M20,Explanation Agent,explanation,1,success,17.63564595900243,663.0,2256.0,2919.0
+M5,Gemini 2.5 Pro,M21,Router Agent,orchestration,1,success,7.1683879169977445,963.0,753.0,1716.0
+M5,Gemini 2.5 Pro,M21,SQL Agent,sql_generate,1,success,9.419881542002258,689.0,1021.0,1710.0
+M5,Gemini 2.5 Pro,M21,Forecast Agent,forecast.forecast_short,1,success,41.25031725000008,206.0,4965.0,5171.0
+M5,Gemini 2.5 Pro,M21,Explanation Agent,explanation,1,success,20.37688504199832,826.0,2574.0,3400.0
+M5,Gemini 2.5 Pro,M22,Router Agent,orchestration,1,success,6.897955374999583,959.0,659.0,1618.0
+M5,Gemini 2.5 Pro,M22,SQL Agent,sql_generate,1,success,12.976836459001788,680.0,1598.0,2278.0
+M5,Gemini 2.5 Pro,M22,Forecast Agent,forecast.forecast_short,1,success,73.71775212499779,1064.0,10381.0,11445.0
+M5,Gemini 2.5 Pro,M22,Forecast Agent,forecast.forecast_long,1,success,30.308310541000537,1995.0,4267.0,6262.0
+M5,Gemini 2.5 Pro,M22,Explanation Agent,explanation,1,success,16.03237404200263,724.0,2055.0,2779.0
+M5,Gemini 2.5 Pro,M23,Router Agent,orchestration,1,success,6.849340749999101,955.0,630.0,1585.0
+M5,Gemini 2.5 Pro,M23,SQL Agent,sql_generate,1,success,12.196254709000641,671.0,1424.0,2095.0
+M5,Gemini 2.5 Pro,M23,Forecast Agent,forecast.forecast_short,1,success,110.08574274999773,1255.0,16197.0,17452.0
+M5,Gemini 2.5 Pro,M23,Forecast Agent,forecast.forecast_long,1,success,71.34176895799828,2408.0,10171.0,12579.0
+M5,Gemini 2.5 Pro,M23,Explanation Agent,explanation,1,success,25.794299375000264,1420.0,3558.0,4978.0
+M5,Gemini 2.5 Pro,M24,Router Agent,orchestration,1,success,5.86658666600124,963.0,630.0,1593.0
+M5,Gemini 2.5 Pro,M24,SQL Agent,sql_generate,1,success,11.611385750002228,681.0,1312.0,1993.0
+M5,Gemini 2.5 Pro,M24,Forecast Agent,forecast.forecast_short,1,success,79.47862800000075,1066.0,11132.0,12198.0
+M5,Gemini 2.5 Pro,M24,Forecast Agent,forecast.forecast_long,1,success,56.974103083000955,1992.0,7448.0,9440.0
+M5,Gemini 2.5 Pro,M24,Explanation Agent,explanation,1,success,21.81368441700033,1436.0,2743.0,4179.0
+M5,Gemini 2.5 Pro,M25,Router Agent,orchestration,1,success,19.291404417002923,958.0,658.0,1616.0
+M5,Gemini 2.5 Pro,M25,SQL Agent,sql_generate,1,success,11.92299845800153,679.0,1241.0,1920.0
+M5,Gemini 2.5 Pro,M25,Forecast Agent,forecast.forecast_short,1,success,68.1376402499991,1066.0,9584.0,10650.0
+M5,Gemini 2.5 Pro,M25,Forecast Agent,forecast.forecast_long,1,success,67.80989604199931,1991.0,9930.0,11921.0
+M5,Gemini 2.5 Pro,M25,Explanation Agent,explanation,1,success,23.901942749998852,2363.0,3096.0,5459.0
+M5,Gemini 2.5 Pro,M26,Router Agent,orchestration,1,success,6.36721475000013,963.0,678.0,1641.0
+M5,Gemini 2.5 Pro,M26,SQL Agent,sql_generate,1,success,12.547910416997183,689.0,1410.0,2099.0
+M5,Gemini 2.5 Pro,M26,Forecast Agent,forecast.forecast_short,1,success,86.0545069999971,1066.0,13009.0,14075.0
+M5,Gemini 2.5 Pro,M26,Forecast Agent,forecast.forecast_long,1,success,32.7760342090005,1991.0,4376.0,6367.0
+M5,Gemini 2.5 Pro,M26,Explanation Agent,explanation,1,success,25.570382375000918,3306.0,3392.0,6698.0
+M5,Gemini 2.5 Pro,M27,Router Agent,orchestration,1,success,7.174243290999584,959.0,808.0,1767.0
+M5,Gemini 2.5 Pro,M27,SQL Agent,sql_generate,1,success,10.505310584001563,680.0,1413.0,2093.0
+M5,Gemini 2.5 Pro,M27,Forecast Agent,forecast.forecast_short,1,success,61.225493333000486,305.0,7172.0,7477.0
+M5,Gemini 2.5 Pro,M27,Forecast Agent,forecast.forecast_long,1,success,38.132120625003154,372.0,4500.0,4872.0
+M5,Gemini 2.5 Pro,M27,Explanation Agent,explanation,1,success,22.24715224999818,539.0,2783.0,3322.0
+M5,Gemini 2.5 Pro,M28,Router Agent,orchestration,1,success,8.084941749999416,963.0,757.0,1720.0
+M5,Gemini 2.5 Pro,M28,SQL Agent,sql_generate,1,success,9.548089374999108,688.0,1015.0,1703.0
+M5,Gemini 2.5 Pro,M28,Forecast Agent,forecast.forecast_short,1,success,44.88748270799988,303.0,6137.0,6440.0
+M5,Gemini 2.5 Pro,M28,Forecast Agent,forecast.forecast_long,1,success,50.05206774999897,365.0,5865.0,6230.0
+M5,Gemini 2.5 Pro,M28,Explanation Agent,explanation,1,success,19.41244345800078,609.0,2360.0,2969.0
+M5,Gemini 2.5 Pro,M29,Router Agent,orchestration,1,success,7.045770749999065,958.0,699.0,1657.0
+M5,Gemini 2.5 Pro,M29,SQL Agent,sql_generate,1,success,12.40820050000184,679.0,1321.0,2000.0
+M5,Gemini 2.5 Pro,M29,Forecast Agent,forecast.forecast_short,1,success,52.98789637500158,308.0,7516.0,7824.0
+M5,Gemini 2.5 Pro,M29,Forecast Agent,forecast.forecast_long,1,success,63.013990167000884,380.0,8603.0,8983.0
+M5,Gemini 2.5 Pro,M29,Explanation Agent,explanation,1,success,20.27009787499992,697.0,2637.0,3334.0
+M5,Gemini 2.5 Pro,M30,Router Agent,orchestration,1,success,6.200798541998665,966.0,669.0,1635.0
+M5,Gemini 2.5 Pro,M30,SQL Agent,sql_generate,1,success,9.728794875001768,690.0,1128.0,1818.0
+M5,Gemini 2.5 Pro,M30,Forecast Agent,forecast.forecast_short,1,success,46.03001137499814,382.0,6584.0,6966.0
+M5,Gemini 2.5 Pro,M30,Forecast Agent,forecast.forecast_long,1,success,61.682146625000314,470.0,7825.0,8295.0
+M5,Gemini 2.5 Pro,M30,Explanation Agent,explanation,1,success,20.09231379099947,905.0,2669.0,3574.0
+M5,Gemini 2.5 Pro,M31,Router Agent,orchestration,1,success,7.431762666998111,959.0,713.0,1672.0
+M5,Gemini 2.5 Pro,M31,SQL Agent,sql_generate,1,success,8.408580874998734,680.0,1024.0,1704.0
+M5,Gemini 2.5 Pro,M31,Forecast Agent,forecast.forecast_short,1,success,28.403090542000427,358.0,3974.0,4332.0
+M5,Gemini 2.5 Pro,M31,Forecast Agent,forecast.forecast_long,1,success,25.50658016700254,378.0,3466.0,3844.0
+M5,Gemini 2.5 Pro,M31,Explanation Agent,explanation,1,success,18.360537874999864,1248.0,2367.0,3615.0
+M5,Gemini 2.5 Pro,M32,Router Agent,orchestration,1,success,7.38639887500176,958.0,863.0,1821.0
+M5,Gemini 2.5 Pro,M32,SQL Agent,sql_generate,1,success,9.15275287500117,679.0,1128.0,1807.0
+M5,Gemini 2.5 Pro,M32,Forecast Agent,forecast.forecast_short,1,success,60.003480459003185,213.0,7225.0,7438.0
+M5,Gemini 2.5 Pro,M32,Forecast Agent,forecast.forecast_long,1,success,23.774323249999725,238.0,2793.0,3031.0
+M5,Gemini 2.5 Pro,M32,Explanation Agent,explanation,1,success,15.856571000000258,535.0,1979.0,2514.0
+M5,Gemini 2.5 Pro,M33,Router Agent,orchestration,1,success,7.6882952919986565,963.0,692.0,1655.0
+M5,Gemini 2.5 Pro,M33,SQL Agent,sql_generate,1,success,11.8610402910017,681.0,1292.0,1973.0
+M5,Gemini 2.5 Pro,M33,Forecast Agent,forecast.forecast_short,1,success,14.378097875000094,213.0,1604.0,1817.0
+M5,Gemini 2.5 Pro,M33,Forecast Agent,forecast.forecast_long,1,success,56.73547558399878,240.0,6614.0,6854.0
+M5,Gemini 2.5 Pro,M33,Explanation Agent,explanation,1,success,15.386290459002339,556.0,2035.0,2591.0
+M5,Gemini 2.5 Pro,M34,Router Agent,orchestration,1,success,6.951235500000621,960.0,695.0,1655.0
+M5,Gemini 2.5 Pro,M34,SQL Agent,sql_generate,1,success,12.348096749999968,681.0,1503.0,2184.0
+M5,Gemini 2.5 Pro,M34,Forecast Agent,forecast.forecast_short,1,success,20.2204827079986,209.0,2621.0,2830.0
+M5,Gemini 2.5 Pro,M34,Forecast Agent,forecast.forecast_long,1,success,43.91398145900166,232.0,5491.0,5723.0
+M5,Gemini 2.5 Pro,M34,Explanation Agent,explanation,1,success,17.255556250001973,601.0,2119.0,2720.0
+M5,Gemini 2.5 Pro,M35,Router Agent,orchestration,1,success,7.683777959002327,956.0,677.0,1633.0
+M5,Gemini 2.5 Pro,M35,SQL Agent,sql_generate,1,success,9.91195529199831,671.0,1171.0,1842.0
+M5,Gemini 2.5 Pro,M35,Forecast Agent,forecast.forecast_short,1,success,50.85281929199846,221.0,6738.0,6959.0
+M5,Gemini 2.5 Pro,M35,Forecast Agent,forecast.forecast_long,1,success,61.645127041003434,250.0,8744.0,8994.0
+M5,Gemini 2.5 Pro,M35,Explanation Agent,explanation,1,success,17.51134875000207,628.0,2297.0,2925.0
+M5,Gemini 2.5 Pro,M36,Router Agent,orchestration,1,success,6.963200709000375,962.0,810.0,1772.0
+M5,Gemini 2.5 Pro,M36,SQL Agent,sql_generate,1,success,12.999183957999776,688.0,1467.0,2155.0
+M5,Gemini 2.5 Pro,M36,Forecast Agent,forecast.forecast_short,1,success,15.86422066600062,240.0,1820.0,2060.0
+M5,Gemini 2.5 Pro,M36,Forecast Agent,forecast.forecast_long,1,success,35.56467429100303,250.0,4662.0,4912.0
+M5,Gemini 2.5 Pro,M36,Explanation Agent,explanation,1,success,17.476459208999586,768.0,2260.0,3028.0
+M5,Gemini 2.5 Pro,M37,Router Agent,orchestration,1,success,6.381793083000957,957.0,684.0,1641.0
+M5,Gemini 2.5 Pro,M37,SQL Agent,sql_generate,1,success,11.119302749997587,679.0,1178.0,1857.0
+M5,Gemini 2.5 Pro,M37,Forecast Agent,forecast.forecast_short,1,success,46.86152700000093,256.0,6369.0,6625.0
+M5,Gemini 2.5 Pro,M37,Forecast Agent,forecast.forecast_long,1,success,61.93669075000071,320.0,7858.0,8178.0
+M5,Gemini 2.5 Pro,M37,Explanation Agent,explanation,1,success,32.476180708003085,909.0,3660.0,4569.0
+M5,Gemini 2.5 Pro,M38,Router Agent,orchestration,1,success,42.594528916000854,954.0,5250.0,6204.0
+M5,Gemini 2.5 Pro,M38,SQL Agent,sql_generate,1,success,10.72470870899997,671.0,1271.0,1942.0
+M5,Gemini 2.5 Pro,M38,Forecast Agent,forecast.forecast_short,1,success,42.04028491600184,413.0,5636.0,6049.0
+M5,Gemini 2.5 Pro,M38,Forecast Agent,forecast.forecast_long,1,success,65.74161408299915,493.0,8691.0,9184.0
+M5,Gemini 2.5 Pro,M38,Explanation Agent,explanation,1,success,22.1168856660006,887.0,2479.0,3366.0
+M5,Gemini 2.5 Pro,M39,Router Agent,orchestration,1,success,8.15789091699844,961.0,778.0,1739.0
+M5,Gemini 2.5 Pro,M39,SQL Agent,sql_generate,1,success,30.207665999998426,688.0,1153.0,1841.0
+M5,Gemini 2.5 Pro,M39,Forecast Agent,forecast.forecast_short,1,success,87.33760999999868,190.0,8761.0,8951.0
+M5,Gemini 2.5 Pro,M39,Explanation Agent,explanation,1,success,18.533462833998783,561.0,1984.0,2545.0
+M5,Gemini 2.5 Pro,M40,Router Agent,orchestration,1,success,8.276574292001897,961.0,880.0,1841.0
+M5,Gemini 2.5 Pro,M40,SQL Agent,sql_generate,1,success,11.160907165998651,680.0,1284.0,1964.0
+M5,Gemini 2.5 Pro,M40,Forecast Agent,forecast.forecast_short,1,success,68.79966829100158,182.0,5691.0,5873.0
+M5,Gemini 2.5 Pro,M40,Explanation Agent,explanation,1,success,15.564227249997202,584.0,1902.0,2486.0
+M5,Gemini 2.5 Pro,M41,Router Agent,orchestration,1,success,6.647242875002121,962.0,703.0,1665.0
+M5,Gemini 2.5 Pro,M41,SQL Agent,sql_generate,1,success,11.790840458997991,688.0,1385.0,2073.0
+M5,Gemini 2.5 Pro,M41,Forecast Agent,forecast.forecast_short,1,success,53.066538500002935,200.0,5833.0,6033.0
+M5,Gemini 2.5 Pro,M41,Explanation Agent,explanation,1,success,22.553690417000325,667.0,3015.0,3682.0
+M5,Gemini 2.5 Pro,M42,Router Agent,orchestration,1,success,7.680143207999208,963.0,890.0,1853.0
+M5,Gemini 2.5 Pro,M42,SQL Agent,sql_generate,1,success,12.955739749999339,689.0,1399.0,2088.0
+M5,Gemini 2.5 Pro,M42,Forecast Agent,forecast.forecast_short,1,success,38.82473454200226,204.0,5121.0,5325.0
+M5,Gemini 2.5 Pro,M42,Explanation Agent,explanation,1,success,24.46106412500012,833.0,3105.0,3938.0
+M5,Gemini 2.5 Pro,M43,Router Agent,orchestration,1,success,7.833901667003374,960.0,714.0,1674.0
+M5,Gemini 2.5 Pro,M43,SQL Agent,sql_generate,1,success,11.946200000002136,680.0,1471.0,2151.0
+M5,Gemini 2.5 Pro,M43,Forecast Agent,forecast.forecast_short,1,success,119.96736908399907,1070.0,17093.0,18163.0
+M5,Gemini 2.5 Pro,M43,Forecast Agent,forecast.forecast_long,1,success,50.1308474159996,2000.0,6547.0,8547.0
+M5,Gemini 2.5 Pro,M43,Explanation Agent,explanation,1,success,22.04382308300046,724.0,3106.0,3830.0
+M5,Gemini 2.5 Pro,M44,Router Agent,orchestration,1,success,6.319196791002469,960.0,719.0,1679.0
+M5,Gemini 2.5 Pro,M44,SQL Agent,sql_generate,1,success,11.711810291999427,679.0,1287.0,1966.0
+M5,Gemini 2.5 Pro,M44,Forecast Agent,forecast.forecast_short,1,success,8.365575708998222,1161.0,878.0,2039.0
+M5,Gemini 2.5 Pro,M44,Forecast Agent,forecast.forecast_long,1,success,25.28763091700239,2202.0,3649.0,5851.0
+M5,Gemini 2.5 Pro,M44,Explanation Agent,explanation,1,success,18.917873041998973,1371.0,2635.0,4006.0
+M5,Gemini 2.5 Pro,M45,Router Agent,orchestration,1,success,6.137776499999745,955.0,664.0,1619.0
+M5,Gemini 2.5 Pro,M45,SQL Agent,sql_generate,1,success,10.22001050000108,671.0,1199.0,1870.0
+M5,Gemini 2.5 Pro,M45,Forecast Agent,forecast.forecast_short,1,success,84.20390820800094,1169.0,12344.0,13513.0
+M5,Gemini 2.5 Pro,M45,Forecast Agent,forecast.forecast_long,1,success,83.1529434160002,2234.0,12017.0,14251.0
+M5,Gemini 2.5 Pro,M45,Explanation Agent,explanation,1,success,24.195433207998576,1456.0,3471.0,4927.0
+M5,Gemini 2.5 Pro,M46,Router Agent,orchestration,1,success,5.80203524999888,960.0,666.0,1626.0
+M5,Gemini 2.5 Pro,M46,SQL Agent,sql_generate,1,success,12.962833875000797,681.0,1582.0,2263.0
+M5,Gemini 2.5 Pro,M46,Forecast Agent,forecast.forecast_short,1,success,73.98147504100052,1066.0,11237.0,12303.0
+M5,Gemini 2.5 Pro,M46,Forecast Agent,forecast.forecast_long,1,success,63.37645708299897,1991.0,9602.0,11593.0
+M5,Gemini 2.5 Pro,M46,Explanation Agent,explanation,1,success,23.231262583001808,2518.0,3085.0,5603.0
+M5,Gemini 2.5 Pro,M47,Router Agent,orchestration,1,success,7.351038500000868,957.0,760.0,1717.0
+M5,Gemini 2.5 Pro,M47,SQL Agent,sql_generate,1,success,12.503132875001029,679.0,1461.0,2140.0
+M5,Gemini 2.5 Pro,M47,Forecast Agent,forecast.forecast_short,1,success,69.44277316599982,1066.0,10300.0,11366.0
+M5,Gemini 2.5 Pro,M47,Forecast Agent,forecast.forecast_long,1,success,93.8370811670029,1991.0,14072.0,16063.0
+M5,Gemini 2.5 Pro,M47,Explanation Agent,explanation,1,success,22.85766437500206,3344.0,3015.0,6359.0
+M5,Gemini 2.5 Pro,M48,Router Agent,orchestration,1,success,6.624937708002108,963.0,764.0,1727.0
+M5,Gemini 2.5 Pro,M48,SQL Agent,sql_generate,1,success,13.806499667000026,688.0,1826.0,2514.0
+M5,Gemini 2.5 Pro,M48,Forecast Agent,forecast.forecast_short,1,success,27.923300541999197,308.0,3724.0,4032.0
+M5,Gemini 2.5 Pro,M48,Forecast Agent,forecast.forecast_long,1,success,55.23444233400005,380.0,7355.0,7735.0
+M5,Gemini 2.5 Pro,M48,Explanation Agent,explanation,1,success,17.14715920800154,546.0,2274.0,2820.0
+M5,Gemini 2.5 Pro,M49,Router Agent,orchestration,1,success,5.614798875001725,959.0,639.0,1598.0
+M5,Gemini 2.5 Pro,M49,SQL Agent,sql_generate,1,success,9.160147250000591,680.0,1173.0,1853.0
+M5,Gemini 2.5 Pro,M49,Forecast Agent,forecast.forecast_short,1,success,40.367639832998975,303.0,5244.0,5547.0
+M5,Gemini 2.5 Pro,M49,Forecast Agent,forecast.forecast_long,1,success,37.529804707999574,365.0,5009.0,5374.0
+M5,Gemini 2.5 Pro,M49,Explanation Agent,explanation,1,success,20.380187541999476,600.0,2548.0,3148.0
+M5,Gemini 2.5 Pro,M50,Router Agent,orchestration,1,success,6.060061083000619,962.0,665.0,1627.0
+M5,Gemini 2.5 Pro,M50,SQL Agent,sql_generate,1,success,10.107514208000794,681.0,1019.0,1700.0
+M5,Gemini 2.5 Pro,M50,Forecast Agent,forecast.forecast_short,1,success,41.18280416700145,306.0,5521.0,5827.0
+M5,Gemini 2.5 Pro,M50,Forecast Agent,forecast.forecast_long,1,success,47.09236541700011,378.0,6244.0,6622.0
+M5,Gemini 2.5 Pro,M50,Explanation Agent,explanation,1,success,18.36069362499984,693.0,2518.0,3211.0
+M5,Gemini 2.5 Pro,M51,Router Agent,orchestration,1,success,7.635769332999189,965.0,749.0,1714.0
+M5,Gemini 2.5 Pro,M51,SQL Agent,sql_generate,1,success,10.783792292000726,690.0,1259.0,1949.0
+M5,Gemini 2.5 Pro,M51,Forecast Agent,forecast.forecast_short,1,success,46.733447625003464,362.0,5928.0,6290.0
+M5,Gemini 2.5 Pro,M51,Forecast Agent,forecast.forecast_long,1,success,50.3385427500034,454.0,7153.0,7607.0
+M5,Gemini 2.5 Pro,M51,Explanation Agent,explanation,1,success,28.434161167002458,888.0,2441.0,3329.0
+M5,Gemini 2.5 Pro,M52,Router Agent,orchestration,1,success,7.16770133299724,965.0,764.0,1729.0
+M5,Gemini 2.5 Pro,M52,SQL Agent,sql_generate,1,success,10.701765208003053,690.0,1398.0,2088.0
+M5,Gemini 2.5 Pro,M52,Forecast Agent,forecast.forecast_short,1,success,52.957589458994335,354.0,7118.0,7472.0
+M5,Gemini 2.5 Pro,M52,Forecast Agent,forecast.forecast_long,1,success,48.62562929200067,374.0,6643.0,7017.0
+M5,Gemini 2.5 Pro,M52,Explanation Agent,explanation,1,success,20.403869166999357,1253.0,2787.0,4040.0
+M5,Gemini 2.5 Pro,M53,Router Agent,orchestration,1,success,6.022140124994621,963.0,674.0,1637.0
+M5,Gemini 2.5 Pro,M53,SQL Agent,sql_generate,1,success,11.995728834001056,681.0,1597.0,2278.0
+M5,Gemini 2.5 Pro,M53,Forecast Agent,forecast.forecast_short,1,success,33.98052537500189,213.0,4654.0,4867.0
+M5,Gemini 2.5 Pro,M53,Forecast Agent,forecast.forecast_long,1,success,14.529731041999185,238.0,1769.0,2007.0
+M5,Gemini 2.5 Pro,M53,Explanation Agent,explanation,1,success,19.403887084001326,538.0,2529.0,3067.0
+M5,Gemini 2.5 Pro,M54,Router Agent,orchestration,1,success,6.540453916997649,957.0,663.0,1620.0
+M5,Gemini 2.5 Pro,M54,SQL Agent,sql_generate,1,success,11.02963825000188,679.0,1295.0,1974.0
+M5,Gemini 2.5 Pro,M54,Forecast Agent,forecast.forecast_short,1,success,51.709957125000074,215.0,7082.0,7297.0
+M5,Gemini 2.5 Pro,M54,Forecast Agent,forecast.forecast_long,1,success,59.08459954099817,243.0,7972.0,8215.0
+M5,Gemini 2.5 Pro,M54,Explanation Agent,explanation,1,success,16.383760167002038,558.0,2049.0,2607.0
+M5,Gemini 2.5 Pro,M55,Router Agent,orchestration,1,success,6.316475832994911,956.0,722.0,1678.0
+M5,Gemini 2.5 Pro,M55,SQL Agent,sql_generate,1,success,10.538892208998732,671.0,1293.0,1964.0
+M5,Gemini 2.5 Pro,M55,Forecast Agent,forecast.forecast_short,1,success,46.24616049999895,221.0,6253.0,6474.0
+M5,Gemini 2.5 Pro,M55,Forecast Agent,forecast.forecast_long,1,success,32.36009066599945,249.0,4098.0,4347.0
+M5,Gemini 2.5 Pro,M55,Explanation Agent,explanation,1,success,22.629173084002105,597.0,2691.0,3288.0
+M5,Gemini 2.5 Pro,M56,Router Agent,orchestration,1,success,15.114462124998681,958.0,664.0,1622.0
+M5,Gemini 2.5 Pro,M56,SQL Agent,sql_generate,1,success,13.102787584000907,679.0,1536.0,2215.0
+M5,Gemini 2.5 Pro,M56,Forecast Agent,forecast.forecast_short,1,success,55.15896687500208,211.0,7000.0,7211.0
+M5,Gemini 2.5 Pro,M56,Forecast Agent,forecast.forecast_long,1,success,20.157215874998656,234.0,2633.0,2867.0
+M5,Gemini 2.5 Pro,M56,Explanation Agent,explanation,1,success,19.370729999995092,628.0,2378.0,3006.0
+M5,Gemini 2.5 Pro,M57,Router Agent,orchestration,1,success,7.819409540999914,959.0,783.0,1742.0
+M5,Gemini 2.5 Pro,M57,SQL Agent,sql_generate,1,success,13.638141208997695,680.0,1639.0,2319.0
+M5,Gemini 2.5 Pro,M57,Forecast Agent,forecast.forecast_short,1,success,45.96121504199982,237.0,6330.0,6567.0
+M5,Gemini 2.5 Pro,M57,Forecast Agent,forecast.forecast_long,1,success,53.564275832999556,247.0,7215.0,7462.0
+M5,Gemini 2.5 Pro,M57,Explanation Agent,explanation,1,success,20.274310374996276,763.0,2841.0,3604.0
+M5,Gemini 2.5 Pro,M58,Router Agent,orchestration,1,success,7.14991166699474,965.0,873.0,1838.0
+M5,Gemini 2.5 Pro,M58,SQL Agent,sql_generate,1,success,14.335354374998133,689.0,1621.0,2310.0
+M5,Gemini 2.5 Pro,M58,Forecast Agent,forecast.forecast_short,1,success,48.558617292001145,249.0,6620.0,6869.0
+M5,Gemini 2.5 Pro,M58,Forecast Agent,forecast.forecast_long,1,success,32.26354500000161,300.0,4126.0,4426.0
+M5,Gemini 2.5 Pro,M58,Explanation Agent,explanation,1,success,17.465108582997345,890.0,2349.0,3239.0
+M5,Gemini 2.5 Pro,M59,Router Agent,orchestration,1,success,6.8456719999958295,961.0,723.0,1684.0
+M5,Gemini 2.5 Pro,M59,SQL Agent,sql_generate,1,success,7.677997708997282,688.0,892.0,1580.0
+M5,Gemini 2.5 Pro,M59,Forecast Agent,forecast.forecast_short,1,success,16.741216750000603,192.0,2047.0,2239.0
+M5,Gemini 2.5 Pro,M59,Explanation Agent,explanation,1,success,20.995383916997525,531.0,2682.0,3213.0
+M5,Gemini 2.5 Pro,M60,Router Agent,orchestration,1,success,7.702906791004352,961.0,774.0,1735.0
+M5,Gemini 2.5 Pro,M60,SQL Agent,sql_generate,1,success,9.521123875005287,680.0,864.0,1544.0
+M5,Gemini 2.5 Pro,M60,Forecast Agent,forecast.forecast_short,1,success,53.12756766600069,191.0,6347.0,6538.0
+M5,Gemini 2.5 Pro,M60,Explanation Agent,explanation,1,success,16.48796037500142,556.0,2131.0,2687.0
+M5,Gemini 2.5 Pro,M61,Router Agent,orchestration,1,success,7.253759457998967,962.0,769.0,1731.0
+M5,Gemini 2.5 Pro,M61,SQL Agent,sql_generate,1,success,9.113378624999314,688.0,1068.0,1756.0
+M5,Gemini 2.5 Pro,M61,Forecast Agent,forecast.forecast_short,1,success,27.731265792004706,184.0,3458.0,3642.0
+M5,Gemini 2.5 Pro,M61,Explanation Agent,explanation,1,success,23.552793041999394,607.0,2936.0,3543.0
+M5,Gemini 2.5 Pro,M62,Router Agent,orchestration,1,success,6.735143875004724,956.0,722.0,1678.0
+M5,Gemini 2.5 Pro,M62,SQL Agent,sql_generate,1,success,8.08839929199894,678.0,848.0,1526.0
+M5,Gemini 2.5 Pro,M62,Forecast Agent,forecast.forecast_short,1,success,55.873818874999415,206.0,7459.0,7665.0
+M5,Gemini 2.5 Pro,M62,Explanation Agent,explanation,1,success,21.528838208992966,652.0,2490.0,3142.0
+M5,Gemini 2.5 Pro,M63,Router Agent,orchestration,1,success,9.790239166999527,964.0,871.0,1835.0
+M5,Gemini 2.5 Pro,M63,SQL Agent,sql_generate,1,success,8.702322791003098,689.0,912.0,1601.0
+M5,Gemini 2.5 Pro,M63,Forecast Agent,forecast.forecast_short,1,success,48.62766412500059,207.0,6141.0,6348.0
+M5,Gemini 2.5 Pro,M63,Explanation Agent,explanation,1,success,19.559324207999452,834.0,2666.0,3500.0
+M5,Gemma4 (gemma4:e4b),M01,Router Agent,orchestration,1,success,29.54530454199994,968.0,433.0,1401.0
+M5,Gemma4 (gemma4:e4b),M01,SQL Agent,sql_generate,1,success,42.035325875000126,685.0,913.0,1598.0
+M5,Gemma4 (gemma4:e4b),M01,Forecast Agent,forecast.forecast_short,1,error,180.34644325000045,1258.0,2838.0,4096.0
+M5,Gemma4 (gemma4:e4b),M01,Forecast Agent,forecast.forecast_short,2,error,182.5547904999985,1258.0,2838.0,4096.0
+M5,Gemma4 (gemma4:e4b),M01,Forecast Agent,forecast.forecast_long,1,error,131.38085212499936,2369.0,1727.0,4096.0
+M5,Gemma4 (gemma4:e4b),M01,Forecast Agent,forecast.forecast_long,2,error,114.12616562499898,2369.0,1727.0,4096.0
+M5,Gemma4 (gemma4:e4b),M01,Explanation Agent,explanation,1,success,86.68168408299971,761.0,1216.0,1977.0
+M5,Gemma4 (gemma4:e4b),M02,Router Agent,orchestration,1,success,35.01261287499801,975.0,537.0,1512.0
+M5,Gemma4 (gemma4:e4b),M02,SQL Agent,sql_generate,1,success,49.35240904201055,650.0,966.0,1616.0
+M5,Gemma4 (gemma4:e4b),M02,Forecast Agent,forecast.forecast_short,1,success,213.24445804199786,1086.0,2663.0,3749.0
+M5,Gemma4 (gemma4:e4b),M02,Forecast Agent,forecast.forecast_long,1,error,170.44902241700038,2013.0,2083.0,4096.0
+M5,Gemma4 (gemma4:e4b),M02,Forecast Agent,forecast.forecast_long,2,error,159.51932891699835,2013.0,2083.0,4096.0
+M5,Gemma4 (gemma4:e4b),M02,Explanation Agent,explanation,1,success,104.51647437499196,1476.0,1223.0,2699.0
+M5,Gemma4 (gemma4:e4b),M03,Router Agent,orchestration,1,success,41.19737958400219,973.0,521.0,1494.0
+M5,Gemma4 (gemma4:e4b),M03,SQL Agent,sql_generate,1,success,75.2846522910113,648.0,937.0,1585.0
+M5,Gemma4 (gemma4:e4b),M03,Forecast Agent,forecast.forecast_short,1,success,169.58674395800335,1081.0,2157.0,3238.0
+M5,Gemma4 (gemma4:e4b),M03,Forecast Agent,forecast.forecast_long,1,error,176.3902717919991,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M03,Forecast Agent,forecast.forecast_long,2,error,156.51852920900274,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M03,Explanation Agent,explanation,1,success,83.89809200000309,1450.0,1032.0,2482.0
+M5,Gemma4 (gemma4:e4b),M04,Router Agent,orchestration,1,success,46.79941870798939,978.0,612.0,1590.0
+M5,Gemma4 (gemma4:e4b),M04,SQL Agent,sql_generate,1,success,71.78164954199747,650.0,950.0,1600.0
+M5,Gemma4 (gemma4:e4b),M04,Forecast Agent,forecast.forecast_short,1,success,110.56297387499944,1081.0,1393.0,2474.0
+M5,Gemma4 (gemma4:e4b),M04,Forecast Agent,forecast.forecast_long,1,error,165.2463619159971,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M04,Forecast Agent,forecast.forecast_long,2,error,150.54875800000445,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M04,Explanation Agent,explanation,1,success,105.38938983299886,2565.0,1206.0,3771.0
+M5,Gemma4 (gemma4:e4b),M05,Router Agent,orchestration,1,success,43.4439155,973.0,569.0,1542.0
+M5,Gemma4 (gemma4:e4b),M05,SQL Agent,sql_generate,1,success,74.22143079100351,648.0,946.0,1594.0
+M5,Gemma4 (gemma4:e4b),M05,Forecast Agent,forecast.forecast_short,1,success,138.7037780410028,1081.0,1790.0,2871.0
+M5,Gemma4 (gemma4:e4b),M05,Forecast Agent,forecast.forecast_long,1,success,156.8386351250083,2006.0,1868.0,3874.0
+M5,Gemma4 (gemma4:e4b),M05,Explanation Agent,explanation,1,error,70.79470879099972,3583.0,513.0,4096.0
+M5,Gemma4 (gemma4:e4b),M05,Explanation Agent,explanation,2,error,42.20144750000327,3583.0,513.0,4096.0
+M5,Gemma4 (gemma4:e4b),M06,Router Agent,orchestration,1,success,49.638552999997046,977.0,604.0,1581.0
+M5,Gemma4 (gemma4:e4b),M06,SQL Agent,sql_generate,1,success,78.80083554200246,657.0,947.0,1604.0
+M5,Gemma4 (gemma4:e4b),M06,Forecast Agent,forecast.forecast_short,1,success,70.41202362498734,317.0,881.0,1198.0
+M5,Gemma4 (gemma4:e4b),M06,Forecast Agent,forecast.forecast_long,1,success,76.36078258299676,389.0,944.0,1333.0
+M5,Gemma4 (gemma4:e4b),M06,Explanation Agent,explanation,1,success,75.76618779198907,562.0,911.0,1473.0
+M5,Gemma4 (gemma4:e4b),M07,Router Agent,orchestration,1,success,47.478176332995645,974.0,561.0,1535.0
+M5,Gemma4 (gemma4:e4b),M07,SQL Agent,sql_generate,1,success,76.57547870799317,649.0,904.0,1553.0
+M5,Gemma4 (gemma4:e4b),M07,Forecast Agent,forecast.forecast_short,1,success,68.46528133300308,320.0,867.0,1187.0
+M5,Gemma4 (gemma4:e4b),M07,Forecast Agent,forecast.forecast_long,1,success,83.22289937500318,393.0,1033.0,1426.0
+M5,Gemma4 (gemma4:e4b),M07,Explanation Agent,explanation,1,success,62.82923016700079,613.0,742.0,1355.0
+M5,Gemma4 (gemma4:e4b),M08,Router Agent,orchestration,1,success,54.333469791003154,980.0,666.0,1646.0
+M5,Gemma4 (gemma4:e4b),M08,SQL Agent,sql_generate,1,success,72.9667448750115,658.0,942.0,1600.0
+M5,Gemma4 (gemma4:e4b),M08,Forecast Agent,forecast.forecast_short,1,success,92.16605991699907,321.0,1266.0,1587.0
+M5,Gemma4 (gemma4:e4b),M08,Forecast Agent,forecast.forecast_long,1,success,99.56490316700365,391.0,1349.0,1740.0
+M5,Gemma4 (gemma4:e4b),M08,Explanation Agent,explanation,1,success,59.560140708999825,717.0,748.0,1465.0
+M5,Gemma4 (gemma4:e4b),M09,Router Agent,orchestration,1,success,47.12992741599737,977.0,593.0,1570.0
+M5,Gemma4 (gemma4:e4b),M09,SQL Agent,sql_generate,1,success,72.77016320900293,651.0,924.0,1575.0
+M5,Gemma4 (gemma4:e4b),M09,Forecast Agent,forecast.forecast_short,1,success,266.6749150830001,416.0,3680.0,4096.0
+M5,Gemma4 (gemma4:e4b),M09,Forecast Agent,forecast.forecast_long,1,success,224.71752858400578,527.0,2988.0,3515.0
+M5,Gemma4 (gemma4:e4b),M09,Explanation Agent,explanation,1,success,84.94520887499675,906.0,1046.0,1952.0
+M5,Gemma4 (gemma4:e4b),M10,Router Agent,orchestration,1,success,49.14392362500075,981.0,636.0,1617.0
+M5,Gemma4 (gemma4:e4b),M10,SQL Agent,sql_generate,1,success,75.46769658398989,659.0,933.0,1592.0
+M5,Gemma4 (gemma4:e4b),M10,Forecast Agent,forecast.forecast_short,1,success,158.6017567920062,377.0,2141.0,2518.0
+M5,Gemma4 (gemma4:e4b),M10,Forecast Agent,forecast.forecast_long,1,success,172.48114895899198,397.0,2282.0,2679.0
+M5,Gemma4 (gemma4:e4b),M10,Explanation Agent,explanation,1,success,94.8968626249989,1257.0,1177.0,2434.0
+M5,Gemma4 (gemma4:e4b),M11,Router Agent,orchestration,1,success,36.69338195899036,970.0,471.0,1441.0
+M5,Gemma4 (gemma4:e4b),M11,SQL Agent,sql_generate,1,success,73.65342054198845,640.0,900.0,1540.0
+M5,Gemma4 (gemma4:e4b),M11,Forecast Agent,forecast.forecast_short,1,success,77.77412008299143,236.0,1023.0,1259.0
+M5,Gemma4 (gemma4:e4b),M11,Forecast Agent,forecast.forecast_long,1,success,112.42860849999124,265.0,1519.0,1784.0
+M5,Gemma4 (gemma4:e4b),M11,Explanation Agent,explanation,1,success,58.72933945899422,548.0,773.0,1321.0
+M5,Gemma4 (gemma4:e4b),M12,Router Agent,orchestration,1,success,44.59874854100053,976.0,583.0,1559.0
+M5,Gemma4 (gemma4:e4b),M12,SQL Agent,sql_generate,1,success,68.49282645899802,650.0,917.0,1567.0
+M5,Gemma4 (gemma4:e4b),M12,Forecast Agent,forecast.forecast_short,1,success,76.19999225001084,227.0,1092.0,1319.0
+M5,Gemma4 (gemma4:e4b),M12,Forecast Agent,forecast.forecast_long,1,success,97.23049095799797,248.0,1381.0,1629.0
+M5,Gemma4 (gemma4:e4b),M12,Explanation Agent,explanation,1,success,54.88689241600514,571.0,742.0,1313.0
+M5,Gemma4 (gemma4:e4b),M13,Router Agent,orchestration,1,success,47.18368883400399,975.0,628.0,1603.0
+M5,Gemma4 (gemma4:e4b),M13,SQL Agent,sql_generate,1,success,70.20846545799577,648.0,956.0,1604.0
+M5,Gemma4 (gemma4:e4b),M13,Forecast Agent,forecast.forecast_short,1,success,83.10559387499234,236.0,1192.0,1428.0
+M5,Gemma4 (gemma4:e4b),M13,Forecast Agent,forecast.forecast_long,1,success,98.84186387500085,265.0,1304.0,1569.0
+M5,Gemma4 (gemma4:e4b),M13,Explanation Agent,explanation,1,success,73.63954150000063,617.0,915.0,1532.0
+M5,Gemma4 (gemma4:e4b),M14,Router Agent,orchestration,1,success,50.60733754199464,975.0,626.0,1601.0
+M5,Gemma4 (gemma4:e4b),M14,SQL Agent,sql_generate,1,success,75.41686908301199,650.0,926.0,1576.0
+M5,Gemma4 (gemma4:e4b),M14,Forecast Agent,forecast.forecast_short,1,success,117.58440795799834,227.0,1547.0,1774.0
+M5,Gemma4 (gemma4:e4b),M14,Forecast Agent,forecast.forecast_long,1,success,99.72681162500521,252.0,1294.0,1546.0
+M5,Gemma4 (gemma4:e4b),M14,Explanation Agent,explanation,1,success,69.43410116698942,646.0,844.0,1490.0
+M5,Gemma4 (gemma4:e4b),M15,Router Agent,orchestration,1,success,47.53119387499464,972.0,560.0,1532.0
+M5,Gemma4 (gemma4:e4b),M15,SQL Agent,sql_generate,1,success,77.79981075000251,647.0,960.0,1607.0
+M5,Gemma4 (gemma4:e4b),M15,Forecast Agent,forecast.forecast_short,1,success,115.24203629200929,253.0,1510.0,1763.0
+M5,Gemma4 (gemma4:e4b),M15,Forecast Agent,forecast.forecast_long,1,success,104.48887341699447,263.0,1420.0,1683.0
+M5,Gemma4 (gemma4:e4b),M15,Explanation Agent,explanation,1,success,103.33924420799303,790.0,1326.0,2116.0
+M5,Gemma4 (gemma4:e4b),M16,Router Agent,orchestration,1,success,49.19046645799244,978.0,622.0,1600.0
+M5,Gemma4 (gemma4:e4b),M16,SQL Agent,sql_generate,1,success,76.24671279199538,658.0,979.0,1637.0
+M5,Gemma4 (gemma4:e4b),M16,Forecast Agent,forecast.forecast_short,1,success,78.03000379200967,270.0,1073.0,1343.0
+M5,Gemma4 (gemma4:e4b),M16,Forecast Agent,forecast.forecast_long,1,success,102.88474620899069,321.0,1433.0,1754.0
+M5,Gemma4 (gemma4:e4b),M16,Explanation Agent,explanation,1,success,50.867365291996975,920.0,678.0,1598.0
+M5,Gemma4 (gemma4:e4b),M17,Router Agent,orchestration,1,success,44.25967779199709,977.0,637.0,1614.0
+M5,Gemma4 (gemma4:e4b),M17,SQL Agent,sql_generate,1,success,58.20644662500126,657.0,854.0,1511.0
+M5,Gemma4 (gemma4:e4b),M17,Forecast Agent,forecast.forecast_short,1,success,74.07248966601037,209.0,1176.0,1385.0
+M5,Gemma4 (gemma4:e4b),M17,Explanation Agent,explanation,1,success,41.9953266250086,547.0,634.0,1181.0
+M5,Gemma4 (gemma4:e4b),M18,Router Agent,orchestration,1,success,34.568704207995324,969.0,512.0,1481.0
+M5,Gemma4 (gemma4:e4b),M18,SQL Agent,sql_generate,1,success,55.769079332996625,639.0,867.0,1506.0
+M5,Gemma4 (gemma4:e4b),M18,Forecast Agent,forecast.forecast_short,1,success,62.00596808399132,207.0,1024.0,1231.0
+M5,Gemma4 (gemma4:e4b),M18,Explanation Agent,explanation,1,success,60.19036062499799,566.0,946.0,1512.0
+M5,Gemma4 (gemma4:e4b),M19,Router Agent,orchestration,1,success,44.91327212500619,976.0,644.0,1620.0
+M5,Gemma4 (gemma4:e4b),M19,SQL Agent,sql_generate,1,success,65.01658520899946,657.0,945.0,1602.0
+M5,Gemma4 (gemma4:e4b),M19,Forecast Agent,forecast.forecast_short,1,success,17.187017000003834,193.0,273.0,466.0
+M5,Gemma4 (gemma4:e4b),M19,Explanation Agent,explanation,1,success,46.149352166990866,600.0,733.0,1333.0
+M5,Gemma4 (gemma4:e4b),M20,Router Agent,orchestration,1,success,35.81074891699245,976.0,541.0,1517.0
+M5,Gemma4 (gemma4:e4b),M20,SQL Agent,sql_generate,1,success,56.7017796250002,649.0,901.0,1550.0
+M5,Gemma4 (gemma4:e4b),M20,Forecast Agent,forecast.forecast_short,1,success,77.64584908400138,216.0,1313.0,1529.0
+M5,Gemma4 (gemma4:e4b),M20,Explanation Agent,explanation,1,success,49.17202329200518,677.0,794.0,1471.0
+M5,Gemma4 (gemma4:e4b),M21,Router Agent,orchestration,1,success,36.89610295899911,978.0,590.0,1568.0
+M5,Gemma4 (gemma4:e4b),M21,SQL Agent,sql_generate,1,success,56.562104958007694,658.0,921.0,1579.0
+M5,Gemma4 (gemma4:e4b),M21,Forecast Agent,forecast.forecast_short,1,success,72.93433375000313,221.0,1249.0,1470.0
+M5,Gemma4 (gemma4:e4b),M21,Explanation Agent,explanation,1,success,50.671047834010096,840.0,788.0,1628.0
+M5,Gemma4 (gemma4:e4b),M22,Router Agent,orchestration,1,success,41.97052629099926,974.0,639.0,1613.0
+M5,Gemma4 (gemma4:e4b),M22,SQL Agent,sql_generate,1,success,59.84208612500515,649.0,906.0,1555.0
+M5,Gemma4 (gemma4:e4b),M22,Forecast Agent,forecast.forecast_short,1,error,187.57563270800165,1079.0,3017.0,4096.0
+M5,Gemma4 (gemma4:e4b),M22,Forecast Agent,forecast.forecast_short,2,error,177.40061541699106,1079.0,3017.0,4096.0
+M5,Gemma4 (gemma4:e4b),M22,Forecast Agent,forecast.forecast_long,1,error,143.59950195800047,2010.0,2086.0,4096.0
+M5,Gemma4 (gemma4:e4b),M22,Forecast Agent,forecast.forecast_long,2,error,146.4198036250018,2010.0,2086.0,4096.0
+M5,Gemma4 (gemma4:e4b),M22,Explanation Agent,explanation,1,success,86.7982614999928,764.0,1244.0,2008.0
+M5,Gemma4 (gemma4:e4b),M23,Router Agent,orchestration,1,success,35.46279287499783,970.0,494.0,1464.0
+M5,Gemma4 (gemma4:e4b),M23,SQL Agent,sql_generate,1,success,56.05087045900291,640.0,826.0,1466.0
+M5,Gemma4 (gemma4:e4b),M23,Forecast Agent,forecast.forecast_short,1,success,62.03158020900446,1270.0,854.0,2124.0
+M5,Gemma4 (gemma4:e4b),M23,Forecast Agent,forecast.forecast_long,1,error,127.45464033300232,2423.0,1673.0,4096.0
+M5,Gemma4 (gemma4:e4b),M23,Forecast Agent,forecast.forecast_long,2,error,109.87720962498861,2423.0,1673.0,4096.0
+M5,Gemma4 (gemma4:e4b),M23,Explanation Agent,explanation,1,success,84.50531016700552,1408.0,1209.0,2617.0
+M5,Gemma4 (gemma4:e4b),M24,Router Agent,orchestration,1,success,39.89605145799578,978.0,590.0,1568.0
+M5,Gemma4 (gemma4:e4b),M24,SQL Agent,sql_generate,1,success,61.20955058399704,650.0,936.0,1586.0
+M5,Gemma4 (gemma4:e4b),M24,Forecast Agent,forecast.forecast_short,1,success,147.59311341699504,1081.0,2233.0,3314.0
+M5,Gemma4 (gemma4:e4b),M24,Forecast Agent,forecast.forecast_long,1,error,146.83554587500112,2007.0,2089.0,4096.0
+M5,Gemma4 (gemma4:e4b),M24,Forecast Agent,forecast.forecast_long,2,error,136.22998720900796,2007.0,2089.0,4096.0
+M5,Gemma4 (gemma4:e4b),M24,Explanation Agent,explanation,1,success,76.8655641249934,1453.0,1080.0,2533.0
+M5,Gemma4 (gemma4:e4b),M25,Router Agent,orchestration,1,success,43.01870354199491,973.0,649.0,1622.0
+M5,Gemma4 (gemma4:e4b),M25,SQL Agent,sql_generate,1,success,59.89970641701075,648.0,906.0,1554.0
+M5,Gemma4 (gemma4:e4b),M25,Forecast Agent,forecast.forecast_short,1,success,88.76560887499363,1081.0,1299.0,2380.0
+M5,Gemma4 (gemma4:e4b),M25,Forecast Agent,forecast.forecast_long,1,error,144.58425066700147,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M25,Forecast Agent,forecast.forecast_long,2,error,136.20976512500783,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M25,Explanation Agent,explanation,1,success,91.47789595799986,2562.0,1159.0,3721.0
+M5,Gemma4 (gemma4:e4b),M26,Router Agent,orchestration,1,success,39.40290445799474,978.0,588.0,1566.0
+M5,Gemma4 (gemma4:e4b),M26,SQL Agent,sql_generate,1,success,63.75798695899721,658.0,949.0,1607.0
+M5,Gemma4 (gemma4:e4b),M26,Forecast Agent,forecast.forecast_short,1,success,196.58942279199255,1081.0,2950.0,4031.0
+M5,Gemma4 (gemma4:e4b),M26,Forecast Agent,forecast.forecast_long,1,error,148.07767070800764,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M26,Forecast Agent,forecast.forecast_long,2,error,137.0051465830038,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M26,Explanation Agent,explanation,1,error,53.18533320899587,3593.0,503.0,4096.0
+M5,Gemma4 (gemma4:e4b),M26,Explanation Agent,explanation,2,error,34.43895445900853,3593.0,503.0,4096.0
+M5,Gemma4 (gemma4:e4b),M27,Router Agent,orchestration,1,success,46.03913150000153,974.0,661.0,1635.0
+M5,Gemma4 (gemma4:e4b),M27,SQL Agent,sql_generate,1,success,68.84656999999424,649.0,992.0,1641.0
+M5,Gemma4 (gemma4:e4b),M27,Forecast Agent,forecast.forecast_short,1,success,79.11719299999822,320.0,1201.0,1521.0
+M5,Gemma4 (gemma4:e4b),M27,Forecast Agent,forecast.forecast_long,1,success,101.12902404200577,387.0,1537.0,1924.0
+M5,Gemma4 (gemma4:e4b),M27,Explanation Agent,explanation,1,success,67.49002754199319,554.0,978.0,1532.0
+M5,Gemma4 (gemma4:e4b),M28,Router Agent,orchestration,1,success,41.549541041997145,978.0,601.0,1579.0
+M5,Gemma4 (gemma4:e4b),M28,SQL Agent,sql_generate,1,success,67.67334899998968,657.0,988.0,1645.0
+M5,Gemma4 (gemma4:e4b),M28,Forecast Agent,forecast.forecast_short,1,success,75.704922541001,318.0,1140.0,1458.0
+M5,Gemma4 (gemma4:e4b),M28,Forecast Agent,forecast.forecast_long,1,success,66.51115045900224,380.0,1010.0,1390.0
+M5,Gemma4 (gemma4:e4b),M28,Explanation Agent,explanation,1,success,55.95706912499736,625.0,820.0,1445.0
+M5,Gemma4 (gemma4:e4b),M29,Router Agent,orchestration,1,success,38.744640457996866,973.0,553.0,1526.0
+M5,Gemma4 (gemma4:e4b),M29,SQL Agent,sql_generate,1,success,65.07230379199609,648.0,924.0,1572.0
+M5,Gemma4 (gemma4:e4b),M29,Forecast Agent,forecast.forecast_short,1,success,105.65065270799096,323.0,1596.0,1919.0
+M5,Gemma4 (gemma4:e4b),M29,Forecast Agent,forecast.forecast_long,1,success,123.12507199999527,395.0,1865.0,2260.0
+M5,Gemma4 (gemma4:e4b),M29,Explanation Agent,explanation,1,success,73.67496412499167,709.0,1075.0,1784.0
+M5,Gemma4 (gemma4:e4b),M30,Router Agent,orchestration,1,success,40.89060620799137,981.0,607.0,1588.0
+M5,Gemma4 (gemma4:e4b),M30,SQL Agent,sql_generate,1,success,64.66109675000189,659.0,961.0,1620.0
+M5,Gemma4 (gemma4:e4b),M30,Forecast Agent,forecast.forecast_short,1,success,120.3462939170131,397.0,1810.0,2207.0
+M5,Gemma4 (gemma4:e4b),M30,Forecast Agent,forecast.forecast_long,1,success,199.93240045799757,485.0,2987.0,3472.0
+M5,Gemma4 (gemma4:e4b),M30,Explanation Agent,explanation,1,success,91.86909787500917,916.0,1333.0,2249.0
+M5,Gemma4 (gemma4:e4b),M31,Router Agent,orchestration,1,success,37.020111125006224,974.0,536.0,1510.0
+M5,Gemma4 (gemma4:e4b),M31,SQL Agent,sql_generate,1,success,61.80210274999263,649.0,925.0,1574.0
+M5,Gemma4 (gemma4:e4b),M31,Forecast Agent,forecast.forecast_short,1,success,103.92505224999331,373.0,1614.0,1987.0
+M5,Gemma4 (gemma4:e4b),M31,Forecast Agent,forecast.forecast_long,1,success,175.08428637500037,393.0,2726.0,3119.0
+M5,Gemma4 (gemma4:e4b),M31,Explanation Agent,explanation,1,success,73.8987968750007,1293.0,1047.0,2340.0
+M5,Gemma4 (gemma4:e4b),M32,Router Agent,orchestration,1,success,39.41472079200321,973.0,574.0,1547.0
+M5,Gemma4 (gemma4:e4b),M32,SQL Agent,sql_generate,1,success,65.76940766599728,648.0,956.0,1604.0
+M5,Gemma4 (gemma4:e4b),M32,Forecast Agent,forecast.forecast_short,1,success,54.564670624997234,228.0,844.0,1072.0
+M5,Gemma4 (gemma4:e4b),M32,Forecast Agent,forecast.forecast_long,1,success,56.32873554198886,253.0,888.0,1141.0
+M5,Gemma4 (gemma4:e4b),M32,Explanation Agent,explanation,1,success,61.68931425000483,552.0,941.0,1493.0
+M5,Gemma4 (gemma4:e4b),M33,Router Agent,orchestration,1,success,45.53860454200185,978.0,674.0,1652.0
+M5,Gemma4 (gemma4:e4b),M33,SQL Agent,sql_generate,1,success,61.38926929200534,650.0,917.0,1567.0
+M5,Gemma4 (gemma4:e4b),M33,Forecast Agent,forecast.forecast_short,1,success,28.018990749988006,228.0,429.0,657.0
+M5,Gemma4 (gemma4:e4b),M33,Forecast Agent,forecast.forecast_long,1,success,39.90461170799972,255.0,609.0,864.0
+M5,Gemma4 (gemma4:e4b),M33,Explanation Agent,explanation,1,success,51.953483666991815,569.0,769.0,1338.0
+M5,Gemma4 (gemma4:e4b),M34,Router Agent,orchestration,1,success,39.77368962499895,975.0,573.0,1548.0
+M5,Gemma4 (gemma4:e4b),M34,SQL Agent,sql_generate,1,success,64.77550083299866,650.0,960.0,1610.0
+M5,Gemma4 (gemma4:e4b),M34,Forecast Agent,forecast.forecast_short,1,success,58.106996292000986,224.0,915.0,1139.0
+M5,Gemma4 (gemma4:e4b),M34,Forecast Agent,forecast.forecast_long,1,success,84.80016762499872,247.0,1350.0,1597.0
+M5,Gemma4 (gemma4:e4b),M34,Explanation Agent,explanation,1,success,57.10749450000003,615.0,875.0,1490.0
+M5,Gemma4 (gemma4:e4b),M35,Router Agent,orchestration,1,success,35.07415858301101,971.0,516.0,1487.0
+M5,Gemma4 (gemma4:e4b),M35,SQL Agent,sql_generate,1,success,58.69943691699882,640.0,878.0,1518.0
+M5,Gemma4 (gemma4:e4b),M35,Forecast Agent,forecast.forecast_short,1,success,128.28043241599516,236.0,1974.0,2210.0
+M5,Gemma4 (gemma4:e4b),M35,Forecast Agent,forecast.forecast_long,1,success,80.36771058299928,265.0,1222.0,1487.0
+M5,Gemma4 (gemma4:e4b),M35,Explanation Agent,explanation,1,success,69.49825758399675,643.0,1015.0,1658.0
+M5,Gemma4 (gemma4:e4b),M36,Router Agent,orchestration,1,success,41.76455070800148,977.0,612.0,1589.0
+M5,Gemma4 (gemma4:e4b),M36,SQL Agent,sql_generate,1,success,64.15728633299295,657.0,945.0,1602.0
+M5,Gemma4 (gemma4:e4b),M36,Forecast Agent,forecast.forecast_short,1,success,64.68497133400524,255.0,998.0,1253.0
+M5,Gemma4 (gemma4:e4b),M36,Forecast Agent,forecast.forecast_long,1,success,71.36076054201112,265.0,1093.0,1358.0
+M5,Gemma4 (gemma4:e4b),M36,Explanation Agent,explanation,1,success,58.7439277079975,796.0,845.0,1641.0
+M5,Gemma4 (gemma4:e4b),M37,Router Agent,orchestration,1,success,39.279767416999675,972.0,553.0,1525.0
+M5,Gemma4 (gemma4:e4b),M37,SQL Agent,sql_generate,1,success,63.99266804200306,648.0,918.0,1566.0
+M5,Gemma4 (gemma4:e4b),M37,Forecast Agent,forecast.forecast_short,1,success,75.27795458301262,271.0,1114.0,1385.0
+M5,Gemma4 (gemma4:e4b),M37,Forecast Agent,forecast.forecast_long,1,success,143.35614029200224,335.0,2202.0,2537.0
+M5,Gemma4 (gemma4:e4b),M37,Explanation Agent,explanation,1,success,51.75855537499592,923.0,731.0,1654.0
+M5,Gemma4 (gemma4:e4b),M38,Router Agent,orchestration,1,success,35.77227316700737,969.0,509.0,1478.0
+M5,Gemma4 (gemma4:e4b),M38,SQL Agent,sql_generate,1,success,61.71043212500808,639.0,893.0,1532.0
+M5,Gemma4 (gemma4:e4b),M38,Forecast Agent,forecast.forecast_short,1,success,83.76309958400088,215.0,1274.0,1489.0
+M5,Gemma4 (gemma4:e4b),M38,Explanation Agent,explanation,1,success,51.702486542009865,531.0,746.0,1277.0
+M5,Gemma4 (gemma4:e4b),M39,Router Agent,orchestration,1,success,43.56715950000216,976.0,614.0,1590.0
+M5,Gemma4 (gemma4:e4b),M39,SQL Agent,sql_generate,1,success,65.88536854099948,657.0,925.0,1582.0
+M5,Gemma4 (gemma4:e4b),M39,Forecast Agent,forecast.forecast_short,1,success,105.22301479098678,205.0,1611.0,1816.0
+M5,Gemma4 (gemma4:e4b),M39,Explanation Agent,explanation,1,success,72.04323466699861,575.0,1073.0,1648.0
+M5,Gemma4 (gemma4:e4b),M40,Router Agent,orchestration,1,success,37.86984470799507,976.0,555.0,1531.0
+M5,Gemma4 (gemma4:e4b),M40,SQL Agent,sql_generate,1,success,61.590604917000746,649.0,899.0,1548.0
+M5,Gemma4 (gemma4:e4b),M40,Forecast Agent,forecast.forecast_short,1,success,42.15451366599882,197.0,633.0,830.0
+M5,Gemma4 (gemma4:e4b),M40,Explanation Agent,explanation,1,success,53.31465695799852,600.0,755.0,1355.0
+M5,Gemma4 (gemma4:e4b),M41,Router Agent,orchestration,1,success,40.11965387499367,977.0,565.0,1542.0
+M5,Gemma4 (gemma4:e4b),M41,SQL Agent,sql_generate,1,success,64.60657825000817,657.0,942.0,1599.0
+M5,Gemma4 (gemma4:e4b),M41,Forecast Agent,forecast.forecast_short,1,success,106.35449612500088,215.0,1628.0,1843.0
+M5,Gemma4 (gemma4:e4b),M41,Explanation Agent,explanation,1,success,60.45464633300435,682.0,877.0,1559.0
+M5,Gemma4 (gemma4:e4b),M42,Router Agent,orchestration,1,success,42.19635466700129,978.0,625.0,1603.0
+M5,Gemma4 (gemma4:e4b),M42,SQL Agent,sql_generate,1,success,64.27482616700581,658.0,956.0,1614.0
+M5,Gemma4 (gemma4:e4b),M42,Forecast Agent,forecast.forecast_short,1,success,42.67246529200929,219.0,655.0,874.0
+M5,Gemma4 (gemma4:e4b),M42,Explanation Agent,explanation,1,success,59.25512066698866,859.0,866.0,1725.0
+M5,Gemma4 (gemma4:e4b),M43,Router Agent,orchestration,1,success,36.681328708989895,975.0,540.0,1515.0
+M5,Gemma4 (gemma4:e4b),M43,SQL Agent,sql_generate,1,success,64.01954504199966,649.0,962.0,1611.0
+M5,Gemma4 (gemma4:e4b),M43,Forecast Agent,forecast.forecast_short,1,success,153.9575616249931,1085.0,2300.0,3385.0
+M5,Gemma4 (gemma4:e4b),M43,Forecast Agent,forecast.forecast_long,1,error,145.31355208301102,2015.0,2081.0,4096.0
+M5,Gemma4 (gemma4:e4b),M43,Forecast Agent,forecast.forecast_long,2,error,133.97138175000146,2015.0,2081.0,4096.0
+M5,Gemma4 (gemma4:e4b),M43,Explanation Agent,explanation,1,success,64.1846368330007,741.0,927.0,1668.0
+M5,Gemma4 (gemma4:e4b),M44,Router Agent,orchestration,1,success,38.996363583006314,975.0,560.0,1535.0
+M5,Gemma4 (gemma4:e4b),M44,SQL Agent,sql_generate,1,success,64.81479158399452,648.0,950.0,1598.0
+M5,Gemma4 (gemma4:e4b),M44,Forecast Agent,forecast.forecast_short,1,success,128.47420412499923,1176.0,1881.0,3057.0
+M5,Gemma4 (gemma4:e4b),M44,Forecast Agent,forecast.forecast_long,1,success,48.2469405419979,2217.0,567.0,2784.0
+M5,Gemma4 (gemma4:e4b),M44,Explanation Agent,explanation,1,success,93.39963508400251,1386.0,1350.0,2736.0
+M5,Gemma4 (gemma4:e4b),M45,Router Agent,orchestration,1,success,37.926558834005846,970.0,558.0,1528.0
+M5,Gemma4 (gemma4:e4b),M45,SQL Agent,sql_generate,1,success,60.26741841599869,640.0,878.0,1518.0
+M5,Gemma4 (gemma4:e4b),M45,Forecast Agent,forecast.forecast_short,1,success,173.43223208299605,1184.0,2515.0,3699.0
+M5,Gemma4 (gemma4:e4b),M45,Forecast Agent,forecast.forecast_long,1,success,94.83062695899571,2249.0,1221.0,3470.0
+M5,Gemma4 (gemma4:e4b),M45,Explanation Agent,explanation,1,success,75.75608779198956,1471.0,1046.0,2517.0
+M5,Gemma4 (gemma4:e4b),M46,Router Agent,orchestration,1,success,34.30402883300849,975.0,483.0,1458.0
+M5,Gemma4 (gemma4:e4b),M46,SQL Agent,sql_generate,1,success,70.3288157920033,650.0,964.0,1614.0
+M5,Gemma4 (gemma4:e4b),M46,Forecast Agent,forecast.forecast_short,1,success,200.67210441600764,1081.0,2921.0,4002.0
+M5,Gemma4 (gemma4:e4b),M46,Forecast Agent,forecast.forecast_long,1,error,145.21683458400366,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M46,Forecast Agent,forecast.forecast_long,2,error,132.81023216700123,2006.0,2090.0,4096.0
+M5,Gemma4 (gemma4:e4b),M46,Explanation Agent,explanation,1,success,101.24660729100287,2564.0,1292.0,3856.0
+M5,Gemma4 (gemma4:e4b),M47,Router Agent,orchestration,1,success,45.87971604199265,972.0,668.0,1640.0
+M5,Gemma4 (gemma4:e4b),M47,SQL Agent,sql_generate,1,success,62.75900141699822,648.0,902.0,1550.0
+M5,Gemma4 (gemma4:e4b),M47,Forecast Agent,forecast.forecast_short,1,success,117.8267460000061,1081.0,1740.0,2821.0
+M5,Gemma4 (gemma4:e4b),M47,Forecast Agent,forecast.forecast_long,1,success,85.74845170899061,2006.0,1173.0,3179.0
+M5,Gemma4 (gemma4:e4b),M47,Explanation Agent,explanation,1,error,52.624763250001706,3581.0,515.0,4096.0
+M5,Gemma4 (gemma4:e4b),M47,Explanation Agent,explanation,2,error,35.10107954099658,3581.0,515.0,4096.0
+M5,Gemma4 (gemma4:e4b),M48,Router Agent,orchestration,1,success,49.35590954199142,978.0,726.0,1704.0
+M5,Gemma4 (gemma4:e4b),M48,SQL Agent,sql_generate,1,success,60.302431667005294,657.0,905.0,1562.0
+M5,Gemma4 (gemma4:e4b),M48,Forecast Agent,forecast.forecast_short,1,success,63.878929457991035,323.0,969.0,1292.0
+M5,Gemma4 (gemma4:e4b),M48,Forecast Agent,forecast.forecast_long,1,success,57.19433912499517,395.0,864.0,1259.0
+M5,Gemma4 (gemma4:e4b),M48,Explanation Agent,explanation,1,success,69.89875629200833,561.0,1041.0,1602.0
+M5,Gemma4 (gemma4:e4b),M49,Router Agent,orchestration,1,success,38.21607350000704,974.0,560.0,1534.0
+M5,Gemma4 (gemma4:e4b),M49,SQL Agent,sql_generate,1,success,60.894200833005016,649.0,918.0,1567.0
+M5,Gemma4 (gemma4:e4b),M49,Forecast Agent,forecast.forecast_short,1,success,57.327080709001166,318.0,892.0,1210.0
+M5,Gemma4 (gemma4:e4b),M49,Forecast Agent,forecast.forecast_long,1,success,100.53572158300085,380.0,1563.0,1943.0
+M5,Gemma4 (gemma4:e4b),M49,Explanation Agent,explanation,1,success,50.38074624999717,615.0,699.0,1314.0
+M5,Gemma4 (gemma4:e4b),M50,Router Agent,orchestration,1,success,39.63894750000327,977.0,551.0,1528.0
+M5,Gemma4 (gemma4:e4b),M50,SQL Agent,sql_generate,1,success,63.66192545800004,650.0,918.0,1568.0
+M5,Gemma4 (gemma4:e4b),M50,Forecast Agent,forecast.forecast_short,1,success,145.10466529200494,321.0,2242.0,2563.0
+M5,Gemma4 (gemma4:e4b),M50,Forecast Agent,forecast.forecast_long,1,success,116.30137637499138,393.0,1804.0,2197.0
+M5,Gemma4 (gemma4:e4b),M50,Explanation Agent,explanation,1,success,76.69240379201074,709.0,1126.0,1835.0
+M5,Gemma4 (gemma4:e4b),M51,Router Agent,orchestration,1,success,42.10496104200138,980.0,625.0,1605.0
+M5,Gemma4 (gemma4:e4b),M51,SQL Agent,sql_generate,1,success,60.79649766700459,659.0,902.0,1561.0
+M5,Gemma4 (gemma4:e4b),M51,Forecast Agent,forecast.forecast_short,1,success,100.3740359999938,377.0,1505.0,1882.0
+M5,Gemma4 (gemma4:e4b),M51,Forecast Agent,forecast.forecast_long,1,success,218.80082629200479,469.0,3405.0,3874.0
+M5,Gemma4 (gemma4:e4b),M51,Explanation Agent,explanation,1,success,46.88736545799475,915.0,661.0,1576.0
+M5,Gemma4 (gemma4:e4b),M52,Router Agent,orchestration,1,success,43.74668266699882,980.0,642.0,1622.0
+M5,Gemma4 (gemma4:e4b),M52,SQL Agent,sql_generate,1,success,66.82536929199705,659.0,979.0,1638.0
+M5,Gemma4 (gemma4:e4b),M52,Forecast Agent,forecast.forecast_short,1,success,88.16808824999316,369.0,1364.0,1733.0
+M5,Gemma4 (gemma4:e4b),M52,Forecast Agent,forecast.forecast_long,1,success,110.17149220799911,389.0,1696.0,2085.0
+M5,Gemma4 (gemma4:e4b),M52,Explanation Agent,explanation,1,success,78.54729645799671,1274.0,1124.0,2398.0
+M5,Gemma4 (gemma4:e4b),M53,Router Agent,orchestration,1,success,44.14493020900409,978.0,653.0,1631.0
+M5,Gemma4 (gemma4:e4b),M53,SQL Agent,sql_generate,1,success,60.122054916006164,650.0,867.0,1517.0
+M5,Gemma4 (gemma4:e4b),M53,Forecast Agent,forecast.forecast_short,1,success,61.81372904199816,228.0,949.0,1177.0
+M5,Gemma4 (gemma4:e4b),M53,Forecast Agent,forecast.forecast_long,1,success,86.14405220800836,253.0,1295.0,1548.0
+M5,Gemma4 (gemma4:e4b),M53,Explanation Agent,explanation,1,success,59.877855749989976,553.0,911.0,1464.0
+M5,Gemma4 (gemma4:e4b),M54,Router Agent,orchestration,1,success,41.497881584000424,972.0,603.0,1575.0
+M5,Gemma4 (gemma4:e4b),M54,SQL Agent,sql_generate,1,success,61.22603366700059,648.0,890.0,1538.0
+M5,Gemma4 (gemma4:e4b),M54,Forecast Agent,forecast.forecast_short,1,success,64.93861229201138,230.0,999.0,1229.0
+M5,Gemma4 (gemma4:e4b),M54,Forecast Agent,forecast.forecast_long,1,success,69.09425141698739,258.0,1053.0,1311.0
+M5,Gemma4 (gemma4:e4b),M54,Explanation Agent,explanation,1,success,64.18018683399714,571.0,953.0,1524.0
+M5,Gemma4 (gemma4:e4b),M55,Router Agent,orchestration,1,success,39.31109791700146,971.0,570.0,1541.0
+M5,Gemma4 (gemma4:e4b),M55,SQL Agent,sql_generate,1,success,62.00609345799603,640.0,900.0,1540.0
+M5,Gemma4 (gemma4:e4b),M55,Forecast Agent,forecast.forecast_short,1,success,79.70655400000396,236.0,1228.0,1464.0
+M5,Gemma4 (gemma4:e4b),M55,Forecast Agent,forecast.forecast_long,1,success,68.3648494999943,264.0,1053.0,1317.0
+M5,Gemma4 (gemma4:e4b),M55,Explanation Agent,explanation,1,success,60.35911441699136,610.0,907.0,1517.0
+M5,Gemma4 (gemma4:e4b),M56,Router Agent,orchestration,1,success,37.77789129099983,973.0,561.0,1534.0
+M5,Gemma4 (gemma4:e4b),M56,SQL Agent,sql_generate,1,success,59.94528708299913,648.0,890.0,1538.0
+M5,Gemma4 (gemma4:e4b),M56,Forecast Agent,forecast.forecast_short,1,success,59.81759920800687,226.0,949.0,1175.0
+M5,Gemma4 (gemma4:e4b),M56,Forecast Agent,forecast.forecast_long,1,success,55.52955799999472,249.0,868.0,1117.0
+M5,Gemma4 (gemma4:e4b),M56,Explanation Agent,explanation,1,success,53.688238333008485,644.0,793.0,1437.0
+M5,Gemma4 (gemma4:e4b),M57,Router Agent,orchestration,1,success,39.642160957999295,974.0,576.0,1550.0
+M5,Gemma4 (gemma4:e4b),M57,SQL Agent,sql_generate,1,success,59.80680408299668,649.0,896.0,1545.0
+M5,Gemma4 (gemma4:e4b),M57,Forecast Agent,forecast.forecast_short,1,success,99.94378233399766,252.0,1496.0,1748.0
+M5,Gemma4 (gemma4:e4b),M57,Forecast Agent,forecast.forecast_long,1,success,66.14735616600956,262.0,974.0,1236.0
+M5,Gemma4 (gemma4:e4b),M57,Explanation Agent,explanation,1,success,56.59116733299743,779.0,781.0,1560.0
+M5,Gemma4 (gemma4:e4b),M58,Router Agent,orchestration,1,success,48.61504829200567,980.0,681.0,1661.0
+M5,Gemma4 (gemma4:e4b),M58,SQL Agent,sql_generate,1,success,67.71781324999756,658.0,956.0,1614.0
+M5,Gemma4 (gemma4:e4b),M58,Forecast Agent,forecast.forecast_short,1,success,81.50880441699701,264.0,1239.0,1503.0
+M5,Gemma4 (gemma4:e4b),M58,Forecast Agent,forecast.forecast_long,1,success,130.31072229199344,315.0,2006.0,2321.0
+M5,Gemma4 (gemma4:e4b),M58,Explanation Agent,explanation,1,success,57.18859612499364,902.0,829.0,1731.0
+M5,Gemma4 (gemma4:e4b),M59,Router Agent,orchestration,1,success,40.628502749998006,976.0,599.0,1575.0
+M5,Gemma4 (gemma4:e4b),M59,SQL Agent,sql_generate,1,success,61.51050491600472,657.0,853.0,1510.0
+M5,Gemma4 (gemma4:e4b),M59,Forecast Agent,forecast.forecast_short,1,success,83.93702425000083,207.0,1263.0,1470.0
+M5,Gemma4 (gemma4:e4b),M59,Explanation Agent,explanation,1,success,46.25356358400313,546.0,662.0,1208.0
+M5,Gemma4 (gemma4:e4b),M60,Router Agent,orchestration,1,success,37.973392458006856,976.0,546.0,1522.0
+M5,Gemma4 (gemma4:e4b),M60,SQL Agent,sql_generate,1,success,64.5504407499975,649.0,923.0,1572.0
+M5,Gemma4 (gemma4:e4b),M60,Forecast Agent,forecast.forecast_short,1,success,115.04887529199186,206.0,1756.0,1962.0
+M5,Gemma4 (gemma4:e4b),M60,Explanation Agent,explanation,1,success,53.097790167012135,572.0,767.0,1339.0
+M5,Gemma4 (gemma4:e4b),M61,Router Agent,orchestration,1,success,42.651237499987474,977.0,574.0,1551.0
+M5,Gemma4 (gemma4:e4b),M61,SQL Agent,sql_generate,1,success,67.00811895899824,657.0,925.0,1582.0
+M5,Gemma4 (gemma4:e4b),M61,Forecast Agent,forecast.forecast_short,1,success,69.00697950000176,199.0,1064.0,1263.0
+M5,Gemma4 (gemma4:e4b),M61,Explanation Agent,explanation,1,success,57.29235274999519,619.0,800.0,1419.0
+M5,Gemma4 (gemma4:e4b),M62,Router Agent,orchestration,1,success,38.46914141700836,971.0,533.0,1504.0
+M5,Gemma4 (gemma4:e4b),M62,SQL Agent,sql_generate,1,success,60.6975397089991,647.0,890.0,1537.0
+M5,Gemma4 (gemma4:e4b),M62,Forecast Agent,forecast.forecast_short,1,success,69.85805779100338,221.0,1083.0,1304.0
+M5,Gemma4 (gemma4:e4b),M62,Explanation Agent,explanation,1,success,56.57498783299525,667.0,800.0,1467.0
+M5,Gemma4 (gemma4:e4b),M63,Router Agent,orchestration,1,success,51.46194887498859,979.0,729.0,1708.0
+M5,Gemma4 (gemma4:e4b),M63,SQL Agent,sql_generate,1,success,64.341029874995,658.0,907.0,1565.0
+M5,Gemma4 (gemma4:e4b),M63,Forecast Agent,forecast.forecast_short,1,success,75.85753058300179,222.0,1156.0,1378.0
+M5,Gemma4 (gemma4:e4b),M63,Explanation Agent,explanation,1,success,67.6491976660036,850.0,895.0,1745.0
+HCMC Bus,Gemini 2.5 Pro,H01,Router Agent,orchestration,1,success,5.502204834003351,948.0,564.0,1512.0
+HCMC Bus,Gemini 2.5 Pro,H01,SQL Agent,sql_generate,1,success,10.479762167000445,786.0,1228.0,2014.0
+HCMC Bus,Gemini 2.5 Pro,H01,Forecast Agent,forecast.forecast_short,1,success,72.24072879199957,1603.0,11087.0,12690.0
+HCMC Bus,Gemini 2.5 Pro,H01,Forecast Agent,forecast.forecast_long,1,success,83.67712441599724,3081.0,12174.0,15255.0
+HCMC Bus,Gemini 2.5 Pro,H01,Explanation Agent,explanation,1,success,22.528538083999592,734.0,3273.0,4007.0
+HCMC Bus,Gemini 2.5 Pro,H02,Router Agent,orchestration,1,success,6.236745667003561,953.0,637.0,1590.0
+HCMC Bus,Gemini 2.5 Pro,H02,SQL Agent,sql_generate,1,success,11.568609791000199,798.0,1517.0,2315.0
+HCMC Bus,Gemini 2.5 Pro,H02,Forecast Agent,forecast.forecast_short,1,success,82.41621962500358,1606.0,12710.0,14316.0
+HCMC Bus,Gemini 2.5 Pro,H02,Forecast Agent,forecast.forecast_long,1,success,46.69616279199545,3083.0,7197.0,10280.0
+HCMC Bus,Gemini 2.5 Pro,H02,Explanation Agent,explanation,1,success,28.871439499998814,1459.0,4233.0,5692.0
+HCMC Bus,Gemini 2.5 Pro,H03,Router Agent,orchestration,1,success,5.918573082999501,964.0,661.0,1625.0
+HCMC Bus,Gemini 2.5 Pro,H03,SQL Agent,sql_generate,1,success,11.77378399999725,800.0,1444.0,2244.0
+HCMC Bus,Gemini 2.5 Pro,H03,Forecast Agent,forecast.forecast_short,1,success,53.541714792001585,1606.0,7974.0,9580.0
+HCMC Bus,Gemini 2.5 Pro,H03,Forecast Agent,forecast.forecast_long,1,success,104.65351654199912,3084.0,16049.0,19133.0
+HCMC Bus,Gemini 2.5 Pro,H03,Explanation Agent,explanation,1,success,22.42843804199947,1529.0,2989.0,4518.0
+HCMC Bus,Gemini 2.5 Pro,H04,Router Agent,orchestration,1,success,6.703123040999344,961.0,749.0,1710.0
+HCMC Bus,Gemini 2.5 Pro,H04,SQL Agent,sql_generate,1,success,9.110190125000372,798.0,1188.0,1986.0
+HCMC Bus,Gemini 2.5 Pro,H04,Forecast Agent,forecast.forecast_short,1,success,72.16743487500207,1606.0,11297.0,12903.0
+HCMC Bus,Gemini 2.5 Pro,H04,Forecast Agent,forecast.forecast_long,1,success,92.46791908400337,3086.0,14494.0,17580.0
+HCMC Bus,Gemini 2.5 Pro,H04,Explanation Agent,explanation,1,success,35.43133504100115,2546.0,5286.0,7832.0
+HCMC Bus,Gemini 2.5 Pro,H05,Router Agent,orchestration,1,success,6.190158457997313,956.0,656.0,1612.0
+HCMC Bus,Gemini 2.5 Pro,H05,SQL Agent,sql_generate,1,success,7.154451667003741,795.0,825.0,1620.0
+HCMC Bus,Gemini 2.5 Pro,H05,Forecast Agent,forecast.forecast_short,1,success,94.39829741699941,1606.0,14909.0,16515.0
+HCMC Bus,Gemini 2.5 Pro,H05,Forecast Agent,forecast.forecast_long,1,success,105.70918383300159,3084.0,16052.0,19136.0
+HCMC Bus,Gemini 2.5 Pro,H05,Explanation Agent,explanation,1,success,28.94533075000072,3565.0,3961.0,7526.0
+HCMC Bus,Gemini 2.5 Pro,H06,Router Agent,orchestration,1,success,6.3321486659988295,956.0,711.0,1667.0
+HCMC Bus,Gemini 2.5 Pro,H06,SQL Agent,sql_generate,1,success,9.497123917004501,794.0,1095.0,1889.0
+HCMC Bus,Gemini 2.5 Pro,H06,Forecast Agent,forecast.forecast_short,1,success,28.868720124999527,380.0,3786.0,4166.0
+HCMC Bus,Gemini 2.5 Pro,H06,Forecast Agent,forecast.forecast_long,1,success,18.0220885000017,479.0,2481.0,2960.0
+HCMC Bus,Gemini 2.5 Pro,H06,Explanation Agent,explanation,1,success,19.965938458000892,543.0,2605.0,3148.0
+HCMC Bus,Gemini 2.5 Pro,H07,Router Agent,orchestration,1,success,6.657427792000817,956.0,823.0,1779.0
+HCMC Bus,Gemini 2.5 Pro,H07,SQL Agent,sql_generate,1,success,10.185705833006068,797.0,1271.0,2068.0
+HCMC Bus,Gemini 2.5 Pro,H07,Forecast Agent,forecast.forecast_short,1,success,42.31525041699933,380.0,5706.0,6086.0
+HCMC Bus,Gemini 2.5 Pro,H07,Explanation Agent,explanation,1,success,22.416820250000455,614.0,3115.0,3729.0
+HCMC Bus,Gemini 2.5 Pro,H08,Router Agent,orchestration,1,success,7.657376540999394,965.0,843.0,1808.0
+HCMC Bus,Gemini 2.5 Pro,H08,SQL Agent,sql_generate,1,success,13.412582125005429,805.0,1545.0,2350.0
+HCMC Bus,Gemini 2.5 Pro,H08,Forecast Agent,forecast.forecast_short,1,success,36.75344333300018,327.0,5222.0,5549.0
+HCMC Bus,Gemini 2.5 Pro,H08,Explanation Agent,explanation,1,success,23.758661625004606,715.0,3214.0,3929.0
+HCMC Bus,Gemini 2.5 Pro,H09,Router Agent,orchestration,1,success,7.005507667003258,955.0,801.0,1756.0
+HCMC Bus,Gemini 2.5 Pro,H09,SQL Agent,sql_generate,1,success,8.41163529199548,795.0,980.0,1775.0
+HCMC Bus,Gemini 2.5 Pro,H09,Forecast Agent,forecast.forecast_short,1,success,67.59429112499492,383.0,9473.0,9856.0
+HCMC Bus,Gemini 2.5 Pro,H09,Explanation Agent,explanation,1,success,27.442298208996363,910.0,3705.0,4615.0
+HCMC Bus,Gemini 2.5 Pro,H10,Router Agent,orchestration,1,success,9.682122999998683,958.0,825.0,1783.0
+HCMC Bus,Gemini 2.5 Pro,H10,SQL Agent,sql_generate,1,success,8.212456749999546,798.0,998.0,1796.0
+HCMC Bus,Gemini 2.5 Pro,H10,Forecast Agent,forecast.forecast_short,1,success,43.34182608399715,503.0,6443.0,6946.0
+HCMC Bus,Gemini 2.5 Pro,H10,Explanation Agent,explanation,1,success,23.68527895800071,1344.0,3269.0,4613.0
+HCMC Bus,Gemini 2.5 Pro,H11,Router Agent,orchestration,1,success,6.055688291999104,947.0,611.0,1558.0
+HCMC Bus,Gemini 2.5 Pro,H11,SQL Agent,sql_generate,1,success,8.80375987500156,786.0,859.0,1645.0
+HCMC Bus,Gemini 2.5 Pro,H11,Forecast Agent,forecast.forecast_short,1,success,45.24993012499908,247.0,5967.0,6214.0
+HCMC Bus,Gemini 2.5 Pro,H11,Forecast Agent,forecast.forecast_long,1,success,36.76200541599974,278.0,4964.0,5242.0
+HCMC Bus,Gemini 2.5 Pro,H11,Explanation Agent,explanation,1,success,17.100399458002357,537.0,2465.0,3002.0
+HCMC Bus,Gemini 2.5 Pro,H12,Router Agent,orchestration,1,success,6.302605917000619,955.0,693.0,1648.0
+HCMC Bus,Gemini 2.5 Pro,H12,SQL Agent,sql_generate,1,success,8.50636191599915,796.0,1062.0,1858.0
+HCMC Bus,Gemini 2.5 Pro,H12,Forecast Agent,forecast.forecast_short,1,success,63.20903937499679,245.0,8819.0,9064.0
+HCMC Bus,Gemini 2.5 Pro,H12,Forecast Agent,forecast.forecast_long,1,success,30.4828521659947,265.0,4084.0,4349.0
+HCMC Bus,Gemini 2.5 Pro,H12,Explanation Agent,explanation,1,success,20.65282175000175,570.0,2828.0,3398.0
+HCMC Bus,Gemini 2.5 Pro,H13,Router Agent,orchestration,1,success,5.228445708002255,956.0,567.0,1523.0
+HCMC Bus,Gemini 2.5 Pro,H13,SQL Agent,sql_generate,1,success,10.336577125002805,794.0,1278.0,2072.0
+HCMC Bus,Gemini 2.5 Pro,H13,Forecast Agent,forecast.forecast_short,1,success,44.95158416600316,245.0,6051.0,6296.0
+HCMC Bus,Gemini 2.5 Pro,H13,Forecast Agent,forecast.forecast_long,1,success,32.3598362499979,255.0,4522.0,4777.0
+HCMC Bus,Gemini 2.5 Pro,H13,Explanation Agent,explanation,1,success,19.147664749994874,611.0,2667.0,3278.0
+HCMC Bus,Gemini 2.5 Pro,H14,Router Agent,orchestration,1,success,6.122972999997728,952.0,770.0,1722.0
+HCMC Bus,Gemini 2.5 Pro,H14,SQL Agent,sql_generate,1,success,9.930263917005504,794.0,1237.0,2031.0
+HCMC Bus,Gemini 2.5 Pro,H14,Forecast Agent,forecast.forecast_short,1,success,48.12471679200098,244.0,6828.0,7072.0
+HCMC Bus,Gemini 2.5 Pro,H14,Explanation Agent,explanation,1,success,26.206503834000614,637.0,3177.0,3814.0
+HCMC Bus,Gemini 2.5 Pro,H15,Router Agent,orchestration,1,success,7.451008500000171,959.0,777.0,1736.0
+HCMC Bus,Gemini 2.5 Pro,H15,SQL Agent,sql_generate,1,success,8.19190774999879,799.0,925.0,1724.0
+HCMC Bus,Gemini 2.5 Pro,H15,Forecast Agent,forecast.forecast_short,1,success,37.77643270800036,274.0,5270.0,5544.0
+HCMC Bus,Gemini 2.5 Pro,H15,Explanation Agent,explanation,1,success,30.104078999997,785.0,3735.0,4520.0
+HCMC Bus,Gemini 2.5 Pro,H16,Router Agent,orchestration,1,success,6.432719082993572,957.0,681.0,1638.0
+HCMC Bus,Gemini 2.5 Pro,H16,SQL Agent,sql_generate,1,success,12.900153583002975,798.0,1530.0,2328.0
+HCMC Bus,Gemini 2.5 Pro,H16,Forecast Agent,forecast.forecast_short,1,success,41.256901291999384,257.0,5894.0,6151.0
+HCMC Bus,Gemini 2.5 Pro,H16,Explanation Agent,explanation,1,success,27.719096292006725,932.0,3641.0,4573.0
+HCMC Bus,Gemini 2.5 Pro,H17,Router Agent,orchestration,1,success,10.760030707999249,957.0,1048.0,2005.0
+HCMC Bus,Gemini 2.5 Pro,H17,SQL Agent,sql_generate,1,success,9.929450042000099,797.0,1142.0,1939.0
+HCMC Bus,Gemini 2.5 Pro,H17,Forecast Agent,forecast.forecast_short,1,success,7.675271957996301,183.0,859.0,1042.0
+HCMC Bus,Gemini 2.5 Pro,H17,Explanation Agent,explanation,1,success,22.195354584000597,534.0,3030.0,3564.0
+HCMC Bus,Gemini 2.5 Pro,H18,Router Agent,orchestration,1,success,17.275871083998936,957.0,2053.0,3010.0
+HCMC Bus,Gemini 2.5 Pro,H18,SQL Agent,sql_generate,1,success,9.343176957998367,797.0,900.0,1697.0
+HCMC Bus,Gemini 2.5 Pro,H18,Forecast Agent,forecast.forecast_short,1,success,7.364575040999625,173.0,679.0,852.0
+HCMC Bus,Gemini 2.5 Pro,H18,Explanation Agent,explanation,1,success,18.021400749996246,569.0,2390.0,2959.0
+HCMC Bus,Gemini 2.5 Pro,H19,Router Agent,orchestration,1,success,5.795386500001769,947.0,615.0,1562.0
+HCMC Bus,Gemini 2.5 Pro,H19,SQL Agent,sql_generate,1,success,9.11206833399774,786.0,1110.0,1896.0
+HCMC Bus,Gemini 2.5 Pro,H19,Forecast Agent,forecast.forecast_short,1,success,53.896811999999045,193.0,7991.0,8184.0
+HCMC Bus,Gemini 2.5 Pro,H19,Explanation Agent,explanation,1,success,16.560284208004305,602.0,2393.0,2995.0
+HCMC Bus,Gemini 2.5 Pro,H20,Router Agent,orchestration,1,success,6.938740833000338,959.0,705.0,1664.0
+HCMC Bus,Gemini 2.5 Pro,H20,SQL Agent,sql_generate,1,success,8.09862966700166,797.0,987.0,1784.0
+HCMC Bus,Gemini 2.5 Pro,H20,Forecast Agent,forecast.forecast_short,1,success,57.65122029199847,193.0,8223.0,8416.0
+HCMC Bus,Gemini 2.5 Pro,H20,Explanation Agent,explanation,1,success,21.069228250002197,674.0,2807.0,3481.0
+HCMC Bus,Gemini 2.5 Pro,H21,Router Agent,orchestration,1,success,7.154050249999273,967.0,807.0,1774.0
+HCMC Bus,Gemini 2.5 Pro,H21,SQL Agent,sql_generate,1,success,7.881086417000915,808.0,892.0,1700.0
+HCMC Bus,Gemini 2.5 Pro,H21,Forecast Agent,forecast.forecast_short,1,success,36.03624087500066,199.0,4973.0,5172.0
+HCMC Bus,Gemini 2.5 Pro,H21,Explanation Agent,explanation,1,success,28.364601540997683,883.0,3778.0,4661.0
+HCMC Bus,Gemini 2.5 Pro,H22,Router Agent,orchestration,1,success,5.927694917001645,952.0,646.0,1598.0
+HCMC Bus,Gemini 2.5 Pro,H22,SQL Agent,sql_generate,1,success,8.59847450000234,797.0,1034.0,1831.0
+HCMC Bus,Gemini 2.5 Pro,H22,Forecast Agent,forecast.forecast_short,1,success,61.52251529100613,1523.0,9677.0,11200.0
+HCMC Bus,Gemini 2.5 Pro,H22,Forecast Agent,forecast.forecast_long,1,success,46.5975247499955,2939.0,6642.0,9581.0
+HCMC Bus,Gemini 2.5 Pro,H22,Explanation Agent,explanation,1,success,24.576674124997226,744.0,3460.0,4204.0
+HCMC Bus,Gemini 2.5 Pro,H23,Router Agent,orchestration,1,success,6.190018583001802,959.0,607.0,1566.0
+HCMC Bus,Gemini 2.5 Pro,H23,SQL Agent,sql_generate,1,success,8.711935416002234,795.0,976.0,1771.0
+HCMC Bus,Gemini 2.5 Pro,H23,Forecast Agent,forecast.forecast_short,1,success,113.85668820799765,1606.0,17797.0,19403.0
+HCMC Bus,Gemini 2.5 Pro,H23,Forecast Agent,forecast.forecast_long,1,success,87.24444091599435,3071.0,13170.0,16241.0
+HCMC Bus,Gemini 2.5 Pro,H23,Explanation Agent,explanation,1,success,22.983200250004302,1456.0,3057.0,4513.0
+HCMC Bus,Gemini 2.5 Pro,H24,Router Agent,orchestration,1,success,5.85719566699845,958.0,623.0,1581.0
+HCMC Bus,Gemini 2.5 Pro,H24,SQL Agent,sql_generate,1,success,7.166149209006107,795.0,830.0,1625.0
+HCMC Bus,Gemini 2.5 Pro,H24,Forecast Agent,forecast.forecast_short,1,success,41.91523629100266,1520.0,6258.0,7778.0
+HCMC Bus,Gemini 2.5 Pro,H24,Forecast Agent,forecast.forecast_long,1,success,46.74769450000167,2930.0,7064.0,9994.0
+HCMC Bus,Gemini 2.5 Pro,H24,Explanation Agent,explanation,1,success,20.682505041004333,1519.0,2667.0,4186.0
+HCMC Bus,Gemini 2.5 Pro,H25,Router Agent,orchestration,1,success,5.79907995800022,960.0,660.0,1620.0
+HCMC Bus,Gemini 2.5 Pro,H25,SQL Agent,sql_generate,1,success,8.08561287500197,799.0,911.0,1710.0
+HCMC Bus,Gemini 2.5 Pro,H25,Forecast Agent,forecast.forecast_short,1,success,34.49792575000174,1606.0,5215.0,6821.0
+HCMC Bus,Gemini 2.5 Pro,H25,Forecast Agent,forecast.forecast_long,1,success,66.71317287499551,3086.0,10296.0,13382.0
+HCMC Bus,Gemini 2.5 Pro,H25,Explanation Agent,explanation,1,success,26.56989991699811,2581.0,3676.0,6257.0
+HCMC Bus,Gemini 2.5 Pro,H26,Router Agent,orchestration,1,success,5.500941124999372,958.0,612.0,1570.0
+HCMC Bus,Gemini 2.5 Pro,H26,SQL Agent,sql_generate,1,success,11.977162125003815,798.0,1459.0,2257.0
+HCMC Bus,Gemini 2.5 Pro,H26,Forecast Agent,forecast.forecast_short,1,success,69.00863116700202,1606.0,10144.0,11750.0
+HCMC Bus,Gemini 2.5 Pro,H26,Forecast Agent,forecast.forecast_long,1,success,80.58718262500042,3084.0,11257.0,14341.0
+HCMC Bus,Gemini 2.5 Pro,H26,Explanation Agent,explanation,1,success,23.7581700419978,3566.0,3065.0,6631.0
+HCMC Bus,Gemini 2.5 Pro,H27,Router Agent,orchestration,1,success,6.097413500006951,947.0,555.0,1502.0
+HCMC Bus,Gemini 2.5 Pro,H27,SQL Agent,sql_generate,1,success,10.953186083999753,786.0,1347.0,2133.0
+HCMC Bus,Gemini 2.5 Pro,H27,Forecast Agent,forecast.forecast_short,1,success,51.28875379199599,380.0,6591.0,6971.0
+HCMC Bus,Gemini 2.5 Pro,H27,Forecast Agent,forecast.forecast_long,1,success,53.58397537500423,479.0,7242.0,7721.0
+HCMC Bus,Gemini 2.5 Pro,H27,Explanation Agent,explanation,1,success,15.031794250004168,535.0,1907.0,2442.0
+HCMC Bus,Gemini 2.5 Pro,H28,Router Agent,orchestration,1,success,6.871695000001637,960.0,650.0,1610.0
+HCMC Bus,Gemini 2.5 Pro,H28,SQL Agent,sql_generate,1,success,8.745215250004549,799.0,956.0,1755.0
+HCMC Bus,Gemini 2.5 Pro,H28,Forecast Agent,forecast.forecast_short,1,success,48.53193512500002,379.0,6689.0,7068.0
+HCMC Bus,Gemini 2.5 Pro,H28,Explanation Agent,explanation,1,success,25.295657832997676,619.0,3574.0,4193.0
+HCMC Bus,Gemini 2.5 Pro,H29,Router Agent,orchestration,1,success,6.420301999998628,956.0,690.0,1646.0
+HCMC Bus,Gemini 2.5 Pro,H29,SQL Agent,sql_generate,1,success,11.365572916998644,796.0,1251.0,2047.0
+HCMC Bus,Gemini 2.5 Pro,H29,Forecast Agent,forecast.forecast_short,1,success,47.29882170800556,402.0,6833.0,7235.0
+HCMC Bus,Gemini 2.5 Pro,H29,Forecast Agent,forecast.forecast_long,1,success,64.24725229099568,458.0,9261.0,9719.0
+HCMC Bus,Gemini 2.5 Pro,H29,Explanation Agent,explanation,1,success,22.849507792001532,722.0,3262.0,3984.0
+HCMC Bus,Gemini 2.5 Pro,H30,Router Agent,orchestration,1,success,6.760751917005109,958.0,658.0,1616.0
+HCMC Bus,Gemini 2.5 Pro,H30,SQL Agent,sql_generate,1,success,6.858758000002126,798.0,812.0,1610.0
+HCMC Bus,Gemini 2.5 Pro,H30,Forecast Agent,forecast.forecast_short,1,success,55.06991574999847,386.0,8204.0,8590.0
+HCMC Bus,Gemini 2.5 Pro,H30,Explanation Agent,explanation,1,success,20.789154250000138,932.0,3003.0,3935.0
+HCMC Bus,Gemini 2.5 Pro,H31,Router Agent,orchestration,1,success,5.646861249995709,958.0,652.0,1610.0
+HCMC Bus,Gemini 2.5 Pro,H31,SQL Agent,sql_generate,1,success,8.065901832997042,796.0,955.0,1751.0
+HCMC Bus,Gemini 2.5 Pro,H31,Forecast Agent,forecast.forecast_short,1,success,64.91347233299894,442.0,9497.0,9939.0
+HCMC Bus,Gemini 2.5 Pro,H31,Explanation Agent,explanation,1,success,23.858322291998775,1363.0,3191.0,4554.0
+HCMC Bus,Gemini 2.5 Pro,H32,Router Agent,orchestration,1,success,8.580075541998667,957.0,783.0,1740.0
+HCMC Bus,Gemini 2.5 Pro,H32,SQL Agent,sql_generate,1,success,8.18794091699965,798.0,973.0,1771.0
+HCMC Bus,Gemini 2.5 Pro,H32,Forecast Agent,forecast.forecast_short,1,success,32.53060033299698,237.0,4013.0,4250.0
+HCMC Bus,Gemini 2.5 Pro,H32,Explanation Agent,explanation,1,success,20.603426499998022,534.0,2811.0,3345.0
+HCMC Bus,Gemini 2.5 Pro,H33,Router Agent,orchestration,1,success,5.703026082999713,956.0,667.0,1623.0
+HCMC Bus,Gemini 2.5 Pro,H33,SQL Agent,sql_generate,1,success,8.495602083996346,794.0,913.0,1707.0
+HCMC Bus,Gemini 2.5 Pro,H33,Forecast Agent,forecast.forecast_short,1,success,50.472944457993435,245.0,6953.0,7198.0
+HCMC Bus,Gemini 2.5 Pro,H33,Forecast Agent,forecast.forecast_long,1,success,46.902884666997124,266.0,6554.0,6820.0
+HCMC Bus,Gemini 2.5 Pro,H33,Explanation Agent,explanation,1,success,33.99568724999699,569.0,4251.0,4820.0
+HCMC Bus,Gemini 2.5 Pro,H34,Router Agent,orchestration,1,success,5.8696679579952615,956.0,671.0,1627.0
+HCMC Bus,Gemini 2.5 Pro,H34,SQL Agent,sql_generate,1,success,8.934475959002157,798.0,959.0,1757.0
+HCMC Bus,Gemini 2.5 Pro,H34,Forecast Agent,forecast.forecast_short,1,success,26.715884000004735,241.0,3655.0,3896.0
+HCMC Bus,Gemini 2.5 Pro,H34,Forecast Agent,forecast.forecast_long,1,success,47.104047959001036,250.0,6704.0,6954.0
+HCMC Bus,Gemini 2.5 Pro,H34,Explanation Agent,explanation,1,success,18.431390375000774,613.0,2504.0,3117.0
+HCMC Bus,Gemini 2.5 Pro,H35,Router Agent,orchestration,1,success,7.850374292000197,949.0,640.0,1589.0
+HCMC Bus,Gemini 2.5 Pro,H35,SQL Agent,sql_generate,1,success,9.325031625005067,787.0,1026.0,1813.0
+HCMC Bus,Gemini 2.5 Pro,H35,Forecast Agent,forecast.forecast_short,1,success,33.261723875002644,244.0,4535.0,4779.0
+HCMC Bus,Gemini 2.5 Pro,H35,Explanation Agent,explanation,1,success,20.106152416999976,628.0,2774.0,3402.0
+HCMC Bus,Gemini 2.5 Pro,H36,Router Agent,orchestration,1,success,6.307809917001578,969.0,713.0,1682.0
+HCMC Bus,Gemini 2.5 Pro,H36,SQL Agent,sql_generate,1,success,9.617879375000484,811.0,1175.0,1986.0
+HCMC Bus,Gemini 2.5 Pro,H36,Forecast Agent,forecast.forecast_short,1,success,63.21457962500426,274.0,9461.0,9735.0
+HCMC Bus,Gemini 2.5 Pro,H36,Explanation Agent,explanation,1,success,25.936823124997318,788.0,3656.0,4444.0
+HCMC Bus,Gemini 2.5 Pro,H37,Router Agent,orchestration,1,success,6.397827165994386,958.0,735.0,1693.0
+HCMC Bus,Gemini 2.5 Pro,H37,SQL Agent,sql_generate,1,success,10.647299832999124,799.0,1437.0,2236.0
+HCMC Bus,Gemini 2.5 Pro,H37,Forecast Agent,forecast.forecast_short,1,success,62.45380291699985,289.0,9506.0,9795.0
+HCMC Bus,Gemini 2.5 Pro,H37,Explanation Agent,explanation,1,success,29.050705417001154,938.0,3992.0,4930.0
+HCMC Bus,Gemini 2.5 Pro,H38,Router Agent,orchestration,1,success,23.161821250003413,958.0,2761.0,3719.0
+HCMC Bus,Gemini 2.5 Pro,H39,Router Agent,orchestration,1,success,29.78381766700477,957.0,3739.0,4696.0
+HCMC Bus,Gemini 2.5 Pro,H40,Router Agent,orchestration,1,success,7.140764916999615,960.0,701.0,1661.0
+HCMC Bus,Gemini 2.5 Pro,H40,SQL Agent,sql_generate,1,success,8.47259175000363,798.0,1027.0,1825.0
+HCMC Bus,Gemini 2.5 Pro,H40,Forecast Agent,forecast.forecast_short,1,success,40.77098266699613,193.0,5794.0,5987.0
+HCMC Bus,Gemini 2.5 Pro,H40,Explanation Agent,explanation,1,success,26.517546084003698,614.0,3540.0,4154.0
+HCMC Bus,Gemini 2.5 Pro,H41,Router Agent,orchestration,1,success,6.748144958000921,955.0,632.0,1587.0
+HCMC Bus,Gemini 2.5 Pro,H41,SQL Agent,sql_generate,1,success,11.262414041993907,795.0,1460.0,2255.0
+HCMC Bus,Gemini 2.5 Pro,H41,Forecast Agent,forecast.forecast_short,1,success,29.71870024999953,193.0,4339.0,4532.0
+HCMC Bus,Gemini 2.5 Pro,H41,Explanation Agent,explanation,1,success,24.850726707998547,681.0,3265.0,3946.0
+HCMC Bus,Gemini 2.5 Pro,H42,Router Agent,orchestration,1,success,6.832802332995925,958.0,682.0,1640.0
+HCMC Bus,Gemini 2.5 Pro,H42,SQL Agent,sql_generate,1,success,11.02885258400056,798.0,1185.0,1983.0
+HCMC Bus,Gemini 2.5 Pro,H42,Forecast Agent,forecast.forecast_short,1,success,45.07652795800095,198.0,6107.0,6305.0
+HCMC Bus,Gemini 2.5 Pro,H42,Explanation Agent,explanation,1,success,24.545198542000435,853.0,3436.0,4289.0
+HCMC Bus,Gemini 2.5 Pro,H43,Router Agent,orchestration,1,success,6.135427332999825,953.0,553.0,1506.0
+HCMC Bus,Gemini 2.5 Pro,H43,SQL Agent,sql_generate,1,success,10.364271457998257,787.0,1179.0,1966.0
+HCMC Bus,Gemini 2.5 Pro,H43,Forecast Agent,forecast.forecast_short,1,success,78.42163995800365,1603.0,11431.0,13034.0
+HCMC Bus,Gemini 2.5 Pro,H43,Forecast Agent,forecast.forecast_long,1,success,63.90243483299855,3080.0,8992.0,12072.0
+HCMC Bus,Gemini 2.5 Pro,H43,Explanation Agent,explanation,1,success,23.450441499997396,736.0,3307.0,4043.0
+HCMC Bus,Gemini 2.5 Pro,H44,Router Agent,orchestration,1,success,5.691332582995528,962.0,681.0,1643.0
+HCMC Bus,Gemini 2.5 Pro,H44,SQL Agent,sql_generate,1,success,7.268226000000141,799.0,873.0,1672.0
+HCMC Bus,Gemini 2.5 Pro,H44,Forecast Agent,forecast.forecast_short,1,success,69.78906379099499,1590.0,10681.0,12271.0
+HCMC Bus,Gemini 2.5 Pro,H44,Forecast Agent,forecast.forecast_long,1,success,40.176794583996525,3046.0,6013.0,9059.0
+HCMC Bus,Gemini 2.5 Pro,H44,Explanation Agent,explanation,1,success,29.953391167000518,1473.0,4032.0,5505.0
+HCMC Bus,Gemini 2.5 Pro,H45,Router Agent,orchestration,1,success,7.4778936250004335,960.0,809.0,1769.0
+HCMC Bus,Gemini 2.5 Pro,H45,SQL Agent,sql_generate,1,success,8.48351054199884,799.0,1091.0,1890.0
+HCMC Bus,Gemini 2.5 Pro,H45,Forecast Agent,forecast.forecast_short,1,success,54.70594091600651,1597.0,8252.0,9849.0
+HCMC Bus,Gemini 2.5 Pro,H45,Forecast Agent,forecast.forecast_long,1,success,40.30511154099804,3054.0,5863.0,8917.0
+HCMC Bus,Gemini 2.5 Pro,H45,Explanation Agent,explanation,1,success,18.25424991700129,1527.0,2467.0,3994.0
+HCMC Bus,Gemini 2.5 Pro,H46,Router Agent,orchestration,1,success,5.92533099999855,959.0,689.0,1648.0
+HCMC Bus,Gemini 2.5 Pro,H46,SQL Agent,sql_generate,1,success,10.724221124997712,799.0,1313.0,2112.0
+HCMC Bus,Gemini 2.5 Pro,H46,Forecast Agent,forecast.forecast_short,1,success,44.2245313750027,1769.0,6772.0,8541.0
+HCMC Bus,Gemini 2.5 Pro,H46,Forecast Agent,forecast.forecast_long,1,success,47.41193783299968,3407.0,7315.0,10722.0
+HCMC Bus,Gemini 2.5 Pro,H46,Explanation Agent,explanation,1,success,27.501917333000165,2599.0,4023.0,6622.0
+HCMC Bus,Gemini 2.5 Pro,H47,Router Agent,orchestration,1,success,5.373195583997585,953.0,635.0,1588.0
+HCMC Bus,Gemini 2.5 Pro,H47,SQL Agent,sql_generate,1,success,8.032837500002643,798.0,929.0,1727.0
+HCMC Bus,Gemini 2.5 Pro,H47,Forecast Agent,forecast.forecast_short,1,success,69.41445304199442,1606.0,10162.0,11768.0
+HCMC Bus,Gemini 2.5 Pro,H47,Forecast Agent,forecast.forecast_long,1,success,31.74274200000218,3086.0,4736.0,7822.0
+HCMC Bus,Gemini 2.5 Pro,H47,Explanation Agent,explanation,1,success,27.545236917001603,3566.0,3750.0,7316.0
+HCMC Bus,Gemini 2.5 Pro,H48,Router Agent,orchestration,1,success,6.54478708300303,960.0,733.0,1693.0
+HCMC Bus,Gemini 2.5 Pro,H48,SQL Agent,sql_generate,1,success,7.0714652910028235,799.0,841.0,1640.0
+HCMC Bus,Gemini 2.5 Pro,H48,Forecast Agent,forecast.forecast_short,1,success,25.17614675000368,379.0,3305.0,3684.0
+HCMC Bus,Gemini 2.5 Pro,H48,Explanation Agent,explanation,1,success,14.907077999996545,547.0,1974.0,2521.0
+HCMC Bus,Gemini 2.5 Pro,H49,Router Agent,orchestration,1,success,6.956654166999215,957.0,826.0,1783.0
+HCMC Bus,Gemini 2.5 Pro,H49,SQL Agent,sql_generate,1,success,7.368621125002392,797.0,919.0,1716.0
+HCMC Bus,Gemini 2.5 Pro,H49,Forecast Agent,forecast.forecast_short,1,success,37.57364887499716,400.0,5403.0,5803.0
+HCMC Bus,Gemini 2.5 Pro,H49,Forecast Agent,forecast.forecast_long,1,success,23.813428000001295,488.0,3339.0,3827.0
+HCMC Bus,Gemini 2.5 Pro,H49,Explanation Agent,explanation,1,success,21.24236550000205,618.0,3018.0,3636.0
+HCMC Bus,Gemini 2.5 Pro,H50,Router Agent,orchestration,1,success,6.435592665999138,957.0,659.0,1616.0
+HCMC Bus,Gemini 2.5 Pro,H50,SQL Agent,sql_generate,1,success,8.698599584000476,797.0,932.0,1729.0
+HCMC Bus,Gemini 2.5 Pro,H50,Forecast Agent,forecast.forecast_short,1,success,53.95609516699915,404.0,7818.0,8222.0
+HCMC Bus,Gemini 2.5 Pro,H50,Forecast Agent,forecast.forecast_long,1,success,47.82547733299725,462.0,7060.0,7522.0
+HCMC Bus,Gemini 2.5 Pro,H50,Explanation Agent,explanation,1,success,25.59597733299597,713.0,3600.0,4313.0
+HCMC Bus,Gemini 2.5 Pro,H51,Router Agent,orchestration,1,success,8.661383749997185,951.0,1018.0,1969.0
+HCMC Bus,Gemini 2.5 Pro,H51,SQL Agent,sql_generate,1,success,9.824847500000033,787.0,1221.0,2008.0
+HCMC Bus,Gemini 2.5 Pro,H51,Forecast Agent,forecast.forecast_short,1,success,55.700507291992835,383.0,8389.0,8772.0
+HCMC Bus,Gemini 2.5 Pro,H51,Explanation Agent,explanation,1,success,25.905831582997052,913.0,3552.0,4465.0
+HCMC Bus,Gemini 2.5 Pro,H52,Router Agent,orchestration,1,success,6.936690875001659,966.0,816.0,1782.0
+HCMC Bus,Gemini 2.5 Pro,H52,SQL Agent,sql_generate,1,success,9.52102224999544,808.0,1131.0,1939.0
+HCMC Bus,Gemini 2.5 Pro,H52,Forecast Agent,forecast.forecast_short,1,success,38.904083499997796,491.0,5737.0,6228.0
+HCMC Bus,Gemini 2.5 Pro,H52,Explanation Agent,explanation,1,success,24.004687708998972,1354.0,3310.0,4664.0
+HCMC Bus,Gemini 2.5 Pro,H53,Router Agent,orchestration,1,success,6.254102958002477,958.0,697.0,1655.0
+HCMC Bus,Gemini 2.5 Pro,H53,SQL Agent,sql_generate,1,success,7.405098041999736,796.0,920.0,1716.0
+HCMC Bus,Gemini 2.5 Pro,H53,Forecast Agent,forecast.forecast_short,1,success,40.19978883300064,237.0,5445.0,5682.0
+HCMC Bus,Gemini 2.5 Pro,H53,Forecast Agent,forecast.forecast_long,1,success,55.09195870800613,265.0,7507.0,7772.0
+HCMC Bus,Gemini 2.5 Pro,H53,Explanation Agent,explanation,1,success,17.916929832994356,543.0,2440.0,2983.0
+HCMC Bus,Gemini 2.5 Pro,H54,Router Agent,orchestration,1,success,8.181356875000347,955.0,668.0,1623.0
+HCMC Bus,Gemini 2.5 Pro,H54,SQL Agent,sql_generate,1,success,7.983218417000899,797.0,937.0,1734.0
+HCMC Bus,Gemini 2.5 Pro,H54,Forecast Agent,forecast.forecast_short,1,success,36.756420375000744,237.0,5180.0,5417.0
+HCMC Bus,Gemini 2.5 Pro,H54,Explanation Agent,explanation,1,success,19.657861207997485,565.0,2744.0,3309.0
+HCMC Bus,Gemini 2.5 Pro,H55,Router Agent,orchestration,1,success,6.120723833999364,957.0,691.0,1648.0
+HCMC Bus,Gemini 2.5 Pro,H55,SQL Agent,sql_generate,1,success,12.684092916999361,797.0,1647.0,2444.0
+HCMC Bus,Gemini 2.5 Pro,H55,Forecast Agent,forecast.forecast_short,1,success,48.644616666999354,228.0,6974.0,7202.0
+HCMC Bus,Gemini 2.5 Pro,H55,Explanation Agent,explanation,1,success,19.455805874997168,608.0,2800.0,3408.0
+HCMC Bus,Gemini 2.5 Pro,H56,Router Agent,orchestration,1,success,6.319764792002388,956.0,690.0,1646.0
+HCMC Bus,Gemini 2.5 Pro,H56,SQL Agent,sql_generate,1,success,10.340122374997009,797.0,1217.0,2014.0
+HCMC Bus,Gemini 2.5 Pro,H56,Forecast Agent,forecast.forecast_short,1,success,49.55443929199828,245.0,6927.0,7172.0
+HCMC Bus,Gemini 2.5 Pro,H56,Explanation Agent,explanation,1,success,23.59594875000039,639.0,3445.0,4084.0
+HCMC Bus,Gemini 2.5 Pro,H57,Router Agent,orchestration,1,success,5.900947374997486,955.0,663.0,1618.0
+HCMC Bus,Gemini 2.5 Pro,H57,SQL Agent,sql_generate,1,success,7.832422375002352,796.0,977.0,1773.0
+HCMC Bus,Gemini 2.5 Pro,H57,Forecast Agent,forecast.forecast_short,1,success,30.096627500002796,253.0,4307.0,4560.0
+HCMC Bus,Gemini 2.5 Pro,H57,Explanation Agent,explanation,1,success,20.989793666005426,785.0,3002.0,3787.0
+HCMC Bus,Gemini 2.5 Pro,H58,Router Agent,orchestration,1,success,5.922314292001829,960.0,667.0,1627.0
+HCMC Bus,Gemini 2.5 Pro,H58,SQL Agent,sql_generate,1,success,7.74794058399857,798.0,962.0,1760.0
+HCMC Bus,Gemini 2.5 Pro,H58,Forecast Agent,forecast.forecast_short,1,success,55.62685862500075,288.0,7724.0,8012.0
+HCMC Bus,Gemini 2.5 Pro,H58,Explanation Agent,explanation,1,success,35.01754029199947,937.0,4857.0,5794.0
+HCMC Bus,Gemini 2.5 Pro,H59,Router Agent,orchestration,1,success,29.077892790999613,947.0,3856.0,4803.0
+HCMC Bus,Gemini 2.5 Pro,H60,Router Agent,orchestration,1,success,6.284878917002061,961.0,758.0,1719.0
+HCMC Bus,Gemini 2.5 Pro,H60,SQL Agent,sql_generate,1,success,9.437632584005769,799.0,1129.0,1928.0
+HCMC Bus,Gemini 2.5 Pro,H60,Forecast Agent,forecast.forecast_short,1,success,5.2139646249997895,174.0,536.0,710.0
+HCMC Bus,Gemini 2.5 Pro,H60,Explanation Agent,explanation,1,success,14.642229624994798,576.0,1938.0,2514.0
+HCMC Bus,Gemini 2.5 Pro,H61,Router Agent,orchestration,1,success,5.807869124997524,956.0,624.0,1580.0
+HCMC Bus,Gemini 2.5 Pro,H61,SQL Agent,sql_generate,1,success,7.98866758299846,796.0,934.0,1730.0
+HCMC Bus,Gemini 2.5 Pro,H61,Forecast Agent,forecast.forecast_short,1,success,24.173472500006028,193.0,3296.0,3489.0
+HCMC Bus,Gemini 2.5 Pro,H61,Explanation Agent,explanation,1,success,18.295844791995478,603.0,2572.0,3175.0
+HCMC Bus,Gemini 2.5 Pro,H62,Router Agent,orchestration,1,success,5.882756417006021,954.0,697.0,1651.0
+HCMC Bus,Gemini 2.5 Pro,H62,SQL Agent,sql_generate,1,success,7.605995749996509,794.0,899.0,1693.0
+HCMC Bus,Gemini 2.5 Pro,H62,Forecast Agent,forecast.forecast_short,1,success,35.50470537500223,193.0,4795.0,4988.0
+HCMC Bus,Gemini 2.5 Pro,H62,Explanation Agent,explanation,1,success,20.756208582999534,671.0,2948.0,3619.0
+HCMC Bus,Gemini 2.5 Pro,H63,Router Agent,orchestration,1,success,7.083514791003836,970.0,817.0,1787.0
+HCMC Bus,Gemini 2.5 Pro,H63,SQL Agent,sql_generate,1,success,8.960931292000168,811.0,1145.0,1956.0
+HCMC Bus,Gemini 2.5 Pro,H63,Forecast Agent,forecast.forecast_short,1,success,42.23365908300184,198.0,5993.0,6191.0
+HCMC Bus,Gemini 2.5 Pro,H63,Explanation Agent,explanation,1,success,22.346324207996076,843.0,2972.0,3815.0
+HCMC Bus,Gemma4 (gemma4:e4b),H01,Router Agent,orchestration,1,success,20.79029158299818,963.0,477.0,1440.0
+HCMC Bus,Gemma4 (gemma4:e4b),H01,SQL Agent,sql_generate,1,success,38.081494207996,801.0,781.0,1582.0
+HCMC Bus,Gemma4 (gemma4:e4b),H01,Forecast Agent,forecast.forecast_short,1,error,168.60904283300624,1618.0,2478.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H01,Forecast Agent,forecast.forecast_short,2,error,163.40281012500054,1618.0,2478.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H01,Forecast Agent,forecast.forecast_long,1,error,84.81103383300069,3096.0,1000.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H01,Forecast Agent,forecast.forecast_long,2,error,64.2040704999963,3096.0,1000.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H01,Explanation Agent,explanation,1,success,58.74926712500019,774.0,860.0,1634.0
+HCMC Bus,Gemma4 (gemma4:e4b),H02,Router Agent,orchestration,1,success,36.39185966700461,968.0,513.0,1481.0
+HCMC Bus,Gemma4 (gemma4:e4b),H02,SQL Agent,sql_generate,1,success,57.10978791699745,813.0,777.0,1590.0
+HCMC Bus,Gemma4 (gemma4:e4b),H02,Forecast Agent,forecast.forecast_short,1,success,82.17088683300244,1621.0,1035.0,2656.0
+HCMC Bus,Gemma4 (gemma4:e4b),H02,Forecast Agent,forecast.forecast_long,1,error,85.85112158399716,3098.0,998.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H02,Forecast Agent,forecast.forecast_long,2,error,64.46358420800243,3098.0,998.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H02,Explanation Agent,explanation,1,success,68.17994775000261,1478.0,912.0,2390.0
+HCMC Bus,Gemma4 (gemma4:e4b),H03,Router Agent,orchestration,1,success,41.67251737499464,979.0,601.0,1580.0
+HCMC Bus,Gemma4 (gemma4:e4b),H03,SQL Agent,sql_generate,1,success,57.822791792001226,815.0,823.0,1638.0
+HCMC Bus,Gemma4 (gemma4:e4b),H03,Forecast Agent,forecast.forecast_short,1,error,174.2308503749955,1621.0,2475.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H03,Forecast Agent,forecast.forecast_short,2,success,162.17782450000232,1621.0,2412.0,4033.0
+HCMC Bus,Gemma4 (gemma4:e4b),H03,Forecast Agent,forecast.forecast_long,1,error,87.36112012500234,3099.0,997.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H03,Forecast Agent,forecast.forecast_long,2,error,67.22808025000268,3099.0,997.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H03,Explanation Agent,explanation,1,success,93.85412812499999,1638.0,1233.0,2871.0
+HCMC Bus,Gemma4 (gemma4:e4b),H04,Router Agent,orchestration,1,success,35.78609624999808,976.0,504.0,1480.0
+HCMC Bus,Gemma4 (gemma4:e4b),H04,SQL Agent,sql_generate,1,success,58.59166962499876,813.0,805.0,1618.0
+HCMC Bus,Gemma4 (gemma4:e4b),H04,Forecast Agent,forecast.forecast_short,1,success,96.96473900000274,1621.0,1277.0,2898.0
+HCMC Bus,Gemma4 (gemma4:e4b),H04,Forecast Agent,forecast.forecast_long,1,error,86.1011234999969,3101.0,995.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H04,Forecast Agent,forecast.forecast_long,2,error,65.31927866600017,3101.0,995.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H04,Explanation Agent,explanation,1,success,100.89955875000305,2745.0,1254.0,3999.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,Router Agent,orchestration,1,success,34.46795358300005,971.0,493.0,1464.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,SQL Agent,sql_generate,1,success,58.2510708339978,810.0,811.0,1621.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,Forecast Agent,forecast.forecast_short,1,error,177.02785862500605,1621.0,2475.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,Forecast Agent,forecast.forecast_short,2,error,164.91807645800145,1621.0,2475.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,Forecast Agent,forecast.forecast_long,1,error,88.05309270799626,3099.0,997.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,Forecast Agent,forecast.forecast_long,2,error,66.31919545800338,3099.0,997.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,Explanation Agent,explanation,1,error,38.23788720899756,3852.0,244.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H05,Explanation Agent,explanation,2,error,18.422386291000294,3852.0,244.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H06,Router Agent,orchestration,1,success,45.323025375000725,971.0,624.0,1595.0
+HCMC Bus,Gemma4 (gemma4:e4b),H06,SQL Agent,sql_generate,1,success,59.564253542004735,809.0,848.0,1657.0
+HCMC Bus,Gemma4 (gemma4:e4b),H06,Forecast Agent,forecast.forecast_short,1,success,59.505379125002946,395.0,889.0,1284.0
+HCMC Bus,Gemma4 (gemma4:e4b),H06,Forecast Agent,forecast.forecast_long,1,success,106.9431220829938,494.0,1562.0,2056.0
+HCMC Bus,Gemma4 (gemma4:e4b),H06,Explanation Agent,explanation,1,success,58.702114957995946,558.0,865.0,1423.0
+HCMC Bus,Gemma4 (gemma4:e4b),H07,Router Agent,orchestration,1,success,38.44783170899609,971.0,547.0,1518.0
+HCMC Bus,Gemma4 (gemma4:e4b),H07,SQL Agent,sql_generate,1,success,57.46684404199914,812.0,785.0,1597.0
+HCMC Bus,Gemma4 (gemma4:e4b),H07,Forecast Agent,forecast.forecast_short,1,success,80.1187123339987,395.0,1148.0,1543.0
+HCMC Bus,Gemma4 (gemma4:e4b),H07,Explanation Agent,explanation,1,success,67.0776357499999,629.0,949.0,1578.0
+HCMC Bus,Gemma4 (gemma4:e4b),H08,Router Agent,orchestration,1,success,44.609683374997985,980.0,612.0,1592.0
+HCMC Bus,Gemma4 (gemma4:e4b),H08,SQL Agent,sql_generate,1,success,64.55778841600113,820.0,856.0,1676.0
+HCMC Bus,Gemma4 (gemma4:e4b),H08,Forecast Agent,forecast.forecast_short,1,success,136.4188321249967,342.0,2027.0,2369.0
+HCMC Bus,Gemma4 (gemma4:e4b),H08,Explanation Agent,explanation,1,success,58.963415749996784,729.0,822.0,1551.0
+HCMC Bus,Gemma4 (gemma4:e4b),H09,Router Agent,orchestration,1,success,38.274485458001436,970.0,507.0,1477.0
+HCMC Bus,Gemma4 (gemma4:e4b),H09,SQL Agent,sql_generate,1,success,59.00724975000048,810.0,795.0,1605.0
+HCMC Bus,Gemma4 (gemma4:e4b),H09,Forecast Agent,forecast.forecast_short,1,success,75.3689904999992,398.0,1130.0,1528.0
+HCMC Bus,Gemma4 (gemma4:e4b),H09,Explanation Agent,explanation,1,success,90.9294650419979,925.0,1331.0,2256.0
+HCMC Bus,Gemma4 (gemma4:e4b),H10,Router Agent,orchestration,1,success,30.78634479100583,973.0,451.0,1424.0
+HCMC Bus,Gemma4 (gemma4:e4b),H10,SQL Agent,sql_generate,1,success,59.85476387500239,813.0,867.0,1680.0
+HCMC Bus,Gemma4 (gemma4:e4b),H10,Forecast Agent,forecast.forecast_short,1,success,85.69357137499901,518.0,1291.0,1809.0
+HCMC Bus,Gemma4 (gemma4:e4b),H10,Explanation Agent,explanation,1,success,69.6084594999993,1425.0,967.0,2392.0
+HCMC Bus,Gemma4 (gemma4:e4b),H11,Router Agent,orchestration,1,success,31.124276582995662,962.0,447.0,1409.0
+HCMC Bus,Gemma4 (gemma4:e4b),H11,SQL Agent,sql_generate,1,success,52.504626666996046,801.0,751.0,1552.0
+HCMC Bus,Gemma4 (gemma4:e4b),H11,Forecast Agent,forecast.forecast_short,1,success,81.72209995899902,262.0,1251.0,1513.0
+HCMC Bus,Gemma4 (gemma4:e4b),H11,Forecast Agent,forecast.forecast_long,1,success,77.11269975000323,293.0,1177.0,1470.0
+HCMC Bus,Gemma4 (gemma4:e4b),H11,Explanation Agent,explanation,1,success,62.6431340420022,551.0,940.0,1491.0
+HCMC Bus,Gemma4 (gemma4:e4b),H12,Router Agent,orchestration,1,success,36.895347291996586,970.0,553.0,1523.0
+HCMC Bus,Gemma4 (gemma4:e4b),H12,SQL Agent,sql_generate,1,success,54.41579433299921,811.0,788.0,1599.0
+HCMC Bus,Gemma4 (gemma4:e4b),H12,Forecast Agent,forecast.forecast_short,1,success,88.47914679200039,260.0,1342.0,1602.0
+HCMC Bus,Gemma4 (gemma4:e4b),H12,Forecast Agent,forecast.forecast_long,1,success,91.6653859999933,280.0,1439.0,1719.0
+HCMC Bus,Gemma4 (gemma4:e4b),H12,Explanation Agent,explanation,1,success,64.29057233299682,584.0,963.0,1547.0
+HCMC Bus,Gemma4 (gemma4:e4b),H13,Router Agent,orchestration,1,success,38.48689600000216,971.0,549.0,1520.0
+HCMC Bus,Gemma4 (gemma4:e4b),H13,SQL Agent,sql_generate,1,success,59.093760000003385,809.0,785.0,1594.0
+HCMC Bus,Gemma4 (gemma4:e4b),H13,Forecast Agent,forecast.forecast_short,1,success,102.72187700000359,260.0,1515.0,1775.0
+HCMC Bus,Gemma4 (gemma4:e4b),H13,Forecast Agent,forecast.forecast_long,1,success,76.60719087500183,270.0,1141.0,1411.0
+HCMC Bus,Gemma4 (gemma4:e4b),H13,Explanation Agent,explanation,1,success,71.29184566599724,632.0,1019.0,1651.0
+HCMC Bus,Gemma4 (gemma4:e4b),H14,Router Agent,orchestration,1,success,41.46293954199791,967.0,583.0,1550.0
+HCMC Bus,Gemma4 (gemma4:e4b),H14,SQL Agent,sql_generate,1,success,57.253331083004014,809.0,801.0,1610.0
+HCMC Bus,Gemma4 (gemma4:e4b),H14,Forecast Agent,forecast.forecast_short,1,success,81.62260550000065,259.0,1250.0,1509.0
+HCMC Bus,Gemma4 (gemma4:e4b),H14,Explanation Agent,explanation,1,success,72.7581885000036,652.0,1063.0,1715.0
+HCMC Bus,Gemma4 (gemma4:e4b),H15,Router Agent,orchestration,1,success,39.85338845899969,974.0,578.0,1552.0
+HCMC Bus,Gemma4 (gemma4:e4b),H15,SQL Agent,sql_generate,1,success,59.143834499998775,814.0,841.0,1655.0
+HCMC Bus,Gemma4 (gemma4:e4b),H15,Forecast Agent,forecast.forecast_short,1,success,108.41424079200078,289.0,1657.0,1946.0
+HCMC Bus,Gemma4 (gemma4:e4b),H15,Explanation Agent,explanation,1,success,93.06222729100409,800.0,1356.0,2156.0
+HCMC Bus,Gemma4 (gemma4:e4b),H16,Router Agent,orchestration,1,success,38.7095086249974,972.0,549.0,1521.0
+HCMC Bus,Gemma4 (gemma4:e4b),H16,SQL Agent,sql_generate,1,success,71.11637987499853,813.0,1027.0,1840.0
+HCMC Bus,Gemma4 (gemma4:e4b),H16,Forecast Agent,forecast.forecast_short,1,success,83.29729058299563,272.0,1286.0,1558.0
+HCMC Bus,Gemma4 (gemma4:e4b),H16,Explanation Agent,explanation,1,success,70.17725950000022,947.0,1004.0,1951.0
+HCMC Bus,Gemma4 (gemma4:e4b),H17,Router Agent,orchestration,1,success,41.02189674999681,972.0,593.0,1565.0
+HCMC Bus,Gemma4 (gemma4:e4b),H17,SQL Agent,sql_generate,1,success,59.99562800000422,812.0,858.0,1670.0
+HCMC Bus,Gemma4 (gemma4:e4b),H17,Forecast Agent,forecast.forecast_short,1,success,19.587328624998918,198.0,285.0,483.0
+HCMC Bus,Gemma4 (gemma4:e4b),H17,Explanation Agent,explanation,1,success,52.65311216600094,549.0,753.0,1302.0
+HCMC Bus,Gemma4 (gemma4:e4b),H18,Router Agent,orchestration,1,success,40.288810500002,972.0,571.0,1543.0
+HCMC Bus,Gemma4 (gemma4:e4b),H18,SQL Agent,sql_generate,1,success,56.40533058299479,812.0,801.0,1613.0
+HCMC Bus,Gemma4 (gemma4:e4b),H18,Forecast Agent,forecast.forecast_short,1,success,26.59584333300154,188.0,393.0,581.0
+HCMC Bus,Gemma4 (gemma4:e4b),H18,Explanation Agent,explanation,1,success,72.60935162500391,584.0,1064.0,1648.0
+HCMC Bus,Gemma4 (gemma4:e4b),H19,Router Agent,orchestration,1,success,34.176641958998516,962.0,495.0,1457.0
+HCMC Bus,Gemma4 (gemma4:e4b),H19,SQL Agent,sql_generate,1,success,53.81864695799595,801.0,764.0,1565.0
+HCMC Bus,Gemma4 (gemma4:e4b),H19,Forecast Agent,forecast.forecast_short,1,success,45.395817333002924,208.0,705.0,913.0
+HCMC Bus,Gemma4 (gemma4:e4b),H19,Explanation Agent,explanation,1,success,68.61307262500486,617.0,1011.0,1628.0
+HCMC Bus,Gemma4 (gemma4:e4b),H20,Router Agent,orchestration,1,success,43.18360845799907,974.0,626.0,1600.0
+HCMC Bus,Gemma4 (gemma4:e4b),H20,SQL Agent,sql_generate,1,success,57.22555787499732,812.0,807.0,1619.0
+HCMC Bus,Gemma4 (gemma4:e4b),H20,Forecast Agent,forecast.forecast_short,1,success,75.39512779199868,208.0,1128.0,1336.0
+HCMC Bus,Gemma4 (gemma4:e4b),H20,Explanation Agent,explanation,1,success,68.67269383299572,689.0,966.0,1655.0
+HCMC Bus,Gemma4 (gemma4:e4b),H21,Router Agent,orchestration,1,success,39.67462529200566,982.0,551.0,1533.0
+HCMC Bus,Gemma4 (gemma4:e4b),H21,SQL Agent,sql_generate,1,success,68.26823012500245,823.0,936.0,1759.0
+HCMC Bus,Gemma4 (gemma4:e4b),H21,Forecast Agent,forecast.forecast_short,1,success,136.87807600000087,214.0,2070.0,2284.0
+HCMC Bus,Gemma4 (gemma4:e4b),H21,Explanation Agent,explanation,1,success,66.3151591249989,849.0,902.0,1751.0
+HCMC Bus,Gemma4 (gemma4:e4b),H22,Router Agent,orchestration,1,success,36.74763104200247,967.0,529.0,1496.0
+HCMC Bus,Gemma4 (gemma4:e4b),H22,SQL Agent,sql_generate,1,success,56.47584800000186,812.0,802.0,1614.0
+HCMC Bus,Gemma4 (gemma4:e4b),H22,Forecast Agent,forecast.forecast_short,1,error,180.39561062499706,1538.0,2558.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H22,Forecast Agent,forecast.forecast_short,2,error,171.5049502499969,1538.0,2558.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H22,Forecast Agent,forecast.forecast_long,1,error,95.2675169590002,2954.0,1142.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H22,Forecast Agent,forecast.forecast_long,2,error,75.0837144160032,2954.0,1142.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H22,Explanation Agent,explanation,1,success,97.71302020800067,786.0,1408.0,2194.0
+HCMC Bus,Gemma4 (gemma4:e4b),H23,Router Agent,orchestration,1,success,36.93705745799525,974.0,521.0,1495.0
+HCMC Bus,Gemma4 (gemma4:e4b),H23,SQL Agent,sql_generate,1,success,50.747926167001424,810.0,708.0,1518.0
+HCMC Bus,Gemma4 (gemma4:e4b),H23,Forecast Agent,forecast.forecast_short,1,success,89.16088104099617,1621.0,1213.0,2834.0
+HCMC Bus,Gemma4 (gemma4:e4b),H23,Forecast Agent,forecast.forecast_long,1,error,84.44165529200109,3086.0,1010.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H23,Forecast Agent,forecast.forecast_long,2,error,63.8759302499966,3086.0,1010.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H23,Explanation Agent,explanation,1,success,98.27396829200006,1559.0,1376.0,2935.0
+HCMC Bus,Gemma4 (gemma4:e4b),H24,Router Agent,orchestration,1,success,39.52596587500011,973.0,583.0,1556.0
+HCMC Bus,Gemma4 (gemma4:e4b),H24,SQL Agent,sql_generate,1,success,52.62117508400115,810.0,730.0,1540.0
+HCMC Bus,Gemma4 (gemma4:e4b),H24,Forecast Agent,forecast.forecast_short,1,error,174.54924537499755,1535.0,2561.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H24,Forecast Agent,forecast.forecast_short,2,error,163.17016912499093,1535.0,2561.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H24,Forecast Agent,forecast.forecast_long,1,error,92.59170345799066,2945.0,1151.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H24,Forecast Agent,forecast.forecast_long,2,error,73.67284687499341,2945.0,1151.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H24,Explanation Agent,explanation,1,success,84.52099808299681,1632.0,1146.0,2778.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,Router Agent,orchestration,1,success,40.854132291002315,975.0,587.0,1562.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,SQL Agent,sql_generate,1,success,59.39166549999209,814.0,813.0,1627.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,Forecast Agent,forecast.forecast_short,1,error,170.41380475000187,1621.0,2475.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,Forecast Agent,forecast.forecast_short,2,error,162.4115227500006,1621.0,2475.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,Forecast Agent,forecast.forecast_long,1,error,86.82414745799906,3101.0,995.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,Forecast Agent,forecast.forecast_long,2,error,64.42513508399134,3101.0,995.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,Explanation Agent,explanation,1,error,106.79751529100758,2746.0,1350.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H25,Explanation Agent,explanation,2,error,87.7106312919932,2746.0,1350.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H26,Router Agent,orchestration,1,success,32.01230366600794,973.0,450.0,1423.0
+HCMC Bus,Gemma4 (gemma4:e4b),H26,SQL Agent,sql_generate,1,success,57.00265199999558,813.0,791.0,1604.0
+HCMC Bus,Gemma4 (gemma4:e4b),H26,Forecast Agent,forecast.forecast_short,1,success,109.1006004170049,1621.0,1561.0,3182.0
+HCMC Bus,Gemma4 (gemma4:e4b),H26,Forecast Agent,forecast.forecast_long,1,error,84.06699762499193,3099.0,997.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H26,Forecast Agent,forecast.forecast_long,2,error,65.96203845900891,3099.0,997.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H26,Explanation Agent,explanation,1,error,55.04033312499814,3583.0,513.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H26,Explanation Agent,explanation,2,error,35.627057790989056,3583.0,513.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H27,Router Agent,orchestration,1,success,34.046573457992054,962.0,500.0,1462.0
+HCMC Bus,Gemma4 (gemma4:e4b),H27,SQL Agent,sql_generate,1,success,55.94177358299203,801.0,820.0,1621.0
+HCMC Bus,Gemma4 (gemma4:e4b),H27,Forecast Agent,forecast.forecast_short,1,success,60.625695791997714,395.0,934.0,1329.0
+HCMC Bus,Gemma4 (gemma4:e4b),H27,Forecast Agent,forecast.forecast_long,1,success,107.86266591699678,494.0,1680.0,2174.0
+HCMC Bus,Gemma4 (gemma4:e4b),H27,Explanation Agent,explanation,1,success,61.61825412500184,552.0,926.0,1478.0
+HCMC Bus,Gemma4 (gemma4:e4b),H28,Router Agent,orchestration,1,success,39.16633591699065,975.0,574.0,1549.0
+HCMC Bus,Gemma4 (gemma4:e4b),H28,SQL Agent,sql_generate,1,success,58.141662833993905,814.0,852.0,1666.0
+HCMC Bus,Gemma4 (gemma4:e4b),H28,Forecast Agent,forecast.forecast_short,1,success,95.09148279200599,394.0,1488.0,1882.0
+HCMC Bus,Gemma4 (gemma4:e4b),H28,Explanation Agent,explanation,1,success,70.13694595899142,634.0,1059.0,1693.0
+HCMC Bus,Gemma4 (gemma4:e4b),H29,Router Agent,orchestration,1,success,38.24965987500036,971.0,560.0,1531.0
+HCMC Bus,Gemma4 (gemma4:e4b),H29,SQL Agent,sql_generate,1,success,60.46069074999832,811.0,871.0,1682.0
+HCMC Bus,Gemma4 (gemma4:e4b),H29,Forecast Agent,forecast.forecast_short,1,success,117.61148266699456,417.0,1831.0,2248.0
+HCMC Bus,Gemma4 (gemma4:e4b),H29,Forecast Agent,forecast.forecast_long,1,success,85.97615991698694,473.0,1315.0,1788.0
+HCMC Bus,Gemma4 (gemma4:e4b),H29,Explanation Agent,explanation,1,success,76.33094008400803,737.0,1133.0,1870.0
+HCMC Bus,Gemma4 (gemma4:e4b),H30,Router Agent,orchestration,1,success,42.32928170899686,973.0,635.0,1608.0
+HCMC Bus,Gemma4 (gemma4:e4b),H30,SQL Agent,sql_generate,1,success,55.452453125006286,813.0,815.0,1628.0
+HCMC Bus,Gemma4 (gemma4:e4b),H30,Forecast Agent,forecast.forecast_short,1,success,107.01838800001133,401.0,1668.0,2069.0
+HCMC Bus,Gemma4 (gemma4:e4b),H30,Explanation Agent,explanation,1,success,84.42474120800034,950.0,1207.0,2157.0
+HCMC Bus,Gemma4 (gemma4:e4b),H31,Router Agent,orchestration,1,success,43.84000058300444,973.0,609.0,1582.0
+HCMC Bus,Gemma4 (gemma4:e4b),H31,SQL Agent,sql_generate,1,success,62.313396209006896,811.0,853.0,1664.0
+HCMC Bus,Gemma4 (gemma4:e4b),H31,Forecast Agent,forecast.forecast_short,1,success,74.16710295899247,457.0,1057.0,1514.0
+HCMC Bus,Gemma4 (gemma4:e4b),H31,Explanation Agent,explanation,1,success,84.35880191600882,1458.0,1107.0,2565.0
+HCMC Bus,Gemma4 (gemma4:e4b),H32,Router Agent,orchestration,1,success,38.59842491699965,972.0,547.0,1519.0
+HCMC Bus,Gemma4 (gemma4:e4b),H32,SQL Agent,sql_generate,1,success,58.90674974999274,813.0,808.0,1621.0
+HCMC Bus,Gemma4 (gemma4:e4b),H32,Forecast Agent,forecast.forecast_short,1,success,85.86983454100846,252.0,1273.0,1525.0
+HCMC Bus,Gemma4 (gemma4:e4b),H32,Explanation Agent,explanation,1,success,65.5792292499973,548.0,966.0,1514.0
+HCMC Bus,Gemma4 (gemma4:e4b),H33,Router Agent,orchestration,1,success,40.60626958300418,971.0,569.0,1540.0
+HCMC Bus,Gemma4 (gemma4:e4b),H33,SQL Agent,sql_generate,1,success,57.15267016699363,809.0,785.0,1594.0
+HCMC Bus,Gemma4 (gemma4:e4b),H33,Forecast Agent,forecast.forecast_short,1,success,95.01791283300554,260.0,1423.0,1683.0
+HCMC Bus,Gemma4 (gemma4:e4b),H33,Forecast Agent,forecast.forecast_long,1,success,137.98808166700474,281.0,2107.0,2388.0
+HCMC Bus,Gemma4 (gemma4:e4b),H33,Explanation Agent,explanation,1,success,65.87131116700766,584.0,956.0,1540.0
+HCMC Bus,Gemma4 (gemma4:e4b),H34,Router Agent,orchestration,1,success,38.40297304200067,971.0,535.0,1506.0
+HCMC Bus,Gemma4 (gemma4:e4b),H34,SQL Agent,sql_generate,1,success,71.59948691699537,813.0,1004.0,1817.0
+HCMC Bus,Gemma4 (gemma4:e4b),H34,Forecast Agent,forecast.forecast_short,1,success,120.82407991700165,256.0,1803.0,2059.0
+HCMC Bus,Gemma4 (gemma4:e4b),H34,Forecast Agent,forecast.forecast_long,1,success,83.78247058299894,265.0,1222.0,1487.0
+HCMC Bus,Gemma4 (gemma4:e4b),H34,Explanation Agent,explanation,1,success,73.34597070798918,633.0,1049.0,1682.0
+HCMC Bus,Gemma4 (gemma4:e4b),H35,Router Agent,orchestration,1,success,34.06975033300114,964.0,465.0,1429.0
+HCMC Bus,Gemma4 (gemma4:e4b),H35,SQL Agent,sql_generate,1,success,55.60183308299747,802.0,759.0,1561.0
+HCMC Bus,Gemma4 (gemma4:e4b),H35,Forecast Agent,forecast.forecast_short,1,success,90.20512387499912,259.0,1343.0,1602.0
+HCMC Bus,Gemma4 (gemma4:e4b),H35,Explanation Agent,explanation,1,success,63.585017584002344,647.0,889.0,1536.0
+HCMC Bus,Gemma4 (gemma4:e4b),H36,Router Agent,orchestration,1,success,37.58490945900121,984.0,616.0,1600.0
+HCMC Bus,Gemma4 (gemma4:e4b),H36,SQL Agent,sql_generate,1,success,42.93786783300311,826.0,901.0,1727.0
+HCMC Bus,Gemma4 (gemma4:e4b),H36,Forecast Agent,forecast.forecast_short,1,success,80.46404391699616,289.0,1375.0,1664.0
+HCMC Bus,Gemma4 (gemma4:e4b),H36,Explanation Agent,explanation,1,success,55.27045158299734,803.0,775.0,1578.0
+HCMC Bus,Gemma4 (gemma4:e4b),H37,Router Agent,orchestration,1,success,43.96305516699795,973.0,603.0,1576.0
+HCMC Bus,Gemma4 (gemma4:e4b),H37,SQL Agent,sql_generate,1,success,71.22201012499863,814.0,978.0,1792.0
+HCMC Bus,Gemma4 (gemma4:e4b),H37,Forecast Agent,forecast.forecast_short,1,success,112.29462816700106,304.0,1648.0,1952.0
+HCMC Bus,Gemma4 (gemma4:e4b),H37,Explanation Agent,explanation,1,success,74.81960362500104,953.0,1031.0,1984.0
+HCMC Bus,Gemma4 (gemma4:e4b),H38,Router Agent,orchestration,1,success,64.01253066699428,973.0,915.0,1888.0
+HCMC Bus,Gemma4 (gemma4:e4b),H38,SQL Agent,sql_generate,1,success,59.58402816699527,814.0,819.0,1633.0
+HCMC Bus,Gemma4 (gemma4:e4b),H38,Forecast Agent,forecast.forecast_short,1,success,120.3641385420051,398.0,1769.0,2167.0
+HCMC Bus,Gemma4 (gemma4:e4b),H38,Explanation Agent,explanation,1,success,72.25007020900375,947.0,993.0,1940.0
+HCMC Bus,Gemma4 (gemma4:e4b),H39,Router Agent,orchestration,1,success,39.5622179589991,972.0,547.0,1519.0
+HCMC Bus,Gemma4 (gemma4:e4b),H39,SQL Agent,sql_generate,1,success,57.23625324999739,813.0,770.0,1583.0
+HCMC Bus,Gemma4 (gemma4:e4b),H39,Forecast Agent,forecast.forecast_short,1,success,26.121119082992664,188.0,372.0,560.0
+HCMC Bus,Gemma4 (gemma4:e4b),H39,Explanation Agent,explanation,1,success,46.680271541001275,585.0,639.0,1224.0
+HCMC Bus,Gemma4 (gemma4:e4b),H40,Router Agent,orchestration,1,success,45.18932937498903,975.0,626.0,1601.0
+HCMC Bus,Gemma4 (gemma4:e4b),H40,SQL Agent,sql_generate,1,success,57.51889341700007,813.0,785.0,1598.0
+HCMC Bus,Gemma4 (gemma4:e4b),H40,Forecast Agent,forecast.forecast_short,1,success,100.46087920900027,208.0,1487.0,1695.0
+HCMC Bus,Gemma4 (gemma4:e4b),H40,Explanation Agent,explanation,1,success,73.3294435840071,629.0,1034.0,1663.0
+HCMC Bus,Gemma4 (gemma4:e4b),H41,Router Agent,orchestration,1,success,33.66801533399848,970.0,451.0,1421.0
+HCMC Bus,Gemma4 (gemma4:e4b),H41,SQL Agent,sql_generate,1,success,66.16646179099916,810.0,896.0,1706.0
+HCMC Bus,Gemma4 (gemma4:e4b),H41,Forecast Agent,forecast.forecast_short,1,success,123.66738758399151,208.0,1824.0,2032.0
+HCMC Bus,Gemma4 (gemma4:e4b),H41,Explanation Agent,explanation,1,success,62.742329375003465,691.0,883.0,1574.0
+HCMC Bus,Gemma4 (gemma4:e4b),H42,Router Agent,orchestration,1,success,40.1307780000061,973.0,574.0,1547.0
+HCMC Bus,Gemma4 (gemma4:e4b),H42,SQL Agent,sql_generate,1,success,58.05698566698993,813.0,815.0,1628.0
+HCMC Bus,Gemma4 (gemma4:e4b),H42,Forecast Agent,forecast.forecast_short,1,success,73.59616945899324,213.0,1109.0,1322.0
+HCMC Bus,Gemma4 (gemma4:e4b),H42,Explanation Agent,explanation,1,success,64.33464562500012,868.0,896.0,1764.0
+HCMC Bus,Gemma4 (gemma4:e4b),H43,Router Agent,orchestration,1,success,34.19342012499692,968.0,470.0,1438.0
+HCMC Bus,Gemma4 (gemma4:e4b),H43,SQL Agent,sql_generate,1,success,55.78068945900304,802.0,750.0,1552.0
+HCMC Bus,Gemma4 (gemma4:e4b),H43,Forecast Agent,forecast.forecast_short,1,error,174.85786604101304,1618.0,2478.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H43,Forecast Agent,forecast.forecast_short,2,error,170.66595124999003,1618.0,2478.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H43,Forecast Agent,forecast.forecast_long,1,error,90.5289674999949,3095.0,1001.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H43,Forecast Agent,forecast.forecast_long,2,error,67.78785533300834,3095.0,1001.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H43,Explanation Agent,explanation,1,success,72.96536149999883,776.0,924.0,1700.0
+HCMC Bus,Gemma4 (gemma4:e4b),H44,Router Agent,orchestration,1,success,47.658830333006335,977.0,613.0,1590.0
+HCMC Bus,Gemma4 (gemma4:e4b),H44,SQL Agent,sql_generate,1,success,60.369458082990604,814.0,788.0,1602.0
+HCMC Bus,Gemma4 (gemma4:e4b),H44,Forecast Agent,forecast.forecast_short,1,success,128.3897584170045,1605.0,1636.0,3241.0
+HCMC Bus,Gemma4 (gemma4:e4b),H44,Forecast Agent,forecast.forecast_long,1,error,101.86591333299293,3061.0,1035.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H44,Forecast Agent,forecast.forecast_long,2,error,74.9871586250083,3061.0,1035.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H44,Explanation Agent,explanation,1,success,118.43225687500671,1475.0,1432.0,2907.0
+HCMC Bus,Gemma4 (gemma4:e4b),H45,Router Agent,orchestration,1,success,46.82703629099706,975.0,583.0,1558.0
+HCMC Bus,Gemma4 (gemma4:e4b),H45,SQL Agent,sql_generate,1,success,67.35739074999583,814.0,796.0,1610.0
+HCMC Bus,Gemma4 (gemma4:e4b),H45,Forecast Agent,forecast.forecast_short,1,error,202.42388629101333,1612.0,2484.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H45,Forecast Agent,forecast.forecast_short,2,error,184.24549404199934,1612.0,2484.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H45,Forecast Agent,forecast.forecast_long,1,error,101.46481529100856,3069.0,1027.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H45,Forecast Agent,forecast.forecast_long,2,error,78.36494520799897,3069.0,1027.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H45,Explanation Agent,explanation,1,success,116.78330195799936,1636.0,1328.0,2964.0
+HCMC Bus,Gemma4 (gemma4:e4b),H46,Router Agent,orchestration,1,success,42.15627704199869,974.0,503.0,1477.0
+HCMC Bus,Gemma4 (gemma4:e4b),H46,SQL Agent,sql_generate,1,success,69.43260641599772,814.0,796.0,1610.0
+HCMC Bus,Gemma4 (gemma4:e4b),H46,Forecast Agent,forecast.forecast_short,1,error,192.84575712500373,1784.0,2312.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H46,Forecast Agent,forecast.forecast_short,2,error,177.4105636250024,1784.0,2312.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H46,Forecast Agent,forecast.forecast_long,1,error,73.89085683299345,3422.0,674.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H46,Forecast Agent,forecast.forecast_long,2,error,49.42035225000291,3422.0,674.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H46,Explanation Agent,explanation,1,success,120.31944420801301,2807.0,1278.0,4085.0
+HCMC Bus,Gemma4 (gemma4:e4b),H47,Router Agent,orchestration,1,success,39.68381025000417,968.0,512.0,1480.0
+HCMC Bus,Gemma4 (gemma4:e4b),H47,SQL Agent,sql_generate,1,success,65.50952833300107,813.0,799.0,1612.0
+HCMC Bus,Gemma4 (gemma4:e4b),H47,Forecast Agent,forecast.forecast_short,1,success,125.73811125000066,1621.0,1529.0,3150.0
+HCMC Bus,Gemma4 (gemma4:e4b),H47,Forecast Agent,forecast.forecast_long,1,error,102.23418341600336,3101.0,995.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H47,Forecast Agent,forecast.forecast_long,2,error,75.21491550000792,3101.0,995.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H47,Explanation Agent,explanation,1,error,44.98491479099903,3855.0,241.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H47,Explanation Agent,explanation,2,error,22.476351958001032,3855.0,241.0,4096.0
+HCMC Bus,Gemma4 (gemma4:e4b),H48,Router Agent,orchestration,1,success,45.535508625005605,975.0,552.0,1527.0
+HCMC Bus,Gemma4 (gemma4:e4b),H48,SQL Agent,sql_generate,1,success,73.60876645900134,814.0,931.0,1745.0
+HCMC Bus,Gemma4 (gemma4:e4b),H48,Forecast Agent,forecast.forecast_short,1,success,116.89175783300016,394.0,1548.0,1942.0
+HCMC Bus,Gemma4 (gemma4:e4b),H48,Explanation Agent,explanation,1,success,72.87582891700731,563.0,906.0,1469.0
+HCMC Bus,Gemma4 (gemma4:e4b),H49,Router Agent,orchestration,1,success,43.88891020799929,972.0,548.0,1520.0
+HCMC Bus,Gemma4 (gemma4:e4b),H49,SQL Agent,sql_generate,1,success,69.15639641700545,812.0,847.0,1659.0
+HCMC Bus,Gemma4 (gemma4:e4b),H49,Forecast Agent,forecast.forecast_short,1,success,113.08855987500283,415.0,1498.0,1913.0
+HCMC Bus,Gemma4 (gemma4:e4b),H49,Forecast Agent,forecast.forecast_long,1,success,126.33257570800197,503.0,1643.0,2146.0
+HCMC Bus,Gemma4 (gemma4:e4b),H49,Explanation Agent,explanation,1,success,83.08586370899866,639.0,1068.0,1707.0
+HCMC Bus,Gemma4 (gemma4:e4b),H50,Router Agent,orchestration,1,success,36.39411691699934,972.0,450.0,1422.0
+HCMC Bus,Gemma4 (gemma4:e4b),H50,SQL Agent,sql_generate,1,success,68.70426766599121,812.0,829.0,1641.0
+HCMC Bus,Gemma4 (gemma4:e4b),H50,Forecast Agent,forecast.forecast_short,1,success,130.41498754100758,419.0,1740.0,2159.0
+HCMC Bus,Gemma4 (gemma4:e4b),H50,Forecast Agent,forecast.forecast_long,1,success,128.55258462500933,477.0,1571.0,2048.0
+HCMC Bus,Gemma4 (gemma4:e4b),H50,Explanation Agent,explanation,1,success,94.5888937080017,730.0,1060.0,1790.0
+HCMC Bus,Gemma4 (gemma4:e4b),H51,Router Agent,orchestration,1,success,50.91848600000958,966.0,590.0,1556.0
+HCMC Bus,Gemma4 (gemma4:e4b),H51,SQL Agent,sql_generate,1,success,81.60939124999277,802.0,933.0,1735.0
+HCMC Bus,Gemma4 (gemma4:e4b),H51,Forecast Agent,forecast.forecast_short,1,success,115.0787777499936,398.0,1407.0,1805.0
+HCMC Bus,Gemma4 (gemma4:e4b),H51,Explanation Agent,explanation,1,success,86.08061066600203,928.0,985.0,1913.0
+HCMC Bus,Gemma4 (gemma4:e4b),H52,Router Agent,orchestration,1,success,53.95311512501212,981.0,661.0,1642.0
+HCMC Bus,Gemma4 (gemma4:e4b),H52,SQL Agent,sql_generate,1,success,71.16910549999739,823.0,807.0,1630.0
+HCMC Bus,Gemma4 (gemma4:e4b),H52,Forecast Agent,forecast.forecast_short,1,success,137.23798883298878,506.0,1696.0,2202.0
+HCMC Bus,Gemma4 (gemma4:e4b),H52,Explanation Agent,explanation,1,success,91.80219175000093,1369.0,1006.0,2375.0
+HCMC Bus,Gemma4 (gemma4:e4b),H53,Router Agent,orchestration,1,success,47.3564802500041,973.0,565.0,1538.0
+HCMC Bus,Gemma4 (gemma4:e4b),H53,SQL Agent,sql_generate,1,success,66.70570550000411,811.0,782.0,1593.0
+HCMC Bus,Gemma4 (gemma4:e4b),H53,Forecast Agent,forecast.forecast_short,1,success,61.31268362500123,252.0,774.0,1026.0
+HCMC Bus,Gemma4 (gemma4:e4b),H53,Forecast Agent,forecast.forecast_long,1,success,98.92910875000234,280.0,1243.0,1523.0
+HCMC Bus,Gemma4 (gemma4:e4b),H53,Explanation Agent,explanation,1,success,79.73943600000348,558.0,972.0,1530.0
+HCMC Bus,Gemma4 (gemma4:e4b),H54,Router Agent,orchestration,1,success,49.57031462500163,970.0,581.0,1551.0
+HCMC Bus,Gemma4 (gemma4:e4b),H54,SQL Agent,sql_generate,1,success,81.96579645900056,812.0,937.0,1749.0
+HCMC Bus,Gemma4 (gemma4:e4b),H54,Forecast Agent,forecast.forecast_short,1,success,70.07654662500136,252.0,852.0,1104.0
+HCMC Bus,Gemma4 (gemma4:e4b),H54,Explanation Agent,explanation,1,success,78.48515070800204,582.0,900.0,1482.0
+HCMC Bus,Gemma4 (gemma4:e4b),H55,Router Agent,orchestration,1,success,50.40959208300046,972.0,569.0,1541.0
+HCMC Bus,Gemma4 (gemma4:e4b),H55,SQL Agent,sql_generate,1,success,85.8539496250014,812.0,975.0,1787.0
+HCMC Bus,Gemma4 (gemma4:e4b),H55,Forecast Agent,forecast.forecast_short,1,success,93.3902152919909,243.0,1141.0,1384.0
+HCMC Bus,Gemma4 (gemma4:e4b),H55,Explanation Agent,explanation,1,success,81.92275716700533,623.0,967.0,1590.0
+HCMC Bus,Gemma4 (gemma4:e4b),H56,Router Agent,orchestration,1,success,45.945207625001785,971.0,521.0,1492.0
+HCMC Bus,Gemma4 (gemma4:e4b),H56,SQL Agent,sql_generate,1,success,68.55936383300286,812.0,807.0,1619.0
+HCMC Bus,Gemma4 (gemma4:e4b),H56,Forecast Agent,forecast.forecast_short,1,success,127.91357245900144,260.0,1633.0,1893.0
+HCMC Bus,Gemma4 (gemma4:e4b),H56,Explanation Agent,explanation,1,success,79.75382354200701,654.0,962.0,1616.0
+HCMC Bus,Gemma4 (gemma4:e4b),H57,Router Agent,orchestration,1,success,43.1549060420075,970.0,550.0,1520.0
+HCMC Bus,Gemma4 (gemma4:e4b),H57,SQL Agent,sql_generate,1,success,66.00708687498991,811.0,803.0,1614.0
+HCMC Bus,Gemma4 (gemma4:e4b),H57,Forecast Agent,forecast.forecast_short,1,success,91.66596454200044,268.0,1197.0,1465.0
+HCMC Bus,Gemma4 (gemma4:e4b),H57,Explanation Agent,explanation,1,success,67.34711604200129,802.0,808.0,1610.0
+HCMC Bus,Gemma4 (gemma4:e4b),H58,Router Agent,orchestration,1,success,42.12901408299513,975.0,516.0,1491.0
+HCMC Bus,Gemma4 (gemma4:e4b),H58,SQL Agent,sql_generate,1,success,79.97000291699078,813.0,992.0,1805.0
+HCMC Bus,Gemma4 (gemma4:e4b),H58,Forecast Agent,forecast.forecast_short,1,success,122.86299054099072,303.0,1554.0,1857.0
+HCMC Bus,Gemma4 (gemma4:e4b),H58,Explanation Agent,explanation,1,success,83.64550695799699,952.0,952.0,1904.0
+HCMC Bus,Gemma4 (gemma4:e4b),H59,Router Agent,orchestration,1,success,43.90850020899961,962.0,529.0,1491.0
+HCMC Bus,Gemma4 (gemma4:e4b),H59,SQL Agent,sql_generate,1,success,62.840452624994214,801.0,724.0,1525.0
+HCMC Bus,Gemma4 (gemma4:e4b),H59,Forecast Agent,forecast.forecast_short,1,success,30.344018582996796,198.0,371.0,569.0
+HCMC Bus,Gemma4 (gemma4:e4b),H59,Explanation Agent,explanation,1,success,71.42002600000706,538.0,880.0,1418.0
+HCMC Bus,Gemma4 (gemma4:e4b),H60,Router Agent,orchestration,1,success,45.82793083299475,976.0,555.0,1531.0
+HCMC Bus,Gemma4 (gemma4:e4b),H60,SQL Agent,sql_generate,1,success,70.26688854099484,814.0,837.0,1651.0
+HCMC Bus,Gemma4 (gemma4:e4b),H60,Forecast Agent,forecast.forecast_short,1,success,30.2885137090052,189.0,388.0,577.0
+HCMC Bus,Gemma4 (gemma4:e4b),H60,Explanation Agent,explanation,1,success,96.11242783299531,591.0,1214.0,1805.0
+HCMC Bus,Gemma4 (gemma4:e4b),H61,Router Agent,orchestration,1,success,39.05041916600021,971.0,453.0,1424.0
+HCMC Bus,Gemma4 (gemma4:e4b),H61,SQL Agent,sql_generate,1,success,68.98472862500057,811.0,814.0,1625.0
+HCMC Bus,Gemma4 (gemma4:e4b),H61,Forecast Agent,forecast.forecast_short,1,success,92.52571966699907,208.0,1212.0,1420.0
+HCMC Bus,Gemma4 (gemma4:e4b),H61,Explanation Agent,explanation,1,success,85.37449324999761,617.0,1087.0,1704.0
+HCMC Bus,Gemma4 (gemma4:e4b),H62,Router Agent,orchestration,1,success,44.692061540990835,969.0,555.0,1524.0
+HCMC Bus,Gemma4 (gemma4:e4b),H62,SQL Agent,sql_generate,1,success,69.89159854200261,809.0,853.0,1662.0
+HCMC Bus,Gemma4 (gemma4:e4b),H62,Forecast Agent,forecast.forecast_short,1,success,105.6078261250077,208.0,1395.0,1603.0
+HCMC Bus,Gemma4 (gemma4:e4b),H62,Explanation Agent,explanation,1,success,66.77848841600644,686.0,803.0,1489.0
+HCMC Bus,Gemma4 (gemma4:e4b),H63,Router Agent,orchestration,1,success,71.4115889579989,985.0,900.0,1885.0

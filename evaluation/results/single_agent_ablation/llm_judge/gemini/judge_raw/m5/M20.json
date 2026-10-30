@@ -1,0 +1,27 @@
+{
+  "case_id": "M20",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Mô hình không phát hiện thấy xu hướng tăng trưởng hoặc suy giảm rõ rệt trong dữ liệu bán hàng hàng năm trong quá khứ.",
+      "Mô hình có thể đã tính đến sự biến động hoặc các điểm dữ liệu gần đây hơn trong quá trình tính toán."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu, nêu đúng mặt hàng/cửa hàng, kỳ dự báo 2017-2021 và mức dự báo 91,5 mỗi năm. So sánh với trung bình lịch sử khoảng 125 cũng phù hợp với dữ liệu. Tuy nhiên, dữ liệu được cung cấp chỉ có thống kê tổng quan và kết quả dự báo phẳng, không đủ để khẳng định mô hình không phát hiện xu hướng trong quá khứ hoặc suy đoán mô hình đã xét biến động/điểm gần đây. Trình bày rõ ràng và có ích, dù hai diễn giải về cơ chế mô hình cần thận trọng hơn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.628420374938287,
+    "input_tokens": 2296,
+    "output_tokens": 374,
+    "total_tokens": 2670,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Mô hình không phát hiện thấy xu hướng tăng trưởng hoặc suy giảm rõ rệt trong dữ liệu bán hàng hàng năm trong quá khứ.\",\"Mô hình có thể đã tính đến sự biến động hoặc các điểm dữ liệu gần đây hơn trong quá trình tính toán.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu, nêu đúng mặt hàng/cửa hàng, kỳ dự báo 2017-2021 và mức dự báo 91,5 mỗi năm. So sánh với trung bình lịch sử khoảng 125 cũng phù hợp với dữ liệu. Tuy nhiên, dữ liệu được cung cấp chỉ có thống kê tổng quan và kết quả dự báo phẳng, không đủ để khẳng định mô hình không phát hiện xu hướng trong quá khứ hoặc suy đoán mô hình đã xét biến động/điểm gần đây. Trình bày rõ ràng và có ích, dù hai diễn giải về cơ chế mô hình cần thận trọng hơn.\"}"
+  }
+}

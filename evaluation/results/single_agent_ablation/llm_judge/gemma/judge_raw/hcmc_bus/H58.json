@@ -1,0 +1,24 @@
+{
+  "case_id": "H58",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho tuyến 85, nhà khai thác HTX-195 và đúng phạm vi 12 quý từ Q1/2025 đến Q4/2027. Các mức đầu-cuối, xu hướng tăng đều và chế độ single cùng trọng số/cửa sổ 12 quý đều khớp kết quả dự báo. Nội dung rõ ràng, ngắn gọn và có lưu ý phù hợp rằng yhat là ước tính. Tuy vậy, phần ý nghĩa thực tế của mức tăng dự báo còn hạn chế nên usefulness ở mức 4."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.281713000033051,
+    "input_tokens": 2588,
+    "output_tokens": 260,
+    "total_tokens": 2848,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho tuyến 85, nhà khai thác HTX-195 và đúng phạm vi 12 quý từ Q1/2025 đến Q4/2027. Các mức đầu-cuối, xu hướng tăng đều và chế độ single cùng trọng số/cửa sổ 12 quý đều khớp kết quả dự báo. Nội dung rõ ràng, ngắn gọn và có lưu ý phù hợp rằng yhat là ước tính. Tuy vậy, phần ý nghĩa thực tế của mức tăng dự báo còn hạn chế nên usefulness ở mức 4.\"}"
+  }
+}

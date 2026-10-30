@@ -1,0 +1,26 @@
+{
+  "case_id": "H35",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Cụm \"sự tăng trưởng liên tục\" không hoàn toàn phù hợp vì dự báo Q1/2024 và Q2/2024 đều là 126,193.0, tức không tăng giữa hai quý này."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 4 quý cho tuyến 103, nêu đúng kỳ dự báo, các giá trị yhat, phạm vi và trung bình lịch sử, cùng thông tin chế độ dự báo/trọng số. Trình bày rõ ràng, có ích để hiểu mức dự báo và đà tăng mạnh hơn về cuối năm. Tuy nhiên, diễn đạt \"tăng trưởng liên tục\" hơi quá vì Q1 và Q2 có cùng giá trị dự báo; nên mô tả là ổn định trong nửa đầu năm rồi tăng ở hai quý sau."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.368256832938641,
+    "input_tokens": 2356,
+    "output_tokens": 360,
+    "total_tokens": 2716,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Cụm \\\"sự tăng trưởng liên tục\\\" không hoàn toàn phù hợp vì dự báo Q1/2024 và Q2/2024 đều là 126,193.0, tức không tăng giữa hai quý này.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 4 quý cho tuyến 103, nêu đúng kỳ dự báo, các giá trị yhat, phạm vi và trung bình lịch sử, cùng thông tin chế độ dự báo/trọng số. Trình bày rõ ràng, có ích để hiểu mức dự báo và đà tăng mạnh hơn về cuối năm. Tuy nhiên, diễn đạt \\\"tăng trưởng liên tục\\\" hơi quá vì Q1 và Q2 có cùng giá trị dự báo; nên mô tả là ổn định trong nửa đầu năm rồi tăng ở hai quý sau.\"}"
+  }
+}

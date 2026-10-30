@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo đã được thực hiện thành công cho bộ dữ liệu HCMC_BUS, tập trung vào tuyến 107 của HTX-195 (nhóm xe 2B.1_ML). Mô hình dự báo đã xác định một xu hướng tăng trưởng ổn định, dự kiến qua 8 quý tiếp theo, từ quý 1 năm 2025 đến quý 4 năm 2026.",
+  "insights": [
+    "Xu hướng dự báo cho thấy sự tăng trưởng liên tục và đều đặn qua 8 quý, với giá trị dự kiến tăng từ 51,952.0 (Q1/2025) lên 69,452.0 (Q4/2026).",
+    "Việc dự báo được xây dựng dựa trên 12 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-10-01).",
+    "Mô hình sử dụng trọng số 0.6 cho dữ liệu ngắn hạn và 0.4 cho dữ liệu dài hạn, cho thấy sự ưu tiên cao hơn cho các biến động gần đây."
+  ],
+  "chart_note": "Đây là kết quả dự báo toán học (single mode) dựa trên dữ liệu lịch sử và không đại diện cho các giá trị thực tế trong tương lai."
+}

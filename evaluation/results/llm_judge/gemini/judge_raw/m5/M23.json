@@ -1,0 +1,26 @@
+{
+  "case_id": "M23",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Biểu đồ hiển thị 1885 điểm lịch sử từ 2011-01-29 đến 2016-03-27 được sử dụng để huấn luyện mô hình. Thông tin cung cấp chỉ xác nhận phạm vi lịch sử khả dụng; các nhánh dự báo dùng cửa sổ 180 và 365 quan sát, không xác nhận việc huấn luyện trên toàn bộ 1885 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu 28 ngày, nêu đúng khoảng ngày, trung bình, biên độ dự báo và cấu hình ensemble. Các số liệu chính, tỷ lệ chênh lệch và nhận xét về nhịp cao vào Chủ Nhật/thấp vào Thứ Tư phù hợp với forecast. Tuy nhiên, chart_note khẳng định toàn bộ 1885 điểm lịch sử được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cho biết đây là phạm vi lịch sử khả dụng và các cửa sổ của nhánh dự báo là 180/365 điểm. Lỗi này làm giảm tính trung thực và phần nào giảm giá trị sử dụng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.565985334003926,
+    "input_tokens": 3158,
+    "output_tokens": 430,
+    "total_tokens": 3588,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Biểu đồ hiển thị 1885 điểm lịch sử từ 2011-01-29 đến 2016-03-27 được sử dụng để huấn luyện mô hình. Thông tin cung cấp chỉ xác nhận phạm vi lịch sử khả dụng; các nhánh dự báo dùng cửa sổ 180 và 365 quan sát, không xác nhận việc huấn luyện trên toàn bộ 1885 điểm.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu 28 ngày, nêu đúng khoảng ngày, trung bình, biên độ dự báo và cấu hình ensemble. Các số liệu chính, tỷ lệ chênh lệch và nhận xét về nhịp cao vào Chủ Nhật/thấp vào Thứ Tư phù hợp với forecast. Tuy nhiên, chart_note khẳng định toàn bộ 1885 điểm lịch sử được dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cho biết đây là phạm vi lịch sử khả dụng và các cửa sổ của nhánh dự báo là 180/365 điểm. Lỗi này làm giảm tính trung thực và phần nào giảm giá trị sử dụng.\"}"
+  }
+}

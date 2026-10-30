@@ -1,0 +1,33 @@
+{
+  "case_id": "H56",
+  "question": "Cho tôi dự báo hành khách của tuyến 81 do HTX-VTHANG vận hành trong 4 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 8,
+    "n_test": 4,
+    "horizon": 4,
+    "minimum_train_required": 4,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 45.94612879199849,
+    "load_schema": 0.0067001669958699495,
+    "sql_generation": 68.55980058400019,
+    "sql_execution_and_repair": 0.026854083000216633,
+    "forecast": 127.91468612500466,
+    "explanation": 79.75442779199511,
+    "end_to_end": 322.2086879169947
+  },
+  "total_tokens": 6620,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

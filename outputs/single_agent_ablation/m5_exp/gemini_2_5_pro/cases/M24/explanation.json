@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 30 ngày cho mặt hàng FOODS_1_078 tại cửa hàng TX_3, từ ngày 26 tháng 3 năm 2016 đến ngày 24 tháng 4 năm 2016. Dự báo cho thấy một mô hình bán hàng hàng tuần rõ rệt, với doanh số dự kiến sẽ dao động trong khoảng từ 0.1 đến 2.3 đơn vị mỗi ngày.",
+  "insights": [
+    "Dự báo xác định một chu kỳ hàng tuần rõ ràng, với doanh số dự kiến cao nhất vào các ngày Chủ Nhật (khoảng 2.3 đơn vị) và thấp nhất vào các ngày Thứ Hai và Thứ Ba (khoảng 0.1-0.2 đơn vị).",
+    "Mức doanh số dự báo nhìn chung thấp, phù hợp với dữ liệu lịch sử có doanh số trung bình là 0.29 đơn vị mỗi ngày. Các giá trị dự báo nằm trong phạm vi lịch sử đã quan sát (tối đa 11 đơn vị)."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số bán hàng thực tế hàng ngày cho đến ngày 25 tháng 3 năm 2016 và dự báo cho 30 ngày tiếp theo."
+}

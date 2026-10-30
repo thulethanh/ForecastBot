@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho HOBBIES_2_018 tại TX_2",
+  "summary_text": "Dự báo đã thành công cho 3 quý tiếp theo. Giá trị dự báo (yhat) được xác định là 49.7 cho cả ba giai đoạn, từ quý 4 năm 2015 đến quý 2 năm 2016.",
+  "insights": [
+    "Mô hình sử dụng phương pháp 'ensemble' (kết hợp) với trọng số 60% từ cửa sổ ngắn hạn (8 quý) và 40% từ cửa sổ dài hạn (12 quý).",
+    "Dự báo được xây dựng dựa trên 19 điểm dữ liệu lịch sử, trải dài từ 2011-01-01 đến 2015-07-01.",
+    "Giá trị dự báo ổn định ở mức 49.7 trong suốt 3 quý dự báo, cho thấy sự ổn định theo mô hình."
+  ],
+  "chart_note": "Dữ liệu được phân tích theo độ chi tiết quý (quarter) và áp dụng cho mặt hàng HOBBIES_2_018 tại cửa hàng TX_2. Phạm vi dự báo là 3 bước (horizon)."
+}

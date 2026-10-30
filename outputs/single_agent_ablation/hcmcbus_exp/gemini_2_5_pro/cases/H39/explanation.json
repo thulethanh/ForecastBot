@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo 24 tháng cho số lượt hành khách của tuyến xe buýt 127 do HTX-ThanhSon vận hành, từ tháng 1 năm 2025 đến tháng 12 năm 2026. Dự báo được tạo ra từ 36 tháng dữ liệu lịch sử (tháng 1/2022 - tháng 12/2024) và cho thấy một quy luật mùa vụ lặp lại rõ rệt.",
+  "insights": [
+    "Dự báo cho thấy một chu kỳ mùa vụ rõ rệt, với số lượt khách dự kiến cao nhất vào tháng 10 (khoảng 28.855 lượt) và thấp nhất vào tháng 7 (khoảng 8.801 lượt).",
+    "Các giá trị dự báo cho năm 2026 giống hệt năm 2025, cho thấy mô hình không phát hiện xu hướng tăng hoặc giảm dài hạn đáng kể trong dữ liệu lịch sử.",
+    "Phạm vi các giá trị dự báo (từ 8.801 đến 28.855) nhất quán với phạm vi dữ liệu lịch sử (từ 8.366 đến 32.675)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 36 tháng dữ liệu lịch sử và 24 tháng dữ liệu dự báo."
+}

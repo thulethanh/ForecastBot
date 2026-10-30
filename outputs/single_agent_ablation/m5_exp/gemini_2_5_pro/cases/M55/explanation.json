@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho mặt hàng HOBBIES_1_297 trong 3 quý tới. Các giá trị dự báo là 526.1 cho Q4 2015, 433.0 cho Q1 2016 và 449.6 cho Q2 2016.",
+  "insights": [
+    "Dự báo này được tạo ra bằng cách sử dụng mô hình tổng hợp, kết hợp các xu hướng gần đây (8 quý vừa qua) và dài hạn (12 quý vừa qua). Mô hình đã ưu tiên hơn cho các xu hướng gần đây (trọng số 60%).",
+    "Giá trị dự báo đầu tiên (526.1) cao hơn một chút so với mức trung bình lịch sử (498.4), trong khi hai quý tiếp theo được dự báo sẽ thấp hơn mức trung bình."
+  ],
+  "chart_note": "Biểu đồ hiển thị 19 điểm dữ liệu lịch sử và dự báo 3 quý cho mặt hàng HOBBIES_1_297."
+}

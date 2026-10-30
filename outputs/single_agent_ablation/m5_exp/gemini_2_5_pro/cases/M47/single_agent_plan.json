@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 90,
+  "filters": {
+    "item_id": "FOODS_3_531",
+    "state_id": "WI"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'FOODS_3_531' AND s.state_id = 'WI' GROUP BY c.date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the daily sales (y) for the product with item_id 'FOODS_3_531' in the state 'WI'. It joins the sales and calendar tables, filters by the specified product and state, and aggregates the sales by date (ds)."
+}

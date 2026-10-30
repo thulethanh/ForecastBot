@@ -1,0 +1,26 @@
+{
+  "case_id": "H08",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"18 điểm dữ liệu\" lịch sử \"được sử dụng để huấn luyện mô hình\" không được history summary, window_info hoặc forecast_result xác nhận."
+    ],
+    "reason_vi": "Giải thích bám sát đúng đối tượng lọc và kỳ dự báo 6 tháng, nêu rõ diễn biến chính, đỉnh/đáy và so sánh hợp lệ với cực đại तथा trung bình lịch sử. Các số liệu về dự báo và lịch sử đều khớp dữ liệu cung cấp; cách trình bày ngắn gọn, dễ theo dõi và hữu ích. Tuy nhiên, chart_note khẳng định 18 điểm dữ liệu được dùng để huấn luyện mô hình, trong khi thông tin được cung cấp chỉ xác nhận dữ liệu lịch sử khả dụng và cửa sổ dự báo, không xác nhận việc huấn luyện mô hình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.532736167006078,
+    "input_tokens": 2419,
+    "output_tokens": 354,
+    "total_tokens": 2773,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"18 điểm dữ liệu\\\" lịch sử \\\"được sử dụng để huấn luyện mô hình\\\" không được history summary, window_info hoặc forecast_result xác nhận.\"],\"reason_vi\":\"Giải thích bám sát đúng đối tượng lọc và kỳ dự báo 6 tháng, nêu rõ diễn biến chính, đỉnh/đáy và so sánh hợp lệ với cực đại तथा trung bình lịch sử. Các số liệu về dự báo và lịch sử đều khớp dữ liệu cung cấp; cách trình bày ngắn gọn, dễ theo dõi và hữu ích. Tuy nhiên, chart_note khẳng định 18 điểm dữ liệu được dùng để huấn luyện mô hình, trong khi thông tin được cung cấp chỉ xác nhận dữ liệu lịch sử khả dụng và cửa sổ dự báo, không xác nhận việc huấn luyện mô hình.\"}"
+  }
+}

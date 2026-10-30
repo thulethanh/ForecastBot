@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 3 năm 2016, doanh số bán hàng cho mặt hàng FOODS_3_395 tại cửa hàng CA_2 được dự báo là 23.1 cho tháng 4 năm 2016. Con số này cao hơn mức trung bình lịch sử là 16.7.",
+  "insights": [
+    "Dự báo là sự kết hợp của các xu hướng gần đây (24 tháng qua) và dài hạn (36 tháng qua), với trọng số lớn hơn (60%) được đặt vào dữ liệu gần đây.",
+    "Giá trị dự báo 23.1 cao hơn đáng kể so với mức trung bình lịch sử (16.7) nhưng vẫn nằm trong phạm vi dữ liệu đã quan sát (tối thiểu 0.0, tối đa 38.0)."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số bán hàng hàng tháng trong quá khứ từ tháng 1 năm 2011 đến tháng 3 năm 2016, cùng với điểm dự báo cho tháng 4 năm 2016."
+}

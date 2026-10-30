@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo hàng quý cho HCMC_BUS (route_id: 81, operator: HTX-VTHANG)",
+  "summary_text": "ForecastBot dự báo cho 4 quý tiếp theo, từ Quý 1 2024 đến Quý 4 2024, cho dataset HCMC_BUS với các bộ lọc route_id='81' và operator='HTX-VTHANG'. Dự báo cho thấy giá trị giảm từ 430,373 (Quý 1) xuống mức thấp nhất là 404,460 (Quý 3), sau đó tăng mạnh lên 470,780 vào Quý 4 2024. Các giá trị dự báo này đều nằm trong phạm vi dữ liệu lịch sử (302,108 đến 510,847).",
+  "insights": [
+    "Giá trị dự báo cao nhất là 470,780 vào Quý 4 2024, cao hơn mức trung bình lịch sử (434,557).",
+    "Giá trị dự báo thấp nhất là 404,460 vào Quý 3 2024.",
+    "Xu hướng chung trong giai đoạn dự báo là giảm trong ba quý đầu năm và tăng đáng kể vào quý cuối cùng."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử gồm 8 điểm theo quý từ 2022-01-01 đến 2023-10-01 và dự báo của ForecastBot cho 4 quý tiếp theo."
+}

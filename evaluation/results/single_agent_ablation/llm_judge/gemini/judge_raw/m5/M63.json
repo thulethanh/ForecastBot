@@ -1,0 +1,24 @@
+{
+  "case_id": "M63",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 10 năm cho đúng mặt hàng và cửa hàng. Các thông tin về 6 năm lịch sử 2011–2016, biên độ 89–352, cũng như dự báo 89 đơn vị mỗi năm trong giai đoạn 2017–2026 đều khớp dữ liệu được cung cấp. Nội dung nêu rõ tính phẳng của dự báo và ý nghĩa rằng mức dự báo bằng giá trị lịch sử thấp nhất, diễn đạt mạch lạc, ngắn gọn và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 2.8089475840097293,
+    "input_tokens": 2464,
+    "output_tokens": 157,
+    "total_tokens": 2621,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 10 năm cho đúng mặt hàng và cửa hàng. Các thông tin về 6 năm lịch sử 2011–2016, biên độ 89–352, cũng như dự báo 89 đơn vị mỗi năm trong giai đoạn 2017–2026 đều khớp dữ liệu được cung cấp. Nội dung nêu rõ tính phẳng của dự báo và ý nghĩa rằng mức dự báo bằng giá trị lịch sử thấp nhất, diễn đạt mạch lạc, ngắn gọn và hữu ích.\"}"
+  }
+}

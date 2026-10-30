@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (Route 32, HTX-VTHANG) trong 24 tháng tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo lưu lượng cho tuyến HCMC_BUS (Route 32, HTX-VTHANG) sẽ duy trì mức ổn định và gần như không thay đổi trong suốt 24 tháng tới, bắt đầu từ tháng 01/2025 đến tháng 12/2026. Mức dự báo trung bình là 96345.2857.",
+  "insights": [
+    "Trong 36 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-12-01), lưu lượng dao động từ mức thấp nhất 27670.0 đến mức cao nhất 114446.0, với mức trung bình là 91734.5.",
+    "Mô hình dự báo sử dụng phương pháp deterministic_recent_mean và đã kích hoạt fallback, đưa ra dự báo ổn định 96345.2857 cho tất cả 24 tháng trong giai đoạn 2025-2026."
+  ],
+  "chart_note": "Biểu đồ được huấn luyện trên 36 điểm dữ liệu lịch sử (2022-01-01 đến 2024-12-01). ForecastBot sử dụng phương pháp deterministic_recent_mean với trọng số short là 0.6 và long là 0.4 để tạo ra dự báo cho 24 tháng tiếp theo."
+}

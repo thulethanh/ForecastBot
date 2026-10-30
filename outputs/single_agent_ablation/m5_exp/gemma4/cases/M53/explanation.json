@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho quý 2 năm 2016 (ngày 2016-04-01) của mặt hàng HOBBIES_1_277 tại cửa hàng WI_2 là 33.8. Quá trình dự báo đã hoàn thành thành công.",
+  "insights": [
+    "Mô hình sử dụng phương pháp Ensemble (kết hợp) với trọng số 60% cho cửa sổ ngắn hạn (h8) và 40% cho cửa sổ dài hạn (h12).",
+    "Dự báo được xây dựng dựa trên 21 điểm dữ liệu lịch sử, trải dài từ 2011-01-01 đến 2016-01-01."
+  ],
+  "chart_note": "Giá trị 33.8 là dự báo cho kỳ tiếp theo và không đại diện cho giá trị thực tế trong tương lai."
+}

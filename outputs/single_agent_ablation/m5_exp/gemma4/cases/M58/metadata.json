@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M58",
+  "question": "Trong 12 quý tới, lượng bán của sản phẩm HOUSEHOLD_1_321 tại cửa hàng WI_1, bang WI dự kiến như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 22,
+    "n_train": 22,
+    "n_test": 0,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.08231637498829514,
+    "request_sql": 103.65746370889246,
+    "sql_execution_and_repair": 0.18493737501557916,
+    "forecast": 262.9375672909664,
+    "explanation": 130.27186537499074,
+    "end_to_end": 497.1343997089425
+  },
+  "total_tokens": 7318,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,5 @@
+﻿Bộ dữ liệu,Mô hình,Router - Tỷ lệ khớp hoàn toàn (%),SQL - Độ chính xác truy xuất có điều kiện (%),Forecast - Tỷ lệ tạo dự báo hợp lệ (%),Explanation - Điểm trung bình (1-5),ForecastBot - Tỷ lệ hoàn thành toàn bộ quy trình (%)
+M5,Gemini 2.5 Pro,95.24,100.0,94.44,4.74,98.41
+HCMC Bus,Gemini 2.5 Pro,95.24,100.0,93.18,4.66,95.24
+M5,Gemma4 (gemma4:e4b),100.0,100.0,100.0,4.43,100.0
+HCMC Bus,Gemma4 (gemma4:e4b),96.83,100.0,97.73,4.44,98.41

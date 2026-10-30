@@ -1,0 +1,26 @@
+{
+  "case_id": "H53",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng dữ liệu giai đoạn gần đây có \"xu hướng giảm hoặc ổn định ở mức thấp hơn\" không được history summary cung cấp trực tiếp; summary chỉ nêu phạm vi, min, max và trung bình."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 1 quý cho tuyến 77/HTX 26, nêu đúng kỳ dự báo, giá trị dự báo, so sánh hợp lệ với trung bình lịch sử và phạm vi quan sát. Thông tin ensemble, trọng số 60% và cửa sổ 8 quý phù hợp forecast_result. Tuy nhiên, kết luận mô hình ghi nhận xu hướng giảm hoặc ổn định ở giai đoạn gần đây chưa được hỗ trợ trực tiếp bởi phần tóm tắt lịch sử được cung cấp. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo cùng vai trò của dữ liệu gần đây."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.828438666998409,
+    "input_tokens": 2142,
+    "output_tokens": 396,
+    "total_tokens": 2538,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng dữ liệu giai đoạn gần đây có \\\"xu hướng giảm hoặc ổn định ở mức thấp hơn\\\" không được history summary cung cấp trực tiếp; summary chỉ nêu phạm vi, min, max và trung bình.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 1 quý cho tuyến 77/HTX 26, nêu đúng kỳ dự báo, giá trị dự báo, so sánh hợp lệ với trung bình lịch sử và phạm vi quan sát. Thông tin ensemble, trọng số 60% và cửa sổ 8 quý phù hợp forecast_result. Tuy nhiên, kết luận mô hình ghi nhận xu hướng giảm hoặc ổn định ở giai đoạn gần đây chưa được hỗ trợ trực tiếp bởi phần tóm tắt lịch sử được cung cấp. Trình bày rõ ràng, ngắn gọn và giúp hiểu mức dự báo cùng vai trò của dữ liệu gần đây.\"}"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "H30",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dự báo cho thấy xu hướng theo mùa\" không được history summary xác nhận; dữ liệu cung cấp chỉ đủ chứng minh mức dự báo thấp nhất ở tháng 6 và cao nhất ở tháng 10 năm 2025."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành và chân trời 12 tháng; các mốc thời gian và giá trị cao/thấp đều khớp forecast và history summary. Trình bày ngắn gọn, rõ ràng, đồng thời so sánh được dự báo với biên lịch sử. Tuy nhiên, kết luận có “xu hướng theo mùa” chưa có bằng chứng trực tiếp từ phần tóm tắt lịch sử; forecast một năm chỉ cho thấy dạng biến động dự báo trong năm đó. Vì vậy tính trung thực và tính hữu ích giảm nhẹ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.991747540989309,
+    "input_tokens": 2612,
+    "output_tokens": 336,
+    "total_tokens": 2948,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dự báo cho thấy xu hướng theo mùa\\\" không được history summary xác nhận; dữ liệu cung cấp chỉ đủ chứng minh mức dự báo thấp nhất ở tháng 6 và cao nhất ở tháng 10 năm 2025.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành và chân trời 12 tháng; các mốc thời gian và giá trị cao/thấp đều khớp forecast và history summary. Trình bày ngắn gọn, rõ ràng, đồng thời so sánh được dự báo với biên lịch sử. Tuy nhiên, kết luận có “xu hướng theo mùa” chưa có bằng chứng trực tiếp từ phần tóm tắt lịch sử; forecast một năm chỉ cho thấy dạng biến động dự báo trong năm đó. Vì vậy tính trung thực và tính hữu ích giảm nhẹ.\"}"
+  }
+}

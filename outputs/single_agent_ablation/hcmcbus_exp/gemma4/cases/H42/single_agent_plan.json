@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "year",
+  "horizon": 10,
+  "filters": {
+    "route_id": "141",
+    "operator": "HTX 15"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '141' AND TRIM(d.operator) = 'HTX 15' GROUP BY DATE_TRUNC('year', d.date)::date ORDER BY ds ASC;",
+  "sql_explanation": "The query calculates the total number of passengers (y) for route 141 operated by HTX 15, aggregated by year (ds), to support a 10-year forecast."
+}

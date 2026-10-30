@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M05",
+  "question": "Tôi cần xem xu hướng lượng bán của sản phẩm FOODS_3_149 tại bang CA trong 90 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1823,
+    "n_test": 90,
+    "horizon": 90,
+    "minimum_train_required": 90,
+    "required_points_for_evaluation": 180,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.007674500113353133,
+    "request_sql": 8.846983750001527,
+    "sql_execution_and_repair": 0.05228629196062684,
+    "forecast": 156.09063195809722,
+    "explanation": 13.946446749963798,
+    "end_to_end": 178.94420870800968
+  },
+  "total_tokens": 34500,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

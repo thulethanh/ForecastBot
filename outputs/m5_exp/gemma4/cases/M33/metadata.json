@@ -1,0 +1,33 @@
+{
+  "case_id": "M33",
+  "question": "Trong 2 quý tới, lượng bán của sản phẩm HOBBIES_1_349 tại cửa hàng TX_2 dự kiến như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 20,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 4,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 45.53919995899196,
+    "load_schema": 0.004834958002902567,
+    "sql_generation": 61.38959349998913,
+    "sql_execution_and_repair": 0.022296416995231993,
+    "forecast": 67.92426312499447,
+    "explanation": 51.953824833006365,
+    "end_to_end": 226.83406158300932
+  },
+  "total_tokens": 6078,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

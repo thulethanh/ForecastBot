@@ -1,0 +1,33 @@
+{
+  "case_id": "M37",
+  "question": "Dự báo lượng bán của sản phẩm HOUSEHOLD_1_416 tại bang TX trong 12 quý tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 22,
+    "n_train": 22,
+    "n_test": 0,
+    "horizon": 12,
+    "minimum_train_required": 12,
+    "required_points_for_evaluation": 24,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 39.280203334012185,
+    "load_schema": 0.003551292000338435,
+    "sql_generation": 63.99294758398901,
+    "sql_execution_and_repair": 0.05869670899119228,
+    "forecast": 218.64592216699384,
+    "explanation": 51.75896799999464,
+    "end_to_end": 373.7403294160031
+  },
+  "total_tokens": 8667,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

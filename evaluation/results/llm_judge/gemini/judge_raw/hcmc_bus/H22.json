@@ -1,0 +1,26 @@
+{
+  "case_id": "H22",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Chart note khẳng định dữ liệu lịch sử từ 01/01/2022 đến 24/12/2024 được sử dụng để huấn luyện mô hình. Thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng; các nhánh dự báo dùng cửa sổ 180 và 365 quan sát gần nhất, không xác nhận toàn bộ phạm vi được dùng để huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 7 ngày và nêu chính xác khoảng dự báo, cực trị, mức trung bình lịch sử, mô hình ensemble cùng trọng số/cửa sổ. Nhận định mức thấp vào cuối tuần được hỗ trợ trực tiếp bởi các giá trị dự báo và so sánh đúng với trung bình lịch sử. Trình bày rõ ràng, hữu ích. Tuy nhiên, chart note diễn giải toàn bộ phạm vi lịch sử là dữ liệu dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ 180/365 dùng cho nhánh dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.939619249998941,
+    "input_tokens": 2466,
+    "output_tokens": 359,
+    "total_tokens": 2825,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Chart note khẳng định dữ liệu lịch sử từ 01/01/2022 đến 24/12/2024 được sử dụng để huấn luyện mô hình. Thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng; các nhánh dự báo dùng cửa sổ 180 và 365 quan sát gần nhất, không xác nhận toàn bộ phạm vi được dùng để huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 7 ngày và nêu chính xác khoảng dự báo, cực trị, mức trung bình lịch sử, mô hình ensemble cùng trọng số/cửa sổ. Nhận định mức thấp vào cuối tuần được hỗ trợ trực tiếp bởi các giá trị dự báo và so sánh đúng với trung bình lịch sử. Trình bày rõ ràng, hữu ích. Tuy nhiên, chart note diễn giải toàn bộ phạm vi lịch sử là dữ liệu dùng để huấn luyện mô hình, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ 180/365 dùng cho nhánh dự báo.\"}"
+  }
+}

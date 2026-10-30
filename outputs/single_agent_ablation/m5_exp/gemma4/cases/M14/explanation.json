@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo cho HOBBIES_1_227 tại CA_2",
+  "summary_text": "Dự báo đã được thực hiện thành công cho 4 quý tiếp theo (từ 2015-07-01 đến 2016-04-01) cho mặt hàng HOBBIES_1_227 tại cửa hàng CA_2. Mô hình dự báo đã xác định một mức giá trị ổn định, dự kiến là 34.14 cho tất cả 4 bước thời gian.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên 18 điểm dữ liệu lịch sử, trải dài từ 2011-01-01 đến 2015-04-01.",
+    "Phương pháp dự báo sử dụng là 'ensemble' (kết hợp), với trọng số 60% cho thành phần ngắn hạn (h8) và 40% cho thành phần dài hạn (h12).",
+    "Giá trị dự báo (yhat) được duy trì ở mức 34.14 ổn định qua cả 4 quý, cho thấy sự ổn định dự kiến trong giai đoạn này."
+  ],
+  "chart_note": "Phạm vi dữ liệu lịch sử được sử dụng là 18 điểm (2011-2015). Các giá trị dự báo không đại diện cho giá trị thực tế trong tương lai."
+}

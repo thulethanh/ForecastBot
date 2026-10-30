@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 24 tháng cho item_id HOBBIES_1_013 tại store_id CA_1",
+  "summary_text": "Dựa trên 40 tháng dữ liệu lịch sử từ 2011-01-01 đến 2014-04-01 (giá trị trung bình 5.78), ForecastBot dự báo 24 tháng tiếp theo. Các giá trị dự báo dao động từ 6.38 đến 19.82, với giá trị trung bình là 12.84.",
+  "insights": [
+    "Giá trị dự báo trung bình (12.84) cao hơn đáng kể so với giá trị trung bình lịch sử (5.78).",
+    "Dự báo cho thấy một quy luật mùa vụ rõ rệt, với các đỉnh điểm vào tháng 11 (cao nhất là 19.82) và các điểm thấp nhất vào tháng 1 và tháng 3 (thấp nhất là 6.38).",
+    "Có một xu hướng tăng nhẹ trong giai đoạn dự báo, với giá trị trung bình của 12 tháng cuối (13.55) cao hơn 12 tháng đầu (12.13)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 40 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2014-04-01) và dự báo 24 tháng của ForecastBot. Dự báo được tạo bởi mô hình ensemble kết hợp các cửa sổ dữ liệu h36 (trọng số 0.6) và h40 (trọng số 0.4)."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_1_416 tại TX (M5)",
+  "summary_text": "Dự báo cho 12 quý tới cho HOUSEHOLD_1_416 tại TX cho thấy xu hướng giảm dần. Giá trị dự báo bắt đầu ở mức 639.42 vào quý 2016-07-01 và giảm xuống 557.9 vào quý 2019-04-01.",
+  "insights": [
+    "Trong 12 quý dự báo, giá trị được dự báo giảm từ 639.42 (quý 2016-07-01) xuống 557.9 (quý 2019-04-01).",
+    "Sự giảm giá trị diễn ra ổn định qua các quý, với mức giảm khoảng 81.52 đơn vị trong suốt giai đoạn dự báo.",
+    "Mô hình sử dụng phương pháp ensemble với trọng số short: 0.6 và long: 0.4."
+  ],
+  "chart_note": "Bản đồ này hiển thị kết quả dự báo của ForecastBot cho 12 quý tới. Quá trình dự báo sử dụng hai cửa sổ dữ liệu: h12 (cửa sổ ngắn) và h20 (cửa sổ dài), với trọng số ensemble là 0.6 và 0.4 tương ứng. Trạng thái dự báo là success."
+}

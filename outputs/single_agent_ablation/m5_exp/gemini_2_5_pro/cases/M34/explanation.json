@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số hàng quý cho mặt hàng HOBBIES_2_018 tại cửa hàng TX_2 trong 3 quý tới. Dự báo cho thấy doanh số sẽ đạt 71.0 vào Quý 4 2015, sau đó giảm dần xuống 51.0 và 41.0 trong hai quý tiếp theo.",
+  "insights": [
+    "Dự báo được tạo ra bằng mô hình tổng hợp, kết hợp các mẫu hình từ 8 quý gần nhất (ngắn hạn) và 12 quý gần nhất (dài hạn).",
+    "Mô hình này ưu tiên các xu hướng gần đây, với 60% trọng số được đặt vào các mẫu hình ngắn hạn."
+  ],
+  "chart_note": "Dữ liệu lịch sử bao gồm 19 quý từ 2011-01-01 đến 2015-07-01."
+}

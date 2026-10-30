@@ -1,0 +1,24 @@
+{
+  "case_id": "H07",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng yêu cầu dự báo 3 tháng cho tuyến 29, HTX-ThanhSơn. Các mức dự báo được nêu chính xác và xu hướng tăng được mô tả phù hợp với các giá trị 49.810, 70.997 và 83.816. So sánh với trung bình lịch sử 64,2 nghìn và mức cao nhất 84,7 nghìn đều có căn cứ từ tóm tắt dữ liệu; nhận định mức tăng lớn nhất từ tháng 1 sang tháng 2 cũng đúng theo các điểm dự báo. Nội dung rõ ràng, cô đọng và biểu đồ ghi đúng phạm vi lịch sử cùng kỳ dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.8641945410054177,
+    "input_tokens": 2263,
+    "output_tokens": 250,
+    "total_tokens": 2513,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng yêu cầu dự báo 3 tháng cho tuyến 29, HTX-ThanhSơn. Các mức dự báo được nêu chính xác và xu hướng tăng được mô tả phù hợp với các giá trị 49.810, 70.997 và 83.816. So sánh với trung bình lịch sử 64,2 nghìn và mức cao nhất 84,7 nghìn đều có căn cứ từ tóm tắt dữ liệu; nhận định mức tăng lớn nhất từ tháng 1 sang tháng 2 cũng đúng theo các điểm dự báo. Nội dung rõ ràng, cô đọng và biểu đồ ghi đúng phạm vi lịch sử cùng kỳ dự báo.\"}"
+  }
+}

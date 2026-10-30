@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "quarter",
+  "horizon": 1,
+  "filters": {
+    "item_id": "HOBBIES_1_277",
+    "store_id": "WI_2"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', c.date)::date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'HOBBIES_1_277' AND s.store_id = 'WI_2' GROUP BY DATE_TRUNC('quarter', c.date)::date ORDER BY ds ASC",
+  "sql_explanation": "The query joins the sales data (s) with the calendar (c) and filters for the specified item and store. It aggregates the sales by quarter (DATE_TRUNC('quarter', c.date)) to forecast the sales for the next quarter."
+}

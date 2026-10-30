@@ -1,0 +1,27 @@
+{
+  "case_id": "M09",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Giá trị dự báo giảm đáng kể trong quý 3 năm 2015, từ 125.4 (tháng 8) xuống 64.8 (tháng 11).\" Tháng 11 thuộc quý 4, nên mốc thời gian này không đúng.",
+      "\"Mô hình được huấn luyện trên 52 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: thông tin chỉ cho biết nhánh long dùng cửa sổ 52 điểm, trong khi nhánh short dùng 36 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng và chân trời 12 tháng; các mức đầu kỳ, đỉnh và trọng số ensemble đều khớp forecast. Nội dung rõ ràng, ngắn gọn và nêu được diễn biến giảm rồi phục hồi. Tuy nhiên, mô tả mức giảm là trong quý 3 nhưng lại kéo đến tháng 11 là sai về thời gian. Ngoài ra, câu khẳng định mô hình được huấn luyện trên 52 điểm không được dữ liệu cung cấp xác nhận; window_info chỉ cho thấy các cửa sổ đầu vào của hai nhánh."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.31203945800371,
+    "input_tokens": 2515,
+    "output_tokens": 523,
+    "total_tokens": 3038,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Giá trị dự báo giảm đáng kể trong quý 3 năm 2015, từ 125.4 (tháng 8) xuống 64.8 (tháng 11).\\\" Tháng 11 thuộc quý 4, nên mốc thời gian này không đúng.\",\"\\\"Mô hình được huấn luyện trên 52 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: thông tin chỉ cho biết nhánh long dùng cửa sổ 52 điểm, trong khi nhánh short dùng 36 điểm.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng và chân trời 12 tháng; các mức đầu kỳ, đỉnh và trọng số ensemble đều khớp forecast. Nội dung rõ ràng, ngắn gọn và nêu được diễn biến giảm rồi phục hồi. Tuy nhiên, mô tả mức giảm là trong quý 3 nhưng lại kéo đến tháng 11 là sai về thời gian. Ngoài ra, câu khẳng định mô hình được huấn luyện trên 52 điểm không được dữ liệu cung cấp xác nhận; window_info chỉ cho thấy các cửa sổ đầu vào của hai nhánh.\"}"
+  }
+}

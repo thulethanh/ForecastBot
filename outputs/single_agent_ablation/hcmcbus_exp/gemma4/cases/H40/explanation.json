@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo lưu lượng HCMC_BUS (Tuyến 128 - HTX-ThanhSon)",
+  "summary_text": "Dự báo đã được thực hiện cho 3 năm tiếp theo (2025-2027) đối với dữ liệu HCMC_BUS của tuyến 128 do HTX-ThanhSon vận hành. Kết quả cho thấy một xu hướng tăng trưởng ổn định và đáng kể qua các năm dự báo.",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 3 điểm dữ liệu, trải dài từ năm 2022 đến năm 2024, với giá trị trung bình là 340,010.33.",
+    "Mô hình dự báo sử dụng phương pháp 'single' và đặt trọng số cao hơn cho dữ liệu ngắn hạn (0.6) so với dữ liệu dài hạn (0.4).",
+    "Giá trị dự báo cho năm 2025 là 372,585.0, tiếp tục tăng lên 392,956.0 vào năm 2026 và đạt 413,327.0 vào năm 2027."
+  ],
+  "chart_note": "Các giá trị dự báo này được tính toán dựa trên xu hướng lịch sử và không đại diện cho các giá trị thực tế trong tương lai."
+}

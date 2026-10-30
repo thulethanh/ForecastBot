@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo doanh số cho mặt hàng FOODS_1_031 tại cửa hàng TX_1 cho tháng 4 năm 2016 là 43,4 đơn vị. Con số này cao hơn mức trung bình lịch sử hàng tháng là khoảng 24,8 đơn vị.",
+  "insights": [
+    "Dự báo được tạo ra bởi một mô hình tổng hợp, trong đó ưu tiên nhiều hơn (60%) cho các xu hướng gần đây (24 tháng qua) so với các quy luật dài hạn hơn (36 tháng qua).",
+    "Giá trị dự báo 43,4 cao hơn đáng kể so với mức trung bình lịch sử là 24,8, nhưng vẫn nằm trong phạm vi đã quan sát được trong quá khứ là từ 0 đến 54 đơn vị mỗi tháng."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu doanh số lịch sử trong 63 tháng, từ tháng 1 năm 2011 đến tháng 3 năm 2016, cùng với điểm dự báo cho tháng 4 năm 2016."
+}

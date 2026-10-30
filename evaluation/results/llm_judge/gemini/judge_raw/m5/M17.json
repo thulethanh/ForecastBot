@@ -1,0 +1,24 @@
+{
+  "case_id": "M17",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 1,
+    "faithfulness": 5,
+    "clarity": 1,
+    "usefulness": 1,
+    "overall_score": 2.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation trống, không trình bày mức dự báo, xu hướng, dữ liệu lịch sử hay yêu cầu làm rõ về kỳ hạn và độ chi tiết. Vì vậy không đáp ứng nhu cầu người dùng, không rõ ràng và không có giá trị diễn giải. Không có nhận định nào để xem là không được hỗ trợ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.6894827080104733,
+    "input_tokens": 1778,
+    "output_tokens": 174,
+    "total_tokens": 1952,
+    "raw_response": "{\"relevance\":1,\"faithfulness\":5,\"clarity\":1,\"usefulness\":1,\"overall_score\":2.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation trống, không trình bày mức dự báo, xu hướng, dữ liệu lịch sử hay yêu cầu làm rõ về kỳ hạn và độ chi tiết. Vì vậy không đáp ứng nhu cầu người dùng, không rõ ràng và không có giá trị diễn giải. Không có nhận định nào để xem là không được hỗ trợ.\"}"
+  }
+}

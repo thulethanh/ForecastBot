@@ -1,0 +1,33 @@
+{
+  "case_id": "H25",
+  "question": "Tôi cần xem xu hướng lượng hành khách của tuyến 65 do Cty-BaoYen vận hành trong 60 ngày tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 646,
+    "n_train": 586,
+    "n_test": 60,
+    "horizon": 60,
+    "minimum_train_required": 60,
+    "required_points_for_evaluation": 120,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 40.85446750000119,
+    "load_schema": 0.00491637499362696,
+    "sql_generation": 59.402535375003936,
+    "sql_execution_and_repair": 0.026473791993339546,
+    "forecast": 484.0767110000015,
+    "explanation": 194.5090365419892,
+    "end_to_end": 778.8742836670135
+  },
+  "total_tokens": 27765,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

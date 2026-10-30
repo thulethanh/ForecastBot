@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo số lượng hành khách cho tuyến xe buýt 84 do HTX-28 vận hành trong 8 quý tiếp theo, từ Quý 2 2024 đến Quý 1 2026. Dự báo được tạo ra dựa trên 9 điểm dữ liệu lịch sử từ Quý 1 2022 đến Quý 1 2024.",
+  "insights": [
+    "Dự báo cho thấy một quy luật thời vụ rõ rệt, lặp lại hàng năm. Lượng hành khách được dự báo sẽ cao nhất vào Quý 4 (bắt đầu từ tháng 10) và thấp nhất vào Quý 1 (bắt đầu từ tháng 1).",
+    "Mô hình không phát hiện xu hướng tăng hoặc giảm dài hạn đáng kể. Các giá trị dự báo cho mỗi quý được lặp lại qua các năm."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử về lượng hành khách từ Quý 1 2022 đến Quý 1 2024 và dự báo cho 8 quý tiếp theo."
+}

@@ -1,0 +1,6 @@
+dataset,target_model,score_band,n_cases,n_total_judged,rate
+M5,Gemma 4,"(1,2]",0,1,0.0
+M5,Gemma 4,"(2,3]",0,1,0.0
+M5,Gemma 4,"(3,4]",0,1,0.0
+M5,Gemma 4,"(4,4.5]",0,1,0.0
+M5,Gemma 4,"(4.5,5]",1,1,1.0

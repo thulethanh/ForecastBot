@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M49",
+  "question": "Dự báo lượng bán của sản phẩm FOODS_2_280 tại cửa hàng WI_1 trong 3 tháng tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 61,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 3,
+    "required_points_for_evaluation": 6,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.04302737500984222,
+    "request_sql": 84.21666625002399,
+    "sql_execution_and_repair": 0.04759320896118879,
+    "forecast": 255.3965797079727,
+    "explanation": 89.15295900008641,
+    "end_to_end": 428.85705312504433
+  },
+  "total_tokens": 6807,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

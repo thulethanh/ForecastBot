@@ -1,0 +1,24 @@
+{
+  "case_id": "M05",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, bang, tần suất ngày và chân trời 90 ngày. Các số liệu về 1.823 điểm lịch sử, giai đoạn 2011–2016 và trung bình 1,35 đều phù hợp history summary. Nhận định chu kỳ tuần, các ngày cao/thấp nhất và khoảng dự báo 1,25–3,5 đều được xác nhận trực tiếp từ forecast. Trình bày ngắn gọn, rõ ràng và giúp người dùng nắm được mức dự báo, biến động theo ngày trong tuần và bối cảnh so với lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.634345458005555,
+    "input_tokens": 5131,
+    "output_tokens": 287,
+    "total_tokens": 5418,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, bang, tần suất ngày và chân trời 90 ngày. Các số liệu về 1.823 điểm lịch sử, giai đoạn 2011–2016 và trung bình 1,35 đều phù hợp history summary. Nhận định chu kỳ tuần, các ngày cao/thấp nhất và khoảng dự báo 1,25–3,5 đều được xác nhận trực tiếp từ forecast. Trình bày ngắn gọn, rõ ràng và giúp người dùng nắm được mức dự báo, biến động theo ngày trong tuần và bối cảnh so với lịch sử.\"}"
+  }
+}

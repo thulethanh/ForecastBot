@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 12 quý tới đối với mặt hàng HOUSEHOLD_1_334 tại cửa hàng CA_1. Dự báo cho thấy một xu hướng mùa vụ rõ rệt và lặp lại, với doanh số dự kiến đạt đỉnh vào quý ba (bắt đầu từ tháng 7) và thấp nhất vào quý hai (bắt đầu từ tháng 4) mỗi năm.",
+  "insights": [
+    "Dự báo thể hiện tính mùa vụ hàng năm rất rõ rệt. Doanh số được dự kiến cao nhất vào Quý 3 (ví dụ: 1413.0 cho ngày 2016-07-01) và thấp nhất vào Quý 2 (ví dụ: 351.0 cho ngày 2017-04-01), và mô hình này lặp lại hàng năm.",
+    "Dự báo được tạo ra bằng mô hình tổng hợp (ensemble) kết hợp góc nhìn ngắn hạn (12 quý gần nhất) và dài hạn (20 quý gần nhất) từ dữ liệu lịch sử. Trọng số lớn hơn (60%) được đặt vào các xu hướng ngắn hạn gần đây."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử doanh số trong 22 quý từ 2011-01-01 đến 2016-04-01, tiếp theo là dự báo cho 12 quý tới."
+}

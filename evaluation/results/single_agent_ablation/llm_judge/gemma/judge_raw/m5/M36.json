@@ -1,0 +1,24 @@
+{
+  "case_id": "M36",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng sản phẩm/cửa hàng/bang và đúng 8 bước dự báo. Các mốc thời gian, phạm vi lịch sử, trạng thái thành công, phương pháp ensemble cùng trọng số 60%/40% đều khớp dữ liệu cung cấp. Nhận định về chu kỳ 4 quý được hỗ trợ trực tiếp bởi dãy dự báo lặp lại chính xác (80, 140, 120, 160). Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức độ cũng như dạng biến động của dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.6427114580292255,
+    "input_tokens": 2426,
+    "output_tokens": 283,
+    "total_tokens": 2709,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng sản phẩm/cửa hàng/bang và đúng 8 bước dự báo. Các mốc thời gian, phạm vi lịch sử, trạng thái thành công, phương pháp ensemble cùng trọng số 60%/40% đều khớp dữ liệu cung cấp. Nhận định về chu kỳ 4 quý được hỗ trợ trực tiếp bởi dãy dự báo lặp lại chính xác (80, 140, 120, 160). Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức độ cũng như dạng biến động của dự báo.\"}"
+  }
+}

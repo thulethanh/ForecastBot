@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 1 Quý tới cho HCMC_BUS: route_id 77, operator HTX 26",
+  "summary_text": "ForecastBot dự báo giá trị cho quý tới (bắt đầu từ 2024-10-01) là 43,088.0. Giá trị này thấp hơn mức trung bình lịch sử (khoảng 51,659) và nằm trong khoảng dao động đã ghi nhận (35,527.0 - 66,591.0).",
+  "insights": [
+    "Dữ liệu lịch sử bao gồm 11 điểm dữ liệu theo quý, kéo dài từ 2022-01-01 đến 2024-07-01.",
+    "Giá trị dự báo 43,088.0 thấp hơn khoảng 16.6% so với giá trị trung bình lịch sử (51,659).",
+    "Dự báo được tạo ra bằng mô hình `ensemble`, kết hợp một mô hình ngắn hạn (dựa trên 8 quý gần nhất, trọng số 0.6) và một mô hình dài hạn (dựa trên toàn bộ 11 quý, trọng số 0.4)."
+  ],
+  "chart_note": "Biểu đồ thể hiện dữ liệu lịch sử được sử dụng để huấn luyện mô hình (11 điểm, từ 2022-01-01 đến 2024-07-01) và dự báo của ForecastBot cho 1 quý tiếp theo."
+}

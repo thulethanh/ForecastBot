@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 7 ngày cho item_id FOODS_1_097 tại store_id TX_3",
+  "summary_text": "ForecastBot dự báo cho 7 ngày tới (18/04/2016 - 24/04/2016), giá trị sẽ dao động trong khoảng từ 1.0 đến 4.2. Giá trị dự báo trung bình là 2.46, cao hơn so với trung bình lịch sử là 1.47.",
+  "insights": [
+    "Dự báo cho thấy giá trị sẽ đạt đỉnh vào cuối tuần, với các ngày Thứ Bảy (4.0) và Chủ Nhật (4.2) có giá trị cao nhất.",
+    "Các giá trị thấp nhất được dự báo vào Thứ Tư (1.0) và Thứ Sáu (1.0).",
+    "Giá trị dự báo trung bình trong 7 ngày tới (2.46) cao hơn so với trung bình lịch sử (1.47)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 29/01/2011 đến 17/04/2016 (1906 điểm dữ liệu) và dự báo của ForecastBot cho 7 ngày tiếp theo."
+}

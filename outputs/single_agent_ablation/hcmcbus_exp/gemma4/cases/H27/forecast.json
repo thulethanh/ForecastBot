@@ -1,0 +1,22 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2024-12-01",
+      "yhat": 28560.0
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "ensemble",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 24,
+    "long_n": 35,
+    "short_window_name": "h24",
+    "long_window_name": "h35"
+  }
+}

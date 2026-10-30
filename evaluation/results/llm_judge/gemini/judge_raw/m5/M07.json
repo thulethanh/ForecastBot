@@ -1,0 +1,24 @@
+{
+  "case_id": "M07",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng yêu cầu dự báo 3 tháng cho item và cửa hàng cụ thể. Các mốc thời gian, từng giá trị dự báo, khoảng dự báo, so sánh với trung bình lịch sử và phạm vi lịch sử đều khớp dữ liệu được cung cấp. Thông tin ensemble, trọng số và hai cửa sổ 24/36 tháng cũng phù hợp với forecast result. Nội dung rõ ràng, có cấu trúc, đồng thời giúp người dùng hiểu mức dự báo và xu hướng giảm so với trung bình lịch sử mà không suy diễn nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.425580915994942,
+    "input_tokens": 2288,
+    "output_tokens": 220,
+    "total_tokens": 2508,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng yêu cầu dự báo 3 tháng cho item và cửa hàng cụ thể. Các mốc thời gian, từng giá trị dự báo, khoảng dự báo, so sánh với trung bình lịch sử và phạm vi lịch sử đều khớp dữ liệu được cung cấp. Thông tin ensemble, trọng số và hai cửa sổ 24/36 tháng cũng phù hợp với forecast result. Nội dung rõ ràng, có cấu trúc, đồng thời giúp người dùng hiểu mức dự báo và xu hướng giảm so với trung bình lịch sử mà không suy diễn nguyên nhân không có bằng chứng.\"}"
+  }
+}

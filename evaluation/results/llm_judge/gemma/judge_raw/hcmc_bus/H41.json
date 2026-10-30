@@ -1,0 +1,26 @@
+{
+  "case_id": "H41",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"Biểu đồ được huấn luyện trên 3 điểm dữ liệu lịch sử\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết các nhánh dự báo nhận cửa sổ 3 quan sát, không xác nhận việc huấn luyện mô hình trên các điểm này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến 139, nhà khai thác XKSG và chân trời 5 năm. Các mức dự báo, xu hướng giảm và so sánh với trung bình lịch sử đều khớp dữ liệu được cung cấp; trình bày rõ ràng, hữu ích. Tuy nhiên, chart_note khẳng định biểu đồ/mô hình được “huấn luyện” trên 3 điểm lịch sử, trong khi thông tin chỉ xác nhận cửa sổ đầu vào của các nhánh dự báo gồm 3 quan sát, không nêu cơ chế huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.640388583007734,
+    "input_tokens": 2352,
+    "output_tokens": 350,
+    "total_tokens": 2702,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"Biểu đồ được huấn luyện trên 3 điểm dữ liệu lịch sử\\\" không được hỗ trợ trực tiếp: dữ liệu chỉ cho biết các nhánh dự báo nhận cửa sổ 3 quan sát, không xác nhận việc huấn luyện mô hình trên các điểm này.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến 139, nhà khai thác XKSG và chân trời 5 năm. Các mức dự báo, xu hướng giảm và so sánh với trung bình lịch sử đều khớp dữ liệu được cung cấp; trình bày rõ ràng, hữu ích. Tuy nhiên, chart_note khẳng định biểu đồ/mô hình được “huấn luyện” trên 3 điểm lịch sử, trong khi thông tin chỉ xác nhận cửa sổ đầu vào của các nhánh dự báo gồm 3 quan sát, không nêu cơ chế huấn luyện.\"}"
+  }
+}

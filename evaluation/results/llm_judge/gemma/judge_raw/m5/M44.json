@@ -1,0 +1,26 @@
+{
+  "case_id": "M44",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên 1885 điểm dữ liệu lịch sử\" không được hỗ trợ: thông tin chỉ xác nhận 1885 điểm là phạm vi lịch sử khả dụng, trong khi các nhánh dự báo dùng cửa sổ h180 và h365; không có thông tin về huấn luyện mô hình trên toàn bộ 1885 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, bang, kỳ hạn 28 ngày và nêu chính xác dự báo phẳng ở mức 0.0, các thống kê lịch sử, chế độ ensemble và trọng số. Trình bày ngắn gọn, rõ ràng và giúp hiểu mức dự báo cùng cách kết hợp các nhánh. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên toàn bộ 1885 điểm, trong khi dữ liệu chỉ cho biết đây là phạm vi lịch sử khả dụng; cửa sổ của các nhánh là 180 và 365 quan sát. Vì vậy tính trung thực bị giảm đáng kể."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.948554500006139,
+    "input_tokens": 3094,
+    "output_tokens": 360,
+    "total_tokens": 3454,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên 1885 điểm dữ liệu lịch sử\\\" không được hỗ trợ: thông tin chỉ xác nhận 1885 điểm là phạm vi lịch sử khả dụng, trong khi các nhánh dự báo dùng cửa sổ h180 và h365; không có thông tin về huấn luyện mô hình trên toàn bộ 1885 điểm.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, bang, kỳ hạn 28 ngày và nêu chính xác dự báo phẳng ở mức 0.0, các thống kê lịch sử, chế độ ensemble và trọng số. Trình bày ngắn gọn, rõ ràng và giúp hiểu mức dự báo cùng cách kết hợp các nhánh. Tuy nhiên, chart_note khẳng định mô hình được huấn luyện trên toàn bộ 1885 điểm, trong khi dữ liệu chỉ cho biết đây là phạm vi lịch sử khả dụng; cửa sổ của các nhánh là 180 và 365 quan sát. Vì vậy tính trung thực bị giảm đáng kể.\"}"
+  }
+}

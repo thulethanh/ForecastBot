@@ -1,0 +1,4 @@
+Replace/add these two real UTF-8 CSV exports here before running:
+- m5_63_queries.csv
+- hcmcbus_63_queries.csv
+The previous files in the uploaded ZIP were Apple Numbers packages with .csv extensions, so they were intentionally removed from this updated package.

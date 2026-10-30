@@ -1,0 +1,53 @@
+[
+  {
+    "stage": "single_agent.request_sql",
+    "type": "single_agent",
+    "provider": "gemma",
+    "model": "gemma4:e4b",
+    "attempt": 1,
+    "prompt": "You are ForecastBot's SINGLE forecasting agent.\n\nYou are responsible for understanding the user's forecasting request and\ngenerating the SQL needed to retrieve the corresponding time series.\n\nUSER REQUEST:\nTôi muốn dự báo lượng hành khách của tuyến 90 do HTX 26 vận hành trong 3 năm tới.\n\nEXPECTED DATASET FOR THIS EVALUATION CASE:\nHCMC_BUS\n\nDATABASE SCHEMA KNOWLEDGE:\n\nDataset: HCMC_BUS\n\nYou are working with a PostgreSQL database for HCMC bus passenger forecasting.\n\n1. Table: daily_passenger_stats\n- date (DATE): Operating date and forecasting time axis\n- route_id (TEXT): Route identifier\n- operator (TEXT): Transport operator\n- vehicle_group (TEXT): Vehicle group\n- trips (INTEGER): Number of operated trips\n- buses (INTEGER): Number of buses\n- total_passengers (INTEGER): Total number of passengers and forecasting target\n\n2. Table: bus_routes\n- route_id (TEXT): Route identifier\n- route_name (TEXT): Route name\n- start_stop (TEXT): Start stop\n- end_stop (TEXT): End stop\n- distance_km (NUMERIC): Route distance in kilometres\n\nRelationship:\n- daily_passenger_stats.route_id = bus_routes.route_id\n\nBusiness meaning:\n- daily_passenger_stats is the forecasting fact table.\n- date is the true time axis.\n- total_passengers is the forecasting target.\n- bus_routes is a dimension table used for route filtering and description.\n\n\nSQL GENERATION RULES:\n\n- Use daily_passenger_stats as the fact table with alias d.\n- Join bus_routes as alias r only when route_name, start_stop or end_stop is required.\n- Join condition: d.route_id = r.route_id.\n- Always return exactly two columns: ds and y.\n- For day granularity, use d.date AS ds.\n- For month granularity, use DATE_TRUNC('month', d.date)::date AS ds.\n- For quarter granularity, use DATE_TRUNC('quarter', d.date)::date AS ds.\n- For year granularity, use DATE_TRUNC('year', d.date)::date AS ds.\n- Aggregate the forecasting target with SUM(d.total_passengers) AS y.\n- Support fact filters on route_id, operator, vehicle_group and date.\n- Route attributes route_name, start_stop and end_stop belong to bus_routes and require a join.\n- Group by the selected ds expression.\n- Sort by ds ascending.\n- Generate only one SELECT statement.\n- The source values of operator and vehicle_group may contain leading or trailing whitespace.\n- When filtering by operator, always apply TRIM to the database column: TRIM(d.operator).\n- When filtering by vehicle_group, always apply TRIM to the database column: TRIM(d.vehicle_group).\n- Compare trimmed operator and vehicle_group values using exact equality (=), unless the user explicitly requests partial or pattern matching.\n- route_id, operator and vehicle_group are independent fact filters and may be applied together in the same WHERE clause.\n\n\nAllowed granularities and horizons:\n- day: 7, 28, 30, 60, 90\n- month: 1, 3, 6, 12, 24\n- quarter: 1, 2, 3, 4, 8, 12\n- year: 1, 2, 3, 5, 10\n\nRequirements:\n1. Infer dataset, granularity, horizon and filters from the user's request.\n2. Do not invent filters that are not stated or semantically implied.\n3. Generate SQL using only the supplied schema/rules.\n4. SQL must return exactly two logical columns:\n   - ds: time index\n   - y: numeric value\n5. Return STRICT JSON only. No Markdown fences and no extra text.\n\nOutput schema:\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"M5 or HCMC_BUS or null\",\n  \"granularity\": \"day or month or quarter or year or null\",\n  \"horizon\": 7,\n  \"filters\": {},\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\",\n  \"sql\": \"SELECT ...\",\n  \"sql_explanation\": \"brief explanation\"\n}",
+    "raw_response": "```json\n{\n  \"intent\": \"forecast_request\",\n  \"dataset\": \"HCMC_BUS\",\n  \"granularity\": \"year\",\n  \"horizon\": 3,\n  \"filters\": {\n    \"route_id\": \"90\",\n    \"operator\": \"HTX 26\"\n  },\n  \"missing_fields\": [],\n  \"needs_clarification\": false,\n  \"user_message_for_clarification\": \"\",\n  \"sql\": \"SELECT DATE_TRUNC('year', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '90' AND TRIM(d.operator) = 'HTX 26' GROUP BY ds ORDER BY ds ASC;\",\n  \"sql_explanation\": \"The query aggregates the total number of passengers (total_passengers) by year (DATE_TRUNC('year', d.date)) for the specified route_id ('90') and operator ('HTX 26').\"\n}\n```",
+    "input_tokens": 1003,
+    "output_tokens": 706,
+    "total_tokens": 1709,
+    "llm_time_s": 47.7368696249323,
+    "status": "success",
+    "parse_ok": true,
+    "raw_json_compliant": false,
+    "error": ""
+  },
+  {
+    "stage": "single_agent.forecast_short",
+    "type": "single_agent",
+    "provider": "gemma",
+    "model": "gemma4:e4b",
+    "attempt": 1,
+    "prompt": "You are the SAME ForecastBot SINGLE forecasting agent.\n\nEarlier in this case you interpreted the user's request and generated SQL.\nNow forecast the supplied historical time series.\n\nFORECAST REQUEST:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"year\", \"horizon\": 3, \"filters\": {\"route_id\": \"90\", \"operator\": \"HTX 26\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nHISTORY BRANCH:\nshort\n\nTIME UNIT:\nYEARLY\n\nFORECAST HORIZON:\n3\n\nNUMBER OF HISTORY POINTS:\n3\n\nHISTORY VALUES IN CHRONOLOGICAL ORDER:\n[787966.0, 888996.0, 865871.0]\n\nRules:\n1. Forecast exactly 3 future values.\n2. Use ONLY the history supplied above.\n3. Do not assume access to held-out actual/test values.\n4. All values must be finite numbers.\n5. Demand/passenger forecasts must not be negative.\n6. Return STRICT JSON only, with no Markdown or extra text.\n\nOutput:\n{\n  \"forecast\": [0.0, 0.0]\n}\n\nThe forecast array MUST contain exactly 3 values.",
+    "raw_response": "```json\n{\n  \"forecast\": [\n    904823.5,\n    943776.0,\n    982728.5\n  ]\n}\n```",
+    "input_tokens": 313,
+    "output_tokens": 707,
+    "total_tokens": 1020,
+    "llm_time_s": 44.01602566707879,
+    "status": "success",
+    "parse_ok": true,
+    "raw_json_compliant": false,
+    "error": ""
+  },
+  {
+    "stage": "single_agent.explanation",
+    "type": "single_agent",
+    "provider": "gemma",
+    "model": "gemma4:e4b",
+    "attempt": 1,
+    "prompt": "You are the SAME ForecastBot SINGLE forecasting agent.\n\nEarlier in this case you interpreted the request, generated SQL and produced\nthe forecast. Explain the final result using ONLY the information below.\n\nFORECAST REQUEST:\n{\"intent\": \"forecast_request\", \"dataset\": \"HCMC_BUS\", \"granularity\": \"year\", \"horizon\": 3, \"filters\": {\"route_id\": \"90\", \"operator\": \"HTX 26\"}, \"missing_fields\": [], \"needs_clarification\": false, \"user_message_for_clarification\": \"\"}\n\nHISTORICAL DATA SUMMARY:\n{\"n_points\": 3, \"start_date\": \"2022-01-01\", \"end_date\": \"2024-01-01\", \"min_y\": 787966.0, \"max_y\": 888996.0, \"mean_y\": 847611.0}\n\nFINAL FORECAST:\n{\"forecast\": [{\"step\": 1, \"ds\": \"2025-01-01\", \"yhat\": 904823.5}, {\"step\": 2, \"ds\": \"2026-01-01\", \"yhat\": 943776.0}, {\"step\": 3, \"ds\": \"2027-01-01\", \"yhat\": 982728.5}], \"status\": \"success\", \"fallback_used\": false, \"selected_mode\": \"single\", \"weights\": {\"short\": 0.6, \"long\": 0.4}, \"window_info\": {\"short_n\": 3, \"long_n\": 3, \"short_window_name\": \"h3\", \"long_window_name\": \"h3\"}}\n\nRequirements:\n1. Do not claim knowledge of actual future/test values.\n2. Do not invent causes or external events not present in the inputs.\n3. Keep the explanation concise, clear and useful.\n4. Return STRICT JSON only.\n\nOutput:\n{\n  \"title\": \"Kết quả dự báo\",\n  \"summary_text\": \"...\",\n  \"insights\": [\"...\", \"...\"],\n  \"chart_note\": \"...\"\n}",
+    "raw_response": "```json\n{\n  \"title\": \"Kết quả dự báo cho HCMC_BUS (Tuyến 90, HTX 26)\",\n  \"summary_text\": \"Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 90, Nhà khai thác HTX 26) trong 3 năm tới (2025-2027) cho thấy một xu hướng tăng trưởng ổn định. Giá trị dự báo bắt đầu từ 904,823.5 vào năm 2025 và tiếp tục tăng lên 982,728.5 vào năm 2027.\",\n  \"insights\": [\n    \"Xu hướng tăng trưởng: Dự báo cho thấy sự gia tăng liên tục qua các năm, với mức tăng trưởng dự kiến từ năm này sang năm khác.\",\n    \"Phương pháp dự báo: Kết quả được tính toán bằng chế độ 'single' (đơn), sử dụng trọng số 60% cho cửa sổ ngắn (h3) và 40% cho cửa sổ dài (h3).\",\n    \"So sánh lịch sử: Các giá trị dự báo đều cao hơn đáng kể so với giá trị trung bình lịch sử (847,611.0) trong giai đoạn 2022-2024.\"\n  ],\n  \"chart_note\": \"Dự báo này được xây dựng dựa trên dữ liệu lịch sử từ 2022 đến 2024 và giả định rằng xu hướng tăng trưởng hiện tại sẽ được duy trì trong tương lai.\"\n}\n```",
+    "input_tokens": 526,
+    "output_tokens": 1225,
+    "total_tokens": 1751,
+    "llm_time_s": 76.26204066700302,
+    "status": "success",
+    "parse_ok": true,
+    "raw_json_compliant": false,
+    "error": ""
+  }
+]

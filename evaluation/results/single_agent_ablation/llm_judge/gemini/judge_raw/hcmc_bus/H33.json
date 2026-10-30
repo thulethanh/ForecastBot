@@ -1,0 +1,24 @@
+{
+  "case_id": "H33",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho tuyến 45, nhà xe XKSG và nêu đầy đủ hai kỳ dự báo. Các số liệu dự báo, so sánh với mức cao nhất và trung bình lịch sử đều khớp dữ liệu được cung cấp. Ghi chú về mô hình tổng hợp, 10 quý và trọng số 60% cho cửa sổ 8 quý cũng phù hợp window_info. Nội dung rõ ràng, cô đọng và giúp người dùng nhận biết mức dự báo cùng biến động nổi bật."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.385217125061899,
+    "input_tokens": 2204,
+    "output_tokens": 377,
+    "total_tokens": 2581,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho tuyến 45, nhà xe XKSG và nêu đầy đủ hai kỳ dự báo. Các số liệu dự báo, so sánh với mức cao nhất và trung bình lịch sử đều khớp dữ liệu được cung cấp. Ghi chú về mô hình tổng hợp, 10 quý và trọng số 60% cho cửa sổ 8 quý cũng phù hợp window_info. Nội dung rõ ràng, cô đọng và giúp người dùng nhận biết mức dự báo cùng biến động nổi bật.\"}"
+  }
+}

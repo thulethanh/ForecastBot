@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 60 ngày cho HCMC_BUS (route_id: 150, operator: HTX-195)",
+  "summary_text": "ForecastBot dự báo cho 60 ngày tới (từ 2024-11-02 đến 2024-12-31) cho dataset HCMC_BUS với các bộ lọc đã chọn. Các giá trị dự báo dao động trong khoảng từ 9.517 đến 15.546, thể hiện một chu kỳ tuần rõ rệt.",
+  "insights": [
+    "Dự báo cho thấy một chu kỳ 7 ngày lặp lại, với giá trị thấp nhất vào Chủ Nhật (khoảng 9.517) và cao nhất vào Thứ Hai (khoảng 15.546).",
+    "Giá trị trung bình dự báo (khoảng 13.769) cao hơn giá trị trung bình lịch sử (khoảng 11.970).",
+    "Phạm vi các giá trị dự báo (9.517 - 15.546) hẹp hơn so với phạm vi lịch sử (482 - 17.143)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2022-01-01 đến 2024-11-01 và dự báo cho 60 ngày tiếp theo. Dự báo được tạo bởi mô hình ensemble của ForecastBot, kết hợp các cửa sổ dữ liệu 180 ngày và 365 ngày."
+}

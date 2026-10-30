@@ -1,0 +1,33 @@
+{
+  "case_id": "M27",
+  "question": "Cho tôi dự báo lượng bán của sản phẩm FOODS_1_031 tại cửa hàng TX_1 trong 1 tháng tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 63,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 46.040386625012616,
+    "load_schema": 0.01954991700768005,
+    "sql_generation": 68.84746229099983,
+    "sql_execution_and_repair": 0.028715624997857958,
+    "forecast": 180.24699504200544,
+    "explanation": 67.49078608299897,
+    "end_to_end": 362.6739781249926
+  },
+  "total_tokens": 8253,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

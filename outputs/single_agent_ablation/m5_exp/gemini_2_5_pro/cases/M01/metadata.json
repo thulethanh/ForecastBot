@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M01",
+  "question": "Tôi muốn dự báo lượng bán của sản phẩm FOODS_3_228 trong 7 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1906,
+    "n_test": 7,
+    "horizon": 7,
+    "minimum_train_required": 7,
+    "required_points_for_evaluation": 14,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.32137258304283023,
+    "request_sql": 9.47618495800998,
+    "sql_execution_and_repair": 0.1296969159739092,
+    "forecast": 81.790160540957,
+    "explanation": 15.957458250108175,
+    "end_to_end": 107.67500725004356
+  },
+  "total_tokens": 21056,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

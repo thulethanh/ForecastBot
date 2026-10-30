@@ -1,0 +1,24 @@
+{
+  "case_id": "M57",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo theo quý cho đúng sản phẩm, cửa hàng và 8 kỳ. Các mốc thời gian, mức trung bình 47,6, mức tối đa lịch sử 127,0, số quý lịch sử/dự báo và trọng số ensemble đều khớp dữ liệu cung cấp. Nhận định về đỉnh Quý 1 và đáy Quý 4 được thể hiện nhất quán trong các giá trị dự báo đầy đủ theo năm 2015. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo, biến động theo quý cũng như cách kết hợp các cửa sổ dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.262334208004177,
+    "input_tokens": 2469,
+    "output_tokens": 565,
+    "total_tokens": 3034,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo theo quý cho đúng sản phẩm, cửa hàng và 8 kỳ. Các mốc thời gian, mức trung bình 47,6, mức tối đa lịch sử 127,0, số quý lịch sử/dự báo và trọng số ensemble đều khớp dữ liệu cung cấp. Nhận định về đỉnh Quý 1 và đáy Quý 4 được thể hiện nhất quán trong các giá trị dự báo đầy đủ theo năm 2015. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo, biến động theo quý cũng như cách kết hợp các cửa sổ dự báo.\"}"
+  }
+}

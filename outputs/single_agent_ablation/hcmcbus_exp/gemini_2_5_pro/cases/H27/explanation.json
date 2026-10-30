@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo về lượng hành khách hàng ngày cho tuyến xe buýt 15 trong 30 ngày tới, từ ngày 2 tháng 12 năm 2024 đến ngày 31 tháng 12 năm 2024. Dự báo được tạo ra dựa trên dữ liệu lịch sử từ ngày 2 tháng 1 năm 2022, với lượng hành khách trung bình là 967.",
+  "insights": [
+    "Dự báo cho thấy một quy luật tuần rõ rệt, với lượng hành khách dự kiến cao nhất vào các ngày thứ Hai và thấp nhất vào các ngày thứ Bảy.",
+    "Kết quả này được tạo ra bằng mô hình tổ hợp (ensemble), kết hợp dự báo từ cửa sổ dữ liệu 180 ngày (trọng số 60%) và 365 ngày (trọng số 40%), ưu tiên các xu hướng gần đây hơn."
+  ],
+  "chart_note": "Dữ liệu lịch sử được hiển thị cùng với các giá trị dự báo cho 30 ngày tiếp theo."
+}

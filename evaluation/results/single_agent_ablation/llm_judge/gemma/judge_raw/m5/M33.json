@@ -1,0 +1,24 @@
+{
+  "case_id": "M33",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, độ chi tiết theo quý và hai mốc dự báo; nêu chính xác mức dự báo 0.0 cho cả hai quý. Thông tin về ensemble, trọng số 60%/40%, các cửa sổ h8/h12, 20 điểm lịch sử, phạm vi lịch sử và trạng thái không fallback đều được forecast/history hỗ trợ. Trình bày ngắn gọn, rõ ràng. Tuy nhiên, phần ý nghĩa thực tế còn cơ bản, chưa diễn giải thêm xu hướng ổn định ở mức 0 trong hai quý."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.475737250060774,
+    "input_tokens": 2157,
+    "output_tokens": 240,
+    "total_tokens": 2397,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, độ chi tiết theo quý và hai mốc dự báo; nêu chính xác mức dự báo 0.0 cho cả hai quý. Thông tin về ensemble, trọng số 60%/40%, các cửa sổ h8/h12, 20 điểm lịch sử, phạm vi lịch sử và trạng thái không fallback đều được forecast/history hỗ trợ. Trình bày ngắn gọn, rõ ràng. Tuy nhiên, phần ý nghĩa thực tế còn cơ bản, chưa diễn giải thêm xu hướng ổn định ở mức 0 trong hai quý.\"}"
+  }
+}

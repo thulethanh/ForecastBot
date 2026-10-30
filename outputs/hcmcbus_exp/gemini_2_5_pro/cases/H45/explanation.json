@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo 30 ngày cho HCMC_BUS (route_id: 148, vehicle_group: 3_CNG)",
+  "summary_text": "ForecastBot dự báo cho 30 ngày tới, từ 02/12/2024 đến 31/12/2024. Giá trị dự báo trung bình là 1,393.7. Con số này cao hơn mức trung bình lịch sử là 1,292.6 (từ 01/01/2022 đến 01/12/2024).",
+  "insights": [
+    "Dự báo cho thấy một quy luật theo tuần rõ rệt, với các giá trị cao hơn vào các ngày trong tuần (Thứ Hai - Thứ Sáu) và giảm đáng kể vào cuối tuần (Thứ Bảy, Chủ Nhật).",
+    "Giá trị dự báo cao nhất là 1,581.2 vào ngày 04/12/2024 và thấp nhất là 1,101.4 vào ngày 29/12/2024."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (1064 điểm, từ 01/01/2022 đến 01/12/2024) và kết quả dự báo của ForecastBot cho 30 ngày tiếp theo."
+}

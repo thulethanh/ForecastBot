@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số cho mặt hàng HOBBIES_1_227 tại cửa hàng CA_2 trong bốn quý tới, từ Quý 3 2015 đến Quý 2 2016. Dự báo cho thấy doanh số sẽ biến động, với mức cao nhất dự kiến là 51.0 đơn vị vào Quý 2 năm 2016.",
+  "insights": [
+    "Dự báo cho thấy một mô hình doanh số theo mùa, với đỉnh điểm được dự đoán vào quý hai, cao hơn đáng kể so với mức trung bình trong lịch sử là 39.2 đơn vị.",
+    "Kết quả được tạo ra bằng một mô hình tổng hợp, kết hợp các xu hướng gần đây (8 quý vừa qua) và các mẫu dài hạn hơn (12 quý vừa qua), trong đó chú trọng hơn (60% trọng số) vào dữ liệu gần đây nhất."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu doanh số lịch sử trong 18 quý cùng với dự báo cho 4 quý tiếp theo."
+}

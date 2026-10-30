@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M56",
+  "question": "Cho tôi dự báo lượng bán của sản phẩm HOBBIES_2_140 tại bang WI trong 4 quý tới.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 18,
+    "n_test": 4,
+    "horizon": 4,
+    "minimum_train_required": 4,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.004156250040978193,
+    "request_sql": 10.412763666943647,
+    "sql_execution_and_repair": 0.04406345903407782,
+    "forecast": 32.5237073750468,
+    "explanation": 13.097417750046588,
+    "end_to_end": 56.082213249988854
+  },
+  "total_tokens": 9539,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

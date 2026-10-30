@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 10 năm cho item_id HOUSEHOLD_1_302 tại store_id TX_2",
+  "summary_text": "Dựa trên dữ liệu lịch sử 6 năm từ 2011 đến 2016, ForecastBot dự báo giá trị sẽ tăng từ 95.2 vào năm 2017 lên 119.3 vào năm 2026. Dự báo cho thấy giá trị sẽ tăng trong những năm đầu và sau đó ổn định gần mức trung bình lịch sử là 119.33.",
+  "insights": [
+    "Giá trị dự báo sẽ tăng nhanh trong 4 năm đầu, từ 95.2 (2017) lên 116.3 (2020).",
+    "Từ năm 2021 trở đi, dự báo sẽ ổn định và tiệm cận mức trung bình lịch sử (119.33), đạt 119.3 vào năm 2026.",
+    "Phạm vi dự báo (từ 95.2 đến 119.3) hẹp hơn đáng kể so với phạm vi dữ liệu lịch sử (từ 2.0 đến 251.0)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử trong 6 năm (2011-2016) và dự báo của ForecastBot cho 10 năm tiếp theo (2017-2026)."
+}

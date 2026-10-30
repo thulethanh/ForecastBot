@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo M5 (TX - HOUSEHOLD_1_416)",
+  "summary_text": "Dự báo cho 12 quý tiếp theo (từ 2016-07-01 đến 2019-04-01) cho thấy một xu hướng giảm dần ổn định. Giá trị dự báo bắt đầu ở mức 600.99 vào quý 3 năm 2016 và giảm dần xuống 553.79 vào quý 2 năm 2019.",
+  "insights": [
+    "Mô hình dự báo được sử dụng là 'ensemble' (tổng hợp), với trọng số 0.6 được áp dụng cho cửa sổ ngắn hạn và 0.4 cho cửa sổ dài hạn.",
+    "Phạm vi dự báo bao gồm 12 bước (quý), bắt đầu ngay sau ngày kết thúc dữ liệu lịch sử (2016-04-01).",
+    "Xu hướng chung của các giá trị dự báo là giảm đều đặn qua các quý, từ mức cao nhất 600.99 xuống mức thấp nhất 553.79 trong giai đoạn dự báo."
+  ],
+  "chart_note": "Các giá trị này là dự báo toán học dựa trên dữ liệu lịch sử và mô hình ensemble, không phải là giá trị thực tế trong tương lai."
+}

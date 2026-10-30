@@ -1,0 +1,33 @@
+{
+  "case_id": "H33",
+  "question": "Trong 2 quý tới, tuyến 45 do XKSG vận hành có lượng hành khách dự kiến như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 10,
+    "n_test": 2,
+    "horizon": 2,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 4,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 40.606622667008196,
+    "load_schema": 0.0029218749987194315,
+    "sql_generation": 57.152951416006545,
+    "sql_execution_and_repair": 0.011499000000185333,
+    "forecast": 233.00678754100227,
+    "explanation": 65.87192000000505,
+    "end_to_end": 396.6527527080034
+  },
+  "total_tokens": 8745,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

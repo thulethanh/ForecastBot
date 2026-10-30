@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H29",
+  "question": "Dự báo lượng hành khách của tuyến 3 do HTX-195 vận hành trong 6 tháng tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 36,
+    "n_train": 30,
+    "n_test": 6,
+    "horizon": 6,
+    "minimum_train_required": 6,
+    "required_points_for_evaluation": 12,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.05739733297377825,
+    "request_sql": 10.591861416003667,
+    "sql_execution_and_repair": 0.020804416039027274,
+    "forecast": 53.243526875041425,
+    "explanation": 15.907774624996819,
+    "end_to_end": 79.82149545801803
+  },
+  "total_tokens": 14191,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

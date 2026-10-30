@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (route_id: 47) theo năm",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo lưu lượng cho route_id: 47 sẽ tiếp tục tăng trưởng trong 3 năm tới. Cụ thể, dự báo cho năm 2025-01-01 là 982,000.0, tiếp tục tăng lên 991,924.0 vào năm 2026-01-01, và đạt 999,158.0 vào năm 2027-01-01.",
+  "insights": [
+    "Trong 3 năm lịch sử (2022-01-01 đến 2024-01-01), lưu lượng dao động từ mức thấp nhất 936,086.0 đến mức cao nhất 969,384.0, với mức trung bình là 953,183.33.",
+    "Theo dự báo, lưu lượng dự kiến tăng trưởng ổn định qua các năm, tăng từ 982,000.0 (2025) lên 999,158.0 (2027)."
+  ],
+  "chart_note": "Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01. ForecastBot sử dụng chế độ 'single' với trọng số (weights) là 0.6 cho cửa sổ ngắn (h3) và 0.4 cho cửa sổ dài (h3) để đưa ra dự báo cho 3 bước tiếp theo."
+}

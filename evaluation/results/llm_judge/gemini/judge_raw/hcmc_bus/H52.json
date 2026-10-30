@@ -1,0 +1,24 @@
+{
+  "case_id": "H52",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng theo tháng cho các bộ lọc đã chọn. Các mốc thời gian, đỉnh tháng 10, đáy tháng 7, biên dự báo và nhận định không có xu hướng tăng/giảm tổng thể đều được hỗ trợ trực tiếp bởi chuỗi dự báo lặp lại giống nhau giữa hai năm. So sánh phạm vi dự báo với min/max lịch sử cũng chính xác. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được mức độ biến động chính."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.923399332998088,
+    "input_tokens": 3064,
+    "output_tokens": 252,
+    "total_tokens": 3316,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng theo tháng cho các bộ lọc đã chọn. Các mốc thời gian, đỉnh tháng 10, đáy tháng 7, biên dự báo và nhận định không có xu hướng tăng/giảm tổng thể đều được hỗ trợ trực tiếp bởi chuỗi dự báo lặp lại giống nhau giữa hai năm. So sánh phạm vi dự báo với min/max lịch sử cũng chính xác. Nội dung rõ ràng, ngắn gọn và giúp người dùng nắm được mức độ biến động chính.\"}"
+  }
+}

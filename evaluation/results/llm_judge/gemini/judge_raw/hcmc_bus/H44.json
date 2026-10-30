@@ -1,0 +1,24 @@
+{
+  "case_id": "H44",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 146, đơn vị vận hành và chân trời 28 ngày. Các mốc thời gian, khoảng dự báo, cực đại/cực tiểu, trung bình ngày thường-cuối tuần và trung bình tuần đầu/tuần cuối đều phù hợp với forecast. Nhận định về tính lặp lại theo tuần và xu hướng giảm nhẹ được hỗ trợ bởi chuỗi dự báo. Chart note mô tả đúng phạm vi lịch sử, số điểm dữ liệu, ensemble và hai cửa sổ 180/365 ngày. Nội dung rõ ràng, có cấu trúc và giúp người dùng hiểu mức độ cũng như biến động dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 15.15104074998817,
+    "input_tokens": 3306,
+    "output_tokens": 572,
+    "total_tokens": 3878,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 146, đơn vị vận hành và chân trời 28 ngày. Các mốc thời gian, khoảng dự báo, cực đại/cực tiểu, trung bình ngày thường-cuối tuần và trung bình tuần đầu/tuần cuối đều phù hợp với forecast. Nhận định về tính lặp lại theo tuần và xu hướng giảm nhẹ được hỗ trợ bởi chuỗi dự báo. Chart note mô tả đúng phạm vi lịch sử, số điểm dữ liệu, ensemble và hai cửa sổ 180/365 ngày. Nội dung rõ ràng, có cấu trúc và giúp người dùng hiểu mức độ cũng như biến động dự báo.\"}"
+  }
+}

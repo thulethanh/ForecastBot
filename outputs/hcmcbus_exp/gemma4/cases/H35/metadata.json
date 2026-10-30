@@ -1,0 +1,33 @@
+{
+  "case_id": "H35",
+  "question": "Dự báo lượng hành khách của tuyến 103 trong 4 quý tiếp theo.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 8,
+    "n_test": 4,
+    "horizon": 4,
+    "minimum_train_required": 4,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 34.07012483300059,
+    "load_schema": 0.005016416995204054,
+    "sql_generation": 55.60221754100348,
+    "sql_execution_and_repair": 0.020841250006924383,
+    "forecast": 90.20564249999006,
+    "explanation": 63.5854721670039,
+    "end_to_end": 243.48936174999108
+  },
+  "total_tokens": 6128,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "M53",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Biểu đồ này hiển thị quá trình huấn luyện của ForecastBot trên 21 điểm dữ liệu lịch sử.\" Không có thông tin nào xác nhận quá trình huấn luyện diễn ra trên 21 điểm; dữ liệu chỉ cho biết phạm vi lịch sử có 21 điểm và các cửa sổ dự báo là h8, h12."
+    ],
+    "reason_vi": "Giải thích trả lời đúng đối tượng, kỳ hạn và nêu chính xác giá trị dự báo 38.3, thống kê lịch sử, chế độ ensemble cùng trọng số/cửa sổ. Trình bày rõ ràng và hữu ích ở mức tốt. Tuy nhiên, chart_note khẳng định biểu đồ thể hiện quá trình huấn luyện trên 21 điểm lịch sử, trong khi dữ liệu không cung cấp thông tin về huấn luyện; 21 điểm chỉ là phạm vi lịch sử khả dụng. Vì vậy faithfulness bị giảm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.343893917000969,
+    "input_tokens": 2154,
+    "output_tokens": 309,
+    "total_tokens": 2463,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Biểu đồ này hiển thị quá trình huấn luyện của ForecastBot trên 21 điểm dữ liệu lịch sử.\\\" Không có thông tin nào xác nhận quá trình huấn luyện diễn ra trên 21 điểm; dữ liệu chỉ cho biết phạm vi lịch sử có 21 điểm và các cửa sổ dự báo là h8, h12.\"],\"reason_vi\":\"Giải thích trả lời đúng đối tượng, kỳ hạn và nêu chính xác giá trị dự báo 38.3, thống kê lịch sử, chế độ ensemble cùng trọng số/cửa sổ. Trình bày rõ ràng và hữu ích ở mức tốt. Tuy nhiên, chart_note khẳng định biểu đồ thể hiện quá trình huấn luyện trên 21 điểm lịch sử, trong khi dữ liệu không cung cấp thông tin về huấn luyện; 21 điểm chỉ là phạm vi lịch sử khả dụng. Vì vậy faithfulness bị giảm.\"}"
+  }
+}

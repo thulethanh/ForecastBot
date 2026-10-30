@@ -1,0 +1,26 @@
+{
+  "case_id": "H50",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Chart note mô tả yhat là dự đoán cho \"lưu lượng hoạt động hàng tháng\" của tuyến 56, trong khi request, history summary và forecast không xác định rõ ý nghĩa nghiệp vụ của biến y."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 6 tháng cho tuyến 56 và HTX-QTHANG, nêu đúng giai đoạn, chế độ ensemble, hai cửa sổ 24/30 điểm, trọng số 60%/40% và xu hướng giảm đến tháng 9 rồi phục hồi nhẹ. Nội dung rõ ràng, súc tích và giúp hiểu hướng biến động dự báo. Tuy nhiên, việc gán yhat là “lưu lượng hoạt động” không được các dữ liệu cung cấp xác nhận; nên dùng mô tả trung tính như giá trị chỉ tiêu dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.504195249988697,
+    "input_tokens": 2343,
+    "output_tokens": 476,
+    "total_tokens": 2819,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Chart note mô tả yhat là dự đoán cho \\\"lưu lượng hoạt động hàng tháng\\\" của tuyến 56, trong khi request, history summary và forecast không xác định rõ ý nghĩa nghiệp vụ của biến y.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 6 tháng cho tuyến 56 và HTX-QTHANG, nêu đúng giai đoạn, chế độ ensemble, hai cửa sổ 24/30 điểm, trọng số 60%/40% và xu hướng giảm đến tháng 9 rồi phục hồi nhẹ. Nội dung rõ ràng, súc tích và giúp hiểu hướng biến động dự báo. Tuy nhiên, việc gán yhat là “lưu lượng hoạt động” không được các dữ liệu cung cấp xác nhận; nên dùng mô tả trung tính như giá trị chỉ tiêu dự báo.\"}"
+  }
+}

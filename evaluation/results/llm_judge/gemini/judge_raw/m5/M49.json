@@ -1,0 +1,26 @@
+{
+  "case_id": "M49",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "\"61 điểm dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01 được sử dụng để huấn luyện mô hình\" không được hỗ trợ: kết quả chỉ nêu hai cửa sổ của các nhánh ensemble là 24 và 36 tháng, không xác nhận toàn bộ 61 điểm được dùng để huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng item và cửa hàng, nêu chính xác các mức dự báo, so sánh hợp lệ với trung bình/cực đại lịch sử, và mô tả đúng ensemble cùng trọng số và cửa sổ 24/36 tháng. Nội dung rõ ràng, hữu ích về mức độ và biến động dự báo. Điểm faithfulness giảm nhẹ vì chart_note khẳng định toàn bộ 61 điểm được dùng để huấn luyện mô hình, trong khi thông tin cung cấp chỉ xác nhận phạm vi lịch sử và các cửa sổ đầu vào của hai nhánh dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.52947954199044,
+    "input_tokens": 2285,
+    "output_tokens": 365,
+    "total_tokens": 2650,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"\\\"61 điểm dữ liệu lịch sử từ 2011-01-01 đến 2016-01-01 được sử dụng để huấn luyện mô hình\\\" không được hỗ trợ: kết quả chỉ nêu hai cửa sổ của các nhánh ensemble là 24 và 36 tháng, không xác nhận toàn bộ 61 điểm được dùng để huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng item và cửa hàng, nêu chính xác các mức dự báo, so sánh hợp lệ với trung bình/cực đại lịch sử, và mô tả đúng ensemble cùng trọng số và cửa sổ 24/36 tháng. Nội dung rõ ràng, hữu ích về mức độ và biến động dự báo. Điểm faithfulness giảm nhẹ vì chart_note khẳng định toàn bộ 61 điểm được dùng để huấn luyện mô hình, trong khi thông tin cung cấp chỉ xác nhận phạm vi lịch sử và các cửa sổ đầu vào của hai nhánh dự báo.\"}"
+  }
+}

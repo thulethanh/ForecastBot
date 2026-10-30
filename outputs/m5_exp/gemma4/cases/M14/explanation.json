@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho M5 (HOBBIES_1_227, CA_2) trong 4 quý tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2015-04-01, mô hình dự báo cho 4 quý tiếp theo cho thấy xu hướng tăng trưởng ổn định. Giá trị dự báo bắt đầu từ 58.0 vào quý 2015-07-01 và tăng dần lên 77.8 vào quý 2016-04-01.",
+  "insights": [
+    "Trong 4 quý dự báo, giá trị được dự đoán tăng liên tục, từ 58.0 (2015-07-01) lên 77.8 (2016-04-01).",
+    "Sự tăng trưởng dự kiến qua các quý là: 58.0 -> 64.6 -> 71.2 -> 77.8."
+  ],
+  "chart_note": "Bản đồ này được tạo bằng ForecastBot, sử dụng chế độ ensemble, kết hợp thông tin từ cửa sổ ngắn (h8) và cửa sổ dài (h12). Dữ liệu lịch sử được cung cấp từ 2011-01-01 đến 2015-04-01, và dự báo bao gồm 4 bước tiếp theo."
+}

@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 28,
+  "filters": {
+    "item_id": "FOODS_3_324",
+    "state_id": "WI"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train s JOIN m5_calendar c ON s.d = c.d WHERE s.item_id = 'FOODS_3_324' AND s.state_id = 'WI' AND c.date >= CURRENT_DATE AND c.date < CURRENT_DATE + INTERVAL '28 days' GROUP BY c.date ORDER BY c.date ASC",
+  "sql_explanation": "Retrieves the daily sales forecast (y) for item FOODS_3_324 in state WI for the next 28 days, using the m5_sales_train and m5_calendar tables."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho tuyến HCMC_BUS (Route 58, HTX-VTHANG) trong 7 ngày tới (2024-12-25 đến 2024-12-31) đã được thực hiện thành công. Mô hình sử dụng phương pháp 'deterministic_recent_mean' và đã kích hoạt cơ chế fallback. Kết quả dự báo cho toàn bộ 7 ngày là một giá trị ổn định và không thay đổi, cụ thể là 1469.7143.",
+  "insights": [
+    "Phương pháp dự báo được chọn là 'deterministic_recent_mean', sử dụng trọng số 60% cho dữ liệu ngắn hạn (180 ngày) và 40% cho dữ liệu dài hạn (365 ngày).",
+    "Việc sử dụng cơ chế fallback (fallback_used: true) là một yếu tố quan trọng trong việc xác định giá trị dự báo cuối cùng.",
+    "Giá trị dự báo được duy trì ở mức 1469.7143 xuyên suốt toàn bộ 7 bước dự báo, cho thấy sự ổn định của mô hình trong điều kiện fallback."
+  ],
+  "chart_note": "Dự báo được tính toán dựa trên giá trị trung bình xác định (deterministic_recent_mean), kết hợp giữa xu hướng gần đây và xu hướng dài hạn của dữ liệu lịch sử."
+}

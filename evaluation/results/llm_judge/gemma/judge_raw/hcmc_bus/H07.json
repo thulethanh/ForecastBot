@@ -1,0 +1,24 @@
+{
+  "case_id": "H07",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng tuyến và đơn vị vận hành, nêu đầy đủ từng mức dự báo theo tháng. Nhận định xu hướng tăng, so sánh với trung bình lịch sử và kiểm tra phạm vi lịch sử đều khớp dữ liệu được cung cấp. Ghi chú biểu đồ cũng phù hợp với 24 điểm lịch sử, chế độ mô hình và trọng số trong kết quả dự báo. Trình bày rõ ràng, trực tiếp và giúp hiểu cả mức dự báo lẫn bối cảnh lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.202338999995845,
+    "input_tokens": 2295,
+    "output_tokens": 229,
+    "total_tokens": 2524,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 tháng cho đúng tuyến và đơn vị vận hành, nêu đầy đủ từng mức dự báo theo tháng. Nhận định xu hướng tăng, so sánh với trung bình lịch sử và kiểm tra phạm vi lịch sử đều khớp dữ liệu được cung cấp. Ghi chú biểu đồ cũng phù hợp với 24 điểm lịch sử, chế độ mô hình và trọng số trong kết quả dự báo. Trình bày rõ ràng, trực tiếp và giúp hiểu cả mức dự báo lẫn bối cảnh lịch sử.\"}"
+  }
+}

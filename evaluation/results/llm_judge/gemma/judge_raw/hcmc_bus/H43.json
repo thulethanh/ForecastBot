@@ -1,0 +1,26 @@
+{
+  "case_id": "H43",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1087 điểm từ 2022-01-01 đến 2024-12-24.\" Không có bằng chứng rằng toàn bộ 1087 điểm được dùng để huấn luyện; thông tin cửa sổ chỉ nêu các nhánh sử dụng 180 và 365 quan sát gần nhất."
+    ],
+    "reason_vi": "Giải thích bám sát tuyến 145 và đúng kỳ hạn 7 ngày; nêu chính xác mức dự báo đồng nhất 2170.2857, mô hình deterministic_recent_mean và việc dùng fallback. Cấu trúc ngắn gọn, rõ ràng. Tuy nhiên, chart_note khẳng định toàn bộ 1087 điểm lịch sử được dùng để huấn luyện, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ 180/365 quan sát cho nhánh dự báo, không xác nhận việc huấn luyện trên toàn bộ khoảng này. Nội dung sẽ hữu ích hơn nếu so sánh mức dự báo với thống kê lịch sử được cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.93645729200216,
+    "input_tokens": 2374,
+    "output_tokens": 352,
+    "total_tokens": 2726,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1087 điểm từ 2022-01-01 đến 2024-12-24.\\\" Không có bằng chứng rằng toàn bộ 1087 điểm được dùng để huấn luyện; thông tin cửa sổ chỉ nêu các nhánh sử dụng 180 và 365 quan sát gần nhất.\"],\"reason_vi\":\"Giải thích bám sát tuyến 145 và đúng kỳ hạn 7 ngày; nêu chính xác mức dự báo đồng nhất 2170.2857, mô hình deterministic_recent_mean và việc dùng fallback. Cấu trúc ngắn gọn, rõ ràng. Tuy nhiên, chart_note khẳng định toàn bộ 1087 điểm lịch sử được dùng để huấn luyện, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ 180/365 quan sát cho nhánh dự báo, không xác nhận việc huấn luyện trên toàn bộ khoảng này. Nội dung sẽ hữu ích hơn nếu so sánh mức dự báo với thống kê lịch sử được cung cấp.\"}"
+  }
+}

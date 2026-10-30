@@ -1,0 +1,26 @@
+{
+  "case_id": "M47",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Chart note khẳng định dữ liệu lịch sử từ 2011-01-29 đến 2016-01-25 \"được sử dụng để huấn luyện\". Thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng; forecast cho biết các nhánh dùng cửa sổ 180 và 365 quan sát, không xác nhận việc huấn luyện trên toàn bộ giai đoạn này."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, khu vực và chân trời 90 ngày. Các số trung bình dự báo khoảng 0,90, trung bình lịch sử 0,99, biên 0,57–1,47, chu kỳ 7 ngày và các ngày đạt cực trị đều khớp forecast/history. Nội dung rõ ràng, ngắn gọn và hữu ích để hiểu mức cùng nhịp biến động dự báo. Tuy nhiên, chart note khẳng định toàn bộ dữ liệu lịch sử được dùng để huấn luyện, trong khi thông tin chỉ nêu phạm vi lịch sử khả dụng và cửa sổ dự báo 180/365; do đó faithfulness giảm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.565239291987382,
+    "input_tokens": 5147,
+    "output_tokens": 571,
+    "total_tokens": 5718,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"Chart note khẳng định dữ liệu lịch sử từ 2011-01-29 đến 2016-01-25 \\\"được sử dụng để huấn luyện\\\". Thông tin cung cấp chỉ xác nhận đây là phạm vi lịch sử khả dụng; forecast cho biết các nhánh dùng cửa sổ 180 và 365 quan sát, không xác nhận việc huấn luyện trên toàn bộ giai đoạn này.\"],\"reason_vi\":\"Giải thích bám sát đúng item, khu vực và chân trời 90 ngày. Các số trung bình dự báo khoảng 0,90, trung bình lịch sử 0,99, biên 0,57–1,47, chu kỳ 7 ngày và các ngày đạt cực trị đều khớp forecast/history. Nội dung rõ ràng, ngắn gọn và hữu ích để hiểu mức cùng nhịp biến động dự báo. Tuy nhiên, chart note khẳng định toàn bộ dữ liệu lịch sử được dùng để huấn luyện, trong khi thông tin chỉ nêu phạm vi lịch sử khả dụng và cửa sổ dự báo 180/365; do đó faithfulness giảm.\"}"
+  }
+}

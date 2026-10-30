@@ -1,0 +1,24 @@
+{
+  "case_id": "H09",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 12 tháng cho tuyến 31, đơn vị XKSG; nêu đúng mức đầu kỳ 63.000, cuối kỳ 74.000 và xu hướng tăng đều theo từng tháng trong forecast. Thông tin về chế độ single, trọng số và 24 điểm lịch sử cũng khớp dữ liệu được cung cấp. Trình bày rõ ràng, ngắn gọn. Điểm hữu ích giảm nhẹ vì chưa diễn giải thêm ý nghĩa vận hành/thực tế của mức tăng, dù điều này không bắt buộc."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.788296416052617,
+    "input_tokens": 2523,
+    "output_tokens": 257,
+    "total_tokens": 2780,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 12 tháng cho tuyến 31, đơn vị XKSG; nêu đúng mức đầu kỳ 63.000, cuối kỳ 74.000 và xu hướng tăng đều theo từng tháng trong forecast. Thông tin về chế độ single, trọng số và 24 điểm lịch sử cũng khớp dữ liệu được cung cấp. Trình bày rõ ràng, ngắn gọn. Điểm hữu ích giảm nhẹ vì chưa diễn giải thêm ý nghĩa vận hành/thực tế của mức tăng, dù điều này không bắt buộc.\"}"
+  }
+}

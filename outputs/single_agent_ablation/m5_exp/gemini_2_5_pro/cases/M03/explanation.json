@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số bán hàng trong 30 ngày cho sản phẩm FOODS_2_069 tại California, bắt đầu từ ngày 26 tháng 3 năm 2016. Doanh số dự kiến sẽ dao động trong khoảng từ 1.4 đến 3.4 đơn vị mỗi ngày, cao hơn mức trung bình lịch sử là 1.22 đơn vị.",
+  "insights": [
+    "Dự báo cho thấy một quy luật hàng tuần rõ rệt, với doanh số cao nhất vào các ngày thứ Ba (dự kiến 3.4 đơn vị) và thấp nhất vào các ngày thứ Năm (dự kiến 1.4 đơn vị).",
+    "Mức dự báo trung bình cao hơn đáng kể so với mức trung bình lịch sử, cho thấy mô hình đã xác định được một xu hướng tăng gần đây trong dữ liệu bán hàng."
+  ],
+  "chart_note": "Dữ liệu lịch sử từ 29/01/2011 đến 25/03/2016 được hiển thị bên cạnh dự báo 30 ngày. Doanh số dự báo cao hơn mức trung bình lịch sử (1.22)."
+}

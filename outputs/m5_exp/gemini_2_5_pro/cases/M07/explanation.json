@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 3 tháng cho item_id FOODS_3_718 tại store_id CA_3",
+  "summary_text": "ForecastBot dự báo các giá trị cho 3 tháng tới, từ tháng 2/2016 đến tháng 4/2016. Các giá trị dự báo nằm trong khoảng từ 5.92 đến 33.68. Mức dự báo này thấp hơn mức trung bình lịch sử là 51.98.",
+  "insights": [
+    "Dự báo cho tháng 2/2016 là 33.68, tháng 3/2016 là 5.92, và tháng 4/2016 là 19.82.",
+    "Tất cả các giá trị dự báo đều thấp hơn mức trung bình lịch sử (51.98) và nằm trong khoảng giá trị lịch sử [0.0, 116.0].",
+    "Dự báo được tạo ra bằng mô hình `ensemble`, kết hợp một cửa sổ 24 tháng (trọng số 60%) và một cửa sổ 36 tháng (trọng số 40%)."
+  ],
+  "chart_note": "Biểu đồ hiển thị 61 điểm dữ liệu lịch sử hàng tháng từ 2011-01-01 đến 2016-01-01 và dự báo của ForecastBot cho 3 tháng tiếp theo."
+}

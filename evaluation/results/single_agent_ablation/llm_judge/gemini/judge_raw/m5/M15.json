@@ -1,0 +1,26 @@
+{
+  "case_id": "M15",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định rằng \"xu hướng giảm gần đây có ảnh hưởng lớn đến dự báo\" không được history_summary cung cấp trực tiếp; trọng số 60% cho nhánh ngắn hạn chỉ cho thấy nhánh này được ưu tiên hơn trong tổ hợp."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, khu vực, 8 quý và các mức dự báo; nêu rõ mức giảm từ khoảng 76 xuống 0. Các số liệu về lịch sử, cửa sổ 12/14 quý và trọng số 60/40 đều khớp dữ liệu cung cấp. Nội dung rõ ràng, ngắn gọn và hữu ích để hiểu xu hướng dự báo. Tuy nhiên, dữ liệu tóm tắt không thể hiện trực tiếp xu hướng lịch sử gần đây là giảm, nên kết luận về ảnh hưởng của \"xu hướng giảm gần đây\" hơi vượt quá bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.135808916995302,
+    "input_tokens": 2442,
+    "output_tokens": 367,
+    "total_tokens": 2809,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định rằng \\\"xu hướng giảm gần đây có ảnh hưởng lớn đến dự báo\\\" không được history_summary cung cấp trực tiếp; trọng số 60% cho nhánh ngắn hạn chỉ cho thấy nhánh này được ưu tiên hơn trong tổ hợp.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, khu vực, 8 quý và các mức dự báo; nêu rõ mức giảm từ khoảng 76 xuống 0. Các số liệu về lịch sử, cửa sổ 12/14 quý và trọng số 60/40 đều khớp dữ liệu cung cấp. Nội dung rõ ràng, ngắn gọn và hữu ích để hiểu xu hướng dự báo. Tuy nhiên, dữ liệu tóm tắt không thể hiện trực tiếp xu hướng lịch sử gần đây là giảm, nên kết luận về ảnh hưởng của \\\"xu hướng giảm gần đây\\\" hơi vượt quá bằng chứng.\"}"
+  }
+}

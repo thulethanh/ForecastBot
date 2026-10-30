@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo số lượng hành khách hàng ngày cho tuyến xe buýt 65 của nhà xe Cty-BaoYen trong 60 ngày tới, từ ngày 02/11/2024 đến 31/12/2024. Các giá trị dự báo dao động trong khoảng từ 2,469 đến 4,193 hành khách mỗi ngày.",
+  "insights": [
+    "Dự báo cho thấy một quy luật tuần rõ rệt, với lượng hành khách dự kiến cao nhất vào các ngày thứ Hai (khoảng 4,193) và thấp nhất vào các ngày Chủ Nhật (khoảng 2,469).",
+    "Phạm vi các giá trị dự báo phù hợp với dữ liệu lịch sử, vốn có giá trị trung bình là 3,094 hành khách mỗi ngày."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 01/05/2022 đến 01/11/2024 và dự báo cho 60 ngày tiếp theo. Dự báo được tạo ra bằng mô hình tổng hợp (ensemble model) kết hợp các quy luật trong 180 ngày và 365 ngày gần nhất."
+}

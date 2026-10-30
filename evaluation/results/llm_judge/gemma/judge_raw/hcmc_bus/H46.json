@@ -1,0 +1,26 @@
+{
+  "case_id": "H46",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1034 điểm\" không được hỗ trợ: thông tin chỉ xác nhận đây là phạm vi lịch sử khả dụng, còn dự báo dùng các cửa sổ h180 và h365; không có bằng chứng về huấn luyện."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 60 ngày, mức dự báo và tính ổn định của toàn bộ chuỗi. Các nhận định về deterministic_recent_mean, trọng số 60/40 và cửa sổ h180/h365 đều khớp forecast_result. Tuy nhiên, chart_note khẳng định 1034 điểm lịch sử được dùng để huấn luyện, trong khi dữ liệu cung cấp không nêu việc huấn luyện/fine-tune và cần phân biệt phạm vi lịch sử với cửa sổ dự báo. Trình bày rõ ràng, hữu ích, nhưng có thể nói thêm mức dự báo này cao hơn trung bình lịch sử mà vẫn trong biên lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.240796457990655,
+    "input_tokens": 4238,
+    "output_tokens": 467,
+    "total_tokens": 4705,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 1034 điểm\\\" không được hỗ trợ: thông tin chỉ xác nhận đây là phạm vi lịch sử khả dụng, còn dự báo dùng các cửa sổ h180 và h365; không có bằng chứng về huấn luyện.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 60 ngày, mức dự báo và tính ổn định của toàn bộ chuỗi. Các nhận định về deterministic_recent_mean, trọng số 60/40 và cửa sổ h180/h365 đều khớp forecast_result. Tuy nhiên, chart_note khẳng định 1034 điểm lịch sử được dùng để huấn luyện, trong khi dữ liệu cung cấp không nêu việc huấn luyện/fine-tune và cần phân biệt phạm vi lịch sử với cửa sổ dự báo. Trình bày rõ ràng, hữu ích, nhưng có thể nói thêm mức dự báo này cao hơn trung bình lịch sử mà vẫn trong biên lịch sử.\"}"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H11",
+  "question": "Cho tôi dự báo hành khách của tuyến 33 trong 1 quý tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 11,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.00532650004606694,
+    "request_sql": 62.511726166005246,
+    "sql_execution_and_repair": 0.03646708291489631,
+    "forecast": 181.1665377090685,
+    "explanation": 91.15306779195089,
+    "end_to_end": 334.87328854203224
+  },
+  "total_tokens": 5800,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 30,
+  "filters": {
+    "route_id": "148",
+    "vehicle_group": "3_CNG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d WHERE d.route_id = '148' AND TRIM(d.vehicle_group) = '3_CNG' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the sum of total passengers (y) for route 148 using vehicle group 3_CNG (filtered by WHERE clause) at a daily granularity (ds), suitable for forecasting the next 30 days."
+}

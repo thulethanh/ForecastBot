@@ -1,0 +1,26 @@
+{
+  "case_id": "M52",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Nhận định “tăng trở lại vào quý 2 năm 2015 (10.0 vào 2015-02-01)” có mốc quý không nhất quán, vì tháng 2 thuộc quý 1."
+    ],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, cửa hàng, tần suất tháng, chân trời 24 tháng và nêu đúng khoảng dự báo 8.0–15.0. Các ví dụ về đỉnh tháng 7/2014 và biến động cuối 2014–đầu 2015 khớp forecast. Ghi chú ensemble và phạm vi 40 điểm lịch sử cũng phù hợp thông tin cung cấp. Tuy nhiên, câu về tăng trở lại ở quý 2 lại dẫn tháng 2/2015, gây sai lệch mốc thời gian nhỏ; nhận định các tháng giữa năm “thường” cao hơn cũng hơi khái quát từ số điểm hạn chế."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 11.977933624992147,
+    "input_tokens": 3024,
+    "output_tokens": 631,
+    "total_tokens": 3655,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Nhận định “tăng trở lại vào quý 2 năm 2015 (10.0 vào 2015-02-01)” có mốc quý không nhất quán, vì tháng 2 thuộc quý 1.\"],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, cửa hàng, tần suất tháng, chân trời 24 tháng và nêu đúng khoảng dự báo 8.0–15.0. Các ví dụ về đỉnh tháng 7/2014 và biến động cuối 2014–đầu 2015 khớp forecast. Ghi chú ensemble và phạm vi 40 điểm lịch sử cũng phù hợp thông tin cung cấp. Tuy nhiên, câu về tăng trở lại ở quý 2 lại dẫn tháng 2/2015, gây sai lệch mốc thời gian nhỏ; nhận định các tháng giữa năm “thường” cao hơn cũng hơi khái quát từ số điểm hạn chế.\"}"
+  }
+}

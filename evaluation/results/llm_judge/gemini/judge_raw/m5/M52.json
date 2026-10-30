@@ -1,0 +1,24 @@
+{
+  "case_id": "M52",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng item và cửa hàng, nêu đầy đủ phạm vi thời gian, mức dự báo và xu hướng chính. Các con số 6.6–15.0, trung bình lịch sử 2.55, đỉnh tháng 10, đáy tháng 5–7 đều khớp forecast và history summary. Nhận định quy luật lặp lại hằng năm được thể hiện trực tiếp qua chuỗi dự báo lặp lại giữa hai năm. Mô tả ensemble, trọng số và hai cửa sổ 36/40 tháng cũng khớp window_info."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.912043792006443,
+    "input_tokens": 3028,
+    "output_tokens": 285,
+    "total_tokens": 3313,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng item và cửa hàng, nêu đầy đủ phạm vi thời gian, mức dự báo và xu hướng chính. Các con số 6.6–15.0, trung bình lịch sử 2.55, đỉnh tháng 10, đáy tháng 5–7 đều khớp forecast và history summary. Nhận định quy luật lặp lại hằng năm được thể hiện trực tiếp qua chuỗi dự báo lặp lại giữa hai năm. Mô tả ensemble, trọng số và hai cửa sổ 36/40 tháng cũng khớp window_info.\"}"
+  }
+}

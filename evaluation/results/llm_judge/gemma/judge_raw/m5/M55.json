@@ -1,0 +1,24 @@
+{
+  "case_id": "M55",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 4,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 quý cho đúng mặt hàng, nêu đầy đủ các mức dự báo và diễn biến giảm rồi tăng nhẹ. Mọi số liệu, trung bình lịch sử, mức thấp nhất và chênh lệch 11.8 đều khớp dữ liệu được cung cấp. Thông tin ensemble và trọng số cũng phù hợp kết quả forecast. Trình bày nhìn chung rõ ràng; cụm “Bản đồ này” trong chart_note hơi không phù hợp ngữ cảnh biểu đồ/dự báo nhưng không ảnh hưởng đáng kể."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.055003207991831,
+    "input_tokens": 2294,
+    "output_tokens": 257,
+    "total_tokens": 2551,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":4,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 quý cho đúng mặt hàng, nêu đầy đủ các mức dự báo và diễn biến giảm rồi tăng nhẹ. Mọi số liệu, trung bình lịch sử, mức thấp nhất và chênh lệch 11.8 đều khớp dữ liệu được cung cấp. Thông tin ensemble và trọng số cũng phù hợp kết quả forecast. Trình bày nhìn chung rõ ràng; cụm “Bản đồ này” trong chart_note hơi không phù hợp ngữ cảnh biểu đồ/dự báo nhưng không ảnh hưởng đáng kể.\"}"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M06",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo một tháng cho đúng mặt hàng và cửa hàng, nêu rõ giá trị 22.2 cho tháng 4/2016. Các số liệu về trung bình lịch sử, phạm vi 0.0–38.0, 63 điểm dữ liệu, thời gian lịch sử và trọng số ensemble đều khớp thông tin được cung cấp. Nội dung ngắn gọn, mạch lạc và giúp đặt mức dự báo trong bối cảnh lịch sử mà không suy diễn nguyên nhân không có bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.976275583001552,
+    "input_tokens": 2145,
+    "output_tokens": 240,
+    "total_tokens": 2385,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo một tháng cho đúng mặt hàng và cửa hàng, nêu rõ giá trị 22.2 cho tháng 4/2016. Các số liệu về trung bình lịch sử, phạm vi 0.0–38.0, 63 điểm dữ liệu, thời gian lịch sử và trọng số ensemble đều khớp thông tin được cung cấp. Nội dung ngắn gọn, mạch lạc và giúp đặt mức dự báo trong bối cảnh lịch sử mà không suy diễn nguyên nhân không có bằng chứng.\"}"
+  }
+}

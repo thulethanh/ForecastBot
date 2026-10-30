@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2011 đến 2016, dự báo cho mặt hàng HOUSEHOLD_2_226 tại cửa hàng CA_3 cho 10 năm tới được dự đoán sẽ ổn định ở mức 128.8 mỗi năm. Giá trị dự báo này gần bằng mức trung bình lịch sử (128.83).",
+  "insights": [
+    "Dự báo là một đường thẳng không đổi vì với chỉ 6 điểm dữ liệu lịch sử, không thể xác định được một xu hướng tăng hoặc giảm rõ ràng.",
+    "Giá trị dự báo 128.8 cho mỗi năm tương lai gần như chính xác bằng giá trị trung bình của 6 năm trong quá khứ (128.83)."
+  ],
+  "chart_note": "Đường chấm chấm thể hiện dự báo, được tính toán là giá trị trung bình của dữ liệu lịch sử."
+}

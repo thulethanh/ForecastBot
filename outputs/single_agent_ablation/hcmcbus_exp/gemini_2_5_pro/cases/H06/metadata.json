@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H06",
+  "question": "Trong 1 tháng tới, tuyến 28 do XKSG vận hành dự kiến phục vụ bao nhiêu lượt hành khách?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 36,
+    "n_train": 35,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.07476687501184642,
+    "request_sql": 9.641208000015467,
+    "sql_execution_and_repair": 0.026093709049746394,
+    "forecast": 31.56639258400537,
+    "explanation": 11.857634417014197,
+    "end_to_end": 53.166156959021464
+  },
+  "total_tokens": 9893,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

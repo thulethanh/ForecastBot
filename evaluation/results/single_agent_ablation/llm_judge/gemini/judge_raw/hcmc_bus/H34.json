@@ -1,0 +1,24 @@
+{
+  "case_id": "H34",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến, nhà vận hành, kỳ dự báo và ba mức dự báo theo quý. Các so sánh với mức lịch sử, xu hướng giảm ở Quý 3 rồi tăng ở Quý 4, cũng như thông tin ensemble (8/9 quý, trọng số 60% cho nhánh ngắn) đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, mạch lạc và giúp người dùng hiểu mức dự báo, biến động dự kiến và phạm vi dữ liệu lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.085732916020788,
+    "input_tokens": 2326,
+    "output_tokens": 234,
+    "total_tokens": 2560,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến, nhà vận hành, kỳ dự báo và ba mức dự báo theo quý. Các so sánh với mức lịch sử, xu hướng giảm ở Quý 3 rồi tăng ở Quý 4, cũng như thông tin ensemble (8/9 quý, trọng số 60% cho nhánh ngắn) đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, mạch lạc và giúp người dùng hiểu mức dự báo, biến động dự kiến và phạm vi dữ liệu lịch sử.\"}"
+  }
+}

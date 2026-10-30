@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho dữ liệu HCMC_BUS (Tuyến 4, Nhà khai thác Cty-BaoYen) trong 12 tháng tới, bắt đầu từ tháng 01/2025 đến tháng 12/2025. Các giá trị dự báo được tính toán bằng phương pháp single mode, sử dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn, dựa trên 23 điểm dữ liệu lịch sử (từ 2022-05-01 đến 2024-12-01).",
+  "insights": [
+    "Trong suốt 12 tháng dự báo, các giá trị dự kiến duy trì mức ổn định, dao động trong khoảng từ 101,000 đến 105,000.",
+    "Xu hướng chung của dự báo cho thấy sự biến động nhẹ theo mùa vụ, với mức dự kiến cao hơn vào các tháng 4, 5, 8, và 11.",
+    "Mô hình dự báo đã xác định thành công và không cần sử dụng cơ chế dự phòng (fallback_used: false)."
+  ],
+  "chart_note": "Các giá trị này là dự báo toán học dựa trên các mẫu lịch sử và không đại diện cho các giá trị thực tế trong tương lai."
+}

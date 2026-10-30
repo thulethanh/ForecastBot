@@ -1,0 +1,33 @@
+{
+  "case_id": "M46",
+  "question": "Tôi muốn dự báo lượng bán của sản phẩm FOODS_3_085 tại cửa hàng WI_2 trong 60 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1853,
+    "n_test": 60,
+    "horizon": 60,
+    "minimum_train_required": 60,
+    "required_points_for_evaluation": 120,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 34.305042708991095,
+    "load_schema": 0.060716791995218955,
+    "sql_generation": 70.32992591700167,
+    "sql_execution_and_repair": 0.12189708299410995,
+    "forecast": 478.70430725000915,
+    "explanation": 101.24865516599675,
+    "end_to_end": 684.7708974999987
+  },
+  "total_tokens": 19122,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

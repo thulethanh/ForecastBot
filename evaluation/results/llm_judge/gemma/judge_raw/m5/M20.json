@@ -1,0 +1,27 @@
+{
+  "case_id": "M20",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Biểu đồ này được xây dựng bằng cách sử dụng dữ liệu lịch sử 6 điểm (h6) để huấn luyện mô hình.\" Việc 6 điểm được dùng để huấn luyện mô hình không được history summary hoặc window_info xác nhận.",
+      "\"Dự báo cho năm 2021 là 126.0, cao hơn mức trung bình lịch sử 1.3%.\" Với trung bình lịch sử 124.67, mức chênh tương ứng xấp xỉ 1.1%, không phải 1.3%."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ dự báo và nêu rõ mức đầu-cuối cùng xu hướng tăng đều, phù hợp forecast. Các số trung bình lịch sử và dự báo 2017 đều được hỗ trợ. Tuy nhiên, câu khẳng định 6 điểm h6 được dùng để huấn luyện mô hình không được cung cấp; window_info chỉ cho biết cửa sổ của nhánh dự báo. Tỷ lệ cao hơn trung bình ở năm 2021 cũng tính chưa chính xác nhẹ. Trình bày rõ ràng và nhìn chung hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.238216041005217,
+    "input_tokens": 2319,
+    "output_tokens": 442,
+    "total_tokens": 2761,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Biểu đồ này được xây dựng bằng cách sử dụng dữ liệu lịch sử 6 điểm (h6) để huấn luyện mô hình.\\\" Việc 6 điểm được dùng để huấn luyện mô hình không được history summary hoặc window_info xác nhận.\",\"\\\"Dự báo cho năm 2021 là 126.0, cao hơn mức trung bình lịch sử 1.3%.\\\" Với trung bình lịch sử 124.67, mức chênh tương ứng xấp xỉ 1.1%, không phải 1.3%.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, kỳ dự báo và nêu rõ mức đầu-cuối cùng xu hướng tăng đều, phù hợp forecast. Các số trung bình lịch sử và dự báo 2017 đều được hỗ trợ. Tuy nhiên, câu khẳng định 6 điểm h6 được dùng để huấn luyện mô hình không được cung cấp; window_info chỉ cho biết cửa sổ của nhánh dự báo. Tỷ lệ cao hơn trung bình ở năm 2021 cũng tính chưa chính xác nhẹ. Trình bày rõ ràng và nhìn chung hữu ích.\"}"
+  }
+}

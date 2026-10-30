@@ -1,0 +1,27 @@
+{
+  "case_id": "M02",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 3,
+    "faithfulness": 2,
+    "clarity": 4,
+    "usefulness": 3,
+    "overall_score": 3.0,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện\" trải dài từ 2011-01-29 đến 2016-03-27: history summary chỉ xác nhận phạm vi dữ liệu lịch sử khả dụng, không xác nhận dữ liệu dùng để huấn luyện.",
+      "\"Mô hình đã áp dụng trọng số 60% cho dữ liệu ngắn hạn ... và 40% cho dữ liệu dài hạn\": kết quả ghi selected_mode là \"short_only\", nên không có bằng chứng rõ rằng cả hai cửa sổ đã cùng được áp dụng để tạo dự báo."
+    ],
+    "reason_vi": "Giải thích nêu đúng mặt hàng, cửa hàng, kỳ hạn, ngày bắt đầu/kết thúc dự báo và trạng thái fallback. Tuy nhiên, nó không mô tả mức hoặc diễn biến chính của các giá trị dự báo nên giá trị thực tiễn còn cơ bản. Quan trọng hơn, giải thích suy diễn rằng toàn bộ lịch sử được dùng để huấn luyện, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng. Việc nói áp dụng đồng thời trọng số cho cả hai cửa sổ cũng không rõ ràng khi chế độ được chọn là short_only."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.491197041003034,
+    "input_tokens": 3138,
+    "output_tokens": 554,
+    "total_tokens": 3692,
+    "raw_response": "{\"relevance\":3,\"faithfulness\":2,\"clarity\":4,\"usefulness\":3,\"overall_score\":3.0,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện\\\" trải dài từ 2011-01-29 đến 2016-03-27: history summary chỉ xác nhận phạm vi dữ liệu lịch sử khả dụng, không xác nhận dữ liệu dùng để huấn luyện.\",\"\\\"Mô hình đã áp dụng trọng số 60% cho dữ liệu ngắn hạn ... và 40% cho dữ liệu dài hạn\\\": kết quả ghi selected_mode là \\\"short_only\\\", nên không có bằng chứng rõ rằng cả hai cửa sổ đã cùng được áp dụng để tạo dự báo.\"],\"reason_vi\":\"Giải thích nêu đúng mặt hàng, cửa hàng, kỳ hạn, ngày bắt đầu/kết thúc dự báo và trạng thái fallback. Tuy nhiên, nó không mô tả mức hoặc diễn biến chính của các giá trị dự báo nên giá trị thực tiễn còn cơ bản. Quan trọng hơn, giải thích suy diễn rằng toàn bộ lịch sử được dùng để huấn luyện, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng. Việc nói áp dụng đồng thời trọng số cho cả hai cửa sổ cũng không rõ ràng khi chế độ được chọn là short_only.\"}"
+  }
+}

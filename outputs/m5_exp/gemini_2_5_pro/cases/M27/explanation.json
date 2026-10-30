@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id FOODS_1_031 tại store_id TX_1 cho tháng 4 năm 2016",
+  "summary_text": "ForecastBot dự báo giá trị cho tháng 4 năm 2016 là 51.4. Con số này cao hơn đáng kể so với mức trung bình lịch sử là 24.8.",
+  "insights": [
+    "Dữ liệu lịch sử kéo dài 63 tháng (từ 2011-01-01 đến 2016-03-01) đã được sử dụng để tạo ra dự báo này.",
+    "Giá trị dự báo 51.4 cho tháng tới gần với mức cao nhất từng ghi nhận trong lịch sử là 54.0 và cao hơn nhiều so với mức trung bình là 24.8.",
+    "Dự báo được tạo ra bởi mô hình `ensemble`, kết hợp xu hướng từ 24 tháng gần nhất (trọng số 60%) và 36 tháng gần nhất (trọng số 40%)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (2011-01-01 đến 2016-03-01) và đường dự báo của ForecastBot cho 1 tháng tiếp theo."
+}

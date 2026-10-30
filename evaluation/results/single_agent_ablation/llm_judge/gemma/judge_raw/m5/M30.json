@@ -1,0 +1,24 @@
+{
+  "case_id": "M30",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 4.25,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, cửa hàng, phạm vi 12 tháng, mốc thời gian dự báo và cấu hình ensemble được cung cấp. Các thông tin về 52 điểm lịch sử, hai cửa sổ h36/h52 và trọng số 0.6/0.4 đều phù hợp dữ liệu đầu vào. Nội dung rõ ràng, ngắn gọn và không suy diễn về giá trị thực tế tương lai. Tuy nhiên, phần giải thích chủ yếu nêu metadata/cấu hình; chưa tóm tắt mức dự báo, các tháng cao/thấp hoặc biến động chính của dãy yhat, nên giá trị thực tiễn để hiểu kết quả còn cơ bản."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.462153041968122,
+    "input_tokens": 2571,
+    "output_tokens": 305,
+    "total_tokens": 2876,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":5,\"clarity\":5,\"usefulness\":3,\"overall_score\":4.25,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, cửa hàng, phạm vi 12 tháng, mốc thời gian dự báo và cấu hình ensemble được cung cấp. Các thông tin về 52 điểm lịch sử, hai cửa sổ h36/h52 và trọng số 0.6/0.4 đều phù hợp dữ liệu đầu vào. Nội dung rõ ràng, ngắn gọn và không suy diễn về giá trị thực tế tương lai. Tuy nhiên, phần giải thích chủ yếu nêu metadata/cấu hình; chưa tóm tắt mức dự báo, các tháng cao/thấp hoặc biến động chính của dãy yhat, nên giá trị thực tiễn để hiểu kết quả còn cơ bản.\"}"
+  }
+}

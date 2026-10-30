@@ -1,0 +1,26 @@
+{
+  "case_id": "H60",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Câu \"chỉ có một điểm dữ liệu lịch sử ... được cung cấp để huấn luyện mô hình\" khẳng định điểm dữ liệu này được dùng để huấn luyện mô hình, trong khi thông tin cung cấp chỉ xác nhận có 1 điểm lịch sử và các cửa sổ dự báo có 1 quan sát."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến xe, nhóm phương tiện, kỳ hạn 2 năm và các giá trị dự báo; trình bày rõ ràng, ngắn gọn. Các số liệu năm 2022--2024 và nhận định dự báo đi ngang đều phù hợp với history summary và forecast. Tuy nhiên, giải thích tự khẳng định dữ liệu được dùng để “huấn luyện mô hình”, điều không được xác nhận bởi thông tin đầu vào; vì vậy faithfulness giảm."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.641322666997439,
+    "input_tokens": 2217,
+    "output_tokens": 345,
+    "total_tokens": 2562,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"Câu \\\"chỉ có một điểm dữ liệu lịch sử ... được cung cấp để huấn luyện mô hình\\\" khẳng định điểm dữ liệu này được dùng để huấn luyện mô hình, trong khi thông tin cung cấp chỉ xác nhận có 1 điểm lịch sử và các cửa sổ dự báo có 1 quan sát.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến xe, nhóm phương tiện, kỳ hạn 2 năm và các giá trị dự báo; trình bày rõ ràng, ngắn gọn. Các số liệu năm 2022--2024 và nhận định dự báo đi ngang đều phù hợp với history summary và forecast. Tuy nhiên, giải thích tự khẳng định dữ liệu được dùng để “huấn luyện mô hình”, điều không được xác nhận bởi thông tin đầu vào; vì vậy faithfulness giảm.\"}"
+  }
+}

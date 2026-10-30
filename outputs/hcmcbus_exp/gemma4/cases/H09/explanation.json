@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS (Route 31, XKSG) trong 12 tháng tới",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2023-12-01, ForecastBot dự báo lưu lượng cho 12 tháng tới (2024-01-01 đến 2024-12-01). Theo dự báo, lưu lượng sẽ đạt mức cao nhất vào tháng 6 năm 2024 với giá trị 76100.0, và mức thấp nhất là 66500.0 vào tháng 4 năm 2024. Nhìn chung, các giá trị dự báo đều cao hơn đáng kể so với mức trung bình lịch sử là 52339.0.",
+  "insights": [
+    "Lưu lượng dự báo cho tháng 6 năm 2024 đạt đỉnh điểm là 76100.0, cao hơn mức trung bình lịch sử (52339.0).",
+    "Mức thấp nhất được dự báo là 66500.0 vào tháng 4 năm 2024, vẫn cao hơn mức trung bình lịch sử.",
+    "Xu hướng dự báo cho thấy sự biến động theo mùa rõ rệt, với sự tăng trưởng mạnh mẽ từ tháng 3 (69800.0) lên tháng 6 (76100.0), sau đó giảm nhẹ và tăng trở lại vào tháng 11 (75500.0)."
+  ],
+  "chart_note": "Biểu đồ này được xây dựng dựa trên 24 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-12-01. ForecastBot sử dụng chế độ 'single' với trọng số (weights) là 0.6 cho dữ liệu ngắn hạn và 0.4 cho dữ liệu dài hạn để đưa ra dự báo cho 12 tháng tiếp theo."
+}

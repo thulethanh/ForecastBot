@@ -1,0 +1,24 @@
+{
+  "case_id": "M06",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo tháng kế tiếp cho đúng mặt hàng và cửa hàng, nêu rõ giá trị 21.0 tại 2016-04-01. Các thông tin về phạm vi lịch sử, 63 điểm dữ liệu, trung bình 16.71, chế độ ensemble và trọng số 60%/40% đều khớp dữ liệu cung cấp. Trình bày ngắn gọn, rõ ràng. Tuy nhiên, phần ý nghĩa thực tế còn có thể hữu ích hơn nếu đặt mức dự báo 21.0 trong tương quan trực tiếp với mức lịch sử trung bình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.090111332945526,
+    "input_tokens": 2154,
+    "output_tokens": 305,
+    "total_tokens": 2459,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo tháng kế tiếp cho đúng mặt hàng và cửa hàng, nêu rõ giá trị 21.0 tại 2016-04-01. Các thông tin về phạm vi lịch sử, 63 điểm dữ liệu, trung bình 16.71, chế độ ensemble và trọng số 60%/40% đều khớp dữ liệu cung cấp. Trình bày ngắn gọn, rõ ràng. Tuy nhiên, phần ý nghĩa thực tế còn có thể hữu ích hơn nếu đặt mức dự báo 21.0 trong tương quan trực tiếp với mức lịch sử trung bình.\"}"
+  }
+}

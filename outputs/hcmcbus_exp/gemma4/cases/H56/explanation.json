@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo lưu lượng HCMC_BUS cho tuyến 81 của HTX-VTHANG (theo quý)",
+  "summary_text": "Dựa trên dữ liệu lịch sử, ForecastBot dự báo lưu lượng cho tuyến 81 của HTX-VTHANG sẽ tiếp tục tăng trưởng trong 4 quý tới, từ 2024-01-01 đến 2024-10-01. Giá trị dự báo bắt đầu từ 506,108.0 vào quý 1 năm 2024 và tăng dần lên 546,515.0 vào quý 4 năm 2024.",
+  "insights": [
+    "Lưu lượng dự báo cho quý 1 năm 2024 là 506,108.0.",
+    "Lưu lượng dự báo cho quý 4 năm 2024 là 546,515.0, cho thấy xu hướng tăng trưởng liên tục qua các quý.",
+    "Sự tăng trưởng dự báo từ quý 1 đến quý 4 là 30,407.0 (546,515.0 - 506,108.0)."
+  ],
+  "chart_note": "Biểu đồ này được huấn luyện trên 8 điểm dữ liệu lịch sử từ 2022-01-01 đến 2023-10-01. ForecastBot sử dụng mô hình single mode với trọng số short (0.6) và long (0.4) để tạo ra dự báo cho 4 quý tiếp theo."
+}

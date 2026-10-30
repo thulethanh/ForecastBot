@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo này dự đoán doanh số bán hàng bằng không cho mặt hàng FOODS_3_324 tại tiểu bang WI trong 28 ngày tới, từ ngày 28 tháng 3 năm 2016 đến ngày 24 tháng 4 năm 2016.",
+  "insights": [
+    "Dự báo doanh số bằng không cho thấy mặt hàng này có thể đã không được bán trong các giai đoạn gần đây và/hoặc trong cùng kỳ các năm trước, tạo thành một xu hướng mạnh mẽ mà mô hình đã học được.",
+    "Mặc dù doanh số trung bình trong lịch sử là khoảng 10 đơn vị mỗi ngày, dự báo nhất quán bằng không cho thấy các xu hướng gần đây có ảnh hưởng lớn hơn đến kết quả so với mức trung bình dài hạn."
+  ],
+  "chart_note": "Biểu đồ này hiển thị dữ liệu lịch sử và dự báo 28 ngày cho mặt hàng FOODS_3_324 tại tiểu bang WI. Dự báo cho thấy doanh số bằng không trong toàn bộ giai đoạn."
+}

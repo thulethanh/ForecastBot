@@ -1,0 +1,24 @@
+{
+  "case_id": "H06",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng yêu cầu dự báo tháng 12/2024 cho tuyến 28, nhà xe XKSG. Các số liệu dự báo, trung bình, khoảng lịch sử và thời gian dữ liệu đều khớp với thông tin được cung cấp. Mô tả ensemble cũng nhất quán với hai cửa sổ 24 và 35 tháng cùng trọng số ngắn hạn 60%. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo, vị trí so với lịch sử và cách kết hợp xu hướng ngắn/dài hạn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.124789500026964,
+    "input_tokens": 2158,
+    "output_tokens": 255,
+    "total_tokens": 2413,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng yêu cầu dự báo tháng 12/2024 cho tuyến 28, nhà xe XKSG. Các số liệu dự báo, trung bình, khoảng lịch sử và thời gian dữ liệu đều khớp với thông tin được cung cấp. Mô tả ensemble cũng nhất quán với hai cửa sổ 24 và 35 tháng cùng trọng số ngắn hạn 60%. Nội dung rõ ràng, ngắn gọn và giúp người dùng hiểu mức dự báo, vị trí so với lịch sử và cách kết hợp xu hướng ngắn/dài hạn.\"}"
+  }
+}

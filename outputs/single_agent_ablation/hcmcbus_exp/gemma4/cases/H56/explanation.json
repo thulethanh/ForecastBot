@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo được thực hiện cho bộ dữ liệu HCMC_BUS, tập trung vào tuyến 81 của nhà khai thác HTX-VTHANG, với độ chi tiết theo quý. Mô hình dự báo đã xác định một xu hướng tăng trưởng ổn định qua 4 quý tiếp theo, bắt đầu từ quý 1 năm 2024 và kết thúc vào quý 4 năm 2024.",
+  "insights": [
+    "Dự báo sử dụng chế độ 'single' và được tính toán dựa trên trọng số 0.6 cho cửa sổ ngắn hạn và 0.4 cho cửa sổ dài hạn.",
+    "Các giá trị dự báo cho thấy sự gia tăng liên tục qua các quý, từ 513,929.0 (Q1 2024) lên đến 577,800.0 (Q4 2024)."
+  ],
+  "chart_note": "Kết quả dự báo được xây dựng dựa trên 8 điểm dữ liệu lịch sử, trải dài từ ngày 2022-01-01 đến ngày 2023-10-01."
+}

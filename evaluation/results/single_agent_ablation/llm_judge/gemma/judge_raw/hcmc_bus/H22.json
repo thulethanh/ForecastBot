@@ -1,0 +1,27 @@
+{
+  "case_id": "H22",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"...cho thấy sự ổn định của mô hình trong điều kiện fallback.\" Giá trị dự báo không đổi hỗ trợ nhận xét về đầu ra ổn định, nhưng chưa đủ bằng chứng để kết luận về sự ổn định của mô hình.",
+      "\"...kết hợp giữa xu hướng gần đây và xu hướng dài hạn của dữ liệu lịch sử.\" Thông tin có hỗ trợ hai cửa sổ 180 và 365 ngày với trọng số, nhưng không cung cấp bằng chứng trực tiếp về các xu hướng cụ thể."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 7 ngày và nêu chính xác giá trị dự báo phẳng 1469.7143. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số và cửa sổ 180/365 ngày phù hợp với kết quả. Trình bày rõ ràng và giúp hiểu mức dự báo cùng tính không biến động. Tuy nhiên, việc suy ra sự ổn định của mô hình và mô tả các xu hướng gần/dài hạn mạnh hơn bằng chứng được cung cấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.465018832939677,
+    "input_tokens": 2445,
+    "output_tokens": 465,
+    "total_tokens": 2910,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"...cho thấy sự ổn định của mô hình trong điều kiện fallback.\\\" Giá trị dự báo không đổi hỗ trợ nhận xét về đầu ra ổn định, nhưng chưa đủ bằng chứng để kết luận về sự ổn định của mô hình.\",\"\\\"...kết hợp giữa xu hướng gần đây và xu hướng dài hạn của dữ liệu lịch sử.\\\" Thông tin có hỗ trợ hai cửa sổ 180 và 365 ngày với trọng số, nhưng không cung cấp bằng chứng trực tiếp về các xu hướng cụ thể.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 7 ngày và nêu chính xác giá trị dự báo phẳng 1469.7143. Các thông tin về chế độ deterministic_recent_mean, fallback, trọng số và cửa sổ 180/365 ngày phù hợp với kết quả. Trình bày rõ ràng và giúp hiểu mức dự báo cùng tính không biến động. Tuy nhiên, việc suy ra sự ổn định của mô hình và mô tả các xu hướng gần/dài hạn mạnh hơn bằng chứng được cung cấp.\"}"
+  }
+}

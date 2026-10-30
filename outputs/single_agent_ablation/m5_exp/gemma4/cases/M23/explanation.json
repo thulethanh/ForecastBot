@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo đã được thực hiện thành công cho sản phẩm FOODS_3_455 trong khoảng thời gian 28 ngày, bắt đầu từ ngày 2016-03-28 và kết thúc vào ngày 2016-04-24. Mô hình đã sử dụng chế độ 'short_only' và đã kích hoạt cơ chế fallback trong quá trình tính toán.",
+  "insights": [
+    "Phạm vi dự báo bao gồm 28 bước thời gian, với giá trị dự báo (yhat) được cung cấp cho từng ngày.",
+    "Mô hình đã áp dụng trọng số cao hơn cho dữ liệu ngắn hạn (0.6) so với dữ liệu dài hạn (0.4) khi tính toán dự báo.",
+    "Dữ liệu lịch sử được sử dụng để xây dựng dự báo trải dài từ 2011-01-29 đến 2016-03-27, với giá trị trung bình lịch sử là 70.59."
+  ],
+  "chart_note": "Các giá trị dự báo này là kết quả tính toán toán học dựa trên dữ liệu lịch sử và không phải là giá trị thực tế trong tương lai."
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho item_id FOODS_3_149 tại state_id CA trong 90 ngày tới",
+  "summary_text": "ForecastBot dự báo tổng cộng 168 đơn vị sẽ được bán trong 90 ngày tới, từ 2016-01-26 đến 2016-04-24. Giá trị dự báo trung bình hàng ngày là 1.87, cao hơn mức trung bình lịch sử là 1.35.",
+  "insights": [
+    "Giá trị dự báo trung bình (1.87) cao hơn khoảng 38% so với giá trị trung bình lịch sử (1.35).",
+    "Dự báo cho thấy một chu kỳ hàng tuần rõ rệt, với giá trị cao nhất là 3.0 vào các ngày Thứ Tư và thấp nhất là 1.0 vào các ngày Thứ Hai và Thứ Ba.",
+    "Phạm vi của các giá trị dự báo (từ 1.0 đến 3.0) hẹp hơn đáng kể so với phạm vi dữ liệu lịch sử (từ 0.0 đến 16.0)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ 2011-01-29 đến 2016-01-25 (1823 điểm dữ liệu) và dự báo cho 90 ngày tiếp theo. Dự báo được tạo bằng chế độ `short_only`."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo hàng tháng cho 24 tháng tới (tháng 1/2025 - tháng 12/2026) cho tuyến xe buýt 71, do nhà xe XKSG vận hành với nhóm phương tiện 2B.2_ML. Dự báo được tạo ra dựa trên dữ liệu lịch sử từ tháng 1/2022 đến tháng 12/2024. Kết quả cho thấy một xu hướng tăng nhẹ qua từng năm cùng với các biến động mùa vụ rõ rệt.",
+  "insights": [
+    "Dự báo cho thấy các đỉnh điểm vào khoảng tháng 10 và tháng 11, trong khi các tháng thấp điểm nhất là tháng 6 và tháng 7 trong cả hai năm.",
+    "Các giá trị dự báo cho năm 2026 nhìn chung cao hơn một chút so với các tháng tương ứng trong năm 2025, cho thấy một xu hướng tăng trưởng nhẹ."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1/2022 đến tháng 12/2024 và dự báo cho 24 tháng tiếp theo."
+}

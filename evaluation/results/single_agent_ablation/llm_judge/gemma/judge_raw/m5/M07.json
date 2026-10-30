@@ -1,0 +1,26 @@
+{
+  "case_id": "M07",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 61 điểm dữ liệu\" không được hỗ trợ: tóm tắt chỉ cho biết có 61 điểm lịch sử khả dụng, còn kết quả chỉ nêu các cửa sổ dự báo ngắn 24 điểm và dài 36 điểm, không xác nhận việc huấn luyện trên toàn bộ 61 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu, nêu đúng sản phẩm, cửa hàng, tần suất tháng, chân trời 3 bước, phương pháp ensemble, trọng số và các giá trị dự báo. Xu hướng giảm 0,5 → 0,3 → 0,2 cũng phù hợp forecast. Tuy nhiên, phần giải thích khẳng định 61 điểm được dùng để huấn luyện, trong khi dữ liệu chỉ xác nhận đây là phạm vi lịch sử khả dụng; forecast cho biết các cửa sổ là 24 và 36 điểm. Trình bày rõ ràng và hữu ích, dù có thể bổ sung bối cảnh mức dự báo rất thấp."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.716399332974106,
+    "input_tokens": 2292,
+    "output_tokens": 349,
+    "total_tokens": 2641,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Dữ liệu lịch sử được sử dụng để huấn luyện bao gồm 61 điểm dữ liệu\\\" không được hỗ trợ: tóm tắt chỉ cho biết có 61 điểm lịch sử khả dụng, còn kết quả chỉ nêu các cửa sổ dự báo ngắn 24 điểm và dài 36 điểm, không xác nhận việc huấn luyện trên toàn bộ 61 điểm.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu, nêu đúng sản phẩm, cửa hàng, tần suất tháng, chân trời 3 bước, phương pháp ensemble, trọng số và các giá trị dự báo. Xu hướng giảm 0,5 → 0,3 → 0,2 cũng phù hợp forecast. Tuy nhiên, phần giải thích khẳng định 61 điểm được dùng để huấn luyện, trong khi dữ liệu chỉ xác nhận đây là phạm vi lịch sử khả dụng; forecast cho biết các cửa sổ là 24 và 36 điểm. Trình bày rõ ràng và hữu ích, dù có thể bổ sung bối cảnh mức dự báo rất thấp.\"}"
+  }
+}

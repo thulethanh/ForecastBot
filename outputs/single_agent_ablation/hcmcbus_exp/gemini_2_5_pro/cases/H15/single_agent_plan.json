@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 8,
+  "filters": {
+    "route_id": "39",
+    "vehicle_group": "3B.1_ML"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '39' AND TRIM(d.vehicle_group) = '3B.1_ML' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "Selects the quarterly sum of total passengers for route 39 and vehicle group 3B.1_ML."
+}

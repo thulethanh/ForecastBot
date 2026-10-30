@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2011-01-01 đến 2015-10-01, tôi đã dự báo doanh số bán hàng cho sản phẩm HOBBIES_1_061 tại bang WI cho 2 quý tiếp theo. Dự báo cho quý đầu tiên của năm 2016 là 76.24 và cho quý thứ hai là 75.08.",
+  "insights": [
+    "Các giá trị dự báo (76.24 và 75.08) thấp hơn so với mức trung bình lịch sử là 96.15 trong giai đoạn được phân tích.",
+    "Dự báo cho thấy một xu hướng giảm nhẹ từ quý đầu tiên sang quý thứ hai của năm 2016.",
+    "Mô hình dự báo là sự kết hợp giữa xu hướng ngắn hạn (8 quý) và dài hạn (12 quý), với 60% trọng số được đặt vào các xu hướng gần đây hơn."
+  ],
+  "chart_note": "Biểu đồ hiển thị 20 điểm dữ liệu lịch sử hàng quý và 2 điểm dữ liệu dự báo cho các quý tiếp theo."
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "M10",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.0,
+    "unsupported_claims": [
+      "Khẳng định mô hình được huấn luyện trên 40 điểm dữ liệu; thông tin cung cấp chỉ cho biết phạm vi lịch sử và các cửa sổ dự báo, không xác nhận dữ liệu huấn luyện.",
+      "Chart note nói dự báo sử dụng cả cửa sổ long_n (h40) và short_n (h36), trong khi kết quả chọn chế độ long_only nên không hỗ trợ việc dùng cả hai trong dự báo cuối cùng."
+    ],
+    "reason_vi": "Giải thích bám sát đúng chuỗi cần dự báo, nêu rõ 24 tháng từ 05/2014 và mức dự báo phẳng 9.5; các thống kê lịch sử cũng khớp dữ liệu. Tuy nhiên, phần insights và chart note khẳng định dữ liệu được dùng để huấn luyện mô hình, điều không được thông tin đầu vào xác nhận. Chart note cũng dễ gây mâu thuẫn khi nói dùng cả hai cửa sổ dù kết quả chọn long_only. Nội dung nhìn chung rõ và hữu ích, nhưng cần diễn đạt thận trọng hơn về cách mô hình sử dụng dữ liệu/cửa sổ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.489570958001423,
+    "input_tokens": 2961,
+    "output_tokens": 419,
+    "total_tokens": 3380,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.0,\"unsupported_claims\":[\"Khẳng định mô hình được huấn luyện trên 40 điểm dữ liệu; thông tin cung cấp chỉ cho biết phạm vi lịch sử và các cửa sổ dự báo, không xác nhận dữ liệu huấn luyện.\",\"Chart note nói dự báo sử dụng cả cửa sổ long_n (h40) và short_n (h36), trong khi kết quả chọn chế độ long_only nên không hỗ trợ việc dùng cả hai trong dự báo cuối cùng.\"],\"reason_vi\":\"Giải thích bám sát đúng chuỗi cần dự báo, nêu rõ 24 tháng từ 05/2014 và mức dự báo phẳng 9.5; các thống kê lịch sử cũng khớp dữ liệu. Tuy nhiên, phần insights và chart note khẳng định dữ liệu được dùng để huấn luyện mô hình, điều không được thông tin đầu vào xác nhận. Chart note cũng dễ gây mâu thuẫn khi nói dùng cả hai cửa sổ dù kết quả chọn long_only. Nội dung nhìn chung rõ và hữu ích, nhưng cần diễn đạt thận trọng hơn về cách mô hình sử dụng dữ liệu/cửa sổ.\"}"
+  }
+}

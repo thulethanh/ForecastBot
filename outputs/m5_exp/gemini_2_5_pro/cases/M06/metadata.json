@@ -1,0 +1,33 @@
+{
+  "case_id": "M06",
+  "question": "Trong 1 tháng tới, hãy dự báo lượng bán của sản phẩm FOODS_3_395 tại cửa hàng CA_2, bang CA.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1883,
+    "n_test": 30,
+    "horizon": 30,
+    "minimum_train_required": 30,
+    "required_points_for_evaluation": 60,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 8.345288833002996,
+    "load_schema": 0.0024425830015388783,
+    "sql_generation": 10.134212458000547,
+    "sql_execution_and_repair": 0.022690207999403356,
+    "forecast": 360.0300405839989,
+    "explanation": 25.956853083996975,
+    "end_to_end": 404.4917884580027
+  },
+  "total_tokens": 68658,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

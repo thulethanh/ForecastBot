@@ -1,0 +1,24 @@
+{
+  "case_id": "H59",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 1,
+    "faithfulness": 5,
+    "clarity": 1,
+    "usefulness": 1,
+    "overall_score": 2.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation trống nên không trả lời nhu cầu làm rõ về đơn vị thời gian và kỳ hạn dự báo cho tuyến 87, cũng không giúp người dùng hiểu kết quả. Không có nhận định nào để kiểm chứng hoặc mâu thuẫn với dữ liệu; vì vậy không có claim không được hỗ trợ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 3.1657493749953574,
+    "input_tokens": 1763,
+    "output_tokens": 150,
+    "total_tokens": 1913,
+    "raw_response": "{\"relevance\":1,\"faithfulness\":5,\"clarity\":1,\"usefulness\":1,\"overall_score\":2.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation trống nên không trả lời nhu cầu làm rõ về đơn vị thời gian và kỳ hạn dự báo cho tuyến 87, cũng không giúp người dùng hiểu kết quả. Không có nhận định nào để kiểm chứng hoặc mâu thuẫn với dữ liệu; vì vậy không có claim không được hỗ trợ.\"}"
+  }
+}

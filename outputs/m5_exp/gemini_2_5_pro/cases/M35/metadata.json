@@ -1,0 +1,33 @@
+{
+  "case_id": "M35",
+  "question": "Tôi muốn dự báo nhu cầu của sản phẩm HOBBIES_2_115 trong 4 quý tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 18,
+    "n_test": 4,
+    "horizon": 4,
+    "minimum_train_required": 4,
+    "required_points_for_evaluation": 8,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 7.683899957999529,
+    "load_schema": 0.0020670420017268043,
+    "sql_generation": 9.912049083999591,
+    "sql_execution_and_repair": 0.04035745899818721,
+    "forecast": 112.49822658300036,
+    "explanation": 17.511548624999705,
+    "end_to_end": 147.64818625000044
+  },
+  "total_tokens": 22353,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "M52",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 3,
+    "overall_score": 4.25,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám đúng mặt hàng, cửa hàng, độ chi tiết tháng, chân trời 24 tháng và thời gian dự báo. Các thông tin về ensemble 60/40, 40 điểm lịch sử, phạm vi lịch sử và trung bình 2.55 đều được dữ liệu cung cấp hỗ trợ. Trình bày ngắn gọn, rõ ràng. Tuy nhiên, phần giải thích chưa nêu mức dự báo cụ thể hoặc xu hướng/dao động chính trong 24 tháng, nên giá trị thực tế để người dùng hiểu kết quả còn ở mức cơ bản."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.859513166942634,
+    "input_tokens": 2912,
+    "output_tokens": 339,
+    "total_tokens": 3251,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":5,\"clarity\":5,\"usefulness\":3,\"overall_score\":4.25,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám đúng mặt hàng, cửa hàng, độ chi tiết tháng, chân trời 24 tháng và thời gian dự báo. Các thông tin về ensemble 60/40, 40 điểm lịch sử, phạm vi lịch sử và trung bình 2.55 đều được dữ liệu cung cấp hỗ trợ. Trình bày ngắn gọn, rõ ràng. Tuy nhiên, phần giải thích chưa nêu mức dự báo cụ thể hoặc xu hướng/dao động chính trong 24 tháng, nên giá trị thực tế để người dùng hiểu kết quả còn ở mức cơ bản.\"}"
+  }
+}

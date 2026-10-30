@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo lưu lượng xe buýt HCMC_BUS (Tuyến 88)",
+  "summary_text": "Hệ thống đã hoàn thành việc dự báo lưu lượng xe buýt cho tuyến 88 (nhóm xe 2B.1_ML) trong vòng 24 tháng, từ tháng 01/2025 đến tháng 12/2026. Dự báo được thực hiện bằng phương pháp single mode, sử dụng 35 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-12-01) làm cơ sở. Kết quả cho thấy một xu hướng tuần hoàn rõ rệt, với các giá trị dự báo dao động quanh mức trung bình lịch sử là 87,265.",
+  "insights": [
+    "Xu hướng mùa vụ (Seasonality): Dự báo chỉ ra sự biến động theo mùa rõ rệt, với các đỉnh dự kiến thường rơi vào các tháng 4, 6, 10 và 12 của cả năm 2025 và 2026.",
+    "Mức độ ổn định: Các giá trị dự báo được duy trì trong phạm vi tương đối hẹp, dao động từ mức thấp nhất khoảng 83,500 (tháng 07/2026) đến mức cao nhất khoảng 95,500 (tháng 06/2025).",
+    "Phương pháp tính toán: Mô hình dự báo sử dụng trọng số 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn, nhằm cân bằng và ổn định kết quả dự báo."
+  ],
+  "chart_note": "Đây là kết quả dự báo toán học dựa trên các mẫu hình lịch sử và không tính đến các yếu tố bên ngoài hoặc thay đổi vận hành thực tế."
+}

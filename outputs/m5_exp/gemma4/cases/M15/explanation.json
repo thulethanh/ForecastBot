@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_1_143 tại CA (M5)",
+  "summary_text": "Dự báo cho 8 quý tới cho thấy xu hướng giảm rõ rệt. Giá trị dự báo bắt đầu ở mức 154.5 vào quý 2014-07-01 và giảm dần xuống 13.7826 vào quý 2016-04-01.",
+  "insights": [
+    "Dự báo bao gồm 8 bước thời gian, kéo dài từ 2014-07-01 đến 2016-04-01.",
+    "Giá trị dự báo cho thấy sự sụt giảm liên tục qua các quý, từ 154.5 ban đầu xuống 13.7826 ở bước cuối cùng.",
+    "Các giá trị dự báo được tính toán bằng chế độ 'ensemble' với trọng số short là 0.6 và long là 0.4."
+  ],
+  "chart_note": "Biểu đồ được xây dựng dựa trên 14 điểm dữ liệu lịch sử (từ 2011-01-01 đến 2014-04-01). Dự báo được thực hiện bằng chế độ 'ensemble' với trọng số short là 0.6 và long là 0.4."
+}

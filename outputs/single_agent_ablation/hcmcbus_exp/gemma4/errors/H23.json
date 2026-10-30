@@ -1,0 +1,4 @@
+{
+  "error": "SQL succeeded but returned no historical data",
+  "traceback": "Traceback (most recent call last):\n  File \"<LOCAL_PATH>\", line 850, in run_case\n    raise ValueError(\"SQL succeeded but returned no historical data\")\nValueError: SQL succeeded but returned no historical data\n"
+}

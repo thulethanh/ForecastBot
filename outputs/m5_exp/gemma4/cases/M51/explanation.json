@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo doanh số cho HOBBIES_1_099 tại WI_3 (WI)",
+  "summary_text": "Dự báo cho 12 tháng tới cho thấy xu hướng tăng trưởng ổn định. Doanh số dự kiến sẽ tăng từ 33.28 vào tháng 5 năm 2015 lên 48.24 vào tháng 4 năm 2016.",
+  "insights": [
+    "Trong 12 tháng dự báo, doanh số được dự đoán tăng khoảng 15 đơn vị, từ 33.28 lên 48.24.",
+    "Sự tăng trưởng diễn ra đều đặn qua các tháng, với mức tăng từ 33.28 (tháng 5/2015) đến 48.24 (tháng 4/2016)."
+  ],
+  "chart_note": "Biểu đồ này được tạo bằng mô hình ensemble, sử dụng hai cửa sổ dữ liệu: h36 (trọng số 0.6) và h52 (trọng số 0.4). Mô hình đã được huấn luyện trên 52 điểm dữ liệu lịch sử và đưa ra dự báo cho 12 bước tiếp theo."
+}

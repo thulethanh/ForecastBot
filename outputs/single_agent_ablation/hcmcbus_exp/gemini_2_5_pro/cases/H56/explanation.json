@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo cho 4 quý tiếp theo của tuyến xe buýt 81 do nhà xe HTX-VTHANG khai thác. Dự báo cho thấy các giá trị dao động từ khoảng 458 nghìn đến 524 nghìn. Giá trị cao nhất được dự kiến vào quý 4 năm 2024.",
+  "insights": [
+    "Dự báo cho quý 4 năm 2024 (524.105) là điểm cao nhất trong giai đoạn dự báo và vượt qua mức tối đa trong lịch sử (510.847).",
+    "Dự báo cho thấy một quy luật khi quý 1 và quý 4 có giá trị cao hơn quý 2 và quý 3, tương tự như quy luật đã quan sát được trong dữ liệu lịch sử."
+  ],
+  "chart_note": "Dự báo được tạo từ 8 điểm dữ liệu lịch sử hàng quý (2 năm)."
+}

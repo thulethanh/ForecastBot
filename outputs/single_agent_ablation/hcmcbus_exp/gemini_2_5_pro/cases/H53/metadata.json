@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H53",
+  "question": "Trong 1 quý tới, tuyến 77 do HTX 26 vận hành có lượng hành khách dự kiến như thế nào?",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 12,
+    "n_train": 11,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.015633707982487977,
+    "request_sql": 8.925887125078589,
+    "sql_execution_and_repair": 0.0401055000256747,
+    "forecast": 44.013945500017144,
+    "explanation": 17.866153542068787,
+    "end_to_end": 70.86183879198506
+  },
+  "total_tokens": 12038,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

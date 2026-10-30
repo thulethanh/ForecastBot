@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo doanh số cho mặt hàng HOBBIES_2_115 trong 4 quý tới, bắt đầu từ tháng 7 năm 2015. Dựa trên 18 quý dữ liệu lịch sử, mô hình dự đoán doanh số sẽ tăng trong hai quý đầu tiên, đạt đỉnh 694.84 vào quý 4 năm 2015, sau đó giảm trong nửa đầu năm 2016.",
+  "insights": [
+    "Doanh số dự báo cao nhất là 694.84 vào quý 4 năm 2015, cao hơn mức cao nhất trong lịch sử (655.0).",
+    "Tất cả các giá trị dự báo (từ 511.28 đến 694.84) đều cao hơn đáng kể so với mức trung bình lịch sử (424.94), cho thấy một xu hướng tăng trưởng chung.",
+    "Dự báo được tạo ra bằng cách kết hợp một mô hình tập trung vào xu hướng ngắn hạn (8 quý gần nhất) và một mô hình dài hạn (12 quý gần nhất), trong đó mô hình ngắn hạn có trọng số cao hơn (60%)."
+  ],
+  "chart_note": "Biểu đồ hiển thị doanh số lịch sử (18 quý) và doanh số dự báo (4 quý tiếp theo) cho mặt hàng HOBBIES_2_115."
+}

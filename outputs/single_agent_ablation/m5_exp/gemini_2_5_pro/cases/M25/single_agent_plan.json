@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "M5",
+  "granularity": "day",
+  "horizon": 60,
+  "filters": {
+    "item_id": "FOODS_3_576",
+    "state_id": "TX"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT c.date AS ds, SUM(s.sales) AS y FROM m5_sales_train AS s INNER JOIN m5_calendar AS c ON s.d = c.d WHERE s.item_id = 'FOODS_3_576' AND s.state_id = 'TX' GROUP BY c.date ORDER BY ds ASC",
+  "sql_explanation": "This SQL query retrieves the historical daily sales for the item 'FOODS_3_576' in the state 'TX' by joining the sales and calendar tables, aggregating sales by date, and ordering the results to create a time series for forecasting."
+}

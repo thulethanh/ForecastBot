@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "H01",
+  "question": "Tôi muốn dự báo lượng hành khách của tuyến 19 trong 7 ngày tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1096,
+    "n_train": 1089,
+    "n_test": 7,
+    "horizon": 7,
+    "minimum_train_required": 7,
+    "required_points_for_evaluation": 14,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.06496329104993492,
+    "request_sql": 12.002397208008915,
+    "sql_execution_and_repair": 0.11843366594985127,
+    "forecast": 145.89057970803697,
+    "explanation": 16.691252959077246,
+    "end_to_end": 174.76781966607086
+  },
+  "total_tokens": 32670,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

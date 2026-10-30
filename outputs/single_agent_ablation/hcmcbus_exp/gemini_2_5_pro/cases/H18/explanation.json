@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử có sẵn, số lượng hành khách cho tuyến xe buýt 46 do HTX-ThanhSơn vận hành được dự báo là 459,979 cho mỗi năm trong hai năm tới (2023 và 2024).",
+  "insights": [
+    "Dự báo này dựa trên một điểm dữ liệu duy nhất từ năm 2022.",
+    "Do chỉ có một năm dữ liệu, mô hình không thể xác định bất kỳ xu hướng tăng trưởng hay suy giảm nào, do đó nó lặp lại giá trị gần nhất được quan sát."
+  ],
+  "chart_note": "Biểu đồ hiển thị một điểm dữ liệu lịch sử cho năm 2022 và các giá trị dự báo cho hai năm tiếp theo."
+}

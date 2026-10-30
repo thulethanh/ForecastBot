@@ -1,0 +1,24 @@
+{
+  "case_id": "H63",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 1,
+    "faithfulness": 5,
+    "clarity": 1,
+    "usefulness": 1,
+    "overall_score": 2.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation rỗng, không giải thích kết quả dự báo, không phản hồi nhu cầu làm rõ đơn vị thời gian, cũng không cung cấp xu hướng hay mức dự báo. Vì không có nhận định nào nên không có nội dung không được hỗ trợ hoặc mâu thuẫn với dữ liệu. Tuy vậy, phần giải thích hoàn toàn không hữu ích và không thể sử dụng để hiểu kết quả."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.537702832996729,
+    "input_tokens": 1778,
+    "output_tokens": 199,
+    "total_tokens": 1977,
+    "raw_response": "{\"relevance\":1,\"faithfulness\":5,\"clarity\":1,\"usefulness\":1,\"overall_score\":2.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation rỗng, không giải thích kết quả dự báo, không phản hồi nhu cầu làm rõ đơn vị thời gian, cũng không cung cấp xu hướng hay mức dự báo. Vì không có nhận định nào nên không có nội dung không được hỗ trợ hoặc mâu thuẫn với dữ liệu. Tuy vậy, phần giải thích hoàn toàn không hữu ích và không thể sử dụng để hiểu kết quả.\"}"
+  }
+}

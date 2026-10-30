@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "month",
+  "horizon": 1,
+  "filters": {
+    "route_id": "28",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '28' AND TRIM(d.operator) = 'XKSG' GROUP BY ds ORDER BY ds ASC",
+  "sql_explanation": "Selects the start of the month as ds and the sum of total_passengers as y from the daily_passenger_stats table. It filters the data for route ID '28' and operator 'XKSG', grouping the results by month to provide a monthly time series for the forecast."
+}

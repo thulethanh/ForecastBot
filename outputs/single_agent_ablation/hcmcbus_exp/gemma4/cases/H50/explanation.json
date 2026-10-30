@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo cho bộ dữ liệu HCMC_BUS (Tuyến 56, HTX-QTHANG) đã được thực hiện thành công cho 6 tháng tới, từ tháng 7 năm 2024 đến tháng 12 năm 2024. Mô hình sử dụng phương pháp ensemble (kết hợp) để đưa ra dự đoán.",
+  "insights": [
+    "Dự báo được xây dựng dựa trên việc kết hợp dữ liệu ngắn hạn (24 điểm) và dài hạn (30 điểm), với trọng số ưu tiên 60% cho dữ liệu ngắn hạn và 40% cho dữ liệu dài hạn.",
+    "Các giá trị dự báo (yhat) cho thấy xu hướng giảm nhẹ từ tháng 7 đến tháng 9, sau đó có sự phục hồi nhẹ trong các tháng cuối năm (tháng 10 đến tháng 12)."
+  ],
+  "chart_note": "Các giá trị được hiển thị là dự đoán (yhat) cho lưu lượng hoạt động hàng tháng của tuyến 56, không phải là giá trị thực tế trong tương lai."
+}

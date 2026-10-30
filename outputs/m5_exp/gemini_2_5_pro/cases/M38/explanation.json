@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 12 tháng cho item_id HOUSEHOLD_1_511",
+  "summary_text": "ForecastBot dự báo cho item_id HOUSEHOLD_1_511 trong 12 tháng tới, từ tháng 5 năm 2015 đến tháng 4 năm 2016. Các giá trị dự báo dao động từ 379.6 đến 475.7. Giá trị trung bình dự báo là 428.9, cao hơn so với trung bình lịch sử là 274.7.",
+  "insights": [
+    "Giá trị dự báo cao nhất là 475.7 vào tháng 5 năm 2015 và thấp nhất là 379.6 vào tháng 1 năm 2016.",
+    "Tất cả 12 giá trị dự báo đều cao hơn mức trung bình lịch sử (274.7).",
+    "Dự báo này được tạo ra bằng mô hình `ensemble`, kết hợp một mô hình dựa trên 36 điểm dữ liệu gần nhất (trọng số 60%) và một mô hình dựa trên toàn bộ 52 điểm dữ liệu lịch sử (trọng số 40%)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử từ tháng 1 năm 2011 đến tháng 4 năm 2015 (52 điểm dữ liệu) và dự báo của ForecastBot cho 12 tháng tiếp theo."
+}

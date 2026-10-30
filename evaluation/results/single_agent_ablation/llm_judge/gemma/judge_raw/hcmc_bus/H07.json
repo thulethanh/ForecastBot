@@ -1,0 +1,24 @@
+{
+  "case_id": "H07",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo cho tuyến 29, HTX-ThanhSon, theo tháng trong 3 tháng đầu năm 2024. Các mốc thời gian, 24 điểm lịch sử, chế độ single, trọng số 60/40 và mức dự báo giảm từ 57.864 xuống 45.192 đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn, nêu được xu hướng chính và có lưu ý phù hợp rằng đây là dự báo thống kê, không phải giá trị thực tế tương lai."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 4.228726458037272,
+    "input_tokens": 2255,
+    "output_tokens": 212,
+    "total_tokens": 2467,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo cho tuyến 29, HTX-ThanhSon, theo tháng trong 3 tháng đầu năm 2024. Các mốc thời gian, 24 điểm lịch sử, chế độ single, trọng số 60/40 và mức dự báo giảm từ 57.864 xuống 45.192 đều khớp dữ liệu được cung cấp. Nội dung rõ ràng, ngắn gọn, nêu được xu hướng chính và có lưu ý phù hợp rằng đây là dự báo thống kê, không phải giá trị thực tế tương lai.\"}"
+  }
+}

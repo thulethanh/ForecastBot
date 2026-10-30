@@ -1,0 +1,5 @@
+﻿Bộ dữ liệu,Mô hình,Số trường hợp,Số giải thích được chấm,Tính phù hợp,Tính trung thực,Tính rõ ràng,Tính hữu ích,Điểm trung bình
+M5,Gemini 2.5 Pro,63,63,4.94,4.35,4.92,4.75,4.74
+HCMC Bus,Gemini 2.5 Pro,63,63,4.81,4.38,4.81,4.65,4.66
+M5,Gemma4 (gemma4:e4b),63,63,4.79,4.05,4.78,4.11,4.43
+HCMC Bus,Gemma4 (gemma4:e4b),63,63,4.73,4.1,4.81,4.11,4.44

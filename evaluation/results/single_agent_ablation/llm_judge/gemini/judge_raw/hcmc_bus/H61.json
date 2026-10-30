@@ -1,0 +1,24 @@
+{
+  "case_id": "H61",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 năm cho tuyến 90/HTX 26, nêu đúng các năm và mức dự báo 847.611 mỗi năm. Các nhận định về đường dự báo phẳng, chỉ có 3 điểm lịch sử và giá trị dự báo bằng trung bình lịch sử đều phù hợp với summary và forecast. Nội dung rõ ràng, ngắn gọn, đồng thời giúp người dùng hiểu mức dự báo và việc chưa thể suy ra xu hướng tăng/giảm rõ rệt."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.461728832917288,
+    "input_tokens": 2213,
+    "output_tokens": 338,
+    "total_tokens": 2551,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 năm cho tuyến 90/HTX 26, nêu đúng các năm và mức dự báo 847.611 mỗi năm. Các nhận định về đường dự báo phẳng, chỉ có 3 điểm lịch sử và giá trị dự báo bằng trung bình lịch sử đều phù hợp với summary và forecast. Nội dung rõ ràng, ngắn gọn, đồng thời giúp người dùng hiểu mức dự báo và việc chưa thể suy ra xu hướng tăng/giảm rõ rệt.\"}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dự báo đã được thực hiện thành công cho 10 năm tới (2017-2026) với độ chi tiết theo năm. Mô hình đã sử dụng giá trị trung bình lịch sử (119.33) làm dự báo ổn định cho toàn bộ giai đoạn dự báo.",
+  "insights": [
+    "Dữ liệu lịch sử được sử dụng để dự báo bao gồm 6 điểm dữ liệu, trải dài từ năm 2011 đến năm 2016.",
+    "Giá trị dự báo được duy trì ở mức 119.33 cho tất cả 10 bước thời gian, phản ánh việc sử dụng giá trị trung bình lịch sử làm cơ sở dự báo.",
+    "Phạm vi dự báo đáp ứng yêu cầu 10 năm (horizon) và được lọc theo các tiêu chí: item_id 'HOUSEHOLD_1_302', store_id 'TX_2', và state_id 'TX'."
+  ],
+  "chart_note": "Dự báo được tính toán bằng chế độ 'single' và sử dụng trọng số ngắn hạn (0.6) và dài hạn (0.4)."
+}

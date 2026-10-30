@@ -1,0 +1,24 @@
+{
+  "case_id": "H37",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát đúng tuyến 122, nhà khai thác HTX-195, dữ liệu theo quý và chân trời 12 bước. Các mốc thời gian, giá trị đầu-cuối dự báo và mức tăng 50.000 mỗi quý đều khớp forecast. Nhận định dùng 12 điểm lịch sử và single mode được hỗ trợ bởi history summary và forecast_result. Nội dung rõ ràng, ngắn gọn, nêu được xu hướng tăng đều và có lưu ý phù hợp rằng yhat là ước tính, không phải giá trị thực tế tương lai."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.187883500009775,
+    "input_tokens": 2614,
+    "output_tokens": 241,
+    "total_tokens": 2855,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát đúng tuyến 122, nhà khai thác HTX-195, dữ liệu theo quý và chân trời 12 bước. Các mốc thời gian, giá trị đầu-cuối dự báo và mức tăng 50.000 mỗi quý đều khớp forecast. Nhận định dùng 12 điểm lịch sử và single mode được hỗ trợ bởi history summary và forecast_result. Nội dung rõ ràng, ngắn gọn, nêu được xu hướng tăng đều và có lưu ý phù hợp rằng yhat là ước tính, không phải giá trị thực tế tương lai.\"}"
+  }
+}

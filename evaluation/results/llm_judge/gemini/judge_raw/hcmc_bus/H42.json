@@ -1,0 +1,27 @@
+{
+  "case_id": "H42",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên một chuỗi thời gian ngắn, chỉ bao gồm 3 điểm dữ liệu từ năm 2022 đến 2024.\"",
+      "\"Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (3 điểm, từ 2022 đến 2024)\"."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 10 năm và nêu chính xác dự báo phẳng 562.350, so sánh đúng với trung bình तथा khoảng lịch sử. Trình bày rõ ràng và có ích vì cho thấy mức dự báo thấp hơn trung bình lịch sử. Tuy nhiên, phần giải thích hai lần khẳng định 3 điểm dữ liệu được dùng để “huấn luyện” mô hình. Dữ liệu cung cấp chỉ cho biết các cửa sổ đầu vào của nhánh dự báo đều có 3 quan sát, không xác nhận quá trình huấn luyện/fine-tuning mô hình."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.715240667006583,
+    "input_tokens": 2531,
+    "output_tokens": 354,
+    "total_tokens": 2885,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên một chuỗi thời gian ngắn, chỉ bao gồm 3 điểm dữ liệu từ năm 2022 đến 2024.\\\"\",\"\\\"Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (3 điểm, từ 2022 đến 2024)\\\".\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 10 năm và nêu chính xác dự báo phẳng 562.350, so sánh đúng với trung bình तथा khoảng lịch sử. Trình bày rõ ràng và có ích vì cho thấy mức dự báo thấp hơn trung bình lịch sử. Tuy nhiên, phần giải thích hai lần khẳng định 3 điểm dữ liệu được dùng để “huấn luyện” mô hình. Dữ liệu cung cấp chỉ cho biết các cửa sổ đầu vào của nhánh dự báo đều có 3 quan sát, không xác nhận quá trình huấn luyện/fine-tuning mô hình.\"}"
+  }
+}

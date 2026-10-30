@@ -1,0 +1,27 @@
+{
+  "case_id": "M04",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Giá trị dự báo trung bình là 0.6.",
+      "Giá trị dự báo trung bình trong 60 ngày tới (0.6) cao hơn khoảng 43% so với giá trị trung bình lịch sử (0.42)."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, chân trời 60 ngày và nêu rõ phạm vi thời gian, biên độ, ngày đạt đỉnh và số ngày bằng 0. Các thông tin về giá trị lớn nhất 2.0, các ngày tương ứng, khoảng dự báo và 31 ngày bằng 0 đều phù hợp forecast. Tuy nhiên, tổng các dự báo là 32 nên trung bình là khoảng 0.533, không phải 0.6; vì vậy so sánh cao hơn 43% so với trung bình lịch sử 0.42 cũng không được hỗ trợ. Lỗi này làm giảm độ trung thực và phần nào ảnh hưởng tính hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.643866874990636,
+    "input_tokens": 4182,
+    "output_tokens": 506,
+    "total_tokens": 4688,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Giá trị dự báo trung bình là 0.6.\",\"Giá trị dự báo trung bình trong 60 ngày tới (0.6) cao hơn khoảng 43% so với giá trị trung bình lịch sử (0.42).\"],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, chân trời 60 ngày và nêu rõ phạm vi thời gian, biên độ, ngày đạt đỉnh và số ngày bằng 0. Các thông tin về giá trị lớn nhất 2.0, các ngày tương ứng, khoảng dự báo và 31 ngày bằng 0 đều phù hợp forecast. Tuy nhiên, tổng các dự báo là 32 nên trung bình là khoảng 0.533, không phải 0.6; vì vậy so sánh cao hơn 43% so với trung bình lịch sử 0.42 cũng không được hỗ trợ. Lỗi này làm giảm độ trung thực và phần nào ảnh hưởng tính hữu ích.\"}"
+  }
+}

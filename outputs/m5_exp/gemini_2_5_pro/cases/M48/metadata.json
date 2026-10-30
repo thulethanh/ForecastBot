@@ -1,0 +1,33 @@
+{
+  "case_id": "M48",
+  "question": "Hãy dự báo nhu cầu bán của sản phẩm FOODS_1_002 tại cửa hàng WI_1, bang WI trong 1 tháng tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 64,
+    "n_train": 63,
+    "n_test": 1,
+    "horizon": 1,
+    "minimum_train_required": 1,
+    "required_points_for_evaluation": 2,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 6.625000457999704,
+    "load_schema": 0.0014898330009600613,
+    "sql_generation": 13.806597124999826,
+    "sql_execution_and_repair": 0.012814875000913162,
+    "forecast": 83.15798470799928,
+    "explanation": 17.14739508400089,
+    "end_to_end": 120.75132266700166
+  },
+  "total_tokens": 18828,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

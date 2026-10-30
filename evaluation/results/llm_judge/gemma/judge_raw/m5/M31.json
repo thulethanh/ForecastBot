@@ -1,0 +1,26 @@
+{
+  "case_id": "M31",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ này được huấn luyện trên 40 điểm dữ liệu\" không được hỗ trợ: thông tin chỉ cho biết có 40 điểm lịch sử khả dụng và các cửa sổ dự báo, không xác nhận việc huấn luyện trên toàn bộ 40 điểm."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng sản phẩm và bang, nêu chính xác mức bắt đầu, đỉnh, mức kết thúc và các tháng cao nhất theo forecast. Diễn đạt rõ ràng, các con số và xu hướng giảm sau đỉnh đều khớp kết quả. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện” trên 40 điểm, trong khi dữ liệu chỉ xác nhận 40 điểm lịch sử khả dụng; không có bằng chứng trực tiếp về huấn luyện. Nội dung vẫn hữu ích, dù có thể nêu thêm đáy dự báo và mức biến động để đầy đủ hơn."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 14.0237693329982,
+    "input_tokens": 2994,
+    "output_tokens": 747,
+    "total_tokens": 3741,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ này được huấn luyện trên 40 điểm dữ liệu\\\" không được hỗ trợ: thông tin chỉ cho biết có 40 điểm lịch sử khả dụng và các cửa sổ dự báo, không xác nhận việc huấn luyện trên toàn bộ 40 điểm.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 24 tháng cho đúng sản phẩm và bang, nêu chính xác mức bắt đầu, đỉnh, mức kết thúc và các tháng cao nhất theo forecast. Diễn đạt rõ ràng, các con số và xu hướng giảm sau đỉnh đều khớp kết quả. Tuy nhiên, chart_note khẳng định biểu đồ được “huấn luyện” trên 40 điểm, trong khi dữ liệu chỉ xác nhận 40 điểm lịch sử khả dụng; không có bằng chứng trực tiếp về huấn luyện. Nội dung vẫn hữu ích, dù có thể nêu thêm đáy dự báo và mức biến động để đầy đủ hơn.\"}"
+  }
+}

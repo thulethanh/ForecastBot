@@ -1,0 +1,26 @@
+{
+  "case_id": "M61",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "Nhận định rằng vì chỉ có 3 điểm lịch sử nên kết quả dự báo đã được “ổn định hóa” chưa được mô tả trực tiếp trong thông tin forecast; dữ liệu chỉ cho thấy ba dự báo bằng đúng mức trung bình lịch sử."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 3 năm cho đúng mặt hàng, cửa hàng và độ chi tiết năm. Các mốc thời gian, mức dự báo 161.67 và thông tin cửa sổ/trọng số đều khớp forecast. Nội dung rõ ràng, ngắn gọn và nêu được việc dự báo không thay đổi qua các năm. Tuy nhiên, diễn giải rằng dữ liệu ít điểm là nguyên nhân mô hình “ổn định hóa” dự báo không có bằng chứng trực tiếp về cơ chế trong dữ liệu cung cấp, dù kết quả bằng trung bình lịch sử là đúng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.01144608296454,
+    "input_tokens": 2237,
+    "output_tokens": 349,
+    "total_tokens": 2586,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"Nhận định rằng vì chỉ có 3 điểm lịch sử nên kết quả dự báo đã được “ổn định hóa” chưa được mô tả trực tiếp trong thông tin forecast; dữ liệu chỉ cho thấy ba dự báo bằng đúng mức trung bình lịch sử.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 3 năm cho đúng mặt hàng, cửa hàng và độ chi tiết năm. Các mốc thời gian, mức dự báo 161.67 và thông tin cửa sổ/trọng số đều khớp forecast. Nội dung rõ ràng, ngắn gọn và nêu được việc dự báo không thay đổi qua các năm. Tuy nhiên, diễn giải rằng dữ liệu ít điểm là nguyên nhân mô hình “ổn định hóa” dự báo không có bằng chứng trực tiếp về cơ chế trong dữ liệu cung cấp, dù kết quả bằng trung bình lịch sử là đúng.\"}"
+  }
+}

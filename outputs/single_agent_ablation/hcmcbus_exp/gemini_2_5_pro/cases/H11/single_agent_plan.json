@@ -1,0 +1,14 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 1,
+  "filters": {
+    "route_id": "33"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '33' GROUP BY DATE_TRUNC('quarter', d.date)::date ORDER BY ds ASC",
+  "sql_explanation": "SQL này tổng hợp tổng số hành khách theo quý cho tuyến xe buýt 33 để tạo chuỗi thời gian hàng quý cho việc dự báo."
+}

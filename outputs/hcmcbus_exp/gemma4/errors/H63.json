@@ -1,0 +1,4 @@
+{
+  "error": "needs_clarification: granularity",
+  "traceback": "Traceback (most recent call last):\n  File \"<LOCAL_PATH>\", line 345, in run_case\n    raise ValueError('needs_clarification: '+','.join(req['missing_fields']))\nValueError: needs_clarification: granularity\n"
+}

@@ -1,0 +1,26 @@
+{
+  "case_id": "M31",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"không tính đến các sự kiện thị trường hoặc yếu tố bên ngoài\" không được xác nhận trực tiếp bởi thông tin history summary hoặc forecast result."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu: đúng mặt hàng, TX, kỳ hạn 24 tháng và khoảng thời gian dự báo. Các giá trị 17.7 cố định, trạng thái thành công, chế độ ensemble, trọng số và hai cửa sổ đều khớp dữ liệu cung cấp. Nội dung rõ ràng, mạch lạc và giúp người dùng hiểu dự báo không biến động. Tuy nhiên, nhận định rằng dự báo không tính đến sự kiện thị trường hay yếu tố bên ngoài không được xác nhận trực tiếp trong dữ liệu đầu vào, nên faithfulness giảm nhẹ. Tính hữu ích tốt nhưng có thể mạnh hơn nếu đặt mức 17.7 trong bối cảnh thống kê lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 8.827971207909286,
+    "input_tokens": 2986,
+    "output_tokens": 532,
+    "total_tokens": 3518,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"không tính đến các sự kiện thị trường hoặc yếu tố bên ngoài\\\" không được xác nhận trực tiếp bởi thông tin history summary hoặc forecast result.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu: đúng mặt hàng, TX, kỳ hạn 24 tháng và khoảng thời gian dự báo. Các giá trị 17.7 cố định, trạng thái thành công, chế độ ensemble, trọng số và hai cửa sổ đều khớp dữ liệu cung cấp. Nội dung rõ ràng, mạch lạc và giúp người dùng hiểu dự báo không biến động. Tuy nhiên, nhận định rằng dự báo không tính đến sự kiện thị trường hay yếu tố bên ngoài không được xác nhận trực tiếp trong dữ liệu đầu vào, nên faithfulness giảm nhẹ. Tính hữu ích tốt nhưng có thể mạnh hơn nếu đặt mức 17.7 trong bối cảnh thống kê lịch sử.\"}"
+  }
+}

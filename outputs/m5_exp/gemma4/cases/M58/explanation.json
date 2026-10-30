@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo cho HOUSEHOLD_1_321 tại WI_1, WI (M5)",
+  "summary_text": "Dự báo cho 12 quý tới cho HOUSEHOLD_1_321 tại WI_1, WI cho thấy xu hướng dao động theo mùa rõ rệt. Giá trị dự báo bắt đầu ở mức 104.2 (2016-07-01), giảm xuống 96.0 (2016-10-01), sau đó tăng mạnh lên 119.6 (2017-01-01). Các quý dự báo tiếp theo duy trì mô hình dao động này, với các đỉnh dự kiến vào quý 1 và quý 3, và các đáy dự kiến vào quý 2 và quý 4.",
+  "insights": [
+    "Trong 12 quý dự báo, giá trị dự kiến cao nhất là 119.6 (vào 2017-01-01) và thấp nhất là 63.4 (vào 2018-04-01).",
+    "Các quý 1 và quý 3 thường xuyên có giá trị dự báo cao hơn, với các giá trị lần lượt là 119.6, 110.2, 112.4, và 118.4.",
+    "Các quý 2 và quý 4 thường có giá trị dự báo thấp hơn, với các giá trị lần lượt là 78.4, 94.2, 63.4, và 75.4."
+  ],
+  "chart_note": "Biểu đồ này được tạo bằng ForecastBot, sử dụng phương pháp ensemble. Quá trình huấn luyện sử dụng hai cửa sổ dữ liệu: h12 (12 điểm) và h20 (20 điểm). Kết quả là dự báo cho 12 bước tiếp theo."
+}

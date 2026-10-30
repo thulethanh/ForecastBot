@@ -1,0 +1,27 @@
+{
+  "case_id": "H11",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Dự báo cao hơn mức lịch sử cao nhất \"cho thấy một xu hướng tăng trưởng mạnh mẽ\"; summary chỉ cung cấp các thống kê tổng quát, không xác nhận xu hướng này.",
+      "\"Mô hình được huấn luyện trên 8 quý gần nhất\" không được xác nhận: window_info chỉ cho biết nhánh short sử dụng cửa sổ 8 quan sát, không nêu việc huấn luyện mô hình trên cửa sổ đó."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu, nêu đúng tuyến, kỳ dự báo, giá trị dự báo, mức cực đại lịch sử, ensemble và trọng số 60/40. Trình bày rõ ràng, dễ theo dõi và có ích để hiểu mức dự báo. Tuy nhiên, việc suy ra xu hướng tăng trưởng mạnh chỉ từ dự báo vượt cực đại lịch sử là diễn đạt quá mạnh, và khẳng định mô hình được huấn luyện trên 8 quý không được dữ liệu cung cấp xác nhận; chỉ biết nhánh ngắn dùng cửa sổ 8 quan sát."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.713297790964134,
+    "input_tokens": 2175,
+    "output_tokens": 472,
+    "total_tokens": 2647,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Dự báo cao hơn mức lịch sử cao nhất \\\"cho thấy một xu hướng tăng trưởng mạnh mẽ\\\"; summary chỉ cung cấp các thống kê tổng quát, không xác nhận xu hướng này.\",\"\\\"Mô hình được huấn luyện trên 8 quý gần nhất\\\" không được xác nhận: window_info chỉ cho biết nhánh short sử dụng cửa sổ 8 quan sát, không nêu việc huấn luyện mô hình trên cửa sổ đó.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu, nêu đúng tuyến, kỳ dự báo, giá trị dự báo, mức cực đại lịch sử, ensemble và trọng số 60/40. Trình bày rõ ràng, dễ theo dõi và có ích để hiểu mức dự báo. Tuy nhiên, việc suy ra xu hướng tăng trưởng mạnh chỉ từ dự báo vượt cực đại lịch sử là diễn đạt quá mạnh, và khẳng định mô hình được huấn luyện trên 8 quý không được dữ liệu cung cấp xác nhận; chỉ biết nhánh ngắn dùng cửa sổ 8 quan sát.\"}"
+  }
+}

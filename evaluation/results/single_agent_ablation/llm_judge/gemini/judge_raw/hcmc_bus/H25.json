@@ -1,0 +1,24 @@
+{
+  "case_id": "H25",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng tuyến 65, nhà xe Cty-BaoYen, tần suất ngày và chân trời 60 ngày. Khoảng thời gian, biên dự báo và các mức theo thứ trong tuần đều khớp forecast. Nhận định về quy luật tuần được hỗ trợ bởi chuỗi giá trị lặp lại mỗi 7 ngày; giá trị Thứ Hai và Chủ Nhật cũng chính xác. Thông tin trung bình, phạm vi lịch sử, ensemble và hai cửa sổ 180/365 ngày đều phù hợp dữ liệu cung cấp. Nội dung ngắn gọn, rõ ràng và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.971066458034329,
+    "input_tokens": 4205,
+    "output_tokens": 404,
+    "total_tokens": 4609,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng tuyến 65, nhà xe Cty-BaoYen, tần suất ngày và chân trời 60 ngày. Khoảng thời gian, biên dự báo và các mức theo thứ trong tuần đều khớp forecast. Nhận định về quy luật tuần được hỗ trợ bởi chuỗi giá trị lặp lại mỗi 7 ngày; giá trị Thứ Hai và Chủ Nhật cũng chính xác. Thông tin trung bình, phạm vi lịch sử, ensemble và hai cửa sổ 180/365 ngày đều phù hợp dữ liệu cung cấp. Nội dung ngắn gọn, rõ ràng và hữu ích.\"}"
+  }
+}

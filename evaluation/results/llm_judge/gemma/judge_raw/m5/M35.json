@@ -1,0 +1,26 @@
+{
+  "case_id": "M35",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [
+      "Nhận định giá trị \"ổn định ở mức khoảng 558.2\" vào 2016-04-01 chưa được hỗ trợ rõ, vì forecast chỉ có một điểm tại mức này và trước đó đã giảm xuống 531.2."
+    ],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo 4 quý cho đúng mặt hàng, nêu đúng phương pháp ensemble, trọng số, phạm vi lịch sử và toàn bộ các mức dự báo chính. Các giá trị cao nhất, thấp nhất và diễn biến tăng rồi giảm đều khớp forecast. Trình bày ngắn gọn, rõ ràng và hữu ích. Tuy nhiên, mô tả “ổn định” ở mức 558.2 là hơi mạnh vì chỉ có một điểm dự báo tại mức này sau khi giá trị giảm xuống 531.2."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.660428457995295,
+    "input_tokens": 2321,
+    "output_tokens": 305,
+    "total_tokens": 2626,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[\"Nhận định giá trị \\\"ổn định ở mức khoảng 558.2\\\" vào 2016-04-01 chưa được hỗ trợ rõ, vì forecast chỉ có một điểm tại mức này và trước đó đã giảm xuống 531.2.\"],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo 4 quý cho đúng mặt hàng, nêu đúng phương pháp ensemble, trọng số, phạm vi lịch sử và toàn bộ các mức dự báo chính. Các giá trị cao nhất, thấp nhất và diễn biến tăng rồi giảm đều khớp forecast. Trình bày ngắn gọn, rõ ràng và hữu ích. Tuy nhiên, mô tả “ổn định” ở mức 558.2 là hơi mạnh vì chỉ có một điểm dự báo tại mức này sau khi giá trị giảm xuống 531.2.\"}"
+  }
+}

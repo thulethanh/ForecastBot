@@ -1,0 +1,24 @@
+{
+  "case_id": "M11",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 5.0,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo một quý cho đúng mặt hàng, nêu rõ thời điểm và mức dự báo. Các số liệu 276.33, trung bình lịch sử 291.86, phương pháp ensemble, trọng số 0.6/0.4 và các cửa sổ 8/12 kỳ đều khớp thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn và có lưu ý phù hợp rằng đây là ước tính, không khẳng định chắc chắn về thực tế tương lai."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.755993583006784,
+    "input_tokens": 2167,
+    "output_tokens": 323,
+    "total_tokens": 2490,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":5,\"overall_score\":5.0,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo một quý cho đúng mặt hàng, nêu rõ thời điểm và mức dự báo. Các số liệu 276.33, trung bình lịch sử 291.86, phương pháp ensemble, trọng số 0.6/0.4 và các cửa sổ 8/12 kỳ đều khớp thông tin được cung cấp. Nội dung rõ ràng, ngắn gọn và có lưu ý phù hợp rằng đây là ước tính, không khẳng định chắc chắn về thực tế tương lai.\"}"
+  }
+}

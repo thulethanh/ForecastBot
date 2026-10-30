@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo lượng hành khách cho tuyến 152 (Cty-BaoYen) vào tháng 12 năm 2024",
+  "summary_text": "Dựa trên dữ liệu lịch sử, lượng hành khách dự kiến cho tuyến 152 của Cty-BaoYen vào tháng 12 năm 2024 là 47,926.33.",
+  "insights": [
+    "Giá trị dự báo (47,926.33) cao hơn một chút so với mức trung bình lịch sử (46,557.96) trong giai đoạn 2022-2024.",
+    "Mức dự báo này nằm trong phạm vi biến động lịch sử của tuyến (từ 5,600 đến 56,493)."
+  ],
+  "chart_note": "Bản đồ này được xây dựng bằng cách sử dụng 24 điểm dữ liệu lịch sử (từ 2022-05-01 đến 2024-11-01). Mô hình sử dụng chế độ single với trọng số ngắn hạn là 0.6 và trọng số dài hạn là 0.4 để đưa ra dự báo cho tháng 12 năm 2024."
+}

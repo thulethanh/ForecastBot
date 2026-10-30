@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ năm 2022 đến 2024, dự báo cho thấy số lượng hành khách trên tuyến xe buýt 139 của nhà xe XKSG được dự kiến sẽ tiếp tục tăng trong 5 năm tới. Con số dự báo tăng từ khoảng 779.200 vào năm 2025 lên hơn 1.000.000 vào năm 2029.",
+  "insights": [
+    "Dự báo cho thấy một xu hướng tăng trưởng ổn định, tiếp nối đà tăng được ghi nhận trong dữ liệu lịch sử 3 năm qua.",
+    "Mô hình dự báo được xây dựng dựa trên một lượng dữ liệu lịch sử ngắn (3 điểm dữ liệu), điều này có thể ảnh hưởng đến độ chính xác của các dự báo dài hạn."
+  ],
+  "chart_note": "Lưu ý: Biểu đồ này hiển thị dữ liệu lịch sử (2022-2024) và các giá trị dự báo (2025-2029). Dự báo được tạo ra từ một chuỗi thời gian ngắn chỉ với 3 điểm dữ liệu."
+}

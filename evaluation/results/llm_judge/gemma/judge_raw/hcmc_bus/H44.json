@@ -1,0 +1,29 @@
+{
+  "case_id": "H44",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Lưu lượng dự báo cho thấy sự biến động theo chu kỳ\" không được chứng minh rõ từ chuỗi dự báo hay phần tóm tắt lịch sử.",
+      "\"Các ngày giữa chu kỳ dự báo ... có xu hướng lưu lượng thấp hơn\" chỉ nêu một ví dụ ngày 2024-12-19, không đủ hỗ trợ cho nhận định về xu hướng.",
+      "\"dao động quanh mức 1600 - 1850 trong suốt 28 ngày\" không hoàn toàn khớp vì dự báo có các mức 1500, 1550, 1880, 1900, 1920 và 1950.",
+      "\"Mô hình được huấn luyện dựa trên 1066 điểm dữ liệu lịch sử\" không được history summary hoặc forecast_result xác nhận về việc huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 28 ngày và nêu chính xác khoảng dự báo cùng các ngày cực trị. Trình bày rõ ràng, dễ theo dõi và hữu ích để nắm mức độ biến động. Tuy vậy, các nhận định về tính chu kỳ, xu hướng thấp ở giữa chu kỳ và mức dao động 1600–1850 trong suốt kỳ chưa được hỗ trợ đầy đủ bởi dãy dự báo. Chart note còn khẳng định mô hình được huấn luyện trên 1066 điểm, trong khi dữ liệu chỉ xác nhận đây là phạm vi lịch sử khả dụng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 10.74749733399949,
+    "input_tokens": 3180,
+    "output_tokens": 666,
+    "total_tokens": 3846,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Lưu lượng dự báo cho thấy sự biến động theo chu kỳ\\\" không được chứng minh rõ từ chuỗi dự báo hay phần tóm tắt lịch sử.\",\"\\\"Các ngày giữa chu kỳ dự báo ... có xu hướng lưu lượng thấp hơn\\\" chỉ nêu một ví dụ ngày 2024-12-19, không đủ hỗ trợ cho nhận định về xu hướng.\",\"\\\"dao động quanh mức 1600 - 1850 trong suốt 28 ngày\\\" không hoàn toàn khớp vì dự báo có các mức 1500, 1550, 1880, 1900, 1920 và 1950.\",\"\\\"Mô hình được huấn luyện dựa trên 1066 điểm dữ liệu lịch sử\\\" không được history summary hoặc forecast_result xác nhận về việc huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát đúng tuyến, đơn vị vận hành, kỳ hạn 28 ngày và nêu chính xác khoảng dự báo cùng các ngày cực trị. Trình bày rõ ràng, dễ theo dõi và hữu ích để nắm mức độ biến động. Tuy vậy, các nhận định về tính chu kỳ, xu hướng thấp ở giữa chu kỳ và mức dao động 1600–1850 trong suốt kỳ chưa được hỗ trợ đầy đủ bởi dãy dự báo. Chart note còn khẳng định mô hình được huấn luyện trên 1066 điểm, trong khi dữ liệu chỉ xác nhận đây là phạm vi lịch sử khả dụng.\"}"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Đây là dự báo số lượt hành khách hàng quý cho tuyến xe buýt 103 trong 4 quý tiếp theo, từ Quý 1 2024 đến Quý 4 2024. Dự báo được tạo ra dựa trên 8 điểm dữ liệu lịch sử từ Quý 1 2022 đến Quý 4 2023.",
+  "insights": [
+    "Dự báo cho thấy xu hướng tăng trong năm tới, với Quý 4 2024 được dự báo đạt mức cao nhất là 171.622 lượt.",
+    "Tất cả các giá trị dự báo đều cao hơn mức trung bình lịch sử (121.063 lượt), và dự báo cho Quý 4 2024 vượt qua mức cao nhất đã ghi nhận trong quá khứ (164.982 lượt)."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử (màu xanh) và các giá trị dự báo (màu cam)."
+}

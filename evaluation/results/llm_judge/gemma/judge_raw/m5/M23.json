@@ -1,0 +1,26 @@
+{
+  "case_id": "M23",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.0,
+    "unsupported_claims": [
+      "\"Mô hình được huấn luyện trên dữ liệu lịch sử từ 2011-01-29 đến 2016-03-27.\" History summary chỉ xác nhận phạm vi lịch sử khả dụng, không xác nhận dữ liệu dùng để huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát mã hàng, thời hạn 28 ngày và nêu đúng giá trị đầu/cuối cùng mức giảm 29 đơn vị. Trình bày ngắn gọn, rõ ràng và có ích ở mức cơ bản. Tuy nhiên, dự báo thực tế dao động đáng kể giữa các ngày, nên mô tả \"giảm dần\" chưa phản ánh đầy đủ biến động. Quan trọng hơn, câu khẳng định mô hình được huấn luyện trên toàn bộ phạm vi lịch sử không được dữ liệu cung cấp hỗ trợ; phạm vi này chỉ được xác nhận là lịch sử khả dụng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.519995833004941,
+    "input_tokens": 3063,
+    "output_tokens": 382,
+    "total_tokens": 3445,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.0,\"unsupported_claims\":[\"\\\"Mô hình được huấn luyện trên dữ liệu lịch sử từ 2011-01-29 đến 2016-03-27.\\\" History summary chỉ xác nhận phạm vi lịch sử khả dụng, không xác nhận dữ liệu dùng để huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát mã hàng, thời hạn 28 ngày và nêu đúng giá trị đầu/cuối cùng mức giảm 29 đơn vị. Trình bày ngắn gọn, rõ ràng và có ích ở mức cơ bản. Tuy nhiên, dự báo thực tế dao động đáng kể giữa các ngày, nên mô tả \\\"giảm dần\\\" chưa phản ánh đầy đủ biến động. Quan trọng hơn, câu khẳng định mô hình được huấn luyện trên toàn bộ phạm vi lịch sử không được dữ liệu cung cấp hỗ trợ; phạm vi này chỉ được xác nhận là lịch sử khả dụng.\"}"
+  }
+}

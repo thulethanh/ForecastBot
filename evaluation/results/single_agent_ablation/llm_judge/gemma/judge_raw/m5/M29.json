@@ -1,0 +1,26 @@
+{
+  "case_id": "M29",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 4,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Nhận định dự báo cho thấy \"sự biến động theo mùa vụ\" không được hỗ trợ trực tiếp bởi tóm tắt lịch sử hoặc các giá trị dự báo được cung cấp."
+    ],
+    "reason_vi": "Giải thích bám sát đúng mặt hàng, khu vực, tần suất tháng, chân trời 6 tháng và phương pháp ensemble với trọng số/cửa sổ khớp kết quả. Xu hướng giảm từ đầu kỳ rồi tăng lại cũng phù hợp với dãy yhat. Tuy nhiên, khẳng định có biến động theo mùa vụ không có bằng chứng trực tiếp từ history summary hoặc forecast. Nội dung rõ ràng, mạch lạc và hữu ích, nhưng sẽ tốt hơn nếu nêu các mức dự báo chính hoặc khoảng giá trị dự báo."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.512106833048165,
+    "input_tokens": 2434,
+    "output_tokens": 341,
+    "total_tokens": 2775,
+    "raw_response": "{\"relevance\":4,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Nhận định dự báo cho thấy \\\"sự biến động theo mùa vụ\\\" không được hỗ trợ trực tiếp bởi tóm tắt lịch sử hoặc các giá trị dự báo được cung cấp.\"],\"reason_vi\":\"Giải thích bám sát đúng mặt hàng, khu vực, tần suất tháng, chân trời 6 tháng và phương pháp ensemble với trọng số/cửa sổ khớp kết quả. Xu hướng giảm từ đầu kỳ rồi tăng lại cũng phù hợp với dãy yhat. Tuy nhiên, khẳng định có biến động theo mùa vụ không có bằng chứng trực tiếp từ history summary hoặc forecast. Nội dung rõ ràng, mạch lạc và hữu ích, nhưng sẽ tốt hơn nếu nêu các mức dự báo chính hoặc khoảng giá trị dự báo.\"}"
+  }
+}

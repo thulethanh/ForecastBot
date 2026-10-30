@@ -1,0 +1,26 @@
+{
+  "case_id": "M45",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "\"Việc dự báo đã sử dụng chế độ 'long_only' và kết hợp trọng số từ cả dữ liệu ngắn hạn (0.6) và dài hạn (0.4)\" không được hỗ trợ rõ: kết quả ghi selected_mode là \"long_only\", nên không xác nhận việc kết hợp cả hai cửa sổ theo các trọng số này."
+    ],
+    "reason_vi": "Giải thích bám sát yêu cầu dự báo 30 ngày và nêu đúng mức giảm từ 25 xuống 5, cùng mức tăng cuối kỳ lên 10. Tuy nhiên, giai đoạn được gọi là phục hồi từ 2016-04-16 vẫn giảm từ 4 xuống 3,5 vào 2016-04-17 trước khi tăng. Quan trọng hơn, mô tả kết hợp hai cửa sổ theo trọng số mâu thuẫn hoặc ít nhất không được xác nhận rõ bởi chế độ \"long_only\". Nội dung còn lại rõ ràng, dễ hiểu và hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.878666499978863,
+    "input_tokens": 3165,
+    "output_tokens": 413,
+    "total_tokens": 3578,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"\\\"Việc dự báo đã sử dụng chế độ 'long_only' và kết hợp trọng số từ cả dữ liệu ngắn hạn (0.6) và dài hạn (0.4)\\\" không được hỗ trợ rõ: kết quả ghi selected_mode là \\\"long_only\\\", nên không xác nhận việc kết hợp cả hai cửa sổ theo các trọng số này.\"],\"reason_vi\":\"Giải thích bám sát yêu cầu dự báo 30 ngày và nêu đúng mức giảm từ 25 xuống 5, cùng mức tăng cuối kỳ lên 10. Tuy nhiên, giai đoạn được gọi là phục hồi từ 2016-04-16 vẫn giảm từ 4 xuống 3,5 vào 2016-04-17 trước khi tăng. Quan trọng hơn, mô tả kết hợp hai cửa sổ theo trọng số mâu thuẫn hoặc ít nhất không được xác nhận rõ bởi chế độ \\\"long_only\\\". Nội dung còn lại rõ ràng, dễ hiểu và hữu ích.\"}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 1 tháng cho tuyến xe buýt 28 (XKSG)",
+  "summary_text": "ForecastBot dự báo giá trị cho tháng 12-2024 là 56.250. Con số này cao hơn mức trung bình lịch sử (49.860).",
+  "insights": [
+    "Giá trị dự báo 56.250 nằm trong phạm vi dữ liệu lịch sử (tối thiểu 18.033, tối đa 70.462).",
+    "Mô hình dự báo là ensemble, kết hợp trọng số 60% từ cửa sổ dữ liệu ngắn hạn (24 tháng) và 40% từ cửa sổ dài hạn (35 tháng).",
+    "Mô hình được huấn luyện trên 35 điểm dữ liệu lịch sử từ tháng 01-2022 đến tháng 11-2024."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử được dùng để huấn luyện (35 điểm từ 01-2022 đến 11-2024) và điểm dự báo của ForecastBot cho tháng tiếp theo."
+}

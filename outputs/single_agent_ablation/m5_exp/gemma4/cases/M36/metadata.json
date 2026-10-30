@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M36",
+  "question": "Cho tôi dự báo lượng bán của sản phẩm HOUSEHOLD_1_135 tại cửa hàng TX_1, bang TX trong 8 quý tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 22,
+    "n_train": 14,
+    "n_test": 8,
+    "horizon": 8,
+    "minimum_train_required": 8,
+    "required_points_for_evaluation": 16,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "load_schema": 0.012646500021219254,
+    "request_sql": 103.8409700000193,
+    "sql_execution_and_repair": 0.16504145797807723,
+    "forecast": 342.20573091704864,
+    "explanation": 113.81708674994297,
+    "end_to_end": 560.0418362079654
+  },
+  "total_tokens": 7344,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

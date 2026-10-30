@@ -1,0 +1,17 @@
+{
+  "case_id": "H59",
+  "question": "Hãy dự báo lượng hành khách của tuyến 87 trong 1 năm tới.",
+  "requested_dataset": "HCMC_BUS",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "failed",
+  "split_info": {},
+  "timings": {
+    "orchestration": 29.077993584003707,
+    "end_to_end": 29.079314707996673
+  },
+  "total_tokens": 4803,
+  "chart_status": "failed",
+  "chart_error": "history.json or forecast.json has no plottable data",
+  "error": "needs_clarification: granularity,horizon"
+}

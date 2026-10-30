@@ -1,0 +1,47 @@
+{
+  "forecast": [
+    {
+      "step": 1,
+      "ds": "2015-11-01",
+      "yhat": 29.82
+    },
+    {
+      "step": 2,
+      "ds": "2015-12-01",
+      "yhat": 25.66
+    },
+    {
+      "step": 3,
+      "ds": "2016-01-01",
+      "yhat": 20.28
+    },
+    {
+      "step": 4,
+      "ds": "2016-02-01",
+      "yhat": 11.32
+    },
+    {
+      "step": 5,
+      "ds": "2016-03-01",
+      "yhat": 12.92
+    },
+    {
+      "step": 6,
+      "ds": "2016-04-01",
+      "yhat": 6.08
+    }
+  ],
+  "status": "success",
+  "fallback_used": false,
+  "selected_mode": "ensemble",
+  "weights": {
+    "short": 0.6,
+    "long": 0.4
+  },
+  "window_info": {
+    "short_n": 24,
+    "long_n": 36,
+    "short_window_name": "h24",
+    "long_window_name": "h36"
+  }
+}

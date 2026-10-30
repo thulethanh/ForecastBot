@@ -1,0 +1,24 @@
+{
+  "case_id": "M21",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 4,
+    "usefulness": 5,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Giải thích bám sát đúng sản phẩm, địa điểm và chân trời dự báo 10 năm; nêu rõ các mức dự báo, xu hướng giảm ban đầu và giai đoạn dao động thấp về sau. Các con số, mốc năm, phạm vi lịch sử 6 điểm và trọng số đều khớp với dữ liệu được cung cấp. Trình bày nhìn chung rõ ràng và hữu ích. Điểm rõ ràng giảm nhẹ vì câu “Sau đó” sau khi nêu đáy ở cả 2024 và 2026 có thể gây cảm giác chưa hoàn toàn tuần tự về thời gian."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.408283583004959,
+    "input_tokens": 2593,
+    "output_tokens": 311,
+    "total_tokens": 2904,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":4,\"usefulness\":5,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Giải thích bám sát đúng sản phẩm, địa điểm và chân trời dự báo 10 năm; nêu rõ các mức dự báo, xu hướng giảm ban đầu và giai đoạn dao động thấp về sau. Các con số, mốc năm, phạm vi lịch sử 6 điểm và trọng số đều khớp với dữ liệu được cung cấp. Trình bày nhìn chung rõ ràng và hữu ích. Điểm rõ ràng giảm nhẹ vì câu “Sau đó” sau khi nêu đáy ở cả 2024 và 2026 có thể gây cảm giác chưa hoàn toàn tuần tự về thời gian.\"}"
+  }
+}

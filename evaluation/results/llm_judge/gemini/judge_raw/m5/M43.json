@@ -1,0 +1,26 @@
+{
+  "case_id": "M43",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 5,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (1906 điểm, từ 2011-01-29 đến 2016-04-17)\" không được hỗ trợ: thông tin chỉ xác nhận phạm vi lịch sử khả dụng; window_info cho biết các nhánh dùng cửa sổ 180 và 365 quan sát, và không có thông tin về huấn luyện mô hình."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng và 7 ngày dự báo; các khoảng giá trị, ngày cao/thấp, trung bình dự báo và thông tin ensemble đều khớp dữ liệu cung cấp. Nội dung rõ ràng, hữu ích và trình bày gọn. Tuy nhiên, chart_note khẳng định toàn bộ 1.906 điểm lịch sử được dùng để huấn luyện, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ nhánh dự báo là 180/365; không có bằng chứng về huấn luyện."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 6.901246416004142,
+    "input_tokens": 2473,
+    "output_tokens": 450,
+    "total_tokens": 2923,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":5,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Biểu đồ hiển thị dữ liệu lịch sử được sử dụng để huấn luyện (1906 điểm, từ 2011-01-29 đến 2016-04-17)\\\" không được hỗ trợ: thông tin chỉ xác nhận phạm vi lịch sử khả dụng; window_info cho biết các nhánh dùng cửa sổ 180 và 365 quan sát, và không có thông tin về huấn luyện mô hình.\"],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng và 7 ngày dự báo; các khoảng giá trị, ngày cao/thấp, trung bình dự báo và thông tin ensemble đều khớp dữ liệu cung cấp. Nội dung rõ ràng, hữu ích và trình bày gọn. Tuy nhiên, chart_note khẳng định toàn bộ 1.906 điểm lịch sử được dùng để huấn luyện, trong khi dữ liệu chỉ cho biết phạm vi lịch sử khả dụng và các cửa sổ nhánh dự báo là 180/365; không có bằng chứng về huấn luyện.\"}"
+  }
+}

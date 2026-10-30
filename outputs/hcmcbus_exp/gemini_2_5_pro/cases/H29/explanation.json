@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo hàng tháng cho HCMC_BUS (tuyến 3, HTX-195) trong 6 tháng tới",
+  "summary_text": "ForecastBot đưa ra dự báo cho 6 tháng tới (từ tháng 7/2024 đến tháng 12/2024) cho HCMC_BUS với route_id '3' và operator 'HTX-195'. Dự báo cho thấy giá trị sẽ tăng từ 110,525.0 trong tháng 7 lên đỉnh điểm 137,306.0 vào tháng 10, sau đó giảm dần. Các giá trị dự báo này bắt đầu gần mức trung bình lịch sử (110,710.3) và tăng lên gần mức cao nhất từng ghi nhận (137,948.0).",
+  "insights": [
+    "Giá trị dự báo cao nhất là 137,306.0 vào tháng 10/2024, gần bằng mức cao nhất trong lịch sử (137,948.0).",
+    "Dự báo có xu hướng tăng trong 4 tháng đầu (từ tháng 7 đến tháng 10), sau đó giảm nhẹ vào hai tháng cuối năm.",
+    "Giá trị dự báo cho tháng 7/2024 (110,525.0) gần bằng mức trung bình lịch sử (110,710.3), nhưng các tháng sau đó đều được dự báo cao hơn đáng kể."
+  ],
+  "chart_note": "Biểu đồ hiển thị 30 điểm dữ liệu lịch sử từ tháng 1/2022 đến tháng 6/2024 đã được sử dụng để huấn luyện, cùng với dự báo cho 6 tháng tiếp theo (tháng 7/2024 - 12/2024) được tạo bởi mô hình ensemble của ForecastBot."
+}

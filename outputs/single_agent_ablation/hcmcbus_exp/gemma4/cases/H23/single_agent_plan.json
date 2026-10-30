@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "day",
+  "horizon": 28,
+  "filters": {
+    "route_name": "Tuyến 62",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT d.date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats d JOIN bus_routes r ON d.route_id = r.route_id WHERE r.route_name = 'Tuyến 62' AND TRIM(d.operator) = 'XKSG' GROUP BY d.date ORDER BY d.date ASC",
+  "sql_explanation": "Retrieves the sum of total passengers (y) daily (ds) for the route named 'Tuyến 62' operated by 'XKSG'."
+}

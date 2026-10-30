@@ -1,0 +1,1 @@
+SELECT DATE_TRUNC('month', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '56' AND TRIM(d.operator) = 'HTX-QTHANG' GROUP BY ds ORDER BY ds ASC

@@ -1,0 +1,27 @@
+{
+  "case_id": "M58",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 4,
+    "usefulness": 4,
+    "overall_score": 4.0,
+    "unsupported_claims": [
+      "\"Quá trình huấn luyện sử dụng hai cửa sổ dữ liệu: h12 (12 điểm) và h20 (20 điểm).\" Window_info chỉ cho biết các cửa sổ dùng cho các nhánh dự báo, không xác nhận chúng là dữ liệu huấn luyện.",
+      "Các danh sách giá trị gán cho nhóm quý 1/quý 3 và quý 2/quý 4 không phản ánh đầy đủ các dự báo thuộc từng nhóm quý; ví dụ 104.2, 102.4 (quý 3) và 96.0, 95.4 (quý 4) bị bỏ qua."
+    ],
+    "reason_vi": "Giải thích bám sát đối tượng, kỳ hạn 12 quý và nêu đúng mức cao nhất/thấp nhất trong forecast. Diễn biến dao động lặp lại cũng được trình bày khá rõ, dù cách liệt kê các giá trị theo nhóm quý chưa đầy đủ và có thể gây hiểu nhầm. Chart note khẳng định về “quá trình huấn luyện” không được hỗ trợ: dữ liệu chỉ xác nhận hai cửa sổ của các nhánh dự báo. Tổng thể rõ ràng và hữu ích để hiểu mức dự báo cùng mẫu biến động dự kiến."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 15.734499124999274,
+    "input_tokens": 2678,
+    "output_tokens": 811,
+    "total_tokens": 3489,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":4,\"usefulness\":4,\"overall_score\":4.0,\"unsupported_claims\":[\"\\\"Quá trình huấn luyện sử dụng hai cửa sổ dữ liệu: h12 (12 điểm) và h20 (20 điểm).\\\" Window_info chỉ cho biết các cửa sổ dùng cho các nhánh dự báo, không xác nhận chúng là dữ liệu huấn luyện.\",\"Các danh sách giá trị gán cho nhóm quý 1/quý 3 và quý 2/quý 4 không phản ánh đầy đủ các dự báo thuộc từng nhóm quý; ví dụ 104.2, 102.4 (quý 3) và 96.0, 95.4 (quý 4) bị bỏ qua.\"],\"reason_vi\":\"Giải thích bám sát đối tượng, kỳ hạn 12 quý và nêu đúng mức cao nhất/thấp nhất trong forecast. Diễn biến dao động lặp lại cũng được trình bày khá rõ, dù cách liệt kê các giá trị theo nhóm quý chưa đầy đủ và có thể gây hiểu nhầm. Chart note khẳng định về “quá trình huấn luyện” không được hỗ trợ: dữ liệu chỉ xác nhận hai cửa sổ của các nhánh dự báo. Tổng thể rõ ràng và hữu ích để hiểu mức dự báo cùng mẫu biến động dự kiến.\"}"
+  }
+}

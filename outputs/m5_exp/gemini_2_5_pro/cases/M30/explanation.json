@@ -1,0 +1,10 @@
+{
+  "title": "Dự báo 12 tháng cho item_id HOBBIES_1_277 tại store_id TX_3",
+  "summary_text": "ForecastBot dự báo cho 12 tháng tiếp theo, từ 2015-05-01 đến 2016-04-01. Các giá trị dự báo dao động từ 19.32 đến 47.72. Giá trị dự báo trung bình là 27.87, cao hơn so với giá trị trung bình lịch sử là 18.92.",
+  "insights": [
+    "Dự báo đạt đỉnh vào tháng 11 năm 2015 với giá trị 47.72, cao hơn đáng kể so với mức trung bình lịch sử (18.92) và gần bằng mức cao nhất trong lịch sử (49.0).",
+    "Giá trị dự báo thấp nhất là 19.32 vào tháng 12 năm 2015, gần với mức trung bình lịch sử là 18.92.",
+    "Dự báo này được tạo ra bởi mô hình `ensemble`, kết hợp dự báo từ cửa sổ dữ liệu ngắn hạn (36 điểm) và dài hạn (52 điểm) với trọng số tương ứng là 0.6 và 0.4."
+  ],
+  "chart_note": "Biểu đồ hiển thị dữ liệu lịch sử gồm 52 điểm từ 2011-01-01 đến 2015-04-01 và dự báo của ForecastBot cho 12 tháng tiếp theo đến 2016-04-01."
+}

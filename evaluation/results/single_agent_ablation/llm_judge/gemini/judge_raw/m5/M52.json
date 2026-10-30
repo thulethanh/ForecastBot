@@ -1,0 +1,27 @@
+{
+  "case_id": "M52",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Mô hình không phát hiện thấy xu hướng tăng/giảm hoặc tính thời vụ rõ rệt trong dữ liệu lịch sử.",
+      "Doanh số ở giai đoạn gần đây của dữ liệu lịch sử có thể đã cao hơn so với giai đoạn đầu."
+    ],
+    "reason_vi": "Giải thích bám đúng mặt hàng, cửa hàng, kỳ hạn 24 tháng và nêu chính xác dự báo cố định 11.3 cùng mức trung bình lịch sử 2.55. Nội dung rõ ràng, hữu ích khi chỉ ra dự báo cao hơn đáng kể mức trung bình. Tuy nhiên, history summary không cung cấp bằng chứng về xu hướng, mùa vụ hay mức doanh số ở giai đoạn gần đây, nên các diễn giải này chưa được hỗ trợ trực tiếp. Việc dự báo không đổi tự nó không đủ để kết luận mô hình không phát hiện xu hướng hoặc mùa vụ."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 7.946085292031057,
+    "input_tokens": 3000,
+    "output_tokens": 556,
+    "total_tokens": 3556,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Mô hình không phát hiện thấy xu hướng tăng/giảm hoặc tính thời vụ rõ rệt trong dữ liệu lịch sử.\",\"Doanh số ở giai đoạn gần đây của dữ liệu lịch sử có thể đã cao hơn so với giai đoạn đầu.\"],\"reason_vi\":\"Giải thích bám đúng mặt hàng, cửa hàng, kỳ hạn 24 tháng và nêu chính xác dự báo cố định 11.3 cùng mức trung bình lịch sử 2.55. Nội dung rõ ràng, hữu ích khi chỉ ra dự báo cao hơn đáng kể mức trung bình. Tuy nhiên, history summary không cung cấp bằng chứng về xu hướng, mùa vụ hay mức doanh số ở giai đoạn gần đây, nên các diễn giải này chưa được hỗ trợ trực tiếp. Việc dự báo không đổi tự nó không đủ để kết luận mô hình không phát hiện xu hướng hoặc mùa vụ.\"}"
+  }
+}

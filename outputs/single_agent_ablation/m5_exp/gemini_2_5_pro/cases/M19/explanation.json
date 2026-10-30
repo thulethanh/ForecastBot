@@ -1,0 +1,9 @@
+{
+  "title": "Kết quả dự báo",
+  "summary_text": "Dựa trên dữ liệu lịch sử, doanh số dự báo cho mặt hàng HOUSEHOLD_2_146 tại cửa hàng CA_4 trong 3 năm tới là 0.",
+  "insights": [
+    "Dự báo này được đưa ra vì không có doanh số nào được ghi nhận cho sản phẩm này tại địa điểm này trong toàn bộ giai đoạn lịch sử được phân tích (2011-2013).",
+    "Mô hình dự báo rằng xu hướng doanh số bằng không này sẽ tiếp tục trong các năm 2014, 2015 và 2016."
+  ],
+  "chart_note": "Lưu ý: Dữ liệu lịch sử từ 2011 đến 2013 chỉ hiển thị giá trị bằng không."
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "M46",
+  "dataset": "M5",
+  "target_model": "Gemini 2.5 Pro",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 3,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.25,
+    "unsupported_claims": [
+      "Chart note khẳng định 1.853 điểm dữ liệu từ 2011-01-29 đến 2016-02-24 được dùng để huấn luyện, trong khi thông tin cửa sổ chỉ cho biết các nhánh dự báo dùng 180 và 365 quan sát gần nhất.",
+      "Giá trị dự báo trung bình được nêu là 0.41; tính từ 60 giá trị forecast cho trung bình xấp xỉ 0.418, thường làm tròn hai chữ số là 0.42."
+    ],
+    "reason_vi": "Giải thích bám sát đúng item, cửa hàng, chân trời 60 ngày và mô tả được mức dự báo cùng chu kỳ 7 ngày thể hiện trực tiếp trong forecast. Các ngày cao nhất/thấp nhất theo thứ trong tuần và trọng số ensemble đều phù hợp dữ liệu. Tuy nhiên, chart note nói toàn bộ 1.853 điểm được dùng để huấn luyện, điều không được hỗ trợ và không phù hợp với thông tin hai cửa sổ 180/365. Trung bình 0.41 cũng chưa chính xác nếu làm tròn thông thường từ forecast. Trình bày rõ ràng và nhìn chung hữu ích."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 11.418186249997234,
+    "input_tokens": 4298,
+    "output_tokens": 704,
+    "total_tokens": 5002,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":3,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.25,\"unsupported_claims\":[\"Chart note khẳng định 1.853 điểm dữ liệu từ 2011-01-29 đến 2016-02-24 được dùng để huấn luyện, trong khi thông tin cửa sổ chỉ cho biết các nhánh dự báo dùng 180 và 365 quan sát gần nhất.\",\"Giá trị dự báo trung bình được nêu là 0.41; tính từ 60 giá trị forecast cho trung bình xấp xỉ 0.418, thường làm tròn hai chữ số là 0.42.\"],\"reason_vi\":\"Giải thích bám sát đúng item, cửa hàng, chân trời 60 ngày và mô tả được mức dự báo cùng chu kỳ 7 ngày thể hiện trực tiếp trong forecast. Các ngày cao nhất/thấp nhất theo thứ trong tuần và trọng số ensemble đều phù hợp dữ liệu. Tuy nhiên, chart note nói toàn bộ 1.853 điểm được dùng để huấn luyện, điều không được hỗ trợ và không phù hợp với thông tin hai cửa sổ 180/365. Trung bình 0.41 cũng chưa chính xác nếu làm tròn thông thường từ forecast. Trình bày rõ ràng và nhìn chung hữu ích.\"}"
+  }
+}

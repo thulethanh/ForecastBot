@@ -1,0 +1,24 @@
+{
+  "case_id": "H60",
+  "dataset": "HCMC_BUS",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 5,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.75,
+    "unsupported_claims": [],
+    "reason_vi": "Explanation bám sát yêu cầu dự báo 2 năm cho Route 88 và nêu đúng cả hai giá trị dự báo theo năm. Các nhận định về mức không đổi/ổn định đều được hỗ trợ trực tiếp bởi forecast, và phạm vi dữ liệu lịch sử năm 2022 khớp history summary. Nội dung rõ ràng, ngắn gọn và dễ theo dõi. Tuy vậy, giá trị thực tế có thể cao hơn nếu nêu thêm rằng dự báo được suy ra từ chỉ một quan sát lịch sử, giúp người dùng hiểu giới hạn bằng chứng."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 5.5711672920006095,
+    "input_tokens": 2190,
+    "output_tokens": 272,
+    "total_tokens": 2462,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":5,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.75,\"unsupported_claims\":[],\"reason_vi\":\"Explanation bám sát yêu cầu dự báo 2 năm cho Route 88 và nêu đúng cả hai giá trị dự báo theo năm. Các nhận định về mức không đổi/ổn định đều được hỗ trợ trực tiếp bởi forecast, và phạm vi dữ liệu lịch sử năm 2022 khớp history summary. Nội dung rõ ràng, ngắn gọn và dễ theo dõi. Tuy vậy, giá trị thực tế có thể cao hơn nếu nêu thêm rằng dự báo được suy ra từ chỉ một quan sát lịch sử, giúp người dùng hiểu giới hạn bằng chứng.\"}"
+  }
+}

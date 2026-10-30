@@ -1,0 +1,26 @@
+{
+  "case_id": "M53",
+  "dataset": "M5",
+  "target_model": "Gemma 4",
+  "judge_model": "gpt-5.6-terra",
+  "judge_status": "success",
+  "scores": {
+    "relevance": 5,
+    "faithfulness": 4,
+    "clarity": 5,
+    "usefulness": 4,
+    "overall_score": 4.5,
+    "unsupported_claims": [
+      "\"Dự báo được xây dựng dựa trên 21 điểm dữ liệu lịch sử\" không phù hợp hoàn toàn với window_info, vì hai nhánh ensemble thực tế dùng cửa sổ h8 và h12."
+    ],
+    "reason_vi": "Giải thích nêu đúng mặt hàng, cửa hàng, kỳ dự báo, giá trị 33.8, trạng thái thành công và cấu hình ensemble 60%/40%; các thông tin này khớp kết quả dự báo. Phạm vi lịch sử 2011-01-01 đến 2016-01-01 cũng khớp tóm tắt. Tuy nhiên, câu nói dự báo được xây dựng trên 21 điểm có phần quá mạnh, vì thông tin cửa sổ cho thấy các nhánh dùng h8 và h12. Nội dung rõ ràng và hữu ích, nhưng chưa diễn giải thêm bối cảnh biến động hoặc vị trí của mức dự báo so với lịch sử."
+  },
+  "meta": {
+    "attempt": 1,
+    "latency_s": 9.11833204200957,
+    "input_tokens": 2133,
+    "output_tokens": 552,
+    "total_tokens": 2685,
+    "raw_response": "{\"relevance\":5,\"faithfulness\":4,\"clarity\":5,\"usefulness\":4,\"overall_score\":4.5,\"unsupported_claims\":[\"\\\"Dự báo được xây dựng dựa trên 21 điểm dữ liệu lịch sử\\\" không phù hợp hoàn toàn với window_info, vì hai nhánh ensemble thực tế dùng cửa sổ h8 và h12.\"],\"reason_vi\":\"Giải thích nêu đúng mặt hàng, cửa hàng, kỳ dự báo, giá trị 33.8, trạng thái thành công và cấu hình ensemble 60%/40%; các thông tin này khớp kết quả dự báo. Phạm vi lịch sử 2011-01-01 đến 2016-01-01 cũng khớp tóm tắt. Tuy nhiên, câu nói dự báo được xây dựng trên 21 điểm có phần quá mạnh, vì thông tin cửa sổ cho thấy các nhánh dùng h8 và h12. Nội dung rõ ràng và hữu ích, nhưng chưa diễn giải thêm bối cảnh biến động hoặc vị trí của mức dự báo so với lịch sử.\"}"
+  }
+}

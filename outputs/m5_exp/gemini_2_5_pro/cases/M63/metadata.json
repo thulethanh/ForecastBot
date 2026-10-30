@@ -1,0 +1,33 @@
+{
+  "case_id": "M63",
+  "question": "Trong 10 năm tới, lượng bán của sản phẩm HOUSEHOLD_2_483 tại cửa hàng WI_2, bang WI sẽ như thế nào?",
+  "requested_dataset": "M5",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "status": "success",
+  "split_info": {
+    "split_mode": "full_history_forecast",
+    "evaluation_eligible": false,
+    "evaluation_skip_reason": "insufficient_history_for_holdout",
+    "n_total": 6,
+    "n_train": 6,
+    "n_test": 0,
+    "horizon": 10,
+    "minimum_train_required": 5,
+    "required_points_for_evaluation": 15,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "orchestration": 9.790327624999918,
+    "load_schema": 0.0014826249971520156,
+    "sql_generation": 8.702418291999493,
+    "sql_execution_and_repair": 0.011541708998265676,
+    "forecast": 48.628887375001796,
+    "explanation": 19.559501833995455,
+    "end_to_end": 86.69420454200008
+  },
+  "total_tokens": 13284,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

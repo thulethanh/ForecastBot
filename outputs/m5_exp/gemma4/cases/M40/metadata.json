@@ -1,0 +1,33 @@
+{
+  "case_id": "M40",
+  "question": "Tôi muốn xem xu hướng lượng bán của sản phẩm HOUSEHOLD_2_488 tại cửa hàng TX_3 trong 3 năm tiếp theo.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 3,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 5,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "orchestration": 37.87016204200336,
+    "load_schema": 0.004207459001918323,
+    "sql_generation": 61.59088350000093,
+    "sql_execution_and_repair": 0.2538611670024693,
+    "forecast": 42.15483429199958,
+    "explanation": 53.31510145799257,
+    "end_to_end": 195.18909058300778
+  },
+  "total_tokens": 5264,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

@@ -1,0 +1,64 @@
+item,User_request
+H01,Tôi muốn dự báo lượng hành khách của tuyến 19 trong 7 ngày tới.
+H02,Dự báo 28 ngày tới của tuyến 22 do HTX-VTHANG vận hành.
+H03,Cho tôi biết tuyến 23 sử dụng nhóm xe 3B.1_ML trong 30 ngày tiếp theo dự kiến có bao nhiêu lượt hành khách.
+H04,"Trong 60 ngày tới, lượng hành khách của tuyến 24 do HTX-195 vận hành được dự báo như thế nào?"
+H05,Tôi cần xem xu hướng lượng hành khách của tuyến 27 do XKSG vận hành trong 90 ngày tới.
+H06,"Trong 1 tháng tới, tuyến 28 do XKSG vận hành dự kiến phục vụ bao nhiêu lượt hành khách?"
+H07,Cho tôi dự báo lượng khách của tuyến 29 do HTX-ThanhSon vận hành trong 3 tháng tới.
+H08,"Hãy dự báo nhu cầu hành khách của tuyến 30 do XKSG vận hành, sử dụng nhóm xe 4A_ML trong 6 tháng sắp tới."
+H09,Dự báo lượng hành khách của tuyến 31 do XKSG vận hành trong 12 tháng tiếp theo.
+H10,Tôi muốn xem lượng hành khách của tuyến 32 do HTX-VTHANG vận hành trong 24 tháng tiếp theo.
+H11,Cho tôi dự báo hành khách của tuyến 33 trong 1 quý tới.
+H12,Dự báo lượng khách của tuyến 34 do HTX 26 vận hành trong 2 quý tiếp theo.
+H13,"Trong 3 quý tới, tuyến 36 do XKSG vận hành có lượng hành khách dự kiến như thế nào?"
+H14,Hãy ước tính lượng khách của tuyến 38 do XKSG vận hành trong 4 quý tới.
+H15,Dự báo lượng hành khách của tuyến 39 sử dụng nhóm xe 3B.1_ML trong 8 quý tiếp theo.
+H16,Cho tôi dự báo hành khách của tuyến 41 do HTX-195 vận hành trong 12 quý tới.
+H17,Dự báo lượng hành khách của tuyến 44 do HTX-ThanhSon vận hành trong 1 năm tiếp theo.
+H18,"Trong 2 năm tới, lượng khách của tuyến 46 do HTX-ThanhSon vận hành sẽ như thế nào?"
+H19,Hãy dự báo lượng hành khách của tuyến 47 trong 3 năm tới.
+H20,Tôi muốn xem xu hướng lượng hành khách của tuyến 48 do HTX-195 vận hành trong 5 năm tiếp theo.
+H21,"Tôi muốn dự báo lượng hành khách của tuyến 55 do XKSG vận hành, sử dụng nhóm xe 4_CNG.2 trong 10 năm tới."
+H22,Dự báo 7 ngày tới của tuyến 58 do HTX-VTHANG vận hành.
+H23,Cho tôi biết tuyến 62 do XKSG vận hành trong 28 ngày tiếp theo dự kiến có bao nhiêu lượt hành khách.
+H24,"Trong 30 ngày tới, lượng hành khách của tuyến 64 do XKSG vận hành được dự báo như thế nào?"
+H25,Tôi cần xem xu hướng lượng hành khách của tuyến 65 do Cty-BaoYen vận hành trong 60 ngày tới.
+H26,Tôi muốn dự báo lượng hành khách của tuyến 1 do Cty-BaoYen vận hành trong 90 ngày tới.
+H27,Cho tôi dự báo lượng khách của tuyến 15 trong 1 tháng tới.
+H28,Hãy dự báo nhu cầu hành khách của tuyến 18 sử dụng nhóm xe 3B.2_ML trong 3 tháng sắp tới.
+H29,Dự báo lượng hành khách của tuyến 3 do HTX-195 vận hành trong 6 tháng tiếp theo.
+H30,Tôi muốn xem lượng hành khách của tuyến 4 do Cty-BaoYen vận hành trong 12 tháng tiếp theo.
+H31,"Trong 24 tháng tới, tuyến 9 do HTX-VTTP vận hành dự kiến phục vụ bao nhiêu lượt hành khách?"
+H32,Dự báo lượng khách của tuyến 43 do Cty-BaoYen vận hành trong 1 quý tiếp theo.
+H33,"Trong 2 quý tới, tuyến 45 do XKSG vận hành có lượng hành khách dự kiến như thế nào?"
+H34,Hãy ước tính lượng khách của tuyến 100 do HTX-VTHANG vận hành trong 3 quý tới.
+H35,Dự báo lượng hành khách của tuyến 103 trong 4 quý tiếp theo.
+H36,"Cho tôi dự báo hành khách của tuyến 107 do HTX-195 vận hành, sử dụng nhóm xe 2B.1_ML trong 8 quý tới."
+H37,Dự báo lượng khách của tuyến 122 do HTX-195 vận hành trong 12 quý tiếp theo.
+H38,"Trong 1 năm tới, lượng khách của tuyến 126 do HTX-195 vận hành sẽ như thế nào?"
+H39,Hãy dự báo lượng hành khách của tuyến 127 do HTX-ThanhSon vận hành trong 2 năm tới.
+H40,Tôi muốn xem xu hướng lượng hành khách của tuyến 128 do HTX-ThanhSon vận hành trong 3 năm tiếp theo.
+H41,Tôi muốn dự báo lượng hành khách của tuyến 139 do XKSG vận hành trong 5 năm tới.
+H42,Dự báo lượng hành khách của tuyến 141 do HTX 15 vận hành trong 10 năm tiếp theo.
+H43,Cho tôi biết tuyến 145 trong 7 ngày tiếp theo dự kiến có bao nhiêu lượt hành khách.
+H44,"Trong 28 ngày tới, lượng hành khách của tuyến 146 do HTX-ThanhSon vận hành được dự báo như thế nào?"
+H45,Tôi cần xem xu hướng lượng hành khách của tuyến 148 sử dụng nhóm xe 3_CNG trong 30 ngày tới.
+H46,Tôi muốn dự báo lượng hành khách của tuyến 150 do HTX-195 vận hành trong 60 ngày tới.
+H47,Dự báo 90 ngày tới của tuyến 151 do HTX-28 vận hành.
+H48,Hãy dự báo nhu cầu hành khách của tuyến 152 do Cty-BaoYen vận hành trong 1 tháng sắp tới.
+H49,Dự báo lượng hành khách của tuyến 53 do HTX-QTHANG vận hành trong 3 tháng tiếp theo.
+H50,Tôi muốn xem lượng hành khách của tuyến 56 do HTX-QTHANG vận hành trong 6 tháng tiếp theo.
+H51,"Trong 12 tháng tới, tuyến 70 dự kiến phục vụ bao nhiêu lượt hành khách?"
+H52,"Cho tôi dự báo lượng khách của tuyến 71 do XKSG vận hành, sử dụng nhóm xe 2B.2_ML trong 24 tháng tới."
+H53,"Trong 1 quý tới, tuyến 77 do HTX 26 vận hành có lượng hành khách dự kiến như thế nào?"
+H54,Hãy ước tính lượng khách của tuyến 78 do HTX-195 vận hành trong 2 quý tới.
+H55,Dự báo lượng hành khách của tuyến 79 do HTX-QTIEN vận hành trong 3 quý tiếp theo.
+H56,Cho tôi dự báo hành khách của tuyến 81 do HTX-VTHANG vận hành trong 4 quý tới.
+H57,Dự báo lượng khách của tuyến 84 do HTX-28 vận hành trong 8 quý tiếp theo.
+H58,"Trong 12 quý tới, tuyến 85 do HTX-195 vận hành có lượng hành khách dự kiến như thế nào?"
+H59,Hãy dự báo lượng hành khách của tuyến 87 trong 1 năm tới.
+H60,Tôi muốn xem xu hướng lượng hành khách của tuyến 88 sử dụng nhóm xe 2B.1_ML trong 2 năm tiếp theo.
+H61,Tôi muốn dự báo lượng hành khách của tuyến 90 do HTX 26 vận hành trong 3 năm tới.
+H62,Dự báo lượng hành khách của tuyến 91 do XKSG vận hành trong 5 năm tiếp theo.
+H63,"Trong 10 năm tới, lượng khách của tuyến 99 do HTX-ThanhSon vận hành, sử dụng nhóm xe 2B.1_ML sẽ như thế nào?"

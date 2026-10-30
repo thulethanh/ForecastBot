@@ -1,0 +1,33 @@
+{
+  "architecture": "single_agent",
+  "case_id": "M61",
+  "question": "Tôi muốn dự báo lượng bán của sản phẩm HOUSEHOLD_2_117 tại cửa hàng WI_1, bang WI trong 3 năm tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 6,
+    "n_train": 3,
+    "n_test": 3,
+    "horizon": 3,
+    "minimum_train_required": 2,
+    "required_points_for_evaluation": 5,
+    "split_rule": "n_total >= ceil(1.5 * horizon)"
+  },
+  "timings": {
+    "load_schema": 0.04165004100650549,
+    "request_sql": 83.98895841697231,
+    "sql_execution_and_repair": 0.05494095804169774,
+    "forecast": 81.68064349994529,
+    "explanation": 124.02717845805455,
+    "end_to_end": 289.7935772500932
+  },
+  "total_tokens": 4514,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

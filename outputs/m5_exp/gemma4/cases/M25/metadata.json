@@ -1,0 +1,33 @@
+{
+  "case_id": "M25",
+  "question": "Tôi cần xem xu hướng lượng bán của sản phẩm FOODS_3_576 tại bang TX trong 60 ngày tới.",
+  "requested_dataset": "M5",
+  "provider": "gemma",
+  "model": "gemma4:e4b",
+  "status": "success",
+  "split_info": {
+    "split_mode": "holdout",
+    "evaluation_eligible": true,
+    "evaluation_skip_reason": null,
+    "n_total": 1913,
+    "n_train": 1853,
+    "n_test": 60,
+    "horizon": 60,
+    "minimum_train_required": 60,
+    "required_points_for_evaluation": 120,
+    "split_rule": "n_total >= 2 * horizon"
+  },
+  "timings": {
+    "orchestration": 43.01898341700144,
+    "load_schema": 0.004563917013001628,
+    "sql_generation": 59.89993620800669,
+    "sql_execution_and_repair": 0.09135383300599642,
+    "forecast": 369.5621516669926,
+    "explanation": 91.47960545800743,
+    "end_to_end": 564.0568396670133
+  },
+  "total_tokens": 17469,
+  "chart_status": "success",
+  "chart_error": "",
+  "error": ""
+}

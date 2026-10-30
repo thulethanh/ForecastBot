@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo 1 tháng tới cho HCMC_BUS (route_id: 15)",
+  "summary_text": "ForecastBot dự báo giá trị cho tháng 12 năm 2024 là 29.156,4. Mức này thấp hơn một chút so với giá trị trung bình lịch sử là 29.410,3.",
+  "insights": [
+    "Giá trị dự báo 29.156,4 nằm trong khoảng giá trị lịch sử từ 17.777,0 đến 37.278,0.",
+    "Dự báo này là kết quả của mô hình `ensemble`, kết hợp một mô hình ngắn hạn (sử dụng 24 tháng gần nhất) với trọng số 0.6 và một mô hình dài hạn (sử dụng toàn bộ 35 tháng lịch sử) với trọng số 0.4."
+  ],
+  "chart_note": "Biểu đồ hiển thị 35 điểm dữ liệu lịch sử từ 2022-01-01 đến 2024-11-01 và 1 điểm dự báo cho tháng tiếp theo do ForecastBot tạo ra."
+}

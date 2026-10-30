@@ -1,0 +1,15 @@
+{
+  "intent": "forecast_request",
+  "dataset": "HCMC_BUS",
+  "granularity": "quarter",
+  "horizon": 4,
+  "filters": {
+    "route_id": "38",
+    "operator": "XKSG"
+  },
+  "missing_fields": [],
+  "needs_clarification": false,
+  "user_message_for_clarification": "",
+  "sql": "SELECT DATE_TRUNC('quarter', d.date)::date AS ds, SUM(d.total_passengers) AS y FROM daily_passenger_stats AS d WHERE d.route_id = '38' AND TRIM(d.operator) = 'XKSG' GROUP BY DATE_TRUNC('quarter', d.date) ORDER BY ds ASC",
+  "sql_explanation": "This SQL query aggregates the total number of passengers (y) by quarter (ds) from the daily_passenger_stats table. It filters the data to include only records for route '38' and operator 'XKSG'."
+}

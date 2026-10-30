@@ -1,0 +1,9 @@
+{
+  "title": "Dự báo cho HCMC_BUS (Tuyến 141, HTX 15)",
+  "summary_text": "Dựa trên dữ liệu lịch sử từ 2022-01-01 đến 2024-01-01, mô hình dự báo cho 10 năm tới (2025-2034) cho thấy xu hướng tăng trưởng ổn định, bắt đầu từ mức 347,632.0 vào năm 2025.",
+  "insights": [
+    "Trong 10 năm tới, giá trị dự báo cho HCMC_BUS (Tuyến 141, HTX 15) được dự đoán tăng đều đặn 10,000 đơn vị mỗi năm.",
+    "Giá trị dự báo sẽ tăng từ 347,632.0 (năm 2025) lên đến 356,632.0 (năm 2034)."
+  ],
+  "chart_note": "Biểu đồ này được huấn luyện trên 3 điểm dữ liệu lịch sử (từ 2022-01-01 đến 2024-01-01) và đưa ra dự báo cho 10 bước tiếp theo (từ 2025-01-01 đến 2034-01-01) bằng mô hình single."
+}
