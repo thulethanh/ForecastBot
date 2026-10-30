@@ -1,4 +1,6 @@
-# ForecastBot — conference package
+# ForecastBot
+
+ForecastBot: A Multiagent LLM Framework for Natural Language Time Series Forecasting over Relational Databases
 
 This standalone package contains the original evaluation workflow and a demo that uses the same runner. The original project outside this folder is unchanged.
 

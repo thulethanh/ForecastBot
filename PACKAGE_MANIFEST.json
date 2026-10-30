@@ -31,7 +31,7 @@
   "files": {
     ".env.example": "a7e8b79ecc89c13aa3354a955e5dcd85d70b1d416eb7af20c27bc478a9ed2b5b",
     ".gitignore": "7cf83e3f15ab96cabfa81c13c308df040b0286174d40c18756b5f81737f1ee15",
-    "README.md": "851feb41bcea2e06bb7ed08401b6b082a5a34494fa5fc0490e96fac204cf81e5",
+    "README.md": "ca01d30ad6d5b5044c0c7e0fb9e7fa900b68fae79142477eedd555dcb560dbe8",
     "app_experiment_chat.py": "a42de7817521b6b1d22212b49e92ba91722e4971b0c3853c4b22a9ada26655fd",
     "database/README.md": "4d67571e52c02155441dab1f729055a5bc84d9311c43f5f4ea8731d775ea7b26",
     "database/forecastbot.dump": "bb286ae07705bb58f0e757bdd45e018b3db612db73ee10ad412c4402527448aa",
