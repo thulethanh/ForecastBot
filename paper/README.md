@@ -13,8 +13,7 @@ No database, API, or manuscript access is required. Install the dependencies fro
 python -m pip install -r requirements.txt
 ```
 
-The script uses pandas, numpy, scipy, and openpyxl. It computes Tables 2–6 from saved scores and case artifacts, with column headings defined in Python. The `paper/reference/` directory and the DOCX manuscript can be removed without affecting this script, experiments, or the demo. The `--reference` option is no longer used.
-
+The script uses pandas, numpy, scipy, and openpyxl. It computes Tables 2–6 from saved scores and case artifacts, with column headings defined in Python. 
 Table 1 is a literature overview, not an experimental calculation, and is no longer generated. No manuscript cell comparison, comparison worksheet, reference hash, or manuscript-match claim is produced.
 
 Results are written to `paper/outputs/`: `table_2.csv` through `table_6.csv`, `CSA2026_tables.xlsx`, `TABLES.md`, cohort/case/pair/provenance audits, `paired_tests_48.csv`, and `manifest.json`. Rerunning overwrites these generated reports without modifying the source experiment artifacts. Existing `table_1.csv` and `paper_cell_comparison.csv` files are historical outputs; the script leaves them untouched and reports their presence. They are not outputs of the current workflow.
